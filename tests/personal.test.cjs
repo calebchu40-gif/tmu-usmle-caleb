@@ -118,3 +118,13 @@ test('reset waits for in-flight answers before clearing their records',async t=>
  assert.equal(w.Personal.pending('section.html').length,1);await finish();await pause();
  assert.equal(rows.study_records.length,0);assert.equal(w.Personal.pending('section.html').length,0);
 });
+test('HTML file list shows uploads and both deletion confirmations must pass',async t=>{
+ const {w,d,rows,click,submit}=await setup(t);w.location.hash='#/manage';await pause();
+ click('上传 HTML');await pause();await submit({title:'上传测试小节',category:'功能测试',html:read('tests/fixtures/上传测试小节.html')});
+ assert.equal(rows.study_pages.length,1);assert.match(d.querySelector('#personal').textContent,/已上传的 HTML 文件.*共 1 个文件/s);
+ assert.match(d.querySelector('.page-card').textContent,/功能测试\/上传测试小节.html/);assert.match(d.querySelector('.page-card').textContent,/包含 2 道题/);
+ let prompts=[];w.confirm=text=>{prompts.push(text);return false;};click('删除');await pause();assert.equal(prompts.length,1);assert.equal(rows.study_pages.length,1);
+ prompts=[];w.confirm=text=>{prompts.push(text);return prompts.length===1;};click('删除');await pause();assert.equal(prompts.length,2);assert.equal(rows.study_pages.length,1);assert.match(prompts[1],/功能测试\/上传测试小节.html/);
+ rows.study_records.push({id:'note',title:'保留的笔记',updated_at:'2026-01-01'});
+ w.confirm=()=>true;click('删除');await pause();assert.equal(rows.study_pages.length,0);assert.equal(rows.study_records.length,1);assert.match(d.querySelector('#personal').textContent,/共 0 个文件/);
+});

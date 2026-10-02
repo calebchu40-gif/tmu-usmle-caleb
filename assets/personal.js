@@ -184,15 +184,21 @@
     const toolbar = el('div', undefined, 'record-tools');
     const search = el('input'); search.type = 'search'; search.placeholder = '搜索分类或知识点'; search.setAttribute('aria-label','搜索私人 HTML');
     toolbar.append(search,button('上传 HTML', e => run(() => editPage(), e.target)), button('刷新', e => run(async () => { await refresh(); render(); }, e.target)));
-    const list = el('div', undefined, 'page-grid'); panel().append(toolbar, list);
+    const count = el('p', '', 'description'); count.setAttribute('role','status');
+    const list = el('div', undefined, 'page-grid'); panel().append(toolbar, el('h2','已上传的 HTML 文件'), count, list);
     const draw = () => {
       list.replaceChildren();
-      for (const row of pages.filter(p => `${p.title} ${p.category}`.toLowerCase().includes(search.value.trim().toLowerCase()))) {
+      const filtered = pages.filter(p => `${p.title} ${p.category}`.toLowerCase().includes(search.value.trim().toLowerCase()));
+      count.textContent = `共 ${pages.length} 个文件${search.value.trim() ? `，匹配 ${filtered.length} 个` : ''}`;
+      for (const row of filtered) {
         const card = el('article', undefined, 'page-card');
-        card.append(el('p',row.category,'eyebrow'),el('h2',row.title),el('p',`${row.category}/${row.title}.html`,'filename'),el('p',`更新于 ${time(row.updated_at)}`,'filename'));
+        card.append(el('p',row.category,'eyebrow'),el('h2',row.title),el('p',`${row.category}/${row.title}.html`,'filename'),el('p',`上传于 ${time(row.created_at)} · 更新于 ${time(row.updated_at)}`,'filename'));
+        if (row.question_index?.length) card.append(el('p',`包含 ${row.question_index.length} 道题`,'description'));
         const actions = el('div',undefined,'actions');
         actions.append(link('打开',route(`私有/${row.id}`)),button('编辑',e => run(() => editPage(row),e.target)),button('下载',e=>run(async()=> { const page = await store.page(row.id); download(`${page.title}.html`, page.html, 'text/html'); },e.target)),button('删除',e=>run(async()=>{
-          if (!confirm(`删除私人页面「${row.title}」？已有学习记录会保留。`)) return;
+          const filename = `${row.category}/${row.title}.html`;
+          if (!confirm(`第 1 次确认：删除上传的 HTML 文件「${filename}」？只删除这个文件，其他 HTML 和已有学习记录会保留。`)) return;
+          if (!confirm(`第 2 次确认：永久删除「${filename}」？此操作无法恢复。如需保留文件，请取消并先下载备份。`)) return;
           await store.remove('study_pages','id',row.id,row.updated_at); await refresh(); render(); message('私人 HTML 已删除。');
         },e.target),'button danger'));
         card.append(actions);list.append(card);
