@@ -73,6 +73,11 @@
       if (error) throw error;
       return data;
     }
+    async clearLearningData() {
+      this.requireUser();
+      const {error} = await this.client.rpc('clear_study_learning_data');
+      if (error) throw error;
+    }
   }
   window.CloudStore = CloudStore;
   window.connectStudyCloud = async () => {

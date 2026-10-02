@@ -11,7 +11,7 @@
   let publicCatalog = [];
   const guestRecords = new Map(), guestReceipts = new Set(), runtimeSections = new Map();
   const pending = new Map();
-  let writeChain = Promise.resolve();
+  let writeChain = Promise.resolve(), resetting = false;
   const changed = () => window.dispatchEvent(new Event('study-data-changed'));
   function message(text, retry = false) {
     document.getElementById('sync-message').textContent = text;
@@ -30,7 +30,7 @@
     finally { busy = false; if (trigger) trigger.disabled = false; }
   }
   async function refresh() {
-    if (!store?.user) return;
+    if (!store?.user || resetting) return;
     const epoch = revision;
     const result = await Promise.all([store.list('study_records'), store.list('study_pages', 'id,title,category,updated_at,created_at,question_index'), store.list('study_favorites')]);
     if (epoch !== revision || !store.user) return;
@@ -123,6 +123,23 @@
       await store.logout(); clearPrivate(); render(); message('已退出，当前页面的私人数据已清除。');
     }, e.target)));
     panel().append(actions, el('p', '私人记录和上传的 HTML 仅此账号可访问。原 GitHub 页面仍为公开内容。', 'description'));
+    const reset = el('section', undefined, 'reset-learning');
+    reset.append(el('h2', '清除学习数据'), el('p', '清空全部页面收藏、题目复习标记、学习记录（含笔记）、答题结果及累计正确 / 错误次数。上传的 HTML 文件和账号保留。此操作不可恢复，需要连续确认两次。', 'description'), button('清除全部学习数据', e => run(clearLearningData, e.target), 'button danger'));
+    panel().append(reset);
+  }
+  async function clearLearningData() {
+    if (!confirm('第 1 次确认：清除全部页面收藏、题目标记、学习记录（含笔记）和答题历史？上传的 HTML 文件会保留。')) return;
+    if (!confirm('第 2 次确认：这些学习数据将永久清除，无法恢复。所有题目会回到未做状态，正确 / 错误次数归零。确定立即清除？')) return;
+    resetting = true;
+    try {
+      // Let already-started saves finish before the atomic database reset.
+      await writeChain;
+      await store.clearLearningData();
+      revision++; records = []; favoritePaths = []; pending.clear();
+      guestRecords.clear(); guestReceipts.clear(); editing = false;
+      try { localStorage.removeItem(`tmu-page-favorites:${location.pathname}`); } catch { /* Cloud reset still succeeded. */ }
+      changed(); render(); message('全部学习数据已清除。上传的 HTML 文件已保留，可以重新开始练习。');
+    } finally { resetting = false; }
   }
   function clearPrivate() {
     revision++; records = []; pages = []; favoritePaths = []; pending.clear(); editing = false;
@@ -283,6 +300,7 @@
     async html(page) { return (await store.page(page.id)).html; },
     state(path) { return currentRecords().filter(r=>r.page_path===path && r.question_id).map(({question_id,selected,submitted,correct,marked,correct_count,wrong_count})=>({question_id,selected,submitted,correct,marked,correct_count,wrong_count})); },
     questionEvent(path,title,event) {
+      if(resetting)return;
       if(!validEvent(event)||typeof path!=='string'||path.length>500)return;
       const job={page_path:path,title:(typeof event.title==='string'&&event.title ? event.title : title).slice(0,200),event:{request_id:event.request_id,question_id:event.question_id,action:event.action,selected:event.selected,correct:event.correct,marked:event.marked}};
       if(!store?.user){
@@ -299,10 +317,15 @@
       message('正在保存学习记录…');writeChain=writeChain.then(()=>savePending(event.request_id));
     },
     async favorite(path, marked) {
-      if (!store?.user) return false;
-      if (marked) await store.save('study_favorites',{page_path:path},{conflict:'user_id,page_path'});
-      else await store.remove('study_favorites','page_path',path);
-      favoritePaths = favoritePaths.filter(p=>p!==path); if(marked)favoritePaths.push(path); changed(); return true;
+      if (!store?.user || resetting) return false;
+      const epoch=revision;
+      const task=writeChain.then(async()=>{
+        if (marked) await store.save('study_favorites',{page_path:path},{conflict:'user_id,page_path'});
+        else await store.remove('study_favorites','page_path',path);
+        if(epoch!==revision)return false;
+        favoritePaths = favoritePaths.filter(p=>p!==path); if(marked)favoritePaths.push(path); changed(); return true;
+      });
+      writeChain=task.catch(()=>{}); return task;
     },
     saveAnswer(path,title,data) {
       // Legacy single-question HTML support; unchanged answers used to mean a mark toggle.
@@ -313,7 +336,7 @@
     }
   };
   window.Personal = api;
-  document.getElementById('retry-sync').onclick = () => { for(const key of pending.keys()) writeChain=writeChain.then(()=>savePending(key)); };
+  document.getElementById('retry-sync').onclick = () => { if(resetting)return; for(const key of pending.keys()) writeChain=writeChain.then(()=>savePending(key)); };
   window.addEventListener('beforeunload',e=>{if(pending.size || editing){e.preventDefault();e.returnValue='';}});
   document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible' && store?.user && !editing && !busy && !pending.size) refresh().catch(e=>message(errorText(e))); });
   (async()=>{

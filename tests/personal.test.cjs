@@ -17,6 +17,7 @@ async function setup(t,{user=true,failSave=false}={}) {
       if(!row){row={id:w.crypto.randomUUID(),page_path:path,question_id:event.question_id,title,note:'',selected:null,submitted:false,correct:null,marked:false,correct_count:0,wrong_count:0,updated_at:new Date().toISOString()};rows.study_records.push(row);}
       if(!receipts.has(event.request_id)){if(event.action==='mark')row.marked=event.marked;else{row.selected=event.selected;row.correct=event.correct;row.submitted=true;row[event.correct?'correct_count':'wrong_count']++;}receipts.add(event.request_id);}return {...row};
     },
+    clearLearningData:async()=>{if(failSave)throw Error('network error');rows.study_records=[];rows.study_favorites=[];},
     remove:async(table,key,value)=>{rows[table]=rows[table].filter(r=>r[key]!==value);},
     page:async id=>rows.study_pages.find(r=>r.id===id),
     logout:async()=>{client.user=null;}, login:async()=>{client.user={id:'owner',email:'owner@example.test'};return client.user;}};
@@ -87,4 +88,33 @@ test('cloud events preserve every submission and duplicate retries do not increm
  w.Personal.questionEvent('test.html','q1',event);w.Personal.questionEvent('test.html','q1',event);await pause();
  w.Personal.questionEvent('test.html','q1',{...event,request_id:w.crypto.randomUUID(),selected:0,correct:true});await pause();
  assert.equal(rows.study_records[0].correct_count,1);assert.equal(rows.study_records[0].wrong_count,1);assert.equal(rows.study_records[0].correct,true);
+});
+test('reset requires two confirmations and preserves HTML while clearing all learning state',async t=>{
+ const {w,d,rows,click}=await setup(t);
+ rows.study_pages.push({id:'keep',title:'Keep HTML',category:'Test',html:'<h1>Keep</h1>',updated_at:'2026-01-01',question_index:[{id:'q1',title:'Question'}]});
+ w.Personal.questionEvent('私有/keep','Question',{question_id:'q1',request_id:w.crypto.randomUUID(),action:'attempt',selected:0,correct:true});await pause();
+ await w.Personal.favorite('私有/keep',true);await w.Personal.refresh();
+ w.location.hash='#/account';await pause();
+ let calls=0;w.confirm=()=>{calls++;return false;};click('清除全部学习数据');await pause();
+ assert.equal(calls,1);assert.equal(rows.study_records.length,1);
+ calls=0;w.confirm=()=>++calls===1;click('清除全部学习数据');await pause();
+ assert.equal(calls,2);assert.equal(rows.study_records.length,1);assert.equal(rows.study_favorites.length,1);
+ calls=0;w.confirm=()=>{calls++;return true;};click('清除全部学习数据');await pause();
+ assert.equal(calls,2);assert.equal(rows.study_records.length,0);assert.equal(rows.study_favorites.length,0);assert.equal(rows.study_pages[0].html,'<h1>Keep</h1>');
+ assert.equal(w.Personal.state('私有/keep').length,0);assert.equal(w.Personal.favorites.length,0);assert.equal(w.Personal.pages.length,1);assert.equal(w.Personal.reviewQuestions()[0].submitted,undefined);
+ assert.match(d.querySelector('#sync-message').textContent,/已清除.*HTML/);
+});
+test('reset failure retains records and HTML and allows retry',async t=>{
+ const {w,d,rows,click}=await setup(t,{failSave:true});
+ rows.study_records.push({id:'keep',title:'Keep',note:'note',updated_at:'2026-01-01'});await w.Personal.refresh();
+ w.location.hash='#/account';await pause();const b=click('清除全部学习数据');await pause();
+ assert.equal(rows.study_records.length,1);assert.equal(b.disabled,false);assert.match(d.querySelector('#sync-message').textContent,/网络/);
+});
+test('reset waits for in-flight answers before clearing their records',async t=>{
+ const {w,rows,client,click}=await setup(t);let finish;
+ const original=client.questionEvent;client.questionEvent=(...args)=>new Promise(resolve=>{finish=async()=>resolve(await original(...args));});
+ w.Personal.questionEvent('section.html','Question',{question_id:'q1',request_id:w.crypto.randomUUID(),action:'attempt',selected:0,correct:true});await pause();
+ w.location.hash='#/account';await pause();click('清除全部学习数据');await pause();
+ assert.equal(w.Personal.pending('section.html').length,1);await finish();await pause();
+ assert.equal(rows.study_records.length,0);assert.equal(w.Personal.pending('section.html').length,0);
 });

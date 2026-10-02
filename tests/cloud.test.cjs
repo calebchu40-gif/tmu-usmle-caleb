@@ -32,3 +32,9 @@ test('question event uses a singular RPC result and includes the stable request 
  const row=await store.questionEvent('section.html','Question',event);
  assert.equal(args.name,'study_question_event');assert.equal(args.params.p_event,event.request_id);assert.equal(row.correct_count,2);
 });
+test('reset uses authenticated atomic RPC and propagates errors',async t=>{
+ const {store,client}=setup(t);let calls=0;
+ client.rpc=async name=>{calls++;assert.equal(name,'clear_study_learning_data');return {error:{message:'reset denied'}};};
+ await assert.rejects(()=>store.clearLearningData(),/请先登录/);assert.equal(calls,0);
+ store.user={id:'owner'};await assert.rejects(()=>store.clearLearningData(),e=>e.message==='reset denied');assert.equal(calls,1);
+});
