@@ -3,78 +3,250 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#102b46">
-  <script>if(new URLSearchParams(location.search).get('embedded')==='1')document.documentElement.classList.add('embedded');</script>
-  <style>html.embedded .sidebar,html.embedded .topbar{display:none}html.embedded .app{display:block}html.embedded .workspace{max-width:1200px;padding-top:22px}html.embedded .rationale-item{grid-template-columns:minmax(100px,140px) minmax(0,1fr)}html.embedded .rationale-letter{overflow-wrap:anywhere}@media(max-width:600px){html.embedded .rationale-item{grid-template-columns:1fr}}</style>
-  <title>细胞周期与遗传信息</title>
-  <style>
-    :root{--navy:#102b46;--ink:#172b3d;--muted:#718194;--line:#e2e9ef;--paper:#fff;--canvas:#f3f6f8;--teal:#087f8c;--green:#16845b;--red:#b44742;--shadow:0 12px 32px rgba(16,43,70,.07);font-family:"Segoe UI","Microsoft YaHei UI",sans-serif;color-scheme:light}
-    *{box-sizing:border-box}body{margin:0;background:var(--canvas);color:var(--ink);min-height:100vh}button{font:inherit}.app{min-height:100vh;display:grid;grid-template-columns:245px minmax(0,1fr)}
-    .sidebar{background:var(--navy);color:#e7f0f7;padding:24px 17px;display:flex;flex-direction:column}.brand{display:flex;gap:11px;align-items:center;padding:4px 9px 28px}.mark{height:35px;width:35px;display:grid;place-items:center;border:1px solid #5b9fa5;border-radius:10px;color:#9ee4df;font-weight:700}.brand b{display:block}.brand small{color:#9ab0c3;font-size:10px}.nav-label{color:#8da4b8;font-size:10px;letter-spacing:.12em;padding:0 11px;margin:10px 0}.nav-item,.tree button{border:0;background:transparent;color:#d2dfeb;width:100%;text-align:left;border-radius:8px;padding:10px 11px;cursor:pointer}.nav-item.active,.tree button.active{background:#214666;color:#fff}.tree{border-left:1px solid #496177;margin:8px 0 12px 18px;padding-left:10px}.tree button{font-size:12px;padding:9px}.tree button.active{color:#9ee4df;background:rgba(14,145,153,.18)}.nav-spacer{flex:1}.privacy{border:1px solid rgba(190,215,233,.2);border-radius:9px;padding:12px;color:#bfd0dd;font-size:11px;line-height:1.6}.privacy b{display:block;color:#fff;margin-bottom:3px}
-    main{min-width:0}.topbar{height:64px;background:#ffffffeb;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 30px;color:var(--muted);font-size:12px}.lock{color:var(--teal);margin-right:7px}.workspace{max-width:1120px;margin:auto;padding:30px 32px 50px}.pagehead{display:flex;justify-content:space-between;align-items:end;gap:15px;margin:4px 0 22px}.eyebrow{color:var(--teal);font-size:10px;letter-spacing:.13em;font-weight:700}h1{font-size:28px;margin:7px 0 5px}.subtitle{color:var(--muted);font-size:13px}.chip{border:1px solid var(--line);padding:9px 12px;border-radius:8px;background:white;color:#52687c;font-size:11px;white-space:nowrap}
-    .layout{display:grid;grid-template-columns:minmax(0,1fr) 255px;gap:18px;align-items:start}.card{background:var(--paper);border:1px solid var(--line);border-radius:13px;box-shadow:var(--shadow);overflow:hidden}.toolbar{padding:16px 21px;border-bottom:1px solid #edf1f4;color:var(--muted);font-size:11px;display:flex;justify-content:space-between}.toolbar strong{color:var(--ink);font-size:13px}.qbody{padding:23px}.tags{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:15px}.tag{background:#edf4f7;color:#476477;border-radius:99px;padding:5px 9px;font-size:10px}.tag:first-child{background:#e7f5f5;color:#08717a}.stem{font-size:16px;line-height:1.75;margin:0 0 18px;color:#25394b}.choices{display:grid;gap:9px}.choice{display:flex;align-items:flex-start;gap:11px;text-align:left;background:#fff;color:#34495c;border:1px solid #dfe7ed;border-radius:9px;padding:11px 13px;cursor:pointer;line-height:1.5;font-size:13px}.choice:hover{border-color:#80b9bd}.choice.selected{background:#f0f9f9;border-color:var(--teal)}.choice.correct{background:#eaf7f0;border-color:#66b58f}.choice.wrong{background:#fff0ed;border-color:#d98b81}.letter{flex:none;width:24px;height:24px;border:1px solid #ccd8e1;border-radius:50%;display:grid;place-items:center;color:#72869a;font-size:10px;font-weight:700}.footer{padding:15px 21px;border-top:1px solid #edf1f4;display:flex;align-items:center;justify-content:space-between;gap:10px;color:#8997a5;font-size:11px}.btn{border:1px solid #d7e1e8;background:white;color:#52687c;padding:9px 14px;border-radius:8px;font-size:12px;font-weight:650;cursor:pointer}.btn.primary{background:var(--teal);border-color:var(--teal);color:white}.btn:disabled{opacity:.45;cursor:not-allowed}.explanation{display:none;padding:19px 22px;background:linear-gradient(180deg,#f2fbf7,#fff);border-top:1px solid #d7ece6}.explanation.visible{display:block}.result{font-weight:700;margin-bottom:8px}.result.good{color:var(--green)}.result.bad{color:var(--red)}.exp-title{font-size:12px;color:#284a42;margin:15px 0 8px}.exp-list{display:grid;gap:7px}.exp-row{padding:9px 11px;border:1px solid #e1ece8;border-radius:8px;background:#ffffffc9;font-size:12px;line-height:1.6}.exp-row b{margin-right:5px}.exp-row.right{border-color:#9acdb5;background:#edf8f2}.point{border-top:1px solid #dceee7;margin-top:13px;padding-top:11px;color:#507267;font-size:11px;line-height:1.6}.side{display:grid;gap:12px}.sidecard{background:white;border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:0 5px 17px #102b460a}.sidecard h2{font-size:12px;margin:0 0 12px}.metric{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:11px}.metric strong{font-size:18px;color:var(--ink)}.track{height:6px;background:#e7edf1;border-radius:8px;margin:10px 0;overflow:hidden}.fill{height:100%;width:0;background:var(--teal);transition:width .2s}.path{font-size:11px;color:#52697d;line-height:1.9}.note{font-size:11px;line-height:1.6;color:#526c72;background:#edf7f7;border-color:#d4eaea}.mobile{display:none}
-    @media(max-width:900px){.layout{grid-template-columns:1fr}.side{grid-template-columns:repeat(2,minmax(0,1fr))}.note{grid-column:1/-1}}
-    @media(max-width:650px){.app{display:block}.sidebar{display:none}.topbar{height:55px;padding:0 15px}.workspace{padding:21px 13px 30px}.pagehead{display:block}.chip{display:inline-block;margin-top:12px}h1{font-size:24px}.qbody{padding:17px 14px}.stem{font-size:15px}.footer{align-items:flex-start;flex-direction:column;padding:14px}.side{gap:9px}.sidecard{padding:13px}}
-  </style>
+  <title>基础科学 · 细胞生物学</title>
+  <style>:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;color:#22394d;background:#f3f6f9;--teal:#078898;--muted:#7a8fa2;--line:#e0e9f0;--good:#158364;--bad:#bb5454}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button{cursor:pointer}button:disabled{cursor:default;opacity:.5}[hidden]{display:none!important}:focus-visible{outline:3px solid #59b8c4;outline-offset:3px}button,a{-webkit-tap-highlight-color:transparent}.quiz-shell{height:100dvh;display:flex;flex-direction:column;max-width:1600px;margin:auto;padding:22px 24px 24px;gap:17px}.section-head{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-shrink:0}.eyebrow{font-size:11px;letter-spacing:.1em;font-weight:700;color:var(--teal);margin:0 0 6px}.section-head h1{font-size:23px;margin:0 0 6px;line-height:1.35}.section-description,.mode-note{font-size:12px;color:var(--muted);line-height:1.7;margin:0}.mode-note{max-width:280px;text-align:right}.quiz-columns{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:22px;min-height:0;flex:1;align-items:start}.question-scroll{height:100%;min-width:0;overflow-y:auto;overscroll-behavior-y:contain;scrollbar-gutter:stable;padding:0 5px 16px 0;scroll-behavior:smooth}.question-card{border:1px solid var(--line);border-radius:15px;background:white;box-shadow:0 6px 20px #102b4605;margin-bottom:22px;overflow:hidden;scroll-margin-top:4px}.question-card:target,.question-card.focused{outline:2px solid #62b5c0;outline-offset:-2px}.question-toolbar{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:20px 23px;border-bottom:1px solid #e8eef3;color:var(--muted);font-size:12px}.question-number{white-space:nowrap;padding-top:3px}.question-number b{color:#253b4f;font-size:15px}.question-tools{display:flex;gap:13px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.history{font-size:11px;display:flex;gap:7px;align-items:center;white-space:nowrap}.history .right{color:var(--good)}.history .wrong{color:var(--bad)}.mark-button{border:0;background:transparent;color:#71869b;padding:2px;font-size:12px;white-space:nowrap}.mark-button[aria-pressed=true]{color:#a46d18}.question-body{padding:23px}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:18px}.tag{border-radius:20px;background:#edf4f7;color:#638193;padding:5px 10px;font-size:11px}.tag:first-child{background:#e6f5f5;color:#17858e}.question-title{font-size:14px;font-weight:600;margin:0 0 13px;color:#6a8094}.stem{font-size:17px;line-height:1.8;margin:0 0 23px;white-space:pre-wrap;overflow-wrap:anywhere}.choices{display:grid;gap:10px}.choice{display:flex;align-items:flex-start;gap:13px;text-align:left;padding:15px 16px;border:1px solid #dbe5ed;border-radius:10px;background:white;color:#3b5367;font-size:14px;line-height:1.5}.letter{width:25px;height:25px;display:grid;place-items:center;border:1px solid #cadbe6;border-radius:50%;flex:none;font-size:11px;color:#7890a7;font-weight:600}.choice.selected{background:#f0f9fa;border-color:#209bab;box-shadow:0 0 0 1px #209bab20}.choice.selected .letter{color:var(--teal);border-color:var(--teal)}.choice.correct{border-color:#62ad96;background:#edf9f4}.choice.incorrect{border-color:#d59b9b;background:#fff4f3}.choice:disabled{opacity:1}.question-footer{border-top:1px solid #e9eef3;padding:17px 23px;display:flex;justify-content:space-between;gap:12px;align-items:center}.answer-status{font-size:12px;line-height:1.6;color:var(--muted)}.answer-status.error{color:var(--bad)}.answer-actions{display:flex;flex-shrink:0;gap:8px}.btn{border:1px solid #dbe6ed;border-radius:8px;padding:10px 14px;font-size:12px;background:white;color:#547086}.btn.primary{border-color:var(--teal);background:var(--teal);color:white;font-weight:600}.explanation{padding:22px 23px;border-top:1px solid #e5eef1;background:#fcfefe;font-size:14px;line-height:1.8}.result{font-weight:700;margin:0 0 12px;color:var(--good)}.result.bad{color:var(--bad)}.explanation h3{font-size:14px;margin:20px 0 10px}.rationale{display:grid;gap:10px}.rationale p{margin:0;border-left:3px solid #e3ebef;padding:5px 12px;color:#617889}.rationale p.is-correct{border-color:#56ac94;background:#f0f9f5}.rationale strong{display:block;color:#324c60}.point,.clinical-note{border-radius:9px;background:#eaf5f6;padding:13px 15px;margin-top:16px;font-size:12px}.clinical-note{background:#f4f7fa;color:#667f92}.references{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;margin-top:12px}.references a{color:var(--teal)}.section-sidebar{height:100%;overflow-y:auto;overscroll-behavior-y:contain;display:flex;flex-direction:column;gap:16px;scrollbar-width:thin}.side-card{background:white;border:1px solid var(--line);border-radius:14px;padding:21px 20px;box-shadow:0 6px 20px #102b4605}.side-card h2{font-size:14px;margin:0 0 18px}.progress-row{display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:12px}.progress-row strong{font-size:20px;color:#263e53}.progress-track{height:6px;background:#e8eef2;border-radius:5px;margin:12px 0;overflow:hidden}.progress-fill{height:100%;width:0;background:var(--teal);transition:width .2s}.side-note{color:var(--muted);font-size:11px;line-height:1.7;margin:8px 0 0}.path{list-style:none;padding:0;margin:0;color:#6b859b;font-size:12px;line-height:1.9}.path li:first-child{color:#3f8190}.path li+li{padding-left:15px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:9px}.stat{padding:13px;border-radius:9px;background:#f4f7f9}.stat b{font-size:21px;display:block;margin-bottom:6px}.stat span{font-size:11px;color:var(--muted)}.question-map{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}.question-map button{border:1px solid #dce5ec;border-radius:7px;background:#f5f8fa;color:#71889b;height:32px;font-size:11px;position:relative}.question-map button[data-state=correct]{background:#e5f5ee;border-color:#a8d7c5;color:var(--good)}.question-map button[data-state=wrong]{background:#fcf0ee;border-color:#e8c0bb;color:var(--bad)}.question-map button.marked::after{content:'★';position:absolute;right:0;top:-7px;color:#b78221;font-size:10px}.review-link{width:100%;margin-top:13px}.info-card{background:#ecf7f8;border-color:#cce8eb}.template-error{padding:30px;font-size:16px;line-height:1.8;color:#a13939}
+@media(max-width:1000px){.quiz-shell{padding:17px 14px;gap:13px}.quiz-columns{grid-template-columns:minmax(0,1fr) 225px;gap:14px}.question-toolbar,.question-body,.question-footer,.explanation{padding:18px}.side-card{padding:17px 15px}.history{font-size:10px;gap:5px}.question-tools{gap:9px}.stem{font-size:15px}.section-head h1{font-size:20px}.mode-note{max-width:220px}}
+@media(max-width:700px){.quiz-shell{padding:12px 10px;gap:10px}.section-head{align-items:flex-start}.section-head h1{font-size:17px}.section-description{display:none}.mode-note{max-width:150px;font-size:10px}.quiz-columns{display:flex;flex-direction:column;gap:10px}.section-sidebar{height:auto;overflow:visible;order:-1;width:100%;flex:none;display:block}.section-sidebar .side-card{display:none}.section-sidebar .mobile-summary{display:block;padding:11px 13px}.mobile-summary h2,.mobile-summary .side-note{display:none}.stats{grid-template-columns:1fr 1fr}.stat{padding:3px 8px;background:transparent;display:flex;align-items:center;gap:10px}.stat b{font-size:18px;margin:0}.question-scroll{flex:1;width:100%;padding-right:0}.question-toolbar{padding:13px;flex-wrap:wrap;gap:8px}.question-tools{flex:1}.question-body,.question-footer,.explanation{padding:15px}.question-footer{align-items:flex-start}.answer-actions{flex-wrap:wrap;justify-content:flex-end}.btn{padding:9px 12px}.choice{padding:12px;font-size:13px}.stem{font-size:15px}.history{font-size:10px}.question-card{margin-bottom:15px}.section-head .eyebrow{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.question-scroll{scroll-behavior:auto}.progress-fill{transition:none}}
+</style>
 </head>
 <body>
-  <div class="app">
-    <aside class="sidebar">
-      <div class="brand"><div class="mark">Q</div><div><b>Step 1 题库</b><small>PUBLIC DEMO WORKSPACE</small></div></div>
-      <div class="nav-label">学习工作台</div><button class="nav-item">⌂　总览</button><button class="nav-item active">▤　按知识点练习</button><button class="nav-item">⚑　待复习</button>
-      <div class="nav-label">题库分类 · 演示</div><button class="nav-item active">＋　基础科学</button><div class="tree"><button class="active">全部演示题　　1</button><button>细胞生物学　　1</button></div><button class="nav-item">＋　其他学科</button>
-      <div class="nav-spacer"></div><div class="privacy"><b>公开演示版</b>目前用于检查题库界面与答题流程。<br><a href="../生物化学/新生儿黄疸与核黄素.html" style="color:#9ee4df">← 返回学习工作台</a></div>
+<!-- 只需编辑下方 quiz-data 内的 JSON。复制 questions 内的一项即可增加题目。
+     每个文件是一个小节；题目 id 应稳定且唯一；answer 从 0 开始。
+     不要修改下面的布局和脚本。文本中的小于号请写成 JSON 转义 \u003c。 -->
+<script id="quiz-data" type="application/json">
+{
+  "version": 2,
+  "id": "basic-science-cell-biology",
+  "category": "基础科学",
+  "section": "细胞生物学",
+  "description": "从细胞周期到遗传信息传递，逐题巩固核心概念。",
+  "questions": [
+    {
+      "id": "cell-cycle-dna-replication",
+      "title": "细胞周期与遗传信息",
+      "stem": "在细胞进入有丝分裂之前，S 期中最直接确保每个子细胞都能获得完整遗传信息的过程是什么？",
+      "options": [
+        "DNA replication",
+        "Transcription of messenger RNA",
+        "Translation of proteins",
+        "Repair of damaged DNA"
+      ],
+      "answer": 0,
+      "explanation": "S 期中细胞复制 DNA，使遗传信息能在细胞分裂后传递给子细胞。",
+      "optionExplanations": [
+        "DNA replication 在 S 期复制基因组 DNA，为随后细胞分裂准备遗传物质。",
+        "转录把 DNA 信息拷贝成 RNA，不会复制整套基因组。",
+        "翻译利用 mRNA 合成蛋白质，不是遗传物质的复制过程。",
+        "DNA 修复纠正特定损伤，不等同于细胞周期中的全基因组复制。"
+      ],
+      "point": "区分 replication（复制 DNA）、transcription（转录 RNA）和 translation（翻译蛋白质）。"
+    },
+    {
+      "id": "cell-biology-transcription",
+      "title": "转录的产物",
+      "stem": "以 DNA 为模板生成 RNA 的过程称为什么？",
+      "options": [
+        "Translation",
+        "Transcription",
+        "DNA replication",
+        "Mitosis"
+      ],
+      "answer": 1,
+      "explanation": "转录（transcription）将 DNA 中的信息转写为 RNA。",
+      "optionExplanations": [
+        "翻译以 mRNA 的信息合成蛋白质。",
+        "转录以 DNA 为模板合成 RNA。",
+        "DNA 复制生成 DNA。",
+        "有丝分裂将复制后的遗传物质分配给子细胞。"
+      ],
+      "point": "DNA → RNA：转录。"
+    },
+    {
+      "id": "cell-biology-translation",
+      "title": "翻译的模板",
+      "stem": "细胞进行翻译（translation）时，直接读取哪一种分子上的编码信息来合成蛋白质？",
+      "options": [
+        "基因组 DNA",
+        "脂质",
+        "mRNA",
+        "胶原蛋白"
+      ],
+      "answer": 2,
+      "explanation": "翻译利用 mRNA 上的编码信息合成蛋白质。",
+      "optionExplanations": [
+        "DNA 中的信息先通过转录进入 RNA。",
+        "脂质不作为翻译的编码模板。",
+        "mRNA 是翻译时直接读取的编码模板。",
+        "蛋白质不是翻译的编码模板。"
+      ],
+      "point": "mRNA → 蛋白质：翻译。"
+    },
+    {
+      "id": "cell-biology-dna-repair",
+      "title": "DNA 修复与复制",
+      "stem": "纠正 DNA 的特定损伤，而非复制整套基因组的过程是下列哪一项？",
+      "options": [
+        "DNA replication",
+        "Translation",
+        "Transcription",
+        "DNA repair"
+      ],
+      "answer": 3,
+      "explanation": "DNA 修复针对损伤进行纠正；全基因组复制则为细胞分裂准备遗传物质。",
+      "optionExplanations": [
+        "复制的目标是产生基因组副本。",
+        "翻译合成蛋白质。",
+        "转录合成 RNA。",
+        "DNA 修复纠正 DNA 损伤。"
+      ],
+      "point": "根据过程的目的区分复制和修复。"
+    }
+  ]
+}
+</script>
+<div class="quiz-shell">
+  <header class="section-head"><div><p id="section-category" class="eyebrow"></p><h1 id="section-title"></h1><p id="section-description" class="section-description"></p></div><div><p id="mode-note" class="mode-note" role="status"></p><button id="connect-retry" class="btn" hidden>重试连接</button></div></header>
+  <div class="quiz-columns">
+    <main id="question-list" class="question-scroll" aria-label="小节题目，可上下滚动" tabindex="0"></main>
+    <aside class="section-sidebar" aria-label="小节进度与复习">
+      <section class="side-card"><h2>本组进度</h2><div class="progress-row"><span>已完成</span><strong><span id="done-count">0</span> / <span id="total-count">0</span></strong></div><div class="progress-track"><div id="progress-fill" class="progress-fill"></div></div><p class="side-note">按已提交过的题目计数。每题独立提交。</p></section>
+      <section class="side-card"><h2>知识点路径</h2><ul id="knowledge-path" class="path"></ul></section>
+      <section class="side-card mobile-summary"><h2>练习记录</h2><div class="stats"><div class="stat"><b id="correct-count">0</b><span>答对</span></div><div class="stat"><b id="review-count">0</b><span>待复习</span></div></div><p class="side-note">以最后一次答题状态为准。<br>待复习 = 未做 + 最后一次答错。</p></section>
+      <section class="side-card"><h2>题目导航</h2><nav id="question-map" class="question-map" aria-label="跳转到题目"></nav><p class="side-note">绿色：答对 · 红色：错误 · 灰色：未做</p><button id="review-link" class="btn review-link">查看标记复习（<span id="marked-count">0</span>）</button></section>
+      <section class="side-card info-card"><h2>解析结构</h2><p class="side-note">提交本题后查看答案依据和逐项解析。点击「再做一次」可重新作答；右上角保留累计正确与错误次数。</p></section>
     </aside>
-    <main>
-      <header class="topbar"><span>题库　/　基础科学　/　<b>细胞生物学</b></span><span><span class="lock">▣</span>公开演示</span></header>
-      <section class="workspace">
-        <div class="pagehead"><div><div class="eyebrow">知识点练习 · 演示</div><h1>细胞周期与遗传信息</h1><div class="subtitle">答题后查看正确思路、每个选项的解释和考点总结。</div></div><div class="chip">●　练习模式 · 即时反馈</div></div>
-        <div class="layout">
-          <section class="card" aria-label="练习题">
-            <div class="toolbar"><span>演示题 <strong>01</strong>　/ 01</span><span>◇　标记复习</span></div>
-            <div class="qbody"><div class="tags"><span class="tag">基础科学</span><span class="tag">细胞生物学</span><span class="tag">界面演示内容</span></div>
-              <p class="stem">在细胞进入有丝分裂之前，S 期中最直接确保每个子细胞都能获得完整遗传信息的过程是什么？</p>
-              <div class="choices" id="choices" role="radiogroup" aria-label="答案选项"></div>
-            </div>
-            <div class="footer"><span id="hint">请选择一个最合适的答案。</span><button class="btn primary" id="submit" disabled>提交答案</button></div>
-            <div class="explanation" id="explanation" aria-live="polite"></div>
-          </section>
-          <aside class="side">
-            <section class="sidecard"><h2>本组进度</h2><div class="metric"><span>已完成</span><strong id="done">0 / 1</strong></div><div class="track"><div class="fill" id="fill"></div></div><span class="subtitle">登录工作台后，答题记录自动保存。</span></section>
-            <section class="sidecard"><h2>知识点路径</h2><div class="path">基础科学<br>　└ 细胞生物学<br>　　 └ 细胞周期与遗传信息</div></section>
-            <section class="sidecard"><h2>练习记录</h2><div class="metric"><span>答对</span><strong id="correct">0</strong></div></section>
-            <section class="sidecard note"><h2>测试说明</h2>这是用于确认固定网址、公开访问和答题交互的演示版。实际题库与解析暂未上传。</section>
-          </aside>
-        </div>
-      </section>
-    </main>
   </div>
-  <script src="../assets/study-bridge.js"></script>
-  <script>
-    const items=[
-      {letter:"A",text:"DNA replication"},
-      {letter:"B",text:"Transcription of messenger RNA"},
-      {letter:"C",text:"Translation of proteins"},
-      {letter:"D",text:"Repair of damaged DNA"}
-    ];
-    const reasons=[
-      "正确。DNA replication 在 S 期复制基因组 DNA，为随后细胞分裂准备遗传物质。",
-      "转录把 DNA 信息拷贝成 RNA，不会复制整套基因组。",
-      "翻译利用 mRNA 合成蛋白质，不是遗传物质的复制过程。",
-      "DNA 修复纠正特定损伤，不等同于细胞周期中的全基因组复制。"
-    ];
-    let selected=-1,submitted=false,restoring=false;
-    const choices=document.getElementById("choices");
-    items.forEach((item,i)=>{const b=document.createElement("button");b.type="button";b.className="choice";b.setAttribute("role","radio");b.setAttribute("aria-checked","false");b.innerHTML=`<span class="letter">${item.letter}</span><span>${item.text}</span>`;b.addEventListener("click",()=>{if(submitted)return;selected=i;document.querySelectorAll(".choice").forEach((x,j)=>{x.classList.toggle("selected",j===i);x.setAttribute("aria-checked",String(j===i));});document.getElementById("submit").disabled=false;});choices.append(b);});
-    document.getElementById("submit").addEventListener("click",()=>{if(selected<0||submitted)return;submitted=true;const rows=document.querySelectorAll(".choice");rows.forEach((el,i)=>{if(i===0)el.classList.add("correct");else if(i===selected)el.classList.add("wrong");});const correct=selected===0;document.getElementById("hint").textContent=correct?"答对了。":"看看逐项解析，抓住考查机制。";document.getElementById("done").textContent="1 / 1";document.getElementById("correct").textContent=correct?"1":"0";document.getElementById("fill").style.width="100%";document.getElementById("submit").disabled=true;const box=document.getElementById("explanation");box.classList.add("visible");box.innerHTML=`<div class="result ${correct?"good":"bad"}">${correct?"✓ 回答正确":"× 回答错误 · 正确答案 A"}</div><p class="subtitle">S 期中细胞复制 DNA，使遗传信息能在细胞分裂后传递给子细胞。</p><h2 class="exp-title">选项逐项解析</h2><div class="exp-list">${items.map((x,i)=>`<div class="exp-row ${i===0?"right":""}"><b>${x.letter}. ${x.text}</b>${reasons[i]}</div>`).join("")}</div><div class="point"><b>考点：</b>区分 replication（复制 DNA）、transcription（转录 RNA）和 translation（翻译蛋白质）。</div>`;if(!restoring)window.StudyBridge?.save({question_id:"cell-cycle-dna-replication",selected,submitted:true,correct,marked:false});});
-    window.StudyBridge?.onRestore(records => {
-      const record=records.find(r=>r.question_id==="cell-cycle-dna-replication");
-      if(!record?.submitted || !Number.isInteger(record.selected) || record.selected<0 || record.selected>=items.length)return;
-      restoring=true;
-      document.querySelectorAll(".choice")[record.selected].click();
-      document.getElementById("submit").click();
-      restoring=false;
+</div>
+<script>(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const node = (tag, text, cls) => { const n=document.createElement(tag); if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n; };
+  const button = (text, cls, click) => {const b=node('button',text,cls);b.type='button';b.onclick=click;return b;};
+  const letter = i => String.fromCharCode(65+i);
+  const embedded = parent !== window;
+  let config;
+  try {
+    config=JSON.parse($('quiz-data').textContent);
+    const ids=new Set();
+    if(config.version!==2 || !config.id || !config.category || !config.section || !Array.isArray(config.questions) || !config.questions.length)throw Error('缺少小节信息或题目。');
+    for(const q of config.questions){
+      if(!/^[a-zA-Z0-9_-]{1,100}$/.test(q.id)||ids.has(q.id)||!q.title||!q.stem||!Array.isArray(q.options)||q.options.length<2||q.options.length>26||!q.options.every(x=>typeof x==='string')||!Number.isInteger(q.answer)||q.answer<0||q.answer>=q.options.length||!q.explanation||!Array.isArray(q.optionExplanations)||q.optionExplanations.length!==q.options.length)throw Error('题目字段不完整，或题目 ID 重复：'+(q.id||'未命名'));
+      ids.add(q.id);
+    }
+  }catch(error){document.body.replaceChildren(node('p','模板数据错误：'+error.message,'template-error'));return;}
+  const states=new Map(), drafts=new Map(), retrying=new Set(), pending=new Map(), feedback=new Map(), cards=new Map();
+  const empty = id => ({question_id:id,selected:null,submitted:false,correct:null,marked:false,correct_count:0,wrong_count:0});
+  let ready=!embedded, mode=embedded?'connecting':'local';
+  const storageKey=`tmu-section-v2:${config.id}`;
+  for(const q of config.questions)states.set(q.id,empty(q.id));
+  function restore(rows){
+    for(const q of config.questions){
+      const r=rows.find(x=>x.question_id===q.id);
+      if(!r){states.set(q.id,empty(q.id));continue;}
+      const submitted=Boolean(r.submitted)&&Number.isInteger(r.selected)&&r.selected>=0&&r.selected<q.options.length;
+      states.set(q.id,{...empty(q.id),...r,submitted,selected:submitted?r.selected:null,correct:submitted?r.correct===true:null,correct_count:Math.max(0,Number(r.correct_count)||0),wrong_count:Math.max(0,Number(r.wrong_count)||0)});
+    }
+  }
+  if(!embedded){try{const saved=JSON.parse(localStorage.getItem(storageKey)||'[]');if(Array.isArray(saved))restore(saved);}catch{/* Can still practice without local storage. */}}
+  document.title=`${config.category} · ${config.section}`;
+  $('section-category').textContent=config.category;$('section-title').textContent=config.section;$('section-description').textContent=config.description||'逐题提交，随时复习。';
+  $('knowledge-path').append(node('li',config.category),node('li',config.section));
+  function updateMode(){
+    $('mode-note').textContent=mode==='cloud'?'已登录 · 答题与标记保存到云端':mode==='session'?'未登录 · 仅本次窗口保留记录':mode==='local'?'独立打开 · 记录仅保存在本机浏览器':'正在恢复学习记录…';
+  }
+  function focusQuestion(id){
+    const card=cards.get(id);if(!card)return;
+    document.querySelectorAll('.question-card.focused').forEach(n=>n.classList.remove('focused'));
+    card.classList.add('focused');card.scrollIntoView?.({behavior:'smooth',block:'start'});card.focus({preventScroll:true});
+  }
+  function updateStats(){
+    const rows=[...states.values()],done=rows.filter(r=>r.submitted).length,correct=rows.filter(r=>r.submitted&&r.correct).length;
+    $('done-count').textContent=done;$('total-count').textContent=rows.length;$('correct-count').textContent=correct;$('review-count').textContent=rows.length-correct;
+    $('progress-fill').style.width=`${done/rows.length*100}%`;
+    $('question-map').replaceChildren();
+    config.questions.forEach((q,i)=>{
+      const state=states.get(q.id),b=button(String(i+1).padStart(2,'0'),state.marked?'marked':'',()=>focusQuestion(q.id));
+      b.dataset.state=state.submitted?(state.correct?'correct':'wrong'):'unanswered';b.setAttribute('aria-label',`第 ${i+1} 题 ${q.title} · ${state.submitted?(state.correct?'答对':'错误'):'未做'}${state.marked?' · 已标记':''}`);$('question-map').append(b);
     });
-  </script>
+    $('marked-count').textContent=rows.filter(r=>r.marked).length;
+  }
+  function renderCard(q,index){
+    const card=cards.get(q.id),s=states.get(q.id),edit=!s.submitted||retrying.has(q.id),job=pending.get(q.id),selection=drafts.has(q.id)?drafts.get(q.id):retrying.has(q.id)?null:s.selected;
+    card.replaceChildren();
+    const toolbar=node('div',undefined,'question-toolbar'),num=node('div',undefined,'question-number');num.append('练习题 ',node('b',String(index+1).padStart(2,'0')),` / ${String(config.questions.length).padStart(2,'0')}`);
+    const tools=node('div',undefined,'question-tools'),history=node('div',undefined,'history');history.append(node('span','答题历史'),node('span',`正确 ${s.correct_count} 次`,'right'),node('span',`错误 ${s.wrong_count} 次`,'wrong'));history.setAttribute('aria-label',`答题历史：正确 ${s.correct_count} 次，错误 ${s.wrong_count} 次`);
+    const mark=button(s.marked?'★ 已标记':'☆ 标记复习','mark-button',()=>send(q,{action:'mark',marked:!s.marked}));mark.setAttribute('aria-pressed',String(s.marked));mark.disabled=!ready||Boolean(job);tools.append(history,mark);toolbar.append(num,tools);
+    const body=node('div',undefined,'question-body'),tags=node('div',undefined,'tags');for(const tag of [config.category,config.section])tags.append(node('span',tag,'tag'));
+    body.append(tags,node('h2',q.title,'question-title'),node('p',q.stem,'stem'));
+    const choices=node('div',undefined,'choices');choices.setAttribute('role','radiogroup');choices.setAttribute('aria-label',`${q.title} 答案选项`);
+    q.options.forEach((text,i)=>{
+      const b=button('',`choice${selection===i?' selected':''}`,()=>{drafts.set(q.id,i);renderCard(q,index);cards.get(q.id).querySelectorAll('.choice')[i].focus();});
+      b.setAttribute('role','radio');b.setAttribute('aria-checked',String(selection===i));b.disabled=!ready||!edit||Boolean(job);
+      if(s.submitted&&!edit){if(i===q.answer)b.classList.add('correct');else if(i===s.selected)b.classList.add('incorrect');}
+      b.append(node('span',letter(i),'letter'),node('span',text));choices.append(b);
+    });body.append(choices);
+    const footer=node('div',undefined,'question-footer'),hint=node('span',undefined,'answer-status');hint.setAttribute('role','status');
+    if(job){hint.textContent=feedback.get(q.id)||'正在保存这一题…';if(job.failed)hint.classList.add('error');}
+    else if(feedback.has(q.id))hint.textContent=feedback.get(q.id);
+    else hint.textContent=!ready?'正在读取记录…':edit?'选择一个最合适的答案，再提交本题。':s.correct?'最后一次：答对':'最后一次：错误，待复习';
+    const actions=node('div',undefined,'answer-actions');
+    if(job?.failed)actions.append(button('重试保存','btn',()=>{job.failed=false;feedback.delete(q.id);post(job);renderCard(q,index);}));
+    if(s.submitted&&!edit)actions.append(button('再做一次','btn',()=>{retrying.add(q.id);drafts.delete(q.id);feedback.delete(q.id);renderCard(q,index);}));
+    const submit=button(edit?'提交本题':'已提交','btn primary',()=>send(q,{action:'attempt',selected:selection,correct:selection===q.answer}));submit.disabled=!ready||!edit||!Number.isInteger(selection)||Boolean(job);actions.append(submit);footer.append(hint,actions);card.append(toolbar,body,footer);
+    if(s.submitted&&!edit){
+      const exp=node('section',undefined,'explanation');exp.append(node('p',s.correct?'✓ 回答正确':`× 回答错误 · 正确答案 ${letter(q.answer)}`,`result${s.correct?'':' bad'}`),node('p',q.explanation),node('h3','选项逐项解析'));
+      const reasons=node('div',undefined,'rationale');q.options.forEach((o,i)=>{const p=node('p',undefined,i===q.answer?'is-correct':'');p.append(node('strong',`${letter(i)} · ${o}`),node('span',q.optionExplanations[i]));reasons.append(p);});exp.append(reasons);
+      if(q.point)exp.append(node('p',`考点：${q.point}`,'point'));if(q.clinicalNote)exp.append(node('p',q.clinicalNote,'clinical-note'));
+      const refs=node('div',undefined,'references');for(const ref of q.references||[]){if(!/^https:\/\//.test(ref.url))continue;const a=node('a',ref.label);a.href=ref.url;a.target='_blank';a.rel='noopener noreferrer';refs.append(a);}exp.append(refs);card.append(exp);
+    }
+  }
+  config.questions.forEach((q,i)=>{const card=node('article',undefined,'question-card');card.id=`question-${q.id}`;card.dataset.questionId=q.id;card.tabIndex=-1;cards.set(q.id,card);$('question-list').append(card);renderCard(q,i);});
+  function localEvent(q,event){
+    const state={...states.get(q.id)};
+    if(event.action==='mark')state.marked=event.marked;
+    else{state.selected=event.selected;state.correct=event.correct;state.submitted=true;state[event.correct?'correct_count':'wrong_count']++;}
+    return state;
+  }
+  function send(q,data){
+    if(pending.has(q.id)||!ready)return;
+    const event={...data,request_id:crypto.randomUUID(),question_id:q.id,title:q.title};
+    pending.set(q.id,event);feedback.delete(q.id);renderCard(q,config.questions.indexOf(q));
+    if(embedded)post(event);
+    else{
+      states.set(q.id,localEvent(q,event));pending.delete(q.id);if(event.action==='attempt'){retrying.delete(q.id);drafts.delete(q.id);}
+      try{localStorage.setItem(storageKey,JSON.stringify([...states.values()]));feedback.set(q.id,'已保存在本机浏览器。');}catch{feedback.set(q.id,'浏览器无法保存，当前仅保留本次练习。');}
+      renderCard(q,config.questions.indexOf(q));updateStats();
+    }
+  }
+  function post(event){parent.postMessage({channel:'tmu-study-v2',type:'question-event',event},'*');}
+  window.addEventListener('message',e=>{
+    if(e.source!==parent||e.data?.channel!=='tmu-study-v2')return;
+    const data=e.data;
+    if(data.type==='restore'){
+      ready=true;mode=data.signedIn?'cloud':'session';restore(Array.isArray(data.records)?data.records:[]);
+      for(const event of data.pending||[])if(states.has(event.question_id))pending.set(event.question_id,{...event,failed:true});
+      config.questions.forEach(renderCard);updateStats();updateMode();$('connect-retry').hidden=true;
+      if(data.focusQuestion)focusQuestion(data.focusQuestion);
+    }
+    if(data.type==='focus')focusQuestion(data.question_id);
+    if(data.type==='result'){
+      const q=config.questions.find(q=>q.id===data.question_id);if(!q)return;
+      const job=pending.get(q.id);
+      if(data.error){if(job&&job.request_id===data.request_id){job.failed=true;feedback.set(q.id,data.error);} }
+      else{
+        if(data.record)states.set(q.id,{...empty(q.id),...data.record});
+        if(job?.request_id===data.request_id){pending.delete(q.id);if(job.action==='attempt'){retrying.delete(q.id);drafts.delete(q.id);}feedback.set(q.id,data.saved?'已保存到云端。':'仅本次窗口保留；登录后可跨设备保存。');}
+      }
+      renderCard(q,config.questions.indexOf(q));updateStats();
+    }
+  });
+  const announce=()=>parent.postMessage({channel:'tmu-study-v2',type:'ready',section:{id:config.id,category:config.category,title:config.section,questions:config.questions.map(q=>({id:q.id,title:q.title}))}},'*');
+  $('connect-retry').onclick=announce;
+  $('review-link').onclick=()=>{if(embedded)parent.postMessage({channel:'tmu-study-v2',type:'review'},'*');else{const first=config.questions.find(q=>states.get(q.id).marked);if(first)focusQuestion(first.id);}};
+  updateMode();updateStats();
+  if(embedded){announce();setTimeout(()=>{if(!ready){$('mode-note').textContent='记录连接未完成，请点击重试。';$('connect-retry').hidden=false;}},8000);}
+})();
+</script>
 </body>
 </html>

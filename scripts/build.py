@@ -5,7 +5,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCLUDED_DIRS = {"dist", "node_modules", "scripts", "tests", "__pycache__", "supabase"}
+EXCLUDED_DIRS = {"dist", "node_modules", "scripts", "tests", "__pycache__", "supabase", "content", "templates"}
 EXCLUDED_FILES = {"site.config.json", "package.json", "package-lock.json", "README.md"}
 WEB_EXTENSIONS = {
     ".html", ".htm", ".css", ".js", ".mjs", ".json", ".map", ".svg", ".png",
@@ -20,18 +20,26 @@ class TitleParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.inside = False
         self.parts = []
+        self.quiz_parts = []
+        self.quiz_inside = False
 
     def handle_starttag(self, tag, attrs):
         if tag == "title":
             self.inside = True
+        if tag == "script" and dict(attrs).get("id") == "quiz-data":
+            self.quiz_inside = True
 
     def handle_endtag(self, tag):
         if tag == "title":
             self.inside = False
+        if tag == "script":
+            self.quiz_inside = False
 
     def handle_data(self, data):
         if self.inside:
             self.parts.append(data)
+        if self.quiz_inside:
+            self.quiz_parts.append(data)
 
 
 def public_files(root):
@@ -70,7 +78,18 @@ def build(root=ROOT):
         override = config.get("pages", {}).get(path, {})
         title = override.get("title") or " ".join("".join(parser.parts).split()) or source.stem
         category = override.get("category") or (relative.parent.as_posix() if relative.parent != Path(".") else "我的页面")
-        pages.append({"path": path, "title": title, "category": category})
+        page = {"path": path, "title": title, "category": category}
+        if parser.quiz_parts:
+            quiz = json.loads("".join(parser.quiz_parts))
+            if quiz.get("version") != 2 or not quiz.get("questions"):
+                raise ValueError(f"Invalid section template: {path}")
+            ids = [q["id"] for q in quiz["questions"]]
+            if len(ids) != len(set(ids)):
+                raise ValueError(f"Duplicate question IDs: {path}")
+            page["title"] = override.get("title") or quiz["section"]
+            page["category"] = override.get("category") or quiz["category"]
+            page["question_index"] = [{"id": q["id"], "title": q["title"]} for q in quiz["questions"]]
+        pages.append(page)
     pages.sort(key=lambda page: (page["category"].casefold(), page["path"].casefold()))
     default = config.get("defaultPage", "")
     if not any(page["path"] == default for page in pages):
@@ -86,6 +105,10 @@ def build(root=ROOT):
     if public_cloud["url"] and not public_cloud["url"].startswith("https://"):
         raise ValueError("Cloud URL must use HTTPS")
     (output / "assets/cloud-config.json").write_text(json.dumps(public_cloud) + "\n", encoding="utf-8")
+    template = root / "templates/小节题库模板.html"
+    if template.exists():
+        (output / "downloads").mkdir(exist_ok=True)
+        shutil.copyfile(template, output / "downloads/小节题库模板.html")
     (output / ".nojekyll").touch()
     return catalog
 

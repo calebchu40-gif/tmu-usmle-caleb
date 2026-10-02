@@ -54,6 +54,19 @@
       if (error) throw error;
       if (!data?.length && version) throw new Error('数据已变更，请刷新后再删除。');
     }
+    async questionEvent(path, title, event) {
+      this.requireUser();
+      const {data, error} = await this.client.rpc('study_question_event', {
+        p_page:path, p_question:event.question_id, p_title:title,
+        p_event:event.request_id, p_action:event.action,
+        p_selected:event.action === 'attempt' ? event.selected : null,
+        p_correct:event.action === 'attempt' ? event.correct : null,
+        p_marked:event.action === 'mark' ? event.marked : null
+      }).single();
+      if (error) throw error;
+      if (!data?.id) throw new Error('未收到云端保存结果，请重试。');
+      return data;
+    }
     async page(id) {
       this.requireUser();
       const {data, error} = await this.client.from('study_pages').select('*').eq('id', id).single();

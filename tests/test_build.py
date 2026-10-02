@@ -51,6 +51,17 @@ class BuildTests(unittest.TestCase):
         self.assertFalse((self.root / "dist/shortcut.html").exists())
         self.assertFalse((self.root / "dist/private.key").exists())
 
+    def test_section_index_and_template_download_are_separate(self):
+        quiz = {"version": 2, "section": "细胞生物学", "category": "基础科学", "questions": [{"id": "q1", "title": "题一"}, {"id": "q2", "title": "题二"}]}
+        self.write("基础科学/section.html", '<title>Old</title><script id="quiz-data" type="application/json">' + json.dumps(quiz) + '</script>')
+        self.write("templates/小节题库模板.html", "<title>Template</title>")
+        result = module.build(self.root)
+        self.assertEqual(len(result["pages"]), 1)
+        self.assertEqual(result["pages"][0]["title"], "细胞生物学")
+        self.assertEqual(len(result["pages"][0]["question_index"]), 2)
+        self.assertTrue((self.root/"dist/downloads/小节题库模板.html").exists())
+        self.assertFalse((self.root/"dist/templates").exists())
+
     def test_rebuild_removes_deleted_pages_and_empty_catalog(self):
         self.write("old.html", "<title>Old</title>")
         module.build(self.root)

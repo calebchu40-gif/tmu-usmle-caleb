@@ -7,10 +7,16 @@ const read = path => fs.readFileSync(path,'utf8');
 const pause = () => new Promise(r=>setTimeout(r,20));
 async function setup(t,{user=true,failSave=false}={}) {
   const dom = new JSDOM(html,{url:'https://example.test/repo/#/records',runScripts:'outside-only'});t.after(()=>dom.window.close());
-  const w=dom.window, d=w.document;
-  const rows={study_records:[],study_pages:[],study_favorites:[]};
+  const w=dom.window, d=w.document;const errors=[];w.addEventListener('error',e=>errors.push(e.error));t.after(()=>assert.deepEqual(errors,[]));
+  const rows={study_records:[],study_pages:[],study_favorites:[]};const receipts=new Set();
   const client={user:user?{id:'owner',email:'owner@example.test'}:null,client:{auth:{onAuthStateChange:()=>{}}},checkSession:async()=>{},list:async table=>rows[table],
     save:async(table,values,{id}={})=>{if(failSave)throw Error('network error'); const row={note:'',selected:null,...rows[table].find(r=>r.id===id),id:id||w.crypto.randomUUID(),created_at:new Date().toISOString(),updated_at:new Date().toISOString(),...values};rows[table]=rows[table].filter(r=>r.id!==id);rows[table].push(row);return row;},
+    questionEvent:async(path,title,event)=>{
+      if(failSave)throw Error('network error');
+      let row=rows.study_records.find(r=>r.page_path===path&&r.question_id===event.question_id);
+      if(!row){row={id:w.crypto.randomUUID(),page_path:path,question_id:event.question_id,title,note:'',selected:null,submitted:false,correct:null,marked:false,correct_count:0,wrong_count:0,updated_at:new Date().toISOString()};rows.study_records.push(row);}
+      if(!receipts.has(event.request_id)){if(event.action==='mark')row.marked=event.marked;else{row.selected=event.selected;row.correct=event.correct;row.submitted=true;row[event.correct?'correct_count':'wrong_count']++;}receipts.add(event.request_id);}return {...row};
+    },
     remove:async(table,key,value)=>{rows[table]=rows[table].filter(r=>r[key]!==value);},
     page:async id=>rows.study_pages.find(r=>r.id===id),
     logout:async()=>{client.user=null;}, login:async()=>{client.user={id:'owner',email:'owner@example.test'};return client.user;}};
@@ -61,11 +67,24 @@ test('logout clears private catalog and iframe content',async t=>{
  w.location.hash='#/page/'+encodeURIComponent('私有/private1');await pause();assert.equal(d.querySelector('iframe').srcdoc,'secret');
  w.location.hash='#/account';await pause();click('退出登录');await pause();assert.equal(w.Personal.pages.length,0);assert.equal(d.querySelector('iframe').getAttribute('srcdoc'),null);
 });
-test('both sample quizzes restore saved answers without writing duplicates',t=>{
- for(const [file,id,answer,done] of [['生物化学/新生儿黄疸与核黄素.html','neonatal-jaundice-riboflavin',3,'doneCount'],['基础科学/细胞周期与遗传信息.html','cell-cycle-dna-replication',0,'done']]){
- let restore,saves=[];
- const dom=new JSDOM(read(file),{url:'https://example.test/test.html?embedded=1',runScripts:'dangerously',beforeParse(w){w.StudyBridge={onRestore:fn=>restore=fn,save:r=>saves.push(r)};}});t.after(()=>dom.window.close());
- assert.equal(typeof restore,'function');restore([{question_id:id,selected:answer,submitted:true,marked:false}]);
- assert.match(dom.window.document.getElementById(done).textContent,/1/);assert.equal(saves.length,0);
- }
+test('review lists untouched questions, separates marks from pending, and links to exact questions',async t=>{
+ const {w,d,rows}=await setup(t);
+ w.Personal.setCatalog([{path:'section.html',title:'细胞生物学',category:'基础科学',question_index:[{id:'q1',title:'已答对且标记'},{id:'q2',title:'未做'},{id:'q3',title:'答错'}]}]);
+ rows.study_records.push({updated_at:new Date().toISOString(),id:'1',page_path:'section.html',question_id:'q1',title:'已答对且标记',submitted:true,correct:true,marked:true,correct_count:2,wrong_count:1},{updated_at:new Date().toISOString(),id:'3',page_path:'section.html',question_id:'q3',title:'答错',submitted:true,correct:false,marked:false,correct_count:0,wrong_count:1});
+ await w.Personal.refresh();w.location.hash='#/review';await pause();
+ assert.equal(d.querySelectorAll('.record-card').length,1);assert.match(d.querySelector('.record-card a').hash,/question=q1$/);
+ const pending=[...d.querySelectorAll('.review-tabs button')].find(b=>b.textContent.includes('待复习'));pending.click();
+ assert.equal(d.querySelectorAll('.record-card').length,2);assert.match(d.querySelector('.record-list').textContent,/未做/);assert.doesNotMatch(d.querySelector('.record-list').textContent,/已答对且标记/);
+});
+test('standard upload extracts all question metadata without executing the HTML',async t=>{
+ const {w}=await setup(t);const source=read('templates/小节题库模板.html');
+ const index=w.Personal.sectionFromHtml(source);assert.equal(index.questions.length,4);assert.equal(index.section,'细胞生物学');
+ assert.equal(w.Personal.sectionFromHtml('<h1>普通 HTML</h1>'),null);
+ assert.throws(()=>w.Personal.sectionFromHtml('<script id="quiz-data">bad</script>'),/JSON/);
+});
+test('cloud events preserve every submission and duplicate retries do not increment history',async t=>{
+ const {w,rows}=await setup(t);const event={question_id:'q1',action:'attempt',selected:1,correct:false,request_id:w.crypto.randomUUID()};
+ w.Personal.questionEvent('test.html','q1',event);w.Personal.questionEvent('test.html','q1',event);await pause();
+ w.Personal.questionEvent('test.html','q1',{...event,request_id:w.crypto.randomUUID(),selected:0,correct:true});await pause();
+ assert.equal(rows.study_records[0].correct_count,1);assert.equal(rows.study_records[0].wrong_count,1);assert.equal(rows.study_records[0].correct,true);
 });

@@ -5,6 +5,7 @@ let activePage = null;
 let publicPages = [];
 let frameVersion = 0;
 let loadedFrameKey = "";
+let focusQuestion = "", appliedFocus = "";
 let favorites = new Set();
 const storageKey = `tmu-page-favorites:${location.pathname}`;
 try {
@@ -52,6 +53,7 @@ function renderCatalog() {
     group.append(list); $("catalog").append(group);
   }
   if (!groups.size) $("catalog").append(node("p", "sidebar-message", catalog.pages.length ? "没有找到匹配的页面。" : "暂时没有页面，上传 HTML 后会显示在这里。"));
+  $("review-mark-count").textContent = window.Personal?.markedCount || 0;
   $("page-count").textContent = catalog.pages.length;
   $("favorite-count").textContent = catalog.pages.filter(p => favorites.has(p.path)).length;
 }
@@ -85,22 +87,25 @@ function renderRoute() {
     hash = initial ? routeFor(initial.path) : "#/overview";
     history.replaceState(null, "", hash);
   }
-  const personalView = ["#/account", "#/records", "#/manage"].includes(hash);
+  const personalView = ["#/account", "#/records", "#/manage", "#/review"].includes(hash);
   $("personal").hidden = !personalView;
   if (personalView) {
     clearFrame(); activePage = null;
     $("viewer").hidden = true; $("overview").hidden = true; $("error").hidden = true;
-    const labels = {account:"个人账号",records:"学习记录",manage:"管理 HTML"};
+    const labels = {account:"个人账号",records:"学习记录",manage:"管理 HTML",review:"标记复习"};
     const view = hash.slice(2); $("breadcrumb").textContent = labels[view]; document.title = `${labels[view]} · ${catalog.title}`;
     document.querySelectorAll("[data-view]").forEach(a => { if(a.dataset.view === view)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current"); });
     renderCatalog(); drawer(false); window.Personal?.render(); return;
   }
   let page = null;
   let requested = "";
+  focusQuestion = "";
   const view = hash === "#/favorites" ? "favorites" : hash === "#/overview" ? "overview" : "page";
   if (view === "page") {
     try {
-      requested = decodeURIComponent(hash.slice(7));
+      const [path, query] = hash.slice(7).split("?");
+      requested = decodeURIComponent(path);
+      focusQuestion = new URLSearchParams(query || "").get("question") || "";
       page = catalog.pages.find(p => p.path === requested);
     } catch { /* Invalid shared URL. */ }
     if (!hash.startsWith("#/page/") || !page) {
@@ -161,6 +166,7 @@ async function start() {
     catalog = await response.json();
     if (!Array.isArray(catalog.pages)) throw new Error("Invalid catalog");
     publicPages = [...catalog.pages];
+    window.Personal?.setCatalog(publicPages);
     catalog.pages = [...publicPages, ...(window.Personal?.pages || [])];
     if (window.Personal?.user) favorites = new Set(window.Personal.favorites);
     $("site-name").textContent = catalog.title;
@@ -171,13 +177,16 @@ async function start() {
   }
 }
 function clearFrame() {
-  frameVersion++; loadedFrameKey = "";
+  frameVersion++; loadedFrameKey = ""; appliedFocus = "";
   $("content-frame").removeAttribute("srcdoc");
   $("content-frame").removeAttribute("src");
 }
 async function loadFrame(page) {
-  const key = `${page.path}:${page.updated_at || ""}:${window.Personal?.user?.id || "guest"}`;
-  if (key === loadedFrameKey) return;
+  const key = `${page.path}:${page.updated_at || ""}:${window.Personal?.user?.id || "guest"}:${window.Personal?.ready === false ? "loading" : "ready"}`;
+  if (key === loadedFrameKey) {
+    if(focusQuestion && appliedFocus!==location.hash){$("content-frame").contentWindow.postMessage({channel:"tmu-study-v2",type:"focus",question_id:focusQuestion},"*");appliedFocus=location.hash;}
+    return;
+  }
   clearFrame(); const version = frameVersion; loadedFrameKey = key;
   $("status").textContent = "正在打开页面…";
   $("content-frame").title = page.title;
@@ -201,9 +210,24 @@ window.addEventListener("study-data-changed", () => {
   else { try { favorites = new Set(JSON.parse(localStorage.getItem(storageKey) || "[]")); } catch { favorites = new Set(); } }
   renderRoute();
 });
+window.addEventListener("study-question-result", event => {
+  if(activePage?.path === event.detail.page_path) $("content-frame").contentWindow.postMessage({channel:"tmu-study-v2",type:"result",...event.detail},"*");
+});
 window.addEventListener("message", event => {
   const data = event.data;
-  if (!activePage || event.source !== $("content-frame").contentWindow || !data || data.channel !== "tmu-study-v1") return;
+  if (!activePage || event.source !== $("content-frame").contentWindow || !data) return;
+  if(data.channel === "tmu-study-v2") {
+    if(data.type === "ready") {
+      window.Personal?.registerSection(activePage.path,data.section);
+      if(window.Personal?.ready === false)return;
+      event.source.postMessage({channel:"tmu-study-v2",type:"restore",signedIn:Boolean(window.Personal?.user),records:window.Personal?.state(activePage.path)||[],pending:window.Personal?.pending(activePage.path)||[],focusQuestion},"*");
+      appliedFocus=location.hash;
+    }
+    if(data.type === "question-event") window.Personal?.questionEvent(activePage.path,activePage.title,data.event);
+    if(data.type === "review") location.hash="#/review";
+    return;
+  }
+  if(data.channel !== "tmu-study-v1")return;
   if(data.type === "ready") event.source.postMessage({channel:"tmu-study-v1",type:"restore",records:window.Personal?.state(activePage.path) || []}, "*");
   if(data.type === "answer") window.Personal?.saveAnswer(activePage.path, activePage.title, data.record);
 });

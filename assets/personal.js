@@ -4,10 +4,12 @@
   const button = (label, action, cls = 'button') => { const b = el('button', label, cls); b.type = 'button'; b.onclick = action; return b; };
   const link = (label, href) => { const a = el('a', label, 'button'); a.href = href; return a; };
   const panel = () => document.getElementById('personal');
-  const route = path => `#/page/${encodeURIComponent(path)}`;
+  const route = (path, question) => `#/page/${encodeURIComponent(path)}${question ? "?question="+encodeURIComponent(question) : ""}`;
   const time = value => new Date(value).toLocaleString('zh-CN');
   let store = null, connected = false, ready = false, busy = false, initError = '';
   let records = [], pages = [], favoritePaths = [], editing = false, revision = 0;
+  let publicCatalog = [];
+  const guestRecords = new Map(), guestReceipts = new Set(), runtimeSections = new Map();
   const pending = new Map();
   let writeChain = Promise.resolve();
   const changed = () => window.dispatchEvent(new Event('study-data-changed'));
@@ -30,7 +32,7 @@
   async function refresh() {
     if (!store?.user) return;
     const epoch = revision;
-    const result = await Promise.all([store.list('study_records'), store.list('study_pages', 'id,title,category,updated_at,created_at'), store.list('study_favorites')]);
+    const result = await Promise.all([store.list('study_records'), store.list('study_pages', 'id,title,category,updated_at,created_at,question_index'), store.list('study_favorites')]);
     if (epoch !== revision || !store.user) return;
     [records, pages] = result; favoritePaths = result[2].map(r => r.page_path);
     changed();
@@ -61,7 +63,7 @@
     let original = row ? await store.page(row.id) : null;
     const form = beginEdit(original ? '编辑 HTML' : '上传 HTML');
     form.append(el('p', '支持单个完整 HTML，最大 2 MB；图片和样式请内嵌或使用 HTTPS 地址。保存后立即出现在左侧目录，仅登录后可见。', 'description'));
-    const title = field(form, '知识点名称', 'title', original?.title); title.required = true; title.maxLength = 200;
+    const title = field(form, '小节名称', 'title', original?.title); title.required = true; title.maxLength = 200;
     const category = field(form, '分类', 'category', original?.category || '基础科学'); category.required = true; category.maxLength = 100;
     const file = field(form, '选择 HTML 文件（也可直接粘贴源码）', 'file', '', 'file'); file.accept = '.html,.htm,text/html';
     const source = field(form, 'HTML 源码', 'html', original?.html, 'textarea'); source.required = true; source.className = 'code-editor'; source.spellcheck = false;
@@ -69,12 +71,14 @@
       const upload = file.files[0]; if (!upload) return;
       if (upload.size > 2097152) throw new Error('HTML 超过 2 MB，请缩小文件后再上传。');
       source.value = await upload.text();
-      if (!title.value) title.value = upload.name.replace(/\.html?$/i, '');
+      const info = sectionFromHtml(source.value);
+      if (!original) { title.value = info?.section || upload.name.replace(/\.html?$/i, ''); category.value = info?.category || category.value; }
     });
     formActions(form, '保存到云端', async data => {
       const values = {title: data.get('title').trim(), category: data.get('category').trim(), html: data.get('html')};
       if (!values.title || !values.category || !values.html.trim()) throw new Error('请填写名称、分类和 HTML 内容。');
       if (new Blob([values.html]).size > 2097152) throw new Error('HTML 超过 2 MB。');
+      values.question_index = sectionFromHtml(values.html)?.questions || [];
       await store.save('study_pages', values, original ? {id: original.id, version: original.updated_at} : {});
       editing = false; await refresh(); render(); message('HTML 已保存到云端。');
     });
@@ -84,22 +88,12 @@
     const form = beginEdit(row ? '编辑学习记录' : '新增学习笔记');
     const title = field(form, '标题', 'title', row?.title); title.required = true; title.maxLength = 200;
     const path = field(form, '关联页面路径（可留空）', 'page_path', row?.page_path); path.maxLength = 500; path.readOnly = Boolean(row?.question_id);
-    if (row?.question_id) {
-      form.append(el('p', `题目编号：${row.question_id}`, 'description'));
-      select(form, '已选择的答案', 'selected', [['', '未作答'], ...Array.from({length:26}, (_,i) => [String(i), String.fromCharCode(65+i)])], row.selected === null ? '' : String(row.selected));
-      select(form, '答题结果', 'correct', [['', '未提交'], ['true', '正确'], ['false', '错误']], row.submitted ? String(row.correct) : '');
-    }
-    select(form, '复习标记', 'marked', [['false', '无需复习'], ['true', '待复习']], String(row?.marked || false));
+    if (row?.question_id) form.append(el('p', `题目编号：${row.question_id}。答案与历史由每次实际提交记录；可在题目中点击「再做一次」。`, 'description'));
+    select(form, '复习标记', 'marked', [['false', '未标记'], ['true', '已标记复习']], String(row?.marked || false));
     const note = field(form, '笔记', 'note', row?.note, 'textarea'); note.maxLength = 20000; note.rows = 7;
     formActions(form, '保存记录', async data => {
       const values = {title: data.get('title').trim(), page_path: data.get('page_path').trim(), note: data.get('note'), marked: data.get('marked') === 'true'};
       if (!values.title) throw new Error('请填写标题。');
-      if (row?.question_id) {
-        values.selected = data.get('selected') === '' ? null : Number(data.get('selected'));
-        values.correct = data.get('correct') === '' ? null : data.get('correct') === 'true';
-        values.submitted = values.correct !== null;
-        if (values.submitted && values.selected === null) throw new Error('已提交的答题记录需要选择一个答案。');
-      }
       await store.save('study_records', values, row ? {id: row.id, version: row.updated_at} : {});
       editing = false; await refresh(); render(); message('学习记录已保存。');
     });
@@ -140,7 +134,7 @@
     const toolbar = el('div', undefined, 'record-tools');
     const search = el('input'); search.type = 'search'; search.placeholder = '搜索标题、页面或笔记'; search.setAttribute('aria-label', '搜索学习记录');
     const filter = el('select'); filter.setAttribute('aria-label', '记录筛选');
-    for (const [value, name] of [['all','全部记录'],['wrong','错题'],['marked','待复习'],['notes','笔记']]) { const o = el('option',name); o.value=value; filter.append(o); }
+    for (const [value, name] of [['all','全部记录'],['wrong','错题'],['marked','标记复习'],['notes','笔记']]) { const o = el('option',name); o.value=value; filter.append(o); }
     toolbar.append(search, filter, button('新增笔记', () => editRecord()), button('刷新', e => run(async () => { await refresh(); render(); message('记录已刷新。'); }, e.target)), button('导出 JSON', () => download('学习记录.json', JSON.stringify(records, null, 2), 'application/json')));
     const list = el('div', undefined, 'record-list'); panel().append(toolbar, list);
     const draw = () => {
@@ -149,14 +143,15 @@
       for (const row of filtered) {
         const card = el('article', undefined, 'record-card');
         const kind = row.question_id ? row.submitted ? (row.correct ? '答对' : '错题') : '未提交' : '笔记';
-        card.append(el('p', `${kind}${row.marked ? ' · 待复习' : ''}`, 'eyebrow'), el('h2',row.title));
+        card.append(el('p', `${kind}${row.marked ? ' · 已标记复习' : ''}`, 'eyebrow'), el('h2',row.title));
         if (row.selected !== null) card.append(el('p', `已选：${String.fromCharCode(65+row.selected)}`, 'description'));
+        if (row.question_id) card.append(el('p',`答题历史：正确 ${row.correct_count || 0} 次 · 错误 ${row.wrong_count || 0} 次`,'description'));
         if (row.note) card.append(el('p', row.note, 'record-note'));
         card.append(el('p',`${row.page_path || '独立笔记'} · ${time(row.updated_at)}`, 'filename'));
         const actions = el('div', undefined, 'actions');
-        if (row.page_path) actions.append(link('打开页面', route(row.page_path)));
+        if (row.page_path) actions.append(link('打开页面', route(row.page_path, row.question_id)));
         actions.append(button('编辑', () => editRecord(row)), button('删除', e => run(async () => {
-          if (!confirm(`删除「${row.title}」这条学习记录？`)) return;
+          if (!confirm(`删除「${row.title}」这条学习记录？该题的累计答题历史也会清除。`)) return;
           await store.remove('study_records', 'id', row.id, row.updated_at); await refresh(); render(); message('记录已删除。');
         }, e.target), 'button danger'));
         card.append(actions); list.append(card);
@@ -166,7 +161,9 @@
     search.oninput = draw; filter.onchange = draw; draw();
   }
   function renderPages() {
-    panel().append(el('h1','管理 HTML'), el('p','在这里上传的页面仅自己登录后可见。名称按“分类 / 知识点.html”显示，编辑和删除立即同步到云端。','description'));
+    panel().append(link('下载标准小节模板 ↓','./downloads/小节题库模板.html'));
+    panel().lastChild.setAttribute('download','小节题库模板.html');
+    panel().append(el('h1','管理 HTML'), el('p','在这里上传的页面仅自己登录后可见。每个 HTML 是一个小节，可包含多道题。名称按“分类 / 小节.html”显示，编辑和删除立即同步到云端。','description'));
     const toolbar = el('div', undefined, 'record-tools');
     const search = el('input'); search.type = 'search'; search.placeholder = '搜索分类或知识点'; search.setAttribute('aria-label','搜索私人 HTML');
     toolbar.append(search,button('上传 HTML', e => run(() => editPage(), e.target)), button('刷新', e => run(async () => { await refresh(); render(); }, e.target)));
@@ -192,29 +189,115 @@
     if (panel().hidden) return;
     const view = location.hash.slice(2);
     panel().replaceChildren(el('p','PERSONAL WORKSPACE','eyebrow')); editing = false;
+    if (view === 'review') { renderReview(); return; }
     if (view === 'account' || !store?.user) { renderAccount(); return; }
     if (view === 'records') renderRecords(); else renderPages();
   }
   function download(filename, data, type) {
     const url = URL.createObjectURL(new Blob([data],{type})); const a = link('',url); a.download=filename; document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),1000);
   }
+  function sectionFromHtml(html) {
+    const raw = new DOMParser().parseFromString(html, 'text/html').querySelector('script#quiz-data');
+    if (!raw) return null;
+    let data; try { data=JSON.parse(raw.textContent); } catch { throw new Error('模板的 quiz-data 不是有效 JSON。'); }
+    const ids=new Set();
+    if(data.version!==2 || typeof data.section!=='string' || typeof data.category!=='string' || !Array.isArray(data.questions) || !data.questions.length)throw new Error('请使用完整的小节模板。');
+    const questions=data.questions.map(q=>{
+      if(!/^[a-zA-Z0-9_-]{1,100}$/.test(q.id)||ids.has(q.id)||typeof q.title!=='string'||!q.title||!q.stem||!Array.isArray(q.options)||q.options.length<2||q.options.length>26||!Number.isInteger(q.answer)||q.answer<0||q.answer>=q.options.length||!q.explanation||!Array.isArray(q.optionExplanations)||q.optionExplanations.length!==q.options.length)throw new Error('题目字段缺失或 ID 重复：'+q.id);
+      ids.add(q.id);return {id:q.id,title:q.title.slice(0,200)};
+    });
+    return {section:data.section,category:data.category,questions};
+  }
+  function currentRecords() { return store?.user ? records : [...guestRecords.values()]; }
+  function reviewQuestions() {
+    const allPages=[...publicCatalog,...api.pages], result=new Map();
+    for(const page of allPages){
+      const index=runtimeSections.get(page.path)?.questions || page.question_index || [];
+      for(const q of index){
+        const key=JSON.stringify([page.path,q.id]),row=currentRecords().find(r=>r.page_path===page.path&&r.question_id===q.id);
+        result.set(key,{...row,page_path:page.path,question_id:q.id,title:q.title,section:page.title,category:page.category});
+      }
+    }
+    for(const row of currentRecords().filter(r=>r.question_id)){
+      const key=JSON.stringify([row.page_path,row.question_id]);
+      if(!result.has(key))result.set(key,{...row,section:row.page_path,category:'其他题目'});
+    }
+    return [...result.values()];
+  }
+  let reviewFilter='marked',reviewQuery='';
+  function renderReview() {
+    panel().append(el('h1','标记复习'),el('p','星标是手动收藏的复习题；待复习包含未做或最后一次答错的题。答对后会移出待复习，星标仍由你决定保留。','description'));
+    if(!store?.user)panel().append(el('p','当前显示本次窗口的练习记录。登录后读取个人云端记录。','description'));
+    const toolbar=el('div',undefined,'record-tools'),search=el('input');search.type='search';search.placeholder='搜索小节或题目';search.setAttribute('aria-label','搜索复习题目');search.value=reviewQuery;
+    const tabs=el('div',undefined,'review-tabs'),list=el('div',undefined,'record-list');
+    const questions=reviewQuestions();
+    const modes=[['marked','标记复习',r=>r.marked],['pending','待复习（未做 / 错误）',r=>!r.submitted||r.correct!==true],['all','全部题目',()=>true]];
+    for(const [value,label,predicate]of modes){const b=button(`${label} · ${questions.filter(predicate).length}`,()=>{reviewFilter=value;render();});b.setAttribute('aria-pressed',String(value===reviewFilter));tabs.append(b);}
+    toolbar.append(search);if(store?.user)toolbar.append(button('刷新记录',e=>run(async()=>{await refresh();render();},e.target)));
+    panel().append(tabs,toolbar,list);
+    function draw(){
+      list.replaceChildren();const query=search.value.trim().toLowerCase();reviewQuery=search.value;
+      const predicate=modes.find(m=>m[0]===reviewFilter)[2];
+      for(const row of questions.filter(r=>predicate(r)&&`${r.title} ${r.section} ${r.category}`.toLowerCase().includes(query))){
+        const card=el('article',undefined,'record-card');card.dataset.questionId=row.question_id;
+        card.append(el('p',`${row.category} / ${row.section}`,'eyebrow'),el('h2',row.title),el('p',`最后一次：${row.submitted?(row.correct?'答对':'错误'):'未做'} · 正确 ${row.correct_count||0} 次 / 错误 ${row.wrong_count||0} 次`,'description'));
+        const actions=el('div',undefined,'actions');actions.append(link('定位到这道题 →',route(row.page_path,row.question_id)),button(row.marked?'取消标记':'标记复习',()=>api.questionEvent(row.page_path,row.title,{action:'mark',question_id:row.question_id,title:row.title,request_id:crypto.randomUUID(),marked:!row.marked})));
+        card.append(actions);list.append(card);
+      }
+      if(!list.children.length)list.append(el('p',reviewFilter==='marked'?'还没有标记的题目。点击每道题右上角的「标记复习」。':'没有匹配的题目。','empty-state'));
+    }search.oninput=draw;draw();
+  }
+  function emitResult(job, result) {
+    window.dispatchEvent(new CustomEvent('study-question-result',{detail:{page_path:job.page_path,request_id:job.event.request_id,question_id:job.event.question_id,...result}}));
+  }
   async function savePending(key) {
-    const job = pending.get(key); if (!job || !store?.user) return;
-    const epoch = revision;
-    const prior = records.find(r=>r.page_path === job.page_path && r.question_id === job.question_id);
-    const saved = await store.save('study_records',job,prior ? {id:prior.id,version:prior.updated_at} : {});
-    if (epoch !== revision) return;
-    records = records.filter(r=>r.id!==saved.id); records.push(saved);
-    if (pending.get(key) === job) pending.delete(key);
-    message(pending.size ? '正在保存学习记录…' : '学习记录已保存到云端。',pending.size>0);
+    const job=pending.get(key);if(!job||!store?.user)return;
+    const epoch=revision;
+    try {
+      const saved=await store.questionEvent(job.page_path,job.title,job.event);
+      if(epoch!==revision)return;
+      records=records.filter(r=>r.id!==saved.id);records.push(saved);pending.delete(key);
+      emitResult(job,{record:saved,saved:true});
+      message(pending.size?'正在保存学习记录…':'学习记录已保存到云端。',pending.size>0);changed();
+    }catch(error){
+      if(epoch!==revision)return;
+      message(errorText(error),true);emitResult(job,{error:errorText(error)});
+    }
+  }
+  function validEvent(event) {
+    return event && typeof event.question_id==='string' && typeof event.request_id==='string' && /^[a-zA-Z0-9_-]{1,100}$/.test(event.question_id) && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(event.request_id) &&
+      (event.action==='mark'&&typeof event.marked==='boolean'||event.action==='attempt'&&Number.isInteger(event.selected)&&event.selected>=0&&event.selected<=25&&typeof event.correct==='boolean');
   }
   const api = {
-    get user(){return store?.user;}, get configured(){return connected;},
+    get user(){return store?.user;}, get ready(){return ready;}, get configured(){return connected;},
     get pages(){return pages.map(p=>({...p,path:`私有/${p.id}`,private:true}));},
     get favorites(){return favoritePaths;},
-    render, refresh,
+    render, refresh, sectionFromHtml,
+    setCatalog(value) { publicCatalog=value; },
+    registerSection(path, section) {
+      if(Array.isArray(section?.questions)&&section.questions.every(q=>/^[a-zA-Z0-9_-]{1,100}$/.test(q.id)&&typeof q.title==='string'))runtimeSections.set(path,section);
+    },
+    get markedCount(){return reviewQuestions().filter(q=>q.marked).length;},
+    reviewQuestions,
+    pending(path) { return [...pending.values()].filter(j=>j.page_path===path).map(j=>j.event); },
     async html(page) { return (await store.page(page.id)).html; },
-    state(path) { return records.filter(r=>r.page_path===path && r.question_id).map(({question_id,selected,submitted,correct,marked})=>({question_id,selected,submitted,correct,marked})); },
+    state(path) { return currentRecords().filter(r=>r.page_path===path && r.question_id).map(({question_id,selected,submitted,correct,marked,correct_count,wrong_count})=>({question_id,selected,submitted,correct,marked,correct_count,wrong_count})); },
+    questionEvent(path,title,event) {
+      if(!validEvent(event)||typeof path!=='string'||path.length>500)return;
+      const job={page_path:path,title:(typeof event.title==='string'&&event.title ? event.title : title).slice(0,200),event:{request_id:event.request_id,question_id:event.question_id,action:event.action,selected:event.selected,correct:event.correct,marked:event.marked}};
+      if(!store?.user){
+        const key=JSON.stringify([path,event.question_id]);
+        let state=guestRecords.get(key)||{page_path:path,title:job.title,question_id:event.question_id,selected:null,submitted:false,correct:null,marked:false,correct_count:0,wrong_count:0};
+        if(!guestReceipts.has(event.request_id)){
+          state={...state};if(event.action==='mark')state.marked=event.marked;
+          else {state.selected=event.selected;state.correct=event.correct;state.submitted=true;state[event.correct?'correct_count':'wrong_count']++;}
+          guestRecords.set(key,state);guestReceipts.add(event.request_id);
+        }
+        emitResult(job,{record:state,saved:false});changed();return;
+      }
+      if(!pending.has(event.request_id))pending.set(event.request_id,job);
+      message('正在保存学习记录…');writeChain=writeChain.then(()=>savePending(event.request_id));
+    },
     async favorite(path, marked) {
       if (!store?.user) return false;
       if (marked) await store.save('study_favorites',{page_path:path},{conflict:'user_id,page_path'});
@@ -222,15 +305,15 @@
       favoritePaths = favoritePaths.filter(p=>p!==path); if(marked)favoritePaths.push(path); changed(); return true;
     },
     saveAnswer(path,title,data) {
-      if (!store?.user) { message('当前未登录：本次答题尚未保存。登录后重新提交可保存到云端。'); return; }
-      if (!data || typeof data.question_id!=='string' || !/^[a-zA-Z0-9_-]{1,100}$/.test(data.question_id) || !(data.selected===null || Number.isInteger(data.selected)&&data.selected>=0&&data.selected<=25) || typeof data.submitted!=='boolean' || typeof data.marked!=='boolean' || !(data.correct===null || typeof data.correct==='boolean')) return;
-      const job = {page_path:path,title:title.slice(0,200),question_id:data.question_id,selected:data.selected,submitted:data.submitted,marked:data.marked,correct:data.correct};
-      const key = JSON.stringify([path,data.question_id]); pending.set(key,job); message('正在保存学习记录…');
-      writeChain = writeChain.then(()=>savePending(key)).catch(error=>message(errorText(error),true));
+      // Legacy single-question HTML support; unchanged answers used to mean a mark toggle.
+      if(!data||!/^[a-zA-Z0-9_-]{1,100}$/.test(data.question_id))return;
+      const prior=api.state(path).find(r=>r.question_id===data.question_id);
+      const attempt=data.submitted&&(!prior?.submitted||prior.selected!==data.selected);
+      api.questionEvent(path,title,{...data,action:attempt?'attempt':'mark',request_id:crypto.randomUUID()});
     }
   };
   window.Personal = api;
-  document.getElementById('retry-sync').onclick = () => { for(const key of pending.keys()) writeChain=writeChain.then(()=>savePending(key)).catch(e=>message(errorText(e),true)); };
+  document.getElementById('retry-sync').onclick = () => { for(const key of pending.keys()) writeChain=writeChain.then(()=>savePending(key)); };
   window.addEventListener('beforeunload',e=>{if(pending.size || editing){e.preventDefault();e.returnValue='';}});
   document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible' && store?.user && !editing && !busy && !pending.size) refresh().catch(e=>message(errorText(e))); });
   (async()=>{

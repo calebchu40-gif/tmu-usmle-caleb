@@ -1,0 +1,89 @@
+{
+  "version": 2,
+  "id": "basic-science-cell-biology",
+  "category": "基础科学",
+  "section": "细胞生物学",
+  "description": "从细胞周期到遗传信息传递，逐题巩固核心概念。",
+  "questions": [
+    {
+      "id": "cell-cycle-dna-replication",
+      "title": "细胞周期与遗传信息",
+      "stem": "在细胞进入有丝分裂之前，S 期中最直接确保每个子细胞都能获得完整遗传信息的过程是什么？",
+      "options": [
+        "DNA replication",
+        "Transcription of messenger RNA",
+        "Translation of proteins",
+        "Repair of damaged DNA"
+      ],
+      "answer": 0,
+      "explanation": "S 期中细胞复制 DNA，使遗传信息能在细胞分裂后传递给子细胞。",
+      "optionExplanations": [
+        "DNA replication 在 S 期复制基因组 DNA，为随后细胞分裂准备遗传物质。",
+        "转录把 DNA 信息拷贝成 RNA，不会复制整套基因组。",
+        "翻译利用 mRNA 合成蛋白质，不是遗传物质的复制过程。",
+        "DNA 修复纠正特定损伤，不等同于细胞周期中的全基因组复制。"
+      ],
+      "point": "区分 replication（复制 DNA）、transcription（转录 RNA）和 translation（翻译蛋白质）。"
+    },
+    {
+      "id": "cell-biology-transcription",
+      "title": "转录的产物",
+      "stem": "以 DNA 为模板生成 RNA 的过程称为什么？",
+      "options": [
+        "Translation",
+        "Transcription",
+        "DNA replication",
+        "Mitosis"
+      ],
+      "answer": 1,
+      "explanation": "转录（transcription）将 DNA 中的信息转写为 RNA。",
+      "optionExplanations": [
+        "翻译以 mRNA 的信息合成蛋白质。",
+        "转录以 DNA 为模板合成 RNA。",
+        "DNA 复制生成 DNA。",
+        "有丝分裂将复制后的遗传物质分配给子细胞。"
+      ],
+      "point": "DNA → RNA：转录。"
+    },
+    {
+      "id": "cell-biology-translation",
+      "title": "翻译的模板",
+      "stem": "细胞进行翻译（translation）时，直接读取哪一种分子上的编码信息来合成蛋白质？",
+      "options": [
+        "基因组 DNA",
+        "脂质",
+        "mRNA",
+        "胶原蛋白"
+      ],
+      "answer": 2,
+      "explanation": "翻译利用 mRNA 上的编码信息合成蛋白质。",
+      "optionExplanations": [
+        "DNA 中的信息先通过转录进入 RNA。",
+        "脂质不作为翻译的编码模板。",
+        "mRNA 是翻译时直接读取的编码模板。",
+        "蛋白质不是翻译的编码模板。"
+      ],
+      "point": "mRNA → 蛋白质：翻译。"
+    },
+    {
+      "id": "cell-biology-dna-repair",
+      "title": "DNA 修复与复制",
+      "stem": "纠正 DNA 的特定损伤，而非复制整套基因组的过程是下列哪一项？",
+      "options": [
+        "DNA replication",
+        "Translation",
+        "Transcription",
+        "DNA repair"
+      ],
+      "answer": 3,
+      "explanation": "DNA 修复针对损伤进行纠正；全基因组复制则为细胞分裂准备遗传物质。",
+      "optionExplanations": [
+        "复制的目标是产生基因组副本。",
+        "翻译合成蛋白质。",
+        "转录合成 RNA。",
+        "DNA 修复纠正 DNA 损伤。"
+      ],
+      "point": "根据过程的目的区分复制和修复。"
+    }
+  ]
+}

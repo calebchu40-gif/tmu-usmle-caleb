@@ -25,3 +25,10 @@ test('insert binds data to current user; database errors propagate',async t=>{
  await assert.rejects(()=>store.save('study_pages',{title:'x',user_id:'other'}),e=>e.message==='permission denied');
  assert.equal(calls.find(c=>c[0]==='insert')[1].user_id,'owner');
 });
+test('question event uses a singular RPC result and includes the stable request ID',async t=>{
+ const {store,client}=setup(t);store.user={id:'owner'};let args;
+ client.rpc=(name,params)=>{args={name,params};return {single:async()=>({data:{id:'record',correct_count:2,wrong_count:1},error:null})};};
+ const event={question_id:'q1',request_id:'11111111-1111-4111-8111-111111111111',action:'attempt',selected:0,correct:true};
+ const row=await store.questionEvent('section.html','Question',event);
+ assert.equal(args.name,'study_question_event');assert.equal(args.params.p_event,event.request_id);assert.equal(row.correct_count,2);
+});

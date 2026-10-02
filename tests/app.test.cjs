@@ -106,17 +106,17 @@ test('sharing copies the framework URL and reports unavailable clipboard access'
   assert.match(d.querySelector('#status').textContent, /未能自动复制/);
 });
 
-test('original quizzes still accept answers and show explanations when embedded', t => {
-  for (const [file, answer, submit, done] of [['生物化学/新生儿黄疸与核黄素.html', 3, 'submitBtn', 'doneCount'], ['基础科学/细胞周期与遗传信息.html', 0, 'submit', 'done']]) {
-    const dom = new JSDOM(fs.readFileSync(path.join(root, file), 'utf8'), { url: `https://example.test/${file}?embedded=1`, runScripts: 'dangerously' });
+test('both section files contain independent questions and per-question submit buttons', t => {
+  for (const [file, answer] of [['生物化学/新生儿黄疸与核黄素.html', 3], ['基础科学/细胞周期与遗传信息.html', 0]]) {
+    const dom = new JSDOM(fs.readFileSync(path.join(root, file), 'utf8'), { url: `https://example.test/${file}`, runScripts: 'dangerously' });
     t.after(() => dom.window.close());
-    const d = dom.window.document;
-    assert.ok(d.documentElement.classList.contains('embedded'));
-    assert.equal(d.getElementById(submit).disabled, true);
-    d.querySelectorAll('.choice')[answer].click();
-    d.getElementById(submit).click();
-    assert.ok(d.getElementById('explanation').classList.contains('visible'));
-    assert.match(d.getElementById(done).textContent, /1/);
-    assert.match(d.getElementById('explanation').textContent, /回答正确/);
+    const d=dom.window.document,cards=d.querySelectorAll('.question-card');
+    assert.equal(cards.length,4); assert.equal(d.querySelector('#review-count').textContent,'4');
+    assert.equal(cards[0].querySelector('.primary').disabled,true);
+    cards[0].querySelectorAll('.choice')[answer].click();cards[0].querySelector('.primary').click();
+    assert.match(cards[0].querySelector('.explanation').textContent,/回答正确/);
+    assert.equal(cards[1].querySelector('.explanation'),null);
+    assert.equal(d.querySelector('#done-count').textContent,'1');
+    assert.equal(d.querySelector('#review-count').textContent,'3');
   }
 });

@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "id": "biochemistry-nutrition-vitamins",
+  "category": "生物化学",
+  "section": "营养与维生素",
+  "description": "围绕维生素与代谢机制，逐题练习并复习。",
+  "questions": [
+    {
+      "id": "neonatal-jaundice-riboflavin",
+      "title": "新生儿黄疸与核黄素",
+      "stem": "A neonate develops a yellow discoloration of the skin and sclerae two days after birth. The condition worsens the following day. Appropriate therapy and vitamin supplementation are begun. Which of the following is the most appropriate vitamin therapy for this patient?",
+      "options": [
+        "Ascorbate",
+        "Folate",
+        "Niacin",
+        "Riboflavin",
+        "Vitamin D"
+      ],
+      "answer": 3,
+      "explanation": "新生儿黄疸常与未结合胆红素升高有关；达到治疗阈值时，光疗可帮助胆红素转化为更易排出的形式。本题考查的营养学关联是：蓝光暴露可造成核黄素（维生素 B₂）光降解，因此题目所列补充选项中应选核黄素。",
+      "optionExplanations": [
+        "错误。抗坏血酸是维生素 C；缺乏时典型问题是胶原合成障碍和坏血病，不是光疗相关的维生素消耗。",
+        "错误。叶酸参与一碳代谢与核苷酸合成；缺乏可导致巨幼细胞性贫血等，但不是本题所考查的光疗相关营养素。",
+        "错误。烟酸是 NAD⁺/NADP⁺ 的前体；缺乏可导致糙皮病，与题干所述光疗机制不符。",
+        "正确。核黄素是维生素 B₂；蓝光光疗可能使其发生光降解，这是本题询问补充核黄素的机制依据。",
+        "错误。维生素 D 主要调节钙磷稳态和骨矿化；缺乏可影响骨骼矿化，不是新生儿光疗相关的补充维生素。"
+      ],
+      "point": "考点链条：未结合胆红素升高 → 达到阈值时采用光疗；蓝光可光降解核黄素 → 本题选择维生素 B₂。",
+      "clinicalNote": "考试机制题不等同于普遍临床处方。实际新生儿高胆红素血症的评估与光疗决策应依据胎龄、出生后小时数、胆红素水平及神经毒性风险因素，并遵循当前指南；不能仅凭这道题推断所有接受光疗的新生儿都需常规补充核黄素。",
+      "references": [
+        {
+          "label": "AAP 2022 新生儿高胆红素血症临床指南",
+          "url": "https://doi.org/10.1542/peds.2022-058859"
+        },
+        {
+          "label": "AAP 2024 光疗技术报告",
+          "url": "https://doi.org/10.1542/peds.2024-068026"
+        }
+      ]
+    },
+    {
+      "id": "vitamin-c-collagen",
+      "title": "维生素 C 与胶原合成",
+      "stem": "下列哪一种维生素与胶原合成密切相关，缺乏时可导致坏血病？",
+      "options": [
+        "维生素 C",
+        "维生素 D",
+        "烟酸",
+        "核黄素"
+      ],
+      "answer": 0,
+      "explanation": "抗坏血酸即维生素 C；缺乏时可出现胶原合成障碍。",
+      "optionExplanations": [
+        "维生素 C 与胶原合成相关。",
+        "维生素 D 主要参与钙磷稳态。",
+        "烟酸是 NAD⁺/NADP⁺ 的前体。",
+        "核黄素是维生素 B₂。"
+      ],
+      "point": "将维生素与其关键功能对应记忆。"
+    },
+    {
+      "id": "niacin-nad",
+      "title": "烟酸与辅酶",
+      "stem": "NAD⁺ 和 NADP⁺ 的维生素前体是下列哪一项？",
+      "options": [
+        "叶酸",
+        "烟酸",
+        "抗坏血酸",
+        "维生素 D"
+      ],
+      "answer": 1,
+      "explanation": "烟酸是 NAD⁺/NADP⁺ 的前体，参与氧化还原反应。",
+      "optionExplanations": [
+        "叶酸参与一碳代谢。",
+        "烟酸是 NAD⁺/NADP⁺ 的前体。",
+        "抗坏血酸是维生素 C。",
+        "维生素 D 主要调节钙磷稳态。"
+      ],
+      "point": "烟酸 → NAD⁺ / NADP⁺。"
+    },
+    {
+      "id": "vitamin-d-calcium",
+      "title": "维生素 D 与钙磷稳态",
+      "stem": "以下哪一种维生素主要参与钙磷稳态和骨矿化的调节？",
+      "options": [
+        "烟酸",
+        "叶酸",
+        "维生素 D",
+        "抗坏血酸"
+      ],
+      "answer": 2,
+      "explanation": "维生素 D 主要调节钙磷稳态，并参与骨矿化。",
+      "optionExplanations": [
+        "烟酸与 NAD⁺/NADP⁺ 相关。",
+        "叶酸参与一碳代谢。",
+        "维生素 D 与钙磷稳态、骨矿化相关。",
+        "抗坏血酸与胶原合成相关。"
+      ],
+      "point": "维生素 D → 钙磷稳态与骨矿化。"
+    }
+  ]
+}

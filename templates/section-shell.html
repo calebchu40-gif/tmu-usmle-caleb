@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>__TITLE__</title>
+  <style>__CSS__</style>
+</head>
+<body>
+<!-- 只需编辑下方 quiz-data 内的 JSON。复制 questions 内的一项即可增加题目。
+     每个文件是一个小节；题目 id 应稳定且唯一；answer 从 0 开始。
+     不要修改下面的布局和脚本。文本中的小于号请写成 JSON 转义 \u003c。 -->
+<script id="quiz-data" type="application/json">
+__DATA__
+</script>
+<div class="quiz-shell">
+  <header class="section-head"><div><p id="section-category" class="eyebrow"></p><h1 id="section-title"></h1><p id="section-description" class="section-description"></p></div><div><p id="mode-note" class="mode-note" role="status"></p><button id="connect-retry" class="btn" hidden>重试连接</button></div></header>
+  <div class="quiz-columns">
+    <main id="question-list" class="question-scroll" aria-label="小节题目，可上下滚动" tabindex="0"></main>
+    <aside class="section-sidebar" aria-label="小节进度与复习">
+      <section class="side-card"><h2>本组进度</h2><div class="progress-row"><span>已完成</span><strong><span id="done-count">0</span> / <span id="total-count">0</span></strong></div><div class="progress-track"><div id="progress-fill" class="progress-fill"></div></div><p class="side-note">按已提交过的题目计数。每题独立提交。</p></section>
+      <section class="side-card"><h2>知识点路径</h2><ul id="knowledge-path" class="path"></ul></section>
+      <section class="side-card mobile-summary"><h2>练习记录</h2><div class="stats"><div class="stat"><b id="correct-count">0</b><span>答对</span></div><div class="stat"><b id="review-count">0</b><span>待复习</span></div></div><p class="side-note">以最后一次答题状态为准。<br>待复习 = 未做 + 最后一次答错。</p></section>
+      <section class="side-card"><h2>题目导航</h2><nav id="question-map" class="question-map" aria-label="跳转到题目"></nav><p class="side-note">绿色：答对 · 红色：错误 · 灰色：未做</p><button id="review-link" class="btn review-link">查看标记复习（<span id="marked-count">0</span>）</button></section>
+      <section class="side-card info-card"><h2>解析结构</h2><p class="side-note">提交本题后查看答案依据和逐项解析。点击「再做一次」可重新作答；右上角保留累计正确与错误次数。</p></section>
+    </aside>
+  </div>
+</div>
+<script>__JS__</script>
+</body>
+</html>
