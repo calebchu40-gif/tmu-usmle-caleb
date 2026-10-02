@@ -41,7 +41,7 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(result["pages"][0]["category"], "基础科学")
 
     def test_excludes_infrastructure_and_symlinks(self):
-        for path in [".git/config", ".openai/hosting.json", "tests/fixture.html", "scripts/data.json", "node_modules/demo.html", "private.key"]:
+        for path in [".git/config", ".openai/hosting.json", "tests/fixture.html", "scripts/data.json", "node_modules/demo.html", "private.key", "supabase/migrations/data.json"]:
             self.write(path, "not public")
         self.write("real.html", "<title>Real</title>")
         (self.root / "shortcut.html").symlink_to(self.root / "real.html")

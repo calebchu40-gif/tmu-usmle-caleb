@@ -5,7 +5,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCLUDED_DIRS = {"dist", "node_modules", "scripts", "tests", "__pycache__"}
+EXCLUDED_DIRS = {"dist", "node_modules", "scripts", "tests", "__pycache__", "supabase"}
 EXCLUDED_FILES = {"site.config.json", "package.json", "package-lock.json", "README.md"}
 WEB_EXTENSIONS = {
     ".html", ".htm", ".css", ".js", ".mjs", ".json", ".map", ".svg", ".png",
@@ -78,6 +78,14 @@ def build(root=ROOT):
     catalog = {"title": config.get("title") or "TMU · Caleb", "defaultPage": default, "pages": pages}
     (output / "assets").mkdir(parents=True, exist_ok=True)
     (output / "assets/pages.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    cloud = config.get("cloud", {})
+    public_cloud = {key: cloud.get(key, "") for key in ("url", "publishableKey")}
+    key = public_cloud["publishableKey"]
+    if key and not key.startswith("sb_publishable_"):
+        raise ValueError("Use a Supabase publishable key, never a secret/service_role key")
+    if public_cloud["url"] and not public_cloud["url"].startswith("https://"):
+        raise ValueError("Cloud URL must use HTTPS")
+    (output / "assets/cloud-config.json").write_text(json.dumps(public_cloud) + "\n", encoding="utf-8")
     (output / ".nojekyll").touch()
     return catalog
 

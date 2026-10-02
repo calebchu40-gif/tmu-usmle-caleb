@@ -228,10 +228,12 @@
     </main>
   </div>
 
+  <script src="../assets/study-bridge.js"></script>
   <script>
     // Local sample imported from the user's provided study file; clinical context is supplemented below.
     const questions = [
       {
+        id: "neonatal-jaundice-riboflavin",
         topicKey: "vitamin",
         topic: "新生儿黄疸与核黄素",
         tags: ["生物化学", "营养与维生素", "新生儿黄疸"],
@@ -340,16 +342,17 @@
       $("correctCount").textContent = correct;
       $("markedCount").textContent = marked.size;
       $("progressFill").style.width = `${(completed / visibleIndices.length) * 100}%`;
-      $("progressFoot").textContent = completed === visibleIndices.length ? "本组练习已完成" : "仅记录本次练习，刷新后重置";
+      $("progressFoot").textContent = completed === visibleIndices.length ? "本组练习已完成" : "登录工作台后自动保存进度";
     }
     $("submitBtn").addEventListener("click", () => {
       if (selected === null) return;
       answers.set(current, { selected, submitted: true });
       render();
+      saveProgress();
     });
     $("prevBtn").addEventListener("click", () => { const position = visibleIndices.indexOf(current); if (position > 0) { current = visibleIndices[position - 1]; render(); } });
     $("nextBtn").addEventListener("click", () => { const position = visibleIndices.indexOf(current); if (position < visibleIndices.length - 1) { current = visibleIndices[position + 1]; render(); } });
-    $("bookmarkBtn").addEventListener("click", () => { marked.has(current) ? marked.delete(current) : marked.add(current); render(); });
+    $("bookmarkBtn").addEventListener("click", () => { marked.has(current) ? marked.delete(current) : marked.add(current); render(); saveProgress(); });
     document.querySelectorAll("[data-filter]").forEach(button => button.addEventListener("click", () => {
       const filter = button.dataset.filter;
       visibleIndices = filter === "all" ? questions.map((_, index) => index) : questions.map((q, index) => q.topicKey === filter ? index : -1).filter(index => index >= 0);
@@ -359,6 +362,20 @@
       render();
     }));
     document.querySelector(".mobile-menu").addEventListener("click", () => document.querySelector(".sidebar").classList.toggle("mobile-open"));
+    function saveProgress() {
+      const q = questions[current]; const prior = answers.get(current);
+      window.StudyBridge?.save({question_id:q.id,selected:prior?.selected ?? null,submitted:Boolean(prior?.submitted),correct:prior?.submitted ? prior.selected === q.answer : null,marked:marked.has(current)});
+    }
+    window.StudyBridge?.onRestore(records => {
+      answers.clear(); selections.clear(); marked.clear();
+      for (const record of records) {
+        const i = questions.findIndex(q=>q.id===record.question_id);
+        if(i<0)continue;
+        if(record.marked)marked.add(i);
+        if(record.submitted && Number.isInteger(record.selected) && record.selected>=0 && record.selected<questions[i].options.length) answers.set(i,{selected:record.selected,submitted:true});
+      }
+      render();
+    });
     render();
   </script>
 </body>

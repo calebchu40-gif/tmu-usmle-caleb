@@ -1,97 +1,131 @@
-# TMU · Caleb 学习工作台
+# TMU · Caleb 个人学习工作台
 
-固定左侧导航，在右侧显示上传的 HTML。支持自动分类目录、搜索、收藏、分享链接和手机导航，保留内容页面自身的样式和答题交互。
+保留左侧分类导航，在右侧阅读 HTML；登录个人账号后，学习记录、收藏和私人 HTML 保存到 Supabase，可在不同设备使用。
 
 **网站：https://calebchu40-gif.github.io/tmu-usmle-caleb/**
 
-## 文件命名
+## 日常使用
 
-内容文件统一使用 **分类/知识点.html**，文件名、HTML 的 `<title>` 和页面主标题使用同一个知识点名称。例如：
+1. 左侧「个人账号」使用站点主人的邮箱和密码登录。本站不开放注册。
+2. 「学习记录」支持新增笔记、搜索、按错题/待复习筛选、编辑、删除和导出 JSON。
+3. 现有两份题库在工作台中提交答案或标记复习时自动保存。重新打开页面会恢复已保存的答案；在学习记录中删除相应答题记录后可以重新作答。
+4. 「管理 HTML」可上传、查看、修改名称/分类/源码、下载和删除私人 HTML。保存后立即更新左侧目录，不需要等待 GitHub 部署。
+5. 收藏页面在登录时保存到云端。未登录时的收藏仅保存在当前浏览器，与云端收藏分开；登录后可重新收藏需要同步的页面。
+
+每次操作会显示保存结果。网络失败不会显示“已保存”：表单保留输入，答题记录可点击「重试保存」。未完成的答题保存只保留在本次窗口中，关闭前请完成重试。多设备同时编辑同一记录时，检测到版本变化会提示刷新后再操作。
+
+## 私人 HTML 与公开 HTML
+
+| 类型 | 管理位置 | 可见范围 | 内容更新 |
+| --- | --- | --- | --- |
+| 私人 HTML | 网站「管理 HTML」 | 仅站点主人登录后可读写 | 保存后立即生效；其他设备刷新获取 |
+| GitHub HTML | GitHub 仓库分类文件夹 | 公开，独立 URL 也能访问 | 提交后经 Actions 发布 |
+
+原有 `基础科学/细胞周期与遗传信息.html`、`生物化学/新生儿黄疸与核黄素.html` 仍为公开内容；个人答题记录不放入 GitHub。网站登录不会把 GitHub 公开文件变成私有文件。
+
+私人上传支持 UTF-8 单文件 HTML，最大 **2 MB**。图片、CSS、JavaScript 请内嵌或使用完整 HTTPS 地址；不支持同时上传资源文件夹。名称按 `分类/知识点.html` 显示。链接使用固定 ID，改名后链接和学习记录仍然有效；复制私人页面链接后，其他设备也需要登录同一个账号。
+
+HTML 在隔离的 iframe 中运行，不获得工作台的登录令牌。私人页面通过数据库读取后显示，不产生公开文件地址，因此不提供「独立打开」，可以下载原 HTML。
+
+删除私人 HTML 会立即移除该页面，已有学习记录和笔记保留，可在「学习记录」中单独管理。删除前请按需要下载备份。
+
+## 公开文件命名与上传
+
+内容文件统一为 **分类/知识点.html**，例如：
 
 ```text
-基础科学/
-  细胞周期与遗传信息.html
-生物化学/
-  新生儿黄疸与核黄素.html
+基础科学/细胞周期与遗传信息.html
+生物化学/新生儿黄疸与核黄素.html
 ```
 
-分类名称自动取自文件夹，页面名称取自 `<title>`，没有标题时使用文件名。目录自动生成，不需要手动编辑首页。
+在 GitHub 仓库 **Add file → Upload files** 上传分类文件夹，提交到 `main`。Actions 中 **Publish HTML library** 成功后，页面自动加入目录。标题取自 `<title>`，分类取自文件夹；附属资源一起上传并保留相对路径。替换文件会更新内容，删除文件会移出公开目录。旧编号链接已移除，不保留跳转。
 
-## 上传新内容
+- 首页：`https://calebchu40-gif.github.io/tmu-usmle-caleb/`
+- 带导航内容：`#/page/基础科学%2F细胞周期与遗传信息.html`
+- 私人内容：`#/page/私有%2F<页面固定ID>`
+- 记录：`#/records`；HTML 管理：`#/manage`；账号：`#/account`
 
-1. 点击网站左下角「上传 HTML」，或在 GitHub 仓库点击 **Add file → Upload files**。
-2. 上传按分类整理好的文件夹，例如 `解剖学/上肢骨骼.html`。文件使用 UTF-8 编码；独立图片、CSS 和 JavaScript 一起上传，保留原来的相对路径。
-3. 提交到 `main`，等待 Actions 中 **Publish HTML library** 显示成功。
-4. 刷新网站，新页面自动出现在左侧分类中。替换文件会更新页面，删除文件会从目录中移除。
+## 新题库如何保存答案
 
-`index.html` 是框架首页；`assets/`、`scripts/`、`tests/`、`.github/` 是框架目录。内容放在自己创建的分类文件夹内，压缩包需先解压再上传。
+框架不会自动拆解任意 HTML 的题目。只需阅读的 HTML 直接上传即可；需要保存答题进度的页面，接入 `assets/study-bridge.js`，给每道题一个稳定、唯一的编号：
 
-## 网址规则
-
-- 框架首页：`https://calebchu40-gif.github.io/tmu-usmle-caleb/`
-- 带导航的内容页：`https://calebchu40-gif.github.io/tmu-usmle-caleb/#/page/基础科学%2F细胞周期与遗传信息.html`
-- 独立内容页：`https://calebchu40-gif.github.io/tmu-usmle-caleb/基础科学/细胞周期与遗传信息.html`
-
-分享时点击「复制链接」，系统会正确处理中文、空格和路径编码。对方打开链接后会保留左侧导航并显示同一篇内容。浏览器刷新、前进和后退均可使用。点击「独立打开」只查看原 HTML。
-
-所有内容页均已改为分类和知识点命名，旧编号网址已移除，不提供跳转。
-
-## 嵌入显示与记录
-
-框架通过 iframe 显示内容。现有两份题库已适配嵌入模式：框架内隐藏它们自带的重复导航，独立打开时保留完整布局。以后上传的 HTML 默认按其自身布局显示；页面如需适配，可读取 `embedded=1` 查询参数。
-
-收藏保存在当前浏览器，刷新后仍保留，不跨设备同步。题库答题进度沿用内容页面自己的逻辑，现有题库刷新或切换到另一篇内容后会重置。框架不自动拆解任意 HTML 中的题目。
-
-## 站点配置
-
-`site.config.json` 指定站点名、默认内容，也可以覆盖某一页面的目录标题和分类。普通上传不需要修改配置。
-
-```json
-{
-  "title": "TMU · Caleb",
-  "defaultPage": "生物化学/新生儿黄疸与核黄素.html",
-  "pages": {}
+```html
+<script src="https://calebchu40-gif.github.io/tmu-usmle-caleb/assets/study-bridge.js"></script>
+<script>
+StudyBridge.onRestore(records => {
+  // records 中包含 question_id、selected、submitted、correct、marked。
+  // 恢复页面 UI，不要在恢复过程中再次保存。
+});
+// 用户提交答案时调用；selected 为从 0 开始的选项编号。
+function saveAnswer() {
+  StudyBridge.save({
+    question_id: 'cell-cycle-question-1',
+    selected: 0,
+    submitted: true,
+    correct: true,
+    marked: false
+  });
 }
+</script>
 ```
 
-需要自定义时，在 `pages` 中以文件相对路径为键，设置 `title` 和 `category`。默认页面被删除时，会选择剩余页面；没有内容时显示空目录提示。
+接口只在工作台 iframe 内保存数据，独立打开 HTML 不会登录或同步。题目 ID 使用字母、数字、下划线或短横线，最长 100 个字符。答题记录按“用户 + 页面固定路径 + 题目 ID”存储最新状态，不保留每次尝试的历史。现有两份题库已接入。
 
-## 项目结构
+## 云端部署与单人权限
 
-- `index.html`：固定导航和内容容器。
-- `assets/app.css`、`assets/app.js`：布局、搜索、路由、收藏。
-- 各分类文件夹：可独立打开的 HTML 内容及其资源。
-- `site.config.json`：站点名、默认页和可选目录信息。
-- `scripts/build.py`：扫描内容并生成 `dist/assets/pages.json`。
-- `.github/workflows/pages.yml`：提交后自动测试、构建和发布。
-- `tests/`：页面自动发现、分类、路由、收藏、答题和异常场景测试。
-- `dist/`：生成的发布文件，不提交到 Git。
+技术结构：**GitHub Pages + Supabase Auth + PostgreSQL**。Supabase 客户端在构建时打包到网站，无运行时 CDN 依赖。
 
-## 本地预览和测试
+在新 Supabase 项目中配置：
 
-构建使用 Python 3 标准库，网站运行不依赖第三方前端框架或 CDN。
+1. 在 SQL Editor 执行 `supabase/migrations/001_personal_workspace.sql`。
+2. Authentication → Sign In / Providers 关闭 **Allow new users to sign up**，保持匿名登录关闭。
+3. Authentication → Users → Add user → Create new user，创建自己的邮箱/密码账号；密码本人设置，Auto confirm user 保持开启。
+4. 用该账号的 UUID 在 SQL Editor 执行：
 
-```sh
-python3 scripts/build.py
-python3 -m http.server 8000 --directory dist
-```
+   ```sql
+   insert into public.workspace_owner(user_id) values ('你的账号 UUID');
+   ```
 
-打开 `http://localhost:8000/`。修改文件后重新构建并刷新。
+5. `site.config.json` 的 `cloud` 填入项目 URL 和 `sb_publishable_...` 公开密钥后提交部署。禁止把数据库密码、secret key 或 service_role key 放进配置或 Git；构建会拒绝非 publishable key。
+6. 可执行 `supabase/verify-access.sql` 验证主人增删改查、其他账号和匿名访问隔离；测试在事务内回滚，不留下测试数据。
 
-运行全部测试需要 Node.js 24；测试依赖不会发布到网站：
+`workspace_owner` 只能由数据库管理员登记，前端不能把自己注册为主人。三张数据表均开启行级权限：既要求当前账号是唯一主人，也要求记录属于该账号。登录界面没有注册入口，且数据库规则独立生效。
+
+表结构：
+
+- `study_records`：答题结果、复习标记、笔记与时间。
+- `study_favorites`：页面收藏。
+- `study_pages`：私人 HTML、名称、分类和更新时间。
+- `workspace_owner`：唯一主人账号 ID。
+
+忘记登录密码时，在 Supabase Authentication 中管理自己的账号。数据库密码与网站登录密码是两套不同凭据。项目暂停或服务不可用时，原公开页面仍可阅读，私人数据需要云端服务恢复后访问。
+
+官方参考：[Supabase Auth](https://supabase.com/docs/guides/auth)、[RLS 权限](https://supabase.com/docs/guides/database/postgres/row-level-security)、[公开密钥与服务端密钥](https://supabase.com/docs/guides/getting-started/api-keys)。
+
+## 项目结构与本地开发
+
+- `index.html`、`assets/app.*`：导航、目录、路由和 HTML 容器。
+- `assets/personal.js`：登录、HTML 和记录管理、答题同步。
+- `assets/cloud.js`：Supabase 数据访问和账号检查。
+- `assets/study-bridge.js`：嵌入题库的保存/恢复接口。
+- `supabase/`：数据结构和权限验证 SQL，不发布到网站。
+- `site.config.json`：站点名、默认页、标题覆盖和公开云端连接配置。
+- `scripts/build.py`：生成页面目录及发布文件；`scripts/bundle.mjs`：打包客户端。
+- `tests/`：构建、路由、收藏、记录/HTML 管理、失败反馈和答题恢复测试。
+
+需要 Python 3 和 Node.js 24：
 
 ```sh
 npm ci
 npm test
-node --check assets/app.js
+npm run build
+python3 -m http.server 8000 --directory dist
 ```
 
-## GitHub 发布
+打开 `http://localhost:8000/`。修改后重新构建。`dist/`、`node_modules/` 不提交到 Git。
 
-仓库 **Settings → Pages → Source** 使用 **GitHub Actions**。每次提交到 `main` 都会生成最新目录并发布 `dist/`。工作流失败时保留上一次成功部署的网站，错误可在 Actions 日志中查看。
+## GitHub 发布与域名
 
-源码、开发配置、测试依赖和历史仓库文件不会复制到发布目录。仓库本身为公开仓库。
+仓库 **Settings → Pages → Source** 使用 **GitHub Actions**。每次推送 `main` 都会测试、构建并发布 `dist/`；失败时保留上一次成功部署。
 
-## 绑定自己的域名
-
-以后在 **Settings → Pages → Custom domain** 绑定你拥有的域名并配置 DNS。框架使用相对路径，绑定域名后可以继续使用；分类和知识点路径保持不变。
+若要使用自己的域名，在 Pages 的 Custom domain 设置并配置 DNS。框架使用相对路径，分类和知识点路径可以继续使用；题库引用 bridge 的绝对 URL 可按需要同步修改。

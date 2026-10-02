@@ -49,6 +49,7 @@
       </section>
     </main>
   </div>
+  <script src="../assets/study-bridge.js"></script>
   <script>
     const items=[
       {letter:"A",text:"DNA replication"},
@@ -62,10 +63,18 @@
       "翻译利用 mRNA 合成蛋白质，不是遗传物质的复制过程。",
       "DNA 修复纠正特定损伤，不等同于细胞周期中的全基因组复制。"
     ];
-    let selected=-1,submitted=false;
+    let selected=-1,submitted=false,restoring=false;
     const choices=document.getElementById("choices");
     items.forEach((item,i)=>{const b=document.createElement("button");b.type="button";b.className="choice";b.setAttribute("role","radio");b.setAttribute("aria-checked","false");b.innerHTML=`<span class="letter">${item.letter}</span><span>${item.text}</span>`;b.addEventListener("click",()=>{if(submitted)return;selected=i;document.querySelectorAll(".choice").forEach((x,j)=>{x.classList.toggle("selected",j===i);x.setAttribute("aria-checked",String(j===i));});document.getElementById("submit").disabled=false;});choices.append(b);});
-    document.getElementById("submit").addEventListener("click",()=>{if(selected<0||submitted)return;submitted=true;const rows=document.querySelectorAll(".choice");rows.forEach((el,i)=>{if(i===0)el.classList.add("correct");else if(i===selected)el.classList.add("wrong");});const correct=selected===0;document.getElementById("hint").textContent=correct?"答对了。":"看看逐项解析，抓住考查机制。";document.getElementById("done").textContent="1 / 1";document.getElementById("correct").textContent=correct?"1":"0";document.getElementById("fill").style.width="100%";document.getElementById("submit").disabled=true;const box=document.getElementById("explanation");box.classList.add("visible");box.innerHTML=`<div class="result ${correct?"good":"bad"}">${correct?"✓ 回答正确":"× 回答错误 · 正确答案 A"}</div><p class="subtitle">S 期中细胞复制 DNA，使遗传信息能在细胞分裂后传递给子细胞。</p><h2 class="exp-title">选项逐项解析</h2><div class="exp-list">${items.map((x,i)=>`<div class="exp-row ${i===0?"right":""}"><b>${x.letter}. ${x.text}</b>${reasons[i]}</div>`).join("")}</div><div class="point"><b>考点：</b>区分 replication（复制 DNA）、transcription（转录 RNA）和 translation（翻译蛋白质）。</div>`;});
+    document.getElementById("submit").addEventListener("click",()=>{if(selected<0||submitted)return;submitted=true;const rows=document.querySelectorAll(".choice");rows.forEach((el,i)=>{if(i===0)el.classList.add("correct");else if(i===selected)el.classList.add("wrong");});const correct=selected===0;document.getElementById("hint").textContent=correct?"答对了。":"看看逐项解析，抓住考查机制。";document.getElementById("done").textContent="1 / 1";document.getElementById("correct").textContent=correct?"1":"0";document.getElementById("fill").style.width="100%";document.getElementById("submit").disabled=true;const box=document.getElementById("explanation");box.classList.add("visible");box.innerHTML=`<div class="result ${correct?"good":"bad"}">${correct?"✓ 回答正确":"× 回答错误 · 正确答案 A"}</div><p class="subtitle">S 期中细胞复制 DNA，使遗传信息能在细胞分裂后传递给子细胞。</p><h2 class="exp-title">选项逐项解析</h2><div class="exp-list">${items.map((x,i)=>`<div class="exp-row ${i===0?"right":""}"><b>${x.letter}. ${x.text}</b>${reasons[i]}</div>`).join("")}</div><div class="point"><b>考点：</b>区分 replication（复制 DNA）、transcription（转录 RNA）和 translation（翻译蛋白质）。</div>`;if(!restoring)window.StudyBridge?.save({question_id:"cell-cycle-dna-replication",selected,submitted:true,correct,marked:false});});
+    window.StudyBridge?.onRestore(records => {
+      const record=records.find(r=>r.question_id==="cell-cycle-dna-replication");
+      if(!record?.submitted || !Number.isInteger(record.selected) || record.selected<0 || record.selected>=items.length)return;
+      restoring=true;
+      document.querySelectorAll(".choice")[record.selected].click();
+      document.getElementById("submit").click();
+      restoring=false;
+    });
   </script>
 </body>
 </html>
