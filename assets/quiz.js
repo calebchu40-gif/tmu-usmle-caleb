@@ -31,7 +31,10 @@
   if(!embedded){try{const saved=JSON.parse(localStorage.getItem(storageKey)||'[]');if(Array.isArray(saved))restore(saved);}catch{/* Can still practice without local storage. */}}
   document.title=`${config.category} · ${config.section}`;
   $('section-category').textContent=config.category;$('section-title').textContent=config.section;$('section-description').textContent=config.description||'逐题提交，随时复习。';
-  $('knowledge-path').append(node('li',config.category),node('li',config.section));
+  function updateRefreshControl(){
+    $('refresh-questions').disabled=!ready||pending.size>0;
+    $('refresh-questions').title=pending.size?'请先完成保存或重试未保存的题目。':'';
+  }
   function updateMode(){
     $('mode-note').textContent=mode==='cloud'?'已登录 · 答题与标记保存到云端':mode==='session'?'未登录 · 仅本次窗口保留记录':mode==='local'?'独立打开 · 记录仅保存在本机浏览器':'正在恢复学习记录…';
   }
@@ -80,6 +83,7 @@
       if(q.point)exp.append(node('p',`考点：${q.point}`,'point'));if(q.clinicalNote)exp.append(node('p',q.clinicalNote,'clinical-note'));
       const refs=node('div',undefined,'references');for(const ref of q.references||[]){if(!/^https:\/\//.test(ref.url))continue;const a=node('a',ref.label);a.href=ref.url;a.target='_blank';a.rel='noopener noreferrer';refs.append(a);}exp.append(refs);card.append(exp);
     }
+    updateRefreshControl();
   }
   config.questions.forEach((q,i)=>{const card=node('article',undefined,'question-card');card.id=`question-${q.id}`;card.dataset.questionId=q.id;card.tabIndex=-1;cards.set(q.id,card);$('question-list').append(card);renderCard(q,i);});
   function localEvent(q,event){
@@ -123,6 +127,14 @@
   });
   const announce=()=>parent.postMessage({channel:'tmu-study-v2',type:'ready',section:{id:config.id,category:config.category,title:config.section,questions:config.questions.map(q=>({id:q.id,title:q.title}))}},'*');
   $('connect-retry').onclick=announce;
+  $('refresh-questions').onclick=()=>{
+    if(!ready||pending.size)return;
+    drafts.clear();feedback.clear();retrying.clear();
+    for(const q of config.questions)if(states.get(q.id).submitted)retrying.add(q.id);
+    config.questions.forEach(renderCard);
+    $('refresh-note').textContent='所有题目已恢复为可作答。历史、标记与统计保留，重新提交后更新最后一次结果。';
+    $('question-list').scrollTo?.({top:0,behavior:'smooth'});
+  };
   $('review-link').onclick=()=>{if(embedded)parent.postMessage({channel:'tmu-study-v2',type:'review'},'*');else{const first=config.questions.find(q=>states.get(q.id).marked);if(first)focusQuestion(first.id);}};
   updateMode();updateStats();
   if(embedded){announce();setTimeout(()=>{if(!ready){$('mode-note').textContent='记录连接未完成，请点击重试。';$('connect-retry').hidden=false;}},8000);}

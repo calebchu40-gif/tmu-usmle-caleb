@@ -6,6 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 TARGETS = {
     'cell-biology': '基础科学/细胞周期与遗传信息.html',
     'nutrition-vitamins': '生物化学/新生儿黄疸与核黄素.html',
+    'upload-test': 'tests/fixtures/上传测试小节.html',
 }
 def render(data):
     shell = (ROOT / 'templates/section-shell.html').read_text()

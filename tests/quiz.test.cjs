@@ -61,3 +61,25 @@ test('template output is self-contained and has the fixed sidebar / scroll colum
  assert.match(template,/\.quiz-columns\{display:grid/);
  assert.ok(template.includes('待复习 = 未做 + 最后一次答错'));
 });
+test('manual refresh unlocks every question and clears drafts without changing saved history or statistics',t=>{
+ const saved=[{question_id:ids[0],selected:0,submitted:true,correct:true,marked:true,correct_count:5,wrong_count:2},{question_id:ids[1],selected:0,submitted:true,correct:false,marked:false,correct_count:1,wrong_count:3}];
+ const {w,d,card,answer}=setup(t,{saved});
+ assert.equal(card(0).querySelector('.choice').disabled,true);assert.ok(card(0).querySelector('.explanation'));
+ card(2).querySelector('.choice').click();d.querySelector('#refresh-questions').click();
+ for(let i=0;i<4;i++){assert.equal(card(i).querySelector('.choice').disabled,false);assert.equal(card(i).querySelector('[aria-checked=true]'),null);assert.equal(card(i).querySelector('.explanation'),null);assert.equal(card(i).querySelector('.primary').disabled,true);}
+ assert.equal(d.querySelector('#correct-count').textContent,'1');assert.equal(d.querySelector('#review-count').textContent,'3');assert.equal(d.querySelector('#done-count').textContent,'2');
+ assert.equal(card(0).querySelector('.mark-button').getAttribute('aria-pressed'),'true');assert.deepEqual(JSON.parse(w.localStorage.getItem('tmu-section-v2:basic-science-cell-biology')),saved);
+ answer(0,1);assert.match(card(0).querySelector('.history').textContent,/正确 5 次错误 3 次/);assert.equal(d.querySelector('#correct-count').textContent,'0');assert.equal(d.querySelector('#review-count').textContent,'4');assert.ok(card(0).querySelector('.explanation'));
+});
+test('manual refresh sends no cloud writes and waits for pending saves',t=>{
+ const {d,card,answer,outbound,receive}=setup(t,{embedded:true});const refresh=d.querySelector('#refresh-questions');assert.equal(refresh.disabled,true);
+ receive({type:'restore',records:[],signedIn:true});assert.equal(refresh.disabled,false);answer(0,0);const event=outbound.at(-1).event;assert.equal(refresh.disabled,true);
+ receive({type:'result',question_id:ids[0],request_id:event.request_id,error:'断网'});assert.equal(refresh.disabled,true);
+ receive({type:'result',question_id:ids[0],request_id:event.request_id,saved:true,record:{question_id:ids[0],selected:0,correct:true,submitted:true,marked:false,correct_count:1,wrong_count:0}});
+ assert.equal(refresh.disabled,false);const count=outbound.length;refresh.click();assert.equal(outbound.length,count);assert.equal(card(0).querySelector('.choice').disabled,false);
+});
+test('every generated HTML uses the manual refresh card in place of the knowledge path',()=>{
+ for(const path of ['基础科学/细胞周期与遗传信息.html','生物化学/新生儿黄疸与核黄素.html','templates/小节题库模板.html','tests/fixtures/上传测试小节.html']){
+  const content=fs.readFileSync(path,'utf8');assert.match(content,/id="refresh-questions"/);assert.doesNotMatch(content,/id="knowledge-path"/);
+ }
+});
