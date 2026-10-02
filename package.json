@@ -2,7 +2,7 @@
   "name": "tmu-usmle-caleb",
   "private": true,
   "scripts": {
-    "build": "python3 scripts/build_quizzes.py && python3 scripts/build.py && node scripts/bundle.mjs",
+    "build": "python3 scripts/build.py",
     "test": "python3 -m unittest discover -s tests -v && node --test tests/*.test.cjs",
     "generate:quizzes": "python3 scripts/build_quizzes.py"
   },

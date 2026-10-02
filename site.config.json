@@ -1,14 +1,4 @@
 {
-  "title": "TMU · Caleb",
-  "defaultPage": "qbank.html",
-  "pages": {
-    "qbank.html": {
-      "title": "USMLE Step 1 自建题库",
-      "category": "USMLE Step 1"
-    }
-  },
-  "cloud": {
-    "url": "https://cavxkkumagjkuyuypheh.supabase.co",
-    "publishableKey": "sb_publishable_Jt9P9fnivQT0IW6ZtRz5pw_x0ana_41"
-  }
+  "title": "USMLE Step 1 自建题库",
+  "standaloneQuestionBank": true
 }

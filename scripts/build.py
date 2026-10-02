@@ -64,6 +64,34 @@ def build(root=ROOT):
         raise ValueError("dist must not be a symlink")
     if output.exists():
         shutil.rmtree(output)
+    if config.get("standaloneQuestionBank"):
+        question_file = root / "data/questions.json"
+        rows = json.loads(question_file.read_text(encoding="utf-8"))
+        (output / "assets/question-pages").mkdir(parents=True, exist_ok=True)
+        (output / "data").mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(root / "qbank.html", output / "index.html")
+        shutil.copyfile(root / "qbank.html", output / "qbank.html")
+        shutil.copyfile(question_file, output / "data/questions.json")
+        image_paths = sorted({
+            image
+            for question in rows
+            for image in (question.get("question_images") or [])
+        } | {
+            question["question_image"]
+            for question in rows
+            if question.get("question_image")
+        })
+        for image in image_paths:
+            source = (root / image).resolve()
+            try:
+                source.relative_to(root)
+            except ValueError as exc:
+                raise ValueError(f"Question image escapes project directory: {image}") from exc
+            if not source.is_file():
+                raise FileNotFoundError(f"Question image not found: {image}")
+            shutil.copyfile(source, output / image)
+        (output / ".nojekyll").touch()
+        return {"title": config.get("title") or "USMLE Step 1 自建题库", "defaultPage": "index.html", "pages": []}
     files = list(public_files(root))
     pages = []
     for source, relative in files:
