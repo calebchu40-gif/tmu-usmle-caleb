@@ -1,7 +1,12 @@
 {
   "title": "TMU · Caleb",
   "defaultPage": "生物化学/新生儿黄疸与核黄素.html",
-  "pages": {},
+  "pages": {
+    "qbank.html": {
+      "title": "USMLE Step 1 自建题库",
+      "category": "USMLE Step 1"
+    }
+  },
   "cloud": {
     "url": "https://cavxkkumagjkuyuypheh.supabase.co",
     "publishableKey": "sb_publishable_Jt9P9fnivQT0IW6ZtRz5pw_x0ana_41"
