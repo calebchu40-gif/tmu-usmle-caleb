@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b46">
+  <title>Step 1 自建题库 · 公开演示版</title>
+  <style>
+    :root{--navy:#102b46;--ink:#172b3d;--muted:#718194;--line:#e2e9ef;--paper:#fff;--canvas:#f3f6f8;--teal:#087f8c;--green:#16845b;--red:#b44742;--shadow:0 12px 32px rgba(16,43,70,.07);font-family:"Segoe UI","Microsoft YaHei UI",sans-serif;color-scheme:light}
+    *{box-sizing:border-box}body{margin:0;background:var(--canvas);color:var(--ink);min-height:100vh}button{font:inherit}.app{min-height:100vh;display:grid;grid-template-columns:245px minmax(0,1fr)}
+    .sidebar{background:var(--navy);color:#e7f0f7;padding:24px 17px;display:flex;flex-direction:column}.brand{display:flex;gap:11px;align-items:center;padding:4px 9px 28px}.mark{height:35px;width:35px;display:grid;place-items:center;border:1px solid #5b9fa5;border-radius:10px;color:#9ee4df;font-weight:700}.brand b{display:block}.brand small{color:#9ab0c3;font-size:10px}.nav-label{color:#8da4b8;font-size:10px;letter-spacing:.12em;padding:0 11px;margin:10px 0}.nav-item,.tree button{border:0;background:transparent;color:#d2dfeb;width:100%;text-align:left;border-radius:8px;padding:10px 11px;cursor:pointer}.nav-item.active,.tree button.active{background:#214666;color:#fff}.tree{border-left:1px solid #496177;margin:8px 0 12px 18px;padding-left:10px}.tree button{font-size:12px;padding:9px}.tree button.active{color:#9ee4df;background:rgba(14,145,153,.18)}.nav-spacer{flex:1}.privacy{border:1px solid rgba(190,215,233,.2);border-radius:9px;padding:12px;color:#bfd0dd;font-size:11px;line-height:1.6}.privacy b{display:block;color:#fff;margin-bottom:3px}
+    main{min-width:0}.topbar{height:64px;background:#ffffffeb;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 30px;color:var(--muted);font-size:12px}.lock{color:var(--teal);margin-right:7px}.workspace{max-width:1120px;margin:auto;padding:30px 32px 50px}.pagehead{display:flex;justify-content:space-between;align-items:end;gap:15px;margin:4px 0 22px}.eyebrow{color:var(--teal);font-size:10px;letter-spacing:.13em;font-weight:700}h1{font-size:28px;margin:7px 0 5px}.subtitle{color:var(--muted);font-size:13px}.chip{border:1px solid var(--line);padding:9px 12px;border-radius:8px;background:white;color:#52687c;font-size:11px;white-space:nowrap}
+    .layout{display:grid;grid-template-columns:minmax(0,1fr) 255px;gap:18px;align-items:start}.card{background:var(--paper);border:1px solid var(--line);border-radius:13px;box-shadow:var(--shadow);overflow:hidden}.toolbar{padding:16px 21px;border-bottom:1px solid #edf1f4;color:var(--muted);font-size:11px;display:flex;justify-content:space-between}.toolbar strong{color:var(--ink);font-size:13px}.qbody{padding:23px}.tags{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:15px}.tag{background:#edf4f7;color:#476477;border-radius:99px;padding:5px 9px;font-size:10px}.tag:first-child{background:#e7f5f5;color:#08717a}.stem{font-size:16px;line-height:1.75;margin:0 0 18px;color:#25394b}.choices{display:grid;gap:9px}.choice{display:flex;align-items:flex-start;gap:11px;text-align:left;background:#fff;color:#34495c;border:1px solid #dfe7ed;border-radius:9px;padding:11px 13px;cursor:pointer;line-height:1.5;font-size:13px}.choice:hover{border-color:#80b9bd}.choice.selected{background:#f0f9f9;border-color:var(--teal)}.choice.correct{background:#eaf7f0;border-color:#66b58f}.choice.wrong{background:#fff0ed;border-color:#d98b81}.letter{flex:none;width:24px;height:24px;border:1px solid #ccd8e1;border-radius:50%;display:grid;place-items:center;color:#72869a;font-size:10px;font-weight:700}.footer{padding:15px 21px;border-top:1px solid #edf1f4;display:flex;align-items:center;justify-content:space-between;gap:10px;color:#8997a5;font-size:11px}.btn{border:1px solid #d7e1e8;background:white;color:#52687c;padding:9px 14px;border-radius:8px;font-size:12px;font-weight:650;cursor:pointer}.btn.primary{background:var(--teal);border-color:var(--teal);color:white}.btn:disabled{opacity:.45;cursor:not-allowed}.explanation{display:none;padding:19px 22px;background:linear-gradient(180deg,#f2fbf7,#fff);border-top:1px solid #d7ece6}.explanation.visible{display:block}.result{font-weight:700;margin-bottom:8px}.result.good{color:var(--green)}.result.bad{color:var(--red)}.exp-title{font-size:12px;color:#284a42;margin:15px 0 8px}.exp-list{display:grid;gap:7px}.exp-row{padding:9px 11px;border:1px solid #e1ece8;border-radius:8px;background:#ffffffc9;font-size:12px;line-height:1.6}.exp-row b{margin-right:5px}.exp-row.right{border-color:#9acdb5;background:#edf8f2}.point{border-top:1px solid #dceee7;margin-top:13px;padding-top:11px;color:#507267;font-size:11px;line-height:1.6}.side{display:grid;gap:12px}.sidecard{background:white;border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:0 5px 17px #102b460a}.sidecard h2{font-size:12px;margin:0 0 12px}.metric{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:11px}.metric strong{font-size:18px;color:var(--ink)}.track{height:6px;background:#e7edf1;border-radius:8px;margin:10px 0;overflow:hidden}.fill{height:100%;width:0;background:var(--teal);transition:width .2s}.path{font-size:11px;color:#52697d;line-height:1.9}.note{font-size:11px;line-height:1.6;color:#526c72;background:#edf7f7;border-color:#d4eaea}.mobile{display:none}
+    @media(max-width:900px){.layout{grid-template-columns:1fr}.side{grid-template-columns:repeat(2,minmax(0,1fr))}.note{grid-column:1/-1}}
+    @media(max-width:650px){.app{display:block}.sidebar{display:none}.topbar{height:55px;padding:0 15px}.workspace{padding:21px 13px 30px}.pagehead{display:block}.chip{display:inline-block;margin-top:12px}h1{font-size:24px}.qbody{padding:17px 14px}.stem{font-size:15px}.footer{align-items:flex-start;flex-direction:column;padding:14px}.side{gap:9px}.sidecard{padding:13px}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand"><div class="mark">Q</div><div><b>Step 1 题库</b><small>PUBLIC DEMO WORKSPACE</small></div></div>
+      <div class="nav-label">学习工作台</div><button class="nav-item">⌂　总览</button><button class="nav-item active">▤　按知识点练习</button><button class="nav-item">⚑　待复习</button>
+      <div class="nav-label">题库分类 · 演示</div><button class="nav-item active">＋　基础科学</button><div class="tree"><button class="active">全部演示题　　1</button><button>细胞生物学　　1</button></div><button class="nav-item">＋　其他学科</button>
+      <div class="nav-spacer"></div><div class="privacy"><b>公开演示版</b>目前用于检查题库界面与答题流程。<br><a href="./" style="color:#9ee4df">← 返回学习工作台</a></div>
+    </aside>
+    <main>
+      <header class="topbar"><span>题库　/　基础科学　/　<b>细胞生物学</b></span><span><span class="lock">▣</span>公开演示</span></header>
+      <section class="workspace">
+        <div class="pagehead"><div><div class="eyebrow">知识点练习 · 演示</div><h1>按小节练习</h1><div class="subtitle">答题后查看正确思路、每个选项的解释和考点总结。</div></div><div class="chip">●　练习模式 · 即时反馈</div></div>
+        <div class="layout">
+          <section class="card" aria-label="练习题">
+            <div class="toolbar"><span>演示题 <strong>01</strong>　/ 01</span><span>◇　标记复习</span></div>
+            <div class="qbody"><div class="tags"><span class="tag">基础科学</span><span class="tag">细胞生物学</span><span class="tag">界面演示内容</span></div>
+              <p class="stem">在细胞进入有丝分裂之前，S 期中最直接确保每个子细胞都能获得完整遗传信息的过程是什么？</p>
+              <div class="choices" id="choices" role="radiogroup" aria-label="答案选项"></div>
+            </div>
+            <div class="footer"><span id="hint">请选择一个最合适的答案。</span><button class="btn primary" id="submit" disabled>提交答案</button></div>
+            <div class="explanation" id="explanation" aria-live="polite"></div>
+          </section>
+          <aside class="side">
+            <section class="sidecard"><h2>本组进度</h2><div class="metric"><span>已完成</span><strong id="done">0 / 1</strong></div><div class="track"><div class="fill" id="fill"></div></div><span class="subtitle">仅记录本次练习，刷新后重置。</span></section>
+            <section class="sidecard"><h2>知识点路径</h2><div class="path">基础科学<br>　└ 细胞生物学<br>　　 └ 细胞周期与遗传信息</div></section>
+            <section class="sidecard"><h2>练习记录</h2><div class="metric"><span>答对</span><strong id="correct">0</strong></div></section>
+            <section class="sidecard note"><h2>测试说明</h2>这是用于确认固定网址、公开访问和答题交互的演示版。实际题库与解析暂未上传。</section>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script>
+    const items=[
+      {letter:"A",text:"DNA replication"},
+      {letter:"B",text:"Transcription of messenger RNA"},
+      {letter:"C",text:"Translation of proteins"},
+      {letter:"D",text:"Repair of damaged DNA"}
+    ];
+    const reasons=[
+      "正确。DNA replication 在 S 期复制基因组 DNA，为随后细胞分裂准备遗传物质。",
+      "转录把 DNA 信息拷贝成 RNA，不会复制整套基因组。",
+      "翻译利用 mRNA 合成蛋白质，不是遗传物质的复制过程。",
+      "DNA 修复纠正特定损伤，不等同于细胞周期中的全基因组复制。"
+    ];
+    let selected=-1,submitted=false;
+    const choices=document.getElementById("choices");
+    items.forEach((item,i)=>{const b=document.createElement("button");b.type="button";b.className="choice";b.setAttribute("role","radio");b.setAttribute("aria-checked","false");b.innerHTML=`<span class="letter">${item.letter}</span><span>${item.text}</span>`;b.addEventListener("click",()=>{if(submitted)return;selected=i;document.querySelectorAll(".choice").forEach((x,j)=>{x.classList.toggle("selected",j===i);x.setAttribute("aria-checked",String(j===i));});document.getElementById("submit").disabled=false;});choices.append(b);});
+    document.getElementById("submit").addEventListener("click",()=>{if(selected<0||submitted)return;submitted=true;const rows=document.querySelectorAll(".choice");rows.forEach((el,i)=>{if(i===0)el.classList.add("correct");else if(i===selected)el.classList.add("wrong");});const correct=selected===0;document.getElementById("hint").textContent=correct?"答对了。":"看看逐项解析，抓住考查机制。";document.getElementById("done").textContent="1 / 1";document.getElementById("correct").textContent=correct?"1":"0";document.getElementById("fill").style.width="100%";document.getElementById("submit").disabled=true;const box=document.getElementById("explanation");box.classList.add("visible");box.innerHTML=`<div class="result ${correct?"good":"bad"}">${correct?"✓ 回答正确":"× 回答错误 · 正确答案 A"}</div><p class="subtitle">S 期中细胞复制 DNA，使遗传信息能在细胞分裂后传递给子细胞。</p><h2 class="exp-title">选项逐项解析</h2><div class="exp-list">${items.map((x,i)=>`<div class="exp-row ${i===0?"right":""}"><b>${x.letter}. ${x.text}</b>${reasons[i]}</div>`).join("")}</div><div class="point"><b>考点：</b>区分 replication（复制 DNA）、transcription（转录 RNA）和 translation（翻译蛋白质）。</div>`;});
+  </script>
+</body>
+</html>
