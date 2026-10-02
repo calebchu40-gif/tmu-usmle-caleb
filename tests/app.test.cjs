@@ -111,12 +111,12 @@ test('both section files contain independent questions and per-question submit b
     const dom = new JSDOM(fs.readFileSync(path.join(root, file), 'utf8'), { url: `https://example.test/${file}`, runScripts: 'dangerously' });
     t.after(() => dom.window.close());
     const d=dom.window.document,cards=d.querySelectorAll('.question-card');
-    assert.equal(cards.length,4); assert.equal(d.querySelector('#review-count').textContent,'4');
+    assert.equal(cards.length,4); assert.equal(d.querySelector('#review-questions').textContent,'1，2，3，4');
     assert.equal(cards[0].querySelector('.primary').disabled,true);
     cards[0].querySelectorAll('.choice')[answer].click();cards[0].querySelector('.primary').click();
     assert.match(cards[0].querySelector('.explanation').textContent,/回答正确/);
     assert.equal(cards[1].querySelector('.explanation'),null);
     assert.equal(d.querySelector('#done-count').textContent,'1');
-    assert.equal(d.querySelector('#review-count').textContent,'3');
+    assert.equal(d.querySelector('#review-questions').textContent,'2，3，4');
   }
 });

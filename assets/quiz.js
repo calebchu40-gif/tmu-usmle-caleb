@@ -44,8 +44,17 @@
     card.classList.add('focused');card.scrollIntoView?.({behavior:'smooth',block:'start'});card.focus({preventScroll:true});
   }
   function updateStats(){
-    const rows=[...states.values()],done=rows.filter(r=>r.submitted).length,correct=rows.filter(r=>r.submitted&&r.correct).length;
-    $('done-count').textContent=done;$('total-count').textContent=rows.length;$('correct-count').textContent=correct;$('review-count').textContent=rows.length-correct;
+    const rows=[...states.values()],done=rows.filter(r=>r.submitted).length;
+    $('done-count').textContent=done;$('total-count').textContent=rows.length;
+    const correctList=$('correct-questions'),reviewList=$('review-questions');
+    correctList.replaceChildren();reviewList.replaceChildren();
+    config.questions.forEach((q,i)=>{
+      const s=states.get(q.id),correct=s.submitted&&s.correct===true,list=correct?correctList:reviewList;
+      if(list.children.length){const separator=node('span','，','question-separator');separator.setAttribute('aria-hidden','true');list.append(separator);}
+      const b=button(String(i+1),'result-question',()=>focusQuestion(q.id));
+      b.setAttribute('aria-label',`第 ${i+1} 题 ${q.title} · ${correct?'答对':s.submitted?'错误':'未做'}`);list.append(b);
+    });
+    for(const list of [correctList,reviewList])if(!list.children.length)list.append(node('span','暂无','result-empty'));
     $('progress-fill').style.width=`${done/rows.length*100}%`;
     $('question-map').replaceChildren();
     config.questions.forEach((q,i)=>{
