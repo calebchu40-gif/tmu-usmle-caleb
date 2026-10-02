@@ -4,360 +4,40 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#102b46">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23102b46'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-size='36' font-weight='700' fill='%238ddddd'%3EQ%3C/text%3E%3C/svg%3E">
-  <title>Step 1 自建题库 · 学习工作台</title>
-  <style>
-    :root {
-      color-scheme: light;
-      --navy: #102b46;
-      --navy-2: #183a5b;
-      --ink: #172b3d;
-      --muted: #718194;
-      --line: #e2e9ef;
-      --paper: #ffffff;
-      --canvas: #f3f6f8;
-      --teal: #087f8c;
-      --teal-soft: #e7f5f5;
-      --green: #16845b;
-      --green-soft: #eaf7f0;
-      --red: #b44742;
-      --red-soft: #fff0ed;
-      --shadow: 0 12px 32px rgba(16, 43, 70, .07);
-      font-family: "Segoe UI", "Microsoft YaHei UI", sans-serif;
-    }
-    * { box-sizing: border-box; }
-    body { margin: 0; background: var(--canvas); color: var(--ink); min-height: 100vh; }
-    button { font: inherit; }
-    .app { min-height: 100vh; display: grid; grid-template-columns: 254px minmax(0, 1fr); }
-    .sidebar { background: var(--navy); color: #e7f0f7; padding: 25px 17px 22px; display: flex; flex-direction: column; }
-    .brand { display: flex; align-items: center; gap: 11px; padding: 2px 9px 27px; }
-    .brand-mark { width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid rgba(141, 221, 220, .55); border-radius: 10px; color: #8ddddd; font-size: 18px; font-weight: 700; }
-    .brand-name { font-size: 17px; font-weight: 650; letter-spacing: .02em; }
-    .brand-caption { color: #9ab0c3; font-size: 11px; margin-top: 2px; }
-    .nav-label { color: #8da4b8; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; padding: 0 11px; margin: 12px 0 9px; }
-    .nav-item, .tree-item { width: 100%; border: 0; color: #d2dfeb; background: transparent; border-radius: 8px; text-align: left; cursor: pointer; }
-    .nav-item { display: flex; gap: 11px; align-items: center; padding: 10px 11px; font-size: 14px; }
-    .nav-item:hover, .tree-item:hover { background: rgba(255,255,255,.08); }
-    .nav-item.active { background: #214666; color: white; }
-    .nav-ico { width: 18px; color: #9bb3c6; text-align: center; font-size: 15px; }
-    .tree { border-left: 1px solid rgba(180,205,222,.24); margin: 8px 0 8px 19px; padding-left: 10px; }
-    .tree-item { display: flex; justify-content: space-between; gap: 8px; padding: 8px 9px; font-size: 12px; line-height: 1.45; }
-    .tree-item.selected { color: #9ee4df; background: rgba(14, 145, 153, .18); }
-    .count { color: #91a8bb; font-size: 11px; white-space: nowrap; }
-    .tree-item.selected .count { color: #9ee4df; }
-    .sidebar-spacer { flex: 1; min-height: 32px; }
-    .sidebar-note { border: 1px solid rgba(190,215,233,.17); background: rgba(255,255,255,.045); border-radius: 10px; padding: 12px; color: #b8cad8; font-size: 12px; line-height: 1.55; }
-    .sidebar-note strong { display: block; color: #eff7fb; font-size: 12px; margin-bottom: 4px; }
-    main { min-width: 0; }
-    .topbar { height: 66px; background: rgba(255,255,255,.88); border-bottom: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; padding: 0 34px; position: sticky; top: 0; z-index: 3; backdrop-filter: blur(10px); }
-    .crumb { color: var(--muted); font-size: 13px; }
-    .crumb b { color: var(--ink); font-weight: 600; }
-    .top-actions { display: flex; align-items: center; gap: 18px; color: var(--muted); font-size: 12px; }
-    .private-label { display: inline-flex; align-items: center; gap: 7px; }
-    .lock { color: var(--teal); }
-    .avatar { width: 30px; height: 30px; border-radius: 50%; background: #deeff0; color: #116a75; display: grid; place-items: center; font-weight: 700; font-size: 12px; }
-    .workspace { max-width: 1160px; margin: 0 auto; padding: 30px 34px 48px; }
-    .page-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; margin: 3px 0 23px; }
-    .eyebrow { color: var(--teal); text-transform: uppercase; letter-spacing: .13em; font-size: 11px; font-weight: 700; }
-    h1 { font-size: clamp(23px, 3vw, 30px); letter-spacing: -.025em; margin: 7px 0 5px; line-height: 1.2; }
-    .subtitle { color: var(--muted); font-size: 14px; }
-    .session-chip { border: 1px solid var(--line); color: #506579; background: #fff; padding: 9px 12px; border-radius: 8px; font-size: 12px; white-space: nowrap; }
-    .session-chip span { color: var(--green); margin-right: 5px; }
-    .layout { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 19px; align-items: start; }
-    .question-card, .side-card { background: var(--paper); border: 1px solid var(--line); border-radius: 13px; box-shadow: var(--shadow); }
-    .question-card { overflow: hidden; }
-    .q-toolbar { display: flex; justify-content: space-between; align-items: center; padding: 17px 22px 14px; border-bottom: 1px solid #edf1f4; }
-    .q-number { color: var(--muted); font-size: 12px; font-weight: 600; letter-spacing: .04em; }
-    .q-number strong { color: var(--ink); font-size: 14px; }
-    .q-actions { display: flex; align-items: center; gap: 14px; }
-    .text-button { border: 0; background: none; color: #6b7e90; cursor: pointer; font-size: 12px; padding: 4px; }
-    .text-button:hover { color: var(--teal); }
-    .text-button.marked { color: #a86b16; }
-    .q-body { padding: 24px 25px 15px; }
-    .tags { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 16px; }
-    .tag { border-radius: 99px; background: #edf4f7; color: #476477; padding: 5px 9px; font-size: 11px; }
-    .tag.accent { background: var(--teal-soft); color: #08717a; }
-    .stem { font-size: 16px; line-height: 1.75; color: #25394b; margin: 0 0 19px; }
-    .choices { display: grid; gap: 9px; }
-    .choice { width: 100%; display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; text-align: left; border: 1px solid #dfe7ed; border-radius: 9px; background: #fff; color: #34495c; cursor: pointer; line-height: 1.5; font-size: 14px; transition: border-color .15s, background .15s, transform .15s; }
-    .choice:hover { border-color: #80b9bd; background: #fbfefe; }
-    .choice:active { transform: translateY(1px); }
-    .choice.selected { border-color: var(--teal); background: #f0f9f9; box-shadow: 0 0 0 2px rgba(8,127,140,.08); }
-    .choice.correct { border-color: #66b58f; background: var(--green-soft); color: #195d42; }
-    .choice.incorrect { border-color: #d98b81; background: var(--red-soft); color: #88403b; }
-    .letter { flex: 0 0 25px; width: 25px; height: 25px; display: grid; place-items: center; border: 1px solid #ccd8e1; border-radius: 50%; color: #72869a; font-size: 11px; font-weight: 700; margin-top: -2px; }
-    .choice.selected .letter { border-color: var(--teal); color: var(--teal); }
-    .choice.correct .letter { background: var(--green); color: white; border-color: var(--green); }
-    .choice.incorrect .letter { background: var(--red); color: white; border-color: var(--red); }
-    .q-footer { display: flex; align-items: center; justify-content: space-between; padding: 18px 22px; border-top: 1px solid #edf1f4; gap: 12px; }
-    .footer-hint { color: #8997a5; font-size: 12px; }
-    .button-row { display: flex; gap: 9px; }
-    .btn { border: 1px solid #d7e1e8; background: #fff; color: #52687c; padding: 10px 14px; border-radius: 8px; font-size: 13px; font-weight: 650; cursor: pointer; }
-    .btn:disabled { opacity: .45; cursor: not-allowed; }
-    .btn.primary { color: #fff; background: var(--teal); border-color: var(--teal); }
-    .btn.primary:hover:not(:disabled) { background: #066c77; }
-    .btn:not(.primary):hover:not(:disabled) { border-color: #9fb6c3; }
-    .explanation { display: none; padding: 20px 24px 22px; border-top: 1px solid #d7ece6; background: linear-gradient(180deg, #f2fbf7, #fff); }
-    .explanation.visible { display: block; animation: reveal .22s ease-out; }
-    @keyframes reveal { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
-    .result-line { display: flex; align-items: center; gap: 9px; font-size: 14px; font-weight: 700; margin-bottom: 9px; }
-    .result-line.good { color: var(--green); }
-    .result-line.bad { color: var(--red); }
-    .explanation p { margin: 0; color: #405a55; font-size: 14px; line-height: 1.75; }
-    .answer-reason { margin-bottom: 14px !important; }
-    .rationale-heading { color: #284a42; font-size: 13px; margin: 17px 0 8px; }
-    .rationale-list { display: grid; gap: 7px; }
-    .rationale-item { display: grid; grid-template-columns: 26px 1fr; gap: 9px; padding: 9px 11px; border: 1px solid #e1ece8; border-radius: 8px; background: rgba(255,255,255,.78); }
-    .rationale-item.is-correct { border-color: #9acdb5; background: #edf8f2; }
-    .rationale-letter { color: #60786f; font-weight: 700; font-size: 12px; }
-    .rationale-item span { color: #405a55; font-size: 13px; line-height: 1.65; }
-    .learning-point { display: flex; gap: 9px; border-top: 1px solid #dceee7; margin-top: 14px; padding-top: 12px; color: #507267; font-size: 12px; line-height: 1.55; }
-    .learning-point b { color: #276954; white-space: nowrap; }
-    .clinical-note { margin-top: 14px; padding: 12px 13px; border-left: 3px solid #75aeb2; border-radius: 0 8px 8px 0; background: #f0f7f8; }
-    .clinical-note strong { display: block; margin-bottom: 5px; color: #315c64; font-size: 12px; }
-    .clinical-note p { color: #48636a; font-size: 12px; }
-    .source-links { display: flex; flex-wrap: wrap; gap: 8px 15px; margin-top: 11px; font-size: 12px; }
-    .source-links a { color: #087783; }
-    .side-stack { display: grid; gap: 13px; }
-    .side-card { padding: 17px; box-shadow: 0 5px 17px rgba(16,43,70,.04); }
-    .side-title { font-size: 13px; font-weight: 700; margin: 0 0 14px; }
-    .progress-row { display: flex; justify-content: space-between; align-items: baseline; color: var(--muted); font-size: 12px; }
-    .progress-row strong { color: var(--ink); font-size: 18px; }
-    .progress-track { height: 6px; border-radius: 9px; background: #e7edf1; margin: 10px 0 9px; overflow: hidden; }
-    .progress-fill { height: 100%; background: var(--teal); border-radius: inherit; width: 50%; transition: width .25s; }
-    .progress-foot { color: #8795a2; font-size: 11px; }
-    .topic-path { color: #52697d; font-size: 12px; line-height: 1.8; }
-    .topic-path div { display: flex; gap: 8px; align-items: center; }
-    .topic-path .indent { padding-left: 16px; color: #708396; }
-    .topic-dot { width: 6px; height: 6px; border-radius: 50%; background: #67b3b5; }
-    .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
-    .stat { background: #f6f8fa; border-radius: 8px; padding: 10px; }
-    .stat b { display: block; font-size: 17px; color: var(--ink); margin-bottom: 2px; }
-    .stat span { font-size: 11px; color: var(--muted); }
-    .note-card { background: #edf7f7; border-color: #d4eaea; }
-    .note-card p { font-size: 12px; line-height: 1.6; color: #526c72; margin: 0; }
-    .mobile-menu { display: none; }
-    @media (max-width: 980px) {
-      .app { grid-template-columns: 220px minmax(0, 1fr); }
-      .layout { grid-template-columns: minmax(0, 1fr); }
-      .side-stack { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .note-card { grid-column: 1 / -1; }
-    }
-    @media (max-width: 680px) {
-      .app { display: block; }
-      .sidebar { display: none; }
-      .sidebar.mobile-open { display: flex; position: fixed; inset: 56px auto 0 0; width: min(290px, 86vw); z-index: 8; box-shadow: 12px 0 28px rgba(16,43,70,.22); overflow-y: auto; }
-      .topbar { height: 56px; padding: 0 16px; }
-      .mobile-menu { display: inline-grid; place-items: center; width: 32px; height: 32px; margin-right: 9px; border: 1px solid var(--line); border-radius: 7px; color: var(--ink); background: #fff; }
-      .crumb-wrap { display: flex; align-items: center; }
-      .top-actions { gap: 10px; }
-      .private-label { font-size: 0; gap: 0; }
-      .workspace { padding: 22px 14px 32px; }
-      .page-head { align-items: flex-start; flex-direction: column; margin-bottom: 17px; gap: 12px; }
-      .session-chip { align-self: flex-start; }
-      .q-toolbar { padding: 14px 16px 12px; }
-      .q-body { padding: 18px 15px 14px; }
-      .stem { font-size: 15px; line-height: 1.7; }
-      .choice { padding: 11px; font-size: 13px; }
-      .q-footer { padding: 14px 15px; align-items: flex-start; flex-direction: column; }
-      .button-row { width: 100%; }
-      .button-row .btn { flex: 1; }
-      .side-stack { grid-template-columns: 1fr 1fr; gap: 10px; }
-      .side-card { padding: 14px; }
-      .note-card { grid-column: 1 / -1; }
-    }
-    @media (max-width: 390px) { .side-stack { grid-template-columns: 1fr; } .note-card { grid-column: auto; } }
-  </style>
+  <title>TMU · Caleb 学习工作台</title>
+  <link rel="stylesheet" href="./assets/app.css">
+  <script src="./assets/app.js" defer></script>
 </head>
 <body>
-  <div class="app">
-    <aside class="sidebar" aria-label="题库导航">
-      <div class="brand">
-        <div class="brand-mark">Q</div>
-        <div><div class="brand-name">Step 1 题库</div><div class="brand-caption">PERSONAL STUDY WORKSPACE</div></div>
-      </div>
-      <div class="nav-label">学习工作台</div>
-      <button class="nav-item"><span class="nav-ico">⌂</span>总览</button>
-      <button class="nav-item active"><span class="nav-ico">▤</span>按知识点练习</button>
-      <button class="nav-item"><span class="nav-ico">⚑</span>待复习</button>
-      <div class="nav-label">题库分类 · Step 1</div>
-      <button class="nav-item active"><span class="nav-ico">＋</span>生物化学</button>
-      <div class="tree">
-        <button class="tree-item selected" data-filter="all"><span>全部小节</span><span class="count">1</span></button>
-        <button class="tree-item" data-filter="vitamin"><span>营养与维生素</span><span class="count">1</span></button>
-      </div>
-      <button class="nav-item"><span class="nav-ico">＋</span>其他 Step 1 学科</button>
-      <div class="sidebar-spacer"></div>
-      <div class="sidebar-note"><strong>本周练习</strong>先学一个小节，再做几题巩固。分类和题目之后都可以按你的学习顺序调整。<br><a href="./1.html" style="color:#9ee4df">打开基础科学演示 →</a></div>
-    </aside>
-
-    <main>
-      <header class="topbar">
-        <div class="crumb-wrap"><button class="mobile-menu" aria-label="打开分类">☰</button><div class="crumb">题库 <span> / </span> 生物化学 <span> / </span> <b>营养与维生素</b></div></div>
-        <div class="top-actions"><span class="private-label"><span class="lock">▣</span> 公开学习站 · Caleb</span><div class="avatar">C</div></div>
-      </header>
-
-      <section class="workspace">
-        <div class="page-head">
-          <div><div class="eyebrow">知识点练习</div><h1 id="pageTitle">新生儿黄疸与核黄素</h1><div class="subtitle">提交后查看正确思路、各选项分析与临床知识提示。</div></div>
-          <div class="session-chip"><span>●</span>练习模式 · 即时反馈</div>
-        </div>
-
-        <div class="layout">
-          <section class="question-card" aria-label="练习题">
-            <div class="q-toolbar"><div class="q-number">导入样题 <strong id="questionIndex">01</strong> <span id="questionTotal">/ 01</span></div><div class="q-actions"><button id="bookmarkBtn" class="text-button" type="button">☆ 标记复习</button><button class="text-button" type="button" aria-label="题目设置">⋯</button></div></div>
-            <div class="q-body">
-              <div class="tags"><span class="tag accent" id="tagSystem">生物化学</span><span class="tag" id="tagTopic">营养与维生素</span><span class="tag">本地导入样题</span></div>
-              <p class="stem" id="stem"></p>
-              <div class="choices" id="choices" role="radiogroup" aria-label="答案选项"></div>
-            </div>
-            <div class="q-footer"><div class="footer-hint" id="hint">选择一个最合适的答案。</div><div class="button-row"><button id="prevBtn" class="btn" type="button">上一题</button><button id="submitBtn" class="btn primary" type="button" disabled>提交答案</button><button id="nextBtn" class="btn" type="button">下一题</button></div></div>
-            <div class="explanation" id="explanation" aria-live="polite"></div>
-          </section>
-
-          <aside class="side-stack" aria-label="练习信息">
-            <section class="side-card"><h2 class="side-title">本组进度</h2><div class="progress-row"><span>已完成</span><strong><span id="doneCount">0</span> / <span id="totalCount">1</span></strong></div><div class="progress-track"><div class="progress-fill" id="progressFill"></div></div><div class="progress-foot" id="progressFoot">完成本题后会记录在这里</div></section>
-            <section class="side-card"><h2 class="side-title">知识点路径</h2><div class="topic-path"><div><span class="topic-dot"></span>生物化学</div><div class="indent">营养与维生素</div><div class="indent" id="topicPath">新生儿黄疸与核黄素</div></div></section>
-            <section class="side-card"><h2 class="side-title">练习记录</h2><div class="stat-grid"><div class="stat"><b id="correctCount">0</b><span>答对</span></div><div class="stat"><b id="markedCount">0</b><span>待复习</span></div></div></section>
-            <section class="side-card note-card"><h2 class="side-title">解析结构</h2><p>提交后先看答案依据，再逐项查看每个选项的判断理由。医学机制题可附考试考点与当前临床提示。</p></section>
-          </aside>
-        </div>
-      </section>
-    </main>
-  </div>
-
-  <script>
-    // Local sample imported from the user's provided study file; clinical context is supplemented below.
-    const questions = [
-      {
-        topicKey: "vitamin",
-        topic: "新生儿黄疸与核黄素",
-        tags: ["生物化学", "营养与维生素", "新生儿黄疸"],
-        stem: "A neonate develops a yellow discoloration of the skin and sclerae two days after birth. The condition worsens the following day. Appropriate therapy and vitamin supplementation are begun. Which of the following is the most appropriate vitamin therapy for this patient?",
-        options: ["Ascorbate", "Folate", "Niacin", "Riboflavin", "Vitamin D"],
-        answer: 3,
-        explanation: "新生儿黄疸常与未结合胆红素升高有关；达到治疗阈值时，光疗可帮助胆红素转化为更易排出的形式。本题考查的营养学关联是：蓝光暴露可造成核黄素（维生素 B₂）光降解，因此题目所列补充选项中应选核黄素。",
-        optionExplanations: [
-          "错误。抗坏血酸是维生素 C；缺乏时典型问题是胶原合成障碍和坏血病，不是光疗相关的维生素消耗。",
-          "错误。叶酸参与一碳代谢与核苷酸合成；缺乏可导致巨幼细胞性贫血等，但不是本题所考查的光疗相关营养素。",
-          "错误。烟酸是 NAD⁺/NADP⁺ 的前体；缺乏可导致糙皮病，与题干所述光疗机制不符。",
-          "正确。核黄素是维生素 B₂；蓝光光疗可能使其发生光降解，这是本题询问补充核黄素的机制依据。",
-          "错误。维生素 D 主要调节钙磷稳态和骨矿化；缺乏可影响骨骼矿化，不是新生儿光疗相关的补充维生素。"
-        ],
-        point: "考点链条：未结合胆红素升高 → 达到阈值时采用光疗；蓝光可光降解核黄素 → 本题选择维生素 B₂。",
-        clinicalNote: "考试机制题不等同于普遍临床处方。实际新生儿高胆红素血症的评估与光疗决策应依据胎龄、出生后小时数、胆红素水平及神经毒性风险因素，并遵循当前指南；不能仅凭这道题推断所有接受光疗的新生儿都需常规补充核黄素。",
-        references: [
-          { label: "AAP 2022 新生儿高胆红素血症临床指南", url: "https://doi.org/10.1542/peds.2022-058859" },
-          { label: "AAP 2024 光疗技术报告", url: "https://doi.org/10.1542/peds.2024-068026" }
-        ]
-      }
-    ];
-    let current = 0;
-    let visibleIndices = [0];
-    let selected = null;
-    const selections = new Map();
-    const answers = new Map();
-    const marked = new Set();
-    const letters = ["A", "B", "C", "D", "E"];
-    const $ = (id) => document.getElementById(id);
-
-    function render() {
-      const q = questions[current];
-      const prior = answers.get(current);
-      selected = prior ? prior.selected : (selections.get(current) ?? null);
-      const position = visibleIndices.indexOf(current);
-      $("questionIndex").textContent = String(position + 1).padStart(2, "0");
-      $("questionTotal").textContent = `/ 0${visibleIndices.length}`;
-      $("tagTopic").textContent = q.topic;
-      $("topicPath").textContent = q.topic;
-      $("stem").textContent = q.stem;
-      $("choices").replaceChildren();
-      q.options.forEach((label, i) => {
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "choice";
-        btn.setAttribute("role", "radio");
-        btn.setAttribute("aria-checked", String(selected === i));
-        if (selected === i) btn.classList.add("selected");
-        if (prior && prior.submitted) {
-          btn.disabled = true;
-          if (i === q.answer) btn.classList.add("correct");
-          else if (i === prior.selected) btn.classList.add("incorrect");
-        }
-        btn.innerHTML = `<span class="letter">${letters[i]}</span><span></span>`;
-        btn.lastElementChild.textContent = label;
-        btn.addEventListener("click", () => { if (!answers.get(current)?.submitted) { selected = i; selections.set(current, i); render(); } });
-        $("choices").append(btn);
-      });
-      $("submitBtn").disabled = selected === null || Boolean(prior?.submitted);
-      $("submitBtn").textContent = prior?.submitted ? "已提交" : "提交答案";
-      $("prevBtn").disabled = position <= 0;
-      $("nextBtn").disabled = position >= visibleIndices.length - 1;
-      $("nextBtn").textContent = position === visibleIndices.length - 1 ? "本组末题" : "下一题";
-      $("bookmarkBtn").classList.toggle("marked", marked.has(current));
-      $("bookmarkBtn").textContent = marked.has(current) ? "★ 已标记" : "☆ 标记复习";
-      const exp = $("explanation");
-      exp.classList.toggle("visible", Boolean(prior?.submitted));
-      if (prior?.submitted) {
-        const correct = prior.selected === q.answer;
-        exp.innerHTML = `<div class="result-line ${correct ? "good" : "bad"}"><span>${correct ? "✓" : "×"}</span><span>${correct ? "回答正确" : `回答错误 · 正确答案 ${letters[q.answer]}`}</span></div><p class="answer-reason"></p><h3 class="rationale-heading">选项逐项解析</h3><div class="rationale-list"></div><div class="learning-point"><b>考点链条</b><span></span></div><div class="clinical-note"><strong>临床知识提示</strong><p></p></div><div class="source-links"></div>`;
-        exp.querySelector(".answer-reason").textContent = q.explanation;
-        q.options.forEach((option, i) => {
-          const row = document.createElement("div");
-          row.className = `rationale-item${i === q.answer ? " is-correct" : ""}`;
-          const label = document.createElement("strong");
-          label.className = "rationale-letter";
-          label.textContent = `${letters[i]} · ${option}`;
-          const body = document.createElement("span");
-          body.textContent = q.optionExplanations[i];
-          row.append(label, body);
-          exp.querySelector(".rationale-list").append(row);
-        });
-        exp.querySelector(".learning-point span").textContent = q.point;
-        exp.querySelector(".clinical-note p").textContent = q.clinicalNote;
-        q.references.forEach(reference => {
-          const link = document.createElement("a");
-          link.href = reference.url;
-          link.target = "_blank";
-          link.rel = "noreferrer";
-          link.textContent = reference.label;
-          exp.querySelector(".source-links").append(link);
-        });
-        $("hint").textContent = correct ? "答对了，记住这个关键机制。" : "看看解析，抓住题目真正考查的机制。";
-      } else {
-        $("hint").textContent = "选择一个最合适的答案。";
-      }
-      updateStats();
-    }
-    function updateStats() {
-      const completed = visibleIndices.filter(i => answers.get(i)?.submitted).length;
-      const correct = visibleIndices.filter(i => answers.get(i)?.submitted && answers.get(i).selected === questions[i].answer).length;
-      $("doneCount").textContent = completed;
-      $("totalCount").textContent = visibleIndices.length;
-      $("questionTotal").textContent = `/ 0${visibleIndices.length}`;
-      $("correctCount").textContent = correct;
-      $("markedCount").textContent = marked.size;
-      $("progressFill").style.width = `${(completed / visibleIndices.length) * 100}%`;
-      $("progressFoot").textContent = completed === visibleIndices.length ? "本组练习已完成" : "仅记录本次练习，刷新后重置";
-    }
-    $("submitBtn").addEventListener("click", () => {
-      if (selected === null) return;
-      answers.set(current, { selected, submitted: true });
-      render();
-    });
-    $("prevBtn").addEventListener("click", () => { const position = visibleIndices.indexOf(current); if (position > 0) { current = visibleIndices[position - 1]; render(); } });
-    $("nextBtn").addEventListener("click", () => { const position = visibleIndices.indexOf(current); if (position < visibleIndices.length - 1) { current = visibleIndices[position + 1]; render(); } });
-    $("bookmarkBtn").addEventListener("click", () => { marked.has(current) ? marked.delete(current) : marked.add(current); render(); });
-    document.querySelectorAll("[data-filter]").forEach(button => button.addEventListener("click", () => {
-      const filter = button.dataset.filter;
-      visibleIndices = filter === "all" ? questions.map((_, index) => index) : questions.map((q, index) => q.topicKey === filter ? index : -1).filter(index => index >= 0);
-      current = visibleIndices[0] ?? 0;
-      document.querySelectorAll("[data-filter]").forEach(item => item.classList.toggle("selected", item === button));
-      $("pageTitle").textContent = filter === "all" ? "生物化学小节练习" : questions[current].topic;
-      render();
-    }));
-    document.querySelector(".mobile-menu").addEventListener("click", () => document.querySelector(".sidebar").classList.toggle("mobile-open"));
-    render();
-  </script>
+  <a class="skip" href="#main">跳到内容</a>
+  <button id="backdrop" class="backdrop" aria-label="关闭导航" hidden></button>
+  <aside id="sidebar" class="sidebar" aria-label="学习页面导航">
+    <a href="#/overview" class="brand"><span class="mark">Q</span><span><strong id="site-name">TMU · Caleb</strong><small>PERSONAL STUDY WORKSPACE</small></span></a>
+    <div class="section-label">学习工作台</div>
+    <nav class="workspace-nav" aria-label="工作台">
+      <a href="#/overview" data-view="overview"><span aria-hidden="true">⌂</span>全部页面<span id="page-count" class="count">0</span></a>
+      <a href="#/favorites" data-view="favorites"><span aria-hidden="true">☆</span>收藏页面<span id="favorite-count" class="count">0</span></a>
+    </nav>
+    <label class="search-label" for="search">查找页面</label>
+    <input id="search" type="search" placeholder="搜索标题或文件名" autocomplete="off">
+    <div class="section-label">内容目录</div>
+    <nav id="catalog" class="catalog" aria-label="页面分类"><p class="sidebar-message">正在加载目录…</p></nav>
+    <div class="sidebar-note"><strong>随时接着学</strong><p>从左侧选择页面，在这里阅读、练习。</p><a href="https://github.com/calebchu40-gif/tmu-usmle-caleb/upload/main" target="_blank" rel="noopener">上传 HTML ↗</a><a href="https://github.com/calebchu40-gif/tmu-usmle-caleb#readme" target="_blank" rel="noopener">使用说明 ↗</a></div>
+  </aside>
+  <main id="main" tabindex="-1">
+    <header class="topbar">
+      <button id="menu-toggle" class="icon-button menu-toggle" aria-controls="sidebar" aria-expanded="false" aria-label="打开导航">☰</button>
+      <nav class="breadcrumb" aria-label="当前位置"><a href="#/overview">我的页面</a><span aria-hidden="true">/</span><span id="breadcrumb">学习工作台</span></nav>
+      <span class="owner">公开学习站 · Caleb</span><span class="avatar" aria-hidden="true">C</span>
+    </header>
+    <section id="viewer" class="viewer" hidden>
+      <div class="viewer-toolbar"><div class="page-heading"><span id="page-category" class="eyebrow"></span><h1 id="page-title"></h1></div><div class="actions"><button id="favorite-button" class="button" aria-pressed="false">☆ 收藏</button><button id="share-button" class="button">复制链接</button><a id="original-link" class="button" target="_blank" rel="noopener">独立打开 ↗</a></div></div>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+      <iframe id="content-frame" title="学习页面" sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-downloads" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </section>
+    <section id="overview" class="overview" hidden><p class="eyebrow">PERSONAL LIBRARY</p><h1 id="overview-title">全部页面</h1><p id="overview-description" class="description"></p><div id="page-grid" class="page-grid"></div></section>
+    <section id="error" class="overview" hidden role="alert"><p class="eyebrow">学习工作台</p><h1 id="error-title">目录加载中</h1><p id="error-message" class="description"></p><a class="button" href="#/overview">返回全部页面</a><button id="retry" class="button">重新加载</button></section>
+    <noscript><p class="overview">请启用 JavaScript 查看页面目录。也可以直接打开 <a href="./生物化学/新生儿黄疸与核黄素.html">学习题库</a> 或 <a href="./基础科学/细胞周期与遗传信息.html">演示页面</a>。</p></noscript>
+  </main>
 </body>
 </html>

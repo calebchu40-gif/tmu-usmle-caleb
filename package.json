@@ -1,0 +1,11 @@
+{
+  "name": "tmu-usmle-caleb",
+  "private": true,
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "test": "python3 -m unittest discover -s tests -v && node --test tests/app.test.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.1"
+  }
+}

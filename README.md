@@ -1,46 +1,97 @@
-# TMU USMLE Caleb
+# TMU · Caleb 学习工作台
 
-个人学习题库，使用 GitHub Pages 发布。HTML、CSS 和 JavaScript 都包含在页面内，无需安装依赖或构建。
+固定左侧导航，在右侧显示上传的 HTML。支持自动分类目录、搜索、收藏、分享链接和手机导航，保留内容页面自身的样式和答题交互。
 
-## 访问地址
+**网站：https://calebchu40-gif.github.io/tmu-usmle-caleb/**
 
-完成下方首次发布设置后：
+## 文件命名
 
-- 学习工作台：https://calebchu40-gif.github.io/tmu-usmle-caleb/
-- 基础科学演示：https://calebchu40-gif.github.io/tmu-usmle-caleb/1.html
+内容文件统一使用 **分类/知识点.html**，文件名、HTML 的 `<title>` 和页面主标题使用同一个知识点名称。例如：
 
-网页公开访问。练习进度只保存在当前页面内存中，刷新后重置，各设备之间不自动同步。
+```text
+基础科学/
+  细胞周期与遗传信息.html
+生物化学/
+  新生儿黄疸与核黄素.html
+```
 
-## 首次发布
+分类名称自动取自文件夹，页面名称取自 `<title>`，没有标题时使用文件名。目录自动生成，不需要手动编辑首页。
 
-打开仓库 **Settings → Pages**：
+## 上传新内容
 
-1. Source 选择 **Deploy from a branch**。
-2. Branch 选择 **main**，文件夹选择 **/ (root)**。
-3. 点击 **Save**，等待 Pages 部署完成。
+1. 点击网站左下角「上传 HTML」，或在 GitHub 仓库点击 **Add file → Upload files**。
+2. 上传按分类整理好的文件夹，例如 `解剖学/上肢骨骼.html`。文件使用 UTF-8 编码；独立图片、CSS 和 JavaScript 一起上传，保留原来的相对路径。
+3. 提交到 `main`，等待 Actions 中 **Publish HTML library** 显示成功。
+4. 刷新网站，新页面自动出现在左侧分类中。替换文件会更新页面，删除文件会从目录中移除。
 
-设置地址：https://github.com/calebchu40-gif/tmu-usmle-caleb/settings/pages
+`index.html` 是框架首页；`assets/`、`scripts/`、`tests/`、`.github/` 是框架目录。内容放在自己创建的分类文件夹内，压缩包需先解压再上传。
 
-## 以后上传 HTML
+## 网址规则
 
-1. 在仓库根目录点击 **Add file → Upload files**。
-2. 上传 HTML。如果页面引用独立的图片、CSS 或 JavaScript，也要上传这些文件并保留原目录结构。
-3. 提交到 `main` 分支，等待 Pages 部署完成。
-4. 例如根目录的 `2.html`，访问地址就是 `https://calebchu40-gif.github.io/tmu-usmle-caleb/2.html`。
+- 框架首页：`https://calebchu40-gif.github.io/tmu-usmle-caleb/`
+- 带导航的内容页：`https://calebchu40-gif.github.io/tmu-usmle-caleb/#/page/基础科学%2F细胞周期与遗传信息.html`
+- 独立内容页：`https://calebchu40-gif.github.io/tmu-usmle-caleb/基础科学/细胞周期与遗传信息.html`
 
-上传同名文件会更新原网页。新增页面可以直接通过网址访问；需要在首页显示入口时，手动添加链接，例如 `<a href="./2.html">我的第二个页面</a>`。
+分享时点击「复制链接」，系统会正确处理中文、空格和路径编码。对方打开链接后会保留左侧导航并显示同一篇内容。浏览器刷新、前进和后退均可使用。点击「独立打开」只查看原 HTML。
 
-用相对路径引用资源，例如 `./images/photo.png`，这样仓库网址和未来的自定义域名都能使用。
+所有内容页均已改为分类和知识点命名，旧编号网址已移除，不提供跳转。
 
-## 文件来源
+## 嵌入显示与记录
 
-- `index.html`：来自现有 `study-question-bank/index.html`。
-- `1.html`：来自现有 `study-question-bank-test-site/index.html`。
-- 保留原有题目、布局、答题与解析逻辑，调整公开部署说明并添加页面之间的链接。
-- `.nojekyll`：让 GitHub Pages 直接发布静态文件。
+框架通过 iframe 显示内容。现有两份题库已适配嵌入模式：框架内隐藏它们自带的重复导航，独立打开时保留完整布局。以后上传的 HTML 默认按其自身布局显示；页面如需适配，可读取 `embedded=1` 查询参数。
 
-## 以后绑定域名
+收藏保存在当前浏览器，刷新后仍保留，不跨设备同步。题库答题进度沿用内容页面自己的逻辑，现有题库刷新或切换到另一篇内容后会重置。框架不自动拆解任意 HTML 中的题目。
 
-拥有域名后，在 **Settings → Pages → Custom domain** 填入域名，再按 GitHub 官方说明设置域名解析并启用 HTTPS。自定义域名绑定到本仓库后，`1.html` 可通过 `https://你的域名/1.html` 访问。
+## 站点配置
 
-[GitHub Pages 自定义域名说明](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
+`site.config.json` 指定站点名、默认内容，也可以覆盖某一页面的目录标题和分类。普通上传不需要修改配置。
+
+```json
+{
+  "title": "TMU · Caleb",
+  "defaultPage": "生物化学/新生儿黄疸与核黄素.html",
+  "pages": {}
+}
+```
+
+需要自定义时，在 `pages` 中以文件相对路径为键，设置 `title` 和 `category`。默认页面被删除时，会选择剩余页面；没有内容时显示空目录提示。
+
+## 项目结构
+
+- `index.html`：固定导航和内容容器。
+- `assets/app.css`、`assets/app.js`：布局、搜索、路由、收藏。
+- 各分类文件夹：可独立打开的 HTML 内容及其资源。
+- `site.config.json`：站点名、默认页和可选目录信息。
+- `scripts/build.py`：扫描内容并生成 `dist/assets/pages.json`。
+- `.github/workflows/pages.yml`：提交后自动测试、构建和发布。
+- `tests/`：页面自动发现、分类、路由、收藏、答题和异常场景测试。
+- `dist/`：生成的发布文件，不提交到 Git。
+
+## 本地预览和测试
+
+构建使用 Python 3 标准库，网站运行不依赖第三方前端框架或 CDN。
+
+```sh
+python3 scripts/build.py
+python3 -m http.server 8000 --directory dist
+```
+
+打开 `http://localhost:8000/`。修改文件后重新构建并刷新。
+
+运行全部测试需要 Node.js 24；测试依赖不会发布到网站：
+
+```sh
+npm ci
+npm test
+node --check assets/app.js
+```
+
+## GitHub 发布
+
+仓库 **Settings → Pages → Source** 使用 **GitHub Actions**。每次提交到 `main` 都会生成最新目录并发布 `dist/`。工作流失败时保留上一次成功部署的网站，错误可在 Actions 日志中查看。
+
+源码、开发配置、测试依赖和历史仓库文件不会复制到发布目录。仓库本身为公开仓库。
+
+## 绑定自己的域名
+
+以后在 **Settings → Pages → Custom domain** 绑定你拥有的域名并配置 DNS。框架使用相对路径，绑定域名后可以继续使用；分类和知识点路径保持不变。

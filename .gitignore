@@ -2,3 +2,5 @@
 .openai/
 node_modules/
 *.tar.gz
+dist/
+__pycache__/
