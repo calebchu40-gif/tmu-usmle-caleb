@@ -36,6 +36,7 @@
     if (epoch !== revision || !store.user) return;
     [records, pages] = result; favoritePaths = result[2].map(r => r.page_path);
     changed();
+    window.dispatchEvent(new Event('study-records-refreshed'));
   }
   function field(form, label, name, value = '', type = 'text') {
     const wrapper = el('label', undefined, 'form-field'); wrapper.append(el('span', label));

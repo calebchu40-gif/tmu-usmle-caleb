@@ -30,7 +30,6 @@
   }
   if(!embedded){try{const saved=JSON.parse(localStorage.getItem(storageKey)||'[]');if(Array.isArray(saved))restore(saved);}catch{/* Can still practice without local storage. */}}
   document.title=`${config.category} · ${config.section}`;
-  $('section-category').textContent=config.category;$('section-title').textContent=config.section;$('section-description').textContent=config.description||'逐题提交，随时复习。';
   function updateRefreshControl(){
     $('refresh-questions').disabled=!ready||pending.size>0;
     $('refresh-questions').title=pending.size?'请先完成保存或重试未保存的题目。':'';
@@ -116,6 +115,9 @@
   window.addEventListener('message',e=>{
     if(e.source!==parent||e.data?.channel!=='tmu-study-v2')return;
     const data=e.data;
+    if(data.type==='sync'&&ready){
+      restore(Array.isArray(data.records)?data.records:[]);config.questions.forEach(renderCard);updateStats();
+    }
     if(data.type==='restore'){
       ready=true;mode=data.signedIn?'cloud':'session';restore(Array.isArray(data.records)?data.records:[]);
       for(const event of data.pending||[])if(states.has(event.question_id))pending.set(event.question_id,{...event,failed:true});

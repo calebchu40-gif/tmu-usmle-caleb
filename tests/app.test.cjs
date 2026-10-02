@@ -28,7 +28,7 @@ test('default page loads inside the frame under the repository base path', async
   assert.equal(d.querySelector('#content-frame').src, 'https://example.test/tmu-usmle-caleb/biochemistry/riboflavin.html?embedded=1');
   assert.equal(d.querySelectorAll('.page-link').length, 2);
   assert.equal(d.querySelector('#viewer').hidden, false);
-  assert.equal(d.querySelector('#original-link').href, 'https://example.test/tmu-usmle-caleb/biochemistry/riboflavin.html');
+  assert.equal(d.querySelector('#original-link').href, 'https://example.test/tmu-usmle-caleb/?view=standalone#/page/biochemistry%2Friboflavin.html');
   d.querySelector('.skip').click();
   assert.equal(w.location.hash, '#/page/biochemistry%2Friboflavin.html');
 });
@@ -119,4 +119,19 @@ test('both section files contain independent questions and per-question submit b
     assert.equal(d.querySelector('#done-count').textContent,'1');
     assert.equal(d.querySelector('#review-questions').textContent,'2，3，4');
   }
+});
+test('standalone view keeps the same page route, sandbox and cloud message bridge',async t=>{
+ const {w,d}=await setup(t,{hash:'?view=standalone#/page/biochemistry%2Friboflavin.html'});
+ assert.ok(d.documentElement.classList.contains('standalone'));assert.equal(d.querySelector('#workspace-link').href,'https://example.test/tmu-usmle-caleb/#/page/biochemistry%2Friboflavin.html');
+ assert.equal(d.querySelector('#content-frame').src,'https://example.test/tmu-usmle-caleb/biochemistry/riboflavin.html?embedded=1');assert.doesNotMatch(d.querySelector('iframe').getAttribute('sandbox'),/allow-same-origin/);
+ let saved,restored;w.Personal={user:{id:'owner'},ready:true,registerSection:()=>{},pending:()=>[],state:()=>[{question_id:'q1',correct:true}],questionEvent:(...args)=>{saved=args;}};
+ const frame=d.querySelector('iframe').contentWindow;frame.postMessage=data=>{restored=data;};
+ w.dispatchEvent(new w.MessageEvent('message',{source:frame,data:{channel:'tmu-study-v2',type:'ready'}}));assert.equal(restored.signedIn,true);assert.equal(restored.records[0].question_id,'q1');
+ w.dispatchEvent(new w.MessageEvent('message',{source:frame,data:{channel:'tmu-study-v2',type:'question-event',event:{question_id:'q1'}}}));assert.equal(saved[0],'biochemistry/riboflavin.html');
+ w.dispatchEvent(new w.Event('study-records-refreshed'));assert.equal(restored.type,'sync');
+});
+test('direct hosted HTML routes into the cloud viewer; embedded and offline files do not redirect',()=>{
+ const vm=require('node:vm'),code=fs.readFileSync('assets/open-standalone.js','utf8');
+ const run=(embedded,protocol)=>{let target;const w={};w.parent=embedded?{}:w;vm.runInNewContext(code,{window:w,URL,location:{protocol,origin:'https://example.test',pathname:'/repo/%E5%88%86%E7%B1%BB/a%20b.html',replace:value=>{target=value;}},document:{currentScript:{src:'https://example.test/repo/assets/open-standalone.js'}}});return target;};
+ assert.equal(run(false,'https:'),'https://example.test/repo/?view=standalone#/page/%E5%88%86%E7%B1%BB%2Fa%20b.html');assert.equal(run(true,'https:'),undefined);assert.equal(run(false,'file:'),undefined);
 });

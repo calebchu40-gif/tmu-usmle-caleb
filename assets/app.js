@@ -1,5 +1,6 @@
 "use strict";
 const $ = id => document.getElementById(id);
+document.documentElement.classList.toggle('standalone', new URLSearchParams(location.search).get('view') === 'standalone');
 let catalog = null;
 let activePage = null;
 let publicPages = [];
@@ -82,6 +83,7 @@ function renderOverview(onlyFavorites) {
 function renderRoute() {
   if (!catalog) return;
   let hash = location.hash;
+  $('workspace-link').href = './' + hash;
   if (!hash || hash === "#") {
     const initial = catalog.pages.find(p => p.path === catalog.defaultPage);
     hash = initial ? routeFor(initial.path) : "#/overview";
@@ -190,7 +192,11 @@ async function loadFrame(page) {
   clearFrame(); const version = frameVersion; loadedFrameKey = key;
   $("status").textContent = "正在打开页面…";
   $("content-frame").title = page.title;
-  $("original-link").hidden = Boolean(page.private);
+  const standaloneUrl = new URL('./',location.href);
+  standaloneUrl.searchParams.set('view','standalone');
+  standaloneUrl.hash = routeFor(page.path) + (focusQuestion ? '?question='+encodeURIComponent(focusQuestion) : '');
+  $("original-link").hidden = false;
+  $("original-link").href = standaloneUrl.href;
   if (page.private) {
     try {
       const html = await window.Personal.html(page);
@@ -198,7 +204,7 @@ async function loadFrame(page) {
       $("content-frame").srcdoc = html;
     } catch { if(version === frameVersion){loadedFrameKey=""; $("status").textContent = "私人页面加载失败，请刷新或重新登录后重试。";} }
   } else {
-    const url = fileUrl(page.path); $("original-link").href = url.href;
+    const url = fileUrl(page.path);
     url.searchParams.set("embedded", "1"); $("content-frame").src = url.href;
   }
 }
@@ -212,6 +218,9 @@ window.addEventListener("study-data-changed", () => {
 });
 window.addEventListener("study-question-result", event => {
   if(activePage?.path === event.detail.page_path) $("content-frame").contentWindow.postMessage({channel:"tmu-study-v2",type:"result",...event.detail},"*");
+});
+window.addEventListener('study-records-refreshed', () => {
+  if(activePage) $('content-frame').contentWindow.postMessage({channel:'tmu-study-v2',type:'sync',records:window.Personal?.state(activePage.path)||[]},'*');
 });
 window.addEventListener("message", event => {
   const data = event.data;

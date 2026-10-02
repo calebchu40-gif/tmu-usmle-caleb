@@ -91,3 +91,8 @@ test('question lists show ordered question numbers, follow latest results and su
  retry(1);answer(1,1);assert.equal(d.querySelector('#correct-questions').textContent,'1，2，3');assert.equal(d.querySelector('#review-questions').textContent,'4');
  answer(3,3);assert.equal(d.querySelector('#correct-questions').textContent,'1，2，3，4');assert.equal(d.querySelector('#review-questions').textContent,'暂无');
 });
+test('section header is removed and cloud status remains inside the sidebar',t=>{
+ const {d,card,receive}=setup(t,{embedded:true});assert.equal(d.querySelector('.section-head'),null);assert.ok(d.querySelector('.section-sidebar #mode-note'));assert.ok(d.querySelector('.section-sidebar #connect-retry'));
+ receive({type:'restore',signedIn:true,records:[]});receive({type:'sync',records:[{question_id:ids[0],selected:0,submitted:true,correct:true,marked:true,correct_count:2,wrong_count:1}]});
+ assert.equal(d.querySelector('#correct-questions').textContent,'1');assert.match(card(0).querySelector('.history').textContent,/正确 2 次错误 1 次/);assert.equal(card(0).querySelector('.mark-button').getAttribute('aria-pressed'),'true');
+});

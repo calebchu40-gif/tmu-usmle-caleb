@@ -5,8 +5,8 @@ const {JSDOM} = require('jsdom');
 const html = fs.readFileSync('index.html','utf8');
 const read = path => fs.readFileSync(path,'utf8');
 const pause = () => new Promise(r=>setTimeout(r,20));
-async function setup(t,{user=true,failSave=false}={}) {
-  const dom = new JSDOM(html,{url:'https://example.test/repo/#/records',runScripts:'outside-only'});t.after(()=>dom.window.close());
+async function setup(t,{user=true,failSave=false,url='https://example.test/repo/#/records'}={}) {
+  const dom = new JSDOM(html,{url,runScripts:'outside-only'});t.after(()=>dom.window.close());
   const w=dom.window, d=w.document;const errors=[];w.addEventListener('error',e=>errors.push(e.error));t.after(()=>assert.deepEqual(errors,[]));
   const rows={study_records:[],study_pages:[],study_favorites:[]};const receipts=new Set();
   const client={user:user?{id:'owner',email:'owner@example.test'}:null,client:{auth:{onAuthStateChange:()=>{}}},checkSession:async()=>{},list:async table=>rows[table],
@@ -127,4 +127,10 @@ test('HTML file list shows uploads and both deletion confirmations must pass',as
  prompts=[];w.confirm=text=>{prompts.push(text);return prompts.length===1;};click('删除');await pause();assert.equal(prompts.length,2);assert.equal(rows.study_pages.length,1);assert.match(prompts[1],/功能测试\/上传测试小节.html/);
  rows.study_records.push({id:'note',title:'保留的笔记',updated_at:'2026-01-01'});
  w.confirm=()=>true;click('删除');await pause();assert.equal(rows.study_pages.length,0);assert.equal(rows.study_records.length,1);assert.match(d.querySelector('#personal').textContent,/共 0 个文件/);
+});
+test('private HTML has a standalone link and saves under the existing database page ID',async t=>{
+ const {w,d,rows}=await setup(t,{url:'https://example.test/repo/?view=standalone#/manage'});
+ rows.study_pages.push({id:'private1',title:'Test',category:'Test',html:'<h1>Test</h1>',updated_at:'2026-01-01'});await w.Personal.refresh();w.location.hash='#/page/'+encodeURIComponent('私有/private1');await pause();
+ const link=d.querySelector('#original-link');assert.equal(link.hidden,false);assert.match(link.href,/\?view=standalone#\/page\/%E7%A7%81%E6%9C%89%2Fprivate1$/);
+ w.Personal.questionEvent('私有/private1','Test',{question_id:'q1',request_id:w.crypto.randomUUID(),action:'attempt',selected:0,correct:true});await pause();assert.equal(rows.study_records[0].page_path,'私有/private1');assert.equal(rows.study_records[0].correct_count,1);
 });
