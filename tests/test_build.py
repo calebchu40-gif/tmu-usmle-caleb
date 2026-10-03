@@ -121,7 +121,7 @@ class BuildTests(unittest.TestCase):
         self.write("assets/question-pages/raw.jpg", "raw image")
         self.write("assets/question-images/unrelated.jpg", "unrelated source image")
         self.write("data/questions.json", json.dumps([{"id":"ok","source_file":"private.pdf","source_pdf":"private folder/private.pdf","source_pdf_pages":{"question":[2,3],"explanation":[4]},"explanation_pdf_pages":[4],"question_number":7,"question_images":["assets/question-pages/raw.jpg"],"question_image":"assets/question-pages/raw.jpg","explanation_images":["assets/explanation-pages/review.jpg"]},{"id":"figure","question_images":["assets/question-figures/crop.jpg"],"question_image":"assets/question-figures/crop.jpg"},{"id":"raw","complete":True,"chapter":"Biochemistry","stem":"Unreviewed OCR","answer":"A","options":[{"letter":"A","text":"raw"},{"letter":"B","text":"raw"}],"explanation":"raw OCR"},{"id":"not-explicitly-reviewed"}]))
-        self.write("data/question-overrides.json", json.dumps({"ok":{"reviewed":True,"complete":True,"chapter":"Biochemistry","stem":"Reviewed stem","answer":"A","options":[{"letter":"A","text":"yes"},{"letter":"B","text":"no"}],"explanation":"Reviewed explanation","option_fa":{"A":{"page":463,"text":"Verified FA passage","images":["assets/fa-pages/p463.jpg"]}}},"figure":{"reviewed":True,"complete":True,"chapter":"Biochemistry","stem":"Figure-dependent stem","answer":"A","options":[{"letter":"A","text":"yes"},{"letter":"B","text":"no"}],"explanation":"Reviewed explanation","question_figures_reviewed":True,"question_figure_description":"Reviewed crop","question_images":["assets/question-figures/crop.jpg"],"question_image":"assets/question-figures/crop.jpg","option_fa":{"A":{"page":463,"verified":True,"text":"Verified cropped FA diagram","image_reviewed":True,"images":["assets/fa-figures/crop.jpg"]}}},"not-explicitly-reviewed":{"complete":True,"chapter":"Biochemistry","stem":"Still OCR","answer":"A","options":[{"letter":"A","text":"x"},{"letter":"B","text":"y"}],"explanation":"unreviewed"}}))
+        self.write("data/question-overrides.json", json.dumps({"ok":{"reviewed":True,"complete":True,"chapter":"Biochemistry","stem":"Reviewed stem","answer":"A","options":[{"letter":"A","text":"yes"},{"letter":"B","text":"no"}],"explanation":"Reviewed explanation","audit":{"source_docx":"private.docx"},"qa":{"status":"verified"},"fa_page_verified":True,"fa_page":463,"fa_pages":[463,465],"fa_page_candidate":999,"option_fa":{"A":{"page":463,"text":"Verified FA passage","images":["assets/fa-pages/p463.jpg"]}}},"figure":{"reviewed":True,"complete":True,"chapter":"Biochemistry","stem":"Figure-dependent stem","answer":"A","options":[{"letter":"A","text":"yes"},{"letter":"B","text":"no"}],"explanation":"Reviewed explanation","question_figures_reviewed":True,"question_figure_description":"Reviewed crop","question_images":["assets/question-figures/crop.jpg"],"question_image":"assets/question-figures/crop.jpg","option_fa":{"A":{"page":463,"verified":True,"text":"Verified cropped FA diagram","image_reviewed":True,"images":["assets/fa-figures/crop.jpg"]}}},"not-explicitly-reviewed":{"complete":True,"chapter":"Biochemistry","stem":"Still OCR","answer":"A","options":[{"letter":"A","text":"x"},{"letter":"B","text":"y"}],"explanation":"unreviewed"}}))
         self.write("assets/fa-pages/p463.jpg", "FA image")
         self.write("assets/fa-figures/crop.jpg", "reviewed FA crop")
         self.write("assets/question-figures/crop.jpg", "reviewed figure crop")
@@ -138,8 +138,14 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(len(published), 2)
         self.assertRegex(published[0]["id"], r"^qb-[a-f0-9]{40}$")
         self.assertEqual(published[0]["id"], published[0]["cloud_id"])
-        for field in ["source_file", "source_pdf", "source_pdf_pages", "explanation_pdf_pages", "question_number", "fa_pages", "fa_page_candidate"]:
+        for field in ["source_file", "source_pdf", "source_pdf_pages", "explanation_pdf_pages", "question_number", "fa_page_candidate"]:
             self.assertNotIn(field, published[0])
+        self.assertEqual(published[0]["fa_page"], 463)
+        self.assertEqual(published[0]["fa_pages"], [463, 465])
+        self.assertNotIn("audit", published[0])
+        self.assertNotIn("qa", published[0])
+        self.assertTrue(published[0]["reviewed"])
+        self.assertTrue(published[0]["complete"])
         self.assertEqual(published[0]["option_fa"]["A"]["text"], "Verified FA passage")
         self.assertEqual(published[0]["question_images"], [])
         self.assertIsNone(published[0]["question_image"])
@@ -181,6 +187,28 @@ class BuildTests(unittest.TestCase):
         self.assertRegex(output[0]["id"], r"^qb-[a-f0-9]{40}$")
         self.assertNotIn("source_file", output[0])
         self.assertFalse((self.root / "dist/data/word-pilot-questions.json").exists())
+
+    def test_curated_questions_normalizes_imported_fa_subchapter_names(self):
+        options = [{"letter":"A","text":"yes"},{"letter":"B","text":"no"}]
+        row = {"id":"subtopic","stem":"Stem","answer":"A","options":options,"explanation":"Explanation"}
+        curated = module.curated_questions([row], {"subtopic":{"reviewed":True,"complete":True,"chapter":"Biochemistry","subchapter":"Metabolism"}})
+        self.assertEqual(curated[0]["fa_subchapter"], "Metabolism")
+        self.assertNotIn("subchapter", module.public_question_rows(curated, {})[0])
+
+    def test_pilot_source_excludes_unreviewed_or_incomplete_rows(self):
+        self.write("site.config.json", json.dumps({"qbankPilotSource":"data/word-pilot-questions.json"}))
+        self.write("qbank.html", "<title>Old</title>")
+        self.write("qbank-v2.html", "<title>Qbank</title>")
+        self.write("assets/qbank-app.js", "app")
+        options = [{"letter":"A","text":"yes"},{"letter":"B","text":"no"}]
+        self.write("data/word-pilot-questions.json", json.dumps([
+            {"id":"ok","chapter":"Biochemistry","stem":"Stem","answer":"A","options":options,"explanation":"Explanation","reviewed":True,"complete":True},
+            {"id":"draft","chapter":"Biochemistry","stem":"Draft","answer":"A","options":options,"explanation":"Draft explanation","reviewed":False,"complete":True},
+        ]))
+        module.build(self.root)
+        output = json.loads((self.root / "dist/data/questions.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(output), 1)
+        self.assertEqual(output[0]["stem"], "Stem")
 
 
 

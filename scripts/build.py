@@ -213,6 +213,8 @@ def curated_questions(rows, reviewed):
         if not correction or correction.get("reviewed") is not True or correction.get("review_required") is True:
             continue
         item = {**row, **correction}
+        if not item.get("fa_subchapter"):
+            item["fa_subchapter"] = item.get("subchapter") or item.get("subcategory") or ""
         # Raw OCR page screenshots can reveal question text, options, or keyed answers.
         # Publish only figure/table crops that were explicitly reviewed for inclusion.
         if correction.get("question_figures_reviewed") is not True:
@@ -253,7 +255,7 @@ def load_question_source(root, config):
             letters = {option.get("letter") for option in question.get("options", [])}
             if len(letters) < 2 or question["answer"] not in letters:
                 raise ValueError(f"Pilot question {index} has invalid choices or answer key")
-        return questions
+        return curated_questions(questions, {question.get("id"): question for question in questions if question.get("id")})
 
     question_file = root / "data/questions.json"
     rows = json.loads(question_file.read_text(encoding="utf-8"))
@@ -279,10 +281,21 @@ def public_question_rows(curated, config):
         digest_input = f"{source_file}\n{source_id}\n{page_text}"
         cloud_id = "qb-" + hashlib.sha256(digest_input.encode("utf-8")).digest()[:20].hex()
         item = {**question, "id": cloud_id, "cloud_id": cloud_id}
-        for field in ("source_file", "source_pdf", "source_pdf_pages", "explanation_pdf_pages", "question_number", "fa_page_candidate", "fa_pages"):
+        for field in (
+            "source_file", "source_pdf", "source_pdf_pages", "explanation_pdf_pages", "question_number",
+            "fa_page_candidate", "audit", "qa", "first_aid_2026", "media_audit", "choice_explanations_audit",
+            "option_fa_audit", "option_fa_review_policy", "question_audit_status", "visually_verified",
+            "review_status", "qa_note", "docx_file", "source_qa", "source_id",
+            "source_question_number_for_audit_only", "fa_mapping", "fa_page_status", "first_aid_printed_page",
+            "required_figure", "visual_reference", "has_image_reference",
+            "subchapter", "subcategory",
+        ):
             item.pop(field, None)
         if item.get("fa_page_verified") is not True:
             item.pop("fa_page", None)
+            item.pop("fa_pages", None)
+        elif not isinstance(item.get("fa_pages"), list):
+            item["fa_pages"] = [item["fa_page"]] if isinstance(item.get("fa_page"), int) else []
         public.append(item)
     return public
 

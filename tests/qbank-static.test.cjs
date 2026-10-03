@@ -126,6 +126,8 @@ test('curated question text is free of common screenshot-OCR chrome and replacem
 test('First Aid references render for every option and can show page text and multiple images',()=>{
   assert.match(app,/const entries=optionsFor\(q\)\.map\(option=>\[option,refs\[option\.letter\]\]\)/);
   assert.match(app,/const verified=ref\?\.verified===true/);
+  assert.match(app,/Array\.isArray\(ref\?\.pages\)/);
+  assert.match(app,/Array\.isArray\(q\.fa_pages\)/);
   assert.match(app,/const copy=verified\?\(ref\.text\|\|ref\.summary\):null/);
   assert.match(app,/const images=verified&&ref\.image_reviewed===true\?\[\.\.\.\(ref\.images\|\|\[\]\),\.\.\.\(ref\.image\?\[ref\.image\]:\[\]\)\]:\[\]/);
   assert.match(app,/暂无经过人工核实的 First Aid 对应知识点/);

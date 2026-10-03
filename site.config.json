@@ -3,7 +3,6 @@
   "standaloneQuestionBank": false,
   "visiblePages": ["qbank.html"],
   "qbankPilotSource": "data/word-pilot-questions.json",
-  "qbankPilotCount": 20,
   "pages": {
     "qbank.html": {
       "title": "USMLE Step 1 KAPLAN题库",

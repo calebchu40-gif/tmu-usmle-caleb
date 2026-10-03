@@ -134,7 +134,8 @@ function appendOptionFa(container,q) {
   for(const [option,ref] of entries){
     const item=document.createElement("div");item.className="fa-reference";
     const verified=ref?.verified===true;
-    const title=document.createElement("strong");title.textContent=`选项 ${option.letter}${verified&&ref.no_direct_match?" · FA 无直接条目":verified&&ref.page?` · 印刷页 ${ref.page}`:" · 待核实"}`;item.append(title);
+    const pages=Array.isArray(ref?.pages)&&ref.pages.length?ref.pages:(Number.isInteger(ref?.page)?[ref.page]:[]);
+    const title=document.createElement("strong");title.textContent=`选项 ${option.letter}${verified&&ref.no_direct_match?" · FA 无直接条目":verified&&pages.length?` · 印刷页 ${pages.join(", ")}`:" · 待核实"}`;item.append(title);
     const copy=verified?(ref.text||ref.summary):null;
     const text=document.createElement("p");text.textContent=copy||"暂无经过人工核实的 First Aid 对应知识点。";item.append(text);
     const images=verified&&ref.image_reviewed===true?[...(ref.images||[]),...(ref.image?[ref.image]:[])]:[];
@@ -152,7 +153,7 @@ function renderExplanation(q, answer) {
   appendExplanationImages(box,q);
   appendOptionFa(box,q);
   const summary=q.fa_summary||q.textbook_summary;
-  if(summary&&q.fa_page&&q.fa_page_verified===true){const ref=document.createElement("div");ref.className="textbook";ref.textContent=`First Aid 知识点：${summary}（印刷页码 ${q.fa_page}）`;box.append(ref)}
+  if(summary&&q.fa_page_verified===true){const pages=Array.isArray(q.fa_pages)&&q.fa_pages.length?q.fa_pages:(q.fa_page?[q.fa_page]:[]);const ref=document.createElement("div");ref.className="textbook";ref.textContent=`First Aid 知识点：${summary}${pages.length?`（印刷页码 ${pages.join(", ")}）`:""}`;box.append(ref)}
   else if(q.fa_pages?.length||q.fa_page){const ref=document.createElement("div");ref.className="textbook";ref.textContent="First Aid 知识点与印刷页码正在逐题校核；未核实前不显示候选页码。";box.append(ref)}
 }
 function renderNavigator() {
