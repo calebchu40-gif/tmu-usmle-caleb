@@ -8869,6 +8869,1190 @@
     "fa_summary": "A relative-risk confidence interval including 1 is not statistically significant; source table absent, hold."
   },
   {
+    "id": "import-1df2d96c121ff55f6b9f68a2",
+    "chapter": "Renal",
+    "fa_subchapter": "Glomerular diseases",
+    "stem": "A 40-year-old man has recurrent episodes of cough with hemoptysis. Oxygen saturation is 90%. Laboratory studies show anemia and elevated creatinine; urinalysis shows hematuria, and microscopy shows numerous red blood cell casts. Which serum antibody is most likely present?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anti-double-stranded DNA"
+      },
+      {
+        "letter": "B",
+        "text": "Antimitochondrial antibody"
+      },
+      {
+        "letter": "C",
+        "text": "Anti-myeloperoxidase antibody"
+      },
+      {
+        "letter": "D",
+        "text": "Anti-proteinase 3 antibody"
+      },
+      {
+        "letter": "E",
+        "text": "Anti-type IV collagen antibody"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The combination of pulmonary hemorrhage and glomerulonephritis is a pulmonary–renal syndrome. Anti–glomerular basement membrane disease (Goodpasture syndrome) is caused by antibodies against the α3 chain of type IV collagen, shared by alveolar and glomerular basement membranes.",
+    "choice_explanations": {
+      "A": "Anti-dsDNA supports SLE; it does not explain the classic pulmonary–renal anti-GBM pattern.",
+      "B": "Antimitochondrial antibody is associated with primary biliary cholangitis.",
+      "C": "MPO-ANCA can occur in microscopic polyangiitis or eosinophilic granulomatosis with polyangiitis; the stem instead points to anti-GBM disease.",
+      "D": "PR3-ANCA is associated with granulomatosis with polyangiitis, which can cause pulmonary and renal disease but is not the antibody classically tested by this presentation.",
+      "E": "Correct. Anti-type IV collagen antibody targets alveolar and glomerular basement membranes."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-dsDNA is listed with systemic lupus erythematosus.",
+        "page": 113
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Antimitochondrial antibody is associated with primary biliary cholangitis.",
+        "page": 113
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "MPO-ANCA is associated with selected small-vessel vasculitides.",
+        "page": 113
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "PR3-ANCA is associated with granulomatosis with polyangiitis.",
+        "page": 113
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-GBM antibody targets type IV collagen; Goodpasture syndrome is also summarized in renal disease (p. 613).",
+        "page": 113
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      613
+    ],
+    "fa_page": 613,
+    "fa_page_verified": true,
+    "fa_summary": "Anti-GBM disease produces pulmonary hemorrhage and rapidly progressive glomerulonephritis; antibodies target type IV collagen."
+  },
+  {
+    "id": "import-0fb665f210dedd0e09b15ff7",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A 4-year-old boy has recurrent bacterial infections. Genetic testing shows an inherited defect in a component of NADPH oxidase. Which leukocyte process is most directly impaired?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Adhesion and transmigration"
+      },
+      {
+        "letter": "B",
+        "text": "Chemotaxis"
+      },
+      {
+        "letter": "C",
+        "text": "Generation of hydrogen peroxide"
+      },
+      {
+        "letter": "D",
+        "text": "Production of hypochlorous acid"
+      },
+      {
+        "letter": "E",
+        "text": "Transfer of lysosomal enzymes to phagosomes"
+      }
+    ],
+    "answer": "C",
+    "explanation": "NADPH oxidase catalyzes the respiratory burst by generating superoxide, which is converted to hydrogen peroxide. Its deficiency causes chronic granulomatous disease. Myeloperoxidase uses hydrogen peroxide to make hypochlorous acid, so that downstream reaction is impaired secondarily, but the direct defective process is H₂O₂ generation.",
+    "choice_explanations": {
+      "A": "Leukocyte adhesion and transmigration depend on adhesion molecules, not NADPH oxidase.",
+      "B": "Chemotaxis is not the primary defect in chronic granulomatous disease.",
+      "C": "Correct. NADPH oxidase initiates the respiratory burst and generates superoxide, leading to H₂O₂.",
+      "D": "HOCl production by myeloperoxidase is reduced downstream because NADPH oxidase supplies H₂O₂; it is not the direct enzyme defect asked for.",
+      "E": "Lysosomal-enzyme trafficking to phagosomes is not the NADPH-oxidase function."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "C5a is a potent chemotactic complement fragment.",
+        "page": 104
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The respiratory burst generates reactive oxygen species through NADPH oxidase.",
+        "page": 107
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Myeloperoxidase uses hydrogen peroxide to form hypochlorous acid.",
+        "page": 107
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      107
+    ],
+    "fa_page": 107,
+    "fa_page_verified": true,
+    "fa_summary": "NADPH oxidase initiates the phagocyte respiratory burst; its defect reduces reactive oxygen species and causes chronic granulomatous disease."
+  },
+  {
+    "id": "import-532a8dad427397dafb8fe59b",
+    "chapter": "Public Health Sciences",
+    "fa_subchapter": "Epidemiology and Biostatistics",
+    "stem": "An investigator compares normally distributed systolic blood-pressure measurements among five independent age groups and wants to test whether their means are equal. Which statistical method is most appropriate?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Analysis of variance (ANOVA)"
+      },
+      {
+        "letter": "B",
+        "text": "Odds ratio"
+      },
+      {
+        "letter": "C",
+        "text": "Chi-square test"
+      },
+      {
+        "letter": "D",
+        "text": "Pearson correlation coefficient"
+      },
+      {
+        "letter": "E",
+        "text": "Pairwise Student t tests"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A one-way ANOVA tests whether the means of three or more independent groups differ for a continuous outcome. It controls the family-wise type I error better than performing many pairwise t tests.",
+    "choice_explanations": {
+      "A": "Correct. ANOVA compares means across multiple independent groups.",
+      "B": "An odds ratio measures association between categorical exposure and outcome, not equality of continuous group means.",
+      "C": "Chi-square tests compare categorical counts or proportions.",
+      "D": "Pearson correlation measures linear association between two continuous variables.",
+      "E": "Repeated pairwise t tests inflate type I error when comparing five groups."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "ANOVA compares means across three or more groups.",
+        "page": 267
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Chi-square tests are used for categorical proportions or counts.",
+        "page": 267
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pearson correlation quantifies linear association between continuous variables.",
+        "page": 268
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "A t test compares two means; multiple pairwise testing increases type I error.",
+        "page": 267
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      267
+    ],
+    "fa_page": 267,
+    "fa_page_verified": true,
+    "fa_summary": "Use ANOVA to compare means among three or more groups; t tests compare two means."
+  },
+  {
+    "id": "import-cdb24438ad3a48d407f82135",
+    "chapter": "Public Health Sciences",
+    "fa_subchapter": "Epidemiology and Biostatistics",
+    "stem": "A four-year observational study finds more motor-vehicle collisions among current smokers than never-smokers. Current smokers are mostly assembly-line workers, whereas never-smokers are mostly managers. Which problem most threatens the validity of the association?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Confounding"
+      },
+      {
+        "letter": "B",
+        "text": "Expectancy bias"
+      },
+      {
+        "letter": "C",
+        "text": "Late-look bias"
+      },
+      {
+        "letter": "D",
+        "text": "Measurement bias"
+      },
+      {
+        "letter": "E",
+        "text": "Proficiency bias"
+      },
+      {
+        "letter": "F",
+        "text": "Recall bias"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Occupation is associated with smoking group and may independently affect collision risk (for example, through different driving exposure). It is therefore a potential confounder that can create or distort the observed association. The study is observational, so the groups are not otherwise exchangeable.",
+    "choice_explanations": {
+      "A": "Correct. A third variable associated with exposure and outcome can distort the smoking–collision association.",
+      "B": "Expectancy bias occurs when expectations influence assessment or interpretation.",
+      "C": "Late-look bias arises from repeated interim analyses and stopping after a significant result.",
+      "D": "Measurement bias is systematic error in measuring exposure or outcome; the stated concern is group imbalance in occupation.",
+      "E": "Proficiency bias is not the principal epidemiologic threat described here.",
+      "F": "Recall bias is differential remembering of past exposures, generally in retrospective studies."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Confounding is distortion by a third variable associated with exposure and outcome.",
+        "page": 264
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Observer/expectancy effects can bias measurement or interpretation.",
+        "page": 263
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Measurement bias is systematic error in measuring study variables.",
+        "page": 263
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Recall bias is inaccurate or differential recall of prior exposures.",
+        "page": 263
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      264
+    ],
+    "fa_page": 264,
+    "fa_page_verified": true,
+    "fa_summary": "Confounding occurs when a third variable is associated with exposure and outcome and distorts their apparent relationship."
+  },
+  {
+    "id": "import-963368b65cc8db96c97ec36e",
+    "chapter": "Public Health Sciences",
+    "fa_subchapter": "Epidemiology and Biostatistics",
+    "stem": "The diagnostic fasting-glucose threshold for diabetes is lowered from 140 to 126 mg/dL. Which change is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased sensitivity"
+      },
+      {
+        "letter": "B",
+        "text": "Increased false-negative rate"
+      },
+      {
+        "letter": "C",
+        "text": "Increased negative predictive value"
+      },
+      {
+        "letter": "D",
+        "text": "Increased positive predictive value"
+      },
+      {
+        "letter": "E",
+        "text": "Increased specificity"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lowering a positive-test threshold classifies more people as test-positive. Sensitivity rises and false negatives fall, while specificity falls and false positives rise. In the usual fixed-prevalence setting, the negative predictive value increases because fewer diseased patients remain among test-negative results.",
+    "choice_explanations": {
+      "A": "Sensitivity increases, rather than decreases, when the threshold is lowered.",
+      "B": "The false-negative rate decreases as more patients meet the positive criterion.",
+      "C": "Correct. With greater sensitivity and fewer false negatives, NPV generally increases at fixed prevalence.",
+      "D": "PPV generally decreases because specificity falls and false positives increase.",
+      "E": "Specificity decreases because more non-diseased people test positive."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lowering a positive cutoff increases sensitivity.",
+        "page": 260
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "A more sensitive test has fewer false negatives.",
+        "page": 260
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "NPV is the probability that a negative result is truly disease-free; predictive values vary with prevalence (p. 262).",
+        "page": 260
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "PPV depends on sensitivity, specificity, and prevalence; a lower cutoff tends to lower specificity.",
+        "page": 260
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lowering a cutoff decreases specificity.",
+        "page": 260
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      260,
+      262
+    ],
+    "fa_page": 260,
+    "fa_page_verified": true,
+    "fa_summary": "Changing the positive threshold trades sensitivity against specificity; predictive values also depend on prevalence."
+  },
+  {
+    "id": "import-c9062b6c56f996df0b7b1289",
+    "chapter": "Public Health Sciences",
+    "fa_subchapter": "Epidemiology and Biostatistics",
+    "stem": "A city has 1,000,000 residents, including 10,000 people with AIDS. During one year, 1,000 new AIDS cases occur. Assuming no migration, which expression gives the annual incidence?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "800/990,000"
+      },
+      {
+        "letter": "B",
+        "text": "800/1,000,000"
+      },
+      {
+        "letter": "C",
+        "text": "1,000/990,000"
+      },
+      {
+        "letter": "D",
+        "text": "1,000/1,000,000"
+      },
+      {
+        "letter": "E",
+        "text": "2,500/1,000,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Incidence uses new cases during a specified period divided by the population at risk at the start of that period. People already living with AIDS are not at risk of becoming new cases, so the denominator is 1,000,000 − 10,000 = 990,000. Deaths are not subtracted from the incident case count.",
+    "choice_explanations": {
+      "A": "Uses net new cases after subtracting deaths; incidence counts new cases, not net prevalence change.",
+      "B": "Includes existing cases in the at-risk denominator and subtracts deaths from new cases.",
+      "C": "Correct: 1,000 new cases divided by 990,000 people initially free of AIDS.",
+      "D": "The denominator should exclude the 10,000 prevalent cases not at risk of a first AIDS diagnosis.",
+      "E": "All-cause deaths do not define incident AIDS cases."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Incidence counts new cases; it is not reduced by deaths.",
+        "page": 262
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The incidence denominator is the population at risk, excluding existing cases.",
+        "page": 262
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Incidence = new cases during the interval ÷ population at risk.",
+        "page": 262
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "People with existing disease are excluded from the at-risk denominator.",
+        "page": 262
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      262
+    ],
+    "fa_page": 262,
+    "fa_page_verified": true,
+    "fa_summary": "Incidence is new cases over a period divided by the population at risk."
+  },
+  {
+    "id": "import-152e9cab4bb82b6fbdf9a4ae",
+    "chapter": "Public Health Sciences",
+    "fa_subchapter": "Epidemiology and Biostatistics",
+    "stem": "Researchers compare patients who chose or were selected to receive a new drug with untreated patients using medical records. Hospitalizations are lower but all-cause mortality is higher in the treated group. Which possibility most undermines the conclusion that the drug should not be used?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Researchers' expectations affected the outcome"
+      },
+      {
+        "letter": "B",
+        "text": "Knowledge of treatment biased outcome measurement"
+      },
+      {
+        "letter": "C",
+        "text": "Treated patients may have been less healthy at baseline"
+      },
+      {
+        "letter": "D",
+        "text": "Patients inaccurately recalled past events"
+      },
+      {
+        "letter": "E",
+        "text": "A Hawthorne effect occurred"
+      },
+      {
+        "letter": "F",
+        "text": "Lead-time bias occurred"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Because treatment was not randomly assigned, baseline differences may confound the comparison. If sicker patients preferentially received the drug, higher mortality may reflect their underlying illness rather than harm from treatment (confounding by indication).",
+    "choice_explanations": {
+      "A": "This is possible in an unblinded study but is not the strongest flaw given nonrandom treatment allocation.",
+      "B": "Observer bias can affect measurements, but it does not explain the explicit baseline-selection problem.",
+      "C": "Correct. Confounding by indication can make treated patients less healthy before treatment.",
+      "D": "The outcomes were obtained from records, so recall bias is not the main concern.",
+      "E": "The Hawthorne effect is behavior change from knowing one is observed.",
+      "F": "Lead-time bias concerns earlier diagnosis making survival from diagnosis appear longer without changing time of death."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Expectancy/observer effects can influence outcome assessment.",
+        "page": 263
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Unblinded outcome assessment can produce measurement or observer bias.",
+        "page": 263
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Confounding arises from baseline differences linked to exposure and outcome.",
+        "page": 264
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Recall bias involves differential recollection of past exposures.",
+        "page": 263
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hawthorne effect is behavior change from awareness of observation.",
+        "page": 263
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lead-time bias creates apparent survival gain from earlier diagnosis.",
+        "page": 263
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      263,
+      264
+    ],
+    "fa_page": 263,
+    "fa_page_verified": true,
+    "fa_summary": "Nonrandomized treatment groups can differ at baseline; confounding by indication distorts treatment effects."
+  },
+  {
+    "id": "import-eeb537fa0798b72a84c86ca1",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Cellular",
+    "stem": "A neuronal cell line has normal morphology and axonal extension but defective fast anterograde transport of secretory vesicles from the Golgi toward the plasma membrane. Retrograde transport is normal. Which cytoskeletal motor is most likely deficient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Actin"
+      },
+      {
+        "letter": "B",
+        "text": "Dynein"
+      },
+      {
+        "letter": "C",
+        "text": "Kinesin"
+      },
+      {
+        "letter": "D",
+        "text": "Non-muscle myosin"
+      },
+      {
+        "letter": "E",
+        "text": "Tubulin"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Kinesin generally carries cargo anterogradely toward the microtubule plus end, including movement toward axon terminals. Dynein supports retrograde transport toward the cell body. A selective anterograde transport defect therefore points to kinesin.",
+    "choice_explanations": {
+      "A": "Actin supports cortical structure and short-range transport but is not the principal long-range axonal track motor tested.",
+      "B": "Dynein is associated with retrograde transport, which is intact here.",
+      "C": "Correct. Kinesin mediates plus-end-directed anterograde cargo transport.",
+      "D": "Myosin moves along actin filaments and is not the main long-distance axonal motor.",
+      "E": "Microtubules are the tracks, not the motor protein; the directional motor defect is kinesin."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Dynein mediates retrograde transport along microtubules.",
+        "page": 46
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Kinesin mediates anterograde axonal transport.",
+        "page": 46
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Microtubules provide tracks for kinesin- and dynein-dependent transport.",
+        "page": 46
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      46
+    ],
+    "fa_page": 46,
+    "fa_page_verified": true,
+    "fa_summary": "Kinesin drives anterograde transport along microtubules; dynein drives retrograde transport."
+  },
+  {
+    "id": "import-2ffcdbb37111af407dfb6d3b",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Cellular",
+    "stem": "A 5-year-old child has coarse facial features, hepatomegaly, and skeletal, cardiac, and neurologic abnormalities. Multiple lysosomal hydrolases are elevated in the blood. The disorder results from failure to phosphorylate mannose residues on lysosomal enzymes. In which organelle does this tagging step normally occur?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Endoplasmic reticulum"
+      },
+      {
+        "letter": "B",
+        "text": "Golgi apparatus"
+      },
+      {
+        "letter": "C",
+        "text": "Lysosome"
+      },
+      {
+        "letter": "D",
+        "text": "Mitochondrion"
+      },
+      {
+        "letter": "E",
+        "text": "Ribosome"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In I-cell disease, failure of Golgi N-acetylglucosamine-1-phosphotransferase prevents formation of the mannose-6-phosphate targeting signal. Lysosomal enzymes are secreted rather than delivered to lysosomes.",
+    "choice_explanations": {
+      "A": "The ER synthesizes and begins processing proteins, but M6P tagging occurs in the Golgi.",
+      "B": "Correct. Golgi enzymes add the mannose-6-phosphate lysosomal targeting mark.",
+      "C": "Lysosomes receive the tagged enzymes; they do not create the targeting mark.",
+      "D": "Mitochondria are not involved in lysosomal enzyme sorting.",
+      "E": "Ribosomes translate proteins but do not perform M6P tagging."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Proteins enter the secretory pathway through the ER; lysosomal sorting signal is added later.",
+        "page": 45
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Golgi apparatus adds mannose-6-phosphate to lysosomal enzymes.",
+        "page": 45
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lysosomes contain acid hydrolases targeted by the M6P signal.",
+        "page": 45
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ribosomes synthesize proteins; they do not add the lysosomal targeting signal.",
+        "page": 45
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      45
+    ],
+    "fa_page": 45,
+    "fa_page_verified": true,
+    "fa_summary": "The Golgi adds mannose-6-phosphate to target acid hydrolases to lysosomes; failure causes I-cell disease."
+  },
+  {
+    "id": "import-ab415cf38f7efc277e2d9ab7",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Cellular",
+    "stem": "A pregnant woman at 32 weeks has fever, headache, and painful genital vesicles caused by herpes simplex virus. Which feature of axonal transport helps the virus reach sensory ganglia?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Transport is anterograde"
+      },
+      {
+        "letter": "B",
+        "text": "Transport is mediated by dynein"
+      },
+      {
+        "letter": "C",
+        "text": "Transport is mediated by kinesin"
+      },
+      {
+        "letter": "D",
+        "text": "Transport moves proteins to the axon terminal"
+      },
+      {
+        "letter": "E",
+        "text": "Transport moves vesicles to the axon terminal"
+      }
+    ],
+    "answer": "B",
+    "explanation": "After entering peripheral sensory nerve endings, HSV travels retrogradely toward the neuronal cell body in sensory ganglia. Retrograde movement along microtubules is mediated by dynein.",
+    "choice_explanations": {
+      "A": "The initial movement from peripheral nerve ending to ganglion is retrograde, not anterograde.",
+      "B": "Correct. Dynein carries cargo toward the microtubule minus end and supports retrograde transport.",
+      "C": "Kinesin usually mediates anterograde transport toward the axon terminal.",
+      "D": "This describes anterograde movement away from the cell body.",
+      "E": "This also describes anterograde transport toward the terminal."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anterograde transport proceeds toward the axon terminal.",
+        "page": 46
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Dynein mediates retrograde axonal transport.",
+        "page": 46
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Kinesin generally mediates anterograde transport.",
+        "page": 46
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anterograde transport carries cargo toward the axon terminal.",
+        "page": 46
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Kinesin-dependent transport delivers cargo toward the axon terminal.",
+        "page": 46
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      46
+    ],
+    "fa_page": 46,
+    "fa_page_verified": true,
+    "fa_summary": "HSV uses dynein-dependent retrograde axonal transport to reach sensory ganglia."
+  },
+  {
+    "id": "import-a98121e7c63e26b64cbc7b62",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Pathology",
+    "stem": "A 60-year-old man with chronic exertional chest pain relieved by rest dies after a motor-vehicle collision. Which microscopic cardiac finding is most likely from his pre-existing cardiac condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Circumferential subendocardial infarction"
+      },
+      {
+        "letter": "B",
+        "text": "Dense scar in the distribution of one coronary artery"
+      },
+      {
+        "letter": "C",
+        "text": "Focal fibrosis with subendocardial myocardial vacuolization"
+      },
+      {
+        "letter": "D",
+        "text": "Neutrophilic infiltrate adjacent to a large area of coagulative necrosis"
+      },
+      {
+        "letter": "E",
+        "text": "Transmural coagulative necrosis"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Stable angina reflects chronic myocardial ischemia without acute infarction. Chronic ischemia can produce focal interstitial fibrosis and subendocardial myocyte changes, including vacuolization. Acute infarction instead produces necrosis with an inflammatory response and later scar.",
+    "choice_explanations": {
+      "A": "Circumferential subendocardial infarction is an acute global ischemic injury pattern.",
+      "B": "A dense territorial scar implies a prior infarction in a coronary distribution, not uncomplicated stable angina.",
+      "C": "Correct. Chronic ischemia can cause focal fibrosis and subendocardial vacuolization without a large acute infarct.",
+      "D": "Neutrophils adjacent to coagulative necrosis indicate an acute myocardial infarction.",
+      "E": "Transmural coagulative necrosis is an acute infarction pattern."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Acute infarction can produce subendocardial necrosis.",
+        "page": 308
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Prior infarction heals with scar in a coronary distribution.",
+        "page": 308
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Chronic ischemia without infarction may produce focal fibrosis and subendocardial myocyte vacuolization.",
+        "page": 306
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Acute myocardial infarction shows coagulative necrosis and neutrophilic inflammation.",
+        "page": 308
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Transmural coagulative necrosis is an acute infarction pattern.",
+        "page": 308
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      306,
+      308
+    ],
+    "fa_page": 306,
+    "fa_page_verified": true,
+    "fa_summary": "Stable angina is chronic ischemia without infarction; acute infarction causes coagulative necrosis and inflammatory change."
+  },
+  {
+    "id": "import-b4ee28467c877c5ec36f862b",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Pathology",
+    "stem": "A woman recalls two childhood episodes of fever, headache, and migratory joint pain after severe sore throats. Which late complication is most likely as she grows older?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Recurrent arthritis"
+      },
+      {
+        "letter": "B",
+        "text": "Fibrinous pericarditis"
+      },
+      {
+        "letter": "C",
+        "text": "Myocarditis"
+      },
+      {
+        "letter": "D",
+        "text": "Neurologic disease"
+      },
+      {
+        "letter": "E",
+        "text": "Valvular disease"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Acute rheumatic fever follows group A streptococcal pharyngitis through molecular mimicry. Recurrent or severe disease can cause chronic rheumatic valvular scarring, especially mitral stenosis and regurgitation. The source’s extra sixth choice is stem spillover, not an answer option, and is omitted.",
+    "choice_explanations": {
+      "A": "Arthritis is a migratory manifestation of acute rheumatic fever but is not the characteristic late sequela.",
+      "B": "Pericarditis may occur acutely but is not the classic chronic complication.",
+      "C": "Myocarditis is not the defining long-term sequela.",
+      "D": "Sydenham chorea is an acute/subacute manifestation, not the most likely chronic consequence asked here.",
+      "E": "Correct. Chronic rheumatic heart disease causes valvular fibrosis, particularly mitral valve disease."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Rheumatic fever may involve the heart; chronic disease is chiefly valvular.",
+        "page": 319
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Acute rheumatic carditis can involve myocardium, but chronic sequela is valvular disease.",
+        "page": 319
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Sydenham chorea is a rheumatic fever manifestation.",
+        "page": 319
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Chronic rheumatic heart disease produces valvular fibrosis, especially mitral disease.",
+        "page": 319
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      319
+    ],
+    "fa_page": 319,
+    "fa_page_verified": true,
+    "fa_summary": "Rheumatic fever after streptococcal pharyngitis may progress to chronic valvular scarring."
+  },
+  {
+    "id": "import-120d0c9362f8881cdfe0419a",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A 35-year-old man has recurrent infections with encapsulated bacteria. Serum IgG is normal and C3 is decreased. Defective C3-dependent immune-complex handling most directly predisposes him to which hypersensitivity mechanism?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Type I hypersensitivity"
+      },
+      {
+        "letter": "B",
+        "text": "Type II hypersensitivity"
+      },
+      {
+        "letter": "C",
+        "text": "Type III hypersensitivity"
+      },
+      {
+        "letter": "D",
+        "text": "Type IV hypersensitivity"
+      },
+      {
+        "letter": "E",
+        "text": "Immediate IgE-mediated hypersensitivity"
+      }
+    ],
+    "answer": "C",
+    "explanation": "C3b opsonizes immune complexes and helps clear them through complement receptors on erythrocytes and phagocytes. C3 deficiency can therefore impair immune-complex clearance and predispose to type III immune-complex disease. The source option was misread as Type II; the source explanation explicitly identifies type III, so the choice is corrected accordingly.",
+    "choice_explanations": {
+      "A": "Type I is IgE-mediated and does not result from impaired immune-complex clearance.",
+      "B": "Type II is antibody directed against cell-surface or matrix antigens; it is not the mechanism described by circulating immune complexes.",
+      "C": "Correct. Deposition of poorly cleared antigen–antibody complexes causes type III hypersensitivity.",
+      "D": "Type IV is T-cell mediated and does not depend on immune-complex clearance.",
+      "E": "This is another description of immediate type I hypersensitivity."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Type II hypersensitivity is antibody-mediated injury against fixed cell or tissue antigens.",
+        "page": 110
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Type III hypersensitivity is caused by deposition of circulating immune complexes.",
+        "page": 111
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Type IV hypersensitivity is T-cell mediated.",
+        "page": 110
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      104,
+      111
+    ],
+    "fa_page": 104,
+    "fa_page_verified": true,
+    "fa_summary": "C3b supports immune-complex clearance; retained complexes can deposit and cause type III hypersensitivity."
+  },
+  {
+    "id": "import-0317c1e273ae9288d52e0ec2",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A herpetologist receives horse-derived antivenom after a rattlesnake bite. Two weeks later, he develops edema, malaise, rash, arthralgias, and renal dysfunction. Which mechanism best explains the illness?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Delayed-type T-cell hypersensitivity"
+      },
+      {
+        "letter": "B",
+        "text": "Antibody binding to glomerular basement membrane"
+      },
+      {
+        "letter": "C",
+        "text": "IgE-mediated anaphylaxis"
+      },
+      {
+        "letter": "D",
+        "text": "Immune-complex deposition in the kidney"
+      },
+      {
+        "letter": "E",
+        "text": "Direct nephrotoxicity from rattlesnake venom"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Serum sickness is a type III hypersensitivity reaction caused by circulating antibodies against foreign serum proteins. Immune complexes deposit in tissues and activate complement, producing rash, arthralgias, edema, and glomerulonephritis. The source’s trailing “generalized edema” is stem spillover and is not a sixth option.",
+    "choice_explanations": {
+      "A": "Delayed-type hypersensitivity is T-cell mediated and generally takes 48–72 hours, not the immune-complex syndrome described.",
+      "B": "Anti-GBM disease causes pulmonary–renal disease but is unrelated to foreign antivenom exposure.",
+      "C": "Anaphylaxis is an immediate IgE-mediated reaction, not a delayed serum-sickness syndrome.",
+      "D": "Correct. Type III immune-complex deposition explains the delayed systemic and renal findings.",
+      "E": "The two-week latency and multisystem immune symptoms point to serum sickness, not direct venom toxicity."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Type IV hypersensitivity is delayed and T-cell mediated.",
+        "page": 110
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-GBM antibodies target basement membrane and cause Goodpasture syndrome.",
+        "page": 113
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Type I hypersensitivity is immediate and IgE mediated.",
+        "page": 110
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Serum sickness is immune-complex (type III) hypersensitivity.",
+        "page": 111
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      111
+    ],
+    "fa_page": 111,
+    "fa_page_verified": true,
+    "fa_summary": "Serum sickness is type III hypersensitivity from immune-complex deposition after exposure to foreign proteins."
+  },
+  {
+    "id": "import-2661ffd61d7c0a25d3595710",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Pathology",
+    "stem": "A 46-year-old woman has gritty eyes, difficulty swallowing dry foods, dental caries, and bilateral parotid enlargement. Salivary-gland biopsy shows lymphocytic infiltration and destruction of glandular tissue. Which test is most likely positive?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anticentromere antibody"
+      },
+      {
+        "letter": "B",
+        "text": "Anti-double-stranded DNA antibody"
+      },
+      {
+        "letter": "C",
+        "text": "Anti-glomerular basement membrane antibody"
+      },
+      {
+        "letter": "D",
+        "text": "Anti-Scl-70 antibody"
+      },
+      {
+        "letter": "E",
+        "text": "Anti-SSA (Ro) antibody"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The sicca symptoms and lymphocytic destruction of salivary glands indicate Sjögren syndrome. Anti-SSA/Ro is commonly associated; anti-SSB/La may also be present. The corrected spelling/formatting of the antigen follows the source context.",
+    "choice_explanations": {
+      "A": "Anticentromere antibody is associated with limited cutaneous systemic sclerosis.",
+      "B": "Anti-dsDNA is associated with SLE, particularly lupus nephritis.",
+      "C": "Anti-GBM antibody is associated with Goodpasture syndrome.",
+      "D": "Anti-Scl-70 (topoisomerase I) is associated with diffuse systemic sclerosis.",
+      "E": "Correct. Anti-SSA/Ro is associated with Sjögren syndrome and sicca symptoms."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anticentromere antibody is associated with limited systemic sclerosis.",
+        "page": 113
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-dsDNA is associated with SLE.",
+        "page": 113
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-GBM is associated with Goodpasture syndrome.",
+        "page": 113
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-Scl-70 is associated with diffuse systemic sclerosis.",
+        "page": 113
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-Ro/SSA is associated with Sjögren syndrome; sicca and exocrine-gland pathology are summarized on p. 474.",
+        "page": 113
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      113,
+      474
+    ],
+    "fa_page": 113,
+    "fa_page_verified": true,
+    "fa_summary": "Sjögren syndrome causes lymphocytic exocrine-gland injury and sicca; anti-SSA/Ro is a common associated antibody."
+  },
+  {
     "id": "import-619e257ad94ea64e8f39ba79",
     "chapter": "Biochemistry",
     "fa_subchapter": "Genetics",
