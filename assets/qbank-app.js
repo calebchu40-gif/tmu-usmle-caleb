@@ -36,6 +36,7 @@ function applyFilter() {
     return (!chapter||q.chapter===chapter)&&(!sub||q.fa_subchapter===sub)&&(!term||text.includes(term))&&
       (filterMode==="all"||(filterMode==="marked"&&r.marked)||(filterMode==="wrong"&&r.wrong_count>0));
   });
+  $("testCount").max=String(Math.max(1,filtered.length));
   current=Math.min(current,Math.max(0,filtered.length-1));
   $("crumb").textContent=[chapter,sub].filter(Boolean).join(" / ")||"全部章节";
   $("markedFilter").classList.toggle("active",filterMode==="marked");$("wrongFilter").classList.toggle("active",filterMode==="wrong");
@@ -183,7 +184,11 @@ async function finishTest() {
   status("测试结果已同步");fillTestResults();render();
 }
 function startTest() {
-  const n=$("testCount").value==="all"?filtered.length:Number($("testCount").value);if(!filtered.length)return;
+  if(!filtered.length){status("当前筛选没有可测试的题目。",true);return;}
+  const requested=Number($("testCount").value);
+  if(!Number.isInteger(requested)||requested<1){status("请输入大于 0 的整数题量。",true);$("testCount").focus();return;}
+  const n=Math.min(requested,filtered.length);
+  if(requested>filtered.length)status(`当前筛选只有 ${filtered.length} 题，本次按可用题量开始测试。`);
   filtered=[...filtered].sort(()=>Math.random()-.5).slice(0,n);current=0;answers=new Map();picks=new Map();seconds=new Map();attemptSeconds=new Map();testClock=$("testTimer").value==="on";testStartedAt=performance.now();testDone=false;mode="test";$("modeLabel").textContent="测试模式 · 统一阅卷";$("testResults").classList.add("hidden");render();
 }
 function setMode(next) {

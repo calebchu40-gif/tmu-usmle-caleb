@@ -13,6 +13,13 @@ test('standalone qbank has separate marker/wrong filters, per-question retry and
   assert.match(app,/questionEvent\(pagePath,q\.chapter/);
 });
 
+test('test length is an editable positive integer and side-panel progress text has explicit contrast',()=>{
+  assert.match(html,/<input id="testCount" type="number"[^>]*min="1"/);
+  assert.match(app,/Number\.isInteger\(requested\).*requested<1/);
+  assert.match(app,/Math\.min\(requested,filtered\.length\)/);
+  assert.match(html,/\.side\{color:#172b3d;background:transparent\}/);
+});
+
 test('standalone qbank does not save learning state in browser local storage or show source candidate panels',()=>{
   assert.doesNotMatch(app,/localStorage|sessionStorage/);
   assert.doesNotMatch(html,/First Aid 对应|题目资料说明|figureNotice|faRef/);
