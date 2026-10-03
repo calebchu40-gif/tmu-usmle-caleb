@@ -10627,8 +10627,8 @@
   {
     "id": "import-6af7b8f16b7b8be4d3febe38",
     "chapter": "Pathology",
-    "fa_subchapter": "Cellular injury",
-    "stem": "A 15-year-old girl develops a hard, rubbery 2-cm nodule on her earlobe 6 months after piercing. The lesion has no fluctuance, warmth, or tenderness. Which factor is most likely responsible?",
+    "fa_subchapter": "Inflammation / Scar formation",
+    "stem": "A 15-year-old African-American girl comes to her primary care physician because of a 2-cm nodular growth on her right earlobe. She is otherwise healthy. Her mother reports that she had her ears pierced about 6 months ago. On examination, the growth is hard and rubbery, without fluctuance, warmth, or tenderness. Which factor is most likely responsible for development of this lesion?",
     "options": [
       {
         "letter": "A",
@@ -10656,48 +10656,46 @@
       }
     ],
     "answer": "B",
-    "explanation": "This is a keloid, an excessive scar response after dermal injury. It is driven by increased fibroblast activity and collagen deposition beyond the original wound margins.",
+    "explanation": "This is a keloid, an exuberant scar that grows beyond the boundary of the original injury. Ear piercing is a small dermal injury, and darker skin is a risk factor. Keloids arise from an excessive fibroblast/collagen response during wound healing, associated with increased TGF-β signaling. They can itch or hurt, but may be asymptomatic. This is excess scar deposition, not ordinary wound contraction or remodeling. First Aid 2026 p.214 distinguishes keloids from hypertrophic scars by their disorganized, markedly increased collagen deposition and extension beyond the original wound. The Word/PDF explanation text conflicts about collagen subtype; because the subtype is unnecessary to solve the question, it is intentionally omitted from the question explanation and choice rationale.",
     "choice_explanations": {
-      "A": "Contracture shortens a healing wound; it does not explain an enlarging, firm earlobe scar.",
-      "B": "Correct: excessive collagen production by fibroblasts produces a keloid.",
-      "C": "The timing after piercing and firm scar-like growth favor a benign abnormal scar rather than malignancy.",
-      "D": "There is no evidence of a retained foreign body or foreign-body granuloma.",
-      "E": "The absence of warmth, tenderness, and fluctuance argues against infection.",
-      "F": "Wound remodeling is a normal repair phase; the abnormal excess collagen response causes the keloid."
+      "A": "Incorrect. Dermal contracture reflects exaggerated myofibroblast-mediated wound contraction, often after burns; it causes tethering/deformity and functional limitation rather than an expanding firm scar nodule.",
+      "B": "Correct. Keloids result from excessive collagen-rich scar formation and extend past the original wound margins; the earlobe after piercing is a classic clue.",
+      "C": "Incorrect. A malignancy arising in chronically damaged skin would be very unusual in an adolescent and would not typically present as this characteristic scar months after piercing.",
+      "D": "Incorrect. Retained foreign material can delay healing or cause a foreign-body granuloma, but the timing and firm overgrowing scar phenotype favor a keloid.",
+      "E": "Incorrect. Persistent infection delays healing and may form an abscess; warmth, fluctuance, tenderness, or drainage would be expected rather than the described noninflamed scar nodule.",
+      "F": "Incorrect. Wound remodeling is normal maturation in which collagen is reorganized and scar strength increases; it does not cause a scar to expand beyond the original wound."
     },
     "option_fa": {
       "A": {
         "verified": true,
         "no_direct_match": true,
-        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+        "text": "First Aid p.214 directly covers aberrant scar formation and keloids but does not specifically discuss dermal contractures; the wound-contraction distinction is supported by the source explanation."
       },
       "B": {
         "verified": true,
         "no_direct_match": false,
-        "text": "Keloid formation is excessive collagen-rich scar formation after dermal injury.",
-        "pages": [
-          214
-        ]
+        "text": "Keloids have markedly increased, disorganized collagen deposition, associated with excess TGF-β; they extend beyond the original wound.",
+        "page": 214
       },
       "C": {
         "verified": true,
         "no_direct_match": true,
-        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+        "text": "No direct First Aid match for malignancy as the cause of this post-piercing lesion; p.214 instead contrasts normal repair with aberrant hypertrophic/keloid scarring."
       },
       "D": {
         "verified": true,
         "no_direct_match": true,
-        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+        "text": "No direct First Aid match on this page for a retained foreign body; the directly relevant topic is scar formation and the defining keloid features."
       },
       "E": {
         "verified": true,
         "no_direct_match": true,
-        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+        "text": "No direct First Aid match on this page for persistent infection causing this lesion; p.214 describes the noninfectious abnormal scar process that fits the case."
       },
       "F": {
         "verified": true,
         "no_direct_match": true,
-        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+        "text": "First Aid p.214 covers scar formation, but does not identify normal wound remodeling as the cause of keloids; keloid scar expansion beyond wound borders is the distinguishing fact."
       }
     },
     "reviewed": true,
@@ -10708,7 +10706,7 @@
     ],
     "fa_page": 214,
     "fa_page_verified": true,
-    "fa_summary": "This is a keloid, an excessive scar response after dermal injury. It is driven by increased fibroblast activity and collagen deposition beyond the original wound margins."
+    "fa_summary": "First Aid 2026 printed p.214 directly describes scar formation and compares hypertrophic and keloid scars. Keloids have markedly increased, disorganized collagen, extend beyond the original wound with clawlike projections (often on earlobes, face, and upper extremities), and are more common in people with darker skin. Excess TGF-β is associated with aberrant scarring. The page's collagen-subtype detail is not carried into the question explanation because the source Word/PDF explanation contains conflicting subtype statements."
   },
   {
     "id": "import-20c841bcde7affdd28d9e06b",
@@ -22437,5 +22435,87 @@
     "fa_page": 204,
     "fa_page_verified": true,
     "fa_summary": "First Aid 2026 printed p.204 explains intrinsic mitochondrial apoptosis: BCL-2 is antiapoptotic, prevents cytochrome-c release and caspase activation, while Fas and perforin/granzyme are proapoptotic pathways and caspases are executioners. Printed p.435 directly links follicular lymphoma with t(14;18), BCL-2, and inhibition of apoptosis. Pages 217 and 220 provide the cancer hallmarks and tumor-suppressor context, including p53."
+  },
+  {
+    "id": "import-35bf8a10392e3523ca31cab6",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Iron studies / Hemochromatosis",
+    "stem": "A 52-year-old man comes to the physician because of erectile dysfunction. Physical examination shows darkened skin and limited range of motion in the small joints of both hands. Fasting serum glucose is 170 mg/dL. Imaging studies show a small, nodular liver and splenomegaly. A liver-biopsy photomicrograph is shown. Which combination of serum laboratory values is most likely?\n\nTest | A | B | C | D | E\nSerum iron | Low | Low | Normal | High | High\nFerritin | Low | High | Normal | Low | High\nTransferrin | High | Low | High | High | Low\nTransferrin saturation | Low | Low | Low | Low | High",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Low serum iron, low ferritin, high transferrin, low transferrin saturation"
+      },
+      {
+        "letter": "B",
+        "text": "Low serum iron, high ferritin, low transferrin, low transferrin saturation"
+      },
+      {
+        "letter": "C",
+        "text": "Normal serum iron, normal ferritin, high transferrin, low transferrin saturation"
+      },
+      {
+        "letter": "D",
+        "text": "High serum iron, low ferritin, high transferrin, low transferrin saturation"
+      },
+      {
+        "letter": "E",
+        "text": "High serum iron, high ferritin, low transferrin, high transferrin saturation"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The findings indicate iron overload from hemochromatosis: bronze skin, diabetes, arthropathy, hypogonadism/erectile dysfunction, and cirrhosis with hepatosplenomegaly. Excess iron raises serum iron and ferritin; high iron stores suppress hepatic transferrin production, lowering transferrin/TIBC. Because serum iron is high while binding capacity is low, percent transferrin saturation is markedly increased. The liver biopsy shows iron pigment deposition, consistent with the diagnosis.",
+    "choice_explanations": {
+      "A": "Incorrect. This is iron deficiency: low serum iron and ferritin lead to compensatory increased transferrin/TIBC and low saturation.",
+      "B": "Incorrect. This pattern is anemia of chronic inflammation: hepcidin sequesters iron, raising ferritin while lowering serum iron and transferrin/TIBC; saturation is low.",
+      "C": "Incorrect. Increased transferrin with normal iron stores and low saturation is compatible with pregnancy or oral contraceptive use, not systemic iron overload.",
+      "D": "Incorrect. The combination is internally inconsistent with hemochromatosis: iron overload should increase ferritin and suppress transferrin, with increased—not low—transferrin saturation.",
+      "E": "Correct. Hemochromatosis produces high serum iron and ferritin, low transferrin/TIBC, and high transferrin saturation."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Iron-deficiency anemia: low serum iron and ferritin, increased transferrin/TIBC, and markedly low transferrin saturation.",
+        "page": 423
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anemia of chronic disease: low serum iron and transferrin/TIBC, high ferritin, and low or decreased transferrin saturation.",
+        "page": 423
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pregnancy/OCP use: increased transferrin/TIBC with no direct change in iron stores; percent saturation decreases.",
+        "page": 423
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid iron-study pattern matches this combination. First Aid p.423 shows that hemochromatosis instead has high ferritin, low transferrin/TIBC, and high transferrin saturation."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hemochromatosis: increased serum iron, low transferrin/TIBC, increased ferritin, and markedly increased transferrin saturation.",
+        "page": 423
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      423
+    ],
+    "fa_page": 423,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 printed p.423 directly compares iron-study patterns. Hemochromatosis is the column with increased serum iron, decreased transferrin/TIBC, increased ferritin, and increased transferrin saturation. This matches the clinical iron-overload syndrome in the stem.",
+    "question_images": [
+      "assets/question-figures/general-principles-q19-liver-biopsy.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Liver-biopsy photomicrograph with coarse golden-brown iron pigment in hepatocytes, consistent with iron deposition."
   }
 ]

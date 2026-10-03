@@ -13,7 +13,8 @@ const missing = required.filter((key) => !args[key]);
 if (missing.length) throw new Error(`Missing input arguments: ${missing.join(", ")}`);
 
 const readJson = (file) => JSON.parse(fs.readFileSync(path.resolve(file), "utf8"));
-const baseline = readJson(args.baseline).questions;
+const baselineInput = readJson(args.baseline);
+const baseline = Array.isArray(baselineInput) ? baselineInput : baselineInput.questions;
 const systemBatch = readJson(args.system).questions;
 const crossBatch = readJson(args.cross);
 const biostatBatch = readJson(args.biostat).questions;
