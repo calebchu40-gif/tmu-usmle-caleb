@@ -20863,5 +20863,390 @@
     ],
     "fa_page": 664,
     "fa_page_verified": true
+  },
+  {
+    "id": "import-4261ecdc59557eb2e0c8ba09",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Testicular tumors",
+    "stem": "A 27-year-old man comes to the physician with a 3-month sensation of heaviness in his right scrotum. Examination shows painless testicular enlargement. Serum human chorionic gonadotropin and alpha-fetoprotein levels are normal, but placental alkaline phosphatase is elevated. The cut surface of the orchiectomy specimen is shown. Histology shows lobules and nests of large malignant cells with prominent nucleoli surrounded by abundant lymphocytes. Which is the most likely diagnosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Choriocarcinoma"
+      },
+      {
+        "letter": "B",
+        "text": "Embryonal carcinoma"
+      },
+      {
+        "letter": "C",
+        "text": "Seminoma"
+      },
+      {
+        "letter": "D",
+        "text": "Teratoma"
+      },
+      {
+        "letter": "E",
+        "text": "Yolk sac tumor"
+      }
+    ],
+    "answer": "C",
+    "explanation": "This is a seminoma: a painless, homogeneous testicular enlargement in a young adult with lobules of large tumor cells and a lymphocytic infiltrate. Seminomas commonly express placental alkaline phosphatase (PLAP), while AFP is typically normal. The gross specimen shows a solid, pale, fleshy mass. Pure seminoma is highly radiosensitive and generally has a favorable prognosis.",
+    "choice_explanations": {
+      "A": "Choriocarcinoma typically has markedly elevated β-hCG, hemorrhage/necrosis, and early hematogenous spread; it does not fit the PLAP-positive, AFP-normal pattern.",
+      "B": "Embryonal carcinoma is usually an aggressive, hemorrhagic and necrotic mass; AFP and/or β-hCG may rise, especially in mixed tumors.",
+      "C": "Correct. Painless homogeneous enlargement, PLAP elevation, and large cells in lobules with lymphocytes are characteristic of seminoma.",
+      "D": "Teratomas contain tissues derived from multiple germ layers and have no characteristic PLAP elevation.",
+      "E": "Yolk sac tumors characteristically elevate AFP and may show Schiller-Duval bodies; this patient's AFP is normal."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Choriocarcinoma is a distinct testicular germ-cell tumor associated with elevated hCG and hematogenous metastases.",
+        "page": 671
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Embryonal carcinoma is typically hemorrhagic/necrotic and may be associated with elevated hCG or AFP when mixed.",
+        "page": 671
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Seminoma causes painless homogeneous enlargement, lobulated large cells, and increased PLAP.",
+        "page": 671
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Mature teratoma can be malignant in adult males; it is not the PLAP-associated tumor described here.",
+        "page": 671
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Yolk sac tumor is associated with elevated AFP and Schiller-Duval bodies.",
+        "page": 671
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      671
+    ],
+    "fa_page": 671,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/reproductive-q26-seminoma-specimen.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "题目所需的局部图像。"
+  },
+  {
+    "id": "import-5be171ec9a78a298e743e036",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Testicular tumors",
+    "stem": "A 40-year-old man comes to the physician because of breast enlargement. Examination shows bilateral gynecomastia and an enlarged right testicle. Palpation reveals a 3.5-cm nontender mass that does not transilluminate. Orchiectomy shows a well-circumscribed, golden-brown, homogeneous mass. Microscopically, it consists of uniform large polygonal cells with abundant eosinophilic cytoplasm, indistinct cell borders, and round central nuclei. Rod-shaped crystals are scattered among the cells. What is the most likely diagnosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Immature teratoma"
+      },
+      {
+        "letter": "B",
+        "text": "Leydig cell tumor"
+      },
+      {
+        "letter": "C",
+        "text": "Sertoli cell tumor"
+      },
+      {
+        "letter": "D",
+        "text": "Spermatocytic seminoma"
+      },
+      {
+        "letter": "E",
+        "text": "Yolk sac tumor"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The golden-brown tumor, gynecomastia, and Reinke crystals identify a Leydig (interstitial) cell tumor. Leydig cells can produce estrogen as well as androgens, explaining the breast enlargement. Most Leydig cell tumors are benign; a minority are malignant.",
+    "choice_explanations": {
+      "A": "An immature teratoma contains immature tissues from germ layers, often including embryonal/neural tissue; it does not produce Reinke crystals.",
+      "B": "Correct. Reinke crystals are highly characteristic of a Leydig cell tumor, which can secrete estrogen and cause gynecomastia.",
+      "C": "Sertoli cell tumors arise from sex-cord stroma but do not have the defining Reinke crystals or typical golden-brown appearance.",
+      "D": "Spermatocytic seminoma is a germ-cell tumor, not a steroid-producing sex-cord stromal tumor; the characteristic Reinke crystals point to Leydig cells.",
+      "E": "Yolk sac tumor is an AFP-producing germ-cell tumor, often with Schiller-Duval bodies, rather than a Reinke-crystal-containing tumor."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid notes that testicular teratomas may be malignant in adult males; it does not associate them with Reinke crystals.",
+        "page": 671
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Leydig cell tumors are usually benign, golden-brown, contain Reinke crystals, and may produce estrogen or androgens.",
+        "page": 671
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Sertoli cell tumor is listed separately as a mostly benign non-germ-cell tumor; the stated Reinke crystals identify Leydig origin.",
+        "page": 671
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss spermatocytic seminoma as a separate subtype."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Yolk sac tumor is an AFP-associated germ-cell tumor; it is distinct from the hormone-producing Leydig tumor.",
+        "page": 671
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      671
+    ],
+    "fa_page": 671,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-e3c6bbd2650b8ffbd6cbe4b3",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Estrogen",
+    "stem": "A double-blind study of fertility-enhancing drugs is conducted. A 28-year-old woman receives sequential doses of a hormone, causing its plasma concentration to rise progressively over several days. Initially, her FSH and LH levels decline, but later both hormones suddenly and dramatically increase. Which hormone is she most likely receiving?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Estrogen"
+      },
+      {
+        "letter": "B",
+        "text": "Gonadotropin-releasing hormone"
+      },
+      {
+        "letter": "C",
+        "text": "Inhibin"
+      },
+      {
+        "letter": "D",
+        "text": "Progesterone"
+      },
+      {
+        "letter": "E",
+        "text": "Testosterone"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Estrogen exerts concentration-dependent feedback on the hypothalamic-pituitary axis. At low-to-moderate concentrations it suppresses FSH and LH; when a high estrogen level is sustained, feedback becomes positive, producing the midcycle gonadotropin surge, especially the LH surge that triggers ovulation.",
+    "choice_explanations": {
+      "A": "Correct. Sustained high estrogen switches from negative to positive feedback and causes the FSH/LH surge.",
+      "B": "Continuous GnRH can initially stimulate and then desensitize pituitary receptors; it does not produce the described estrogen-level-dependent switch to positive feedback.",
+      "C": "Inhibin selectively suppresses FSH and would not cause a simultaneous dramatic FSH and LH surge.",
+      "D": "Progesterone supports the secretory endometrium after ovulation and does not produce the preovulatory gonadotropin surge.",
+      "E": "Testosterone does not produce the characteristic sustained-estrogen positive-feedback switch responsible for ovulation."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Estrogen inhibits FSH/LH and, at the appropriate sustained level, upregulates receptors and leads to the LH surge.",
+        "page": 648
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly compare constant GnRH administration with the dose sequence described here."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Sertoli-cell inhibin B inhibits FSH; it does not cause a joint FSH/LH surge.",
+        "page": 646
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Progesterone stimulates the uterine secretory phase after ovulation, rather than causing the preovulatory surge.",
+        "page": 650
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly connect testosterone to this female gonadotropin-feedback pattern."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      648
+    ],
+    "fa_page": 648,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-8702bbe5af8236a3739becb9",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Ovarian tumors",
+    "stem": "A 40-year-old woman comes to the physician with 6 months of fatigue, bloating, and a 9.1-kg (20-lb) weight loss. Examination shows a protuberant abdomen with a mild fluid wave and bilateral adnexal masses. Ultrasound shows multiloculated cystic masses involving both ovaries. After hysterectomy and bilateral salpingo-oophorectomy, pathology shows bilateral papillary serous cystadenocarcinoma. Which serum marker is most useful for monitoring tumor recurrence?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alpha-fetoprotein"
+      },
+      {
+        "letter": "B",
+        "text": "CA 19-9"
+      },
+      {
+        "letter": "C",
+        "text": "CA 125"
+      },
+      {
+        "letter": "D",
+        "text": "Carcinoembryonic antigen (CEA)"
+      },
+      {
+        "letter": "E",
+        "text": "S-100"
+      }
+    ],
+    "answer": "C",
+    "explanation": "CA 125 is useful for monitoring response to treatment and recurrence of epithelial ovarian carcinoma, including serous cystadenocarcinoma. It is not recommended as a screening test in the general population. The bilateral serous epithelial tumors in this case make CA 125 the best choice.",
+    "choice_explanations": {
+      "A": "AFP is associated with yolk sac tumors and some other germ-cell tumors, not routine surveillance of serous epithelial ovarian carcinoma.",
+      "B": "CA 19-9 is more closely associated with pancreaticobiliary and some mucinous tumors; it is not the preferred marker here.",
+      "C": "Correct. CA 125 is used to monitor epithelial ovarian cancer response and recurrence.",
+      "D": "CEA is used in other adenocarcinomas and can be elevated in some mucinous tumors, but it is not the preferred marker for serous ovarian carcinoma.",
+      "E": "S-100 is not the standard serum recurrence marker for epithelial ovarian carcinoma."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid associates AFP with ovarian yolk sac tumors, a germ-cell tumor distinct from this epithelial serous carcinoma.",
+        "page": 664
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 ovarian-tumor pages do not directly identify CA 19-9 as a marker for this differential."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "For epithelial ovarian tumors, monitor treatment response/relapse with CA 125; it is not a screening test.",
+        "page": 664
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss CEA for monitoring serous ovarian carcinoma."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss S-100 as an ovarian epithelial tumor marker."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      664
+    ],
+    "fa_page": 664,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-61f2fc3d3600a4c9618d503f",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Breast cancer",
+    "stem": "An 83-year-old woman comes to the physician with a 1-month history of an erythematous, pruritic, ulcerating lesion of the left nipple and serosanguineous discharge. Topical creams have not helped. Biopsy shows scattered large cells with clear, abundant cytoplasm within the nipple epidermis; these cells stain positive for cytokeratin. Which underlying condition is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acute mastitis"
+      },
+      {
+        "letter": "B",
+        "text": "Ductal carcinoma in situ"
+      },
+      {
+        "letter": "C",
+        "text": "Intraductal papilloma"
+      },
+      {
+        "letter": "D",
+        "text": "Invasive lobular carcinoma"
+      },
+      {
+        "letter": "E",
+        "text": "Phyllodes tumor"
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is Paget disease of the breast: malignant glandular (Paget) cells extend through the lactiferous ducts into the nipple epidermis, producing an eczematous, pruritic or ulcerating nipple lesion. Paget disease is strongly associated with an underlying breast carcinoma. In the absence of a palpable mass, the associated lesion is most likely ductal carcinoma in situ (DCIS); a palpable mass would favor invasive ductal carcinoma.",
+    "choice_explanations": {
+      "A": "Acute mastitis causes an inflammatory, often painful and erythematous breast process, not malignant cytokeratin-positive cells in the nipple epidermis.",
+      "B": "Correct. Paget disease without a palpable mass is commonly associated with underlying DCIS.",
+      "C": "An intraductal papilloma can cause serous or bloody nipple discharge, but it does not explain Paget cells in the epidermis.",
+      "D": "Invasive lobular carcinoma is an underlying invasive cancer subtype, but the source explanation identifies DCIS as the likely cause when no mass is palpable.",
+      "E": "Phyllodes tumor is a fibroepithelial stromal mass and does not produce intraepidermal Paget cells."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Mastitis/abscess is a benign inflammatory breast disease, distinct from intraepidermal Paget cells.",
+        "page": 667
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Paget disease is extension of underlying DCIS or invasive breast cancer into nipple skin; without a mass, DCIS is the likely underlying lesion.",
+        "page": 668
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Intraductal papilloma is a separate benign breast lesion associated with nipple discharge, not Paget cells.",
+        "page": 667
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid describes invasive lobular carcinoma among breast cancer subtypes; the no-mass Paget association in this case favors DCIS.",
+        "page": 668
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Phyllodes tumor is a distinct fibroepithelial breast tumor, not the ductal source of Paget disease.",
+        "page": 668
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      667,
+      668
+    ],
+    "fa_page": 667,
+    "fa_page_verified": true
   }
 ]
