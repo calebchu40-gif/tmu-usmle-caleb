@@ -80,6 +80,12 @@ test('login accepts the test username and real-email accounts, with email regist
   assert.match(fs.readFileSync('assets/cloud.js','utf8'),/INTERNAL_USERNAME_DOMAIN = 'users\.invalid'/);
 });
 
+test('direct QBank entry requires an authorized session before question data is loaded',()=>{
+  assert.match(html,/<body class="auth-pending">/);
+  assert.match(html,/body\.auth-pending \.shell,body\.auth-required \.shell\{visibility:hidden\}/);
+  assert.match(app,/const authorized=await connectAccount\(\);[\s\S]*if\(!authorized\)[\s\S]*return;[\s\S]*await loadBank\(\)/);
+});
+
 test('manually verified OCR override corrects the anatomy item and points to printed FA page 463',()=>{
   const item=overrides['自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||1'];
   assert.equal(item.options[1].text,'Adduction of the humerus at the shoulder');

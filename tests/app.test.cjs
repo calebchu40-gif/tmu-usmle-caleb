@@ -11,11 +11,19 @@ const pages = [
   { path: '分类/章节 #1.html', title: '<img src=x onerror=alert(1)>', category: '基础科学' },
 ];
 const delay = () => new Promise(resolve => setTimeout(resolve, 15));
-async function setup(t, { hash = '', fail = false, saved = null, catalogPages = pages } = {}) {
+async function setup(t, { hash = '', fail = false, saved = null, catalogPages = pages, authenticated = true, cloudFavorites = new Set() } = {}) {
   const dom = new JSDOM(html, { url: `https://example.test/tmu-usmle-caleb/${hash}`, runScripts: 'outside-only' });
   t.after(() => dom.window.close());
   const w = dom.window;
   if (saved !== null) w.localStorage.setItem('tmu-page-favorites:/tmu-usmle-caleb/', saved);
+  let currentUser = authenticated ? {id:'test-user',email:'test@example.test'} : null;
+  w.Personal = {
+    get ready(){return true},get configured(){return true},get user(){return currentUser},get favorites(){return cloudFavorites},pages:[],markedCount:0,
+    setCatalog(){},registerSection(){},pending(){return []},state(){return []},
+    favorite:async(path,marked)=>{marked?cloudFavorites.add(path):cloudFavorites.delete(path);w.dispatchEvent(new w.Event('study-data-changed'));},
+    login:async()=>{currentUser={id:'test-user',email:'test@example.test'};return currentUser;},
+    registerEmail:async()=>({confirmationRequired:true}),render(){},
+  };
   w.fetch = async () => ({ ok: !fail, status: fail ? 404 : 200, json: async () => ({ title: 'Test Library', defaultPage: 'biochemistry/riboflavin.html', pages: catalogPages }) });
   w.eval(script);
   await delay();
@@ -66,18 +74,30 @@ test('search filters the directory and overview; no matches has a clear message'
   assert.match(d.querySelector('.empty-state').textContent, /没有找到/);
 });
 
-test('favorites persist across loads, can be removed, and tolerate corrupt storage', async t => {
+test('account favorites persist across loads and can be removed', async t => {
   const pageHash='#/page/biochemistry%2Friboflavin.html';
-  const { w, d } = await setup(t, { hash:pageHash, saved: '{broken' });
+  const cloudFavorites=new Set();
+  const { w, d } = await setup(t, { hash:pageHash, cloudFavorites });
   d.querySelector('#favorite-button').click();
-  const saved = w.localStorage.getItem('tmu-page-favorites:/tmu-usmle-caleb/');
-  assert.deepEqual(JSON.parse(saved), ['biochemistry/riboflavin.html']);
-  const reloaded = await setup(t, { hash:pageHash, saved });
+  assert.ok(cloudFavorites.has('biochemistry/riboflavin.html'));
+  const reloaded = await setup(t, { hash:pageHash, cloudFavorites });
   assert.equal(reloaded.d.querySelector('#favorite-button').getAttribute('aria-pressed'), 'true');
   w.location.hash = '#/favorites'; await delay();
   assert.equal(d.querySelectorAll('.page-card').length, 1);
   reloaded.d.querySelector('#favorite-button').click();
   assert.equal(reloaded.d.querySelector('#favorite-count').textContent, '0');
+});
+
+test('workbench landing page blocks content until an authorized user signs in',async t=>{
+  const {w,d}=await setup(t,{authenticated:false});
+  assert.equal(d.querySelector('#auth-gate').hidden,false);
+  assert.equal(w.document.body.classList.contains('auth-required'),true);
+  assert.equal(d.querySelectorAll('.page-card').length,0);
+  d.querySelector('#entry-identifier').value='test123';d.querySelector('#entry-password').value='temporary';
+  d.querySelector('#entry-login-form').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));
+  await delay();await delay();
+  assert.equal(d.querySelector('#auth-gate').hidden,true);
+  assert.equal(d.querySelectorAll('.page-card').length,pages.length);
 });
 
 test('deleted or malformed routes and failed manifest loads show recoverable errors', async t => {

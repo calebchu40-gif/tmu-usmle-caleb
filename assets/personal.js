@@ -304,6 +304,14 @@
     get pages(){return pages.map(p=>({...p,path:`私有/${p.id}`,private:true}));},
     get favorites(){return favoritePaths;},
     render, refresh, sectionFromHtml,
+    async login(identifier, password) {
+      if (!store) throw new Error('云端登录服务未连接。');
+      await store.login(identifier, password); revision++; await refresh(); render(); return store.user;
+    },
+    async registerEmail(email, password) {
+      if (!store) throw new Error('云端登录服务未连接。');
+      return store.registerEmail(email, password);
+    },
     setCatalog(value) { publicCatalog=value; },
     registerSection(path, section) {
       if(Array.isArray(section?.questions)&&section.questions.every(q=>/^[a-zA-Z0-9_-]{1,100}$/.test(q.id)&&typeof q.title==='string'))runtimeSections.set(path,section);

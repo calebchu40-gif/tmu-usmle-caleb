@@ -2,7 +2,7 @@ const $ = id => document.getElementById(id);
 const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const pagePath = "qbank.html";
 const localPreview = ["localhost", "127.0.0.1"].includes(location.hostname) && new URLSearchParams(location.search).get("preview") === "1";
-let cloud = null, user = null, all = [], filtered = [], current = 0, mode = "practice";
+let cloud = null, user = null, all = [], filtered = [], current = 0, mode = "practice", bankLoaded = false;
 let records = new Map(), answers = new Map(), picks = new Map(), seconds = new Map(), attemptSeconds = new Map(), pendingAttempts = new Map();
 let filterMode = "all", testDone = false, testStartedAt = 0, questionStartedAt = 0, timerHandle = null;
 let testTimerMode = "stopwatch", testDurationSeconds = 0, testName = "";
@@ -192,13 +192,21 @@ async function refreshRecords() {
   status(`已同步 ${rows.filter(r=>r.page_path===pagePath).length} 道题记录`);render();
 }
 async function connectAccount() {
-  if(localPreview){$("accountLabel").textContent="本地样本预览 · 不同步记录";$("loginButton").classList.add("hidden");status("本地预览模式；答案与测试结果仅用于检查页面。请勿将此模式部署到公开站点。",false);return;}
+  if(localPreview){$("accountLabel").textContent="本地样本预览 · 不同步记录";$("loginButton").classList.add("hidden");status("本地预览模式；答案与测试结果仅用于检查页面。请勿将此模式部署到公开站点。",false);return true;}
   try{
     cloud=await window.connectStudyCloud();if(!cloud)throw new Error("云端配置缺失。");
     user=await cloud.checkSession();
-    if(user){$("accountLabel").textContent=cloud.displayName(user)||"已登录";$("loginButton").classList.add("hidden");$("logoutButton").classList.remove("hidden");await refreshRecords();status("答题记录已从账号同步");}
-    else{$("accountLabel").textContent="未登录 · 记录不会同步";status("请登录后答题，才能保存到账号。");}
-  }catch(e){status(e.message||"账号连接失败",true);$("accountLabel").textContent="账号连接失败";}
+    if(user){$("accountLabel").textContent=cloud.displayName(user)||"已登录";$("loginButton").classList.add("hidden");$("logoutButton").classList.remove("hidden");return true;}
+    $("accountLabel").textContent="需要登录";status("登录后才能进入题库。");return false;
+  }catch(e){status(e.message||"账号连接失败",true);$("accountLabel").textContent="需要登录";$("loginStatus").textContent="云端账号暂不可用，请确认网络后重试。";return false;}
+}
+async function loadBank(){
+  if(bankLoaded)return;
+  const response=await fetch("./data/questions.json");if(!response.ok)throw new Error("题库数据加载失败");all=await response.json();
+  all=all.filter(q=>q.reviewed===true&&q.review_required!==true&&q.complete&&q.chapter&&q.stem&&q.answer&&Array.isArray(q.options)&&q.options.length>=2&&q.explanation);
+  await Promise.all(all.map(async q=>{q.cloud_id=await cloudId(q)}));
+  $("bankCount").textContent=`${all.length} 道题可练习`;
+  selectedTestChapters=new Set();$("chapter").replaceChildren(new Option("全部章节",""));fillHierarchy();updateTestChapterSelection();applyFilter();bankLoaded=true;
 }
 async function saveEvent(q,action,payload={}) {
   if(!user||!cloud)throw new Error("请先登录账号，答题记录才能云端保存。");
@@ -280,14 +288,12 @@ function setMode(next) {
 }
 function move(delta){stopClock();current=Math.max(0,Math.min(filtered.length-1,current+delta));render()}
 async function init() {
+  if(!localPreview)document.body.classList.add("auth-pending");
   try{
-    const response=await fetch("./data/questions.json");if(!response.ok)throw new Error("题库数据加载失败");all=await response.json();
-    all=all.filter(q=>q.reviewed===true&&q.review_required!==true&&q.complete&&q.chapter&&q.stem&&q.answer&&Array.isArray(q.options)&&q.options.length>=2&&q.explanation);
-    await Promise.all(all.map(async q=>{q.cloud_id=await cloudId(q)}));
-    $("bankCount").textContent=`${all.length} 道题可练习`;
-    selectedTestChapters=new Set();
-    $("chapter").replaceChildren(new Option("全部章节",""),...[]);fillHierarchy();updateTestChapterSelection();applyFilter();await connectAccount();
-  }catch(e){$("title").textContent="题库载入失败";$("subtitle").textContent=e.message;status(e.message,true)}
+    const authorized=await connectAccount();
+    if(!authorized){document.body.classList.remove("auth-pending");document.body.classList.add("auth-required");$("loginModal").classList.remove("hidden");$("cancelLogin").classList.add("hidden");if(!$("loginStatus").textContent)$("loginStatus").textContent="请先登录，登录后才能查看题库内容。";return;}
+    document.body.classList.remove("auth-pending","auth-required");$("loginModal").classList.add("hidden");await loadBank();if(user)await refreshRecords();
+  }catch(e){document.body.classList.remove("auth-pending");document.body.classList.add("auth-required");$("loginModal").classList.remove("hidden");$("cancelLogin").classList.add("hidden");$("loginStatus").textContent=e.message||"暂时无法载入，请稍后重试。";}
 }
 $("chapter").onchange=()=>{window.subFilter="";applyFilter()};$("search").oninput=applyFilter;
 $("practiceMode").onclick=()=>setMode("practice");$("testMode").onclick=()=>setMode("test");
@@ -305,8 +311,8 @@ $("confirmFinish").onclick=()=>{$("finishConfirm").classList.add("hidden");finis
 $("finishConfirm").onclick=event=>{if(event.target===$("finishConfirm"))$("finishConfirm").classList.add("hidden")};
 document.addEventListener("keydown",event=>{if(event.key==="Escape")$("finishConfirm").classList.add("hidden")});
 $("startTest").onclick=startTest;
-$("loginButton").onclick=()=>{$("loginModal").classList.remove("hidden");$("loginStatus").textContent=""};$("cancelLogin").onclick=()=>$("loginModal").classList.add("hidden");
-$("logoutButton").onclick=async()=>{if(!cloud)return;await cloud.logout();user=null;records.clear();answers.clear();pendingAttempts.clear();$("loginButton").classList.remove("hidden");$("logoutButton").classList.add("hidden");$("accountLabel").textContent="未登录 · 记录不会同步";status("已退出账号");render()};
-$("loginForm").onsubmit=async event=>{event.preventDefault();$("loginStatus").textContent="正在登录…";try{if(!cloud)cloud=await window.connectStudyCloud();user=await cloud.login($("loginIdentifier").value,$("password").value);$("password").value="";$("loginModal").classList.add("hidden");$("accountLabel").textContent=cloud.displayName(user)||"已登录";$("loginButton").classList.add("hidden");$("logoutButton").classList.remove("hidden");await refreshRecords();status("账号已登录，记录已同步");}catch(e){$("loginStatus").textContent=e.message||"登录失败"}};
+$("loginButton").onclick=()=>{$("loginModal").classList.remove("hidden");$("cancelLogin").classList.remove("hidden");$("loginStatus").textContent=""};$("cancelLogin").onclick=()=>{if(document.body.classList.contains("auth-required"))return;$("loginModal").classList.add("hidden")};
+$("logoutButton").onclick=async()=>{if(!cloud)return;await cloud.logout();user=null;records.clear();answers.clear();pendingAttempts.clear();$("loginButton").classList.add("hidden");$("logoutButton").classList.add("hidden");$("accountLabel").textContent="需要登录";document.body.classList.add("auth-required");$("loginModal").classList.remove("hidden");$("cancelLogin").classList.add("hidden");$("loginStatus").textContent="已退出账号，请登录后继续。";status("已退出账号");render()};
+$("loginForm").onsubmit=async event=>{event.preventDefault();$("loginStatus").textContent="正在登录…";try{if(!cloud)cloud=await window.connectStudyCloud();user=await cloud.login($("loginIdentifier").value,$("password").value);$("password").value="";document.body.classList.remove("auth-pending","auth-required");$("loginModal").classList.add("hidden");$("cancelLogin").classList.remove("hidden");$("accountLabel").textContent=cloud.displayName(user)||"已登录";$("loginButton").classList.add("hidden");$("logoutButton").classList.remove("hidden");await loadBank();await refreshRecords();status("账号已登录，记录已同步");}catch(e){$("loginStatus").textContent=e.message||"登录失败"}};
 $("registerEmail").onclick=async()=>{const identifier=$("loginIdentifier").value.trim();const password=$("password").value;$("loginStatus").textContent="正在创建邮箱账号…";try{if(!cloud)cloud=await window.connectStudyCloud();if(!identifier.includes("@"))throw new Error("邮箱注册请在账号框中填写邮箱地址。");const result=await cloud.registerEmail(identifier,password);$("password").value="";$("loginStatus").textContent=result.confirmationRequired?"注册请求已创建。请查收验证邮件；完成验证后还需管理员授权才能访问。":"注册已创建。请联系管理员将账号加入授权名单后再登录。";}catch(e){$("loginStatus").textContent=e.message||"邮箱注册失败"}};
 init();

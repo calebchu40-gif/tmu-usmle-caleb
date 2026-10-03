@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const {JSDOM} = require('jsdom');
 const html = fs.readFileSync('index.html','utf8');
 const read = path => fs.readFileSync(path,'utf8');
-const pause = () => new Promise(r=>setTimeout(r,20));
+const pause = () => new Promise(r=>setTimeout(r,80));
 async function setup(t,{user=true,failSave=false,url='https://example.test/repo/#/records'}={}) {
   const dom = new JSDOM(html,{url,runScripts:'outside-only'});t.after(()=>dom.window.close());
   const w=dom.window, d=w.document;const errors=[];w.addEventListener('error',e=>errors.push(e.error));t.after(()=>assert.deepEqual(errors,[]));
@@ -52,8 +52,8 @@ test('failed writes retain form contents and show unsaved error',async t=>{
  assert.equal(rows.study_records.length,0);assert.equal(d.querySelector('[name=note]').value,'保留草稿');assert.match(d.querySelector('#sync-message').textContent,/尚未保存/);
 });
 test('unauthenticated management routes show login and no personal data',async t=>{
- const {w,d}=await setup(t,{user:false});assert.ok(d.querySelector('[name=password]'));assert.equal(d.querySelectorAll('.record-card').length,0);
- w.location.hash='#/manage';await pause();assert.ok(d.querySelector('[name=identifier]'));assert.equal(d.querySelectorAll('.page-card').length,0);
+ const {w,d}=await setup(t,{user:false});assert.equal(d.querySelector('#auth-gate').hidden,false);assert.ok(d.querySelector('#entry-password'));assert.equal(d.querySelectorAll('.record-card').length,0);
+ w.location.hash='#/manage';await pause();assert.equal(d.querySelector('#auth-gate').hidden,false);assert.equal(d.querySelectorAll('.page-card').length,0);
 });
 test('quiz saves validate fields, preserve notes and use stable question IDs',async t=>{
  const {w,rows}=await setup(t);const record={question_id:'q1',selected:1,correct:false,submitted:true,marked:false};

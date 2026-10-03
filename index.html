@@ -10,7 +10,7 @@
   <script src="./assets/personal.js" defer></script>
   <script src="./assets/app.js" defer></script>
 </head>
-<body>
+<body class="auth-pending">
   <a class="skip" href="#main">跳到内容</a>
   <button id="backdrop" class="backdrop" aria-label="关闭导航" hidden></button>
   <aside id="sidebar" class="sidebar" aria-label="学习页面导航">
@@ -47,5 +47,16 @@
     <section id="error" class="overview" hidden role="alert"><p class="eyebrow">学习工作台</p><h1 id="error-title">目录加载中</h1><p id="error-message" class="description"></p><a class="button" href="#/overview">返回全部页面</a><button id="retry" class="button">重新加载</button></section>
     <noscript><p class="overview">请启用 JavaScript 查看页面目录。也可以直接打开 <a href="./qbank.html">USMLE Step 1 KAPLAN题库</a>。</p></noscript>
   </main>
+  <section id="auth-gate" class="auth-gate" hidden aria-label="登录题库">
+    <form id="entry-login-form" class="auth-card">
+      <p class="eyebrow">TMU · Caleb</p>
+      <h1>登录学习账号</h1>
+      <p class="description">登录后进入学习工作台。测试账号可使用用户名；其他账号使用邮箱。邮箱注册账号需验证并经管理员授权。</p>
+      <label>用户名或邮箱<input id="entry-identifier" type="text" autocomplete="username" required></label>
+      <label>密码<input id="entry-password" type="password" autocomplete="current-password" required></label>
+      <p id="entry-auth-message" class="auth-message" role="status" aria-live="polite"></p>
+      <div class="auth-actions"><button id="entry-register" class="button" type="button">邮箱注册</button><button class="button primary" type="submit">登录</button></div>
+    </form>
+  </section>
 </body>
 </html>

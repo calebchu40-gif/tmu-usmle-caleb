@@ -162,7 +162,15 @@ $("content-frame").addEventListener("load", () => { if ($("status").textContent 
 $("retry").addEventListener("click", () => location.reload());
 window.addEventListener("hashchange", renderRoute);
 async function start() {
+  document.body.classList.add("auth-pending");
   try {
+    for (let n = 0; n < 200 && window.Personal?.ready === false; n++) await new Promise(resolve => setTimeout(resolve, 50));
+    if (!window.Personal?.ready) throw new Error("云端登录服务尚未准备好，请刷新重试。");
+    if (!window.Personal.configured) throw new Error("云端登录服务暂不可用，请检查网络后刷新。");
+    if (!window.Personal.user) {
+      document.body.classList.remove("auth-pending"); document.body.classList.add("auth-required");
+      $("auth-gate").hidden = false; $("entry-auth-message").textContent = "请先登录，登录后才能查看学习工作台和题库。"; return;
+    }
     const response = await fetch("./assets/pages.json", {cache: "no-cache"});
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     catalog = await response.json();
@@ -172,12 +180,35 @@ async function start() {
     catalog.pages = [...publicPages, ...(window.Personal?.pages || [])];
     if (window.Personal?.user) favorites = new Set(window.Personal.favorites);
     $("site-name").textContent = catalog.title;
+    document.body.classList.remove("auth-pending", "auth-required"); $("auth-gate").hidden = true;
     renderRoute();
   } catch {
+    if (!window.Personal?.user) {
+      document.body.classList.remove("auth-pending"); document.body.classList.add("auth-required");
+      $("auth-gate").hidden = false; $("entry-auth-message").textContent = "云端连接失败或尚未授权，请检查网络和账号设置后重试。"; return;
+    }
+    document.body.classList.remove("auth-pending", "auth-required");
     $("catalog").replaceChildren(node("p", "sidebar-message", "目录暂时不可用。"));
     showError("暂时无法加载目录", "请检查网络后重试。如果刚上传文件，请等待网站发布完成。");
   }
 }
+$("entry-login-form").addEventListener("submit", async event => {
+  event.preventDefault(); const button = event.submitter || event.currentTarget.querySelector('button[type="submit"]'); button.disabled = true;
+  $("entry-auth-message").textContent = "正在登录…";
+  try { await window.Personal.login($("entry-identifier").value, $("entry-password").value); $("entry-password").value = ""; await start(); }
+  catch (error) { $("entry-auth-message").textContent = error.message || "登录失败，请检查账号和密码。"; }
+  finally { button.disabled = false; }
+});
+$("entry-register").addEventListener("click", async event => {
+  const identifier = $("entry-identifier").value.trim(), password = $("entry-password").value, button = event.currentTarget;
+  button.disabled = true; $("entry-auth-message").textContent = "正在创建邮箱账号…";
+  try {
+    if (!identifier.includes("@")) throw new Error("邮箱注册请在账号框中填写邮箱地址。");
+    const result = await window.Personal.registerEmail(identifier, password); $("entry-password").value = "";
+    $("entry-auth-message").textContent = result.confirmationRequired ? "注册已创建，请查收验证邮件；验证后还需管理员授权才能进入。" : "注册已创建；请联系管理员授权后再登录。";
+  } catch (error) { $("entry-auth-message").textContent = error.message || "邮箱注册失败。"; }
+  finally { button.disabled = false; }
+});
 function clearFrame() {
   frameVersion++; loadedFrameKey = ""; appliedFocus = "";
   $("content-frame").removeAttribute("srcdoc");
@@ -210,7 +241,12 @@ async function loadFrame(page) {
 }
 window.addEventListener("study-data-changed", () => {
   $("account-link").textContent = window.Personal?.user ? "个人账号 · 已登录" : "登录以同步记录";
+  if (window.Personal?.ready && !window.Personal.user) {
+    document.body.classList.add("auth-required"); $("auth-gate").hidden = false;
+    $("entry-auth-message").textContent = "当前会话已结束，请重新登录。"; return;
+  }
   if (!catalog) return;
+  document.body.classList.remove("auth-pending", "auth-required"); $("auth-gate").hidden = true;
   catalog.pages = [...publicPages, ...(window.Personal?.pages || [])];
   if (window.Personal?.user) favorites = new Set(window.Personal.favorites);
   else { try { favorites = new Set(JSON.parse(localStorage.getItem(storageKey) || "[]")); } catch { favorites = new Set(); } }
