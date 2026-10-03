@@ -56,15 +56,23 @@
     }
     async questionEvent(path, title, event) {
       this.requireUser();
-      const {data, error} = await this.client.rpc('study_question_event', {
+      const params = {
         p_page:path, p_question:event.question_id, p_title:title,
         p_event:event.request_id, p_action:event.action,
         p_selected:event.action === 'attempt' ? event.selected : null,
         p_correct:event.action === 'attempt' ? event.correct : null,
         p_marked:event.action === 'mark' ? event.marked : null
-      }).single();
+      };
+      const elapsed = event.action === 'attempt' ? Math.max(0, Math.floor(event.elapsed_seconds || 0)) : 0;
+      let {data, error} = await this.client.rpc('study_question_event', {...params,p_elapsed_seconds:elapsed}).single();
+      let timeSyncPending = false;
+      if (error && (error.code === 'PGRST202' || /p_elapsed_seconds|schema cache/i.test(error.message || ''))) {
+        ({data, error} = await this.client.rpc('study_question_event', params).single());
+        timeSyncPending = !error;
+      }
       if (error) throw error;
       if (!data?.id) throw new Error('未收到云端保存结果，请重试。');
+      if (timeSyncPending) data.time_sync_pending = true;
       return data;
     }
     async page(id) {

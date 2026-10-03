@@ -25,12 +25,19 @@ test('insert binds data to current user; database errors propagate',async t=>{
  await assert.rejects(()=>store.save('study_pages',{title:'x',user_id:'other'}),e=>e.message==='permission denied');
  assert.equal(calls.find(c=>c[0]==='insert')[1].user_id,'owner');
 });
-test('question event uses a singular RPC result and includes the stable request ID',async t=>{
+test('question event uses a singular RPC result, stable request ID, and elapsed time',async t=>{
  const {store,client}=setup(t);store.user={id:'owner'};let args;
  client.rpc=(name,params)=>{args={name,params};return {single:async()=>({data:{id:'record',correct_count:2,wrong_count:1},error:null})};};
- const event={question_id:'q1',request_id:'11111111-1111-4111-8111-111111111111',action:'attempt',selected:0,correct:true};
+ const event={question_id:'q1',request_id:'11111111-1111-4111-8111-111111111111',action:'attempt',selected:0,correct:true,elapsed_seconds:42};
  const row=await store.questionEvent('section.html','Question',event);
- assert.equal(args.name,'study_question_event');assert.equal(args.params.p_event,event.request_id);assert.equal(row.correct_count,2);
+ assert.equal(args.name,'study_question_event');assert.equal(args.params.p_event,event.request_id);assert.equal(args.params.p_elapsed_seconds,42);assert.equal(row.correct_count,2);
+});
+test('question event stays compatible with a database awaiting the elapsed-time migration',async t=>{
+ const {store,client}=setup(t);store.user={id:'owner'};const calls=[];
+ client.rpc=(name,params)=>{calls.push(params);return {single:async()=>calls.length===1?{data:null,error:{code:'PGRST202',message:'function signature with p_elapsed_seconds not found'}}:{data:{id:'record'},error:null}};};
+ const event={question_id:'q1',request_id:'11111111-1111-4111-8111-111111111111',action:'attempt',selected:0,correct:true,elapsed_seconds:42};
+ const row=await store.questionEvent('section.html','Question',event);
+ assert.equal(calls.length,2);assert.equal(calls[0].p_elapsed_seconds,42);assert.equal('p_elapsed_seconds' in calls[1],false);assert.equal(row.time_sync_pending,true);
 });
 test('reset uses authenticated atomic RPC and propagates errors',async t=>{
  const {store,client}=setup(t);let calls=0;

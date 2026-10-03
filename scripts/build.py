@@ -67,18 +67,51 @@ def build(root=ROOT):
     if config.get("standaloneQuestionBank"):
         question_file = root / "data/questions.json"
         rows = json.loads(question_file.read_text(encoding="utf-8"))
+        overrides = root / "data/question-overrides.json"
+        reviewed = json.loads(overrides.read_text(encoding="utf-8")) if overrides.is_file() else {}
+        curated = []
+        for row in rows:
+            correction = reviewed.get(row.get("id"))
+            if not correction:
+                continue
+            item = {**row, **correction}
+            if item.get("complete") and item.get("chapter") and item.get("stem") and item.get("answer") and len(item.get("options", [])) >= 2 and item.get("explanation"):
+                curated.append(item)
         (output / "assets/question-pages").mkdir(parents=True, exist_ok=True)
         (output / "data").mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(root / "qbank.html", output / "index.html")
-        shutil.copyfile(root / "qbank.html", output / "qbank.html")
-        shutil.copyfile(question_file, output / "data/questions.json")
+        (output / "assets/vendor").mkdir(parents=True, exist_ok=True)
+        app_page = root / "qbank-v2.html"
+        if not app_page.is_file():
+            app_page = root / "qbank.html"
+        shutil.copyfile(app_page, output / "index.html")
+        shutil.copyfile(app_page, output / "qbank.html")
+        app_script = root / "assets/qbank-app.js"
+        if app_script.is_file():
+            shutil.copyfile(app_script, output / "assets/qbank-app.js")
+        (output / "data/questions.json").write_text(json.dumps(curated, ensure_ascii=False) + "\n", encoding="utf-8")
+        (output / "data/question-overrides.json").write_text(json.dumps(reviewed, ensure_ascii=False) + "\n", encoding="utf-8")
+        (output / "data/bank-meta.json").write_text(json.dumps({"verified": len(curated), "source_total": len(rows)}, ensure_ascii=False) + "\n", encoding="utf-8")
+        cloud = config.get("cloud", {})
+        public_cloud = {key: cloud.get(key, "") for key in ("url", "publishableKey")}
+        key = public_cloud["publishableKey"]
+        if key and not key.startswith("sb_publishable_"):
+            raise ValueError("Use a Supabase publishable key, never a secret/service_role key")
+        if public_cloud["url"] and not public_cloud["url"].startswith("https://"):
+            raise ValueError("Cloud URL must use HTTPS")
+        (output / "assets/cloud-config.json").write_text(json.dumps(public_cloud) + "\n", encoding="utf-8")
+        if public_cloud["url"] and public_cloud["publishableKey"]:
+            shutil.copyfile(root / "assets/cloud.js", output / "assets/cloud.js")
+            vendor = root / "assets/vendor/supabase.js"
+            if not vendor.is_file():
+                raise FileNotFoundError("Supabase browser bundle was not created")
+            shutil.copyfile(vendor, output / "assets/vendor/supabase.js")
         image_paths = sorted({
             image
-            for question in rows
+            for question in curated
             for image in (question.get("question_images") or [])
         } | {
             question["question_image"]
-            for question in rows
+            for question in curated
             if question.get("question_image")
         })
         for image in image_paths:
@@ -91,7 +124,7 @@ def build(root=ROOT):
                 raise FileNotFoundError(f"Question image not found: {image}")
             shutil.copyfile(source, output / image)
         (output / ".nojekyll").touch()
-        return {"title": config.get("title") or "USMLE Step 1 自建题库", "defaultPage": "index.html", "pages": []}
+        return {"title": config.get("title") or "USMLE Step 1 自建题库", "defaultPage": "index.html", "pages": [], "questions": len(curated)}
     files = list(public_files(root))
     pages = []
     for source, relative in files:
@@ -143,4 +176,7 @@ def build(root=ROOT):
 
 if __name__ == "__main__":
     result = build()
-    print(f"Built {len(result['pages'])} pages into dist/")
+    if "questions" in result:
+        print(f"Built standalone qbank with {result['questions']} verified questions into dist/")
+    else:
+        print(f"Built {len(result['pages'])} pages into dist/")

@@ -44,7 +44,12 @@ class BuildTests(unittest.TestCase):
         for path in [".git/config", ".openai/hosting.json", "tests/fixture.html", "scripts/data.json", "node_modules/demo.html", "private.key", "supabase/migrations/data.json"]:
             self.write(path, "not public")
         self.write("real.html", "<title>Real</title>")
-        (self.root / "shortcut.html").symlink_to(self.root / "real.html")
+        try:
+            (self.root / "shortcut.html").symlink_to(self.root / "real.html")
+        except OSError as error:
+            if getattr(error, "winerror", None) == 1314:
+                self.skipTest("Windows symlink creation requires Developer Mode or elevated privileges")
+            raise
         result = module.build(self.root)
         self.assertEqual([p["path"] for p in result["pages"]], ["real.html"])
         self.assertFalse((self.root / "dist/.openai").exists())
@@ -71,6 +76,29 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(result["defaultPage"], "")
         self.assertFalse((self.root / "dist/old.html").exists())
         self.assertTrue((self.root / "dist/.nojekyll").exists())
+
+    def test_standalone_qbank_copies_v2_app_and_public_cloud_config(self):
+        self.write("site.config.json", json.dumps({"standaloneQuestionBank": True, "cloud": {"url": "https://example.supabase.co", "publishableKey": "sb_publishable_test"}}))
+        self.write("qbank.html", "old page")
+        self.write("qbank-v2.html", "new page")
+        self.write("assets/qbank-app.js", "app")
+        self.write("assets/cloud.js", "cloud")
+        self.write("assets/vendor/supabase.js", "vendor")
+        self.write("data/questions.json", json.dumps([{"id":"reviewed","question_images":[]},{"id":"raw-only","question_image":"private.jpg"}], ensure_ascii=False))
+        self.write("data/question-overrides.json", json.dumps({"reviewed":{"complete":True,"chapter":"Biochemistry","stem":"Stem","answer":"A","options":[{"letter":"A","text":"Answer"},{"letter":"B","text":"Distractor"}],"explanation":"Reviewed explanation"}}, ensure_ascii=False))
+        self.write("private.jpg", "private image")
+        module.build(self.root)
+        for name in ["index.html", "qbank.html"]:
+            self.assertEqual((self.root / "dist" / name).read_text(encoding="utf-8"), "new page")
+        self.assertEqual((self.root / "dist/assets/qbank-app.js").read_text(encoding="utf-8"), "app")
+        self.assertEqual((self.root / "dist/assets/vendor/supabase.js").read_text(encoding="utf-8"), "vendor")
+        self.assertTrue((self.root / "dist/data/question-overrides.json").is_file())
+        public_questions=json.loads((self.root / "dist/data/questions.json").read_text(encoding="utf-8"))
+        self.assertEqual([q["id"] for q in public_questions], ["reviewed"])
+        self.assertFalse((self.root / "dist/private.jpg").exists())
+        self.assertEqual(json.loads((self.root / "dist/data/bank-meta.json").read_text(encoding="utf-8"))["source_total"], 2)
+        config = json.loads((self.root / "dist/assets/cloud-config.json").read_text(encoding="utf-8"))
+        self.assertEqual(config["url"], "https://example.supabase.co")
 
 
 

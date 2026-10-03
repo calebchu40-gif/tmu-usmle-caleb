@@ -3,4 +3,6 @@
 node_modules/
 *.tar.gz
 dist/
+assets/vendor/
+tmp/qbank-review/
 __pycache__/
