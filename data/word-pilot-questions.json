@@ -22277,5 +22277,84 @@
     ],
     "question_figures_reviewed": true,
     "question_figure_description": "Photo-only crop of the child with achondroplasia; excludes question text, choices, answer state, and interface."
+  },
+  {
+    "id": "import-436917cbe0ccd37a94b67e5f",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics / Tumor suppressor genes",
+    "stem": "A 51-year-old woman comes to the physician for a routine examination. She is concerned about a recent history of abnormal periods, fatigue, and weight loss. Pelvic examination shows an adnexal mass. Resection of the mass confirms a malignant ovarian tumor. She reports a family history of breast cancer in her mother and aunt, both in their 40s; her grandmother had ovarian cancer. This patient most likely has a genetic abnormality in a tumor-suppressor gene located on which chromosome arm?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "3p"
+      },
+      {
+        "letter": "B",
+        "text": "5q"
+      },
+      {
+        "letter": "C",
+        "text": "11p"
+      },
+      {
+        "letter": "D",
+        "text": "17q"
+      },
+      {
+        "letter": "E",
+        "text": "18q"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The early-onset breast cancers in two close relatives together with ovarian cancer in the family suggest hereditary breast and ovarian cancer syndrome from a germline BRCA1 tumor-suppressor mutation. BRCA1 is on chromosome 17q; BRCA2 is on 13q. Tumor-suppressor syndromes follow the two-hit model: one defective allele may be inherited, and somatic inactivation of the remaining functional allele permits tumor development. The stem's menstrual symptoms and weight loss are nonspecific; the decisive clue is the family pattern of breast and ovarian cancer.",
+    "choice_explanations": {
+      "A": "Incorrect. VHL is on 3p. Its loss is associated with von Hippel–Lindau syndrome, including clear-cell renal cell carcinoma, hemangioblastomas, and pheochromocytoma.",
+      "B": "Incorrect. APC is on 5q. Germline loss causes familial adenomatous polyposis and markedly increases colorectal-cancer risk.",
+      "C": "Incorrect. WT1 is on 11p and is associated with Wilms tumor and the WAGR spectrum.",
+      "D": "Correct. BRCA1 is a tumor-suppressor gene on 17q and is associated with hereditary breast and ovarian cancer. BRCA2 is on 13q.",
+      "E": "Incorrect. The source explanation associates 18q with DPC and DCC tumor-suppressor genes, linked respectively with pancreatic and colorectal cancer; this is not the characteristic familial breast/ovarian cancer locus."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "VHL is listed at 3p. First Aid associates VHL loss with von Hippel–Lindau disease; renal tumors are discussed in the renal chapter (p.623).",
+        "page": 62
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "APC is listed at 5q. First Aid's neoplasia section (p.220) associates APC with familial adenomatous polyposis and colorectal cancer.",
+        "page": 62
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "WT1 is listed at 11p; First Aid's renal tumor discussion (p.623) links WT1 with Wilms tumor.",
+        "page": 62
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "BRCA1 is listed at 17q and BRCA2 at 13q. First Aid p.220 connects BRCA1/2 tumor-suppressor genes with breast and ovarian cancer susceptibility.",
+        "page": 62
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Chromosome 18 is represented in the First Aid chromosome-gene table; the source explanation specifies DCC/DPC tumor-suppressor associations on 18q. First Aid p.220 covers tumor-suppressor genes in neoplasia but does not directly state the DCC/DPC chromosome-arm pairing.",
+        "page": 62
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      62,
+      220
+    ],
+    "fa_page": 62,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 printed p.62 lists the chromosome-to-gene associations, including BRCA1 on 17q, BRCA2 on 13q, VHL on 3p, APC on 5q, WT1 on 11p, and genes associated with chromosome 18. Printed p.220 discusses tumor-suppressor genes in neoplasia, including BRCA1/2 and their cancer associations. Together these support the keyed BRCA1/17q link and the two-hit tumor-suppressor framework."
   }
 ]
