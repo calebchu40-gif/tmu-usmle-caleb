@@ -8985,8 +8985,9 @@
     "option_fa": {
       "A": {
         "verified": true,
-        "no_direct_match": true,
-        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+        "no_direct_match": false,
+        "text": "Leukocyte adhesion deficiency type 1 impairs leukocyte migration/transmigration.",
+        "page": 115
       },
       "B": {
         "verified": true,
@@ -9008,15 +9009,18 @@
       },
       "E": {
         "verified": true,
-        "no_direct_match": true,
-        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+        "no_direct_match": false,
+        "text": "Chediak-Higashi syndrome impairs phagosome-lysosome fusion/trafficking; this is distinct from NADPH oxidase deficiency.",
+        "page": 115
       }
     },
     "reviewed": true,
     "review_required": false,
     "complete": true,
     "fa_pages": [
-      107
+      104,
+      107,
+      115
     ],
     "fa_page": 107,
     "fa_page_verified": true,
@@ -9067,8 +9071,9 @@
       },
       "B": {
         "verified": true,
-        "no_direct_match": true,
-        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+        "no_direct_match": false,
+        "text": "Odds ratio compares the odds of an outcome in exposed versus unexposed groups; First Aid gives the definition and formula.",
+        "page": 258
       },
       "C": {
         "verified": true,
@@ -9093,7 +9098,9 @@
     "review_required": false,
     "complete": true,
     "fa_pages": [
-      267
+      258,
+      267,
+      268
     ],
     "fa_page": 267,
     "fa_page_verified": true,
@@ -9428,7 +9435,7 @@
       263,
       264
     ],
-    "fa_page": 263,
+    "fa_page": 264,
     "fa_page_verified": true,
     "fa_summary": "Nonrandomized treatment groups can differ at baseline; confounding by indication distorts treatment effects."
   },
@@ -9471,8 +9478,9 @@
     "option_fa": {
       "A": {
         "verified": true,
-        "no_direct_match": true,
-        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+        "no_direct_match": false,
+        "text": "Actin is listed as the component of microfilaments in the cytoskeleton table.",
+        "page": 46
       },
       "B": {
         "verified": true,
@@ -9781,8 +9789,9 @@
     "option_fa": {
       "A": {
         "verified": true,
-        "no_direct_match": true,
-        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+        "no_direct_match": false,
+        "text": "Rheumatic fever can cause migratory polyarthritis as an acute manifestation (Jones criteria); this is not the later chronic complication asked in the question.",
+        "page": 319
       },
       "B": {
         "verified": true,
@@ -9858,8 +9867,9 @@
     "option_fa": {
       "A": {
         "verified": true,
-        "no_direct_match": true,
-        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+        "no_direct_match": false,
+        "text": "Type I hypersensitivity is immediate and IgE-mediated.",
+        "page": 110
       },
       "B": {
         "verified": true,
@@ -9881,8 +9891,9 @@
       },
       "E": {
         "verified": true,
-        "no_direct_match": true,
-        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+        "no_direct_match": false,
+        "text": "Immediate hypersensitivity is mediated by IgE-bound mast cells.",
+        "page": 110
       }
     },
     "reviewed": true,
@@ -9890,9 +9901,10 @@
     "complete": true,
     "fa_pages": [
       104,
+      110,
       111
     ],
-    "fa_page": 104,
+    "fa_page": 111,
     "fa_page_verified": true,
     "fa_summary": "C3b supports immune-complex clearance; retained complexes can deposit and cause type III hypersensitivity."
   },
@@ -10092,31 +10104,31 @@
       "A": {
         "verified": true,
         "no_direct_match": false,
-        "text": "Total peripheral resistance is calculated from the pressure gradient divided by cardiac output; the page gives the MAP, RAP, CO relationship.",
+        "text": "First Aid gives MAP = CO × TPR. The pressure-gradient calculation using right atrial pressure comes from this question's hemodynamic data and explanation, not an equation printed on this page.",
         "page": 289
       },
       "B": {
         "verified": true,
         "no_direct_match": false,
-        "text": "The same cardiac-output equation distinguishes pressure per flow from the reciprocal flow-per-pressure units.",
+        "text": "MAP = CO × TPR establishes the pressure-flow relationship; the question's exact resistance units follow from its source explanation.",
         "page": 289
       },
       "C": {
         "verified": true,
         "no_direct_match": false,
-        "text": "Cardiac output is the denominator in TPR = (MAP−RAP)/CO, not the resistance itself.",
+        "text": "First Aid shows that MAP is the product of cardiac output and total peripheral resistance; it does not print the question's RAP-adjusted form of the equation.",
         "page": 289
       },
       "D": {
         "verified": true,
         "no_direct_match": false,
-        "text": "Direct match: TPR = (MAP−RAP)/CO.",
+        "text": "First Aid gives MAP = CO × TPR; the supplied question explanation applies its pressure-gradient form, (MAP−RAP)/CO, to obtain the correct value.",
         "page": 289
       },
       "E": {
         "verified": true,
         "no_direct_match": false,
-        "text": "The page’s equation establishes pressure divided by flow; the reciprocal units are not TPR.",
+        "text": "First Aid gives MAP = CO × TPR; the distinction between resistance units and their reciprocal follows from rearranging the relationship and the question's source explanation.",
         "page": 289
       }
     },
@@ -10283,7 +10295,7 @@
       501,
       502
     ],
-    "fa_page": 501,
+    "fa_page": 502,
     "fa_page_verified": true,
     "fa_summary": "First Aid 2026 pp. 501–502 cover holoprosencephaly/lissencephaly and posterior fossa malformations; p. 502 directly describes Chiari I and its main differential."
   },
@@ -10437,9 +10449,10 @@
     "complete": true,
     "fa_pages": [
       366,
+      377,
       679
     ],
-    "fa_page": 366,
+    "fa_page": 679,
     "fa_page_verified": true,
     "fa_summary": "First Aid 2026 p. 679 directly links congenital diaphragmatic hernia to pulmonary hypoplasia; p. 377 covers the hernia itself and p. 366 contrasts foregut anomalies."
   },
@@ -11016,41 +11029,45 @@
       "A": {
         "verified": true,
         "no_direct_match": false,
-        "text": "Limited systemic sclerosis/CREST is distinguished by anticentromere antibody.",
+        "text": "The autoantibody table links anticentromere antibody with limited systemic sclerosis/CREST; the scleroderma section describes CREST features.",
         "pages": [
-          480
+          113,
+          481
         ]
       },
       "B": {
         "verified": true,
         "no_direct_match": false,
-        "text": "Diffuse systemic sclerosis is associated with anti-Scl-70.",
+        "text": "The autoantibody table and scleroderma section link anti-Scl-70 with diffuse systemic sclerosis.",
         "pages": [
-          480
+          113,
+          481
         ]
       },
       "C": {
         "verified": true,
         "no_direct_match": false,
-        "text": "Drug-induced lupus has a different antibody association (eg, antihistone).",
+        "text": "The autoantibody table associates antihistone antibodies with drug-induced lupus.",
         "pages": [
-          480
+          113
         ]
       },
       "D": {
         "verified": true,
         "no_direct_match": false,
-        "text": "Mixed connective tissue disease is associated with anti-U1-RNP.",
+        "text": "The autoantibody table associates anti-U1-RNP with mixed connective tissue disease; the connective-tissue disease comparison also describes its overlap features.",
         "pages": [
-          480
+          113,
+          476
         ]
       },
       "E": {
         "verified": true,
         "no_direct_match": false,
-        "text": "SLE is associated with anti-dsDNA and anti-Smith; these are absent in this case.",
+        "text": "The autoantibody table and SLE section associate anti-dsDNA and anti-Smith with SLE.",
         "pages": [
-          480
+          113,
+          476
         ]
       }
     },
@@ -11058,9 +11075,11 @@
     "review_required": false,
     "complete": true,
     "fa_pages": [
-      480
+      113,
+      476,
+      481
     ],
-    "fa_page": 480,
+    "fa_page": 113,
     "fa_page_verified": true,
     "fa_summary": "High-titer anti-U1-RNP with overlapping lupus/scleroderma-type symptoms is characteristic of mixed connective tissue disease. The absence of anti-dsDNA and anti-Smith makes classic SLE less likely."
   },
