@@ -21248,5 +21248,83 @@
     ],
     "fa_page": 667,
     "fa_page_verified": true
+  },
+  {
+    "id": "import-ae515462f9ea81b9b953d79a",
+    "chapter": "Pathology",
+    "fa_subchapter": "Cellular Injury",
+    "stem": "An autopsy is performed on a 52-year-old man who died of an acute myocardial infarction. He had a history of rheumatoid arthritis. Premortem laboratory tests showed elevated troponin I, serum cholesterol of 300 mg/dL, and creatinine of 1.8 mg/dL. The left anterior descending artery had 80% occlusion with a superimposed thrombus. The left and right ventricles appear thicker, paler, and firmer than normal; the kidneys and liver are also firm and pale. Microscopy of the kidneys, liver, and myocardium shows abundant amorphous proteinaceous material that stains with Congo red. A heart photomicrograph is shown. Which amyloid protein is most likely responsible?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "AA (serum amyloid A)"
+      },
+      {
+        "letter": "B",
+        "text": "Aβ (amyloid-β)"
+      },
+      {
+        "letter": "C",
+        "text": "Aβ₂M (β₂-microglobulin)"
+      },
+      {
+        "letter": "D",
+        "text": "AL (immunoglobulin light chain)"
+      },
+      {
+        "letter": "E",
+        "text": "ATTR (transthyretin)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "This is secondary systemic amyloidosis. Long-standing rheumatoid arthritis provides chronic inflammation, which increases serum amyloid A (SAA), an acute-phase reactant. AA fibrils derived from SAA can deposit systemically, including in the kidneys, liver, and heart. Amyloid appears as extracellular amorphous eosinophilic material on H&E and stains red with Congo red, with apple-green birefringence under polarized light. The multi-organ distribution and inflammatory history favor AA over localized or other systemic amyloid types.",
+    "choice_explanations": {
+      "A": "Correct. AA amyloid is derived from SAA and is associated with chronic inflammatory diseases such as rheumatoid arthritis; it can deposit in multiple organs.",
+      "B": "Incorrect. Aβ is derived from amyloid precursor protein and is associated with Alzheimer disease; it does not explain systemic deposits in a patient with chronic inflammatory disease.",
+      "C": "Incorrect. β₂-microglobulin amyloid is associated with long-term hemodialysis, which is not described.",
+      "D": "Incorrect. AL amyloid is derived from immunoglobulin light chains and is associated with plasma-cell dyscrasias; no such disorder is suggested, and the rheumatoid arthritis points to AA.",
+      "E": "Incorrect. Transthyretin amyloid is associated with age-related wild-type cardiac amyloidosis or hereditary amyloidosis; it does not account as well for the systemic multi-organ deposits in the setting of rheumatoid arthritis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Secondary amyloidosis is AA derived from serum amyloid A and is associated with chronic inflammatory conditions, including rheumatoid arthritis.",
+        "page": 208
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Alzheimer disease amyloid is Aβ, cleaved from amyloid precursor protein.",
+        "page": 208
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Dialysis-related amyloidosis is due to β₂-microglobulin and is associated with long-term dialysis.",
+        "page": 208
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Primary systemic amyloidosis is AL from immunoglobulin light chains and is associated with plasma-cell dyscrasias such as multiple myeloma.",
+        "page": 208
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Transthyretin amyloidosis can be sporadic (wild-type, slowly progressive, mainly cardiac in older adults) or hereditary (polyneuropathy and/or cardiomyopathy).",
+        "page": 208
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      208
+    ],
+    "fa_page": 208,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p.208 describes amyloidosis, Congo-red staining, and systemic types: secondary AA derived from serum amyloid A is associated with chronic inflammatory conditions including rheumatoid arthritis; AL is associated with plasma-cell dyscrasias; transthyretin amyloidosis may be age-related and mainly cardiac; β₂-microglobulin is associated with long-term dialysis; Aβ is associated with Alzheimer disease."
   }
 ]
