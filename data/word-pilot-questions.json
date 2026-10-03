@@ -13416,5 +13416,3980 @@
     "fa_page": 62,
     "fa_page_verified": true,
     "fa_summary": "The phenotype is consistent with Klinefelter syndrome (47,XXY), which results from sex-chromosome nondisjunction. Small testes, gynecomastia, tall stature, and learning difficulties support the diagnosis. The Word explanation confirms answer C; its OCR karyotype “47,XX” was restored to 47,XXY from the named syndrome and answer choices."
+  },
+  {
+    "id": "import-383cf53f17fcdec92bc73545",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Cellular",
+    "stem": "A 14-year-old boy has painful yellow nodules over his calves and knees, total cholesterol 690 mg/dL, LDL 593 mg/dL, and a father who died of myocardial infarction at age 40. Which cellular process is most likely impaired?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "HMG-CoA reductase activity"
+      },
+      {
+        "letter": "B",
+        "text": "Lysosome-mediated proteolysis"
+      },
+      {
+        "letter": "C",
+        "text": "N-linked glycosylation"
+      },
+      {
+        "letter": "D",
+        "text": "Proteasome activity"
+      },
+      {
+        "letter": "E",
+        "text": "Receptor-mediated endocytosis"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The tendon/skin xanthomas, severe LDL elevation, and premature paternal coronary disease indicate familial hypercholesterolemia, usually due to defective LDL-receptor function. LDL uptake by receptor-mediated endocytosis is impaired.",
+    "choice_explanations": {
+      "A": "HMG-CoA reductase synthesizes cholesterol; the classic familial disorder is impaired LDL clearance, not excess enzyme activity.",
+      "B": "Lysosomal degradation occurs after LDL-receptor internalization and is not the primary defect.",
+      "C": "N-linked glycosylation is not the characteristic process disrupted in familial hypercholesterolemia.",
+      "D": "Proteasomes degrade cytosolic proteins and do not mediate LDL uptake.",
+      "E": "Correct. Defective LDL-receptor-mediated endocytosis reduces cellular LDL clearance."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Familial hypercholesterolemia results from impaired LDL-receptor signaling and receptor-mediated uptake.",
+        "page": 92
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      92
+    ],
+    "fa_page": 92,
+    "fa_page_verified": true,
+    "fa_summary": "Familial hypercholesterolemia is caused by impaired LDL-receptor signaling/uptake and presents with markedly increased LDL and xanthomas."
+  },
+  {
+    "id": "import-7a2a425d669c0a25878e9a80",
+    "chapter": "Microbiology",
+    "fa_subchapter": "Clinical Bacteriology",
+    "stem": "A 7-year-old boy has a week of coryza followed by severe paroxysmal coughing with posttussive vomiting. Nasopharyngeal culture grows a gram-negative aerobic coccobacillus. Which cellular effect is caused by its toxin?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Activation of phosphoinositide 3-kinase"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased adenylyl cyclase activity"
+      },
+      {
+        "letter": "C",
+        "text": "Decreased protein kinase A activity"
+      },
+      {
+        "letter": "D",
+        "text": "Increased intracellular cAMP"
+      },
+      {
+        "letter": "E",
+        "text": "Increased IP₃"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The organism is Bordetella pertussis. Pertussis toxin ADP-ribosylates Gi, preventing it from inhibiting adenylyl cyclase; intracellular cAMP rises.",
+    "choice_explanations": {
+      "A": "PI3-kinase activation is not the characteristic pertussis-toxin effect.",
+      "B": "Pertussis toxin disables inhibitory Gi, so adenylyl cyclase activity rises rather than falls.",
+      "C": "Increased cAMP activates PKA signaling rather than decreasing PKA activity.",
+      "D": "Correct. Loss of Gi inhibition increases cAMP.",
+      "E": "IP₃ is generated through phospholipase C signaling, not the pertussis-toxin mechanism."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pertussis toxin inactivates Gi; it does not inhibit adenylyl cyclase.",
+        "page": 130
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pertussis toxin raises cAMP through Gi inactivation.",
+        "page": 130
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pertussis toxin increases cAMP; clinical Bordetella summary appears on p. 141.",
+        "page": 130
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      130,
+      141
+    ],
+    "fa_page": 130,
+    "fa_page_verified": true,
+    "fa_summary": "Pertussis toxin inactivates Gi, increasing adenylyl cyclase activity and cAMP."
+  },
+  {
+    "id": "import-ba8d2e9d47ef8ca5a061d723",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Dermatology",
+    "stem": "A 56-year-old woman has painful oral erosions, a positive Nikolsky sign, and acantholysis on biopsy. Which antigen is targeted by the pathogenic antibodies?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Collagen"
+      },
+      {
+        "letter": "B",
+        "text": "Desmoglein"
+      },
+      {
+        "letter": "C",
+        "text": "Gap-junction connexin"
+      },
+      {
+        "letter": "D",
+        "text": "Hemidesmosomal proteins"
+      },
+      {
+        "letter": "E",
+        "text": "Transglutaminase"
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is pemphigus vulgaris. IgG against desmoglein 3 (sometimes also desmoglein 1) disrupts desmosomal adhesion between keratinocytes, causing acantholysis and fragile mucosal/skin erosions.",
+    "choice_explanations": {
+      "A": "Basement-membrane collagen antibodies suggest anti-GBM disease or other subepidermal disorders, not pemphigus vulgaris.",
+      "B": "Correct. Anti-desmoglein antibodies disrupt desmosomes and produce acantholysis.",
+      "C": "Gap-junction proteins permit intercellular communication; they are not the pemphigus target.",
+      "D": "Hemidesmosomes anchor basal cells to basement membrane and are targeted in bullous pemphigoid.",
+      "E": "Anti-transglutaminase antibodies are associated with celiac disease."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-basement-membrane antibodies are distinct from desmoglein-directed pemphigus.",
+        "page": 113
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-desmoglein antibodies are associated with pemphigus vulgaris; the blistering disorder is detailed on p. 489.",
+        "page": 113
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Gap junctions are connexon channels for cell communication.",
+        "page": 481
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hemidesmosomes anchor basal keratinocytes to basement membrane; bullous pemphigoid is on p. 489.",
+        "page": 481
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-tissue-transglutaminase antibodies are associated with celiac disease.",
+        "page": 113
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      113,
+      489
+    ],
+    "fa_page": 113,
+    "fa_page_verified": true,
+    "fa_summary": "Pemphigus vulgaris is a type II hypersensitivity against desmoglein in desmosomes, causing acantholysis and a positive Nikolsky sign."
+  },
+  {
+    "id": "import-8a64fecaf9d519e27be74aa9",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Dermatology",
+    "stem": "A 63-year-old man has pruritic, tense blisters on the lower abdomen and thighs, with normal oral mucosa and a negative Nikolsky sign. Biopsy shows separation of epidermis from basal lamina; antibodies target dystonin. Which structure is disrupted?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Adherens junctions"
+      },
+      {
+        "letter": "B",
+        "text": "Desmosomes"
+      },
+      {
+        "letter": "C",
+        "text": "Gap junctions"
+      },
+      {
+        "letter": "D",
+        "text": "Hemidesmosomes"
+      },
+      {
+        "letter": "E",
+        "text": "Tight junctions"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The presentation is bullous pemphigoid. Antibodies against hemidesmosomal components (including BP antigens; this source describes dystonin) detach basal keratinocytes from the basement membrane, producing tense subepidermal bullae and a negative Nikolsky sign.",
+    "choice_explanations": {
+      "A": "Adherens junctions connect actin cytoskeletons between adjacent cells.",
+      "B": "Desmosomes connect neighboring keratinocytes; desmoglein antibodies cause pemphigus vulgaris and acantholysis.",
+      "C": "Gap junctions form intercellular communication channels.",
+      "D": "Correct. Hemidesmosomes anchor basal epithelial cells to the basal lamina.",
+      "E": "Tight junctions seal adjacent epithelial cells and are not the anchoring structure involved."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Desmosomes provide intercellular epithelial adhesion; pemphigus vulgaris targets desmoglein.",
+        "page": 481
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Gap junctions are connexon channels for intercellular communication.",
+        "page": 481
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hemidesmosomes anchor basal keratinocytes to basement membrane; bullous pemphigoid is detailed on p. 489.",
+        "page": 481
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      481,
+      489
+    ],
+    "fa_page": 481,
+    "fa_page_verified": true,
+    "fa_summary": "Hemidesmosomes connect basal keratinocytes to basement membrane; bullous pemphigoid causes tense subepidermal blisters."
+  },
+  {
+    "id": "import-9ed28d9bf0900830e7588608",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Cellular",
+    "stem": "A 25-year-old man has recurrent pulmonary infections, bronchiectasis, situs inversus, and infertility with markedly impaired sperm motility. Which cellular process is affected?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Chloride transport"
+      },
+      {
+        "letter": "B",
+        "text": "Cytokine signaling"
+      },
+      {
+        "letter": "C",
+        "text": "IgA synthesis"
+      },
+      {
+        "letter": "D",
+        "text": "Intracellular vesicle transport"
+      },
+      {
+        "letter": "E",
+        "text": "Oxidative burst"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Kartagener syndrome is primary ciliary dyskinesia, commonly due to dynein-arm dysfunction. Defective axonemal motility impairs mucociliary clearance and sperm-flagellar movement; impaired embryonic ciliary function can cause situs inversus.",
+    "choice_explanations": {
+      "A": "Chloride-channel defects cause cystic fibrosis, which does not explain situs inversus with sperm immotility in this pattern.",
+      "B": "Cytokine signaling is not the structural defect in primary ciliary dyskinesia.",
+      "C": "IgA deficiency can cause recurrent infections but not situs inversus or impaired sperm motility.",
+      "D": "Correct. Dynein-dependent ciliary and flagellar motility is impaired.",
+      "E": "An oxidative-burst defect causes chronic granulomatous disease, not situs inversus and sperm immotility."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Selective IgA deficiency can cause recurrent sinopulmonary infections, but not ciliary immotility.",
+        "page": 114
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Dynein arms drive axonemal ciliary and flagellar movement.",
+        "page": 46
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "NADPH-oxidase deficiency causes chronic granulomatous disease, not Kartagener syndrome.",
+        "page": 114
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      46
+    ],
+    "fa_page": 46,
+    "fa_page_verified": true,
+    "fa_summary": "Dynein-arm defects impair ciliary/flagellar motility; Kartagener syndrome combines primary ciliary dyskinesia and situs inversus."
+  },
+  {
+    "id": "import-dae318ed398d209eb3c9d1e4",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Cardiovascular",
+    "stem": "A couple is evaluated for infertility; the husband has recurrent sinus and ear infections and severely impaired sperm motility. Which cardiac anomaly may also be present?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dextrocardia"
+      },
+      {
+        "letter": "B",
+        "text": "Ostium primum septal defect"
+      },
+      {
+        "letter": "C",
+        "text": "Patent foramen ovale"
+      },
+      {
+        "letter": "D",
+        "text": "Tetralogy of Fallot"
+      },
+      {
+        "letter": "E",
+        "text": "Transposition of the great arteries"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Impaired sperm motility plus recurrent respiratory infections suggests primary ciliary dyskinesia (Kartagener syndrome). Abnormal ciliary function during left–right axis development can cause situs inversus, including dextrocardia.",
+    "choice_explanations": {
+      "A": "Correct. Kartagener syndrome may include situs inversus and dextrocardia.",
+      "B": "Ostium primum defects are endocardial-cushion defects, not a consequence of ciliary dyskinesia.",
+      "C": "A patent foramen ovale is common and unrelated to dynein dysfunction.",
+      "D": "Tetralogy of Fallot is a conotruncal defect unrelated to this ciliary syndrome.",
+      "E": "Great-artery transposition is a conotruncal defect, not the expected laterality abnormality."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Impaired left–right asymmetry can cause dextrocardia in Kartagener syndrome.",
+        "page": 283
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ostium primum defects arise from endocardial-cushion development.",
+        "page": 300
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Patent foramen ovale results from failure of septum primum and secundum fusion.",
+        "page": 300
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Tetralogy of Fallot is a conotruncal congenital heart defect.",
+        "page": 300
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Transposition is a conotruncal defect due to abnormal aorticopulmonary septum rotation.",
+        "page": 300
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      283
+    ],
+    "fa_page": 283,
+    "fa_page_verified": true,
+    "fa_summary": "Abnormal left–right orientation can cause dextrocardia/situs inversus, as in Kartagener syndrome."
+  },
+  {
+    "id": "import-1435d229b70d825291279140",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Cellular",
+    "stem": "A 70-year-old man has a family history of gastric adenocarcinoma and infiltrating lobular breast carcinoma. The mutated gene in this patient most likely encodes a component of which structure?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Adherens junction"
+      },
+      {
+        "letter": "B",
+        "text": "Desmosome"
+      },
+      {
+        "letter": "C",
+        "text": "Gap junction"
+      },
+      {
+        "letter": "D",
+        "text": "Hemidesmosome"
+      },
+      {
+        "letter": "E",
+        "text": "Tight junction"
+      }
+    ],
+    "answer": "A",
+    "explanation": "CDH1 encodes E-cadherin, a cell-adhesion protein in adherens junctions. Germline or somatic loss of E-cadherin is associated with diffuse gastric carcinoma and invasive lobular breast carcinoma.",
+    "choice_explanations": {
+      "A": "Correct. E-cadherin is a component of adherens junctions and is linked to diffuse gastric and lobular breast cancers.",
+      "B": "Desmosomes use desmogleins/desmocollins and provide strong intercellular mechanical adhesion.",
+      "C": "Gap junctions use connexins for intercellular communication.",
+      "D": "Hemidesmosomes anchor epithelial cells to basement membrane.",
+      "E": "Tight junctions create paracellular seals."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Adherens junctions contain E-cadherin; loss is linked to gastric cancer (p. 385) and lobular breast carcinoma (p. 667).",
+        "page": 481
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Desmosomes link intermediate filaments between neighboring cells.",
+        "page": 481
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Gap junctions are connexon channels.",
+        "page": 481
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hemidesmosomes link basal epithelial cells to basement membrane.",
+        "page": 481
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Tight junctions seal the paracellular space.",
+        "page": 481
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      385,
+      481,
+      667
+    ],
+    "fa_page": 385,
+    "fa_page_verified": true,
+    "fa_summary": "E-cadherin in adherens junctions supports cell–cell adhesion; loss is associated with diffuse gastric and lobular breast carcinoma."
+  },
+  {
+    "id": "import-46edc1bd3d11cae173a9f5a7",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Cellular",
+    "stem": "A 2-day-old newborn has severe diarrhea. Duodenal biopsy shows enterocytes with sparse, short, disorganized microvilli; genetic testing identifies a MYO5B mutation. Which cytoskeletal component is most directly involved?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Actin microfilaments"
+      },
+      {
+        "letter": "B",
+        "text": "Centrosome"
+      },
+      {
+        "letter": "C",
+        "text": "Keratin"
+      },
+      {
+        "letter": "D",
+        "text": "Laminin"
+      },
+      {
+        "letter": "E",
+        "text": "Microtubules"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Microvilli contain an actin-filament core. MYO5B encodes myosin Vb, an actin-based motor involved in apical trafficking; mutations can cause microvillus inclusion disease and severe neonatal diarrhea.",
+    "choice_explanations": {
+      "A": "Correct. Actin microfilaments form the structural core of microvilli and interact with myosin Vb.",
+      "B": "The centrosome organizes microtubules and is not the microvillar core.",
+      "C": "Keratin is an intermediate filament supporting epithelial structure.",
+      "D": "Laminin is an extracellular-matrix basement-membrane protein.",
+      "E": "Microtubules support intracellular transport and cilia but do not form the microvillus core."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Actin microfilaments form microvilli; intestinal villi and microvilli are summarized on p. 368.",
+        "page": 45
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Keratin is an intermediate filament that maintains epithelial structure.",
+        "page": 45
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Microtubules support movement and cell division, unlike the actin core of microvilli.",
+        "page": 45
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      45,
+      368
+    ],
+    "fa_page": 45,
+    "fa_page_verified": true,
+    "fa_summary": "Microfilaments are actin-based; microvilli increase absorptive surface area and have an actin core."
+  },
+  {
+    "id": "import-e8874864acc7223e9f706a27",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Cellular",
+    "stem": "A 6-month-old boy has failure to thrive, skeletal abnormalities, restricted joints, corneal clouding, gingival hyperplasia, and elevated serum lysosomal hydrolases. Which metabolic step is defective?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Accumulation of gangliosides"
+      },
+      {
+        "letter": "B",
+        "text": "Degradation of dermatan and heparan sulfate"
+      },
+      {
+        "letter": "C",
+        "text": "Degradation of glycogen"
+      },
+      {
+        "letter": "D",
+        "text": "Degradation of sphingomyelin"
+      },
+      {
+        "letter": "E",
+        "text": "Phosphorylation of mannose"
+      }
+    ],
+    "answer": "E",
+    "explanation": "These findings indicate I-cell disease (mucolipidosis II), caused by deficient Golgi N-acetylglucosamine-1-phosphotransferase. Without mannose-6-phosphate tagging, lysosomal enzymes are secreted instead of being delivered to lysosomes. The source’s additional F choice (“phosphorylation of tyrosine”) is not a coherent alternative in the validated five-choice set and is omitted as OCR spillover.",
+    "choice_explanations": {
+      "A": "Ganglioside accumulation occurs in disorders such as Tay-Sachs disease, not I-cell disease.",
+      "B": "Dermatan/heparan sulfate accumulation occurs in mucopolysaccharidoses.",
+      "C": "Glycogen accumulation occurs in glycogen-storage disorders such as Pompe disease.",
+      "D": "Sphingomyelin accumulation occurs in Niemann-Pick disease.",
+      "E": "Correct. Failure to phosphorylate mannose prevents lysosomal targeting of hydrolases."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ganglioside accumulation occurs in sphingolipid storage disorders.",
+        "page": 86
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Mucopolysaccharidoses involve glycosaminoglycan degradation defects.",
+        "page": 86
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Glycogen-storage disorders arise from defects in glycogen metabolism.",
+        "page": 86
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Niemann-Pick disease involves sphingomyelin degradation.",
+        "page": 86
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Golgi mannose-6-phosphate tagging directs acid hydrolases to lysosomes.",
+        "page": 45
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      45,
+      86
+    ],
+    "fa_page": 45,
+    "fa_page_verified": true,
+    "fa_summary": "I-cell disease results from deficient Golgi mannose-6-phosphate tagging of lysosomal enzymes."
+  },
+  {
+    "id": "import-e2200e7e69da15cb45304cd6",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Cardiovascular",
+    "stem": "A neonate born to a mother with gestational diabetes is cyanotic and responds minimally to 100% oxygen. Which congenital lesion is most likely responsible for the fatal course?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Atrioventricular septal defect"
+      },
+      {
+        "letter": "B",
+        "text": "Coarctation of the aorta"
+      },
+      {
+        "letter": "C",
+        "text": "Eisenmenger syndrome"
+      },
+      {
+        "letter": "D",
+        "text": "Tetralogy of Fallot"
+      },
+      {
+        "letter": "E",
+        "text": "Transposition of the great arteries"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Maternal diabetes is associated with transposition of the great arteries. In TGA, the aorta arises from the right ventricle and pulmonary artery from the left ventricle, creating parallel circulations; survival requires mixing through a shunt. Severe cyanosis with little response to oxygen is consistent with this lesion.",
+    "choice_explanations": {
+      "A": "An AV septal defect causes a left-to-right shunt and is not the classic cyanotic lesion linked to maternal diabetes.",
+      "B": "Coarctation causes upper–lower extremity pressure/pulse differences rather than this parallel-circulation physiology.",
+      "C": "Eisenmenger syndrome is acquired pulmonary vascular disease after a longstanding shunt.",
+      "D": "Tetralogy can cause cyanosis, but TGA is the congenital lesion specifically associated with maternal diabetes here.",
+      "E": "Correct. TGA creates parallel systemic and pulmonary circuits and is associated with maternal diabetes."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Endocardial-cushion defects include atrioventricular septal defects.",
+        "page": 300
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Coarctation is an aortic narrowing with upper–lower pulse/pressure differences.",
+        "page": 302
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Tetralogy of Fallot is a conotruncal cyanotic defect.",
+        "page": 300
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Maternal diabetes is associated with TGA; great arteries are switched, producing parallel circulations.",
+        "page": 302
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      300,
+      302
+    ],
+    "fa_page": 300,
+    "fa_page_verified": true,
+    "fa_summary": "Transposition of the great arteries is a conotruncal defect associated with maternal diabetes and requires a mixing shunt for survival."
+  },
+  {
+    "id": "import-4d9a09f084d14af8aaddc0cd",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Cardiovascular",
+    "stem": "An 80-year-old woman becomes bedridden after hip-fracture repair. On day 5 she develops sudden dyspnea, pleuritic chest pain, hypotension, hypoxemia, a parasternal heave, and loud P2, then dies. What is the most likely cause?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pulmonary emboli from a right common femoral vein thrombus"
+      },
+      {
+        "letter": "B",
+        "text": "Myocardial infarction"
+      },
+      {
+        "letter": "C",
+        "text": "Fat embolism from bone marrow"
+      },
+      {
+        "letter": "D",
+        "text": "Right axillary vein thrombus"
+      },
+      {
+        "letter": "E",
+        "text": "Right pulmonary vein thrombus"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Prolonged immobility after hip fracture promotes lower-extremity deep-vein thrombosis. Sudden pleuritic pain, severe hypoxemia, hypotension, right-ventricular strain, and loud P2 indicate a massive pulmonary embolism.",
+    "choice_explanations": {
+      "A": "Correct. A proximal leg DVT can embolize to the pulmonary arteries and cause obstructive shock.",
+      "B": "MI may cause shock, but the sudden pleuritic pain, hypoxemia, and acute right-sided pressure findings support PE.",
+      "C": "Fat embolism may follow long-bone trauma, but this delayed event after immobility with signs of acute pulmonary vascular obstruction favors thromboembolism.",
+      "D": "Upper-extremity thrombi are less likely and do not fit the prolonged lower-limb immobility risk.",
+      "E": "Pulmonary-vein thrombi do not embolize into the pulmonary arterial circulation as described."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Deep venous thrombosis is associated with stasis and can embolize.",
+        "page": 321
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Myocardial infarction causes myocardial ischemic necrosis.",
+        "page": 308
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Fat embolism may follow trauma/fracture; this case instead favors thrombotic PE.",
+        "page": 318
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "DVT can occur in veins, but the source risk is lower-extremity stasis.",
+        "page": 321
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      321
+    ],
+    "fa_page": 321,
+    "fa_page_verified": true,
+    "fa_summary": "Virchow triad and immobility predispose to DVT; proximal lower-extremity thrombi may cause massive pulmonary embolism."
+  },
+  {
+    "id": "import-6aef46bdb46d40552d0603d7",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Cardiovascular",
+    "stem": "A healthy man has resting cardiac output of 5 L/min and heart rate of 50/min. What is his stroke volume?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10 mL"
+      },
+      {
+        "letter": "B",
+        "text": "50 mL"
+      },
+      {
+        "letter": "C",
+        "text": "75 mL"
+      },
+      {
+        "letter": "D",
+        "text": "100 mL"
+      },
+      {
+        "letter": "E",
+        "text": "125 mL"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Cardiac output = stroke volume × heart rate. Thus stroke volume = 5,000 mL/min ÷ 50/min = 100 mL per beat.",
+    "choice_explanations": {
+      "A": "Would imply cardiac output of only 0.5 L/min at this heart rate.",
+      "B": "Would imply cardiac output of 2.5 L/min.",
+      "C": "Would imply cardiac output of 3.75 L/min.",
+      "D": "Correct: 5,000/50 = 100 mL/beat.",
+      "E": "Would imply cardiac output of 6.25 L/min."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Cardiac-output equations relate SV, HR, and CO.",
+        "page": 289
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Stroke volume is calculated from cardiac output and heart rate.",
+        "page": 289
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Stroke volume is calculated from cardiac output and heart rate.",
+        "page": 289
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "CO = SV × HR; SV = 5,000/50 = 100 mL/beat.",
+        "page": 289
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Stroke volume is calculated from cardiac output and heart rate.",
+        "page": 289
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      289,
+      290
+    ],
+    "fa_page": 289,
+    "fa_page_verified": true,
+    "fa_summary": "Stroke volume = cardiac output ÷ heart rate; cardiac output equals stroke volume times heart rate."
+  },
+  {
+    "id": "import-a8158b94f55b960e8131c7e1",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Cardiovascular",
+    "stem": "A male newborn has a holosystolic murmur and an ostium primum atrial septal defect with adjacent atrioventricular-valve defects. Which condition is most strongly associated?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "22q11 deletion"
+      },
+      {
+        "letter": "B",
+        "text": "Down syndrome"
+      },
+      {
+        "letter": "C",
+        "text": "Maternal gestational diabetes"
+      },
+      {
+        "letter": "D",
+        "text": "Marfan syndrome"
+      },
+      {
+        "letter": "E",
+        "text": "Turner syndrome"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Ostium primum ASD with AV-valve abnormalities reflects an endocardial-cushion defect, classically associated with trisomy 21 (Down syndrome).",
+    "choice_explanations": {
+      "A": "22q11 deletion is associated with conotruncal defects, not the classic primum/AV-cushion pattern.",
+      "B": "Correct. Down syndrome is associated with endocardial-cushion defects and AV septal defects.",
+      "C": "Maternal diabetes is associated with several defects including TGA, not specifically primum ASD.",
+      "D": "Marfan syndrome affects connective tissue and the aortic root/valves, not endocardial cushions.",
+      "E": "Turner syndrome is associated with coarctation and bicuspid aortic valve."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "22q11 deletion is associated with selected congenital cardiac outflow defects.",
+        "page": 302
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Endocardial-cushion defects include ostium primum ASD and are associated with Down syndrome.",
+        "page": 300
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Maternal diabetes is associated with congenital anomalies such as TGA.",
+        "page": 302
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Turner syndrome is associated with coarctation of the aorta and bicuspid aortic valve.",
+        "page": 302
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      300,
+      302
+    ],
+    "fa_page": 300,
+    "fa_page_verified": true,
+    "fa_summary": "Ostium primum ASD and AV-valve defects arise from endocardial-cushion abnormalities and are associated with Down syndrome."
+  },
+  {
+    "id": "import-15a275d0b7e0cf1092ff6a55",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Cardiovascular",
+    "stem": "A 67-year-old man has progressive exertional chest discomfort, blood pressure 150/60 mm Hg, a displaced hyperdynamic PMI, and peripheral signs of a widened pulse pressure. Which diagnosis best explains the findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aortic regurgitation"
+      },
+      {
+        "letter": "B",
+        "text": "Aortic stenosis"
+      },
+      {
+        "letter": "C",
+        "text": "Cardiac tamponade"
+      },
+      {
+        "letter": "D",
+        "text": "Heart failure"
+      },
+      {
+        "letter": "E",
+        "text": "Hypovolemia"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Aortic regurgitation causes diastolic runoff from the aorta into the left ventricle, lowering diastolic pressure and increasing stroke volume/systolic pressure. The result is a widened pulse pressure, hyperdynamic displaced PMI, and peripheral signs such as Duroziez’s murmur.",
+    "choice_explanations": {
+      "A": "Correct. Chronic aortic regurgitation produces wide pulse pressure and hyperdynamic peripheral findings.",
+      "B": "Aortic stenosis causes a systolic ejection murmur and usually a narrowed pulse pressure.",
+      "C": "Tamponade causes impaired filling and low output, not a widened pulse pressure with bounding signs.",
+      "D": "Heart failure is not the specific lesion explaining the wide pulse pressure and characteristic peripheral signs.",
+      "E": "Hypovolemia produces weak pulses and low filling, not bounding arterial signs."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Aortic regurgitation is associated with wide pulse pressure and early diastolic murmur.",
+        "page": 295
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Aortic stenosis produces a systolic ejection murmur and different pulse findings.",
+        "page": 295
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      291,
+      294,
+      295
+    ],
+    "fa_page": 291,
+    "fa_page_verified": true,
+    "fa_summary": "Aortic regurgitation produces diastolic runoff, increased stroke volume, and wide pulse pressure with peripheral signs."
+  },
+  {
+    "id": "import-3c6d72c221172836b363670b",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A patient with multidrug-resistant tuberculosis receives aerosolized cytokines intended to enhance macrophage intracellular killing. Which cytokine is most beneficial?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Interferon-α"
+      },
+      {
+        "letter": "B",
+        "text": "Interferon-β"
+      },
+      {
+        "letter": "C",
+        "text": "Interferon-γ"
+      },
+      {
+        "letter": "D",
+        "text": "Interleukin-2"
+      },
+      {
+        "letter": "E",
+        "text": "Interleukin-6"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Mycobacterium tuberculosis survives within macrophages. Th1-derived interferon-γ activates macrophages and enhances intracellular killing; IL-2 supports T-cell proliferation but is not the direct macrophage-activating cytokine tested.",
+    "choice_explanations": {
+      "A": "IFN-α is important in antiviral responses, not the principal macrophage activator here.",
+      "B": "IFN-β is antiviral and is not the main Th1 macrophage-activating cytokine.",
+      "C": "Correct. IFN-γ from Th1 cells activates macrophages against intracellular pathogens.",
+      "D": "IL-2 promotes T-cell proliferation and activation but does not directly provide the key macrophage activation signal.",
+      "E": "IL-6 is proinflammatory and promotes acute-phase/B-cell responses, not the specific macrophage effect asked."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "IFN-γ activates macrophages; Th1 cytokine functions are summarized on pp. 98–99.",
+        "page": 98
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "IL-2 supports lymphocyte activation/proliferation.",
+        "page": 99
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "IL-6 is a cytokine with inflammatory and B-cell effects, distinct from IFN-γ macrophage activation.",
+        "page": 99
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      98,
+      99
+    ],
+    "fa_page": 98,
+    "fa_page_verified": true,
+    "fa_summary": "Th1 cells produce IFN-γ, which activates macrophages to kill intracellular pathogens."
+  },
+  {
+    "id": "import-966e03f783c07c8f637079ff",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A 56-year-old woman with metastatic melanoma initially responds to autologous leukocytes expanded with Th1 cytokines, but recurrent tumor no longer responds. Which tumor-cell surface molecule was most likely lost?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CD3"
+      },
+      {
+        "letter": "B",
+        "text": "CD4"
+      },
+      {
+        "letter": "C",
+        "text": "CD8"
+      },
+      {
+        "letter": "D",
+        "text": "HLA-A, HLA-B, and HLA-C"
+      },
+      {
+        "letter": "E",
+        "text": "HLA-DP, HLA-DQ, and HLA-DR"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The source Word pages show the full five choices. Cytotoxic T lymphocytes recognize tumor antigen presented on MHC class I. Human MHC-I molecules are HLA-A, -B, and -C; loss prevents CTL recognition and permits immune escape. This resolves the earlier OCR-corrupted choice labels.",
+    "choice_explanations": {
+      "A": "CD3 is part of the T-cell receptor complex on T cells, not a tumor-cell antigen-presenting molecule.",
+      "B": "CD4 is a helper-T-cell coreceptor, not the tumor MHC-I molecule needed for CTL recognition.",
+      "C": "CD8 is expressed by cytotoxic T cells and binds MHC-I; it is not the molecule lost from the tumor.",
+      "D": "Correct. HLA-A/B/C are MHC-I molecules presenting intracellular tumor antigens to CD8+ T cells.",
+      "E": "HLA-DP/DQ/DR are MHC-II molecules that present exogenous antigen to CD4+ T cells."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "CD3 is part of the T-cell receptor complex.",
+        "page": 97
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "CD4 is the helper-T-cell coreceptor that binds MHC-II.",
+        "page": 97
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "CD8 is the cytotoxic-T-cell coreceptor that binds MHC-I.",
+        "page": 97
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "HLA-A, -B, and -C encode human MHC-I; tumor MHC-I loss impairs CTL recognition (p. 216).",
+        "page": 97
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "HLA-DP, -DQ, and -DR encode human MHC-II.",
+        "page": 97
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      97,
+      216
+    ],
+    "fa_page": 97,
+    "fa_page_verified": true,
+    "fa_summary": "CTLs recognize tumor antigens on MHC-I; loss of tumor MHC-I expression is an immune-evasion mechanism."
+  },
+  {
+    "id": "import-ee2179d0c714f2b61b38aee7",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A 34-year-old woman with untreated exposure to a sexually transmitted infection has fever, pelvic pain, and a tender tubo-ovarian mass. Which immune effector is most important for clearing the intracellular pathogen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Antibody"
+      },
+      {
+        "letter": "B",
+        "text": "Complement"
+      },
+      {
+        "letter": "C",
+        "text": "Natural killer cells"
+      },
+      {
+        "letter": "D",
+        "text": "Th1 lymphocytes"
+      },
+      {
+        "letter": "E",
+        "text": "Th2 lymphocytes"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The source explanation identifies Chlamydia trachomatis as the likely intracellular cause of pelvic inflammatory disease. Cell-mediated Th1 responses, especially IFN-γ and IL-2 support of cellular effectors, are important for controlling intracellular Chlamydia.",
+    "choice_explanations": {
+      "A": "Antibody is most effective against extracellular organisms and toxins; it is not the principal intracellular effector.",
+      "B": "Complement acts mainly in extracellular fluid and cannot eliminate intracellular organisms directly.",
+      "C": "NK cells can contribute to early antiviral/intracellular defense, but the source asks for the adaptive response that controls Chlamydia.",
+      "D": "Correct. Th1-mediated cellular immunity is required to control intracellular Chlamydia.",
+      "E": "Th2 responses promote humoral/allergic immunity rather than macrophage/cellular control of intracellular bacteria."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Complement opsonizes and lyses extracellular targets.",
+        "page": 103
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "NK cells contribute to innate cellular defense against infected cells.",
+        "page": 98
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Th1 cells and IFN-γ support cell-mediated responses against intracellular pathogens; Chlamydia PID is summarized on p. 180.",
+        "page": 98
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Th2 cytokines support humoral/allergic responses rather than intracellular pathogen clearance.",
+        "page": 99
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      98,
+      180
+    ],
+    "fa_page": 98,
+    "fa_page_verified": true,
+    "fa_summary": "Th1 responses support control of intracellular pathogens; Chlamydia is a cause of PID."
+  },
+  {
+    "id": "import-eadd84004dbde41e88197e99",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A 17-year-old boy has lifelong recurrent sinopulmonary infections and otitis media. Immunoglobulin testing shows markedly decreased IgA with the other measured classes preserved. Which additional finding is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Contact dermatitis"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased phagocyte efficiency"
+      },
+      {
+        "letter": "C",
+        "text": "Immune-complex disease"
+      },
+      {
+        "letter": "D",
+        "text": "Increased atopy"
+      },
+      {
+        "letter": "E",
+        "text": "Partial albinism"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The Word source explanation explicitly identifies selective IgA deficiency: IgA is markedly reduced while other isotypes are preserved. Selective IgA deficiency is associated with recurrent mucosal infections and increased allergic disease/atopy. Exact missing table values are not reproduced; only the source-supported qualitative result is retained.",
+    "choice_explanations": {
+      "A": "Contact dermatitis is a type IV hypersensitivity, not the characteristic association of isolated IgA deficiency.",
+      "B": "Phagocyte dysfunction suggests a separate innate immune defect.",
+      "C": "Immune-complex disease is not the characteristic additional finding in selective IgA deficiency.",
+      "D": "Correct. Selective IgA deficiency is associated with increased atopy/allergic disease.",
+      "E": "Partial albinism suggests Chediak-Higashi syndrome, a lysosomal trafficking defect."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Contact dermatitis is a delayed type IV hypersensitivity reaction.",
+        "page": 110
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Immune-complex disease is type III hypersensitivity.",
+        "page": 111
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Selective IgA deficiency is associated with allergic disorders.",
+        "page": 114
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Chediak-Higashi syndrome is associated with partial albinism and phagolysosomal trafficking defects.",
+        "page": 115
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      114
+    ],
+    "fa_page": 114,
+    "fa_page_verified": true,
+    "fa_summary": "Selective IgA deficiency causes mucosal infections and is associated with allergic disorders/atopy."
+  },
+  {
+    "id": "import-d38f60c58d76b509fd1f5784",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A 60-year-old man with pneumococcal pneumonia improves on penicillin. Which immune effector mechanism is most important for complete clearance of the extracellular, encapsulated bacteria?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Antibody-dependent cellular cytotoxicity"
+      },
+      {
+        "letter": "B",
+        "text": "Cytotoxic T lymphocytes"
+      },
+      {
+        "letter": "C",
+        "text": "Lymphokine-activated killer cells"
+      },
+      {
+        "letter": "D",
+        "text": "Natural killer cells"
+      },
+      {
+        "letter": "E",
+        "text": "Opsonization"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Antibody against the pneumococcal capsule activates the classical complement pathway and deposits C3b. IgG and C3b opsonize the bacteria for phagocytosis; this is the key clearance mechanism for encapsulated extracellular organisms.",
+    "choice_explanations": {
+      "A": "ADCC targets antibody-coated cells, especially infected or tumor cells, rather than clearing encapsulated bacteria by phagocytosis.",
+      "B": "CTLs target infected host cells, not free extracellular pneumococci.",
+      "C": "LAK cells are cytotoxic lymphocytes and are not the principal mechanism for extracellular bacterial clearance.",
+      "D": "NK cells kill infected or malignant host cells rather than opsonized bacteria.",
+      "E": "Correct. Antibody/complement opsonization promotes phagocytosis of the capsule-bearing organism."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "C3b is an opsonin; pneumococcal capsule and antibody-mediated protection are summarized on p. 127.",
+        "page": 104
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      104,
+      127
+    ],
+    "fa_page": 104,
+    "fa_page_verified": true,
+    "fa_summary": "IgG and C3b opsonize encapsulated bacteria for phagocytosis; pneumococcus has a protective polysaccharide capsule."
+  },
+  {
+    "id": "import-d7c21b0e8f49592ff8a504ca",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A 44-year-old woman has dysphagia, Raynaud phenomenon, subcutaneous calcinosis, and thickened shiny skin of the fingers and hands. Which autoantibody is most likely present?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anti-acetylcholine receptor"
+      },
+      {
+        "letter": "B",
+        "text": "Anticentromere antibody"
+      },
+      {
+        "letter": "C",
+        "text": "Antihistone antibody"
+      },
+      {
+        "letter": "D",
+        "text": "Anti-Ro/SSA antibody"
+      },
+      {
+        "letter": "E",
+        "text": "Rheumatoid factor"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The findings are CREST syndrome (limited systemic sclerosis): calcinosis, Raynaud phenomenon, esophageal dysmotility, sclerodactyly, and telangiectasia. Anticentromere antibody is strongly associated.",
+    "choice_explanations": {
+      "A": "Anti-AChR is associated with myasthenia gravis.",
+      "B": "Correct. Anticentromere antibody is associated with limited systemic sclerosis/CREST.",
+      "C": "Antihistone antibody is associated with drug-induced lupus.",
+      "D": "Anti-Ro/SSA is associated with Sjögren syndrome and neonatal lupus.",
+      "E": "Rheumatoid factor is associated with rheumatoid arthritis and other conditions, not specifically CREST."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anticentromere antibody is associated with limited scleroderma/CREST; clinical features are detailed on p. 480.",
+        "page": 112
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Antihistone antibodies are associated with drug-induced lupus.",
+        "page": 113
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-Ro/SSA is associated with Sjögren syndrome and neonatal lupus.",
+        "page": 113
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      112,
+      480
+    ],
+    "fa_page": 112,
+    "fa_page_verified": true,
+    "fa_summary": "CREST is limited systemic sclerosis and is associated with anticentromere antibodies."
+  },
+  {
+    "id": "import-754af50d4c8bbf17759252fa",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A 24-year-old woman develops pneumococcal pneumonia one year after splenectomy. Before the accident, which immune mechanism would have provided adequate protection against this infection?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Antibody against the capsule"
+      },
+      {
+        "letter": "B",
+        "text": "Complement alone"
+      },
+      {
+        "letter": "C",
+        "text": "Neutrophil chemoattractants"
+      },
+      {
+        "letter": "D",
+        "text": "Perforin"
+      },
+      {
+        "letter": "E",
+        "text": "Soluble Fas ligand"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Streptococcus pneumoniae is an encapsulated extracellular bacterium. Anticapsular antibody promotes opsonization and phagocytosis; the spleen is important for clearing opsonized encapsulated organisms, and splenectomy increases risk.",
+    "choice_explanations": {
+      "A": "Correct. Anticapsular antibody promotes opsonization and protection against pneumococcus.",
+      "B": "Complement contributes to opsonization but effective clearance is enhanced by specific antibody; ‘complement alone’ is not the best answer.",
+      "C": "Chemotactic factors recruit neutrophils but do not specifically overcome the capsule.",
+      "D": "Perforin is used by cytotoxic T and NK cells to kill target cells.",
+      "E": "Fas ligand induces apoptosis in target cells; it is not the main defense against encapsulated bacteria."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Antibody and complement-dependent C3b opsonization protect against encapsulated organisms; pneumococcal capsule is on p. 127.",
+        "page": 95
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Complement C3b opsonizes pathogens, but capsule-specific antibody is also important.",
+        "page": 104
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "C5a is a neutrophil chemoattractant.",
+        "page": 104
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Perforin is used by cytotoxic lymphocytes to kill target cells.",
+        "page": 98
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      95,
+      104,
+      127
+    ],
+    "fa_page": 95,
+    "fa_page_verified": true,
+    "fa_summary": "The spleen clears opsonized encapsulated bacteria; anticapsular antibody and C3b support phagocytosis."
+  },
+  {
+    "id": "import-258d2d301a4b1541c0707d14",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A Rh-negative woman is not given Rh immune globulin after delivering her first Rh-positive child. Her subsequent child is anemic, jaundiced, and hepatosplenomegalic. What is the underlying mechanism?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Atopic disease"
+      },
+      {
+        "letter": "B",
+        "text": "Cytotoxic antibody-mediated disease"
+      },
+      {
+        "letter": "C",
+        "text": "Delayed hypersensitivity"
+      },
+      {
+        "letter": "D",
+        "text": "Immediate hypersensitivity"
+      },
+      {
+        "letter": "E",
+        "text": "Immune-complex disease"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The first Rh-positive pregnancy sensitizes the Rh-negative mother. In a later pregnancy, maternal anti-D IgG crosses the placenta and destroys fetal red cells, a type II antibody-mediated cytotoxic reaction (hemolytic disease of the newborn).",
+    "choice_explanations": {
+      "A": "Atopy is an IgE-mediated allergic tendency, not maternal anti-Rh hemolysis.",
+      "B": "Correct. Anti-D IgG causes type II cytotoxic destruction of fetal erythrocytes.",
+      "C": "Delayed hypersensitivity is T-cell mediated and does not explain antibody-mediated hemolysis.",
+      "D": "Immediate hypersensitivity is IgE-mediated and does not cause fetal red-cell destruction.",
+      "E": "Immune-complex deposition is type III hypersensitivity, not the mechanism here."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Type II hypersensitivity includes hemolytic disease of the newborn; Rh disease is detailed on p. 411.",
+        "page": 109
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Type IV hypersensitivity is delayed and T-cell mediated.",
+        "page": 110
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Type I hypersensitivity is immediate and IgE mediated.",
+        "page": 110
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Type III hypersensitivity is due to immune-complex deposition.",
+        "page": 111
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      109,
+      411
+    ],
+    "fa_page": 109,
+    "fa_page_verified": true,
+    "fa_summary": "Rh incompatibility causes type II hypersensitivity; maternal anti-D IgG crosses the placenta and hemolyzes fetal RBCs."
+  },
+  {
+    "id": "import-0bda0aa2942854520de56182",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A 4-year-old boy has recurrent infections with Candida, Staphylococcus, and Klebsiella, an abnormal nitroblue tetrazolium reduction test, and a staphylococcal skin abscess. Which intracellular defense mechanism is absent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Defensins"
+      },
+      {
+        "letter": "B",
+        "text": "Hydrolytic enzymes"
+      },
+      {
+        "letter": "C",
+        "text": "Lysozymes"
+      },
+      {
+        "letter": "D",
+        "text": "Myeloperoxidase"
+      },
+      {
+        "letter": "E",
+        "text": "NADPH oxidase"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The Word source supplies the complete prompt: the nitroblue tetrazolium test is abnormal and cultures grow Staphylococcus aureus. This is chronic granulomatous disease from NADPH-oxidase deficiency, which impairs the respiratory burst and predisposes to catalase-positive organisms.",
+    "choice_explanations": {
+      "A": "Defensins are antimicrobial peptides, but an abnormal NBT test specifically indicates impaired oxidative burst.",
+      "B": "Lysosomal hydrolases digest phagocytosed material and are not the primary NBT defect.",
+      "C": "Lysozyme damages bacterial cell walls but does not account for defective NBT reduction.",
+      "D": "MPO deficiency can impair HOCl production, but NBT reduction is generally preserved; the source explanation identifies CGD.",
+      "E": "Correct. NADPH oxidase generates the reactive oxygen species measured by the NBT test."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Myeloperoxidase converts hydrogen peroxide to hypochlorous acid downstream of NADPH oxidase.",
+        "page": 107
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "CGD is a NADPH-oxidase defect; respiratory-burst chemistry is reviewed on p. 106.",
+        "page": 114
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      114
+    ],
+    "fa_page": 114,
+    "fa_page_verified": true,
+    "fa_summary": "Chronic granulomatous disease is caused by NADPH-oxidase deficiency and produces a defective respiratory burst with susceptibility to catalase-positive organisms."
+  },
+  {
+    "id": "import-37f12091183bbe812353b366",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A 15-month-old boy has recurrent severe sinopulmonary bacterial infections. IgG, IgM, and IgA are markedly decreased, flow cytometry shows absent CD19-positive B cells with preserved CD3/CD4/CD8 T cells. Which gene is most likely mutated?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Adenosine deaminase"
+      },
+      {
+        "letter": "B",
+        "text": "Bruton tyrosine kinase"
+      },
+      {
+        "letter": "C",
+        "text": "CD18"
+      },
+      {
+        "letter": "D",
+        "text": "CD40 ligand"
+      },
+      {
+        "letter": "E",
+        "text": "NADPH oxidase"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The Word source provides the complete CBC/immunoglobulin table, flow-cytometry result, and five choices. Absent B cells with preserved T cells and low immunoglobulins indicate X-linked Bruton agammaglobulinemia due to BTK mutation, which blocks pre-B-cell maturation.",
+    "choice_explanations": {
+      "A": "ADA deficiency causes SCID and impairs both T- and B-cell development, unlike preserved T cells here.",
+      "B": "Correct. BTK is required for pre-B cells to mature into B cells.",
+      "C": "CD18 deficiency causes leukocyte adhesion deficiency with impaired neutrophil extravasation, not absent B cells.",
+      "D": "CD40L deficiency causes hyper-IgM syndrome; B cells are present but cannot class-switch normally.",
+      "E": "NADPH oxidase deficiency causes chronic granulomatous disease with phagocyte oxidative-burst failure."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "ADA deficiency causes severe combined immunodeficiency affecting T and B lineages.",
+        "page": 115
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "BTK mutation blocks B-cell maturation and causes X-linked agammaglobulinemia.",
+        "page": 114
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "CD18/LFA-1 deficiency causes leukocyte adhesion deficiency.",
+        "page": 114
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "CD40L deficiency causes hyper-IgM syndrome due to failed class switching.",
+        "page": 114
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "NADPH oxidase deficiency causes chronic granulomatous disease.",
+        "page": 114
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      114,
+      115
+    ],
+    "fa_page": 114,
+    "fa_page_verified": true,
+    "fa_summary": "Bruton agammaglobulinemia results from BTK deficiency, absent B cells, and low immunoglobulins with preserved T cells."
+  },
+  {
+    "id": "import-3ab96aa936d4b28f0114cf1a",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses",
+    "stem": "A woman with chronic hepatitis B develops fever, petechiae, proteinuria, and biopsy evidence of circulating antigen–antibody deposits with neutrophilic inflammation. Which mechanism is most important in removing immune complexes from the bloodstream?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alternative complement pathway"
+      },
+      {
+        "letter": "B",
+        "text": "Antibody-mediated response"
+      },
+      {
+        "letter": "C",
+        "text": "Classical complement pathway"
+      },
+      {
+        "letter": "D",
+        "text": "Natural killer cells"
+      },
+      {
+        "letter": "E",
+        "text": "T-cell-mediated response"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Antigen–antibody complexes activate the classical complement pathway. C3b binds immune complexes, enabling their carriage and clearance by reticuloendothelial phagocytes. The biopsy findings are consistent with type III immune-complex injury.",
+    "choice_explanations": {
+      "A": "The alternative pathway is triggered directly by microbial surfaces and is not the main antibody-complex recognition route.",
+      "B": "Antibody forms the complexes but does not by itself mediate their efficient clearance.",
+      "C": "Correct. IgG/IgM complexes activate classical complement; C3b tags complexes for clearance.",
+      "D": "NK cells kill infected or malignant host cells and do not clear soluble immune complexes.",
+      "E": "T cells coordinate cellular responses but are not the principal serum immune-complex clearance mechanism."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Alternative complement activation is triggered by microbial surfaces.",
+        "page": 103
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Antibodies activate complement when bound to antigen.",
+        "page": 103
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Classical pathway is activated by antigen-bound IgG or IgM; C3b-mediated clearance is summarized on p. 104.",
+        "page": 103
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "已核对 First Aid 2026 相关章节，未找到可直接支持该选项的独立知识点。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "T-cell responses are cellular rather than the primary route for removing circulating immune complexes.",
+        "page": 98
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      103,
+      104,
+      111
+    ],
+    "fa_page": 103,
+    "fa_page_verified": true,
+    "fa_summary": "Classical complement activation deposits C3b on immune complexes, promoting reticuloendothelial clearance; persistent complexes cause type III injury."
+  },
+  {
+    "id": "import-7f4e872b8dcacb47e433e8fb",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Cellular",
+    "stem": "A 49-year-old man with a family history of colon cancer comes to the physician for a routine examination. A colonoscopy is performed, and numerous polyps are discovered. Biopsy specimens of several of these polyps are sent for pathologic examination. The structure labeled by an arrow in the photomicrograph is enriched in which of the following components?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "DNA polymerase"
+      },
+      {
+        "letter": "B",
+        "text": "Helicase"
+      },
+      {
+        "letter": "C",
+        "text": "Peptidyl transferase"
+      },
+      {
+        "letter": "D",
+        "text": "Separase"
+      },
+      {
+        "letter": "E",
+        "text": "Wee1 kinase"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The arrow indicates a cell in anaphase. Separase cleaves cohesin, which holds sister chromatids together; removing cohesin allows the chromatids to separate and move toward opposite poles. DNA polymerase and helicase function in DNA replication during S phase. Peptidyl transferase catalyzes peptide-bond formation during translation. Wee1 adds an inhibitory phosphate to Cdk1 before mitosis begins and is inactivated after mitosis is initiated.",
+    "choice_explanations": {
+      "A": "DNA polymerase synthesizes DNA during replication and participates in repair; it is not the anaphase enzyme acting on cohesin.",
+      "B": "Helicase unwinds the DNA template at a replication fork; this is a DNA-replication function, not sister-chromatid separation in anaphase.",
+      "C": "Peptidyl transferase activity in the ribosome forms peptide bonds during translation, not chromosome segregation.",
+      "D": "Correct. Separase degrades cohesin, releasing the sister chromatids for segregation during anaphase.",
+      "E": "Wee1 inhibits Cdk1 before mitosis; it is inactivated after mitosis has begun and does not cleave cohesin."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.36 describes DNA polymerases in DNA replication, including elongation and primer replacement.",
+        "page": 36
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.36 identifies helicase as the enzyme that unwinds the DNA template at the replication fork.",
+        "page": 36
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.43 states that rRNA catalyzes peptide-bond formation during translation.",
+        "page": 43
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid p.44 places anaphase within M phase but does not directly name separase or describe cohesin cleavage."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid p.44 summarizes cyclin-CDK cell-cycle regulation but does not directly identify Wee1 or its inhibitory phosphorylation of Cdk1."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      36,
+      43,
+      44
+    ],
+    "fa_page": 44,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid p.44 identifies anaphase as part of M phase. It does not name separase or explain cohesin cleavage; p.36 covers DNA replication and p.43 covers translation.",
+    "question_images": [
+      "assets/question-figures/batch02-cell-anaphase-separase.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "H&E photomicrograph with an arrow indicating the mitotic cell in anaphase."
+  },
+  {
+    "id": "import-e3aa2ea55a37290d1d5964e5",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Pathology",
+    "stem": "A female newborn delivered at 36 weeks' gestation is brought to the physician because of dyspnea, difficulty feeding, and poor weight gain. Her mother is 29 years old and has a history of gestational diabetes mellitus and pregnancy-induced hypertension. Physical examination shows strong radial pulses at 110 beats/min and weaker femoral pulses at 110 beats/min. She undergoes aortic catheterization; pressure tracings from the thoracic and abdominal aorta are shown. What is the most important contributing factor to the elevated arterial pressure in the thoracic aorta?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Baroreflex-mediated decrease of parasympathetic activity"
+      },
+      {
+        "letter": "B",
+        "text": "Baroreflex-mediated increase of sympathetic activity"
+      },
+      {
+        "letter": "C",
+        "text": "Elevated secretion of atrial natriuretic peptide"
+      },
+      {
+        "letter": "D",
+        "text": "Increased concentration of angiotensin II"
+      },
+      {
+        "letter": "E",
+        "text": "Pressure-induced diuresis"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The tracing shows markedly higher pulsatile pressure in the thoracic aorta than in the abdominal aorta, consistent with coarctation of the aorta. The narrowing increases resistance distal to the branches supplying the head and arms but proximal to the renal arteries. Reduced renal perfusion stimulates renin release, increasing angiotensin II; angiotensin II raises vascular resistance and promotes aldosterone-mediated sodium and water retention, contributing to upper-body hypertension. Increased aortic pressure also increases baroreceptor firing, which raises parasympathetic and inhibits sympathetic outflow. Atrial natriuretic peptide promotes vasodilation and natriuresis, opposing rather than causing hypertension. Renal perfusion distal to the narrowing is reduced, and pressure-induced diuresis would lower blood pressure rather than explain the elevated thoracic pressure.",
+    "choice_explanations": {
+      "A": "Higher arterial pressure increases baroreceptor firing and parasympathetic outflow; it does not cause a baroreflex-mediated decrease in parasympathetic activity.",
+      "B": "Baroreceptor activation inhibits sympathetic outflow. Increased sympathetic activity is the opposite of the expected reflex response to the elevated pressure.",
+      "C": "Atrial natriuretic peptide promotes vasodilation and renal sodium excretion, counteracting volume expansion and elevated blood pressure.",
+      "D": "Correct. Coarctation lowers pressure reaching the kidneys, stimulating renin and angiotensin II; angiotensin II increases systemic vascular resistance and supports sodium retention.",
+      "E": "Pressure-induced diuresis would promote fluid loss and reduce blood pressure. The kidneys are distal to the coarctation and receive reduced perfusion pressure."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.298 shows that increased baroreceptor firing increases parasympathetic outflow; the proposed decrease is the wrong direction.",
+        "page": 298
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.298 shows that increased baroreceptor firing inhibits sympathetic outflow; the proposed increase is the wrong direction.",
+        "page": 298
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.297 describes atrial natriuretic peptide release with increased atrial pressure and its vasodilatory, natriuretic effects.",
+        "page": 297
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.606 states that decreased renal perfusion pressure stimulates renin and depicts angiotensin II-mediated vasoconstriction and sodium reabsorption.",
+        "page": 606
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 has no direct discussion of pressure-induced diuresis in the cited relevant pages; p.606 does describe reduced renal perfusion activating renin."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      302,
+      606
+    ],
+    "fa_page": 606,
+    "fa_page_verified": true,
+    "fa_summary": "Coarctation causes upper-extremity hypertension with weaker lower-extremity pulses (p.302). Reduced renal perfusion activates renin and the angiotensin-aldosterone system (p.606).",
+    "question_images": [
+      "assets/question-figures/batch02-cvs-coarctation-pressure-chart.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Pressure tracing showing high pulsatile pressure in the thoracic aorta and lower pressure in the abdominal aorta."
+  },
+  {
+    "id": "import-4e63ddca21671fd66336dc02",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Meckel diverticulum",
+    "stem": "A 2-year-old girl is brought to the emergency department because of severe, painless rectal bleeding. Upper endoscopy shows no abnormalities of the esophagus, stomach, or duodenum; colonoscopy shows no abnormalities of the colon or anus. A scan shows ectopic gastric mucosa in the right lower quadrant. A developmental defect of which structure most likely caused these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Appendix"
+      },
+      {
+        "letter": "B",
+        "text": "Cecum"
+      },
+      {
+        "letter": "C",
+        "text": "Duodenum"
+      },
+      {
+        "letter": "D",
+        "text": "Ileum"
+      },
+      {
+        "letter": "E",
+        "text": "Jejunum"
+      }
+    ],
+    "answer": "D",
+    "explanation": "This is a Meckel diverticulum, a remnant of the vitelline duct connecting the yolk sac to the midgut. It arises from the ileum and may contain ectopic gastric mucosa; acid secretion can ulcerate adjacent bowel and cause painless bleeding.",
+    "choice_explanations": {
+      "A": "Incorrect: appendicitis typically causes pain and does not explain ectopic gastric mucosa with painless bleeding.",
+      "B": "Incorrect: the cecum is not the site of a vitelline-duct remnant.",
+      "C": "Incorrect: the duodenum is not the site of a Meckel diverticulum.",
+      "D": "Correct: a Meckel diverticulum arises from the distal ileum.",
+      "E": "Incorrect: the jejunum is not the typical site; the vitelline duct attaches to the ileum."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links the appendix to a vitelline-duct remnant."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links the cecum to a vitelline-duct remnant."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links the duodenum to a vitelline-duct remnant."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Meckel diverticulum is a persistent vitelline-duct remnant near the terminal ileum; ectopic acid-secreting gastric mucosa can cause bleeding. The diagram on p. 636 also depicts a patent vitelline duct/Meckel diverticulum.",
+        "page": 391
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links the jejunum to a vitelline-duct remnant."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      391,
+      636
+    ],
+    "fa_page": 391,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 391 directly describes Meckel diverticulum as persistence of the vitelline duct, its ileal location, and possible ectopic gastric/pancreatic mucosa; p. 636 has a supporting embryology diagram. The bleeding mechanism is explained in the question rationale."
+  },
+  {
+    "id": "import-57a1c8f67bb3f7a6620ac06f",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Pharyngeal arch derivatives",
+    "stem": "A newborn is born with abnormally formed mandible, ears, and palate. A diagnosis of mandibulofacial dysostosis is made. This syndrome is due to abnormal development of which structures?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "First and second pharyngeal arches"
+      },
+      {
+        "letter": "B",
+        "text": "First and third pharyngeal arches"
+      },
+      {
+        "letter": "C",
+        "text": "Second and third pharyngeal arches"
+      },
+      {
+        "letter": "D",
+        "text": "Second and fourth pharyngeal arches"
+      },
+      {
+        "letter": "E",
+        "text": "Third and fourth pharyngeal arches"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Mandibulofacial dysostosis (Treacher Collins syndrome) results from abnormal development of the first and second pharyngeal arches, clefts, and pouches, particularly impaired neural-crest-derived craniofacial structures.",
+    "choice_explanations": {
+      "A": "Correct: Treacher Collins syndrome is associated with abnormal first- and second-arch development.",
+      "B": "Incorrect: arch 3 does not account for the characteristic mandibulofacial pattern.",
+      "C": "Incorrect: arches 2 and 3 do not form the mandibular/maxillary structures implicated here.",
+      "D": "Incorrect: arch 4 contributes to pharyngeal/laryngeal structures, not the Treacher Collins pattern.",
+      "E": "Incorrect: arches 3 and 4 do not form the characteristic craniofacial structures."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Treacher Collins syndrome is linked to first- and second-pharyngeal-arch development.",
+        "page": 638
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The arch-derivative chart distinguishes first/second craniofacial derivatives from third-arch derivatives.",
+        "page": 638
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The chart distinguishes second-arch derivatives from third-arch derivatives; this pairing is not the Treacher Collins association.",
+        "page": 638
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The chart lists second- and fourth-arch derivatives; the source identifies first and second.",
+        "page": 638
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The chart lists third- and fourth-arch derivatives; the source identifies first and second.",
+        "page": 638
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      638
+    ],
+    "fa_page": 638,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 638 directly links Treacher Collins syndrome to first- and second-pharyngeal-arch development and lists relevant arch derivatives."
+  },
+  {
+    "id": "import-735e1e33d0b77edf4fa2cbad",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Aortic arch derivatives",
+    "stem": "A researcher studies the developmental origins of arteries that supply the brain by tracing the arteries that develop in fetal pharyngeal arches. Which pair of pharyngeal arches gives rise to arteries that contribute to the blood vessels supplying the brain?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pharyngeal arches 1 and 2"
+      },
+      {
+        "letter": "B",
+        "text": "Pharyngeal arches 2 and 3"
+      },
+      {
+        "letter": "C",
+        "text": "Pharyngeal arches 3 and 4"
+      },
+      {
+        "letter": "D",
+        "text": "Pharyngeal arches 4 and 5"
+      },
+      {
+        "letter": "E",
+        "text": "Pharyngeal arches 4 and 6"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The third aortic arch forms the common carotid arteries and proximal internal carotid arteries; the fourth contributes to the aortic arch on the left and proximal right subclavian on the right. Carotid and vertebral systems contribute to anterior and posterior cerebral circulation, respectively.",
+    "choice_explanations": {
+      "A": "Incorrect: arches 1 and 2 contribute to maxillary and stapedial arteries, respectively.",
+      "B": "Incorrect: arch 2 contributes to the stapedial artery; arch 3 is the carotid arch, but the pair omits arch 4 and its contribution to subclavian supply.",
+      "C": "Correct: arches 3 and 4 contribute to carotid and subclavian systems supplying cerebral circulations.",
+      "D": "Incorrect: arch 5 regresses; arch 4 contributes to aortic/subclavian structures, but the pair omits arch 3 carotid derivatives.",
+      "E": "Incorrect: arch 6 contributes to pulmonary arteries and ductus arteriosus, not major cerebral inflow pathways."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this aortic-arch artery derivative."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this aortic-arch artery derivative."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this aortic-arch artery derivative."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this aortic-arch artery derivative."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this aortic-arch artery derivative."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": false
+  },
+  {
+    "id": "import-ab8d146e1d6ebd4c4f591a16",
+    "chapter": "Public Health Sciences",
+    "fa_subchapter": "Carbon monoxide toxicity",
+    "stem": "An 82-year-old woman is found unconscious in her apartment. A gas oven is on with its door open. After revival on 100% oxygen, she reports frontal headache and dizziness while baking. Her temperature is 37.3°C (99.2°F), pulse 78/min, respirations 20/min, and blood pressure 130/78 mm Hg. Her cheeks, lips, and fingers are red. What is the most likely underlying cause?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Damage to the plasmalemma"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased oxygen-carrying capacity of blood"
+      },
+      {
+        "letter": "C",
+        "text": "Increased calcium transport into mitochondria"
+      },
+      {
+        "letter": "D",
+        "text": "Right shift of the oxygen-hemoglobin dissociation curve"
+      },
+      {
+        "letter": "E",
+        "text": "Rupture of lysosomes"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The open gas oven and neurologic symptoms indicate carbon monoxide poisoning. CO binds hemoglobin with very high affinity, reducing sites available to carry oxygen; it also left-shifts the remaining oxyhemoglobin dissociation curve.",
+    "choice_explanations": {
+      "A": "Incorrect: membrane damage is not the primary mechanism of CO toxicity.",
+      "B": "Correct: carboxyhemoglobin formation reduces blood oxygen-carrying capacity.",
+      "C": "Incorrect: increased mitochondrial calcium transport does not explain CO poisoning.",
+      "D": "Incorrect: CO causes a left shift, not a right shift, of the oxygen-hemoglobin dissociation curve.",
+      "E": "Incorrect: lysosomal rupture is not the mechanism of CO toxicity."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links plasmalemma damage to CO poisoning."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Carbon monoxide binds hemoglobin to form carboxyhemoglobin and decreases oxygen-carrying capacity.",
+        "page": 689
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links increased mitochondrial calcium transport to CO poisoning."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "CO causes a leftward shift in the oxygen-hemoglobin dissociation curve, not a right shift.",
+        "page": 689
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links lysosomal rupture to CO poisoning."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      689
+    ],
+    "fa_page": 689,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 689 covers carboxyhemoglobin and reduced oxygen-carrying capacity/left shift caused by CO."
+  },
+  {
+    "id": "import-472658c38b3c39aa0a1507ed",
+    "chapter": "Pathology",
+    "fa_subchapter": "Neuroblastoma",
+    "stem": "A 2-year-old boy has nonrhythmic conjugate eye movements, mild ataxia, lower-extremity hypotonia, and involuntary muscle twitching. A large painless left retroperitoneal mass crossing the umbilicus arises from the adrenal medulla. Histology shows small round cells and ganglion cells embedded in a fibrillary pink matrix. Which diagnosis best explains these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Duchenne muscular dystrophy"
+      },
+      {
+        "letter": "B",
+        "text": "Friedreich ataxia"
+      },
+      {
+        "letter": "C",
+        "text": "Neuroblastoma"
+      },
+      {
+        "letter": "D",
+        "text": "Non-Hodgkin lymphoma"
+      },
+      {
+        "letter": "E",
+        "text": "Wilms tumor"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The adrenal-medullary mass, small round neuroblastic cells, and opsoclonus-myoclonus syndrome are characteristic of neuroblastoma, a childhood tumor of neural-crest-derived neuroblasts.",
+    "choice_explanations": {
+      "A": "Incorrect: Duchenne muscular dystrophy causes progressive proximal weakness and Gowers sign, not an adrenal mass or opsoclonus.",
+      "B": "Incorrect: Friedreich ataxia causes progressive spinocerebellar dysfunction, not an adrenal tumor.",
+      "C": "Correct: neuroblastoma arises from neural-crest-derived neuroblasts and may cause opsoclonus-myoclonus and an adrenal mass.",
+      "D": "Incorrect: lymphoma does not fit the adrenal-medullary small-round-cell tumor and characteristic paraneoplastic syndrome.",
+      "E": "Incorrect: Wilms tumor arises from the kidney and typically does not cause opsoclonus-myoclonus."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links Duchenne muscular dystrophy to this adrenal mass and opsoclonus-myoclonus presentation."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links Friedreich ataxia to this adrenal mass and opsoclonus-myoclonus presentation."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Neuroblastoma is a neural-crest-derived childhood tumor that can arise in the adrenal medulla; p. 224 additionally associates opsoclonus-myoclonus with neuroblastoma.",
+        "page": 354
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match supports lymphoma as the source of this adrenal neuroblastic syndrome."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links Wilms tumor to opsoclonus-myoclonus."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      224,
+      354
+    ],
+    "fa_page": 354,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 354 identifies neuroblastoma among neural-crest-derived adrenal tumors; p. 224 lists opsoclonus-myoclonus among paraneoplastic syndromes. p. 220 only lists MYCN association and is not the best direct match for this clinical presentation."
+  },
+  {
+    "id": "import-c963ea5c159978eb52dae4df",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Systemic sclerosis",
+    "stem": "A 37-year-old woman has progressive dysphagia, facial and truncal telangiectasias, and firm subcutaneous nodules on the elbows, forearms, and knees. Esophageal manometry shows decreased peristalsis and decreased lower esophageal sphincter tone. Antibody testing shows a high anti-centromere titer; anti-Scl-70, anti-Ro, anti-U1-RNP, and anti-dsDNA are not detected. Which condition is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Achalasia"
+      },
+      {
+        "letter": "B",
+        "text": "CREST syndrome"
+      },
+      {
+        "letter": "C",
+        "text": "Diffuse scleroderma"
+      },
+      {
+        "letter": "D",
+        "text": "Esophageal carcinoma"
+      },
+      {
+        "letter": "E",
+        "text": "Mixed connective tissue disease"
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is limited systemic sclerosis (CREST): calcinosis, Raynaud phenomenon, esophageal dysmotility, sclerodactyly, and telangiectasia. Anti-centromere antibody is associated with CREST; esophageal fibrosis causes reduced peristalsis and sphincter tone.",
+    "choice_explanations": {
+      "A": "Incorrect: achalasia is associated with impaired LES relaxation/increased tone, not anti-centromere antibody and telangiectasias.",
+      "B": "Correct: anti-centromere antibody, telangiectasia/calcinosis, and esophageal dysmotility point to CREST.",
+      "C": "Incorrect: diffuse systemic sclerosis is more associated with anti-Scl-70 and earlier, more extensive visceral fibrosis.",
+      "D": "Incorrect: carcinoma does not explain the characteristic skin findings and anti-centromere antibody.",
+      "E": "Incorrect: mixed connective-tissue disease is associated with anti-U1-RNP, which is absent."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match maps achalasia to the antibody/skin presentation described."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Limited systemic sclerosis/CREST is associated with anti-centromere antibody and esophageal dysmotility.",
+        "page": 481
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-Scl-70 is listed with diffuse scleroderma on p. 113; p. 481 describes diffuse disease as widespread skin involvement with early visceral disease, unlike this limited pattern.",
+        "page": 113
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match explains the systemic skin and antibody pattern as carcinoma."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-U1 RNP is listed with mixed connective tissue disease on p. 113; the source states it is absent in this patient.",
+        "page": 113
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      113,
+      481
+    ],
+    "fa_page": 481,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 481 directly describes limited systemic sclerosis/CREST, anti-centromere antibody, and esophageal dysmotility; p. 113 directly maps anti-U1 RNP to mixed connective tissue disease and anti-Scl-70 to diffuse scleroderma."
+  },
+  {
+    "id": "import-6f782219902a90d032038834",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Cerebral blood-flow regulation",
+    "stem": "A 37-year-old woman comes to the emergency department after a motor vehicle collision. She has lacerations on her arms but insignificant bleeding. In the waiting room, she becomes anxious and hyperventilates, then feels faint and has blurred vision. Which finding is most likely decreased?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Arterial oxygen content"
+      },
+      {
+        "letter": "B",
+        "text": "Arterial oxygen tension (PaO2)"
+      },
+      {
+        "letter": "C",
+        "text": "Arterial pH"
+      },
+      {
+        "letter": "D",
+        "text": "Cerebral blood flow"
+      },
+      {
+        "letter": "E",
+        "text": "Cerebrovascular resistance"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Hyperventilation lowers arterial CO2, causing cerebral vasoconstriction. Cerebrovascular resistance rises and cerebral blood flow transiently falls, producing faintness and blurred vision. Hyperventilation also causes respiratory alkalosis and generally raises PaO2 slightly; it does not lower oxygen content when pulmonary function is otherwise normal.",
+    "choice_explanations": {
+      "A": "Incorrect: oxygen content is not decreased; hemoglobin is nearly saturated under normal pulmonary conditions.",
+      "B": "Incorrect: hyperventilation lowers alveolar CO2 and tends to increase PaO2.",
+      "C": "Incorrect: CO2 loss causes respiratory alkalosis, so arterial pH increases.",
+      "D": "Correct: hypocapnia causes cerebral vasoconstriction and decreased cerebral blood flow.",
+      "E": "Incorrect: cerebrovascular resistance increases rather than decreases."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 p. 687 explains oxygen content versus PaO2, but does not directly address oxygen content during acute anxiety-related hyperventilation."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for the acute PaO2 change during anxiety-related hyperventilation."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The high-altitude table shows increased ventilation lowers PaCO2 and causes respiratory alkalosis; this supports the pH rise from acute hyperventilation.",
+        "page": 688
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Therapeutic hyperventilation lowers PCO2, causing cerebral vasoconstriction and decreased cerebral blood flow (and ICP).",
+        "page": 512
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The same passage links hypocapnia to cerebral vasoconstriction and reduced flow, not increased flow.",
+        "page": 512
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      512,
+      687,
+      688
+    ],
+    "fa_page": 512,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 512 directly states that therapeutic hyperventilation lowers PCO2, causing cerebral vasoconstriction and reduced cerebral blood flow/ICP. p. 687 distinguishes oxygen content from PaO2; p. 688 describes hyperventilation lowering PaCO2 and producing respiratory alkalosis. Printed p. 565 is unrelated local-anesthetic pharmacology and p. 689 is CO poisoning, so neither is cited."
+  },
+  {
+    "id": "import-bce10e55f19da0f77790d13e",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Baroreceptor reflex",
+    "stem": "A 53-year-old man undergoes resection of a brain-base glioma, during which cranial nerves IX and X are accidentally severed bilaterally. Which of the following will most likely be seen immediately?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bradycardia with hypertension"
+      },
+      {
+        "letter": "B",
+        "text": "Bradycardia with hypotension"
+      },
+      {
+        "letter": "C",
+        "text": "Sinus arrhythmia with hypotension"
+      },
+      {
+        "letter": "D",
+        "text": "Tachycardia with hypertension"
+      },
+      {
+        "letter": "E",
+        "text": "Tachycardia with hypotension"
+      }
+    ],
+    "answer": "D",
+    "explanation": "CN IX and X carry baroreceptor afferents from the carotid sinus and aortic arch to the medulla. Severing them falsely signals an abrupt fall in blood pressure, increasing sympathetic outflow and causing tachycardia and vasoconstriction-related hypertension. Loss of vagal cardiac efferents also favors tachycardia.",
+    "choice_explanations": {
+      "A": "Incorrect: loss of baroreceptor input increases rather than suppresses sympathetic tone and heart rate.",
+      "B": "Incorrect: the reflex response is sympathetic activation, not bradycardia with hypotension.",
+      "C": "Incorrect: sinus arrhythmia does not explain the expected sympathetic response.",
+      "D": "Correct: reduced baroreceptor afferent input drives tachycardia and vasoconstriction-related hypertension.",
+      "E": "Incorrect: heart rate rises, but blood pressure rises rather than falls."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The baroreceptor reflex passage shows that reduced CN IX/X afferent firing increases sympathetic output; this predicts tachycardia and increased vascular tone rather than the listed alternative pattern.",
+        "page": 298
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The baroreceptor reflex passage shows that reduced CN IX/X afferent firing increases sympathetic output; this predicts tachycardia and increased vascular tone rather than the listed alternative pattern.",
+        "page": 298
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The baroreceptor reflex passage shows that reduced CN IX/X afferent firing increases sympathetic output; this predicts tachycardia and increased vascular tone rather than the listed alternative pattern.",
+        "page": 298
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The baroreceptor reflex passage shows that reduced CN IX/X afferent firing increases sympathetic output; this predicts tachycardia and increased vascular tone rather than the listed alternative pattern.",
+        "page": 298
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The baroreceptor reflex passage shows that reduced CN IX/X afferent firing increases sympathetic output; this predicts tachycardia and increased vascular tone rather than the listed alternative pattern.",
+        "page": 298
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      298
+    ],
+    "fa_page": 298,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 298 diagrams CN IX/X baroreceptor afferents to the medulla and describes the compensatory response to reduced baroreceptor firing."
+  },
+  {
+    "id": "import-4a4b3087e7a4e57da929b39b",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Kawasaki disease",
+    "stem": "A 3-year-old boy is brought to the emergency department because of an 11-day history of fever and irritability. His mother says that he is otherwise healthy with a normal birth history and has not received any vaccinations. Temperature is 38°C (101°F). Examination shows palpable cervical lymph nodes and a desquamating rash on the palms, soles, and mouth. Which complication should this patient most likely be monitored for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Abdominal aortic aneurysm"
+      },
+      {
+        "letter": "B",
+        "text": "Aneurysm of the aortic root"
+      },
+      {
+        "letter": "C",
+        "text": "Berry aneurysm"
+      },
+      {
+        "letter": "D",
+        "text": "Coronary artery aneurysm"
+      },
+      {
+        "letter": "E",
+        "text": "Aortitis"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The child has Kawasaki disease, a medium-vessel vasculitis characterized by prolonged fever, cervical lymphadenopathy, and mucocutaneous changes. It can injure coronary vessels and cause coronary artery aneurysms, with risk of thrombosis, infarction, or rupture. The matched Word source clearly reads E, Orchitis in an earlier draft was an OCR/transcription error; the actual option is Aortitis.",
+    "choice_explanations": {
+      "A": "Incorrect: abdominal aortic aneurysm is not the characteristic vascular complication of Kawasaki disease.",
+      "B": "Incorrect: aortic-root aneurysm is not the characteristic complication.",
+      "C": "Incorrect: berry aneurysms are intracranial aneurysms and are not the classic Kawasaki complication.",
+      "D": "Correct: Kawasaki disease can cause coronary artery aneurysms, which may thrombose or rupture.",
+      "E": "Incorrect: aortitis is not the complication emphasized by the matched source; coronary arterial injury is."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links Kawasaki disease to abdominal aortic aneurysm."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links Kawasaki disease to aortic-root aneurysm."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links Kawasaki disease to berry aneurysm."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: the Kawasaki row lists coronary artery aneurysms and warns that thrombosis or rupture can cause death.",
+        "page": 478
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page describes Kawasaki as a medium-vessel vasculitis and contrasts it with large-vessel vasculitides; it does not identify aortitis as the characteristic complication.",
+        "page": 478
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      478
+    ],
+    "fa_page": 478,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 478 directly lists Kawasaki disease and its coronary-artery aneurysm complication, including thrombosis/rupture risk."
+  },
+  {
+    "id": "import-a99a293ca3b7b714435dfe0f",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Atrial septal defect",
+    "stem": "A 35-year-old woman comes to the physician for a routine examination. Her temperature is 37°C (98.6°F), pulse is 76/min, respirations are 24/min, and blood pressure is 128/78 mm Hg. Examination shows a prominent right ventricular impulse and wide, fixed splitting of the second heart sound. ECG shows right-axis deviation, and chest x-ray shows enlargement of the right ventricle and atrium. Which additional physical examination finding is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cyanotic distal extremities"
+      },
+      {
+        "letter": "B",
+        "text": "Diastolic murmur auscultated at the apex"
+      },
+      {
+        "letter": "C",
+        "text": "Holosystolic murmur auscultated at the apex"
+      },
+      {
+        "letter": "D",
+        "text": "Mid-systolic ejection murmur auscultated at the left upper sternal border"
+      },
+      {
+        "letter": "E",
+        "text": "Mid-systolic ejection murmur auscultated at the right upper sternal border"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The findings indicate an atrial septal defect with a left-to-right shunt and right-sided volume overload. The increased volume crossing the pulmonic valve produces a systolic ejection murmur at the pulmonic area/left upper sternal border; fixed splitting of S2 is characteristic.",
+    "choice_explanations": {
+      "A": "Incorrect: an uncomplicated left-to-right ASD is acyanotic; cyanosis would suggest late shunt reversal.",
+      "B": "Incorrect: an apical diastolic murmur suggests mitral stenosis, not an ASD flow murmur.",
+      "C": "Incorrect: an apical holosystolic murmur suggests mitral regurgitation, not increased pulmonic flow.",
+      "D": "Correct: increased flow across the pulmonic valve causes a systolic ejection murmur at the left upper sternal border.",
+      "E": "Incorrect: the right upper sternal border is the aortic listening area."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match supports cyanosis in uncomplicated ASD; cyanosis would imply shunt reversal."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The auscultation table locates mitral stenosis as a diastolic murmur heard at the apex.",
+        "page": 294
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The auscultation table lists mitral regurgitation as a systolic murmur at the apex; it is distinct from the ASD pulmonic-flow murmur.",
+        "page": 294
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The auscultation table lists systolic ejection murmurs at the pulmonic area, including ASD flow murmurs; p. 301 directly links ASD to this murmur.",
+        "page": 294
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The auscultation table places aortic-area systolic murmurs at the right upper sternal border; ASD flow is heard at the pulmonic area instead.",
+        "page": 294
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      294,
+      301
+    ],
+    "fa_page": 301,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 301 describes ASD with a systolic ejection murmur and wide, fixed S2 splitting; p. 294 maps pulmonic and aortic murmur locations."
+  },
+  {
+    "id": "import-ee98a7cc19d35775c771f99b",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Arteriolosclerosis",
+    "stem": "A 40-year-old African-American man with uncontrolled hypertension has not urinated in the past 16 hours. His blood pressure is 280/140 mm Hg and heart rate is 72/min. Examination shows papilledema. Renal biopsy shows concentric, laminated thickening of arteriolar walls due to smooth-muscle proliferation. Which of the following is the most likely underlying lesion?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Atherosclerosis"
+      },
+      {
+        "letter": "B",
+        "text": "Hyaline arteriolosclerosis"
+      },
+      {
+        "letter": "C",
+        "text": "Hyperplastic arteriolosclerosis"
+      },
+      {
+        "letter": "D",
+        "text": "Mönckeberg arteriosclerosis"
+      },
+      {
+        "letter": "E",
+        "text": "Polyarteritis nodosa"
+      }
+    ],
+    "answer": "C",
+    "explanation": "This is malignant hypertension with acute end-organ injury. Concentric ‘onion-skin’ arteriolar thickening from smooth-muscle proliferation is hyperplastic arteriolosclerosis; fibrinoid necrosis may coexist. Renal arteriolar narrowing can cause oliguria and acute kidney injury.",
+    "choice_explanations": {
+      "A": "Incorrect: atherosclerosis is an intimal lipid plaque in large/medium arteries, not concentric arteriolar lamination.",
+      "B": "Incorrect: hyaline arteriolosclerosis is homogeneous hyaline wall thickening, classically with diabetes or chronic hypertension.",
+      "C": "Correct: hyperplastic arteriolosclerosis produces concentric onion-skin narrowing in severe hypertension.",
+      "D": "Incorrect: Mönckeberg sclerosis is medial calcification, typically without luminal narrowing.",
+      "E": "Incorrect: polyarteritis nodosa causes segmental necrotizing inflammation of medium arteries, not onion-skin arteriolar proliferation."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match for atherosclerotic plaque as the biopsy lesion described."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page contrasts hyaline arteriolosclerosis, related to plasma-protein leakage in hypertension/diabetes, with the biopsy's laminated proliferative lesion.",
+        "page": 304
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: severe hypertension causes hyperplastic arteriolosclerosis with smooth-muscle proliferation and onion-skinning.",
+        "page": 304
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for Mönckeberg medial calcification as the described lesion."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for polyarteritis nodosa as concentric smooth-muscle arteriolar thickening."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      304
+    ],
+    "fa_page": 304,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 304 directly distinguishes hyaline from hyperplastic arteriolosclerosis and describes smooth-muscle proliferation/onion-skinning in severe hypertension."
+  },
+  {
+    "id": "import-2b4f305210579ab281ec61a2",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Aortic coarctation",
+    "stem": "A 25-year-old man has episodes of headache and light-headedness every few weeks, often during exertion such as running or playing basketball. He has calf pain with walking that is relieved by rest. Blood pressure is 150/90 mm Hg in the upper extremities and 110/85 mm Hg in the lower extremities. Cardiac examination is unremarkable, and there is no pedal edema. Which additional finding is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aortic valvular stenosis"
+      },
+      {
+        "letter": "B",
+        "text": "Notching of the inferior margins of the ribs"
+      },
+      {
+        "letter": "C",
+        "text": "Patent ductus arteriosus"
+      },
+      {
+        "letter": "D",
+        "text": "Pulmonary valvular stenosis"
+      },
+      {
+        "letter": "E",
+        "text": "Vasculitis involving the aortic arch"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The upper- versus lower-extremity pressure gradient with exertional leg ischemia indicates postductal aortic coarctation. Enlarged intercostal collateral arteries erode the inferior rib margins, causing rib notching.",
+    "choice_explanations": {
+      "A": "Incorrect: aortic stenosis does not explain the upper/lower blood-pressure gradient and calf claudication.",
+      "B": "Correct: enlarged intercostal collaterals in coarctation cause inferior rib notching.",
+      "C": "Incorrect: PDA can be associated with preductal coarctation but is not the characteristic additional finding in this adult pattern.",
+      "D": "Incorrect: pulmonary stenosis does not cause upper-body hypertension with lower-body hypoperfusion.",
+      "E": "Incorrect: aortic-arch vasculitis is not the typical cause of this pressure gradient and collateral rib change."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match for aortic valve stenosis as the cause of this coarctation pattern."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: enlarged intercostal collateral arteries in aortic coarctation cause rib notching on x-ray.",
+        "page": 302
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page notes a relationship of coarctation to ductal anatomy; PDA is not the characteristic adult collateral finding asked here.",
+        "page": 302
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match for pulmonary stenosis as the cause of this upper/lower pressure gradient."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match for aortic-arch vasculitis as this classic coarctation presentation."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      302
+    ],
+    "fa_page": 302,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 302 directly describes coarctation, upper/lower blood-pressure differences, lower-extremity claudication, collateral circulation, and rib notching."
+  },
+  {
+    "id": "import-4d1c2da2369d82cb2e7c7ddd",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Arteriovenous fistula",
+    "stem": "A 26-year-old man has progressive pain in his right leg. Three years ago, he sustained trauma to the leg in a motorcycle accident. Recovery was uneventful until he developed claudication over the past 6 months. Examination shows a palpable thrill and bruit over the popliteal space; the skin over the popliteal vein is markedly warm. CT shows a right popliteal arteriovenous fistula. Which substance is likely to be increased in right femoral venous blood?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Carbon dioxide content"
+      },
+      {
+        "letter": "B",
+        "text": "Hematocrit"
+      },
+      {
+        "letter": "C",
+        "text": "Oxygen content"
+      },
+      {
+        "letter": "D",
+        "text": "Plasma sodium concentration"
+      },
+      {
+        "letter": "E",
+        "text": "Total protein concentration"
+      }
+    ],
+    "answer": "C",
+    "explanation": "An arteriovenous fistula lets arterial blood bypass the capillary bed and enter the venous circulation before tissues extract its oxygen. Therefore, venous oxygen content from the affected limb is increased; large fistulas can also increase venous pressure and cause a warm limb and high-output heart failure.",
+    "choice_explanations": {
+      "A": "Incorrect: CO2-rich venous return from tissue capillaries is bypassed, so CO2 content is not the defining increase.",
+      "B": "Incorrect: the fistula does not directly increase hematocrit in the local venous sample.",
+      "C": "Correct: arterial blood bypasses tissue oxygen extraction, increasing venous oxygen content.",
+      "D": "Incorrect: sodium concentration is not specifically increased by an AV fistula.",
+      "E": "Incorrect: total protein concentration is not the characteristic change."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this option in traumatic peripheral AV fistula."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this option in traumatic peripheral AV fistula."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this option in traumatic peripheral AV fistula."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this option in traumatic peripheral AV fistula."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this option in traumatic peripheral AV fistula."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": false
+  },
+  {
+    "id": "import-7cbebbbeb0c0fb3f1db51d1a",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Myocardial infarction",
+    "stem": "A 62-year-old man is being treated in the intensive care unit for septic shock. He is hypotensive, does not respond to IV fluids, and is started on vasopressors. Serial cardiac enzymes show an increased CK-MB at 12 hours, eventually peaking at 3 times the upper limit of normal. ECG shows flat ST-segment depression over several leads. What is the most likely underlying cause?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Coronary artery vasospasm (Prinzmetal angina)"
+      },
+      {
+        "letter": "B",
+        "text": "Stable angina"
+      },
+      {
+        "letter": "C",
+        "text": "Subendocardial infarction"
+      },
+      {
+        "letter": "D",
+        "text": "Transmural infarction"
+      },
+      {
+        "letter": "E",
+        "text": "Unstable angina"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Elevated CK-MB indicates myocardial necrosis. Prolonged severe hypotension during shock causes supply-demand mismatch and preferentially injures the subendocardium, which is farthest from the epicardial coronary supply. ST depression also supports a subendocardial infarction.",
+    "choice_explanations": {
+      "A": "Incorrect: Prinzmetal angina is transient vasospasm and does not cause this enzyme-positive infarction pattern.",
+      "B": "Incorrect: stable angina is ischemia without necrosis and does not elevate cardiac biomarkers.",
+      "C": "Correct: prolonged hypotension can cause subendocardial infarction, commonly with ST depression.",
+      "D": "Incorrect: transmural infarction is classically associated with ST elevation rather than this pattern.",
+      "E": "Incorrect: unstable angina has no biomarker elevation because there is no myocardial necrosis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Prinzmetal/vasospastic angina occurs at rest with transient ischemic ECG changes and no necrosis; it does not explain elevated CK-MB.",
+        "page": 306
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Stable angina has no biomarker elevation and no infarction.",
+        "page": 306
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: elevated biomarkers plus ST depression align with NSTEMI/subendocardial infarction; prolonged hypotension is a supply-demand cause.",
+        "page": 306
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page contrasts transmural STEMI, typically with ST elevation, with the subendocardial/ST-depression pattern here.",
+        "page": 306
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Unstable angina causes no cardiac biomarker elevation, unlike this CK-MB-positive event.",
+        "page": 306
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      306
+    ],
+    "fa_page": 306,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 306 distinguishes angina from MI by biomarkers, describes NSTEMI as subendocardial infarction with ST depression, and notes MI can follow prolonged supply-demand mismatch such as hypotension."
+  },
+  {
+    "id": "import-3c5e0172e312ff045718187e",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Orofacial clefts",
+    "stem": "A newborn has a deep fissure extending from the left nostril through the upper lip. The mandible and palate are normal. Which developmental defect most likely caused this finding?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Failure of the left lateral palatine process to fuse with the median palatine process"
+      },
+      {
+        "letter": "B",
+        "text": "Failure of the left maxillary prominence to unite with the left medial nasal prominence"
+      },
+      {
+        "letter": "C",
+        "text": "Failure of the primary palate to fuse with the secondary palate"
+      },
+      {
+        "letter": "D",
+        "text": "Failure of the right and left medial nasal prominences to merge"
+      },
+      {
+        "letter": "E",
+        "text": "Failure of the right palatine process to fuse with the left palatine process"
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is a unilateral cleft lip. The maxillary prominence must fuse with the medial nasal prominence/intermaxillary segment; failure of fusion on one side produces a unilateral cleft lip. Normal palate and mandible make palatal fusion defects less likely.",
+    "choice_explanations": {
+      "A": "Incorrect: palatine shelf fusion defects cause cleft palate, not a cleft lip extending from nostril through upper lip.",
+      "B": "Correct: failure of maxillary–medial nasal prominence fusion causes unilateral cleft lip.",
+      "C": "Incorrect: primary/secondary palate fusion defects cause cleft palate rather than isolated cleft lip.",
+      "D": "Incorrect: medial nasal prominence failure to merge affects the midline philtrum and is not the unilateral maxillary fusion defect described.",
+      "E": "Incorrect: lateral palatine shelf fusion defects cause cleft palate."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The cleft-palate section describes failure of palatine shelf fusion; this does not match an isolated cleft lip.",
+        "page": 639
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: cleft lip results from failure of fusion of the intermaxillary segment/medial nasal processes with the maxillary process.",
+        "page": 639
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page describes cleft lip and cleft palate as distinct fusion defects; this option describes palate fusion rather than the unilateral lip lesion.",
+        "page": 639
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page identifies the maxillary–intermaxillary fusion needed for the upper lip; a midline medial-nasal defect is not the unilateral lesion described.",
+        "page": 639
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page attributes cleft palate to failure of fusion of lateral palatine shelves, unlike this cleft lip.",
+        "page": 639
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      639
+    ],
+    "fa_page": 639,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 639 directly distinguishes cleft lip (intermaxillary segment with maxillary process) from cleft palate (palatine-shelf fusion)."
+  },
+  {
+    "id": "import-90f76f639c0e088510a6948f",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Oogenesis",
+    "stem": "A healthy 10-year-old girl is seen for a routine health-maintenance examination. She has Tanner stage 1 breast development. Most of the oocytes in her ovaries are arrested in which stage of meiosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anaphase of meiosis II"
+      },
+      {
+        "letter": "B",
+        "text": "Metaphase of meiosis I"
+      },
+      {
+        "letter": "C",
+        "text": "Metaphase of meiosis II"
+      },
+      {
+        "letter": "D",
+        "text": "Prophase of meiosis I"
+      },
+      {
+        "letter": "E",
+        "text": "Telophase of meiosis I"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Before puberty, primary oocytes have begun meiosis I during fetal life and remain arrested in prophase I until ovulation. After meiosis I, the secondary oocyte arrests in metaphase II until fertilization.",
+    "choice_explanations": {
+      "A": "Incorrect: anaphase II occurs only after fertilization triggers completion of meiosis II.",
+      "B": "Incorrect: primary oocytes do not arrest at metaphase I.",
+      "C": "Incorrect: metaphase II arrest applies to the secondary oocyte after ovulation, not most prepubertal ovarian oocytes.",
+      "D": "Correct: primary oocytes remain arrested in prophase I from fetal life until ovulation.",
+      "E": "Incorrect: telophase I is not the prolonged arrest state of primary oocytes."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Meiosis II resumes after fertilization; anaphase II is not the prepubertal arrested state.",
+        "page": 649
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page states meiosis I arrest occurs in prophase I, not metaphase I.",
+        "page": 649
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Metaphase II arrest applies to secondary oocytes until fertilization, not the primary oocytes present before puberty.",
+        "page": 649
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: primary oocytes are arrested in prophase I until ovulation.",
+        "page": 649
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page describes meiosis I arrest in prophase I; telophase I is not the arrested phase.",
+        "page": 649
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      649
+    ],
+    "fa_page": 649,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 649 directly states primary oocytes remain arrested in prophase I until ovulation and secondary oocytes in metaphase II until fertilization."
+  },
+  {
+    "id": "import-2a37b44f800fe66e22848524",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Umbilical arteries and medial umbilical ligament",
+    "stem": "A 5-year-old boy undergoes repair of an indirect inguinal hernia. During surgery, a structure in one of the medial umbilical folds appears patent. Which vessel directly gives rise to this structure?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Abdominal aorta"
+      },
+      {
+        "letter": "B",
+        "text": "External iliac arteries"
+      },
+      {
+        "letter": "C",
+        "text": "Femoral arteries"
+      },
+      {
+        "letter": "D",
+        "text": "Hepatic veins"
+      },
+      {
+        "letter": "E",
+        "text": "Internal iliac arteries"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The medial umbilical folds cover the medial umbilical ligaments, remnants of the distal umbilical arteries. The paired umbilical arteries arise from the internal iliac arteries; their proximal portions remain patent after birth.",
+    "choice_explanations": {
+      "A": "Incorrect: the abdominal aorta gives rise to common iliac arteries, which then give rise to the internal iliac arteries.",
+      "B": "Incorrect: external iliac arteries become femoral arteries and do not give rise to umbilical arteries.",
+      "C": "Incorrect: femoral arteries are distal continuation of external iliac arteries.",
+      "D": "Incorrect: hepatic veins drain the liver into the IVC and are unrelated to the medial umbilical ligament.",
+      "E": "Correct: umbilical arteries arise from the internal iliac arteries."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page identifies internal iliac arteries as the direct origin; the aorta is upstream through the common iliacs.",
+        "page": 636
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "External iliac arteries are not the direct origin listed for umbilical arteries.",
+        "page": 636
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links femoral arteries to the medial umbilical ligament."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links hepatic veins to the umbilical arterial remnant."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: fetal umbilical arteries arise from the internal iliac arteries.",
+        "page": 636
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      636
+    ],
+    "fa_page": 636,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 636 directly states that the fetal umbilical arteries arise from the internal iliac arteries and identifies the postnatal remnant/medial umbilical ligament."
+  },
+  {
+    "id": "import-0ee809925855c9e6374500a0",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Duodenal atresia",
+    "stem": "A newborn with a prenatal diagnosis of Down syndrome has persistent bilious vomiting beginning with the first feeding. Abdominal x-ray shows two air-filled structures in the upper abdomen with no distal bowel gas. What is the most likely cause?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Failure of recanalization of part of the embryonic gut"
+      },
+      {
+        "letter": "B",
+        "text": "Failure of the return of the midgut to the abdomen"
+      },
+      {
+        "letter": "C",
+        "text": "Incomplete recanalization of bile ducts"
+      },
+      {
+        "letter": "D",
+        "text": "Intrauterine vascular accident"
+      },
+      {
+        "letter": "E",
+        "text": "Persistent remnant of the vitelline duct"
+      }
+    ],
+    "answer": "A",
+    "explanation": "This is duodenal atresia, associated with Down syndrome. During development, the duodenal lumen is temporarily occluded by epithelial proliferation and should recanalize; failure of recanalization causes proximal obstruction, early bilious vomiting, and a double-bubble sign.",
+    "choice_explanations": {
+      "A": "Correct: duodenal atresia is caused by failure of recanalization of the duodenal lumen.",
+      "B": "Incorrect: failure of midgut return causes omphalocele, usually visible as bowel herniation at the umbilicus.",
+      "C": "Incorrect: bile-duct recanalization defects do not cause this classic duodenal double-bubble presentation.",
+      "D": "Incorrect: an intrauterine vascular accident is a cause of jejunal/ileal atresia, not duodenal atresia.",
+      "E": "Incorrect: a persistent vitelline duct causes vitelline-duct anomalies such as Meckel diverticulum."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: duodenal atresia results from failure to recanalize the lumen from the solid-cord stage.",
+        "page": 366
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page distinguishes omphalocele from atresia; failure of midgut return produces an external umbilical herniation, not this obstruction.",
+        "page": 366
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for bile-duct recanalization as this double-bubble cause."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid attributes jejunal/ileal atresia to mesenteric vascular disruption, not duodenal atresia.",
+        "page": 366
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The vitelline-duct section describes persistent vitelline duct/Meckel diverticulum, distinct from duodenal recanalization failure.",
+        "page": 636
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      366,
+      636,
+      391
+    ],
+    "fa_page": 366,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 366 directly describes duodenal atresia as failure to recanalize, its association with Down syndrome, bilious vomiting, and double-bubble x-ray. p. 636 covers vitelline duct/Meckel; p. 391 gives related intestinal embryology for distractor E."
+  },
+  {
+    "id": "import-f6a5df1ddbca969e4cb3556f",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Hypospadias",
+    "stem": "A newborn has excess penile skin on the dorsal aspect of the penis and a urethral meatus on the ventral shaft. There are no other genitourinary abnormalities. Surgical correction of this hypospadias helps prevent which potential sequela?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bladder exstrophy"
+      },
+      {
+        "letter": "B",
+        "text": "Hydrocele"
+      },
+      {
+        "letter": "C",
+        "text": "Infertility"
+      },
+      {
+        "letter": "D",
+        "text": "Phimosis"
+      },
+      {
+        "letter": "E",
+        "text": "Urachal cysts"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hypospadias places the urethral opening on the ventral surface and may make antegrade ejaculation difficult; repair can restore a functional urinary stream and facilitate sperm deposition, reducing infertility risk. The source explanation also notes possible chordee and urinary infection risk.",
+    "choice_explanations": {
+      "A": "Incorrect: bladder exstrophy is a separate congenital anomaly, not the expected consequence prevented by hypospadias repair.",
+      "B": "Incorrect: hydrocele is fluid around the testis and is not prevented by hypospadias correction.",
+      "C": "Correct: abnormal meatal position can impair antegrade semen delivery and fertility; repair can address this.",
+      "D": "Incorrect: phimosis is foreskin nonretractability and is not the sequela prevented by hypospadias repair.",
+      "E": "Incorrect: urachal cysts arise from persistent allantoic remnants, not hypospadias."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links hypospadias repair to prevention of bladder exstrophy."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links hypospadias repair to prevention of hydrocele."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Page 641 confirms the hypospadias anatomy; the specific infertility-prevention rationale comes from the matched source explanation, not an explicit FA statement.",
+        "page": 641
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links hypospadias repair to prevention of phimosis."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match links hypospadias repair to prevention of urachal cysts."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      641
+    ],
+    "fa_page": 641,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 641 directly describes hypospadias as a ventral urethral opening due to failure of urethral-fold fusion. It does not directly state infertility as a consequence; that specific repair rationale is supported by the matched source explanation."
+  },
+  {
+    "id": "import-396264743a39139239c0505e",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Endocrine",
+    "stem": "A 16-year-old boy who recently immigrated to the United States is brought for evaluation of severe intellectual disability. He lives in a group home and needs help with basic activities such as brushing his teeth and dressing, although he can walk independently. He speaks in unintelligible 1- to 2-word phrases. Examination shows pallor, a protuberant abdomen, an edematous face, and an enlarged tongue. Which substance is secondarily affected by his primary disorder?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cortisol"
+      },
+      {
+        "letter": "B",
+        "text": "Growth hormone"
+      },
+      {
+        "letter": "C",
+        "text": "Iron"
+      },
+      {
+        "letter": "D",
+        "text": "Parathyroid hormone"
+      },
+      {
+        "letter": "E",
+        "text": "Selenium"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The source identifies congenital hypothyroidism (historically termed cretinism). Severe thyroid hormone deficiency in infancy impairs neurodevelopment and growth; thyroid hormone also supports the GH/IGF growth axis. The keyed secondary substance is growth hormone. This is not a claim that GH deficiency is the primary disorder.",
+    "choice_explanations": {
+      "A": "Cortisol deficiency does not account for the congenital hypothyroid phenotype described.",
+      "B": "Correct. The source key is B; profound early thyroid hormone deficiency disrupts normal growth and the GH/IGF axis.",
+      "C": "Iron deficiency can cause pallor but does not explain the characteristic developmental and physical findings or the keyed secondary endocrine effect.",
+      "D": "PTH deficiency causes hypocalcemia/tetany, not this hypothyroid presentation.",
+      "E": "Selenium is needed for deiodinases, but the source does not identify selenium as the secondary substance in this question."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 333 summarizes growth hormone; p. 345 covers congenital hypothyroidism/cretinism and its effects on growth and development.",
+        "pages": [
+          333,
+          345
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      333,
+      345
+    ],
+    "fa_page": 333,
+    "fa_page_verified": true,
+    "fa_summary": "The source identifies congenital hypothyroidism (historically termed cretinism). Severe thyroid hormone deficiency in infancy impairs neurodevelopment and growth; thyroid hormone also supports the GH/IGF growth axis. The keyed secondary substance is growth hormone. This is not a claim that GH deficiency is the primary disorder."
+  },
+  {
+    "id": "import-b064de88d7d7b58611261732",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Immunology",
+    "stem": "A 30-year-old woman presents with fatigue, malaise, low-grade fever, and arthralgias. Laboratory studies show leukocytes 11,500/mm³, erythrocytes 3.2 million/mm³, hemoglobin 10.8 g/dL, MCV 85 fL, BUN 30 mg/dL, and creatinine 1.7 mg/dL. Urinalysis shows 2+ protein and 2+ blood. Which test is most useful to confirm the suspected diagnosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anticentromere antibody"
+      },
+      {
+        "letter": "B",
+        "text": "Anti-double-stranded DNA antibody"
+      },
+      {
+        "letter": "C",
+        "text": "Antimitochondrial antibody"
+      },
+      {
+        "letter": "D",
+        "text": "Anti-TSH-receptor antibody"
+      },
+      {
+        "letter": "E",
+        "text": "Rheumatoid factor"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The systemic symptoms, inflammatory joint complaints, anemia, and proteinuria/hematuria with impaired renal function suggest SLE with lupus nephritis. Anti-dsDNA is relatively specific for SLE and correlates with nephritis/activity, although it is not highly sensitive; a negative result does not exclude SLE.",
+    "choice_explanations": {
+      "A": "Anticentromere antibody is associated with limited cutaneous systemic sclerosis/CREST, not lupus nephritis.",
+      "B": "Correct. Anti-dsDNA supports SLE and is associated with lupus nephritis.",
+      "C": "Antimitochondrial antibody is associated with primary biliary cholangitis.",
+      "D": "TSH-receptor antibodies are associated with Graves disease.",
+      "E": "Rheumatoid factor can occur in rheumatoid arthritis and other conditions but is not the best confirmatory test for suspected SLE nephritis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 113 lists autoantibody associations; p. 481 associates anticentromere antibody with CREST.",
+        "pages": [
+          113,
+          481
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 113 lists anti-dsDNA among SLE antibodies; p. 476 covers SLE/lupus nephritis.",
+        "pages": [
+          113,
+          476
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 113 lists antimitochondrial antibody; p. 402 covers primary biliary cholangitis.",
+        "pages": [
+          113,
+          402
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 113 lists TSH-receptor antibody; p. 344 covers Graves disease.",
+        "pages": [
+          113,
+          344
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 113 lists rheumatoid factor; p. 472 covers rheumatoid arthritis.",
+        "pages": [
+          113,
+          472
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      113,
+      476
+    ],
+    "fa_page": 113,
+    "fa_page_verified": true,
+    "fa_summary": "The systemic symptoms, inflammatory joint complaints, anemia, and proteinuria/hematuria with impaired renal function suggest SLE with lupus nephritis. Anti-dsDNA is relatively specific for SLE and correlates with nephritis/activity, although it is not highly sensitive; a negative result does not exclude SLE."
+  },
+  {
+    "id": "import-b8b9efb205999d6f279b79e0",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Cellular physiology",
+    "stem": "A study examines transporter function in cardiac papillary muscle using patch-clamp studies of plasma-membrane proteins and cell-free studies of isolated organelles. Under normal physiology, which transporter depolarizes the sarcolemma by moving a net positive charge from extracellular fluid into a resting cardiac muscle cell?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lysosomal V-type proton ATPase"
+      },
+      {
+        "letter": "B",
+        "text": "Mitochondrial F-type ATP synthase"
+      },
+      {
+        "letter": "C",
+        "text": "Plasma-membrane Na⁺/Ca²⁺ exchanger"
+      },
+      {
+        "letter": "D",
+        "text": "Plasma-membrane Na⁺/K⁺-ATPase"
+      },
+      {
+        "letter": "E",
+        "text": "Sarcoplasmic-reticulum Ca²⁺-ATPase"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The Na⁺/Ca²⁺ exchanger is electrogenic: typically three Na⁺ ions enter for each Ca²⁺ ion extruded, producing a net inward movement of one positive charge. This can depolarize the membrane. The exchanger helps remove cytosolic Ca²⁺ during relaxation; it is distinct from the channels and pumps that generate or restore other phases of the cardiac action potential.",
+    "choice_explanations": {
+      "A": "V-type H⁺-ATPase acidifies intracellular vesicles by pumping protons; it is not the sarcolemmal inward-current transporter asked for.",
+      "B": "F-type ATP synthase uses the mitochondrial proton gradient to synthesize ATP; it is not the plasma-membrane exchanger.",
+      "C": "Correct. Three Na⁺ enter while one Ca²⁺ exits, yielding net +1 charge entering the cell.",
+      "D": "Na⁺/K⁺-ATPase moves three Na⁺ out and two K⁺ in per ATP, producing net outward positive charge and maintaining ionic gradients.",
+      "E": "SERCA uses ATP to move Ca²⁺ from cytosol into sarcoplasmic reticulum; it does not carry positive charge from extracellular fluid into the cell."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 47 describes cardiac Na⁺/Ca²⁺ exchange in relation to Na⁺/K⁺ gradients.",
+        "pages": [
+          47
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 47 covers the Na⁺/K⁺-ATPase and its ionic transport.",
+        "pages": [
+          47
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      47
+    ],
+    "fa_page": 47,
+    "fa_page_verified": true,
+    "fa_summary": "The Na⁺/Ca²⁺ exchanger is electrogenic: typically three Na⁺ ions enter for each Ca²⁺ ion extruded, producing a net inward movement of one positive charge. This can depolarize the membrane. The exchanger helps remove cytosolic Ca²⁺ during relaxation; it is distinct from the channels and pumps that generate or restore other phases of the cardiac action potential."
+  },
+  {
+    "id": "import-31f82818ac19b77fbb0cd76e",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "Hereditary hemochromatosis is autosomal recessive and affects 1% of the population. A man known to be heterozygous marries a woman from the general population. Assuming Hardy–Weinberg equilibrium, what is the probability that they will have a child with hemochromatosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.025"
+      },
+      {
+        "letter": "B",
+        "text": "0.05"
+      },
+      {
+        "letter": "C",
+        "text": "0.09"
+      },
+      {
+        "letter": "D",
+        "text": "0.10"
+      },
+      {
+        "letter": "E",
+        "text": "0.25"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The affected frequency is q² = 0.01, so q = 0.1 and p = 0.9. The partner’s carrier probability is 2pq = 0.18; two carriers have a 1/4 affected-child risk, giving 0.18 × 0.25 = 0.045. The partner also has a 0.01 probability of being affected (aa); with an Aa father, half of their children would be affected, adding 0.01 × 0.5 = 0.005. Total risk = 0.05.",
+    "choice_explanations": {
+      "A": "Incorrect: omits part of the risk calculation; the carrier-partner contribution alone is 0.045, before the affected-partner contribution.",
+      "B": "Correct: 0.045 from a carrier partner plus 0.005 from an affected partner gives 0.05.",
+      "C": "Incorrect: does not use the conditional 1/4 affected-child risk for two carriers and the additional affected-partner case correctly.",
+      "D": "Incorrect: confuses the mutant allele frequency (0.10) with the offspring disease probability.",
+      "E": "Incorrect: 0.25 is the risk only if both parents are known carriers; the woman is sampled from the general population."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 56 gives Hardy–Weinberg allele/genotype relationships used for the risk calculation.",
+        "pages": [
+          56
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 56 gives Hardy–Weinberg relationships; p. 58 covers autosomal-recessive hemochromatosis.",
+        "pages": [
+          56,
+          58
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 56 gives Hardy–Weinberg allele/genotype relationships used for the risk calculation.",
+        "pages": [
+          56
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 56 distinguishes allele frequency from genotype/disease frequency.",
+        "pages": [
+          56
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 56 covers carrier mating probabilities; p. 58 identifies hemochromatosis as autosomal recessive.",
+        "pages": [
+          56,
+          58
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      56,
+      58
+    ],
+    "fa_page": 56,
+    "fa_page_verified": true,
+    "fa_summary": "The affected frequency is q² = 0.01, so q = 0.1 and p = 0.9. The partner’s carrier probability is 2pq = 0.18; two carriers have a 1/4 affected-child risk, giving 0.18 × 0.25 = 0.045. The partner also has a 0.01 probability of being affected (aa); with an Aa father, half of their children would be affected, adding 0.01 × 0.5 = 0.005. Total risk = 0.05."
+  },
+  {
+    "id": "import-4c65c423bd914be04b74b349",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "The incidence of Duchenne muscular dystrophy in North America is approximately 1/3000 males. Based on this frequency, what is the gene frequency of this X-linked recessive mutation in males?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1/3000"
+      },
+      {
+        "letter": "B",
+        "text": "2/3000"
+      },
+      {
+        "letter": "C",
+        "text": "(1/3000)²"
+      },
+      {
+        "letter": "D",
+        "text": "(1/3000)^(1/2)"
+      },
+      {
+        "letter": "E",
+        "text": "2 × (1/3000)^(1/2)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Males have one X chromosome. For an X-linked recessive condition, the affected-male frequency directly estimates the mutant allele frequency q; therefore q = 1/3000. The square-root and 2pq calculations apply to autosomal Hardy–Weinberg genotype/carrier frequencies, not affected males for an X-linked trait.",
+    "choice_explanations": {
+      "A": "Correct: affected-male frequency equals the mutant allele frequency for an X-linked recessive disorder.",
+      "B": "Incorrect: doubles the observed affected-male frequency without a genetic basis.",
+      "C": "Incorrect: squares the already observed male disease frequency.",
+      "D": "Incorrect: taking the square root is appropriate when deriving q from an autosomal recessive q² frequency, not from affected males for an X-linked condition.",
+      "E": "Incorrect: 2pq estimates heterozygous carrier frequency for an autosomal recessive condition; it does not apply to hemizygous males."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 56 states affected frequency in males for an X-linked recessive trait equals q; p. 86 covers Duchenne muscular dystrophy.",
+        "pages": [
+          56,
+          86
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 56 distinguishes male X-linked q from autosomal carrier/genotype calculations.",
+        "pages": [
+          56
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 56 distinguishes male X-linked q from autosomal q² disease frequency.",
+        "pages": [
+          56
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 56 gives the direct male X-linked q relationship; square-root derivation applies to autosomal q².",
+        "pages": [
+          56
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 56 gives Hardy–Weinberg relationships and the distinction between q and 2pq.",
+        "pages": [
+          56
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      56,
+      86
+    ],
+    "fa_page": 56,
+    "fa_page_verified": true,
+    "fa_summary": "Males have one X chromosome. For an X-linked recessive condition, the affected-male frequency directly estimates the mutant allele frequency q; therefore q = 1/3000. The square-root and 2pq calculations apply to autosomal Hardy–Weinberg genotype/carrier frequencies, not affected males for an X-linked trait."
   }
 ]

@@ -91,7 +91,9 @@ function normalizeQuestion(question, batch, preserveId = false) {
     if (!pages.length && Number.isInteger(question.fa_page)) pages.push(question.fa_page);
     if (!pages.length) throw new Error(`Question-level FA page marked verified but missing: ${question.id}`);
     output.fa_pages = [...new Set(pages)];
-    output.fa_page = output.fa_pages[0];
+    output.fa_page = Number.isInteger(question.fa_page) && output.fa_pages.includes(question.fa_page)
+      ? question.fa_page
+      : output.fa_pages[0];
     output.fa_page_verified = true;
     if (question.fa_summary?.trim()) output.fa_summary = question.fa_summary.trim();
   } else {
