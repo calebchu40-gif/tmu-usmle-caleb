@@ -26,12 +26,12 @@ jobs:
       - name: Run test suite
         run: |
           set +e
-          npm test 2>&1 | tee /tmp/qbank-test.log
-          result=${PIPESTATUS[0]}
+          npm test > /tmp/qbank-test.log 2>&1
+          result=$?
+          cat /tmp/qbank-test.log
           if [ "$result" -ne 0 ]; then
-            echo '### Test failure details' >> "$GITHUB_STEP_SUMMARY"
-            tail -n 100 /tmp/qbank-test.log >> "$GITHUB_STEP_SUMMARY"
-            echo "::error title=Test suite failed::See the test failure details in this run summary."
+            details=$(tail -n 60 /tmp/qbank-test.log | sed -e 's/%/%25/g' -e 's/\r/%0D/g' -e ':a;N;$!ba;s/\n/%0A/g')
+            echo "::error title=Test failure details::$details"
           fi
           exit "$result"
       - name: Check JavaScript syntax
