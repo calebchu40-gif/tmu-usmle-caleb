@@ -19624,5 +19624,391 @@
     ],
     "fa_page": 653,
     "fa_page_verified": true
+  },
+  {
+    "id": "import-de842ed92b01f7e0cfa2a4a3",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Gestational trophoblastic disease",
+    "stem": "A 43-year-old woman at 14 weeks’ gestation comes to the physician for a routine prenatal examination. She is concerned about intermittent vaginal spotting and has not felt fetal movement. She denies abdominal pain or contractions. The uterus is larger than expected for gestational age, and fetal heart tones are absent. Serum hCG is markedly elevated. Ultrasound shows no gestational sac or fetus, but multiple echoes with small anechoic spaces. After dilation and evacuation, the products of conception consist of thin-walled translucent vesicles without fetal parts. Which of the following is the most serious complication of this condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Carcinoma of the endometrium"
+      },
+      {
+        "letter": "B",
+        "text": "Choriocarcinoma"
+      },
+      {
+        "letter": "C",
+        "text": "Dysgerminoma"
+      },
+      {
+        "letter": "D",
+        "text": "Sarcoma botryoides"
+      },
+      {
+        "letter": "E",
+        "text": "Yolk sac tumor"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The absent fetus, markedly elevated hCG, uterus larger than dates, and grape-like hydropic chorionic villi identify a complete hydatidiform mole. Its most serious complication is malignant transformation to choriocarcinoma, which can spread hematogenously, especially to the lungs and brain. Complete moles carry a greater risk of choriocarcinoma than partial moles.",
+    "choice_explanations": {
+      "A": "Endometrial carcinoma arises from the uterine lining and is not the characteristic malignant sequel of a hydatidiform mole.",
+      "B": "Correct. Rapid trophoblastic proliferation in a complete mole can progress to choriocarcinoma, with potential hematogenous metastases.",
+      "C": "Dysgerminoma is a malignant ovarian germ-cell tumor, not a complication of molar pregnancy.",
+      "D": "Sarcoma botryoides is an embryonal rhabdomyosarcoma variant that presents as a grapelike vaginal mass in young children; it is unrelated to a molar pregnancy.",
+      "E": "Yolk sac tumor is a germ-cell tumor associated with AFP and Schiller-Duval bodies, not a molar-pregnancy complication."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Endometrial carcinoma is an endometrial malignancy and is distinct from gestational trophoblastic disease.",
+        "page": 666
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Complete hydatidiform mole has a 2% risk of choriocarcinoma; choriocarcinoma is a malignant trophoblastic tumor that can follow an abnormal pregnancy.",
+        "pages": [
+          659,
+          660
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Dysgerminoma is an ovarian germ-cell tumor; it is a separate category from trophoblastic disease.",
+        "page": 664
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Sarcoma botryoides is an embryonal rhabdomyosarcoma variant presenting as a vaginal grapelike mass in young girls.",
+        "page": 662
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Yolk sac tumors are germ-cell tumors associated with Schiller-Duval bodies and increased AFP.",
+        "pages": [
+          664,
+          671
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      659,
+      660
+    ],
+    "fa_page": 659,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-6707408565003668a2701db2",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Vulvar pathology",
+    "stem": "A 60-year-old woman comes to the physician because of an itchy white patch on her vulva. Biopsy shows a squamous epithelial lesion without koilocytes. The lesion has papillary projections composed of disordered, well-differentiated squamous cells. The basement membrane at the dermal-epidermal junction is disrupted by groups of squamous cells extending deep into the dermis. Which is the most likely diagnosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Condyloma acuminatum"
+      },
+      {
+        "letter": "B",
+        "text": "Extramammary Paget disease"
+      },
+      {
+        "letter": "C",
+        "text": "Lichen sclerosus"
+      },
+      {
+        "letter": "D",
+        "text": "Vulvar melanoma"
+      },
+      {
+        "letter": "E",
+        "text": "Vulvar squamous cell carcinoma"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Disruption of the basement membrane with squamous-cell groups invading the dermis establishes invasive vulvar squamous cell carcinoma. The patient's age and pruritic white lesion are compatible. Absence of koilocytes argues against condyloma, while Paget disease is an intraepithelial adenocarcinoma and lichen sclerosus is a non-neoplastic inflammatory disorder.",
+    "choice_explanations": {
+      "A": "Condyloma acuminatum is a benign HPV-associated lesion; koilocytes are expected and invasion through the basement membrane is absent.",
+      "B": "Extramammary Paget disease is an intraepithelial adenocarcinoma, not an invasive squamous-cell lesion.",
+      "C": "Lichen sclerosus causes chronic porcelain-white inflammatory plaques and increases SCC risk, but it does not itself show invasive squamous-cell nests.",
+      "D": "Vulvar melanoma is a melanocytic malignancy; the biopsy is described as a squamous epithelial lesion.",
+      "E": "Correct. Invasion of atypical squamous cells through the basement membrane into dermis indicates vulvar squamous cell carcinoma."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 p. 661 does not directly describe condyloma acuminatum in its vulvar-pathology section."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Extramammary Paget disease is an intraepithelial adenocarcinoma (carcinoma in situ) and usually has low risk of an underlying carcinoma.",
+        "page": 661
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lichen sclerosus causes pruritic porcelain-white plaques and slightly increases SCC risk.",
+        "page": 661
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 p. 661 does not directly cover vulvar melanoma."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Vulvar carcinoma arises from squamous epithelium and may be associated with high-risk HPV or long-standing lichen sclerosus.",
+        "page": 661
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      661
+    ],
+    "fa_page": 661,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-7cb55d4592d09185c42fb24b",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Breast pathology",
+    "stem": "A 31-year-old woman comes to the physician because of a lump in her breast. She has occasional breast pain but no other symptoms and takes oral contraceptives. Examination shows a 1.5-cm, firm-to-rubbery, freely movable nodule in the left breast. Core-needle biopsy is performed. Which finding in the biopsy specimen implies an increased risk of subsequently developing invasive carcinoma?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Apocrine metaplasia"
+      },
+      {
+        "letter": "B",
+        "text": "Blue-domed cysts"
+      },
+      {
+        "letter": "C",
+        "text": "Dilated large ducts with inflammation and fibrosis"
+      },
+      {
+        "letter": "D",
+        "text": "Proliferation of both fibrous and glandular components without atypia"
+      },
+      {
+        "letter": "E",
+        "text": "Sclerosing adenosis with ductal hyperplasia"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Sclerosing adenosis is a proliferative form of fibrocystic breast disease. Fibrosis distorts glands and lobules, and associated ductal/myoepithelial hyperplasia or atypia is linked to increased subsequent breast-carcinoma risk. The other listed findings are benign nonproliferative changes or fibroadenoma without atypia and do not carry the same risk in this question.",
+    "choice_explanations": {
+      "A": "Apocrine metaplasia is a common benign, nonproliferative fibrocystic change and is not associated with increased cancer risk.",
+      "B": "Blue-domed cysts are fluid-filled benign cysts in nonproliferative fibrocystic disease and do not increase cancer risk.",
+      "C": "Duct ectasia causes dilated ducts with inflammation and fibrosis; it can mimic cancer clinically but does not increase malignancy risk.",
+      "D": "Fibroadenoma is a benign proliferation of fibrous and glandular tissue without atypia; it is not the proliferative lesion identified as increasing risk here.",
+      "E": "Correct. Sclerosing adenosis with ductal hyperplasia is a proliferative fibrocystic lesion associated with increased risk of subsequent invasive carcinoma."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss apocrine metaplasia as a benign breast-biopsy finding."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss blue-domed breast cysts."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss mammary duct ectasia or its benign biopsy pattern."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss fibroadenoma histology in the breast-cancer section."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 p. 668 discusses breast carcinoma and risk context, but does not directly identify sclerosing adenosis with ductal hyperplasia or its risk. No direct FA match for this option."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      668
+    ],
+    "fa_page": 668,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-529c5a2a16912745575cc61d",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Pregnancy",
+    "stem": "A 26-year-old woman, gravida 4, para 0, at 10 weeks’ gestation comes to the physician for a routine prenatal examination. Her pregnancy has been uneventful, but she has a history of 3 clinical spontaneous abortions. Serum progesterone is substantially below the usual range for this stage of pregnancy. Deficiency of which of the following most likely is responsible for the low progesterone production?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Antidiuretic hormone (ADH)"
+      },
+      {
+        "letter": "B",
+        "text": "Follicle-stimulating hormone (FSH)"
+      },
+      {
+        "letter": "C",
+        "text": "Human chorionic gonadotropin (hCG)"
+      },
+      {
+        "letter": "D",
+        "text": "Luteinizing hormone (LH)"
+      },
+      {
+        "letter": "E",
+        "text": "Progesterone"
+      }
+    ],
+    "answer": "C",
+    "explanation": "During the first trimester, hCG from syncytiotrophoblast maintains the corpus luteum, which secretes progesterone (and estrogen and relaxin). If hCG is deficient, the corpus luteum is not adequately rescued, progesterone falls, and miscarriage risk can increase. Later in pregnancy, the placenta becomes the major steroid source.",
+    "choice_explanations": {
+      "A": "ADH regulates water balance and does not maintain the corpus luteum or drive progesterone production in early pregnancy.",
+      "B": "FSH stimulates granulosa-cell development and estrogen production; it is not the signal that rescues the corpus luteum in the first trimester.",
+      "C": "Correct. Syncytiotrophoblast-derived hCG maintains the corpus luteum, preserving early-pregnancy progesterone secretion.",
+      "D": "LH supports theca-cell steroid production and is not the placental luteotropic signal responsible for corpus-luteum maintenance in early pregnancy.",
+      "E": "Progesterone is the deficient product, not the upstream hormone whose deficiency explains reduced luteal progesterone output."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly connect ADH with corpus-luteum function or early-pregnancy progesterone."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "FSH supports follicular/granulosa-cell function; it is distinct from hCG's first-trimester rescue of the corpus luteum.",
+        "page": 651
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "hCG is secreted by syncytiotrophoblast and maintains the corpus luteum, increasing progesterone during the first trimester.",
+        "page": 651
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "LH participates in the ovarian cycle and acts on theca cells; First Aid distinguishes this from hCG maintenance of the corpus luteum in early pregnancy.",
+        "pages": [
+          648,
+          651
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Progesterone is mainly secreted by the corpus luteum during the first 10 weeks and later by the placenta; it is the product, not the deficient regulatory hormone.",
+        "page": 651
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      651
+    ],
+    "fa_page": 651,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-cce669de091121c80700af57",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Uterine conditions",
+    "stem": "A 38-year-old woman is being evaluated for infertility. She has had four spontaneous abortions and chronic pelvic pain. Ultrasound shows a smoothly marginated, rounded 5-cm submucosal mass in the uterine fundus and several smaller, well-circumscribed subserosal and submucosal masses measuring 2–4 cm. Hysterosalpingography shows patent fallopian tubes but an irregular endometrial cavity. Which finding is most likely on microscopic examination of the uterine masses?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Heterogeneous cells with components of endoderm and ectoderm"
+      },
+      {
+        "letter": "B",
+        "text": "Increased number of columnar cells with preservation of the basement membrane"
+      },
+      {
+        "letter": "C",
+        "text": "Moderately differentiated cells with a striated pattern"
+      },
+      {
+        "letter": "D",
+        "text": "Poorly differentiated cells with abundant atypical mitoses"
+      },
+      {
+        "letter": "E",
+        "text": "Whorling pattern of well-differentiated cells"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Multiple well-circumscribed uterine masses with submucosal and subserosal locations are leiomyomas (fibroids). They are benign myometrial smooth-muscle tumors; histologically they form whorls of well-differentiated smooth-muscle bundles. Large or submucosal lesions can distort the cavity and contribute to infertility, recurrent pregnancy loss, or pelvic pain.",
+    "choice_explanations": {
+      "A": "Heterogeneous derivatives of endoderm and ectoderm suggest a teratoma, which is generally ovarian rather than a set of uterine masses.",
+      "B": "Increased endometrial glands with preserved basement membrane describes endometrial hyperplasia, not smooth-muscle uterine masses.",
+      "C": "A striated pattern suggests skeletal-muscle differentiation such as rhabdomyosarcoma, not a benign myometrial tumor.",
+      "D": "Poor differentiation and abundant atypical mitoses suggest malignancy; these well-circumscribed masses are characteristic of benign leiomyomas.",
+      "E": "Correct. Leiomyomas show whorled bundles of well-differentiated smooth-muscle cells."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ovarian mature cystic teratomas contain tissues derived from all three germ layers; this is a distinct ovarian germ-cell tumor, not a uterine mass.",
+        "page": 664
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Endometrial hyperplasia is abnormal endometrial-gland proliferation, distinct from a myometrial smooth-muscle tumor.",
+        "page": 649
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Sarcoma botryoides is an embryonal rhabdomyosarcoma variant; it presents as a vaginal grapelike mass in young children, not as uterine fibroids.",
+        "page": 662
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly describe leiomyosarcoma histology or atypical mitoses for this differential."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Leiomyomas are benign myometrial tumors, commonly multiple and submucosal/intramural/subserosal; histology shows whorled smooth-muscle bundles.",
+        "page": 666
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      666
+    ],
+    "fa_page": 666,
+    "fa_page_verified": true
   }
 ]
