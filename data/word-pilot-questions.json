@@ -17391,5 +17391,795 @@
     "fa_page": 56,
     "fa_page_verified": true,
     "fa_summary": "Males have one X chromosome. For an X-linked recessive condition, the affected-male frequency directly estimates the mutant allele frequency q; therefore q = 1/3000. The square-root and 2pq calculations apply to autosomal Hardy–Weinberg genotype/carrier frequencies, not affected males for an X-linked trait."
+  },
+  {
+    "id": "import-712a456e908d33dac2662656",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Cardiac transplant complications",
+    "stem": "A 55-year-old man undergoes cardiac transplantation for severe dilated cardiomyopathy. He takes cyclosporine and resumes most normal activities. Five years later, he dies suddenly while gardening without preceding symptoms. Which autopsy finding in the transplanted heart is most likely to account for his sudden death?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acute allograft rejection"
+      },
+      {
+        "letter": "B",
+        "text": "Drug reaction to cyclosporine"
+      },
+      {
+        "letter": "C",
+        "text": "Graft vascular disease"
+      },
+      {
+        "letter": "D",
+        "text": "Hyaline arteriolosclerosis"
+      },
+      {
+        "letter": "E",
+        "text": "Hyperplastic arteriolosclerosis"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Graft vascular disease (cardiac allograft vasculopathy) is a late form of chronic transplant rejection. Progressive concentric intimal and medial thickening of coronary arteries causes diffuse stenosis and can lead to silent ischemia and sudden death because the transplanted heart is denervated.",
+    "choice_explanations": {
+      "A": "Incorrect: acute rejection typically occurs earlier and is not the characteristic late coronary lesion described.",
+      "B": "Incorrect: a drug reaction would not cause progressive coronary intimal/medial thickening years after transplant.",
+      "C": "Correct: late graft vascular disease causes diffuse coronary narrowing and may present as sudden death.",
+      "D": "Incorrect: hyaline arteriolosclerosis affects small arterioles and is unrelated to chronic allograft coronary disease.",
+      "E": "Incorrect: hyperplastic arteriolosclerosis is a severe-hypertension lesion, not transplant vasculopathy."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this option in chronic cardiac allograft vasculopathy."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this option in chronic cardiac allograft vasculopathy."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this option in chronic cardiac allograft vasculopathy."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this option in chronic cardiac allograft vasculopathy."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match verified for this option in chronic cardiac allograft vasculopathy."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": false
+  },
+  {
+    "id": "import-3245116ec971f06523352ea5",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Tracheoesophageal anomalies",
+    "stem": "A newborn has Apgar scores of 8 and 9. Bottle feedings are begun, but the newborn quickly vomits the formula. A nasogastric tube is placed and resistance is felt after several centimeters. Malformation of which structure most likely caused this finding?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bronchial buds"
+      },
+      {
+        "letter": "B",
+        "text": "Costodiaphragmatic recesses"
+      },
+      {
+        "letter": "C",
+        "text": "Costomediastinal recess"
+      },
+      {
+        "letter": "D",
+        "text": "Laryngotracheal diverticulum"
+      },
+      {
+        "letter": "E",
+        "text": "Tracheoesophageal septum"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The newborn has esophageal atresia, often with a distal tracheoesophageal fistula. The proximal esophagus ends blindly, so the feeding tube meets resistance and feeding causes regurgitation. The tracheoesophageal septum normally separates the respiratory diverticulum from the foregut; abnormal septation causes these anomalies.",
+    "choice_explanations": {
+      "A": "Incorrect: bronchial buds form the bronchial tree and do not cause esophageal atresia.",
+      "B": "Incorrect: the costodiaphragmatic recess is a pleural space recess, unrelated to esophageal separation.",
+      "C": "Incorrect: the costomediastinal recess is a pleural space recess, unrelated to this congenital obstruction.",
+      "D": "Incorrect: the laryngotracheal diverticulum gives rise to the respiratory tract; the separating septum is the defective structure.",
+      "E": "Correct: defective tracheoesophageal septation can cause esophageal atresia with TEF."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct FA 2026 link between isolated bronchial-bud abnormalities and esophageal atresia."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "Pleural recess anatomy is unrelated to esophageal atresia; no direct FA link."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "Pleural recess anatomy is unrelated to esophageal atresia; no direct FA link."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Respiratory diverticulum gives rise to the respiratory tract; p. 366 distinguishes the separating partition implicated in TEF/atresia.",
+        "page": 366
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct: p. 366 covers esophageal atresia/TEF and abnormal tracheoesophageal partitioning.",
+        "page": 366
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      366
+    ],
+    "fa_page": 366,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 366 directly covers esophageal atresia/TEF and the embryologic respiratory-diverticulum/foregut separation."
+  },
+  {
+    "id": "import-171f98f909aa42ebe54ecd3e",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Foregut blood supply and splenic embryology",
+    "stem": "A 56-year-old man develops an aortic aneurysm at the origin of an artery arising from the aorta near T12. Which structure supplied by this artery is derived from mesoderm?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Duodenal cap"
+      },
+      {
+        "letter": "B",
+        "text": "Gallbladder"
+      },
+      {
+        "letter": "C",
+        "text": "Liver"
+      },
+      {
+        "letter": "D",
+        "text": "Pancreas"
+      },
+      {
+        "letter": "E",
+        "text": "Spleen"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The vessel is the celiac trunk, which supplies foregut structures. The spleen is supplied by the celiac trunk (via the splenic artery) but develops from mesoderm in the dorsal mesogastrium; the other listed foregut organs are endoderm-derived.",
+    "choice_explanations": {
+      "A": "Incorrect: the duodenal cap is foregut endoderm-derived.",
+      "B": "Incorrect: the gallbladder develops from the hepatic diverticulum/endoderm.",
+      "C": "Incorrect: hepatic parenchyma derives from foregut endoderm.",
+      "D": "Incorrect: pancreatic parenchyma develops from endodermal pancreatic buds.",
+      "E": "Correct: the spleen is mesoderm-derived despite its foregut arterial supply."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Foregut/proximal duodenal supply is shown in the celiac-branch context; the duodenum is endoderm-derived.",
+        "page": 371
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Gallbladder is a foregut organ supplied by celiac branches; not the mesoderm-derived exception.",
+        "page": 371
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Liver is a foregut organ supplied by celiac branches; not the mesoderm-derived exception.",
+        "page": 371
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pancreas is included in foregut/celiac supply; its parenchyma is endoderm-derived.",
+        "page": 371
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct: p. 367 states spleen develops from dorsal mesogastrium (mesoderm), despite celiac/splenic arterial supply.",
+        "page": 367
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      367,
+      371
+    ],
+    "fa_page": 367,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 367 states the spleen is mesoderm-derived but supplied by the celiac trunk; p. 371 details celiac branches and foregut supply."
+  },
+  {
+    "id": "import-4da8a7006a91f74906028092",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Neural tube vesicles and hydrocephalus",
+    "stem": "A 32-year-old primigravid woman is exposed to mumps during the first trimester and delivers a newborn with macrocephaly. CT shows hydrocephalus with symmetric enlargement of the lateral and third ventricles and a normal fourth ventricle. Which embryonic structure contributes to development of the obstructed structure?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Diencephalon"
+      },
+      {
+        "letter": "B",
+        "text": "Mesencephalon"
+      },
+      {
+        "letter": "C",
+        "text": "Metencephalon"
+      },
+      {
+        "letter": "D",
+        "text": "Myelencephalon"
+      },
+      {
+        "letter": "E",
+        "text": "Telencephalon"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The pattern indicates aqueductal stenosis: the cerebral aqueduct connects the third and fourth ventricles, so obstruction enlarges the lateral and third ventricles while sparing the fourth. The cerebral aqueduct develops in the midbrain, derived from the mesencephalon. First-trimester mumps exposure is the source's stated risk context.",
+    "choice_explanations": {
+      "A": "Incorrect: diencephalon forms structures including thalamus/hypothalamus, not the cerebral aqueduct.",
+      "B": "Correct: the cerebral aqueduct is in the midbrain, which derives from mesencephalon.",
+      "C": "Incorrect: metencephalon forms pons and cerebellum.",
+      "D": "Incorrect: myelencephalon forms the medulla.",
+      "E": "Incorrect: telencephalon forms cerebral hemispheres."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The neural-vesicle map places diencephalon separately from the midbrain/aqueduct.",
+        "page": 500
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct: mesencephalon develops into midbrain, where the cerebral aqueduct lies.",
+        "page": 500
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The neural-vesicle map identifies metencephalon as pons/cerebellum, not midbrain.",
+        "page": 500
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The neural-vesicle map identifies myelencephalon as medulla, not midbrain.",
+        "page": 500
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The neural-vesicle map identifies telencephalon as cerebral hemispheres, not midbrain.",
+        "page": 500
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      500,
+      515,
+      542
+    ],
+    "fa_page": 500,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 500 maps mesencephalon to midbrain; p. 515 diagrams the ventricular pathway and cerebral aqueduct; p. 542 describes aqueduct compression causing noncommunicating hydrocephalus."
+  },
+  {
+    "id": "import-f3e27e5715de60ffdd3db4b3",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Placenta maternal and embryonic components",
+    "stem": "A 27-year-old woman delivers a stillborn fetus at 28 weeks' gestation. The placenta is examined. Which placental component is maternal in origin?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Chorion"
+      },
+      {
+        "letter": "B",
+        "text": "Cytotrophoblast"
+      },
+      {
+        "letter": "C",
+        "text": "Decidua basalis"
+      },
+      {
+        "letter": "D",
+        "text": "Primary villus"
+      },
+      {
+        "letter": "E",
+        "text": "Syncytiotrophoblast"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The placenta has a fetal component derived from trophoblast/chorion and a maternal component derived from the endometrium. The decidua basalis is the maternal endometrial portion.",
+    "choice_explanations": {
+      "A": "Incorrect: the chorion is an extraembryonic fetal membrane derived from trophoblast and somatic mesoderm.",
+      "B": "Incorrect: cytotrophoblast is fetal trophoblast.",
+      "C": "Correct: decidua basalis is the maternal endometrial component of the placenta.",
+      "D": "Incorrect: primary villi form from trophoblast and are fetal in origin.",
+      "E": "Incorrect: syncytiotrophoblast is fetal trophoblast."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The placental-component diagram distinguishes fetal chorion/chorionic villi from maternal decidua.",
+        "page": 634
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct: decidua basalis is labeled as maternal endometrium contributing to placenta.",
+        "page": 634
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The placental-component diagram distinguishes fetal amnion from maternal decidua.",
+        "page": 634
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The placental-component diagram distinguishes fetal chorionic components from maternal decidua.",
+        "page": 634
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The placental-component diagram distinguishes fetal umbilical structures from maternal decidua.",
+        "page": 634
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      634
+    ],
+    "fa_page": 634,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 634 labels decidua basalis as endometrial and maternal, distinct from chorion/villi."
+  },
+  {
+    "id": "import-ae4bb1f7ff5c188e97172607",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Ventral body-wall defects",
+    "stem": "A 28-year-old woman delivers a boy at 42 weeks after minimal prenatal care. Maternal records show elevated fetal α-fetoprotein, and ultrasound showed no neural-tube defect. The newborn has abdominal viscera protruding through the abdominal wall just lateral to the umbilicus; the viscera are not covered by amnion. What is the most likely cause?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Failure of peritoneal fusion"
+      },
+      {
+        "letter": "B",
+        "text": "Failure of the intestinal loop to retract from the umbilical cord"
+      },
+      {
+        "letter": "C",
+        "text": "Failure of the yolk stalk (vitelline duct) to degenerate"
+      },
+      {
+        "letter": "D",
+        "text": "Incomplete fusion of the lateral body folds"
+      },
+      {
+        "letter": "E",
+        "text": "Umbilical herniation"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The findings identify gastroschisis: a paraumbilical abdominal-wall defect with exposed bowel and elevated maternal serum AFP. It results from incomplete fusion/closure of the lateral body folds. Unlike omphalocele, the herniated viscera are not covered by amnion.",
+    "choice_explanations": {
+      "A": "Incorrect: peritoneal fusion is not the embryologic defect causing gastroschisis.",
+      "B": "Incorrect: failure of midgut return causes omphalocele, with viscera within the umbilical cord and covered by amnion.",
+      "C": "Incorrect: persistent vitelline duct causes a duct remnant such as Meckel diverticulum, not a lateral body-wall defect.",
+      "D": "Correct: incomplete lateral body-fold fusion causes gastroschisis.",
+      "E": "Incorrect: an umbilical hernia is covered by skin and is distinct from exposed gastroschisis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page compares omphalocele and gastroschisis; omphalocele is the membrane-covered midline defect.",
+        "page": 365
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page compares gastroschisis with omphalocele and describes an uncovered paraumbilical defect.",
+        "page": 365
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct: p. 365 links ventral body-wall closure/lateral-fold defects to gastroschisis.",
+        "page": 365
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct: p. 365 describes failed lateral body-wall folding/closure as the gastroschisis mechanism.",
+        "page": 365
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The vitelline duct page covers a separate embryologic remnant, not the paraumbilical wall-closure defect.",
+        "page": 636
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      365,
+      636
+    ],
+    "fa_page": 365,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 365 compares gastroschisis and omphalocele and describes lateral-fold closure defects; p. 636 covers the vitelline-duct distractor."
+  },
+  {
+    "id": "import-d7e3a046433eb29610395114",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Hirschsprung disease and neural crest derivatives",
+    "stem": "A 2-week-old newborn has irregular stooling and did not pass meconium until 48 hours after birth. Anorectal manometry shows increased internal anal sphincter pressure with rectal balloon distention, and abdominal x-ray shows dilation of colon proximal to the rectum. The embryonic tissue defective in this condition normally gives rise to which structure?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Corticosteroid-secreting cells"
+      },
+      {
+        "letter": "B",
+        "text": "Epinephrine-secreting cells"
+      },
+      {
+        "letter": "C",
+        "text": "Optic nerve axons"
+      },
+      {
+        "letter": "D",
+        "text": "Rathke pouch"
+      },
+      {
+        "letter": "E",
+        "text": "Thyroid gland follicular cells"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The newborn has Hirschsprung disease from failed neural-crest migration into the distal colon, causing absent enteric ganglion cells and a functional obstruction. Neural crest also gives rise to adrenal medullary chromaffin cells, which secrete epinephrine.",
+    "choice_explanations": {
+      "A": "Incorrect: adrenal cortical steroid-secreting cells derive from mesoderm, not neural crest.",
+      "B": "Correct: adrenal medullary chromaffin cells are neural-crest-derived and secrete epinephrine.",
+      "C": "Incorrect: optic nerve axons arise from retinal ganglion cells/neuroectoderm, not neural crest.",
+      "D": "Incorrect: Rathke pouch is oral ectoderm-derived.",
+      "E": "Incorrect: thyroid follicular cells derive from endoderm."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The germ-layer derivatives table places the listed connective-tissue distractor outside neural crest.",
+        "page": 631
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct: neural-crest derivatives include adrenal medullary chromaffin cells, which secrete epinephrine.",
+        "page": 631
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The derivatives table assigns this option to a non-neural-crest lineage.",
+        "page": 631
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The derivatives table assigns this option to a non-neural-crest lineage.",
+        "page": 631
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The derivatives table assigns this option to a non-neural-crest lineage.",
+        "page": 631
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      391,
+      631
+    ],
+    "fa_page": 631,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 391 describes Hirschsprung disease from failed neural-crest migration; p. 631 lists adrenal medulla/chromaffin cells among neural-crest derivatives and contrasts other germ-layer options."
+  },
+  {
+    "id": "import-a895c94994043533b7f6a957",
+    "chapter": "Pathology",
+    "fa_subchapter": "Tumor necrosis",
+    "stem": "A 76-year-old woman with a 90-pack-year smoking history dies after lung cancer and pneumonia. Autopsy shows islands of mitotically active squamous cell carcinoma with central coagulative necrosis. Which mechanism most likely accounts for this tumor necrosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anti-angiogenesis factors"
+      },
+      {
+        "letter": "B",
+        "text": "Apoptosis"
+      },
+      {
+        "letter": "C",
+        "text": "Granulomatous infection"
+      },
+      {
+        "letter": "D",
+        "text": "Host immune response"
+      },
+      {
+        "letter": "E",
+        "text": "Ischemia"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Rapidly proliferating tumor tissue can outgrow its blood supply. The central regions are farthest from perfused vessels and become ischemic, producing central tumor necrosis.",
+    "choice_explanations": {
+      "A": "Incorrect: antiangiogenic signaling can affect vascular growth but does not directly explain central coagulative necrosis in this rapidly growing tumor.",
+      "B": "Incorrect: apoptosis is programmed cell death and does not explain central coagulative necrosis from inadequate perfusion.",
+      "C": "Incorrect: granulomatous infection is not described histologically and is not the usual cause of central necrosis in a rapidly growing tumor.",
+      "D": "Incorrect: an immune-mediated injury would not explain the classic central ischemic pattern.",
+      "E": "Correct: rapid growth exceeding blood supply causes central ischemia and necrosis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct FA 2026 page verified for this specific mechanism of central tumor ischemia/necrosis."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct FA 2026 page verified for this specific mechanism of central tumor ischemia/necrosis."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct FA 2026 page verified for this specific mechanism of central tumor ischemia/necrosis."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct FA 2026 page verified for this specific mechanism of central tumor ischemia/necrosis."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct FA 2026 page verified for this specific mechanism of central tumor ischemia/necrosis."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": false
+  },
+  {
+    "id": "import-b5b42fba52618522a3259ec8",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 2-day-old newborn develops tetany. Examination shows cleft palate, widely spaced eyes, micrognathia, a short philtrum, broad nasal bridge, and low-set ears. The mother and a 5-year-old sibling have similar facial features. Laboratory studies show erythrocytes 4.5 million/mm³, hematocrit 46%, platelets 400,000/mm³, sodium 140 mEq/L, potassium 4.2 mEq/L, and calcium 3.2 mg/dL. Which chromosomal abnormality most likely explains these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Deletion in chromosome 22"
+      },
+      {
+        "letter": "B",
+        "text": "Monosomy of chromosome 5"
+      },
+      {
+        "letter": "C",
+        "text": "Translocation of chromosome 21"
+      },
+      {
+        "letter": "D",
+        "text": "Trisomy of chromosome 13"
+      },
+      {
+        "letter": "E",
+        "text": "Trisomy of X chromosome"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The infant has DiGeorge syndrome (22q11 deletion), which can cause parathyroid hypoplasia and severe hypocalcemia with neonatal tetany. The facial findings and familial occurrence are also compatible with variable expression of a 22q11 deletion. The normal erythrocyte, hematocrit, platelet, sodium, and potassium values do not alter the diagnosis.",
+    "choice_explanations": {
+      "A": "Correct. A 22q11 deletion is associated with DiGeorge syndrome, including hypoparathyroidism and hypocalcemic tetany.",
+      "B": "Monosomy 5p causes cri-du-chat syndrome, typically with a high-pitched cat-like cry and developmental findings, not this hypocalcemic DiGeorge presentation.",
+      "C": "A chromosome 21 translocation can cause Down syndrome, which does not explain the characteristic hypocalcemic tetany.",
+      "D": "Trisomy 13 causes Patau syndrome with severe congenital anomalies, not the familial DiGeorge pattern.",
+      "E": "Triple-X syndrome is associated with tall stature and variable learning difficulties; it does not cause this neonatal hypocalcemia syndrome."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 62 lists 22q11 deletion/DiGeorge syndrome.",
+        "pages": [
+          62
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 62 lists cri-du-chat syndrome from 5p deletion.",
+        "pages": [
+          62
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "pp. 61–62 cover Down syndrome and chromosomal abnormalities including translocation.",
+        "pages": [
+          61,
+          62
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 62 lists Patau syndrome/trisomy 13.",
+        "pages": [
+          62
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 655 covers sex-chromosome aneuploidies including 47,XXX.",
+        "pages": [
+          655
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      62
+    ],
+    "fa_page": 62,
+    "fa_page_verified": true,
+    "fa_summary": "The infant has DiGeorge syndrome (22q11 deletion), which can cause parathyroid hypoplasia and severe hypocalcemia with neonatal tetany. The facial findings and familial occurrence are also compatible with variable expression of a 22q11 deletion. The normal erythrocyte, hematocrit, platelet, sodium, and potassium values do not alter the diagnosis."
+  },
+  {
+    "id": "import-851c1e8b0075aa3cae58ce55",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A family with an inherited hypercholesterolemia is undergoing genetic counseling. Serum LDL cholesterol is approximately 300 mg/dL in individuals B, C, and F; all other family members have LDL cholesterol below 100 mg/dL. An allele-specific oligonucleotide (ASO) probe is used in a dot-blot assay; black dots indicate a positive hybridization signal, and affected family members are shaded in the pedigree. Which phenomenon best explains the results?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anticipation"
+      },
+      {
+        "letter": "B",
+        "text": "Imprinting"
+      },
+      {
+        "letter": "C",
+        "text": "Incomplete penetrance"
+      },
+      {
+        "letter": "D",
+        "text": "Pleiotropy"
+      },
+      {
+        "letter": "E",
+        "text": "X-linked recessive inheritance"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Familial hypercholesterolemia is transmitted here as an autosomal-dominant allele. The ASO blot shows that individual E carries the disease-associated allele (positive black dot) but has a normal LDL phenotype. Inheritance of a disease-associated genotype without the expected phenotype in an individual is incomplete penetrance.",
+    "choice_explanations": {
+      "A": "Anticipation is progressively earlier or more severe disease across generations, often due to repeat expansion; that is not the genotype–phenotype discrepancy shown.",
+      "B": "Imprinting causes expression to depend on whether an allele is maternally or paternally inherited; the figure instead shows an allele-positive unaffected individual.",
+      "C": "Correct. Individual E has a positive ASO signal for the familial allele but is not clinically affected, demonstrating incomplete penetrance.",
+      "D": "Pleiotropy means one genetic change affects multiple traits; it does not describe an unaffected carrier of the disease allele.",
+      "E": "The pedigree is consistent with autosomal-dominant transmission across sexes, not X-linked recessive inheritance."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 54 defines genetic concepts including anticipation.",
+        "pages": [
+          54
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 54 summarizes genomic imprinting.",
+        "pages": [
+          54
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 54 defines penetrance; p. 58 covers autosomal-dominant familial hypercholesterolemia.",
+        "pages": [
+          54,
+          58
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 54 defines pleiotropy.",
+        "pages": [
+          54
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p. 56 covers X-linked inheritance patterns.",
+        "pages": [
+          56
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      54,
+      58
+    ],
+    "fa_page": 54,
+    "fa_page_verified": true,
+    "fa_summary": "Familial hypercholesterolemia is transmitted here as an autosomal-dominant allele. The ASO blot shows that individual E carries the disease-associated allele (positive black dot) but has a normal LDL phenotype. Inheritance of a disease-associated genotype without the expected phenotype in an individual is incomplete penetrance.",
+    "question_images": [
+      "assets/question-figures/batch05-28-pedigree-aso.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Cropped pedigree and ASO dot-blot only; no stem, answer options, answer key, or explanation included."
   }
 ]
