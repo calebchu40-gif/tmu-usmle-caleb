@@ -10522,6 +10522,2193 @@
     "fa_summary": "First Aid 2026 p. 208 amyloidosis table directly distinguishes AL, AA, β-amyloid, β2-microglobulin, and transthyretin; aging-associated wild-type TTR is primarily cardiac."
   },
   {
+    "id": "import-b03e5cbe21087084e4c8fdb1",
+    "chapter": "Pathology",
+    "fa_subchapter": "Neoplasia",
+    "stem": "A 37-year-old man is seen for follow-up of follicular non-Hodgkin lymphoma. The lymphoma cells do not appear to be actively dividing, but the number of malignant cells continues to increase. Overexpression of which of the following best explains the inhibited apoptosis of these cells?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "BCL2"
+      },
+      {
+        "letter": "B",
+        "text": "Caspases"
+      },
+      {
+        "letter": "C",
+        "text": "Fas"
+      },
+      {
+        "letter": "D",
+        "text": "Perforin"
+      },
+      {
+        "letter": "E",
+        "text": "p53"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Follicular lymphoma commonly involves t(14;18), which increases BCL2 expression. BCL2 inhibits mitochondrial apoptosis, allowing malignant B cells to accumulate despite limited proliferation.",
+    "choice_explanations": {
+      "A": "Correct: BCL2 is antiapoptotic; overexpression prevents cell death and is associated with follicular lymphoma.",
+      "B": "Caspases execute apoptosis; increased caspase activity would promote, not inhibit, cell death.",
+      "C": "Fas is a death receptor that initiates extrinsic apoptosis.",
+      "D": "Perforin helps cytotoxic lymphocytes deliver granzymes to target cells and is not the lymphoma survival protein.",
+      "E": "p53 is a tumor suppressor that promotes cell-cycle arrest or apoptosis after DNA damage; it is not the overexpressed antiapoptotic protein."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Follicular lymphoma is associated with BCL2 overexpression; BCL2 inhibits apoptosis.",
+        "pages": [
+          204,
+          217
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Caspases are executioners of programmed cell death.",
+        "pages": [
+          204
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Fas/Fas ligand activates the extrinsic apoptosis pathway.",
+        "pages": [
+          204
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Perforin enables cytotoxic-cell granzyme delivery.",
+        "pages": [
+          132
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p53 is a tumor suppressor that can trigger apoptosis, not the antiapoptotic driver in this vignette.",
+        "pages": [
+          217
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      204,
+      217
+    ],
+    "fa_page": 204,
+    "fa_page_verified": true,
+    "fa_summary": "Follicular lymphoma commonly involves t(14;18), which increases BCL2 expression. BCL2 inhibits mitochondrial apoptosis, allowing malignant B cells to accumulate despite limited proliferation."
+  },
+  {
+    "id": "import-6af7b8f16b7b8be4d3febe38",
+    "chapter": "Pathology",
+    "fa_subchapter": "Cellular injury",
+    "stem": "A 15-year-old girl develops a hard, rubbery 2-cm nodule on her earlobe 6 months after piercing. The lesion has no fluctuance, warmth, or tenderness. Which factor is most likely responsible?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dermal contracture"
+      },
+      {
+        "letter": "B",
+        "text": "Excessive collagen synthesis"
+      },
+      {
+        "letter": "C",
+        "text": "Malignancy"
+      },
+      {
+        "letter": "D",
+        "text": "Foreign bodies"
+      },
+      {
+        "letter": "E",
+        "text": "Persistent infection"
+      },
+      {
+        "letter": "F",
+        "text": "Wound remodeling"
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is a keloid, an excessive scar response after dermal injury. It is driven by increased fibroblast activity and collagen deposition beyond the original wound margins.",
+    "choice_explanations": {
+      "A": "Contracture shortens a healing wound; it does not explain an enlarging, firm earlobe scar.",
+      "B": "Correct: excessive collagen production by fibroblasts produces a keloid.",
+      "C": "The timing after piercing and firm scar-like growth favor a benign abnormal scar rather than malignancy.",
+      "D": "There is no evidence of a retained foreign body or foreign-body granuloma.",
+      "E": "The absence of warmth, tenderness, and fluctuance argues against infection.",
+      "F": "Wound remodeling is a normal repair phase; the abnormal excess collagen response causes the keloid."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Keloid formation is excessive collagen-rich scar formation after dermal injury.",
+        "pages": [
+          214
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      214
+    ],
+    "fa_page": 214,
+    "fa_page_verified": true,
+    "fa_summary": "This is a keloid, an excessive scar response after dermal injury. It is driven by increased fibroblast activity and collagen deposition beyond the original wound margins."
+  },
+  {
+    "id": "import-20c841bcde7affdd28d9e06b",
+    "chapter": "Pathology",
+    "fa_subchapter": "Cellular injury",
+    "stem": "A 60-year-old man with long-standing diabetes and renal failure has received hemodialysis for 4 years. He has bilateral knee effusions and a history of carpal tunnel syndrome. Synovial fluid is Congo-red positive with apple-green birefringence. Which protein is most likely associated with this amyloid?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Amyloid-associated protein"
+      },
+      {
+        "letter": "B",
+        "text": "Amyloid light chain"
+      },
+      {
+        "letter": "C",
+        "text": "β2-microglobulin"
+      },
+      {
+        "letter": "D",
+        "text": "Calcitonin precursor"
+      },
+      {
+        "letter": "E",
+        "text": "Prealbumin (transthyretin)"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Long-term hemodialysis can lead to accumulation of β2-microglobulin, which is poorly cleared by dialysis membranes and can deposit as amyloid in osteoarticular tissues, causing arthropathy and carpal tunnel syndrome.",
+    "choice_explanations": {
+      "A": "Serum amyloid A is associated with chronic inflammatory disease and secondary amyloidosis, not the dialysis-related osteoarticular pattern.",
+      "B": "AL amyloid is derived from immunoglobulin light chains and is associated with plasma-cell dyscrasias.",
+      "C": "Correct: β2-microglobulin amyloid accumulates in patients on long-term hemodialysis and commonly affects joints and periarticular tissues.",
+      "D": "Calcitonin-derived amyloid is associated with medullary thyroid carcinoma.",
+      "E": "Transthyretin amyloid is associated with senile systemic or hereditary amyloidosis, not long-term dialysis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Amyloid deposits share Congo-red positivity but arise from different precursor proteins.",
+        "pages": [
+          208
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "AL amyloid is derived from immunoglobulin light chains.",
+        "pages": [
+          208
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Long-term dialysis can cause β2-microglobulin deposition in joints; the general amyloid stain is described on p. 208.",
+        "pages": [
+          208,
+          361
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Calcitonin is a distinct amyloid precursor in medullary thyroid carcinoma.",
+        "pages": [
+          208
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Transthyretin is another distinct amyloid precursor.",
+        "pages": [
+          208
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      208,
+      361
+    ],
+    "fa_page": 208,
+    "fa_page_verified": true,
+    "fa_summary": "Long-term hemodialysis can lead to accumulation of β2-microglobulin, which is poorly cleared by dialysis membranes and can deposit as amyloid in osteoarticular tissues, causing arthropathy and carpal tunnel syndrome."
+  },
+  {
+    "id": "import-8edb72c908db685433bdf6e4",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Sex chromosome disorders",
+    "stem": "A 14-year-old girl has short stature and delayed puberty. Examination shows a webbed neck, low-set ears, a fishlike mouth, and ptosis. Ovarian biopsy shows fibrous stroma arranged in whorls, and karyotyping shows 45,X. Which laboratory finding is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased plasma growth hormone"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased plasma luteinizing hormone"
+      },
+      {
+        "letter": "C",
+        "text": "Increased plasma estrogen"
+      },
+      {
+        "letter": "D",
+        "text": "Increased plasma follicle-stimulating hormone"
+      },
+      {
+        "letter": "E",
+        "text": "Increased plasma inhibin"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Turner syndrome causes ovarian dysgenesis and loss of ovarian negative feedback. FSH is therefore elevated; LH is also generally increased, while estrogen and inhibin are decreased.",
+    "choice_explanations": {
+      "A": "Growth hormone is not the defining gonadotropin abnormality in Turner syndrome.",
+      "B": "Loss of ovarian feedback raises rather than lowers gonadotropins.",
+      "C": "Ovarian dysgenesis lowers estrogen production.",
+      "D": "Correct: elevated FSH reflects primary ovarian failure and loss of inhibin/estrogen feedback.",
+      "E": "Inhibin is produced by functioning ovarian follicles and is reduced with ovarian dysgenesis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Turner syndrome causes ovarian dysgenesis; the source page describes hypergonadotropic hypogonadism.",
+        "pages": [
+          655
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Gonadal failure causes increased, not decreased, LH.",
+        "pages": [
+          655
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Turner syndrome has reduced ovarian estrogen production.",
+        "pages": [
+          655
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Turner syndrome causes increased FSH due to reduced ovarian negative feedback.",
+        "pages": [
+          655
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ovarian dysgenesis reduces inhibin B; FSH consequently rises.",
+        "pages": [
+          655
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      655
+    ],
+    "fa_page": 655,
+    "fa_page_verified": true,
+    "fa_summary": "Turner syndrome causes ovarian dysgenesis and loss of ovarian negative feedback. FSH is therefore elevated; LH is also generally increased, while estrogen and inhibin are decreased."
+  },
+  {
+    "id": "import-d6d3493f6ef20cb5f3541a86",
+    "chapter": "Renal",
+    "fa_subchapter": "Acid-base disorders",
+    "stem": "A 34-year-old man with alcohol use is found unconscious with fecal soiling and signs of volume depletion. Arterial blood gas shows pH 7.32 and PaCO₂ 28 mm Hg. Serum values are Na⁺ 140 mEq/L, Cl⁻ 116 mEq/L, and HCO₃⁻ 14 mEq/L; glucose is 105 mg/dL. Which cause best explains the acid-base disorder?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Contraction alkalosis"
+      },
+      {
+        "letter": "B",
+        "text": "Ketoacidosis"
+      },
+      {
+        "letter": "C",
+        "text": "Lactic acidosis"
+      },
+      {
+        "letter": "D",
+        "text": "Loss of bicarbonate in feces"
+      },
+      {
+        "letter": "E",
+        "text": "Uremic acidosis"
+      },
+      {
+        "letter": "F",
+        "text": "Vomiting-induced alkalosis"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The pH and bicarbonate show metabolic acidosis. The anion gap is 140 − (116 + 14) = 10, within the normal range. Fecal bicarbonate loss from diarrhea causes hyperchloremic, normal-anion-gap metabolic acidosis; fecal soiling supports this mechanism.",
+    "choice_explanations": {
+      "A": "Contraction alkalosis raises bicarbonate and produces alkalemia, opposite the findings.",
+      "B": "Ketoacidosis typically raises the anion gap; the calculated gap is normal and glucose is not elevated.",
+      "C": "Lactic acidosis typically raises the anion gap; no supporting hypoperfusion evidence is provided.",
+      "D": "Correct: diarrhea causes gastrointestinal bicarbonate loss and normal-anion-gap, hyperchloremic metabolic acidosis.",
+      "E": "Uremic acidosis is usually associated with renal failure and an elevated anion gap.",
+      "F": "Vomiting causes loss of gastric acid and metabolic alkalosis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Contraction alkalosis is an alkalosis, unlike the low pH and low bicarbonate here.",
+        "pages": [
+          350
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ketoacidosis is a high-anion-gap metabolic acidosis.",
+        "pages": [
+          350
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lactic acidosis is a high-anion-gap metabolic acidosis.",
+        "pages": [
+          350
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Diarrhea/fecal bicarbonate loss causes normal-anion-gap hyperchloremic metabolic acidosis.",
+        "pages": [
+          350
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Uremic acidosis is generally high-anion-gap.",
+        "pages": [
+          350
+        ]
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Vomiting causes metabolic alkalosis.",
+        "pages": [
+          350
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      350
+    ],
+    "fa_page": 350,
+    "fa_page_verified": true,
+    "fa_summary": "The pH and bicarbonate show metabolic acidosis. The anion gap is 140 − (116 + 14) = 10, within the normal range. Fecal bicarbonate loss from diarrhea causes hyperchloremic, normal-anion-gap metabolic acidosis; fecal soiling supports this mechanism."
+  },
+  {
+    "id": "import-2a6a47f877c90cb939ad6a16",
+    "chapter": "Immunology",
+    "fa_subchapter": "Autoimmune disease",
+    "stem": "A 40-year-old woman has months of body aches, joint pain, and flu-like symptoms, followed by dysphagia. Examination shows erythema over the nasal bridge and cheeks. Serology shows high-titer anti-RNP, rheumatoid factor, and ANA; anti-dsDNA, anti-Smith, and anti-Scl-70 are not detected. Which diagnosis is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CREST syndrome"
+      },
+      {
+        "letter": "B",
+        "text": "Diffuse systemic sclerosis"
+      },
+      {
+        "letter": "C",
+        "text": "Drug-induced lupus"
+      },
+      {
+        "letter": "D",
+        "text": "Mixed connective tissue disease"
+      },
+      {
+        "letter": "E",
+        "text": "Systemic lupus erythematosus"
+      }
+    ],
+    "answer": "D",
+    "explanation": "High-titer anti-U1-RNP with overlapping lupus/scleroderma-type symptoms is characteristic of mixed connective tissue disease. The absence of anti-dsDNA and anti-Smith makes classic SLE less likely.",
+    "choice_explanations": {
+      "A": "CREST is limited systemic sclerosis and is associated with anticentromere antibodies.",
+      "B": "Diffuse systemic sclerosis is associated with anti-Scl-70; it is not detected here.",
+      "C": "Drug-induced lupus is associated with antihistone antibodies and does not explain the high anti-RNP pattern.",
+      "D": "Correct: high-titer anti-RNP with overlapping connective-tissue manifestations supports mixed connective tissue disease.",
+      "E": "SLE is more strongly supported by anti-dsDNA or anti-Smith; both are absent."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Limited systemic sclerosis/CREST is distinguished by anticentromere antibody.",
+        "pages": [
+          480
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Diffuse systemic sclerosis is associated with anti-Scl-70.",
+        "pages": [
+          480
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Drug-induced lupus has a different antibody association (eg, antihistone).",
+        "pages": [
+          480
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Mixed connective tissue disease is associated with anti-U1-RNP.",
+        "pages": [
+          480
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "SLE is associated with anti-dsDNA and anti-Smith; these are absent in this case.",
+        "pages": [
+          480
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      480
+    ],
+    "fa_page": 480,
+    "fa_page_verified": true,
+    "fa_summary": "High-titer anti-U1-RNP with overlapping lupus/scleroderma-type symptoms is characteristic of mixed connective tissue disease. The absence of anti-dsDNA and anti-Smith makes classic SLE less likely."
+  },
+  {
+    "id": "import-e0df86febe447e8e570b65a2",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Hepatobiliary",
+    "stem": "A 42-year-old woman presents 2 weeks after delivery with severe right-upper-quadrant pain. She had excess weight gain during pregnancy. Examination shows a nontender, palpable gallbladder. Which urine dipstick finding would most support extrahepatic biliary obstruction?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Conjugated bilirubin"
+      },
+      {
+        "letter": "B",
+        "text": "Glucose"
+      },
+      {
+        "letter": "C",
+        "text": "Nitrite"
+      },
+      {
+        "letter": "D",
+        "text": "Unconjugated bilirubin"
+      },
+      {
+        "letter": "E",
+        "text": "Urobilinogen"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A common bile duct stone can cause cholestasis and reflux of conjugated bilirubin into blood. Conjugated bilirubin is water-soluble and can be detected in urine; unconjugated bilirubin is albumin-bound and is not filtered.",
+    "choice_explanations": {
+      "A": "Correct: water-soluble conjugated bilirubin can spill into urine during biliary obstruction.",
+      "B": "Glucose does not identify biliary obstruction.",
+      "C": "Nitrite supports certain urinary bacterial infections.",
+      "D": "Unconjugated bilirubin is albumin-bound and is not excreted in urine.",
+      "E": "Urobilinogen is usually reduced or absent with complete obstruction."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Conjugated bilirubin is water-soluble and appears in urine with cholestasis.",
+        "pages": [
+          382
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Unconjugated bilirubin is not water-soluble and is not filtered into urine.",
+        "pages": [
+          382
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Biliary obstruction reduces delivery of bilirubin to the gut and lowers urinary urobilinogen.",
+        "pages": [
+          382
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      382
+    ],
+    "fa_page": 382,
+    "fa_page_verified": true,
+    "fa_summary": "A common bile duct stone can cause cholestasis and reflux of conjugated bilirubin into blood. Conjugated bilirubin is water-soluble and can be detected in urine; unconjugated bilirubin is albumin-bound and is not filtered."
+  },
+  {
+    "id": "import-41bddbf3ca2310dddd7a1484",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Ischemic heart disease",
+    "stem": "A 65-year-old man with exertional dyspnea develops severe chest pain and a fatal arrhythmia. Autopsy shows complete thrombosis of the left anterior descending artery and ischemic myocardial necrosis. How soon after coronary thrombosis can necrotic changes first be seen by light microscopy?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10 seconds"
+      },
+      {
+        "letter": "B",
+        "text": "20–40 minutes"
+      },
+      {
+        "letter": "C",
+        "text": "4–12 hours"
+      },
+      {
+        "letter": "D",
+        "text": "3–5 days"
+      },
+      {
+        "letter": "E",
+        "text": "More than 1 week"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Myocardial injury begins within minutes, but recognizable coagulative necrosis on light microscopy appears after several hours, typically about 4–12 hours after infarction.",
+    "choice_explanations": {
+      "A": "Too early for necrotic changes to be visible by light microscopy.",
+      "B": "This interval is associated with early ultrastructural/biochemical injury, not clear light-microscopic necrosis.",
+      "C": "Correct: early coagulative necrosis becomes visible by light microscopy at approximately 4–12 hours.",
+      "D": "By this time, necrosis and inflammatory changes are well established.",
+      "E": "This is far later than the first histologic evidence of necrosis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Myocardial infarct histology evolves over time; coagulative necrosis becomes visible after several hours.",
+        "pages": [
+          313
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The 3–5-day interval is a later inflammatory/healing phase, not the first necrotic change.",
+        "pages": [
+          313
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "More than 1 week is late healing/scar evolution.",
+        "pages": [
+          313
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      313
+    ],
+    "fa_page": 313,
+    "fa_page_verified": true,
+    "fa_summary": "Myocardial injury begins within minutes, but recognizable coagulative necrosis on light microscopy appears after several hours, typically about 4–12 hours after infarction."
+  },
+  {
+    "id": "import-9a78e3918447c1fc63e61222",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Neurocutaneous disorders",
+    "stem": "A newborn has a large, irregular, red, flat facial lesion that does not cross the midline and persists into adulthood. Which disorder is most likely associated with this lesion?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Arnold–Chiari malformation"
+      },
+      {
+        "letter": "B",
+        "text": "Dandy–Walker malformation"
+      },
+      {
+        "letter": "C",
+        "text": "Neurofibromatosis type 1"
+      },
+      {
+        "letter": "D",
+        "text": "Sturge–Weber syndrome"
+      },
+      {
+        "letter": "E",
+        "text": "Tuberous sclerosis"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A facial port-wine stain (capillary malformation), especially in the trigeminal distribution, is associated with leptomeningeal and ocular vascular malformations in Sturge–Weber syndrome.",
+    "choice_explanations": {
+      "A": "Arnold–Chiari malformations involve hindbrain displacement and do not cause a port-wine stain.",
+      "B": "Dandy–Walker malformation is a posterior-fossa/cerebellar developmental abnormality.",
+      "C": "NF1 causes café-au-lait macules and neurofibromas, not a facial port-wine capillary malformation.",
+      "D": "Correct: Sturge–Weber syndrome is associated with a facial port-wine stain and leptomeningeal vascular malformations.",
+      "E": "Tuberous sclerosis causes hypopigmented macules, angiofibromas, and other hamartomas."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "NF1 has café-au-lait macules/neurofibromas, a distinct cutaneous pattern.",
+        "pages": [
+          539
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Sturge–Weber is associated with a facial port-wine stain and CNS/ocular vascular malformations.",
+        "pages": [
+          539
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Tuberous sclerosis has characteristic hypopigmented macules and facial angiofibromas.",
+        "pages": [
+          539
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      539
+    ],
+    "fa_page": 539,
+    "fa_page_verified": true,
+    "fa_summary": "A facial port-wine stain (capillary malformation), especially in the trigeminal distribution, is associated with leptomeningeal and ocular vascular malformations in Sturge–Weber syndrome."
+  },
+  {
+    "id": "import-3e40317466371d1bd8beeacd",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Neuromuscular junction",
+    "stem": "A 56-year-old woman with a 60-pack-year smoking history has proximal limb weakness that improves with activity. She has clubbing and decreased breath sounds over the left upper lung. Edrophonium produces slight improvement in strength. Dysfunction of which structure most likely causes her weakness?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Extracellular matrix molecules"
+      },
+      {
+        "letter": "B",
+        "text": "Ligand-gated ion channels"
+      },
+      {
+        "letter": "C",
+        "text": "Protein kinases"
+      },
+      {
+        "letter": "D",
+        "text": "Transcription factors"
+      },
+      {
+        "letter": "E",
+        "text": "Voltage-gated calcium channels"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The presentation suggests Lambert–Eaton myasthenic syndrome, often associated with small-cell lung carcinoma. Autoantibodies against presynaptic P/Q-type voltage-gated Ca²⁺ channels reduce acetylcholine release; repeated activity transiently improves strength.",
+    "choice_explanations": {
+      "A": "Extracellular matrix defects do not explain use-dependent proximal weakness with a paraneoplastic pattern.",
+      "B": "Postsynaptic ligand-gated acetylcholine receptors are targeted in myasthenia gravis, which typically worsens with repeated use.",
+      "C": "A protein kinase abnormality is not the presynaptic defect in Lambert–Eaton syndrome.",
+      "D": "Transcription-factor dysfunction does not explain the characteristic presynaptic neuromuscular-junction syndrome.",
+      "E": "Correct: autoantibodies against presynaptic voltage-gated calcium channels impair acetylcholine release."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Postsynaptic nicotinic acetylcholine receptors are involved in myasthenia gravis.",
+        "pages": [
+          480
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lambert–Eaton syndrome is caused by antibodies to presynaptic voltage-gated calcium channels.",
+        "pages": [
+          480
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      480
+    ],
+    "fa_page": 480,
+    "fa_page_verified": true,
+    "fa_summary": "The presentation suggests Lambert–Eaton myasthenic syndrome, often associated with small-cell lung carcinoma. Autoantibodies against presynaptic P/Q-type voltage-gated Ca²⁺ channels reduce acetylcholine release; repeated activity transiently improves strength."
+  },
+  {
+    "id": "import-28c7bd01f397619d7a60261d",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Anatomy and lymphatic drainage",
+    "stem": "A 57-year-old man has a painless enlarged superficial inguinal lymph node. Biopsy shows squamous cell carcinoma. Metastasis from which site most likely occurred?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anal canal below the dentate line"
+      },
+      {
+        "letter": "B",
+        "text": "Ascending colon"
+      },
+      {
+        "letter": "C",
+        "text": "Descending colon"
+      },
+      {
+        "letter": "D",
+        "text": "Rectum"
+      },
+      {
+        "letter": "E",
+        "text": "Transverse colon"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The anal canal below the pectinate (dentate) line drains to superficial inguinal lymph nodes. Colonic tumors drain primarily to mesenteric nodes.",
+    "choice_explanations": {
+      "A": "Correct: the anal canal below the dentate line drains to superficial inguinal nodes.",
+      "B": "The ascending colon drains to ileocolic/right colic nodes.",
+      "C": "The descending colon drains to left colic/inferior mesenteric nodes.",
+      "D": "The rectum primarily drains to mesorectal and internal iliac nodes.",
+      "E": "The transverse colon drains to middle colic/mesenteric nodes."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anal canal below the dentate line drains to superficial inguinal lymph nodes.",
+        "pages": [
+          373
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      373
+    ],
+    "fa_page": 373,
+    "fa_page_verified": true,
+    "fa_summary": "The anal canal below the pectinate (dentate) line drains to superficial inguinal lymph nodes. Colonic tumors drain primarily to mesenteric nodes."
+  },
+  {
+    "id": "import-736767a67fd2223ac4388edb",
+    "chapter": "Pathology",
+    "fa_subchapter": "Amyloidosis",
+    "stem": "A 76-year-old man dies suddenly after fatigue and dyspnea. Examination before death showed elevated jugular venous pressure and a positive Kussmaul sign. Cardiac tissue contains perivascular extracellular deposits that are Congo-red positive with apple-green birefringence. Which additional finding was most likely present?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Atrophy of the shoulder muscles"
+      },
+      {
+        "letter": "B",
+        "text": "Hypercoagulability"
+      },
+      {
+        "letter": "C",
+        "text": "Liver cirrhosis"
+      },
+      {
+        "letter": "D",
+        "text": "Pericardial knock"
+      },
+      {
+        "letter": "E",
+        "text": "Proteinuria"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Congo-red-positive, apple-green deposits indicate amyloidosis. Restrictive cardiac amyloidosis can coexist with renal amyloid deposition, which may cause proteinuria.",
+    "choice_explanations": {
+      "A": "Shoulder muscle atrophy is not a typical systemic amyloidosis manifestation.",
+      "B": "Amyloidosis does not characteristically cause a hypercoagulable state.",
+      "C": "Liver involvement may occur in systemic amyloidosis, but proteinuria is the expected renal manifestation among these choices.",
+      "D": "A pericardial knock suggests constrictive pericarditis, not myocardial amyloid deposition.",
+      "E": "Correct: systemic amyloidosis can involve the kidneys and cause proteinuria."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Amyloidosis is systemic and may involve multiple organs.",
+        "pages": [
+          208
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Renal amyloid deposition can cause proteinuria/nephrotic syndrome.",
+        "pages": [
+          208,
+          596
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      208,
+      596
+    ],
+    "fa_page": 208,
+    "fa_page_verified": true,
+    "fa_summary": "Congo-red-positive, apple-green deposits indicate amyloidosis. Restrictive cardiac amyloidosis can coexist with renal amyloid deposition, which may cause proteinuria."
+  },
+  {
+    "id": "import-83144a910d43f54fc685a742",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Gastric neoplasia",
+    "stem": "A 58-year-old Japanese man has unintentional weight loss, persistent epigastric discomfort, guaiac-positive stool, and an ulcerated antral gastric mass. Which risk factor most likely predisposed him to this disorder?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Food preservatives"
+      },
+      {
+        "letter": "B",
+        "text": "Inadequate screening"
+      },
+      {
+        "letter": "C",
+        "text": "Low-fiber diet"
+      },
+      {
+        "letter": "D",
+        "text": "Ménétrier disease"
+      },
+      {
+        "letter": "E",
+        "text": "Schistosoma infection"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The source explanation links the increased incidence of gastric adenocarcinoma in Japanese populations to dietary exposure to polycyclic hydrocarbons in smoked/preserved foods. The extra “F” text in the draft was the tail of the stem, not a sixth answer choice.",
+    "choice_explanations": {
+      "A": "Correct: smoked and preserved foods can contain carcinogenic compounds associated with gastric adenocarcinoma.",
+      "B": "Inadequate screening is not the carcinogenic exposure described in the source.",
+      "C": "A low-fiber diet is not the risk factor highlighted for this gastric mass.",
+      "D": "Ménétrier disease is a protein-losing hypertrophic gastropathy, not the dietary exposure described.",
+      "E": "Schistosoma is associated with other malignancies, not this gastric adenocarcinoma risk pattern."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "High-salt/smoked or preserved foods are risk factors for gastric adenocarcinoma.",
+        "pages": [
+          386
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ménétrier disease is a separate hypertrophic gastropathy.",
+        "pages": [
+          386
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      386
+    ],
+    "fa_page": 386,
+    "fa_page_verified": true,
+    "fa_summary": "The source explanation links the increased incidence of gastric adenocarcinoma in Japanese populations to dietary exposure to polycyclic hydrocarbons in smoked/preserved foods. The extra “F” text in the draft was the tail of the stem, not a sixth answer choice."
+  },
+  {
+    "id": "import-1a6ec45f63b60ddae95155b5",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Ischemic heart disease",
+    "stem": "A 53-year-old man with an ST-elevation myocardial infarction receives thrombolytic therapy. Blood flow is restored, but an echocardiogram 1 hour later still shows regional hypokinesis; wall motion returns 24 hours after reperfusion. Which mechanism most likely caused the transient dysfunction?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Arrhythmia"
+      },
+      {
+        "letter": "B",
+        "text": "Cardiac tamponade"
+      },
+      {
+        "letter": "C",
+        "text": "Direct effect of thrombolytics"
+      },
+      {
+        "letter": "D",
+        "text": "Free-radical damage"
+      },
+      {
+        "letter": "E",
+        "text": "Recurrent coronary thrombosis"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Reperfusion can transiently impair viable myocardium through oxygen-derived free radicals and calcium overload (myocardial stunning). Recovery of wall motion within 24 hours argues against persistent infarction or reocclusion.",
+    "choice_explanations": {
+      "A": "An arrhythmia does not explain persistent regional hypokinesis followed by recovery of the same segment.",
+      "B": "Tamponade would cause hemodynamic compromise and would not selectively cause transient regional wall-motion abnormality.",
+      "C": "The thrombolytic itself is not the usual cause of transient myocardial stunning after reperfusion.",
+      "D": "Correct: reperfusion-generated oxygen free radicals contribute to reversible myocardial stunning.",
+      "E": "Recurrent thrombosis would be expected to cause ongoing ischemia or infarction, not spontaneous recovery of wall motion."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Reperfusion can injure viable tissue through oxygen-derived free radicals and cause reversible stunning.",
+        "pages": [
+          308
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      308
+    ],
+    "fa_page": 308,
+    "fa_page_verified": true,
+    "fa_summary": "Reperfusion can transiently impair viable myocardium through oxygen-derived free radicals and calcium overload (myocardial stunning). Recovery of wall motion within 24 hours argues against persistent infarction or reocclusion."
+  },
+  {
+    "id": "import-009c4d09b5f85d1f549e26ed",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Pregnancy loss",
+    "stem": "A 29-year-old woman at 11 weeks’ gestation has vaginal bleeding and premature contractions. Ultrasound shows a nonviable fetus, and dilation and curettage is performed. Which fetal karyotype is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "47,XXY"
+      },
+      {
+        "letter": "B",
+        "text": "47,XY,+13"
+      },
+      {
+        "letter": "C",
+        "text": "47,XY,+16"
+      },
+      {
+        "letter": "D",
+        "text": "47,XY,+18"
+      },
+      {
+        "letter": "E",
+        "text": "47,XY,+21"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Chromosomal abnormalities cause about half of early spontaneous abortions. Trisomy 16 is among the most common aneuploidies in first-trimester pregnancy loss and is generally not compatible with live birth.",
+    "choice_explanations": {
+      "A": "47,XXY is Klinefelter syndrome and is compatible with live birth.",
+      "B": "Trisomy 13 can cause severe congenital anomalies but is less common than trisomy 16 in early pregnancy loss.",
+      "C": "Correct: trisomy 16 is a common chromosomal abnormality in spontaneous abortion.",
+      "D": "Trisomy 18 can cause pregnancy loss but is not the most common abnormality in this setting.",
+      "E": "Trisomy 21 is commonly compatible with live birth."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": false
+  },
+  {
+    "id": "import-a9697e3e9ace85758c3971c7",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 3-year-old boy has progressive difficulty climbing stairs, calf pseudohypertrophy, a waddling gait, proximal weakness, a positive Gowers sign, and elevated creatine kinase. The inheritance pattern of his disease is most similar to which disorder?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cystic fibrosis"
+      },
+      {
+        "letter": "B",
+        "text": "Hemophilia A"
+      },
+      {
+        "letter": "C",
+        "text": "Huntington disease"
+      },
+      {
+        "letter": "D",
+        "text": "Fragile X syndrome"
+      },
+      {
+        "letter": "E",
+        "text": "Neurofibromatosis type 1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The boy has Duchenne muscular dystrophy, an X-linked recessive disorder caused by loss of dystrophin. Hemophilia A is also X-linked recessive.",
+    "choice_explanations": {
+      "A": "Cystic fibrosis is autosomal recessive.",
+      "B": "Correct: hemophilia A and Duchenne muscular dystrophy are X-linked recessive.",
+      "C": "Huntington disease is autosomal dominant.",
+      "D": "Fragile X has atypical X-linked inheritance and is not the classic X-linked recessive pattern tested here.",
+      "E": "NF1 is autosomal dominant."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Cystic fibrosis is autosomal recessive.",
+        "pages": [
+          59
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hemophilia A and Duchenne muscular dystrophy are X-linked recessive.",
+        "pages": [
+          59
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Huntington disease is autosomal dominant.",
+        "pages": [
+          58
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Fragile X has atypical X-linked inheritance, distinct from classic X-linked recessive inheritance.",
+        "pages": [
+          60
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "NF1 is autosomal dominant.",
+        "pages": [
+          58
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      59
+    ],
+    "fa_page": 59,
+    "fa_page_verified": true,
+    "fa_summary": "The boy has Duchenne muscular dystrophy, an X-linked recessive disorder caused by loss of dystrophin. Hemophilia A is also X-linked recessive."
+  },
+  {
+    "id": "import-77ac2b1735bfb3e299c918f5",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A newborn has hypotonia, microcephaly, widely spaced eyes with downward-slanting palpebral fissures, micrognathia, and a high-pitched cry. Karyotyping shows 46,XX with a deletion of the short arm of chromosome 5. Which additional finding is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Duodenal atresia"
+      },
+      {
+        "letter": "B",
+        "text": "Obesity"
+      },
+      {
+        "letter": "C",
+        "text": "Renal cysts"
+      },
+      {
+        "letter": "D",
+        "text": "Ventricular septal defect"
+      },
+      {
+        "letter": "E",
+        "text": "Wilms tumor"
+      }
+    ],
+    "answer": "D",
+    "explanation": "This is cri-du-chat syndrome (5p deletion). Congenital heart defects, including ventricular septal defect, occur in a subset of affected infants.",
+    "choice_explanations": {
+      "A": "Duodenal atresia is associated with Down syndrome.",
+      "B": "Obesity is not a characteristic neonatal finding of cri-du-chat syndrome.",
+      "C": "Renal cysts are not the characteristic associated anomaly.",
+      "D": "Correct: cri-du-chat syndrome can be associated with congenital heart defects such as VSD.",
+      "E": "Wilms tumor is not a characteristic association of 5p deletion."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Duodenal atresia is associated with Down syndrome.",
+        "pages": [
+          61
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Cri-du-chat syndrome can include cardiac abnormalities such as VSD.",
+        "pages": [
+          62
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      62
+    ],
+    "fa_page": 62,
+    "fa_page_verified": true,
+    "fa_summary": "This is cri-du-chat syndrome (5p deletion). Congenital heart defects, including ventricular septal defect, occur in a subset of affected infants."
+  },
+  {
+    "id": "import-805c32f18f243508f8d235bb",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 3-year-old boy has progressive clumsiness, falls, difficulty running and climbing stairs, enlarged calves, thigh-muscle wasting, and a molecular test showing defective dystrophin. Which relative is most likely to also have this disease?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Father"
+      },
+      {
+        "letter": "B",
+        "text": "Father’s brother"
+      },
+      {
+        "letter": "C",
+        "text": "Mother"
+      },
+      {
+        "letter": "D",
+        "text": "Mother’s brother"
+      },
+      {
+        "letter": "E",
+        "text": "Sister"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Duchenne muscular dystrophy is X-linked recessive. An affected boy receives his X chromosome from his mother; her brother is at increased risk of carrying the same familial variant and being affected. The source key identifies the maternal uncle.",
+    "choice_explanations": {
+      "A": "An affected father passes his Y chromosome, not his X chromosome, to a son.",
+      "B": "The father’s brother is not on the maternal X-linked branch.",
+      "C": "The mother is typically an unaffected carrier rather than an affected female.",
+      "D": "Correct: a maternal uncle is a male relative on the X-linked maternal side and is the most likely affected relative among these choices.",
+      "E": "A sister may be a carrier but is less likely to be affected because females usually need pathogenic variants on both X chromosomes."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "X-linked recessive disorders are not passed from father to son.",
+        "pages": [
+          59
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Female relatives may be carriers of X-linked recessive disorders.",
+        "pages": [
+          59
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Duchenne muscular dystrophy is X-linked recessive; affected males can occur among maternal male relatives.",
+        "pages": [
+          59
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Females are generally carriers unless both X chromosomes carry pathogenic variants.",
+        "pages": [
+          59
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      59
+    ],
+    "fa_page": 59,
+    "fa_page_verified": true,
+    "fa_summary": "Duchenne muscular dystrophy is X-linked recessive. An affected boy receives his X chromosome from his mother; her brother is at increased risk of carrying the same familial variant and being affected. The source key identifies the maternal uncle."
+  },
+  {
+    "id": "import-bfeeb5697acb7290963324f4",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 12-year-old boy has recurrent fractures after minor trauma and blue sclerae. Which genetic concept best explains the multiple effects of his disorder?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Allelic heterogeneity"
+      },
+      {
+        "letter": "B",
+        "text": "Gain-of-function mutation"
+      },
+      {
+        "letter": "C",
+        "text": "Locus heterogeneity"
+      },
+      {
+        "letter": "D",
+        "text": "Multiple mutations"
+      },
+      {
+        "letter": "E",
+        "text": "Pleiotropy"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The findings suggest osteogenesis imperfecta, commonly caused by a type I collagen defect. One gene defect affects multiple tissues (bone, sclerae, teeth, and hearing), which is pleiotropy.",
+    "choice_explanations": {
+      "A": "Allelic heterogeneity means different mutations in the same gene cause the same disease.",
+      "B": "Gain of function describes a mutation’s effect on protein activity, not the multiple-organ pattern asked about.",
+      "C": "Locus heterogeneity means variants in different genes cause a similar disease phenotype.",
+      "D": "Multiple mutations is not the named concept for one defect producing several phenotypic effects.",
+      "E": "Correct: pleiotropy is one gene contributing to multiple phenotypic effects."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Allelic heterogeneity means different mutations in one locus can cause the same disease.",
+        "pages": [
+          55
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Locus heterogeneity means mutations in different loci can cause the same disease.",
+        "pages": [
+          55
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pleiotropy means one gene contributes to multiple phenotypic effects.",
+        "pages": [
+          54
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      54,
+      686
+    ],
+    "fa_page": 54,
+    "fa_page_verified": true,
+    "fa_summary": "The findings suggest osteogenesis imperfecta, commonly caused by a type I collagen defect. One gene defect affects multiple tissues (bone, sclerae, teeth, and hearing), which is pleiotropy."
+  },
+  {
+    "id": "import-ba950e2f941cf0ef40ef4f1e",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 26-month-old boy has poor eye contact, hand-flapping, self-biting, and delayed social, motor, and language skills. He has a long narrow face, large ears, and flat feet. Which genetic abnormality best explains these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Expanded trinucleotide repeat"
+      },
+      {
+        "letter": "B",
+        "text": "Genomic imprinting"
+      },
+      {
+        "letter": "C",
+        "text": "Robertsonian translocation"
+      },
+      {
+        "letter": "D",
+        "text": "Trisomy 13"
+      },
+      {
+        "letter": "E",
+        "text": "Trisomy 18"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The phenotype is consistent with fragile X syndrome, caused by CGG trinucleotide-repeat expansion in FMR1. Full mutation causes intellectual disability, characteristic facies, autism features, and may include self-injurious behavior.",
+    "choice_explanations": {
+      "A": "Correct: fragile X syndrome is caused by CGG trinucleotide-repeat expansion in FMR1.",
+      "B": "Genomic imprinting is associated with disorders such as Prader-Willi and Angelman syndromes, which have different phenotypes.",
+      "C": "Robertsonian translocation can cause chromosomal imbalance such as Down syndrome.",
+      "D": "Trisomy 13 causes severe congenital anomalies including midline defects and polydactyly.",
+      "E": "Trisomy 18 causes growth restriction and clenched overlapping fingers."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Fragile X syndrome is caused by CGG repeat expansion in FMR1.",
+        "pages": [
+          60
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Genomic imprinting underlies Prader-Willi and Angelman syndromes.",
+        "pages": [
+          56
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Robertsonian translocations can cause chromosomal imbalance.",
+        "pages": [
+          62
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Patau syndrome is trisomy 13.",
+        "pages": [
+          61
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Edwards syndrome is trisomy 18.",
+        "pages": [
+          61
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      60,
+      56,
+      62
+    ],
+    "fa_page": 60,
+    "fa_page_verified": true,
+    "fa_summary": "The phenotype is consistent with fragile X syndrome, caused by CGG trinucleotide-repeat expansion in FMR1. Full mutation causes intellectual disability, characteristic facies, autism features, and may include self-injurious behavior."
+  },
+  {
+    "id": "import-8323521ee43d9323f84ddf0f",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Sex chromosome disorders",
+    "stem": "A 31-year-old woman has had four spontaneous abortions. Examination of the current aborted fetus shows mature tissue containing Barr bodies. Which description best fits the fetus?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Classic Turner syndrome"
+      },
+      {
+        "letter": "B",
+        "text": "Male Edwards syndrome"
+      },
+      {
+        "letter": "C",
+        "text": "Klinefelter syndrome"
+      },
+      {
+        "letter": "D",
+        "text": "Normal male"
+      },
+      {
+        "letter": "E",
+        "text": "XYY syndrome"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A Barr body is an inactivated X chromosome and is present in cells with at least two X chromosomes. Among these choices, a male fetus with a Barr body most likely has 47,XXY Klinefelter syndrome.",
+    "choice_explanations": {
+      "A": "Classic Turner syndrome is 45,X and has no Barr body.",
+      "B": "Edwards syndrome is trisomy 18 and does not itself produce a Barr body.",
+      "C": "Correct: Klinefelter syndrome is 47,XXY and contains one inactivated X chromosome (Barr body).",
+      "D": "A normal 46,XY male has no Barr body.",
+      "E": "XYY males have one X chromosome and ordinarily no Barr body."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Turner syndrome is 45,XO and has no Barr body.",
+        "pages": [
+          655
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Edwards syndrome is trisomy 18; the extra chromosome is autosomal.",
+        "pages": [
+          61
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Klinefelter syndrome is 47,XXY and has an inactivated X chromosome.",
+        "pages": [
+          655
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "A normal 46,XY male has no Barr body.",
+        "pages": [
+          655
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      655
+    ],
+    "fa_page": 655,
+    "fa_page_verified": true,
+    "fa_summary": "A Barr body is an inactivated X chromosome and is present in cells with at least two X chromosomes. Among these choices, a male fetus with a Barr body most likely has 47,XXY Klinefelter syndrome."
+  },
+  {
+    "id": "import-9f0f740c6e0c6eb0dea35b48",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 48-year-old woman with lifelong intellectual disability develops progressive memory loss. Neuropathology shows neuritic plaques and neurofibrillary tangles. Which genetic finding is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "45,X"
+      },
+      {
+        "letter": "B",
+        "text": "47,+13"
+      },
+      {
+        "letter": "C",
+        "text": "47,+21"
+      },
+      {
+        "letter": "D",
+        "text": "47,XXY"
+      },
+      {
+        "letter": "E",
+        "text": "Fragile X syndrome"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The combination of lifelong intellectual disability and Alzheimer-like neuropathology in mid-adulthood is characteristic of Down syndrome. The expected karyotype is trisomy 21.",
+    "choice_explanations": {
+      "A": "45,X is Turner syndrome and does not explain lifelong intellectual disability with Alzheimer-like changes.",
+      "B": "Trisomy 13 causes a severe congenital syndrome that is rarely compatible with survival to adulthood.",
+      "C": "Correct: Down syndrome is trisomy 21 and is associated with early Alzheimer-like neuropathology.",
+      "D": "47,XXY causes Klinefelter syndrome, not this phenotype.",
+      "E": "Fragile X causes intellectual disability but not the characteristic association of trisomy-21 Alzheimer-like changes."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Turner syndrome is 45,XO.",
+        "pages": [
+          62
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Patau syndrome is trisomy 13.",
+        "pages": [
+          61
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Down syndrome is trisomy 21 and is associated with Alzheimer-like changes.",
+        "pages": [
+          61
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Klinefelter syndrome is 47,XXY.",
+        "pages": [
+          62
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Fragile X syndrome is a separate cause of intellectual disability.",
+        "pages": [
+          60
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      61
+    ],
+    "fa_page": 61,
+    "fa_page_verified": true,
+    "fa_summary": "The combination of lifelong intellectual disability and Alzheimer-like neuropathology in mid-adulthood is characteristic of Down syndrome. The expected karyotype is trisomy 21."
+  },
+  {
+    "id": "import-790c0643218f76a4096c9b45",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A disease is caused by a small deletion on chromosome 15. Across families, the deletion is found only when inherited from the father. Which mechanism best explains this parent-of-origin effect?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Genomic imprinting"
+      },
+      {
+        "letter": "B",
+        "text": "Mitochondrial inheritance"
+      },
+      {
+        "letter": "C",
+        "text": "Sex-dependent penetrance"
+      },
+      {
+        "letter": "D",
+        "text": "X-linked recessive inheritance"
+      },
+      {
+        "letter": "E",
+        "text": "Y-linked inheritance"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Genomic imprinting silences one parental copy of a gene. A deletion of the paternally expressed region on chromosome 15 can cause Prader-Willi syndrome because the maternal copy is imprinted and silenced.",
+    "choice_explanations": {
+      "A": "Correct: genomic imprinting creates parent-of-origin-specific expression.",
+      "B": "Mitochondrial traits are transmitted through the mother and involve mitochondrial DNA.",
+      "C": "Sex-dependent penetrance varies by sex, not by which parent transmitted a deletion.",
+      "D": "X-linked recessive inheritance involves genes on the X chromosome, not chromosome 15.",
+      "E": "Y-linked inheritance is transmitted father-to-son and cannot explain affected individuals of both sexes."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Imprinting silences one parental gene copy; paternal deletion on chromosome 15 causes Prader-Willi syndrome.",
+        "pages": [
+          56
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      56,
+      62
+    ],
+    "fa_page": 56,
+    "fa_page_verified": true,
+    "fa_summary": "Genomic imprinting silences one parental copy of a gene. A deletion of the paternally expressed region on chromosome 15 can cause Prader-Willi syndrome because the maternal copy is imprinted and silenced."
+  },
+  {
+    "id": "import-fd7e8b1b5f327d700ba07d5c",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "An 8-year-old boy has intellectual disability, hyperactivity, a long narrow face, prominent jaw, large ears, and macroorchidism. His mother has mild intellectual disability. Which genetic abnormality is diagnostic?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Loss of expression from the paternal chromosome 15q11–q13 region"
+      },
+      {
+        "letter": "B",
+        "text": "CGG trinucleotide-repeat expansion in the 5′ untranslated region of FMR1"
+      },
+      {
+        "letter": "C",
+        "text": "Dystrophin gene defect"
+      },
+      {
+        "letter": "D",
+        "text": "Three copies of chromosome 21"
+      },
+      {
+        "letter": "E",
+        "text": "47,XXY karyotype"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The phenotype is fragile X syndrome. A CGG repeat expansion in the 5′ untranslated region of FMR1 leads to hypermethylation and reduced gene expression; a premutation in the mother can expand during oogenesis.",
+    "choice_explanations": {
+      "A": "Paternal chromosome-15 loss of expression causes Prader-Willi syndrome, not macroorchidism and the fragile-X facies.",
+      "B": "Correct: fragile X syndrome results from a CGG repeat expansion in FMR1.",
+      "C": "Dystrophin defects cause Duchenne/Becker muscular dystrophy.",
+      "D": "Trisomy 21 causes Down syndrome.",
+      "E": "47,XXY causes Klinefelter syndrome."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Paternal chromosome-15 deletion is associated with Prader-Willi syndrome.",
+        "pages": [
+          56
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Fragile X syndrome is due to CGG expansion in FMR1 with hypermethylation.",
+        "pages": [
+          60
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Duchenne/Becker muscular dystrophies involve dystrophin.",
+        "pages": [
+          59
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Down syndrome is trisomy 21.",
+        "pages": [
+          61
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Klinefelter syndrome is 47,XXY.",
+        "pages": [
+          62
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      60
+    ],
+    "fa_page": 60,
+    "fa_page_verified": true,
+    "fa_summary": "The phenotype is fragile X syndrome. A CGG repeat expansion in the 5′ untranslated region of FMR1 leads to hypermethylation and reduced gene expression; a premutation in the mother can expand during oogenesis."
+  },
+  {
+    "id": "import-be235c6d2b66bac93c121b62",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 6-year-old boy has developmental and behavioral difficulties, an elongated face, large protruding ears, flat feet, and hypotonia. His brother is similarly affected, but his three sisters are unaffected. Which genetic defect most likely causes this condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CGG trinucleotide-repeat expansion on a sex chromosome"
+      },
+      {
+        "letter": "B",
+        "text": "Genomic imprinting on chromosome 15"
+      },
+      {
+        "letter": "C",
+        "text": "Microdeletion on chromosome 22"
+      },
+      {
+        "letter": "D",
+        "text": "Translocation between chromosomes 9 and 22"
+      },
+      {
+        "letter": "E",
+        "text": "Trisomy 21"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The facies, hypotonia, developmental difficulties, and affected male siblings suggest fragile X syndrome, caused by CGG-repeat expansion in FMR1 on the X chromosome.",
+    "choice_explanations": {
+      "A": "Correct: fragile X syndrome is an X-linked CGG-repeat expansion disorder.",
+      "B": "Chromosome-15 imprinting disorders include Prader-Willi and Angelman syndromes, with different hallmark findings.",
+      "C": "A 22q11 deletion causes DiGeorge/velocardiofacial syndrome.",
+      "D": "t(9;22) is the Philadelphia chromosome associated with CML and some ALL.",
+      "E": "Trisomy 21 causes Down syndrome; the described facies and sex-linked family pattern favor fragile X."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Fragile X is caused by CGG-repeat expansion in FMR1 on the X chromosome.",
+        "pages": [
+          60
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Chromosome-15 imprinting disorders include Prader-Willi and Angelman syndromes.",
+        "pages": [
+          56
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "22q11 deletion is associated with DiGeorge syndrome.",
+        "pages": [
+          62
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Down syndrome is trisomy 21.",
+        "pages": [
+          61
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      60,
+      62
+    ],
+    "fa_page": 60,
+    "fa_page_verified": true,
+    "fa_summary": "The facies, hypotonia, developmental difficulties, and affected male siblings suggest fragile X syndrome, caused by CGG-repeat expansion in FMR1 on the X chromosome."
+  },
+  {
+    "id": "import-138c827fb876d92228c1b92b",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A healthy 30-year-old Ashkenazi Jewish woman seeks genetic counseling. Two of her siblings died of Tay-Sachs disease; her parents may be first cousins. Assuming she is unaffected, what is her probability of being a carrier of the disease-causing variant?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1/4"
+      },
+      {
+        "letter": "B",
+        "text": "1/2"
+      },
+      {
+        "letter": "C",
+        "text": "2/3"
+      },
+      {
+        "letter": "D",
+        "text": "3/4"
+      },
+      {
+        "letter": "E",
+        "text": "No higher than the general-population risk"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Tay-Sachs disease is autosomal recessive. Because she has affected siblings, both parents are obligate carriers. Among their unaffected children, the possible genotypes are AA, Aa, and Aa; therefore the conditional probability that she is a carrier is 2/3.",
+    "choice_explanations": {
+      "A": "1/4 is the probability of an affected child when both parents are carriers, not the conditional carrier risk for an unaffected sibling.",
+      "B": "1/2 is the probability of transmitting one allele from a carrier parent, not the conditional risk after excluding affected offspring.",
+      "C": "Correct: an unaffected sibling of an individual with an autosomal-recessive disease has a 2/3 carrier probability.",
+      "D": "3/4 is the probability of being unaffected when both parents are carriers, not the conditional carrier probability.",
+      "E": "Two affected siblings establish that both parents are carriers, so her risk exceeds the population risk."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Two carrier parents have a 25% risk of an affected child.",
+        "pages": [
+          57
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Each carrier parent transmits the allele with probability 1/2.",
+        "pages": [
+          57
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "An unaffected sibling of a patient with an autosomal-recessive disease has a 2/3 carrier probability; Tay-Sachs is a sphingolipidosis.",
+        "pages": [
+          57,
+          86
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The 3/4 probability is unaffected genotype probability before conditioning on being unaffected.",
+        "pages": [
+          57
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Tay-Sachs is an autosomal-recessive sphingolipidosis.",
+        "pages": [
+          86
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      57,
+      86
+    ],
+    "fa_page": 57,
+    "fa_page_verified": true,
+    "fa_summary": "Tay-Sachs disease is autosomal recessive. Because she has affected siblings, both parents are obligate carriers. Among their unaffected children, the possible genotypes are AA, Aa, and Aa; therefore the conditional probability that she is a carrier is 2/3."
+  },
+  {
     "id": "import-619e257ad94ea64e8f39ba79",
     "chapter": "Biochemistry",
     "fa_subchapter": "Genetics",
