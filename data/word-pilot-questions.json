@@ -19238,5 +19238,391 @@
     "fa_page": 403,
     "fa_page_verified": true,
     "fa_summary": "Chronic hemolysis increases unconjugated bilirubin and predisposes to black calcium-bilirubinate pigment stones; cholesterol stones are most common overall."
+  },
+  {
+    "id": "import-70e421f0a1e05996024939e2",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Testicular tumors",
+    "stem": "A 34-year-old multigravid woman gives birth to a boy at 37 weeks’ gestation. Newborn examination shows a firm right testicular mass, which is resected. The mass is homogeneous and yellow-white. Histology shows epithelial-lined spaces with flattened-to-cuboidal cells containing vacuolated cytoplasm and eosinophilic, hyaline-like globules; scattered structures resemble primitive glomeruli. The eosinophilic cytoplasmic globules would most likely stain positive for which of the following?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alpha-fetoprotein (AFP)"
+      },
+      {
+        "letter": "B",
+        "text": "Estrogen receptors"
+      },
+      {
+        "letter": "C",
+        "text": "Human chorionic gonadotropin (hCG)"
+      },
+      {
+        "letter": "D",
+        "text": "Human papillomavirus (HPV)"
+      },
+      {
+        "letter": "E",
+        "text": "Placental alkaline phosphatase (PLAP)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "This is a yolk sac (endodermal sinus) tumor. Schiller-Duval bodies resemble primitive glomeruli, and the hyaline cytoplasmic globules contain AFP (and α1-antitrypsin). AFP is also a useful serum marker for recurrence. PLAP instead points toward seminoma; hCG is associated with syncytiotrophoblastic cells and choriocarcinoma.",
+    "choice_explanations": {
+      "A": "Correct. Yolk sac tumor cells produce AFP, which is present in the hyaline cytoplasmic globules and can also serve as a serum marker.",
+      "B": "Estrogen receptors are relevant to hormone-responsive breast tumors and some sex-cord stromal tumors, not the characteristic hyaline globules of a yolk sac tumor.",
+      "C": "hCG is produced by syncytiotrophoblastic cells, including choriocarcinoma; it is not the marker of yolk-sac differentiation described here.",
+      "D": "HPV is associated with epithelial lesions such as anogenital warts and some carcinomas, not this germ-cell tumor.",
+      "E": "PLAP is associated with seminoma; the primitive-glomerulus-like structures and hyaline globules instead identify a yolk sac tumor."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Yolk sac tumor (endodermal sinus tumor) has Schiller-Duval bodies resembling glomeruli; AFP is its characteristic tumor marker.",
+        "page": 671
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly identify estrogen receptors as a marker of testicular yolk sac tumor."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid lists increased hCG with choriocarcinoma and sometimes other germ-cell tumors, not as the defining yolk sac marker.",
+        "page": 671
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 testicular-tumor discussion has no direct HPV association for yolk sac tumors."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "PLAP is increased in seminoma, distinguishing it from the AFP-associated yolk sac tumor.",
+        "page": 671
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      671
+    ],
+    "fa_page": 671,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-2d27a985d1096cb7a32d3e96",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Ovarian tumors",
+    "stem": "A 47-year-old woman comes to the physician because of urinary urgency and pelvic pain. Pelvic examination shows masses in both adnexae. Ultrasound confirms cystic masses in both ovaries. After surgical resection, each mass is found to be a unilocular cyst containing clear fluid; the entire cyst wall is covered with papillary outgrowths. Which is the most likely diagnosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Endometrioid adenocarcinoma"
+      },
+      {
+        "letter": "B",
+        "text": "Granulosa cell tumor"
+      },
+      {
+        "letter": "C",
+        "text": "Mature cystic teratoma"
+      },
+      {
+        "letter": "D",
+        "text": "Mucinous cystadenocarcinoma"
+      },
+      {
+        "letter": "E",
+        "text": "Serous cystadenocarcinoma"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A bilateral epithelial ovarian tumor that is a unilocular, clear-fluid cyst with papillary projections is a serous cystadenocarcinoma. Serous tumors resemble fallopian-tube epithelium and are often bilateral. Mucinous tumors are mucin-producing and usually more multiloculated; granulosa tumors arise from sex-cord stroma, while mature teratomas arise from germ cells.",
+    "choice_explanations": {
+      "A": "Endometrioid ovarian tumors resemble endometrial epithelium; the clear fluid and papillary architecture are more characteristic of a serous epithelial tumor.",
+      "B": "Granulosa cell tumors are sex-cord stromal tumors, often estrogen-producing and associated with Call-Exner bodies or endometrial effects; they are not the classic clear-fluid papillary cyst described.",
+      "C": "Mature cystic teratomas are germ-cell tumors containing tissues from all three germ layers, often including hair, teeth, or sebum.",
+      "D": "Mucinous cystadenocarcinomas contain mucin-producing epithelium and commonly have solid/cystic or multiloculated features, unlike the clear unilocular cyst here.",
+      "E": "Correct. Serous cystadenocarcinoma is an epithelial ovarian malignancy commonly presenting as a clear-fluid cyst with papillary projections and often bilateral disease."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 p. 664 does not directly discuss endometrioid ovarian tumors; its endometrioid-carcinoma entry elsewhere refers to endometrial carcinoma, not this ovarian differential."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Granulosa cell tumor is a malignant sex-cord stromal tumor that may produce estrogen and has Call-Exner bodies; see the tumor classification and features.",
+        "page": 665
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Mature cystic teratoma is a benign germ-cell tumor containing derivatives of all three germ layers.",
+        "page": 664
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Mucinous ovarian tumors arise from mucin-secreting epithelium; malignant mucinous tumors are uncommon and may be multiloculated.",
+        "page": 664
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Serous ovarian epithelial tumors resemble fallopian-tube epithelium and are often bilateral; serous carcinoma is the most common malignant ovarian neoplasm.",
+        "page": 664
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      664,
+      665
+    ],
+    "fa_page": 664,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-be8ebefe60347f557472da7a",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Breast cancer",
+    "stem": "A 48-year-old woman undergoes radical mastectomy with axillary dissection because of a breast carcinoma measuring 2.5 cm in diameter. Pathologic examination shows metastatic involvement of 3 of 12 axillary lymph nodes. Immunohistochemistry for estrogen receptors is shown. Estrogen receptor status of breast carcinoma is most likely associated with which of the following clinicopathologic parameters?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Diagnostic subtype of neoplasm"
+      },
+      {
+        "letter": "B",
+        "text": "Grading of neoplasm"
+      },
+      {
+        "letter": "C",
+        "text": "Likelihood of spread to distant organs"
+      },
+      {
+        "letter": "D",
+        "text": "Prognosis and treatment"
+      },
+      {
+        "letter": "E",
+        "text": "Staging of neoplasm"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Estrogen-receptor expression is clinically useful because it predicts endocrine responsiveness: ER-positive breast cancers may be treated with antiestrogen therapy such as tamoxifen. Hormone-receptor positivity is also generally associated with a more favorable prognosis than triple-negative disease. Receptor status does not define the histologic subtype or grade, and by itself does not establish distant spread or TNM stage; stage is determined from tumor extent and nodal/distant metastases.",
+    "choice_explanations": {
+      "A": "Histologic subtype is determined by morphology (for example, ductal versus lobular pattern), not by estrogen-receptor status.",
+      "B": "Grade is assessed from histologic/cytologic features such as nuclear pleomorphism and mitotic activity, not receptor expression.",
+      "C": "ER status is not a measure of whether tumor cells have spread to distant organs; that requires evidence of metastasis.",
+      "D": "Correct. ER status informs prognosis and predicts benefit from endocrine treatment such as tamoxifen for ER-positive disease.",
+      "E": "Staging describes anatomic extent of disease, including tumor size and regional/distant spread, not receptor expression."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not state that estrogen-receptor status determines histologic subtype."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly link estrogen-receptor status to tumor grade."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly link receptor status to distant-organ spread."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Breast cancer commonly overexpresses estrogen/progesterone receptors; triple-negative tumors are more aggressive. Tamoxifen is used for ER/PR-positive breast cancer, supporting both prognostic and treatment relevance.",
+        "pages": [
+          668,
+          674
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly identify receptor status as a staging criterion."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      668,
+      674
+    ],
+    "fa_page": 668,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/reproductive-q08-er-immunohistochemistry.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Localized estrogen-receptor immunohistochemistry micrograph from the Word/PDF source; the full page and answer choices are excluded."
+  },
+  {
+    "id": "import-97cc1ae8f0971fa90f4b68c6",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Oogenesis",
+    "stem": "A 45-year-old woman undergoes total hysterectomy for uterine leiomyomas. Histologic examination of an ovary shows multiple primary follicles, each containing an oocyte. At which stage of meiosis are these oocytes most likely arrested?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anaphase"
+      },
+      {
+        "letter": "B",
+        "text": "Interphase"
+      },
+      {
+        "letter": "C",
+        "text": "Metaphase"
+      },
+      {
+        "letter": "D",
+        "text": "Prophase"
+      },
+      {
+        "letter": "E",
+        "text": "Telophase"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Primary oocytes enter meiosis I during fetal life and remain arrested in prophase I until the relevant follicle matures and ovulation approaches. After completing meiosis I, the secondary oocyte is arrested in metaphase II until fertilization. The question specifies primary follicles, so prophase I is the appropriate arrest point.",
+    "choice_explanations": {
+      "A": "Anaphase is not the prolonged arrest stage of a primary oocyte.",
+      "B": "Interphase is the interval between divisions; it is not the characteristic meiotic arrest stage asked about.",
+      "C": "Metaphase II is the arrest point for the secondary oocyte after ovulation, not the primary oocyte in a follicle.",
+      "D": "Correct. Primary oocytes are arrested in prophase I from fetal life until ovulation-related maturation.",
+      "E": "Telophase is not the prolonged meiotic arrest stage of an oocyte."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not identify anaphase as an oocyte arrest point."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The oogenesis diagram labels interphase as the DNA-replication interval, distinct from meiotic arrest in prophase I.",
+        "page": 649
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid distinguishes the secondary oocyte’s metaphase-II arrest until fertilization from the primary oocyte’s prophase-I arrest.",
+        "page": 649
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Primary oocytes remain arrested in prophase I for years until ovulation.",
+        "page": 649
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not identify telophase as an oocyte arrest point."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      649
+    ],
+    "fa_page": 649,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-6697d0674dee3badc8c88dc9",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Menopause",
+    "stem": "A 55-year-old woman reports episodic intense heat and flushing over her trunk and face, occurring more often over the past 3 months. Episodes last a few minutes and then subside. She also has reduced vaginal lubrication and dyspareunia. Which hormonal pattern is most likely in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased FSH, decreased LH, increased estrogen"
+      },
+      {
+        "letter": "B",
+        "text": "Increased FSH, unchanged LH, decreased estrogen"
+      },
+      {
+        "letter": "C",
+        "text": "Increased hCG, increased estrogen, increased progesterone"
+      },
+      {
+        "letter": "D",
+        "text": "Increased LH, increased FSH, increased GnRH"
+      },
+      {
+        "letter": "E",
+        "text": "Increased LH, increased progesterone, increased estrogen"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The vasomotor episodes and vaginal dryness/dyspareunia are menopausal symptoms. As the ovarian follicle pool declines, estrogen falls and negative feedback on the hypothalamus and pituitary is lost; GnRH, FSH, and LH rise. Menopause is diagnosed after 12 months without menses, but the hormonal pattern and symptoms can appear during the transition.",
+    "choice_explanations": {
+      "A": "This is inconsistent with menopause: estrogen falls and gonadotropins rise as ovarian follicles are depleted.",
+      "B": "FSH and LH both rise with loss of ovarian negative feedback; LH is not expected to remain unchanged.",
+      "C": "This is a pregnancy pattern, not the pattern associated with hot flashes and genitourinary symptoms of menopause.",
+      "D": "Correct. Reduced ovarian estrogen feedback causes increased GnRH, LH, and FSH.",
+      "E": "Estrogen and progesterone do not rise in menopause; reduced follicular activity lowers estrogen, while progesterone is not elevated."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Menopause features decreased estrogen and markedly increased FSH (with increased LH and GnRH), the opposite of this option.",
+        "page": 653
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid lists increased FSH and increased LH after loss of ovarian feedback; both change, not FSH alone.",
+        "page": 653
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Placental hCG and pregnancy-associated estrogen/progesterone are described separately from menopause.",
+        "page": 652
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Menopause: decreased estrogen removes negative feedback, increasing GnRH, LH, and especially FSH.",
+        "page": 653
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Menopause is characterized by decreased estrogen, not increased estrogen or progesterone.",
+        "page": 653
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      653
+    ],
+    "fa_page": 653,
+    "fa_page_verified": true
   }
 ]
