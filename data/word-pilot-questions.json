@@ -21711,5 +21711,85 @@
     ],
     "question_figures_reviewed": true,
     "question_figure_description": "题目所需的局部图像。"
+  },
+  {
+    "id": "import-ab86824983526b9fa3174998",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Cerebral perfusion",
+    "stem": "A 37-year-old woman is brought to the emergency department after a motor vehicle collision. She has lacerations on her arms but insignificant blood loss. While waiting, she becomes anxious and hyperventilates, then feels faint and has blurred vision. Which of the following is most likely decreased?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Arterial oxygen content"
+      },
+      {
+        "letter": "B",
+        "text": "Arterial oxygen tension (PaO₂)"
+      },
+      {
+        "letter": "C",
+        "text": "Arterial pH"
+      },
+      {
+        "letter": "D",
+        "text": "Cerebral blood flow"
+      },
+      {
+        "letter": "E",
+        "text": "Cerebrovascular resistance"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Anxiety-related hyperventilation lowers arterial PCO₂ by blowing off CO₂. Low PCO₂ causes cerebral vasoconstriction, increasing cerebrovascular resistance and reducing cerebral blood flow. The transient reduction in cerebral perfusion explains her presyncope and blurred vision. Hyperventilation also causes respiratory alkalosis, so pH and PaO₂ rise rather than fall; oxygen content changes very little because hemoglobin is already nearly saturated.",
+    "choice_explanations": {
+      "A": "Incorrect. Arterial oxygen content rises very slightly, at most, when hemoglobin is already nearly saturated; it is not the decreased variable causing symptoms.",
+      "B": "Incorrect. Hyperventilation lowers alveolar PCO₂ and raises alveolar/arterial PO₂, assuming normal pulmonary function.",
+      "C": "Incorrect. Loss of CO₂ raises pH, producing acute respiratory alkalosis.",
+      "D": "Correct. Hypocapnia causes cerebral vasoconstriction, increased cerebrovascular resistance, and decreased cerebral blood flow.",
+      "E": "Incorrect. Cerebrovascular resistance increases in response to low PCO₂; it is cerebral blood flow that decreases."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Blood oxygen content is predominantly oxygen bound to hemoglobin, with only a small dissolved component; when hemoglobin is already nearly saturated, a rise in PaO₂ changes total content only slightly.",
+        "page": 687
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hyperventilation reduces alveolar PCO₂ and increases alveolar/arterial PO₂; First Aid describes this in respiratory physiology.",
+        "page": 688
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Respiratory alkalosis is caused by decreased PCO₂; the resulting pH increases.",
+        "page": 609
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Cerebral perfusion is driven primarily by PCO₂; lower PCO₂ causes vasoconstriction and decreased cerebral blood flow.",
+        "page": 512
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Low PCO₂ causes cerebral vasoconstriction, increasing cerebrovascular resistance.",
+        "page": 512
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      512,
+      609,
+      687
+    ],
+    "fa_page": 512,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p.512 explains cerebral perfusion: PCO₂ is a primary driver, and hyperventilation lowers PCO₂, causing cerebral vasoconstriction and reduced cerebral blood flow. Page 609 covers respiratory acid-base disorders; p.687 explains oxygen content as primarily hemoglobin-bound oxygen, with dissolved oxygen contributing minimally."
   }
 ]
