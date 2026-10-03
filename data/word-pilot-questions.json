@@ -18964,5 +18964,85 @@
     "fa_page": 205,
     "fa_page_verified": true,
     "fa_summary": "Necrosis follows irreversible cell injury; coagulative necrosis is caused by ischemia in most tissues. Malignant tumors may show erratic growth and necrosis, and cancer-related angiogenesis is covered separately."
+  },
+  {
+    "id": "import-0ff9c2a5f814f7ee46e6e6f6",
+    "chapter": "Endocrine",
+    "fa_subchapter": "Diabetes insipidus",
+    "stem": "A 27-year-old man is admitted to the hospital with acute right lower-quadrant abdominal pain and undergoes an appendectomy. The next day, he is febrile and continues to have a large volume of urine output. He complains of severe thirst despite persistent fluid intake. His serum sodium concentration is 175 mEq/L, and urinalysis reveals a low urine specific gravity. Diagrams A–E show the relative osmolarity (y-axis) and volume (x-axis) of the intracellular and extracellular fluid compartments during normal conditions (solid lines) and after various disturbances (dashed lines). Which diagram best represents this patient's body-fluid balance after surgery?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Isotonic contraction"
+      },
+      {
+        "letter": "B",
+        "text": "Hypertonic expansion"
+      },
+      {
+        "letter": "C",
+        "text": "Hypotonic contraction"
+      },
+      {
+        "letter": "D",
+        "text": "Hypertonic contraction"
+      },
+      {
+        "letter": "E",
+        "text": "Hypotonic expansion"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The severe hypernatremia and dilute urine indicate diabetes insipidus with inadequate renal water reabsorption. When water loss is not replaced, more water than sodium is lost. Extracellular-fluid osmolarity rises, drawing water out of cells; both extracellular and intracellular volumes fall. This is hypertonic contraction (diagram D).",
+    "choice_explanations": {
+      "A": "Incorrect. Isotonic contraction follows loss of fluid with approximately the same osmolality as plasma, such as hemorrhage or diarrhea; serum osmolarity does not rise substantially.",
+      "B": "Incorrect. Hypertonic expansion reflects net gain or retention of hypertonic solute, expanding extracellular volume while increasing osmolarity.",
+      "C": "Incorrect. Hypotonic contraction follows proportionally greater sodium loss than water loss, as with mineralocorticoid deficiency; it does not fit marked hypernatremia.",
+      "D": "Correct. Diabetes insipidus causes loss of hypotonic urine; un-replaced water loss contracts both compartments and raises osmolarity.",
+      "E": "Incorrect. Hypotonic expansion occurs with excess free-water retention or intake, typically lowering serum sodium and osmolarity."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match for the isotonic-contraction/Darrow–Yannet label was found in the checked fluid-balance and endocrine sections."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match for the hypertonic-expansion/Darrow–Yannet label was found in the checked fluid-balance and endocrine sections."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match for the hypotonic-contraction/Darrow–Yannet label was found in the checked fluid-balance and endocrine sections."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Diabetes insipidus causes large amounts of dilute urine, with increased serum osmolality; this supports water-loss hypertonicity, though the Darrow–Yannet label itself is not shown.",
+        "page": 342
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "SIADH causes free-water retention and euvolemic hyponatremia; this is the opposite direction from hypernatremic water loss.",
+        "page": 342
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      342
+    ],
+    "fa_page": 342,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid p.342 describes central and nephrogenic diabetes insipidus as causes of large-volume dilute urine, often with thirst and increased serum osmolality; SIADH is characterized by free-water retention and euvolemic hyponatremia. Page 599 reviews the 60–40–20 total-body-water distribution and fluid compartments. First Aid does not directly present the Darrow–Yannet disturbance labels in the answer choices.",
+    "question_images": [
+      "assets/question-figures/general-principles-q05-fluid-shift-options.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "仅保留题目答案选项所必需的 Darrow–Yannet A–E 示意图；无题干、作答状态、正确答案标记或解析。"
   }
 ]
