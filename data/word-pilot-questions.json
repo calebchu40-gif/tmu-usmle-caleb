@@ -8867,5 +8867,699 @@
     "fa_page": 267,
     "fa_page_verified": true,
     "fa_summary": "A relative-risk confidence interval including 1 is not statistically significant; source table absent, hold."
+  },
+  {
+    "id": "import-619e257ad94ea64e8f39ba79",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 10-year-old boy is brought to a geneticist because of continued poor school performance. Two years earlier, a blood test for genetic abnormalities was reported as negative. Because his mother requests additional testing, a skin biopsy is obtained; his skin cells show trisomy 21. Which genetic mechanism best explains the discrepancy between the two test results?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Balanced translocation"
+      },
+      {
+        "letter": "B",
+        "text": "Mitotic loss during embryogenesis"
+      },
+      {
+        "letter": "C",
+        "text": "Mosaicism"
+      },
+      {
+        "letter": "D",
+        "text": "Reciprocal translocation"
+      },
+      {
+        "letter": "E",
+        "text": "Robertsonian translocation"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The findings are consistent with trisomy 21 mosaicism: different tissues contain different cell lines, so a blood sample can be normal while skin cells contain trisomy 21. The supplied explanation attributes this to a postfertilization mitotic nondisjunction event.",
+    "choice_explanations": {
+      "A": "A balanced translocation does not create separate normal and trisomy-21 cell populations.",
+      "B": "A postzygotic mitotic chromosome-segregation error can generate mosaic cell lines, but the condition described by different karyotypes across tissues is mosaicism.",
+      "C": "Correct: mosaicism is the presence of genetically distinct cell lines in one individual; the proportion of affected cells can differ by tissue.",
+      "D": "A reciprocal translocation exchanges material between nonhomologous chromosomes and does not explain normal blood cells with trisomic skin cells.",
+      "E": "A Robertsonian translocation involving chromosome 21 can cause translocation Down syndrome, but it would not account for the tissue-specific discordance described."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Balanced translocations generally do not cause an abnormal phenotype when no significant genetic material is gained or lost.",
+        "pages": [
+          62
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Somatic mosaicism can arise from mitotic errors after fertilization.",
+        "pages": [
+          55
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Mosaicism means genetically distinct cell lines are present in one individual; trisomy 21 is also summarized on p. 61.",
+        "pages": [
+          55
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的对应知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Robertsonian translocations commonly involve acrocentric chromosomes, including 21, and can cause chromosomal imbalance.",
+        "pages": [
+          62
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      55,
+      61,
+      62
+    ],
+    "fa_page": 55,
+    "fa_page_verified": true,
+    "fa_summary": "The findings are consistent with trisomy 21 mosaicism: different tissues contain different cell lines, so a blood sample can be normal while skin cells contain trisomy 21. The supplied explanation attributes this to a postfertilization mitotic nondisjunction event."
+  },
+  {
+    "id": "import-fb4b618292b944d5b6d0181d",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A male newborn born at 30 weeks’ gestation is small for gestational age. He has hypotonia, marked skeletal muscle and subcutaneous fat hypoplasia, a pinched face with hypoplastic orbital ridges, short palpebral fissures, a small mouth and jaw, a small head with a prominent occiput, and low-set malformed ears. His fists are clenched with overlapping third and fourth fingers. Which diagnosis is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "47,XXY"
+      },
+      {
+        "letter": "B",
+        "text": "Triple X"
+      },
+      {
+        "letter": "C",
+        "text": "Trisomy 13"
+      },
+      {
+        "letter": "D",
+        "text": "Trisomy 18"
+      },
+      {
+        "letter": "E",
+        "text": "Trisomy 21"
+      }
+    ],
+    "answer": "D",
+    "explanation": "This is Edwards syndrome (trisomy 18). The low birth weight, prominent occiput, micrognathia, low-set ears, and clenched fists with overlapping fingers are characteristic. The source explanation confirms the key as D.",
+    "choice_explanations": {
+      "A": "47,XXY is Klinefelter syndrome and does not produce this neonatal pattern of severe growth restriction and overlapping fingers.",
+      "B": "Triple X is a sex-chromosome aneuploidy and does not match the Edwards phenotype.",
+      "C": "Trisomy 13 more characteristically causes midline defects, cleft lip/palate, polydactyly, and holoprosencephaly.",
+      "D": "Correct: trisomy 18 classically causes growth restriction, prominent occiput, micrognathia, low-set ears, and clenched overlapping fingers.",
+      "E": "Trisomy 21 has a distinct phenotype and is associated with AV septal defects, hypotonia, and characteristic facies, not this combination."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Klinefelter syndrome is listed as 47,XXY.",
+        "pages": [
+          62
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的对应知识点；不显示页码。"
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Patau syndrome is trisomy 13; the page lists its distinguishing midline and limb findings.",
+        "pages": [
+          61
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Edwards syndrome is trisomy 18 and is associated with prominent occiput and clenched fists with overlapping fingers.",
+        "pages": [
+          61
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Down syndrome is trisomy 21; the page summarizes its common findings and complications.",
+        "pages": [
+          61
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      61,
+      62
+    ],
+    "fa_page": 61,
+    "fa_page_verified": true,
+    "fa_summary": "This is Edwards syndrome (trisomy 18). The low birth weight, prominent occiput, micrognathia, low-set ears, and clenched fists with overlapping fingers are characteristic. The source explanation confirms the key as D."
+  },
+  {
+    "id": "import-4b79560b962bad9818235145",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 2-year-old boy with Down syndrome is studied to determine how the trisomy arose. A microsatellite marker near the centromere of chromosome 21 is used to track inheritance. The father has alleles A and C, the mother has alleles B and D, and the child has alleles A, B, and C. In which parent and meiotic division did nondisjunction most likely occur?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The child, during the first mitotic division"
+      },
+      {
+        "letter": "B",
+        "text": "The father, during meiosis I"
+      },
+      {
+        "letter": "C",
+        "text": "The father, during meiosis II"
+      },
+      {
+        "letter": "D",
+        "text": "The mother, during meiosis I"
+      },
+      {
+        "letter": "E",
+        "text": "The mother, during meiosis II"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The child inherited one maternal allele (B) and both paternal alleles (A and C). Because the marker is near the centromere, the two paternal alleles identify the two homologous chromosome-21 copies; their failure to separate indicates paternal meiosis-I nondisjunction. Meiosis-II nondisjunction would duplicate one sister-chromatid allele at this marker.",
+    "choice_explanations": {
+      "A": "A postzygotic mitotic error can produce mosaicism, but the child’s genotype shows two paternal homologous alleles and one maternal allele.",
+      "B": "Correct: both paternal homologs (A and C) were transmitted, indicating failure of homologous chromosomes to separate in paternal meiosis I.",
+      "C": "Meiosis II nondisjunction would transmit two copies of one paternal homolog/sister-chromatid marker allele, not the distinct A and C alleles shown.",
+      "D": "The child received only one maternal allele, so maternal nondisjunction is not supported.",
+      "E": "The child received only one maternal allele, so maternal meiosis-II nondisjunction is not supported."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "A postfertilization mitotic error can produce somatic mosaicism.",
+        "pages": [
+          55
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Autosomal trisomy most often results from nondisjunction during meiosis I; distinct paternal homolog marker alleles identify a meiosis-I error.",
+        "pages": [
+          61
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The nondisjunction diagram distinguishes meiosis-I homolog separation from meiosis-II sister-chromatid separation.",
+        "pages": [
+          61
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page notes that trisomy 21 most commonly follows maternal meiosis-I nondisjunction; this case’s inherited alleles instead identify the father.",
+        "pages": [
+          61
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The nondisjunction diagram distinguishes meiosis-II errors; the inherited marker pattern does not fit a maternal event.",
+        "pages": [
+          61
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      55,
+      61
+    ],
+    "fa_page": 55,
+    "fa_page_verified": true,
+    "fa_summary": "The child inherited one maternal allele (B) and both paternal alleles (A and C). Because the marker is near the centromere, the two paternal alleles identify the two homologous chromosome-21 copies; their failure to separate indicates paternal meiosis-I nondisjunction. Meiosis-II nondisjunction would duplicate one sister-chromatid allele at this marker."
+  },
+  {
+    "id": "import-e619f5d9095a2951b532fcdf",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 32-year-old woman at 8 weeks’ gestation comes for prenatal care. Her husband is affected by an inherited disease. His father is affected, as are his paternal aunt and her son, and affected individuals appear in several generations. What is the most appropriate counseling statement about the risk to their child?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The child will be affected"
+      },
+      {
+        "letter": "B",
+        "text": "The child will not be affected"
+      },
+      {
+        "letter": "C",
+        "text": "The risk cannot be determined until the child’s sex is known"
+      },
+      {
+        "letter": "D",
+        "text": "There is a 25% chance the child will have the disease"
+      },
+      {
+        "letter": "E",
+        "text": "There is a 50% chance the child will have the disease"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The husband’s affected father demonstrates male-to-male transmission, excluding X-linked inheritance. The repeated appearance in successive generations is most consistent with autosomal dominant inheritance. An affected heterozygous parent has a 50% risk of transmitting the condition to each child, regardless of sex.",
+    "choice_explanations": {
+      "A": "Autosomal dominant inheritance gives a probability, not certainty, when one heterozygous parent is affected.",
+      "B": "The child has a 50% risk, so the disease cannot be ruled out.",
+      "C": "Male-to-male transmission excludes X-linked inheritance; autosomal dominant risk does not depend on the child’s sex.",
+      "D": "A 25% risk is typical when both parents are carriers of an autosomal recessive condition, not the pedigree shown.",
+      "E": "Correct: each child of an affected heterozygous parent with an autosomal dominant disorder has a 50% risk."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Autosomal dominant inheritance is seen across generations; each child of an affected heterozygous parent has a 50% risk.",
+        "pages": [
+          57
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Autosomal dominant inheritance gives each child a 50% risk, not zero risk.",
+        "pages": [
+          57
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "No male-to-male transmission is expected with X-linked inheritance; autosomal dominant transmission is not sex-dependent.",
+        "pages": [
+          57
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "A 25% affected risk is described for two heterozygous autosomal-recessive parents.",
+        "pages": [
+          57
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Each child of an affected heterozygous parent has a 50% risk in autosomal dominant inheritance.",
+        "pages": [
+          57
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      57
+    ],
+    "fa_page": 57,
+    "fa_page_verified": true,
+    "fa_summary": "The husband’s affected father demonstrates male-to-male transmission, excluding X-linked inheritance. The repeated appearance in successive generations is most consistent with autosomal dominant inheritance. An affected heterozygous parent has a 50% risk of transmitting the condition to each child, regardless of sex."
+  },
+  {
+    "id": "import-0ac5debe700ea4f2c48db1ff",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 42-year-old pregnant woman returns to receive the results of amniocentesis. She is told that her fetus has a chromosomal abnormality associated with intellectual disability and increased risks of congenital heart defects and acute lymphoblastic leukemia. Which abnormality is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Trisomy 13"
+      },
+      {
+        "letter": "B",
+        "text": "Trisomy 18"
+      },
+      {
+        "letter": "C",
+        "text": "Trisomy 21"
+      },
+      {
+        "letter": "D",
+        "text": "45,X"
+      },
+      {
+        "letter": "E",
+        "text": "47,XXY"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Down syndrome (trisomy 21) is associated with congenital heart defects and increased leukemia risk, including ALL in older children. The supplied explanation explicitly confirms answer C.",
+    "choice_explanations": {
+      "A": "Trisomy 13 is associated with severe midline defects such as holoprosencephaly and cleft lip/palate.",
+      "B": "Trisomy 18 is associated with prominent occiput, rocker-bottom feet, and clenched overlapping fingers.",
+      "C": "Correct: trisomy 21 is associated with congenital heart disease and increased leukemia risk, including ALL in older children.",
+      "D": "45,X causes Turner syndrome, characterized by short stature and gonadal dysgenesis.",
+      "E": "47,XXY causes Klinefelter syndrome with small firm testes, infertility, and gynecomastia."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Patau syndrome is trisomy 13 and is summarized with its distinguishing midline findings.",
+        "pages": [
+          61
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Edwards syndrome is trisomy 18 and is summarized with its distinguishing phenotype.",
+        "pages": [
+          61
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Down syndrome is trisomy 21; First Aid lists cardiac defects and age-related AML/ALL risk.",
+        "pages": [
+          61
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Turner syndrome is 45,XO.",
+        "pages": [
+          62
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Klinefelter syndrome is 47,XXY.",
+        "pages": [
+          62
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      61,
+      62
+    ],
+    "fa_page": 61,
+    "fa_page_verified": true,
+    "fa_summary": "Down syndrome (trisomy 21) is associated with congenital heart defects and increased leukemia risk, including ALL in older children. The supplied explanation explicitly confirms answer C."
+  },
+  {
+    "id": "import-a7f5545c4797327177bd31ea",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 38-year-old man with autosomal recessive albinism marries a 34-year-old woman who also has autosomal recessive albinism. Genetic testing shows that his condition is caused by mutations in TYR on chromosome 11, whereas hers is caused by mutations in OCA2 on chromosome 15. What is the probability that their first child will have albinism?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0%"
+      },
+      {
+        "letter": "B",
+        "text": "25%"
+      },
+      {
+        "letter": "C",
+        "text": "50%"
+      },
+      {
+        "letter": "D",
+        "text": "75%"
+      },
+      {
+        "letter": "E",
+        "text": "100%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The parents’ similar phenotype is caused by pathogenic variants in different genes (locus heterogeneity). Each parent is homozygous for a defect at a different locus; their child receives a functioning allele at TYR from the mother and at OCA2 from the father. The child may be a carrier at both loci but is not expected to be affected, so the risk is 0%.",
+    "choice_explanations": {
+      "A": "Correct: the parents’ variants affect different genes, so the child receives a normal allele at each locus and is not affected.",
+      "B": "A 25% risk would apply if both parents carried pathogenic variants in the same autosomal-recessive gene.",
+      "C": "A 50% risk does not follow from the two distinct loci described.",
+      "D": "A 75% affected risk is not supported by the genotype pattern.",
+      "E": "A 100% risk would require both parents to transmit disease-causing alleles at the same relevant locus."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Locus heterogeneity means mutations at different loci can cause the same disease; albinism is an example.",
+        "pages": [
+          55
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The same phenotype can result from different loci; recessive risk is not 25% when parental defects are in different genes.",
+        "pages": [
+          55
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Locus heterogeneity explains why two affected parents with different causal genes can have unaffected children.",
+        "pages": [
+          55
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的对应知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的对应知识点；不显示页码。"
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      55,
+      58
+    ],
+    "fa_page": 55,
+    "fa_page_verified": true,
+    "fa_summary": "The parents’ similar phenotype is caused by pathogenic variants in different genes (locus heterogeneity). Each parent is homozygous for a defect at a different locus; their child receives a functioning allele at TYR from the mother and at OCA2 from the father. The child may be a carrier at both loci but is not expected to be affected, so the risk is 0%."
+  },
+  {
+    "id": "import-0a2526acdf095fac1aefab38",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "stem": "A 23-year-old pregnant woman has had an uncomplicated pregnancy. She is offered cystic fibrosis carrier screening because the frequency of the mutant allele in her population is 1 in 10. Assuming Hardy-Weinberg equilibrium, what is the likelihood that she is a carrier?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.01"
+      },
+      {
+        "letter": "B",
+        "text": "0.10"
+      },
+      {
+        "letter": "C",
+        "text": "0.18"
+      },
+      {
+        "letter": "D",
+        "text": "0.81"
+      },
+      {
+        "letter": "E",
+        "text": "0.99"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The mutant-allele frequency is q = 0.10, so p = 0.90. Under Hardy-Weinberg equilibrium, the heterozygous carrier frequency is 2pq = 2(0.90)(0.10) = 0.18. The correct choice is C.",
+    "choice_explanations": {
+      "A": "0.01 is q², the expected frequency of affected homozygotes, not carriers.",
+      "B": "0.10 is the mutant-allele frequency q, not the heterozygous genotype frequency.",
+      "C": "Correct: 2pq = 2(0.9)(0.1) = 0.18.",
+      "D": "0.81 is p², the expected frequency of homozygous individuals with the common allele.",
+      "E": "0.99 is not a Hardy-Weinberg genotype frequency for the stated q = 0.1."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hardy-Weinberg gives q² for homozygosity for the recessive allele; with q = 0.1, q² = 0.01.",
+        "pages": [
+          56
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "q is the recessive-allele frequency (0.10); carrier frequency is 2pq.",
+        "pages": [
+          56
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Carrier frequency for an autosomal-recessive disease is 2pq; here it equals 0.18.",
+        "pages": [
+          56
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "p² is homozygosity for the common allele; here p² = 0.81.",
+        "pages": [
+          56
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hardy-Weinberg genotype frequencies are p², 2pq, and q² and must sum to 1; 0.99 is not one of them here.",
+        "pages": [
+          56
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      56,
+      58
+    ],
+    "fa_page": 56,
+    "fa_page_verified": true,
+    "fa_summary": "The mutant-allele frequency is q = 0.10, so p = 0.90. Under Hardy-Weinberg equilibrium, the heterozygous carrier frequency is 2pq = 2(0.90)(0.10) = 0.18. The correct choice is C."
+  },
+  {
+    "id": "import-afb0175d772a091874bf6275",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Sex chromosome disorders",
+    "stem": "A 15-year-old boy is brought to the physician because he has not developed normal male secondary sexual characteristics. He is taller than average and has small testes, a small penis, and gynecomastia. He has repeated two school grades and continues to struggle academically. Which mechanism most likely caused his condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Deletion"
+      },
+      {
+        "letter": "B",
+        "text": "Nondisjunction of an autosomal chromosome"
+      },
+      {
+        "letter": "C",
+        "text": "Nondisjunction of a sex chromosome"
+      },
+      {
+        "letter": "D",
+        "text": "Non-Robertsonian translocation"
+      },
+      {
+        "letter": "E",
+        "text": "Robertsonian translocation"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The phenotype is consistent with Klinefelter syndrome (47,XXY), which results from sex-chromosome nondisjunction. Small testes, gynecomastia, tall stature, and learning difficulties support the diagnosis. The Word explanation confirms answer C; its OCR karyotype “47,XX” was restored to 47,XXY from the named syndrome and answer choices.",
+    "choice_explanations": {
+      "A": "A deletion is loss of a chromosome segment and does not explain the classic 47,XXY phenotype.",
+      "B": "Autosomal nondisjunction produces an autosomal aneuploidy rather than an extra X chromosome.",
+      "C": "Correct: sex-chromosome nondisjunction can produce 47,XXY Klinefelter syndrome.",
+      "D": "A non-Robertsonian translocation exchanges material between nonhomologous chromosomes; it does not produce XXY.",
+      "E": "A Robertsonian translocation involves fusion of acrocentric chromosome long arms and is not the cause of Klinefelter syndrome."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的对应知识点；不显示页码。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Autosomal trisomies result from nondisjunction and have phenotypes distinct from sex-chromosome aneuploidies.",
+        "pages": [
+          61
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Klinefelter syndrome is 47,XXY and results from sex-chromosome nondisjunction.",
+        "pages": [
+          655
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的对应知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Robertsonian translocation is a structural rearrangement of acrocentric chromosomes and can cause chromosomal imbalance.",
+        "pages": [
+          62
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      62,
+      655
+    ],
+    "fa_page": 62,
+    "fa_page_verified": true,
+    "fa_summary": "The phenotype is consistent with Klinefelter syndrome (47,XXY), which results from sex-chromosome nondisjunction. Small testes, gynecomastia, tall stature, and learning difficulties support the diagnosis. The Word explanation confirms answer C; its OCR karyotype “47,XX” was restored to 47,XXY from the named syndrome and answer choices."
   }
 ]

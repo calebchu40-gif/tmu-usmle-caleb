@@ -142,6 +142,12 @@ const acceptedGroups = [
   ["cross", crossBatch],
   ["biostat", biostatBatch],
 ];
+for (const key of Object.keys(args).filter((name) => name.startsWith("extra-")).sort()) {
+  const input = readJson(args[key]);
+  const candidates = Array.isArray(input) ? input : input.questions;
+  if (!Array.isArray(candidates)) throw new Error(`Additional batch ${key} must contain a question array`);
+  acceptedGroups.push([key.slice("extra-".length), candidates]);
+}
 for (const [batch, candidates] of acceptedGroups) {
   for (const question of candidates) {
     if (excludedDuplicateIds.has(question.id)) continue;
