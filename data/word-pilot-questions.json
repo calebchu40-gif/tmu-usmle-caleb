@@ -21325,6 +21325,391 @@
     ],
     "fa_page": 208,
     "fa_page_verified": true,
-    "fa_summary": "First Aid 2026 p.208 describes amyloidosis, Congo-red staining, and systemic types: secondary AA derived from serum amyloid A is associated with chronic inflammatory conditions including rheumatoid arthritis; AL is associated with plasma-cell dyscrasias; transthyretin amyloidosis may be age-related and mainly cardiac; β₂-microglobulin is associated with long-term dialysis; Aβ is associated with Alzheimer disease."
+    "fa_summary": "First Aid 2026 p.208 describes amyloidosis, Congo-red staining, and systemic types: secondary AA derived from serum amyloid A is associated with chronic inflammatory conditions including rheumatoid arthritis; AL is associated with plasma-cell dyscrasias; transthyretin amyloidosis may be age-related and mainly cardiac; β₂-microglobulin is associated with long-term dialysis; Aβ is associated with Alzheimer disease.",
+    "question_images": [
+      "assets/question-figures/general-principles-q09-cardiac-amyloid-histology.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Cardiac amyloid histology micrograph only; the original page, stem, choices, answer state, and UI are excluded."
+  },
+  {
+    "id": "import-ef7e61f2ebd97e79b45ee671",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Ectopic pregnancy",
+    "stem": "A 32-year-old woman comes to the emergency department with sudden right lower-quadrant abdominal pain and vaginal bleeding. She had untreated pelvic inflammatory disease 3 years ago. Examination shows right lower-quadrant tenderness, serum β-hCG is positive, and pelvic ultrasound confirms an ectopic tubal pregnancy. Which underlying mechanism most likely caused this condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Delayed transport of the blastocyst"
+      },
+      {
+        "letter": "B",
+        "text": "Lack of adherence of the embryo to surface epithelial cells"
+      },
+      {
+        "letter": "C",
+        "text": "Loss of the zona pellucida"
+      },
+      {
+        "letter": "D",
+        "text": "Preimplantation loss"
+      },
+      {
+        "letter": "E",
+        "text": "Separation of the inner and outer cell masses of the embryo"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Prior pelvic inflammatory disease can scar the fallopian tube and damage its cilia, delaying blastocyst transport to the uterine cavity. The blastocyst may then implant in the tube, most commonly the ampulla. First-trimester pain and vaginal bleeding with a positive β-hCG are classic clues to ectopic pregnancy.",
+    "choice_explanations": {
+      "A": "Correct. PID-related tubal scarring and ciliary injury delay blastocyst transit, allowing implantation in the tube.",
+      "B": "Failure of the blastocyst to adhere to uterine epithelium prevents normal implantation; it does not explain tubal implantation after PID.",
+      "C": "Loss of the zona pellucida is a normal prerequisite for implantation, not the cause of ectopic implantation.",
+      "D": "Preimplantation loss is an early pregnancy loss before clinical recognition, not implantation in the tube.",
+      "E": "The inner and outer cell masses normally differentiate into the embryo and trophoblast; their separation is not the mechanism of ectopic pregnancy."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ectopic implantation most often occurs in the tubal ampulla; tubal scarring from salpingitis/PID is a risk factor.",
+        "page": 658
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss blastocyst adhesion failure in this ectopic-pregnancy differential."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss zona-pellucida loss in this ectopic-pregnancy differential."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss preimplantation loss in this ectopic-pregnancy differential."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss separation of the inner and outer cell masses as a cause of ectopic pregnancy."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      658
+    ],
+    "fa_page": 658,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-eef65471e686f0951e294a37",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Sex chromosome disorders",
+    "stem": "A couple is being evaluated for infertility. The husband has gynecomastia, sparse body hair, a normal penis, and small testes. Semen analysis shows azoospermia. Testicular biopsy shows sparse, completely hyalinized seminiferous tubules. He is otherwise healthy. What is the most likely cause of these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alcoholism"
+      },
+      {
+        "letter": "B",
+        "text": "5α-reductase deficiency"
+      },
+      {
+        "letter": "C",
+        "text": "Kartagener syndrome"
+      },
+      {
+        "letter": "D",
+        "text": "Klinefelter syndrome"
+      },
+      {
+        "letter": "E",
+        "text": "Testicular feminization syndrome"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The combination of small, atrophic testes, azoospermia, gynecomastia, and hyalinized seminiferous tubules is characteristic of Klinefelter syndrome (47,XXY). Testicular failure causes infertility and reduced inhibin B, while impaired Leydig-cell function can lower testosterone and raise LH.",
+    "choice_explanations": {
+      "A": "Alcohol use can impair reproductive function but does not characteristically cause the XXY phenotype and hyalinized seminiferous tubules described.",
+      "B": "5α-reductase deficiency impairs conversion of testosterone to DHT and causes undervirilized external genitalia, not primary testicular failure with gynecomastia.",
+      "C": "Kartagener syndrome causes impaired sperm motility from ciliary dysfunction; it does not cause testicular atrophy or hyalinized tubules.",
+      "D": "Correct. Klinefelter syndrome causes small firm testes, azoospermia, gynecomastia, and seminiferous-tubule hyalinization.",
+      "E": "Androgen insensitivity usually presents with a phenotypic female appearance and absent uterus, not a normally formed penis with small testes and azoospermia."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly link alcoholism to the biopsy pattern in this question."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "5α-reductase deficiency is a separate disorder of DHT-dependent sexual differentiation, unlike this hypergonadotropic testicular failure.",
+        "page": 656
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Kartagener syndrome is associated with impaired sperm-tail motility, not seminiferous-tubule hyalinization.",
+        "page": 647
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Klinefelter syndrome features small firm testes, infertility/azoospermia, gynecomastia, and seminiferous-tubule dysfunction.",
+        "page": 655
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Androgen insensitivity is associated with a phenotypic female, absent uterus, and testes; it does not match this male phenotype.",
+        "page": 656
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      655,
+      656
+    ],
+    "fa_page": 655,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-cd3ef72b2f00efc9be775950",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Pregnancy complications",
+    "stem": "A 28-year-old primigravid woman at 10 weeks’ gestation comes to the emergency department because of vaginal bleeding. She has no abdominal cramping or pain. She begins bleeding profusely and passes several large fragments of tissue and clot. Which underlying cause is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Abruptio placentae"
+      },
+      {
+        "letter": "B",
+        "text": "Chorioamnionitis"
+      },
+      {
+        "letter": "C",
+        "text": "Chromosomal abnormalities"
+      },
+      {
+        "letter": "D",
+        "text": "Placenta previa"
+      },
+      {
+        "letter": "E",
+        "text": "Trauma"
+      }
+    ],
+    "answer": "C",
+    "explanation": "This is a spontaneous abortion in the first trimester. Most early pregnancy losses are caused by fetal chromosomal abnormalities, commonly trisomies, triploidy, or monosomy X (45,X). Placental abruption and placenta previa are later-pregnancy causes of bleeding; infection or trauma is not suggested by the presentation.",
+    "choice_explanations": {
+      "A": "Placental abruption usually occurs later in pregnancy and is classically associated with painful bleeding and uterine tenderness.",
+      "B": "Chorioamnionitis is an intra-amniotic infection, usually with fever, uterine tenderness, or fetal/membrane findings; it is not the common cause of this early loss.",
+      "C": "Correct. Most first-trimester spontaneous abortions are due to fetal chromosomal abnormalities, especially trisomies, triploidy, and monosomy X.",
+      "D": "Placenta previa typically causes painless bleeding in the second half of pregnancy, not tissue passage at 10 weeks.",
+      "E": "There is no history of trauma, and trauma is not the common underlying cause of first-trimester spontaneous abortion."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 discusses placental abruption as a later-pregnancy placental disorder, not as the cause of this 10-week loss."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 reproductive pages do not directly discuss chorioamnionitis in the context of first-trimester spontaneous abortion."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly specify chromosomal abnormalities as the usual cause of first-trimester spontaneous abortion; this point is established in the supplied source explanation."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Placenta previa is a separate placental bleeding disorder of later pregnancy, not an explanation for first-trimester tissue passage.",
+        "page": 657
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly identify trauma as a common cause of first-trimester spontaneous abortion."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      657
+    ],
+    "fa_page": 657,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-91bb0b5fb05c457de0e0755f",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Breast pathology",
+    "stem": "A 35-year-old woman comes to the physician because of blood-tinged serous discharge from one nipple. Examination shows a small palpable subareolar tumor, which is resected. Which histologic feature is most helpful in establishing that this tumor is benign?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "High mitotic count"
+      },
+      {
+        "letter": "B",
+        "text": "Intraductal location of the tumor"
+      },
+      {
+        "letter": "C",
+        "text": "Presence of both epithelial and myoepithelial cells"
+      },
+      {
+        "letter": "D",
+        "text": "Presence of papillary fronds"
+      },
+      {
+        "letter": "E",
+        "text": "Small tumor size"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The presentation suggests an intraductal papilloma. Benign papillomas retain a myoepithelial cell layer beneath the luminal epithelial cells; invasive ductal carcinoma lacks this layer. The other listed features can occur in both benign and malignant papillary lesions and therefore do not establish benignity.",
+    "choice_explanations": {
+      "A": "High mitotic activity favors a high-grade malignancy rather than a benign papilloma.",
+      "B": "Both benign papillomas and malignant papillary tumors can be intraductal, so location alone is not decisive.",
+      "C": "Correct. A preserved myoepithelial layer supports a benign intraductal papilloma and is absent in invasive carcinoma.",
+      "D": "Papillary fronds can be present in both benign and malignant papillary lesions.",
+      "E": "Both benign and malignant papillary tumors may be small; size alone does not establish benignity."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 breast pages do not specify mitotic count as the discriminating feature for papilloma versus carcinoma."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Intraductal papilloma is a small fibroepithelial tumor within lactiferous ducts, usually beneath the areola; this location alone does not prove benignity.",
+        "page": 667
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "The supplied source explanation directly states that benign papilloma retains myoepithelial cells while invasive ductal carcinoma lacks them; First Aid 2026 does not detail this histologic discriminator."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly use papillary fronds to distinguish benign papilloma from malignant papillary carcinoma."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid describes intraductal papilloma as small, but size alone is not diagnostic because malignant papillary tumors can also be small.",
+        "page": 667
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      667
+    ],
+    "fa_page": 667,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-eacead4115ee69c18b14b366",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Estrogen",
+    "stem": "During an investigational study, estradiol secretion is measured daily over a 28-day menstrual cycle. The graph shows the results. Which structure is the most likely source of the estrogen surge around days 10–14?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Adrenal cortex"
+      },
+      {
+        "letter": "B",
+        "text": "Anterior pituitary"
+      },
+      {
+        "letter": "C",
+        "text": "Corpus luteum"
+      },
+      {
+        "letter": "D",
+        "text": "Hypothalamus"
+      },
+      {
+        "letter": "E",
+        "text": "Ovarian follicle"
+      }
+    ],
+    "answer": "E",
+    "explanation": "During the follicular phase, granulosa cells in the developing ovarian follicle aromatize theca-derived androgens into estradiol. Estradiol rises before ovulation, peaks around days 10–14, and then falls after ovulation; the corpus luteum contributes to a smaller second rise later in the cycle.",
+    "choice_explanations": {
+      "A": "The adrenal cortex produces some sex-steroid precursors, but it is not the source of the large preovulatory estradiol surge.",
+      "B": "The anterior pituitary secretes FSH and LH, which stimulate ovarian follicular development; it does not synthesize the estradiol surge.",
+      "C": "The corpus luteum forms after ovulation and contributes to the later, smaller estradiol rise, not the days 10–14 preovulatory peak.",
+      "D": "The hypothalamus secretes GnRH, which regulates pituitary gonadotropins; it does not produce ovarian-cycle estradiol.",
+      "E": "Correct. Granulosa cells of the growing ovarian follicle produce estradiol during the follicular phase."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Estrogen is produced by the ovaries, placenta, and adipose tissue; the adrenal cortex is not the principal source of the preovulatory surge.",
+        "page": 648
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "FSH and LH stimulate follicular growth and steroidogenesis, but the anterior pituitary does not itself secrete the ovarian estradiol surge.",
+        "page": 648
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The corpus luteum forms after ovulation and is associated with the luteal phase, rather than the preovulatory follicular estrogen peak.",
+        "page": 650
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "GnRH from the hypothalamus regulates the reproductive axis but is not the source of estradiol.",
+        "page": 648
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The ovarian follicle’s granulosa cells produce estradiol through aromatization during follicular development.",
+        "page": 648
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      648,
+      650
+    ],
+    "fa_page": 648,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/reproductive-q35-estradiol-chart.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "题目所需的局部图像。"
   }
 ]
