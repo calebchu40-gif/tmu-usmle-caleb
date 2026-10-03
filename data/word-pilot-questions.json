@@ -10601,7 +10601,7 @@
         "no_direct_match": false,
         "text": "Perforin enables cytotoxic-cell granzyme delivery.",
         "pages": [
-          132
+          204
         ]
       },
       "E": {
@@ -10766,10 +10766,9 @@
       "C": {
         "verified": true,
         "no_direct_match": false,
-        "text": "Long-term dialysis can cause β2-microglobulin deposition in joints; the general amyloid stain is described on p. 208.",
+        "text": "Long-term dialysis can cause β2-microglobulin deposition in joints.",
         "pages": [
-          208,
-          361
+          208
         ]
       },
       "D": {
@@ -10793,8 +10792,7 @@
     "review_required": false,
     "complete": true,
     "fa_pages": [
-      208,
-      361
+      208
     ],
     "fa_page": 208,
     "fa_page_verified": true,
@@ -10935,7 +10933,7 @@
         "no_direct_match": false,
         "text": "Contraction alkalosis is an alkalosis, unlike the low pH and low bicarbonate here.",
         "pages": [
-          350
+          631
         ]
       },
       "B": {
@@ -10943,7 +10941,7 @@
         "no_direct_match": false,
         "text": "Ketoacidosis is a high-anion-gap metabolic acidosis.",
         "pages": [
-          350
+          631
         ]
       },
       "C": {
@@ -10951,7 +10949,7 @@
         "no_direct_match": false,
         "text": "Lactic acidosis is a high-anion-gap metabolic acidosis.",
         "pages": [
-          350
+          631
         ]
       },
       "D": {
@@ -10959,7 +10957,7 @@
         "no_direct_match": false,
         "text": "Diarrhea/fecal bicarbonate loss causes normal-anion-gap hyperchloremic metabolic acidosis.",
         "pages": [
-          350
+          631
         ]
       },
       "E": {
@@ -10967,7 +10965,7 @@
         "no_direct_match": false,
         "text": "Uremic acidosis is generally high-anion-gap.",
         "pages": [
-          350
+          631
         ]
       },
       "F": {
@@ -10975,7 +10973,7 @@
         "no_direct_match": false,
         "text": "Vomiting causes metabolic alkalosis.",
         "pages": [
-          350
+          631
         ]
       }
     },
@@ -10983,9 +10981,9 @@
     "review_required": false,
     "complete": true,
     "fa_pages": [
-      350
+      631
     ],
-    "fa_page": 350,
+    "fa_page": 631,
     "fa_page_verified": true,
     "fa_summary": "The pH and bicarbonate show metabolic acidosis. The anion gap is 140 − (116 + 14) = 10, within the normal range. Fecal bicarbonate loss from diarrhea causes hyperchloremic, normal-anion-gap metabolic acidosis; fecal soiling supports this mechanism."
   },
@@ -11217,7 +11215,7 @@
         "no_direct_match": false,
         "text": "Myocardial infarct histology evolves over time; coagulative necrosis becomes visible after several hours.",
         "pages": [
-          313
+          308
         ]
       },
       "D": {
@@ -11225,7 +11223,7 @@
         "no_direct_match": false,
         "text": "The 3–5-day interval is a later inflammatory/healing phase, not the first necrotic change.",
         "pages": [
-          313
+          308
         ]
       },
       "E": {
@@ -11233,7 +11231,7 @@
         "no_direct_match": false,
         "text": "More than 1 week is late healing/scar evolution.",
         "pages": [
-          313
+          308
         ]
       }
     },
@@ -11241,9 +11239,9 @@
     "review_required": false,
     "complete": true,
     "fa_pages": [
-      313
+      308
     ],
-    "fa_page": 313,
+    "fa_page": 308,
     "fa_page_verified": true,
     "fa_summary": "Myocardial injury begins within minutes, but recognizable coagulative necrosis on light microscopy appears after several hours, typically about 4–12 hours after infarction."
   },
@@ -11549,8 +11547,7 @@
         "no_direct_match": false,
         "text": "Renal amyloid deposition can cause proteinuria/nephrotic syndrome.",
         "pages": [
-          208,
-          596
+          208
         ]
       }
     },
@@ -11558,8 +11555,7 @@
     "review_required": false,
     "complete": true,
     "fa_pages": [
-      208,
-      596
+      208
     ],
     "fa_page": 208,
     "fa_page_verified": true,
@@ -11830,7 +11826,7 @@
         "no_direct_match": false,
         "text": "Cystic fibrosis is autosomal recessive.",
         "pages": [
-          59
+          58
         ]
       },
       "B": {
@@ -12116,10 +12112,10 @@
     "review_required": false,
     "complete": true,
     "fa_pages": [
-      54,
-      686
+      49,
+      54
     ],
-    "fa_page": 54,
+    "fa_page": 49,
     "fa_page_verified": true,
     "fa_summary": "The findings suggest osteogenesis imperfecta, commonly caused by a type I collagen defect. One gene defect affects multiple tissues (bone, sclerae, teeth, and hearing), which is pleiotropy."
   },
