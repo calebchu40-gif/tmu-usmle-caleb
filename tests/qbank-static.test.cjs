@@ -72,6 +72,14 @@ test('standalone qbank does not save learning state in browser local storage or 
   assert.match(html,/assets\/cloud\.js/);
 });
 
+test('login accepts the test username and real-email accounts, with email registration requiring later authorization',()=>{
+  for(const id of ['loginIdentifier','password','registerEmail'])assert.match(html,new RegExp(`id="${id}"`));
+  assert.match(html,/邮箱注册后需完成邮箱验证，并由管理员授权/);
+  assert.match(app,/cloud\.login\(\$\("loginIdentifier"\)\.value/);
+  assert.match(app,/cloud\.registerEmail\(identifier,password\)/);
+  assert.match(fs.readFileSync('assets/cloud.js','utf8'),/INTERNAL_USERNAME_DOMAIN = 'users\.invalid'/);
+});
+
 test('manually verified OCR override corrects the anatomy item and points to printed FA page 463',()=>{
   const item=overrides['自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||1'];
   assert.equal(item.options[1].text,'Adduction of the humerus at the shoulder');

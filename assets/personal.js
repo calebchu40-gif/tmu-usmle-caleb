@@ -106,18 +106,25 @@
     if (initError) { panel().append(el('p', initError, 'description'), button('重试连接', () => location.reload())); return; }
     if (!connected) { panel().append(el('p', '云端尚未配置。连接个人数据库后，即可登录并跨设备保存。', 'description')); return; }
     if (!store.user) {
-      panel().append(el('p', '仅供站点主人使用，不开放注册。登录后管理私人 HTML、学习记录和收藏。', 'description'));
+      panel().append(el('p', '仅授权账号可访问。测试账号使用用户名；其他账号使用邮箱。邮箱注册后仍需管理员授权。', 'description'));
       const form = el('form', undefined, 'editor-form login-form');
-      const email = field(form, '邮箱', 'email', '', 'email'); email.required = true; email.autocomplete = 'username';
+      const identifier = field(form, '账号（用户名或邮箱）', 'identifier', '', 'text'); identifier.required = true; identifier.autocomplete = 'username';
       const password = field(form, '密码', 'password', '', 'password'); password.required = true; password.autocomplete = 'current-password';
-      const submit = el('button', '登录', 'button primary'); submit.type = 'submit'; form.append(submit);
+      const submit = el('button', '登录', 'button primary'); submit.type = 'submit';
+      const register = el('button', '邮箱注册', 'button'); register.type = 'button'; form.append(submit, register);
       form.onsubmit = event => { event.preventDefault(); run(async () => {
-        await store.login(email.value.trim(), password.value); password.value = ''; revision++;
+        await store.login(identifier.value.trim(), password.value); password.value = ''; revision++;
         await refresh(); render(); message('已登录，学习记录将保存到云端。');
       }, submit); };
+      register.onclick = () => run(async () => {
+        if (!identifier.value.includes('@')) throw new Error('邮箱注册请在账号框中填写邮箱地址。');
+        const result = await store.registerEmail(identifier.value.trim(), password.value);
+        password.value = '';
+        message(result.confirmationRequired ? '注册请求已创建。请验证邮箱，之后还需管理员授权。' : '注册已创建。请联系管理员授权后再登录。');
+      }, register);
       panel().append(form); return;
     }
-    panel().append(el('p', `已登录：${store.user.email}`, 'description'));
+    panel().append(el('p', `已登录：${store.displayName?.() || store.user.email}`, 'description'));
     const actions = el('div', undefined, 'actions');
     actions.append(link('管理学习记录', '#/records'), link('管理 HTML', '#/manage'), button('刷新云端数据', e => run(async () => { await refresh(); message('已获取最新云端数据。'); }, e.target)), button('退出登录', e => run(async () => {
       if (pending.size && !confirm('还有未保存的答题记录，退出将丢弃这些修改。仍要退出吗？')) return;

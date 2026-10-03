@@ -1,6 +1,15 @@
 /* Authentication and data access; iframe content never receives this client. */
 (() => {
   'use strict';
+  const INTERNAL_USERNAME_DOMAIN = 'users.invalid';
+  function loginIdentity(identifier) {
+    const value = String(identifier || '').trim();
+    if (value.includes('@')) return value;
+    if (!/^[a-zA-Z0-9][a-zA-Z0-9._-]{2,31}$/.test(value)) {
+      throw new Error('请输入有效的用户名或邮箱。用户名需为 3–32 位字母、数字、点、下划线或短横线。');
+    }
+    return `${value.toLowerCase()}@${INTERNAL_USERNAME_DOMAIN}`;
+  }
   class CloudStore {
     constructor(client) { this.client = client; this.user = null; }
     async checkSession() {
@@ -13,10 +22,25 @@
       this.user = data.user; return this.user;
     }
     requireUser() { if (!this.user) throw new Error('请先登录个人账号。'); return this.user.id; }
-    async login(email, password) {
+    displayName(user = this.user) {
+      const email = user?.email || '';
+      const suffix = `@${INTERNAL_USERNAME_DOMAIN}`;
+      return email.toLowerCase().endsWith(suffix) ? email.slice(0, -suffix.length) : email;
+    }
+    async login(identifier, password) {
+      const email = loginIdentity(identifier);
       const {error} = await this.client.auth.signInWithPassword({email, password});
-      if (error) throw new Error('登录失败，请检查邮箱和密码。');
+      if (error) throw new Error('登录失败，请检查账号和密码；邮箱注册账号还需先完成邮箱验证并获得访问授权。');
       return this.checkSession();
+    }
+    async registerEmail(email, password) {
+      const normalized = String(email || '').trim();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalized)) throw new Error('邮箱注册请填写有效邮箱地址。');
+      if (String(password || '').length < 8) throw new Error('密码至少需要 8 位。');
+      const {data, error} = await this.client.auth.signUp({email: normalized, password});
+      if (error) throw new Error(error.message || '邮箱注册失败。');
+      if (data.session) await this.client.auth.signOut({scope: 'local'});
+      return {confirmationRequired: !data.session};
     }
     async logout() {
       const {error} = await this.client.auth.signOut({scope: 'local'});

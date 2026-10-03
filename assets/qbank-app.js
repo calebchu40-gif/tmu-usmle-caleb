@@ -196,7 +196,7 @@ async function connectAccount() {
   try{
     cloud=await window.connectStudyCloud();if(!cloud)throw new Error("云端配置缺失。");
     user=await cloud.checkSession();
-    if(user){$("accountLabel").textContent=user.email||"已登录";$("loginButton").classList.add("hidden");$("logoutButton").classList.remove("hidden");await refreshRecords();status("答题记录已从账号同步");}
+    if(user){$("accountLabel").textContent=cloud.displayName(user)||"已登录";$("loginButton").classList.add("hidden");$("logoutButton").classList.remove("hidden");await refreshRecords();status("答题记录已从账号同步");}
     else{$("accountLabel").textContent="未登录 · 记录不会同步";status("请登录后答题，才能保存到账号。");}
   }catch(e){status(e.message||"账号连接失败",true);$("accountLabel").textContent="账号连接失败";}
 }
@@ -307,5 +307,6 @@ document.addEventListener("keydown",event=>{if(event.key==="Escape")$("finishCon
 $("startTest").onclick=startTest;
 $("loginButton").onclick=()=>{$("loginModal").classList.remove("hidden");$("loginStatus").textContent=""};$("cancelLogin").onclick=()=>$("loginModal").classList.add("hidden");
 $("logoutButton").onclick=async()=>{if(!cloud)return;await cloud.logout();user=null;records.clear();answers.clear();pendingAttempts.clear();$("loginButton").classList.remove("hidden");$("logoutButton").classList.add("hidden");$("accountLabel").textContent="未登录 · 记录不会同步";status("已退出账号");render()};
-$("loginForm").onsubmit=async event=>{event.preventDefault();$("loginStatus").textContent="正在登录…";try{if(!cloud)cloud=await window.connectStudyCloud();user=await cloud.login($("email").value,$("password").value);$("loginModal").classList.add("hidden");$("accountLabel").textContent=user.email||"已登录";$("loginButton").classList.add("hidden");$("logoutButton").classList.remove("hidden");await refreshRecords();status("账号已登录，记录已同步");}catch(e){$("loginStatus").textContent=e.message||"登录失败"}};
+$("loginForm").onsubmit=async event=>{event.preventDefault();$("loginStatus").textContent="正在登录…";try{if(!cloud)cloud=await window.connectStudyCloud();user=await cloud.login($("loginIdentifier").value,$("password").value);$("password").value="";$("loginModal").classList.add("hidden");$("accountLabel").textContent=cloud.displayName(user)||"已登录";$("loginButton").classList.add("hidden");$("logoutButton").classList.remove("hidden");await refreshRecords();status("账号已登录，记录已同步");}catch(e){$("loginStatus").textContent=e.message||"登录失败"}};
+$("registerEmail").onclick=async()=>{const identifier=$("loginIdentifier").value.trim();const password=$("password").value;$("loginStatus").textContent="正在创建邮箱账号…";try{if(!cloud)cloud=await window.connectStudyCloud();if(!identifier.includes("@"))throw new Error("邮箱注册请在账号框中填写邮箱地址。");const result=await cloud.registerEmail(identifier,password);$("password").value="";$("loginStatus").textContent=result.confirmationRequired?"注册请求已创建。请查收验证邮件；完成验证后还需管理员授权才能访问。":"注册已创建。请联系管理员将账号加入授权名单后再登录。";}catch(e){$("loginStatus").textContent=e.message||"邮箱注册失败"}};
 init();
