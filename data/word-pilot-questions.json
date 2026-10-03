@@ -10053,6 +10053,475 @@
     "fa_summary": "Sjögren syndrome causes lymphocytic exocrine-gland injury and sicca; anti-SSA/Ro is a common associated antibody."
   },
   {
+    "id": "import-416bc1e9fd2f4a9da18e7ccb",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Cardiac output and vascular resistance",
+    "stem": "A 56-year-old woman is admitted to the hospital for a hysterectomy. After surgery, she is transferred to the intensive care unit. While supine, her mean systemic blood pressure is 100 mm Hg, her right atrial pressure is 0 mm Hg, and cardiac output is 4 L/min. What is the total peripheral resistance in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.25 (L/min)/mm Hg"
+      },
+      {
+        "letter": "B",
+        "text": "1 mm Hg/(mL/min)"
+      },
+      {
+        "letter": "C",
+        "text": "4 mm Hg/(L/min)"
+      },
+      {
+        "letter": "D",
+        "text": "25 mm Hg/(L/min)"
+      },
+      {
+        "letter": "E",
+        "text": "100 (L/min)/mm Hg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "TPR is the pressure gradient driving systemic flow divided by cardiac output: (MAP − right atrial pressure)/CO. Here, (100 − 0)/4 = 25 mm Hg/(L/min).",
+    "choice_explanations": {
+      "A": "Incorrect: reciprocal-scale arithmetic and units do not match (MAP−RAP)/CO.",
+      "B": "Incorrect: this is not the calculated pressure-per-flow resistance.",
+      "C": "Incorrect: 4 is the cardiac output, not the resistance; it also omits the pressure gradient.",
+      "D": "Correct: (100−0) mm Hg ÷ 4 L/min = 25 mm Hg/(L/min).",
+      "E": "Incorrect: this reverses the resistance units and does not follow the equation."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Total peripheral resistance is calculated from the pressure gradient divided by cardiac output; the page gives the MAP, RAP, CO relationship.",
+        "page": 289
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The same cardiac-output equation distinguishes pressure per flow from the reciprocal flow-per-pressure units.",
+        "page": 289
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Cardiac output is the denominator in TPR = (MAP−RAP)/CO, not the resistance itself.",
+        "page": 289
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: TPR = (MAP−RAP)/CO.",
+        "page": 289
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page’s equation establishes pressure divided by flow; the reciprocal units are not TPR.",
+        "page": 289
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      289
+    ],
+    "fa_page": 289,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 289 presents the cardiac output and total peripheral resistance equations; this item directly applies TPR = (MAP−RAP)/CO."
+  },
+  {
+    "id": "import-a4a759093a7482561b5fecf7",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Embryologic development of the heart",
+    "stem": "A 78-year-old man comes to the physician because of shortness of breath, dizziness, and fainting spells. Physical examination shows distended neck veins and peripheral edema. A ‘plopping’ sound is heard on auscultation of the heart. An echocardiogram shows a large mass arising from the smooth part of the right atrium. This region of the atrium derives from which embryonic structure?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bulbus cordis"
+      },
+      {
+        "letter": "B",
+        "text": "Primitive atrium"
+      },
+      {
+        "letter": "C",
+        "text": "Primitive ventricle"
+      },
+      {
+        "letter": "D",
+        "text": "Sinus venosus"
+      },
+      {
+        "letter": "E",
+        "text": "Truncus arteriosus"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The smooth-walled sinus venarum of the right atrium develops from the right horn of the sinus venosus. The trabeculated portions of the atria arise from the primitive atrium. The mass is consistent with an atrial myxoma; the developmental question asks for the origin of the smooth atrial wall.",
+    "choice_explanations": {
+      "A": "Incorrect: bulbus cordis contributes to ventricular outflow/right ventricular structures, not the smooth right atrial wall.",
+      "B": "Incorrect: primitive atrium forms the trabeculated portions of both atria.",
+      "C": "Incorrect: primitive ventricle contributes mainly to trabeculated left ventricle.",
+      "D": "Correct: the smooth right atrium (sinus venarum) derives from the sinus venosus.",
+      "E": "Incorrect: truncus arteriosus contributes to the great-artery outflow tracts."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Heart-development derivatives distinguish bulbus cordis derivatives from the venous inflow-derived smooth right atrium.",
+        "page": 285
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Primitive atrium forms the trabeculated portions of the atria.",
+        "page": 285
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Primitive ventricle contributes to ventricular myocardium, not sinus venarum.",
+        "page": 285
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: right horn of sinus venosus forms the smooth part of the right atrium.",
+        "page": 285
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Truncus arteriosus contributes to the aorticopulmonary outflow structures.",
+        "page": 285
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      285
+    ],
+    "fa_page": 285,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 285 directly identifies the sinus venosus as the source of the smooth right atrium and contrasts it with primitive-atrium trabeculations."
+  },
+  {
+    "id": "import-46f8f7bb2d3a6414046f4a04",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Posterior fossa malformations",
+    "stem": "A 14-year-old girl is brought to the physician because of headaches and neck pain. She says that the headaches become worse after coughing or sneezing. Physical examination shows an unsteady gait. A CT scan shows herniation of the cerebellar tonsils through the foramen magnum. No other structural abnormalities are seen. Which of the following best describes this finding?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Arnold-Chiari type I malformation"
+      },
+      {
+        "letter": "B",
+        "text": "Arnold-Chiari type II malformation"
+      },
+      {
+        "letter": "C",
+        "text": "Dandy-Walker malformation"
+      },
+      {
+        "letter": "D",
+        "text": "Holoprosencephaly"
+      },
+      {
+        "letter": "E",
+        "text": "Lissencephaly"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Isolated downward herniation of the cerebellar tonsils through the foramen magnum is Chiari I. It may become symptomatic in adolescence or adulthood, with Valsalva-provoked occipital headache, neck pain, and cerebellar signs. Chiari II involves additional hindbrain displacement and is commonly associated with myelomeningocele.",
+    "choice_explanations": {
+      "A": "Correct: Chiari I is tonsillar herniation through the foramen magnum, often symptomatic with Valsalva.",
+      "B": "Incorrect: Chiari II is a more extensive hindbrain herniation, commonly with myelomeningocele.",
+      "C": "Incorrect: Dandy-Walker features cerebellar vermis hypoplasia and an enlarged fourth ventricle.",
+      "D": "Incorrect: holoprosencephaly is failed forebrain division, not tonsillar herniation.",
+      "E": "Incorrect: lissencephaly is abnormal neuronal migration producing a smooth cerebral surface."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Posterior fossa malformations: Chiari I is downward displacement of cerebellar tonsils through the foramen magnum.",
+        "page": 502
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Chiari II is a distinct hindbrain malformation, typically more extensive and associated with myelomeningocele.",
+        "page": 502
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Dandy-Walker is characterized by vermian hypoplasia and cystic/enlarged fourth-ventricle changes.",
+        "page": 502
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Holoprosencephaly is a forebrain-cleavage malformation, distinct from posterior-fossa herniation.",
+        "page": 501
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lissencephaly is a neuronal-migration malformation with reduced/absent cortical gyri.",
+        "page": 501
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      501,
+      502
+    ],
+    "fa_page": 501,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 pp. 501–502 cover holoprosencephaly/lissencephaly and posterior fossa malformations; p. 502 directly describes Chiari I and its main differential."
+  },
+  {
+    "id": "import-bd65e8cd7178ea48f5841b2c",
+    "chapter": "Immunology",
+    "fa_subchapter": "Pharyngeal apparatus and DiGeorge syndrome",
+    "stem": "A 2-week-old newborn with cleft palate and abnormal facies is brought to the physician by his parents because of frequent crying spells and spasms of the hands and feet. Serum calcium is 6.8 mg/dL. A chest x-ray shows absence of tissue posterior to the manubrium of the sternum. A developmental defect of which structure is most likely responsible?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Second pharyngeal arch"
+      },
+      {
+        "letter": "B",
+        "text": "Second pharyngeal cleft"
+      },
+      {
+        "letter": "C",
+        "text": "Second pharyngeal pouch"
+      },
+      {
+        "letter": "D",
+        "text": "Third pharyngeal arch"
+      },
+      {
+        "letter": "E",
+        "text": "Third pharyngeal pouch"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The absent thymic shadow and hypocalcemia indicate DiGeorge syndrome, due to abnormal development of the third and fourth pharyngeal pouches (with abnormal neural-crest migration). The third pouch normally forms the thymus and inferior parathyroids; loss of thymic tissue impairs T-cell development, while parathyroid loss causes hypocalcemia.",
+    "choice_explanations": {
+      "A": "Incorrect: the second arch forms structures such as facial-expression muscles and the stapes, not thymus/inferior parathyroids.",
+      "B": "Incorrect: the second cleft is normally overgrown; persistence causes a branchial cleft cyst/sinus, not this syndrome.",
+      "C": "Incorrect: the second pouch contributes to palatine tonsillar epithelium, not thymus and inferior parathyroids.",
+      "D": "Incorrect: the third arch contributes to stylopharyngeus and portions of the hyoid; pouch derivatives explain the combined thymic/parathyroid deficit.",
+      "E": "Correct: the third pouch forms thymus and inferior parathyroid glands; abnormal pouches 3/4 produce the findings."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pharyngeal-arch derivatives include muscles and skeletal structures; not the thymus/inferior parathyroids.",
+        "page": 638
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pharyngeal cleft derivatives include the external auditory canal; a persistent second cleft may form a branchial cyst/sinus.",
+        "page": 637
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The second pouch forms the palatine tonsillar epithelium.",
+        "page": 637
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Third-arch derivatives include stylopharyngeus and hyoid components.",
+        "page": 638
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: third pouch gives rise to thymus and inferior parathyroid glands; DiGeorge involves pouches 3 and 4.",
+        "page": 637
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      637,
+      638
+    ],
+    "fa_page": 637,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 pp. 637–638 cover pouch and arch derivatives. The third-pouch/DiGeorge link on p. 637 directly explains the thymic absence and hypocalcemia."
+  },
+  {
+    "id": "import-8557d4bdc0f9ccd1d7e5f386",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Congenital diaphragmatic hernia and lung development",
+    "stem": "A newborn born at 38 weeks’ gestation is intubated immediately after birth because of severe respiratory distress. Physical examination shows abdominal retractions. A chest x-ray shows abdominal viscera in the left hemithorax and rightward shift of the cardiac silhouette. Which finding is most likely to result from this abnormality?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Esophageal atresia"
+      },
+      {
+        "letter": "B",
+        "text": "Paralyzed hemidiaphragm"
+      },
+      {
+        "letter": "C",
+        "text": "Pulmonary hypoplasia"
+      },
+      {
+        "letter": "D",
+        "text": "Severe gastroesophageal reflux"
+      },
+      {
+        "letter": "E",
+        "text": "Tracheoesophageal fistula"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The findings indicate a congenital posterolateral diaphragmatic hernia, usually left-sided, with abdominal contents compressing the developing lung. The ipsilateral lung is hypoplastic, causing severe neonatal respiratory compromise.",
+    "choice_explanations": {
+      "A": "Incorrect: esophageal atresia results from abnormal foregut/tracheoesophageal partitioning, not diaphragmatic herniation.",
+      "B": "Incorrect: hemidiaphragm paralysis is generally due to phrenic-nerve injury, not displaced abdominal viscera.",
+      "C": "Correct: thoracic compression from a congenital diaphragmatic hernia impairs ipsilateral lung development, causing pulmonary hypoplasia.",
+      "D": "Incorrect: reflux is not the characteristic developmental consequence of this hernia.",
+      "E": "Incorrect: tracheoesophageal fistula is a separate foregut-separation defect."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Tracheoesophageal/foregut anomalies are separate from congenital diaphragmatic hernia.",
+        "page": 366
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not give a direct, specific match for phrenic-nerve injury causing a paralyzed hemidiaphragm in this comparison."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: congenital diaphragmatic hernia is associated with pulmonary hypoplasia.",
+        "page": 679
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 knowledge point was identified for severe reflux as a specific consequence of congenital diaphragmatic hernia."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Tracheoesophageal fistula is a distinct foregut-separation anomaly.",
+        "page": 366
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      366,
+      679
+    ],
+    "fa_page": 366,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 679 directly links congenital diaphragmatic hernia to pulmonary hypoplasia; p. 377 covers the hernia itself and p. 366 contrasts foregut anomalies."
+  },
+  {
+    "id": "import-e7998541c5fd2d512f2bf6cb",
+    "chapter": "Pathology",
+    "fa_subchapter": "Amyloidosis",
+    "stem": "An 83-year-old man who died suddenly at a nursing home is found to have small amounts of abnormal protein deposited in the heart. When stained with Congo red and viewed under polarized light, the protein demonstrates apple-green birefringence. This finding is absent from other organs. His only medical problem was hypertension, with no evidence of systemic inflammation. Misfolding of which protein is most likely responsible?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Amyloid-associated protein"
+      },
+      {
+        "letter": "B",
+        "text": "Amyloid light-chain protein"
+      },
+      {
+        "letter": "C",
+        "text": "Beta-2 amyloid protein"
+      },
+      {
+        "letter": "D",
+        "text": "Beta-2 microglobulin"
+      },
+      {
+        "letter": "E",
+        "text": "Transthyretin"
+      }
+    ],
+    "answer": "E",
+    "explanation": "An elderly patient with isolated cardiac amyloid deposition and no systemic amyloid-associated disease has senile cardiac amyloidosis, caused by transthyretin (often wild-type transthyretin). Congo-red apple-green birefringence confirms amyloid but the distribution and clinical context identify the precursor.",
+    "choice_explanations": {
+      "A": "Incorrect: serum amyloid A is associated with chronic inflammation and typically systemic AA amyloidosis.",
+      "B": "Incorrect: immunoglobulin light chains cause AL amyloidosis, often with plasma-cell dyscrasia and systemic organ involvement.",
+      "C": "Incorrect: β-amyloid is associated with Alzheimer disease and cerebral amyloid angiopathy, not isolated senile cardiac amyloid.",
+      "D": "Incorrect: β2-microglobulin accumulates with long-term hemodialysis.",
+      "E": "Correct: wild-type transthyretin can deposit in the hearts of older adults as senile cardiac amyloid."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Amyloid-type table distinguishes serum amyloid A/AA from transthyretin-related amyloid.",
+        "page": 208
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The amyloid table identifies immunoglobulin light chains as AL amyloid.",
+        "page": 208
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The table associates β-amyloid with Alzheimer disease/cerebral deposition.",
+        "page": 208
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The table associates β2-microglobulin with chronic hemodialysis.",
+        "page": 208
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: wild-type transthyretin is associated with aging and primarily cardiac deposition.",
+        "page": 208
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      208
+    ],
+    "fa_page": 208,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 208 amyloidosis table directly distinguishes AL, AA, β-amyloid, β2-microglobulin, and transthyretin; aging-associated wild-type TTR is primarily cardiac."
+  },
+  {
     "id": "import-619e257ad94ea64e8f39ba79",
     "chapter": "Biochemistry",
     "fa_subchapter": "Genetics",
