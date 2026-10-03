@@ -19044,5 +19044,199 @@
     ],
     "question_figures_reviewed": true,
     "question_figure_description": "仅保留题目答案选项所必需的 Darrow–Yannet A–E 示意图；无题干、作答状态、正确答案标记或解析。"
+  },
+  {
+    "id": "import-6337013f790b8cc06b2dfdf3",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Other esophageal pathologies",
+    "stem": "A 51-year-old man is brought to the emergency department for hematemesis and acute loss of consciousness. His wife says that he had not been vomiting before the blood appeared. He has a long history of alcohol abuse but no prior hematemesis or recent illness. Which of the following is the most likely underlying condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Achalasia"
+      },
+      {
+        "letter": "B",
+        "text": "Boerhaave syndrome"
+      },
+      {
+        "letter": "C",
+        "text": "Esophageal cancer"
+      },
+      {
+        "letter": "D",
+        "text": "Esophageal varices"
+      },
+      {
+        "letter": "E",
+        "text": "Mallory-Weiss tear"
+      },
+      {
+        "letter": "F",
+        "text": "Plummer-Vinson syndrome"
+      },
+      {
+        "letter": "G",
+        "text": "Schatzki ring"
+      },
+      {
+        "letter": "H",
+        "text": "Zenker diverticulum"
+      }
+    ],
+    "answer": "D",
+    "explanation": "This is acute, life-threatening upper gastrointestinal bleeding in a patient with longstanding alcohol use, without preceding forceful vomiting. Alcohol-associated cirrhosis can cause portal hypertension, which dilates submucosal esophageal veins; rupture of these varices can produce massive hematemesis, syncope, and shock. A Mallory-Weiss tear or Boerhaave syndrome is more likely after repeated forceful retching, while esophageal cancer generally causes progressive dysphagia rather than sudden bleeding.",
+    "choice_explanations": {
+      "A": "Achalasia causes progressive dysphagia to solids and liquids from impaired lower-esophageal-sphincter relaxation; it does not typically cause acute hematemesis.",
+      "B": "Boerhaave syndrome is a transmural esophageal rupture, usually after forceful vomiting, often with severe chest pain and pneumomediastinum. No preceding emesis is reported here.",
+      "C": "Esophageal cancer commonly presents with progressive dysphagia and weight loss, not abrupt massive bleeding as the initial event.",
+      "D": "Portal hypertension from alcohol-associated cirrhosis dilates lower-esophageal submucosal veins; variceal rupture can cause sudden massive hematemesis and hemodynamic compromise.",
+      "E": "A Mallory-Weiss tear is a mucosal/submucosal longitudinal laceration at the gastroesophageal junction, classically following repeated retching or vomiting before hematemesis.",
+      "F": "Plummer-Vinson syndrome is iron-deficiency anemia with glossitis and esophageal webs, causing dysphagia; it does not explain acute variceal-type bleeding.",
+      "G": "A Schatzki ring is a benign mucosal ring near the gastroesophageal junction that causes intermittent solid-food dysphagia, not acute hematemesis.",
+      "H": "Zenker diverticulum causes oropharyngeal dysphagia, regurgitation, and halitosis; it rarely presents with bleeding."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Achalasia: impaired LES relaxation, progressive dysphagia to solids and liquids, and a dilated esophagus with distal ‘bird’s-beak’ narrowing.",
+        "page": 383
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Boerhaave syndrome is a transmural esophageal rupture caused by violent retching; may cause pneumomediastinum.",
+        "page": 384
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Esophageal cancer risk and presentation; usually progressive dysphagia rather than an abrupt first episode of hematemesis.",
+        "page": 385
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Portal hypertension creates portosystemic collaterals including esophageal varices; varices in the lower esophagus may cause life-threatening hematemesis.",
+        "pages": [
+          372,
+          384
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Mallory-Weiss syndrome is a partial-thickness longitudinal mucosal/submucosal tear at the gastroesophageal junction after severe vomiting.",
+        "page": 384
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Plummer-Vinson syndrome: dysphagia, iron-deficiency anemia, and esophageal webs; increased risk of esophageal squamous-cell carcinoma.",
+        "page": 384
+      },
+      "G": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct Schatzki-ring entry found in First Aid 2026; the esophageal pathology page covers related strictures/rings but does not identify this specific benign mucosal ring."
+      },
+      "H": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Zenker diverticulum is an acquired false diverticulum of the esophagus; false diverticula contain mucosa and submucosa only.",
+        "page": 390
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      372,
+      383,
+      384,
+      385,
+      390
+    ],
+    "fa_page": 384,
+    "fa_page_verified": true,
+    "fa_summary": "Portal hypertension causes portosystemic collateralization and lower-esophageal varices; rupture can cause sudden life-threatening hematemesis. Distinguish from post-retching esophageal tears."
+  },
+  {
+    "id": "import-af2578fba07f512ca377d359",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Cholelithiasis and related pathologies",
+    "stem": "A 22-year-old woman with hereditary spherocytosis comes to the physician because of intermittent right upper-quadrant abdominal pain. Ultrasonography shows multiple stones in the gallbladder. Which of the following is the most likely composition of these stones?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ammonium phosphate"
+      },
+      {
+        "letter": "B",
+        "text": "Calcium bilirubinate"
+      },
+      {
+        "letter": "C",
+        "text": "Calcium carbonate"
+      },
+      {
+        "letter": "D",
+        "text": "Cholesterol"
+      },
+      {
+        "letter": "E",
+        "text": "Palmitate"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Hereditary spherocytosis causes chronic extravascular hemolysis, increasing heme breakdown and bilirubin production. This predisposes to black pigment gallstones composed primarily of calcium bilirubinate. Cholesterol stones are more common overall, but the patient’s chronic hemolytic disorder specifically points to pigment stones; brown pigment stones are more often associated with biliary infection.",
+    "choice_explanations": {
+      "A": "Ammonium phosphate (struvite) stones form in alkaline urine in the setting of urease-producing urinary pathogens such as Proteus; they are urinary calculi, not gallstones.",
+      "B": "Calcium bilirubinate forms black pigment gallstones in chronic hemolysis, as occurs in hereditary spherocytosis.",
+      "C": "Calcium carbonate is not a typical major gallstone composition; the principal classes are cholesterol and bilirubinate pigment stones.",
+      "D": "Cholesterol is the most common gallstone composition overall, but chronic hemolysis specifically favors calcium-bilirubinate pigment stones.",
+      "E": "Palmitate is a fatty acid and is not the characteristic composition of hemolysis-associated black pigment gallstones."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Urease-producing Proteus alkalinizes urine and can promote struvite (magnesium ammonium phosphate) urinary stones; this is distinct from gallstones.",
+        "page": 143
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pigment stones: black stones are calcium bilirubinate and are associated with chronic hemolysis.",
+        "page": 403
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 gallstone entry for calcium carbonate; the gallstone page identifies cholesterol and calcium-bilirubinate pigment stones."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Cholesterol stones are the most common gallstone type (about 80%); supersaturation with cholesterol and reduced bile salts/stasis contribute.",
+        "page": 403
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 entry for palmitate as a gallstone component; the gallstone page identifies cholesterol and calcium-bilirubinate pigment stones."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      143,
+      403
+    ],
+    "fa_page": 403,
+    "fa_page_verified": true,
+    "fa_summary": "Chronic hemolysis increases unconjugated bilirubin and predisposes to black calcium-bilirubinate pigment stones; cholesterol stones are most common overall."
   }
 ]
