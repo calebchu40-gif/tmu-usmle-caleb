@@ -4,593 +4,2070 @@
     "fa_subchapter": "Pathology",
     "stem": "A 32-year-old woman comes to the physician because of a mass in her left breast. A diagnosis of breast cancer is made and a mastectomy is planned. During the procedure, involvement of the muscle deep to the fatty tissue is seen and a radical mastectomy with removal of the breast, underlying chest muscles, and lymph nodes is performed. Removal of this muscle will most likely compromise which of the following functions?",
     "options": [
-      {"letter":"A","text":"Abduction of the humerus at the shoulder"},
-      {"letter":"B","text":"Adduction of the humerus at the shoulder"},
-      {"letter":"C","text":"External rotation of the humerus at the shoulder"},
-      {"letter":"D","text":"Retraction of the scapula"},
-      {"letter":"E","text":"Supination of the forearm"}
+      {
+        "letter": "A",
+        "text": "Abduction of the humerus at the shoulder"
+      },
+      {
+        "letter": "B",
+        "text": "Adduction of the humerus at the shoulder"
+      },
+      {
+        "letter": "C",
+        "text": "External rotation of the humerus at the shoulder"
+      },
+      {
+        "letter": "D",
+        "text": "Retraction of the scapula"
+      },
+      {
+        "letter": "E",
+        "text": "Supination of the forearm"
+      }
     ],
     "answer": "B",
-    "explanation": "The muscle deep to the breast is the pectoralis major. Removing it weakens adduction and internal rotation of the humerus, so B is correct. A is primarily performed by the deltoid after the first 15 degrees, with the supraspinatus initiating abduction. C is produced mainly by the infraspinatus and teres minor. D is performed by the trapezius and rhomboids. E is performed by the biceps brachii and supinator. The clue is the muscle removed in a radical mastectomy, not the breast tissue itself.",
+    "explanation": "The muscle deep to the breast is the pectoralis major. It adducts and internally rotates the humerus; removing it weakens shoulder adduction. The deltoid (with supraspinatus initiating the movement) abducts the arm; infraspinatus and teres minor externally rotate it; trapezius and rhomboids retract the scapula; biceps brachii and supinator supinate the forearm. The source notes that modified radical mastectomy commonly spares pectoralis major.",
     "choice_explanations": {
-      "A":"Incorrect: deltoid produces most shoulder abduction; supraspinatus initiates it.",
-      "B":"Correct: pectoralis major adducts and internally rotates the humerus.",
-      "C":"Incorrect: infraspinatus and teres minor are the principal external rotators.",
-      "D":"Incorrect: trapezius and rhomboids retract the scapula.",
-      "E":"Incorrect: biceps brachii and supinator supinate the forearm."
+      "A": "Incorrect: shoulder abduction is performed chiefly by deltoid after initiation by supraspinatus.",
+      "B": "Correct: pectoralis major adducts and internally rotates the humerus.",
+      "C": "Incorrect: infraspinatus and teres minor are the principal external rotators.",
+      "D": "Incorrect: trapezius and rhomboids retract the scapula.",
+      "E": "Incorrect: biceps brachii and supinator supinate the forearm."
     },
     "fa_summary": "The pectoralis major contributes to humeral adduction; compare shoulder movements with the rotator-cuff actions and arm-movement diagrams.",
-    "fa_page": 463
+    "fa_page": 463,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": true,
+    "source_pdf_pages": {
+      "question": [
+        1
+      ],
+      "explanation": [
+        2,
+        3
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "option_fa": {
+      "A": {
+        "page": 451,
+        "verified": true,
+        "text": "Shoulder table: supraspinatus initiates abduction (0–15°), deltoid abducts 15–90°, trapezius and serratus anterior assist above 90°; infraspinatus externally rotates; teres minor externally rotates/adducts; subscapularis internally rotates/adducts.",
+        "images": [
+          "assets/fa-pages/fa-2026-p451.png"
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "C": {
+        "page": 451,
+        "verified": true,
+        "text": "Shoulder table: supraspinatus initiates abduction (0–15°), deltoid abducts 15–90°, trapezius and serratus anterior assist above 90°; infraspinatus externally rotates; teres minor externally rotates/adducts; subscapularis internally rotates/adducts.",
+        "images": [
+          "assets/fa-pages/fa-2026-p451.png"
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "E": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: musculocutaneous nerve injury causes loss of forearm flexion and supination, with reduced biceps reflex and lateral forearm sensory loss.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      }
+    }
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||2": {
     "chapter": "Neurology and Special Senses",
     "fa_subchapter": "Pathology",
-    "stem": "A 59-year-old man is brought to the emergency department after being found unconscious by his wife. On examination, he is unable to move his extremities and has decerebrate posturing. The patient is unable to speak or move his face. He is able to answer yes/no questions by using eye blinks or vertical eye movements, but has no horizontal eye movements. He is unable to move his limbs in response to commands and has upgoing plantar responses bilaterally. Pathology of the following vessels is most likely responsible for this patient's condition?",
+    "stem": "A 59-year-old man is brought to the emergency department after being found unconscious by his wife. On examination, he is unable to move his extremities and has decerebrate posturing. The patient is unable to speak or move his face. He is able to answer yes/no questions by using eye blinks or vertical eye movements, but has no horizontal eye movements. He is unable to move his limbs in response to commands and has upgoing plantar responses bilaterally. Pathology of which of the following vessels is most likely responsible for this patient's condition?",
     "options": [
-      {"letter":"A","text":"Anterior inferior cerebellar artery (AICA)"},
-      {"letter":"B","text":"Basilar artery"},
-      {"letter":"C","text":"Middle cerebral artery"},
-      {"letter":"D","text":"Posterior inferior cerebellar artery (PICA)"},
-      {"letter":"E","text":"Vertebral artery"}
+      {
+        "letter": "A",
+        "text": "Anterior inferior cerebellar artery (AICA)"
+      },
+      {
+        "letter": "B",
+        "text": "Basilar artery"
+      },
+      {
+        "letter": "C",
+        "text": "Middle cerebral artery"
+      },
+      {
+        "letter": "D",
+        "text": "Posterior inferior cerebellar artery (PICA)"
+      },
+      {
+        "letter": "E",
+        "text": "Vertebral artery"
+      }
     ],
     "answer": "B",
-    "explanation": "This is locked-in syndrome from a ventral pontine lesion: corticospinal and corticobulbar pathways are damaged, causing quadriplegia and loss of voluntary facial and speech movements, while vertical eye movements and blinking are preserved. Bilateral long-tract findings localize to the pons supplied by the basilar artery. AICA and PICA infarcts usually cause lateral pontine and lateral medullary syndromes, respectively; a middle cerebral artery infarct causes a hemispheric pattern; vertebral artery occlusion more typically causes lateral medullary findings. The patient's preserved awareness with loss of horizontal gaze is the key localization clue.",
+    "explanation": "This is locked-in syndrome from a bilateral lesion of the ventral pons, classically caused by basilar artery occlusion. The patient is conscious and retains vertical eye movements and blinking but has quadriplegia and loss of most voluntary motor output. AICA, PICA, and vertebral artery lesions more typically produce focal/lateral brainstem or cerebellar syndromes; an MCA lesion causes a hemispheric rather than bilateral ventral pontine syndrome.",
     "choice_explanations": {
-      "A":"Incorrect: AICA occlusion usually causes lateral pontine findings such as ipsilateral facial paralysis, vertigo, or hearing loss.",
-      "B":"Correct: basilar artery occlusion can injure the ventral pons bilaterally and produce locked-in syndrome.",
-      "C":"Incorrect: MCA occlusion produces a unilateral hemispheric syndrome, often with contralateral face/arm deficits and cortical signs.",
-      "D":"Incorrect: PICA occlusion classically causes lateral medullary (Wallenberg) syndrome.",
-      "E":"Incorrect: vertebral artery occlusion more often produces lateral medullary findings than a bilateral ventral pontine syndrome."
+      "A": "Incorrect: AICA infarction classically affects lateral caudal pons and may cause facial findings, not the described bilateral ventral pontine syndrome.",
+      "B": "Correct: basilar artery supplies the ventral pons bilaterally; occlusion can cause locked-in syndrome.",
+      "C": "Incorrect: MCA occlusion causes a cerebral hemispheric syndrome, usually with contralateral deficits.",
+      "D": "Incorrect: PICA occlusion classically causes lateral medullary syndrome.",
+      "E": "Incorrect: vertebral artery disease can cause medullary/posterior-circulation findings but is not the classic vessel for bilateral ventral pontine locked-in syndrome."
     },
     "fa_summary": "Basilar artery occlusion can injure pontine corticospinal/corticobulbar tracts, causing quadriplegia and loss of voluntary facial, mouth, and tongue movement; vertical eye movements may remain intact in locked-in syndrome.",
-    "fa_page": 526
+    "fa_page": 526,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        4
+      ],
+      "explanation": [
+        5,
+        6
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "option_fa": {
+      "A": {
+        "page": 526,
+        "verified": true,
+        "text": "Stroke table: basilar artery lesions involve pons/medulla/lower midbrain and can produce quadriplegia, preserved blinking/vertical eye movements, and locked-in syndrome; ACA/MCA/AICA patterns are contrasted on this page.",
+        "images": [
+          "assets/fa-pages/fa-2026-p526.png"
+        ]
+      },
+      "B": {
+        "page": 526,
+        "verified": true,
+        "text": "Stroke table: basilar artery lesions involve pons/medulla/lower midbrain and can produce quadriplegia, preserved blinking/vertical eye movements, and locked-in syndrome; ACA/MCA/AICA patterns are contrasted on this page.",
+        "images": [
+          "assets/fa-pages/fa-2026-p526.png"
+        ]
+      },
+      "C": {
+        "page": 526,
+        "verified": true,
+        "text": "Stroke table: basilar artery lesions involve pons/medulla/lower midbrain and can produce quadriplegia, preserved blinking/vertical eye movements, and locked-in syndrome; ACA/MCA/AICA patterns are contrasted on this page.",
+        "images": [
+          "assets/fa-pages/fa-2026-p526.png"
+        ]
+      },
+      "D": {
+        "page": 527,
+        "verified": true,
+        "text": "Stroke table: PICA infarction causes lateral medullary (Wallenberg) syndrome; vertebral artery involvement is noted in medial medullary syndrome.",
+        "images": [
+          "assets/fa-pages/fa-2026-p527.png"
+        ]
+      },
+      "E": {
+        "page": 527,
+        "verified": true,
+        "text": "Stroke table: PICA infarction causes lateral medullary (Wallenberg) syndrome; vertebral artery involvement is noted in medial medullary syndrome.",
+        "images": [
+          "assets/fa-pages/fa-2026-p527.png"
+        ]
+      }
+    }
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||3": {
     "chapter": "Musculoskeletal, Skin, and Connective Tissue",
     "fa_subchapter": "Anatomy and Physiology",
-    "stem": "A 21-year-old man is bitten by a stray cat. The wound becomes erythematous and swollen despite appropriate wound care. Five days later, the patient notices a pustule at the wound site that was not previously present and develops a low-grade fever. His symptoms persist, and two weeks later, he complains of pain in the back of his leg. Physical examination reveals a swollen tender lymph node in the popliteal fossa. An infected cat bite in which of the following sites would most likely induce lymphadenopathy in this region?",
+    "stem": "A 21-year-old man is bitten by a stray cat. The wound becomes erythematous and swollen despite appropriate wound care. Five days later, the patient notices a pustule at the wound site that was not previously present and develops a low-grade fever. His symptoms persist, and two weeks later, he complains of pain in the back of his leg. Physical examination reveals a swollen, tender lymph node in the popliteal fossa. An infected cat bite in which of the following sites would most likely induce lymphadenopathy in this region?",
     "options": [
-      {"letter":"A","text":"Lateral side of the dorsum of the foot"},
-      {"letter":"B","text":"Lateral side of the thigh"},
-      {"letter":"C","text":"Medial side of the leg below the knee"},
-      {"letter":"D","text":"Medial side of the sole of the foot"},
-      {"letter":"E","text":"Medial side of the thigh"}
+      {
+        "letter": "A",
+        "text": "Lateral side of the dorsum of the foot"
+      },
+      {
+        "letter": "B",
+        "text": "Lateral side of the thigh"
+      },
+      {
+        "letter": "C",
+        "text": "Medial side of the leg below the knee"
+      },
+      {
+        "letter": "D",
+        "text": "Medial side of the sole of the foot"
+      },
+      {
+        "letter": "E",
+        "text": "Medial side of the thigh"
+      }
     ],
     "answer": "A",
-    "explanation": "The lateral part of the dorsum of the foot drains with the small saphenous vein to popliteal lymph nodes, so A is correct. Most superficial lymph from the lower limb follows the great saphenous vein to superficial inguinal nodes. The medial leg, medial sole, and thigh therefore drain mainly to inguinal nodes rather than the popliteal fossa. The cat bite with a primary skin lesion followed by regional tender lymphadenopathy is consistent with cat-scratch disease, but the question asks specifically which drainage territory reaches the popliteal nodes.",
+    "explanation": "Most superficial lymph from the lower limb follows the great saphenous vein to superficial inguinal nodes. The important exception is the lateral dorsum of the foot, whose lymph follows the small saphenous vein to popliteal nodes. Thus infection at option A can produce popliteal lymphadenopathy. The source also identifies the presentation as cat-scratch disease due to Bartonella henselae.",
     "choice_explanations": {
-      "A":"Correct: lymph from the lateral dorsum of the foot accompanies the small saphenous vein to popliteal nodes.",
-      "B":"Incorrect: the lateral thigh drains primarily to superficial inguinal nodes.",
-      "C":"Incorrect: the medial leg follows the great saphenous pathway to superficial inguinal nodes.",
-      "D":"Incorrect: the medial sole generally joins the great saphenous/superficial inguinal drainage pathway.",
-      "E":"Incorrect: the thigh drains to superficial inguinal nodes, not the popliteal group."
+      "A": "Correct: lateral dorsum of the foot drains with the small saphenous pathway to popliteal nodes.",
+      "B": "Incorrect: superficial lymph from the thigh generally drains to superficial inguinal nodes.",
+      "C": "Incorrect: the medial leg follows the great saphenous pathway to superficial inguinal nodes.",
+      "D": "Incorrect: medial foot/sole drainage generally reaches superficial inguinal nodes via the great saphenous pathway.",
+      "E": "Incorrect: medial thigh drains to superficial inguinal nodes."
     },
-    "fa_summary": "First Aid 2026 does not directly cover the superficial lymphatic drainage route tested here; no unrelated page number is assigned."
+    "fa_summary": "First Aid 2026 does not directly cover the superficial lymphatic drainage route tested here; no unrelated page number is assigned.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        12
+      ],
+      "explanation": [
+        13,
+        14
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "option_fa": {
+      "A": {
+        "page": 95,
+        "verified": true,
+        "text": "Lymphatic drainage table: superficial inguinal nodes receive most skin below the umbilicus, except the popliteal area; popliteal nodes drain dorsolateral foot and posterior calf. The page notes medial foot/leg cellulitis with superficial inguinal drainage.",
+        "images": [
+          "assets/fa-pages/fa-2026-p95.png"
+        ]
+      },
+      "B": {
+        "page": 95,
+        "verified": true,
+        "text": "Lymphatic drainage table: superficial inguinal nodes receive most skin below the umbilicus, except the popliteal area; popliteal nodes drain dorsolateral foot and posterior calf. The page notes medial foot/leg cellulitis with superficial inguinal drainage.",
+        "images": [
+          "assets/fa-pages/fa-2026-p95.png"
+        ]
+      },
+      "C": {
+        "page": 95,
+        "verified": true,
+        "text": "Lymphatic drainage table: superficial inguinal nodes receive most skin below the umbilicus, except the popliteal area; popliteal nodes drain dorsolateral foot and posterior calf. The page notes medial foot/leg cellulitis with superficial inguinal drainage.",
+        "images": [
+          "assets/fa-pages/fa-2026-p95.png"
+        ]
+      },
+      "D": {
+        "page": 95,
+        "verified": true,
+        "text": "Lymphatic drainage table: superficial inguinal nodes receive most skin below the umbilicus, except the popliteal area; popliteal nodes drain dorsolateral foot and posterior calf. The page notes medial foot/leg cellulitis with superficial inguinal drainage.",
+        "images": [
+          "assets/fa-pages/fa-2026-p95.png"
+        ]
+      },
+      "E": {
+        "page": 95,
+        "verified": true,
+        "text": "Lymphatic drainage table: superficial inguinal nodes receive most skin below the umbilicus, except the popliteal area; popliteal nodes drain dorsolateral foot and posterior calf. The page notes medial foot/leg cellulitis with superficial inguinal drainage.",
+        "images": [
+          "assets/fa-pages/fa-2026-p95.png"
+        ]
+      }
+    }
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||4": {
     "chapter": "Musculoskeletal, Skin, and Connective Tissue",
     "fa_subchapter": "Anatomy and Physiology",
     "stem": "A 50-year-old man who is an electrician comes to the physician because of recent onset pain and tingling in his left arm. Neurologic examination shows absence of sensation to light touch and pinprick on the fourth and fifth digits of his left hand and his medial forearm. There is also clawing of all digits of the left hand. Rotating the patient's head to the left side with the neck extended results in loss of the radial pulse on the left. An x-ray of the neck shows a cervical rib. Which of the following structures is most likely being compressed?",
     "options": [
-      {"letter":"A","text":"C6 root of the brachial plexus"},
-      {"letter":"B","text":"Long thoracic nerve"},
-      {"letter":"C","text":"Lower trunk of the brachial plexus"},
-      {"letter":"D","text":"Medial cord of the brachial plexus"},
-      {"letter":"E","text":"Ulnar nerve"},
-      {"letter":"F","text":"Upper trunk of the brachial plexus"}
+      {
+        "letter": "A",
+        "text": "C6 root of the brachial plexus"
+      },
+      {
+        "letter": "B",
+        "text": "Long thoracic nerve"
+      },
+      {
+        "letter": "C",
+        "text": "Lower trunk of the brachial plexus"
+      },
+      {
+        "letter": "D",
+        "text": "Medial cord of the brachial plexus"
+      },
+      {
+        "letter": "E",
+        "text": "Ulnar nerve"
+      },
+      {
+        "letter": "F",
+        "text": "Upper trunk of the brachial plexus"
+      }
     ],
     "answer": "C",
-    "explanation": "This is thoracic outlet syndrome caused by compression near a cervical rib. The sensory loss in the medial forearm and ulnar digits, together with clawing of the hand, localizes to C8–T1 fibers in the lower trunk of the brachial plexus; positional loss of the radial pulse indicates associated subclavian vessel compression. A C6 root or upper-trunk lesion produces a more proximal C5–C6 pattern. The long thoracic nerve lesion causes serratus anterior weakness and winged scapula. A medial-cord lesion is more distal than the classic lower-trunk compression at the thoracic outlet, while an isolated ulnar nerve lesion would not explain medial-forearm sensory loss or the vascular finding.",
+    "explanation": "A cervical rib can narrow the thoracic outlet and compress the lower trunk of the brachial plexus (predominantly C8-T1), causing sensory symptoms along the medial hand/forearm and intrinsic-hand weakness or clawing. Positional loss of the radial pulse indicates associated compression of the subclavian artery. A peripheral ulnar nerve lesion would not explain medial forearm sensory loss or the vascular finding.",
     "choice_explanations": {
-      "A":"Incorrect: C6 root injury would affect a C6 distribution and would not explain the cervical-rib thoracic-outlet pattern.",
-      "B":"Incorrect: long thoracic nerve injury weakens serratus anterior, causing winged scapula, not medial-hand sensory loss.",
-      "C":"Correct: the lower trunk (C8–T1) is compressed in thoracic outlet syndrome associated with a cervical rib.",
-      "D":"Incorrect: the medial cord contains lower-trunk fibers but is distal to the typical thoracic-outlet compression site.",
-      "E":"Incorrect: ulnar neuropathy can affect ulnar digits but not medial forearm sensation or the radial pulse.",
-      "F":"Incorrect: upper-trunk (C5–C6) injury causes an Erb-pattern deficit, not C8–T1 clawing."
+      "A": "Incorrect: C6 root involvement would not match the C8-T1-predominant medial hand findings.",
+      "B": "Incorrect: long thoracic nerve injury weakens serratus anterior and causes scapular winging, not this sensory pattern.",
+      "C": "Correct: lower-trunk compression explains C8-T1 sensory and intrinsic-hand motor deficits in thoracic outlet syndrome.",
+      "D": "Incorrect: medial cord lesions can affect medial arm/hand nerves but the classic cervical-rib compression is at the lower trunk.",
+      "E": "Incorrect: ulnar neuropathy does not affect medial forearm sensation and cannot explain the positional pulse loss.",
+      "F": "Incorrect: upper-trunk lesions typically affect C5-C6 distribution."
     },
     "fa_summary": "Thoracic outlet compression can affect the lower brachial-plexus trunk (C8–T1); a cervical/anomalous first rib is a recognized cause.",
-    "fa_page": 452
+    "fa_page": 452,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        17
+      ],
+      "explanation": [
+        18,
+        19
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "option_fa": {
+      "A": {
+        "page": 452,
+        "verified": true,
+        "text": "Brachial-plexus lesions table/diagram: upper trunk C5–C6 injury (Erb palsy) weakens biceps flexion/supination; lower trunk C8–T1 injury (Klumpke) affects intrinsic hand muscles and may cause claw hand; thoracic outlet syndrome compresses lower trunk and subclavian vessels; long thoracic C5–C7 injury affects serratus anterior and causes scapular winging/inability to anchor the scapula. This supports the scapular motor-deficit option; the page does not use the exact word ‘protraction.’",
+        "images": [
+          "assets/fa-pages/fa-2026-p452.png"
+        ]
+      },
+      "B": {
+        "page": 452,
+        "verified": true,
+        "text": "Brachial-plexus lesions table/diagram: upper trunk C5–C6 injury (Erb palsy) weakens biceps flexion/supination; lower trunk C8–T1 injury (Klumpke) affects intrinsic hand muscles and may cause claw hand; thoracic outlet syndrome compresses lower trunk and subclavian vessels; long thoracic C5–C7 injury affects serratus anterior and causes scapular winging/inability to anchor the scapula. This supports the scapular motor-deficit option; the page does not use the exact word ‘protraction.’",
+        "images": [
+          "assets/fa-pages/fa-2026-p452.png"
+        ]
+      },
+      "C": {
+        "page": 452,
+        "verified": true,
+        "text": "Brachial-plexus lesions table/diagram: upper trunk C5–C6 injury (Erb palsy) weakens biceps flexion/supination; lower trunk C8–T1 injury (Klumpke) affects intrinsic hand muscles and may cause claw hand; thoracic outlet syndrome compresses lower trunk and subclavian vessels; long thoracic C5–C7 injury affects serratus anterior and causes scapular winging/inability to anchor the scapula. This supports the scapular motor-deficit option; the page does not use the exact word ‘protraction.’",
+        "images": [
+          "assets/fa-pages/fa-2026-p452.png"
+        ]
+      },
+      "D": {
+        "page": 452,
+        "verified": true,
+        "text": "Brachial-plexus lesions table/diagram: upper trunk C5–C6 injury (Erb palsy) weakens biceps flexion/supination; lower trunk C8–T1 injury (Klumpke) affects intrinsic hand muscles and may cause claw hand; thoracic outlet syndrome compresses lower trunk and subclavian vessels; long thoracic C5–C7 injury affects serratus anterior and causes scapular winging/inability to anchor the scapula. This supports the scapular motor-deficit option; the page does not use the exact word ‘protraction.’",
+        "images": [
+          "assets/fa-pages/fa-2026-p452.png"
+        ]
+      },
+      "E": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: ulnar neuropathy causes ulnar claw, impaired finger abduction/adduction, and sensory loss over the ulnar 1½ fingers including the hypothenar eminence.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "F": {
+        "page": 452,
+        "verified": true,
+        "text": "Brachial-plexus lesions table/diagram: upper trunk C5–C6 injury (Erb palsy) weakens biceps flexion/supination; lower trunk C8–T1 injury (Klumpke) affects intrinsic hand muscles and may cause claw hand; thoracic outlet syndrome compresses lower trunk and subclavian vessels; long thoracic C5–C7 injury affects serratus anterior and causes scapular winging/inability to anchor the scapula. This supports the scapular motor-deficit option; the page does not use the exact word ‘protraction.’",
+        "images": [
+          "assets/fa-pages/fa-2026-p452.png"
+        ]
+      }
+    }
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||5": {
     "chapter": "Musculoskeletal, Skin, and Connective Tissue",
     "fa_subchapter": "Anatomy and Physiology",
-    "stem": "A 17-year-old boy is brought to the emergency department because of several stab wounds he sustained in a gang fight. Physical examination shows a 3-cm penetrating wound on the posterolateral aspect of the neck that has partially severed the C6 ventral ramus as it emerges through the scalene interval. The patient reports pain in the region of the wound, and there is significant bruising in this area. Which of the following additional findings will most likely be seen in this patient?",
+    "stem": "A 17-year-old boy is brought to the emergency department because of several stab wounds he sustained in a gang fight. Physical examination shows a 3-cm penetrating wound on the posterolateral aspect of the neck that has partially severed the C6 ventral ramus as it emerges through the scalene interval. The patient says he has pain in the region of the wound and there is significant bruising in this area. Which of the following additional findings will most likely be seen in this patient?",
     "options": [
-      {"letter":"A","text":"Anesthesia in skin covering the hypothenar eminence"},
-      {"letter":"B","text":"Hoarseness"},
-      {"letter":"C","text":"Thenar atrophy"},
-      {"letter":"D","text":"Weakness in the ability to protract the scapula"},
-      {"letter":"E","text":"Weakness of thumb flexion"}
+      {
+        "letter": "A",
+        "text": "Anesthesia in skin covering the hypothenar eminence"
+      },
+      {
+        "letter": "B",
+        "text": "Hoarseness"
+      },
+      {
+        "letter": "C",
+        "text": "Thenar atrophy"
+      },
+      {
+        "letter": "D",
+        "text": "Weakness in the ability to protract the scapula"
+      },
+      {
+        "letter": "E",
+        "text": "Weakness of thumb flexion"
+      }
     ],
     "answer": "D",
-    "explanation": "The long thoracic nerve receives fibers directly from the ventral rami of C5–C7. A partial C6 ventral-ramus injury can therefore weaken the serratus anterior, impair scapular protraction, and cause winging of the scapula. Hypothenar sensory loss and thenar atrophy arise from distal ulnar or median nerve lesions; hoarseness suggests vagal/recurrent laryngeal nerve dysfunction; thumb-flexion weakness points to median-innervated flexors rather than the long thoracic nerve.",
+    "explanation": "The long thoracic nerve is formed by contributions from C5-C7 ventral rami and innervates serratus anterior. Injury involving C6 root contributions can weaken serratus anterior, impairing scapular protraction and potentially causing winging. The other options point to ulnar, vagal/recurrent laryngeal, median, or lower-root/median-ulnar functions, respectively.",
     "choice_explanations": {
-      "A":"Incorrect: hypothenar skin sensation is supplied by the ulnar nerve, not the long thoracic nerve.",
-      "B":"Incorrect: hoarseness suggests vagus/recurrent laryngeal nerve injury.",
-      "C":"Incorrect: thenar atrophy suggests median nerve/recurrent branch injury.",
-      "D":"Correct: long thoracic nerve fibers arise from C5–C7 ventral rami and supply serratus anterior, which protracts and stabilizes the scapula.",
-      "E":"Incorrect: thumb flexion depends on median-innervated muscles, not serratus anterior."
+      "A": "Incorrect: hypothenar skin sensation is supplied by the ulnar nerve, predominantly lower plexus fibers.",
+      "B": "Incorrect: hoarseness suggests laryngeal/vagus or recurrent laryngeal nerve involvement.",
+      "C": "Incorrect: thenar muscles are chiefly supplied by the recurrent median nerve, with substantial C8-T1 contribution.",
+      "D": "Correct: long thoracic nerve (C5-C7 roots) supplies serratus anterior, which protracts and stabilizes the scapula.",
+      "E": "Incorrect: thumb flexion is chiefly via anterior interosseous/median and ulnar-innervated muscles with lower-root contributions."
     },
     "fa_summary": "The long thoracic nerve arises from C5–C7 ventral rami and innervates serratus anterior; injury can cause winged scapula and impaired scapular stabilization.",
-    "fa_page": 452
+    "fa_page": 452,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        24
+      ],
+      "explanation": [
+        25,
+        26
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "option_fa": {
+      "A": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: ulnar neuropathy causes ulnar claw, impaired finger abduction/adduction, and sensory loss over the ulnar 1½ fingers including the hypothenar eminence.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "C": {
+        "page": 454,
+        "verified": true,
+        "text": "The hand-distortion section notes that thenar eminence atrophy can be seen in median-nerve lesions, while hypothenar eminence atrophy can be seen in ulnar-nerve lesions.",
+        "images": [
+          "assets/fa-pages/fa-2026-p454.png"
+        ]
+      },
+      "D": {
+        "page": 452,
+        "verified": true,
+        "text": "Brachial-plexus lesions table/diagram: upper trunk C5–C6 injury (Erb palsy) weakens biceps flexion/supination; lower trunk C8–T1 injury (Klumpke) affects intrinsic hand muscles and may cause claw hand; thoracic outlet syndrome compresses lower trunk and subclavian vessels; long thoracic C5–C7 injury affects serratus anterior and causes scapular winging/inability to anchor the scapula. This supports the scapular motor-deficit option; the page does not use the exact word ‘protraction.’",
+        "images": [
+          "assets/fa-pages/fa-2026-p452.png"
+        ]
+      },
+      "E": {
+        "page": 453,
+        "verified": true,
+        "text": "Hand-muscle table: thenar muscles include thumb flexors; dorsal interossei abduct and palmar interossei adduct fingers; the page includes the carpal-tunnel contents and hand-muscle figures.",
+        "images": [
+          "assets/fa-pages/fa-2026-p453.png"
+        ]
+      }
+    }
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||6": {
     "chapter": "Neurology and Special Senses",
     "fa_subchapter": "Pathology",
-    "stem": "A 68-year-old man with a history of hypertension is admitted to the intensive care unit after sustaining a stroke. He describes recent onset dizziness and difficulty standing upright without falling over. Physical examination shows loss of pain and temperature sensation on the right side of the face and the left side of the body. The right eye exhibits partial ptosis and pupillary miosis. He is discharged 6 days later and is transferred to a rehabilitation center. A more comprehensive physical examination also reveals difficulty in elevating the tongue to the roof of the mouth. Dysfunction of which of the following muscles is most likely responsible for this finding?",
+    "stem": "A 68-year-old man with a history of hypertension is admitted to the intensive care unit after sustaining a stroke. He describes recent onset dizziness and difficulty standing upright without falling over. Physical examination shows loss of pain and temperature sensation on the right side of the face and the left side of the body. The right eye exhibits partial ptosis and pupillary miosis. He is discharged 6 days later and is transferred to a rehabilitation center. A more comprehensive physical examination also reveals difficulty in elevating the tongue to the roof of the mouth. Dysfunction of which of the following muscles is most likely responsible for this finding in this patient?",
     "options": [
-      {"letter":"A","text":"Buccinator"},
-      {"letter":"B","text":"Geniohyoid"},
-      {"letter":"C","text":"Palatoglossus"},
-      {"letter":"D","text":"Palatopharyngeus"},
-      {"letter":"E","text":"Tensor veli palatini"}
+      {
+        "letter": "A",
+        "text": "Buccinator"
+      },
+      {
+        "letter": "B",
+        "text": "Geniohyoid"
+      },
+      {
+        "letter": "C",
+        "text": "Palatoglossus"
+      },
+      {
+        "letter": "D",
+        "text": "Palatopharyngeus"
+      },
+      {
+        "letter": "E",
+        "text": "Tensor veli palatini"
+      }
     ],
     "answer": "C",
-    "explanation": "The crossed face/body pain-temperature loss, ipsilateral Horner syndrome, dizziness, and ataxia indicate lateral medullary (Wallenberg) syndrome, usually due to PICA or vertebral artery infarction. The nucleus ambiguus and vagal fibers may be involved. Palatoglossus is the only tongue muscle innervated by the vagus nerve (CN X); the other intrinsic and extrinsic tongue muscles are supplied by CN XII. This explains impaired elevation of the posterior tongue/palatal arch.",
+    "explanation": "The crossed face/body sensory findings, ipsilateral Horner syndrome, and ataxia indicate lateral medullary (Wallenberg) syndrome. Involvement of nucleus ambiguus/pharyngeal motor pathways can impair palatoglossus, which elevates the posterior tongue and is supplied through the vagus nerve via the pharyngeal plexus. Tensor veli palatini is supplied by V3; the other listed muscles have different actions/innervation.",
     "choice_explanations": {
-      "A":"Incorrect: buccinator is a facial-expression muscle supplied by CN VII; it compresses the cheek.",
-      "B":"Incorrect: geniohyoid is supplied by C1 fibers traveling with CN XII and helps move the hyoid/anterior floor of the mouth.",
-      "C":"Correct: palatoglossus is innervated by CN X via the pharyngeal plexus and can be affected with nucleus ambiguus involvement.",
-      "D":"Incorrect: palatopharyngeus is vagus-innervated, but it elevates the pharynx and larynx during swallowing rather than elevating the tongue.",
-      "E":"Incorrect: tensor veli palatini is supplied by V3 and tenses the soft palate."
+      "A": "Incorrect: buccinator compresses the cheek and is supplied by facial nerve.",
+      "B": "Incorrect: geniohyoid elevates/anteriorly draws the hyoid and is supplied by C1 fibers traveling with hypoglossal nerve.",
+      "C": "Correct: palatoglossus elevates the posterior tongue and receives vagal motor innervation via the pharyngeal plexus.",
+      "D": "Incorrect: palatopharyngeus elevates the pharynx and larynx during swallowing; it is vagally innervated but does not primarily elevate the tongue.",
+      "E": "Incorrect: tensor veli palatini tenses the soft palate and is supplied by mandibular division of CN V."
     },
     "fa_summary": "Lateral medullary syndrome can damage nucleus ambiguus pathways; CN IX/X involvement causes dysphagia and related palatal/pharyngeal deficits.",
-    "fa_page": 526
+    "fa_page": 526,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        28
+      ],
+      "explanation": [
+        29,
+        30
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "C": {
+        "page": 364,
+        "verified": true,
+        "text": "Tongue-innervation section: CN X supplies palatoglossus, which elevates the posterior tongue during swallowing; CN XII supplies other listed tongue muscles.",
+        "images": [
+          "assets/fa-pages/fa-2026-p364.png"
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      }
+    }
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||7": {
     "chapter": "Musculoskeletal, Skin, and Connective Tissue",
     "fa_subchapter": "Anatomy and Physiology",
-    "stem": "A 24-year-old man who is a truck driver is brought to the emergency department because of a fracture of the right humerus. Physical examination shows an inability to extend the right hand at the wrist. The patient can flex all of the fingers but cannot make a tight fist with the right hand. Which of the following nerves is most likely injured as a result of this fracture?",
+    "stem": "A 24-year-old man who is a truck driver is brought to the emergency department because of a fracture of the right humerus. Physical examination shows an inability to extend the right hand at the wrist. The patient can flex all of the fingers but he cannot make a tight fist with the right hand. Which of the following nerves is most likely injured as a result of this fracture?",
     "options": [
-      {"letter":"A","text":"Axillary nerve"},
-      {"letter":"B","text":"Medial brachial cutaneous nerve"},
-      {"letter":"C","text":"Median nerve"},
-      {"letter":"D","text":"Musculocutaneous nerve"},
-      {"letter":"E","text":"Radial nerve"}
+      {
+        "letter": "A",
+        "text": "Axillary nerve"
+      },
+      {
+        "letter": "B",
+        "text": "Medial brachial cutaneous nerve"
+      },
+      {
+        "letter": "C",
+        "text": "Median nerve"
+      },
+      {
+        "letter": "D",
+        "text": "Musculocutaneous nerve"
+      },
+      {
+        "letter": "E",
+        "text": "Radial nerve"
+      }
     ],
     "answer": "E",
-    "explanation": "A humeral shaft fracture can injure the radial nerve in the spiral groove, producing wrist drop from loss of wrist extension. Finger flexors may remain intact, but grip is weakened because the wrist cannot be held extended to place the long finger flexors at an effective length. The fracture level and wrist-extension deficit are the key clues.",
+    "explanation": "A midshaft humeral fracture can injure the radial nerve in the radial (spiral) groove, causing wrist drop from loss of wrist-extensor function. Finger flexors may remain intact, but wrist extension stabilizes the wrist and is needed to generate a strong fist. The nerve travels with the profunda brachii vessels in the groove.",
     "choice_explanations": {
-      "A":"Incorrect: axillary nerve injury causes deltoid weakness and sensory loss over the lateral shoulder, usually after a surgical-neck fracture.",
-      "B":"Incorrect: the medial brachial cutaneous nerve is sensory and does not control wrist extension.",
-      "C":"Incorrect: median nerve injury weakens forearm pronation, thenar function, or selected finger flexion, not wrist extension as the main finding.",
-      "D":"Incorrect: musculocutaneous nerve injury weakens elbow flexion and forearm supination.",
-      "E":"Correct: radial nerve injury at the humeral shaft causes wrist drop and weak grip."
+      "A": "Incorrect: axillary injury weakens deltoid/teres minor and shoulder abduction/external rotation.",
+      "B": "Incorrect: medial brachial cutaneous nerve is sensory and does not extend the wrist.",
+      "C": "Incorrect: median injury weakens many forearm flexors and thenar muscles, not the characteristic wrist extensors affected here.",
+      "D": "Incorrect: musculocutaneous injury weakens elbow flexion and forearm supination.",
+      "E": "Correct: radial nerve injury at the humeral shaft causes wrist drop."
     },
     "fa_summary": "A midshaft humerus fracture can injure the radial nerve and cause wrist drop; loss of wrist extension also reduces grip strength.",
-    "fa_page": 450
+    "fa_page": 450,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        33
+      ],
+      "explanation": [
+        34,
+        35
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "option_fa": {
+      "A": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: axillary nerve injury is associated with surgical-neck fracture and loss of arm abduction beyond 15 degrees; deltoid/lateral-arm sensory findings are noted.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "C": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: median nerve injury can cause thenar/LOAF deficits and sensory loss involving the lateral 3½ fingers; carpal tunnel syndrome is a distal median-nerve lesion.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "D": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: musculocutaneous nerve injury causes loss of forearm flexion and supination, with reduced biceps reflex and lateral forearm sensory loss.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "E": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: midshaft humeral fracture may injure radial nerve and cause wrist drop; wrist extension is needed for maximal grip strength.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      }
+    }
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||8": {
     "chapter": "Neurology and Special Senses",
     "fa_subchapter": "Anatomy and Physiology",
-    "stem": "A 56-year-old man with a history of chronic hypertension comes to the physician because of recent onset palpitations. He says that he particularly notices the palpitations when he lacks sleep or drinks too much caffeine. Physical examination shows a heart rhythm that is irregularly irregular but there is no evidence of murmurs or gallops. ECG reveals absent P waves. The patient is started on a beta blocker. Three months later, he arrives in the emergency department after acute onset weakness and lethargy. CT scan reveals no hemorrhage but diffusion-weighted MRI reveals evidence of ischemic stroke. Absent blood flow to which of the following arteries is most likely to produce the greatest amount of ischemic damage?",
+    "stem": "A 56-year-old man with a history of chronic hypertension comes to the physician because of recent onset of palpitations. He says that he particularly notices the palpitations when he lacks sleep or drinks too much caffeine. Physical examination shows a heart rhythm that is irregularly irregular but there is no evidence of murmurs or gallops. ECG reveals absent P waves. The patient is started on a beta blocker. Three months later, the patient arrives in the emergency department after acute onset weakness and lethargy. CT scan reveals no hemorrhage but diffusion-weighted MRI reveals evidence of ischemic stroke. Absent blood flow to which of the following arteries is most likely to produce the greatest amount of ischemic damage?",
     "options": [
-      {"letter":"A","text":"Anterior cerebral artery at its origin from the internal carotid artery"},
-      {"letter":"B","text":"Anterior communicating artery"},
-      {"letter":"C","text":"Middle cerebral artery at its origin from the internal carotid artery"},
-      {"letter":"D","text":"Posterior cerebral artery at its origin from the basilar artery"},
-      {"letter":"E","text":"Posterior communicating artery"}
+      {
+        "letter": "A",
+        "text": "Anterior cerebral artery at its origin from the internal carotid artery"
+      },
+      {
+        "letter": "B",
+        "text": "Anterior communicating artery"
+      },
+      {
+        "letter": "C",
+        "text": "Middle cerebral artery at its origin from the internal carotid artery"
+      },
+      {
+        "letter": "D",
+        "text": "Posterior cerebral artery at its origin from the basilar artery"
+      },
+      {
+        "letter": "E",
+        "text": "Posterior communicating artery"
+      }
     ],
     "answer": "C",
-    "explanation": "The middle cerebral artery is not part of the Circle of Willis, so there is no direct Circle-of-Willis route to compensate for its occlusion. It supplies much of the lateral cerebral hemisphere; proximal MCA occlusion can therefore produce a large ischemic territory. The ACA and PCA are connected to the circle, and the anterior and posterior communicating arteries are themselves collateral links.",
+    "explanation": "Atrial fibrillation predisposes to cardioembolic ischemic stroke. Among the listed vessels, the middle cerebral artery is not part of the arterial ring of the circle of Willis and has no equivalent collateral route around an occlusion at its origin; it supplies much of the lateral cerebral hemisphere. Occlusion at the specified origin therefore risks extensive ischemia. The communicating arteries and ACA/PCA are components of the circle and can participate in collateral flow.",
     "choice_explanations": {
-      "A":"Incorrect: ACA is part of the anterior cerebral circulation and communicates with the opposite side through the anterior communicating artery.",
-      "B":"Incorrect: the anterior communicating artery is a collateral connection between the two anterior cerebral arteries.",
-      "C":"Correct: MCA is not part of the Circle of Willis and supplies a large lateral cerebral territory.",
-      "D":"Incorrect: PCA is part of the posterior circulation and connects to the Circle of Willis through the posterior communicating artery.",
-      "E":"Incorrect: the posterior communicating artery is a collateral link between the internal carotid and posterior cerebral circulations."
+      "A": "Incorrect: ACA is part of the circle of Willis and may receive collateral flow through the anterior communicating artery.",
+      "B": "Incorrect: the anterior communicating artery is itself a collateral connection.",
+      "C": "Correct: MCA is not part of the circle of Willis and supplies a large lateral cortical territory.",
+      "D": "Incorrect: PCA is connected to the circle through the posterior communicating artery.",
+      "E": "Incorrect: posterior communicating artery is a collateral link between internal carotid and posterior cerebral circulations."
     },
     "fa_summary": "The Circle of Willis provides collateral routes between anterior and posterior cerebral circulations; the middle cerebral artery is outside the ring and supplies the lateral hemisphere.",
-    "fa_page": 514
+    "fa_page": 514,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        40
+      ],
+      "explanation": [
+        40,
+        41
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "option_fa": {
+      "A": {
+        "page": 514,
+        "verified": true,
+        "text": "Labeled inferior-view arterial diagram identifies ACA, MCA, communicating arteries, PCA, basilar, vertebral, AICA, and PICA. The same page labels the dural venous sinuses including transverse, sagittal, and internal jugular structures; text explains the circle's collateral role and sinus drainage to the internal jugular vein.",
+        "images": [
+          "assets/fa-pages/fa-2026-p514.png"
+        ]
+      },
+      "B": {
+        "page": 514,
+        "verified": true,
+        "text": "Labeled inferior-view arterial diagram identifies ACA, MCA, communicating arteries, PCA, basilar, vertebral, AICA, and PICA. The same page labels the dural venous sinuses including transverse, sagittal, and internal jugular structures; text explains the circle's collateral role and sinus drainage to the internal jugular vein.",
+        "images": [
+          "assets/fa-pages/fa-2026-p514.png"
+        ]
+      },
+      "C": {
+        "page": 514,
+        "verified": true,
+        "text": "Labeled inferior-view arterial diagram identifies ACA, MCA, communicating arteries, PCA, basilar, vertebral, AICA, and PICA. The same page labels the dural venous sinuses including transverse, sagittal, and internal jugular structures; text explains the circle's collateral role and sinus drainage to the internal jugular vein.",
+        "images": [
+          "assets/fa-pages/fa-2026-p514.png"
+        ]
+      },
+      "D": {
+        "page": 514,
+        "verified": true,
+        "text": "Labeled inferior-view arterial diagram identifies ACA, MCA, communicating arteries, PCA, basilar, vertebral, AICA, and PICA. The same page labels the dural venous sinuses including transverse, sagittal, and internal jugular structures; text explains the circle's collateral role and sinus drainage to the internal jugular vein.",
+        "images": [
+          "assets/fa-pages/fa-2026-p514.png"
+        ]
+      },
+      "E": {
+        "page": 514,
+        "verified": true,
+        "text": "Labeled inferior-view arterial diagram identifies ACA, MCA, communicating arteries, PCA, basilar, vertebral, AICA, and PICA. The same page labels the dural venous sinuses including transverse, sagittal, and internal jugular structures; text explains the circle's collateral role and sinus drainage to the internal jugular vein.",
+        "images": [
+          "assets/fa-pages/fa-2026-p514.png"
+        ]
+      }
+    }
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||9": {
     "chapter": "Musculoskeletal, Skin, and Connective Tissue",
     "fa_subchapter": "Anatomy and Physiology",
     "stem": "A 35-year-old pregnant woman at 32 weeks' gestation comes to the physician because of pain and tingling in her hands. She also says that at times her hands feel numb; however, she cannot pinpoint exactly where the numbness is centered. She reports no issues with her pregnancy. Physical examination shows wasting of the thenar eminence. Physical examination will most likely also reveal loss of sensation in which of the following sites?",
     "options": [
-      {"letter":"A","text":"Dorsal aspect of the hand (not fingers) on the medial side"},
-      {"letter":"B","text":"Dorsal aspect of the hand (not fingers) on the lateral side"},
-      {"letter":"C","text":"Dorsal aspect of the proximal part of the forefinger"},
-      {"letter":"D","text":"Dorsal aspect of the proximal part of the thumb"},
-      {"letter":"E","text":"Nail bed of the third digit"}
+      {
+        "letter": "A",
+        "text": "Dorsal aspect of the hand (not fingers) on the medial side"
+      },
+      {
+        "letter": "B",
+        "text": "Dorsal aspect of the hand (not fingers) on the lateral side"
+      },
+      {
+        "letter": "C",
+        "text": "Dorsal aspect of the proximal part of the forefinger"
+      },
+      {
+        "letter": "D",
+        "text": "Dorsal aspect of the proximal part of the thumb"
+      },
+      {
+        "letter": "E",
+        "text": "Nail bed of the third digit"
+      }
     ],
     "answer": "E",
-    "explanation": "Pregnancy-related fluid retention can precipitate carpal tunnel syndrome by compressing the median nerve beneath the flexor retinaculum. Thenar wasting indicates median motor involvement. The median nerve supplies the palmar lateral 3½ digits and the distal dorsal tips/nail beds of those digits, including the third digit, so E is correct. The palmar cutaneous branch leaves proximal to the tunnel and supplies thenar skin, so sensation over the thenar eminence is usually spared. Dorsal hand skin proximal to the fingertips is supplied mainly by the radial or ulnar nerves.",
+    "explanation": "Pregnancy-associated fluid retention can promote carpal tunnel syndrome, compressing the median nerve beneath the flexor retinaculum. Thenar wasting supports median neuropathy. Sensation at the distal palmar fingertips and nail beds of the lateral 3½ digits is carried by palmar digital branches of the median nerve; the dorsal proximal hand is largely supplied by superficial radial or ulnar branches, while dorsal distal phalanges are an exception and receive median/ulnar digital supply.",
     "choice_explanations": {
-      "A":"Incorrect: the medial/dorsal hand is primarily supplied by the ulnar nerve.",
-      "B":"Incorrect: the lateral dorsal hand proximal to the fingertips is supplied mainly by the superficial radial nerve.",
-      "C":"Incorrect: proximal dorsal finger skin is supplied primarily by radial/ulnar dorsal branches; median nerve sensory loss is prominent at the distal fingertips/nail beds.",
-      "D":"Incorrect: proximal dorsal thumb skin is mainly supplied by the superficial radial nerve.",
-      "E":"Correct: the median nerve supplies the distal dorsal tips and nail beds of the lateral 3½ digits, including digit 3."
+      "A": "Incorrect: medial dorsal hand is supplied primarily by the dorsal cutaneous branch of the ulnar nerve.",
+      "B": "Incorrect: lateral dorsal hand, except distal digit tips, is supplied by the superficial radial nerve.",
+      "C": "Incorrect: proximal dorsal index finger is supplied by the superficial radial nerve.",
+      "D": "Incorrect: proximal dorsal thumb is supplied by the superficial radial nerve.",
+      "E": "Correct: the third digit nail bed is supplied by the median nerve's digital branches."
     },
     "fa_summary": "Median nerve compression in carpal tunnel syndrome causes thenar weakness/atrophy and sensory symptoms in the lateral digits; the palmar cutaneous branch travels outside the tunnel, sparing thenar skin sensation.",
-    "fa_page": 450
+    "fa_page": 450,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        45
+      ],
+      "explanation": [
+        46,
+        47
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "option_fa": {
+      "A": {
+        "page": 451,
+        "verified": true,
+        "text": "Labeled palm/dorsum hand-innervation diagram identifies radial, median, and ulnar sensory territories and labels the medial brachial and antebrachial cutaneous nerves.",
+        "images": [
+          "assets/fa-pages/fa-2026-p451.png"
+        ]
+      },
+      "B": {
+        "page": 451,
+        "verified": true,
+        "text": "Labeled palm/dorsum hand-innervation diagram identifies radial, median, and ulnar sensory territories and labels the medial brachial and antebrachial cutaneous nerves.",
+        "images": [
+          "assets/fa-pages/fa-2026-p451.png"
+        ]
+      },
+      "C": {
+        "page": 451,
+        "verified": true,
+        "text": "Labeled palm/dorsum hand-innervation diagram identifies radial, median, and ulnar sensory territories and labels the medial brachial and antebrachial cutaneous nerves.",
+        "images": [
+          "assets/fa-pages/fa-2026-p451.png"
+        ]
+      },
+      "D": {
+        "page": 451,
+        "verified": true,
+        "text": "Labeled palm/dorsum hand-innervation diagram identifies radial, median, and ulnar sensory territories and labels the medial brachial and antebrachial cutaneous nerves.",
+        "images": [
+          "assets/fa-pages/fa-2026-p451.png"
+        ]
+      },
+      "E": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: median nerve injury can cause thenar/LOAF deficits and sensory loss involving the lateral 3½ fingers; carpal tunnel syndrome is a distal median-nerve lesion.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      }
+    }
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||10": {
     "chapter": "Cardiovascular",
     "fa_subchapter": "Physiology",
     "stem": "A 12-year-old girl is brought to the physician because of a severe sore throat. She describes significant pain with swallowing and general feelings of malaise. Her parents report that the patient has had a high fever for the past several days. Physical examination shows an erythematous patch on the upper posterior pharynx and tenderness of the cervical lymph nodes. Her temperature is 39.5°C (103.1°F). The nerve responsible for this patient's throat pain is also involved in which of the following functions?",
     "options": [
-      {"letter":"A","text":"Head rotation to opposite side"},
-      {"letter":"B","text":"Movement of intrinsic tongue muscles"},
-      {"letter":"C","text":"Sensation of the lower jaw"},
-      {"letter":"D","text":"Sensory input from carotid sinus baroreceptors"},
-      {"letter":"E","text":"Taste in the anterior 2/3 of the tongue"}
+      {
+        "letter": "A",
+        "text": "Head rotation to opposite side"
+      },
+      {
+        "letter": "B",
+        "text": "Movement of intrinsic tongue muscles"
+      },
+      {
+        "letter": "C",
+        "text": "Sensation of the lower jaw"
+      },
+      {
+        "letter": "D",
+        "text": "Sensory input from carotid sinus baroreceptors"
+      },
+      {
+        "letter": "E",
+        "text": "Taste in the anterior two-thirds of the tongue"
+      }
     ],
     "answer": "D",
-    "explanation": "Pain from the posterior pharynx is carried by the glossopharyngeal nerve (CN IX). CN IX also carries afferent sensory information from the carotid sinus baroreceptors to the nucleus tractus solitarius, so D is correct. Head rotation is performed by sternocleidomastoid (CN XI); intrinsic tongue muscles are supplied by CN XII; lower-jaw sensation is carried by V3; and taste from the anterior two-thirds of the tongue is carried by CN VII via the chorda tympani.",
+    "explanation": "Pain from the posterior pharynx is carried in part by glossopharyngeal nerve (CN IX). CN IX also carries afferent information from the carotid sinus baroreceptors (and carotid body chemoreceptors). The other choices correspond chiefly to spinal accessory, hypoglossal, mandibular trigeminal, and facial nerves, respectively.",
     "choice_explanations": {
-      "A":"Incorrect: sternocleidomastoid, innervated by CN XI, rotates the head to the opposite side.",
-      "B":"Incorrect: CN XII supplies the intrinsic tongue muscles, except palatoglossus.",
-      "C":"Incorrect: sensory innervation of the lower jaw is carried by the mandibular division of CN V.",
-      "D":"Correct: CN IX carries carotid sinus baroreceptor afferents and sensation from the posterior pharynx.",
-      "E":"Incorrect: taste from the anterior two-thirds of the tongue is carried by CN VII through the chorda tympani."
+      "A": "Incorrect: contralateral head rotation is produced by sternocleidomastoid, supplied by CN XI.",
+      "B": "Incorrect: intrinsic tongue muscles are supplied by CN XII.",
+      "C": "Incorrect: lower-jaw sensation is carried by mandibular division of CN V.",
+      "D": "Correct: CN IX carries carotid sinus baroreceptor afferents.",
+      "E": "Incorrect: taste from the anterior two-thirds of the tongue is carried by chorda tympani (CN VII)."
     },
     "fa_summary": "Carotid sinus baroreceptor afferents travel in CN IX to the nucleus tractus solitarius; aortic arch afferents travel in CN X.",
-    "fa_page": 298
+    "fa_page": 298,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        50
+      ],
+      "explanation": [
+        51,
+        52
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "option_fa": {
+      "A": {
+        "page": 519,
+        "verified": true,
+        "text": "Cranial-nerve table: CN IX monitors carotid body/sinus chemo- and baroreceptors; CN XI turns the head; CN XII moves the tongue; CN V carries facial/lower-jaw sensation; CN VII carries anterior-tongue taste and closes the eye; CN X supports talking and swallowing.",
+        "images": [
+          "assets/fa-pages/fa-2026-p519.png"
+        ]
+      },
+      "B": {
+        "page": 519,
+        "verified": true,
+        "text": "Cranial-nerve table: CN IX monitors carotid body/sinus chemo- and baroreceptors; CN XI turns the head; CN XII moves the tongue; CN V carries facial/lower-jaw sensation; CN VII carries anterior-tongue taste and closes the eye; CN X supports talking and swallowing.",
+        "images": [
+          "assets/fa-pages/fa-2026-p519.png"
+        ]
+      },
+      "C": {
+        "page": 519,
+        "verified": true,
+        "text": "Cranial-nerve table: CN IX monitors carotid body/sinus chemo- and baroreceptors; CN XI turns the head; CN XII moves the tongue; CN V carries facial/lower-jaw sensation; CN VII carries anterior-tongue taste and closes the eye; CN X supports talking and swallowing.",
+        "images": [
+          "assets/fa-pages/fa-2026-p519.png"
+        ]
+      },
+      "D": {
+        "page": 298,
+        "verified": true,
+        "text": "Baroreceptor diagram/text: carotid sinus afferents travel via CN IX to the medullary nucleus tractus solitarius and convey arterial-pressure changes.",
+        "images": [
+          "assets/fa-pages/fa-2026-p298.png"
+        ]
+      },
+      "E": {
+        "page": 519,
+        "verified": true,
+        "text": "Cranial-nerve table: CN IX monitors carotid body/sinus chemo- and baroreceptors; CN XI turns the head; CN XII moves the tongue; CN V carries facial/lower-jaw sensation; CN VII carries anterior-tongue taste and closes the eye; CN X supports talking and swallowing.",
+        "images": [
+          "assets/fa-pages/fa-2026-p519.png"
+        ]
+      }
+    }
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||11": {
     "chapter": "Neurology and Special Senses",
     "fa_subchapter": "Anatomy and Physiology",
-    "stem": "A 29-year-old woman comes to the physician because of a headache that began several days ago and has become progressively worse. A single-photon emission computed tomography (SPECT) image using technetium (Tc)-labeled red blood cells is shown. Greater blood flow is indicated by orange to red colors and poor blood flow is indicated by blue or lack of signal. Which of the following structures shows an abnormal blood perfusion pattern according to this imaging study?",
+    "stem": "A 29-year-old woman comes to the physician because of a headache that began several days ago and has become progressively worse. A single-photon emission computed tomography (SPECT) image using technetium (Tc)-labeled red blood cells is shown. Greater blood flow is indicated by orange to red colors and poor blood flow is indicated by blue or lack of signal. Which of the following structures shows an abnormal blood-perfusion pattern according to this imaging study?",
     "options": [
-      {"letter":"A","text":"Inferior sagittal sinus"},
-      {"letter":"B","text":"Internal jugular vein"},
-      {"letter":"C","text":"Middle cerebral artery"},
-      {"letter":"D","text":"Posterior cerebral artery"},
-      {"letter":"E","text":"Superior sagittal sinus"},
-      {"letter":"F","text":"Transverse sinus"}
+      {
+        "letter": "A",
+        "text": "Inferior sagittal sinus"
+      },
+      {
+        "letter": "B",
+        "text": "Internal jugular vein"
+      },
+      {
+        "letter": "C",
+        "text": "Middle cerebral artery"
+      },
+      {
+        "letter": "D",
+        "text": "Posterior cerebral artery"
+      },
+      {
+        "letter": "E",
+        "text": "Superior sagittal sinus"
+      },
+      {
+        "letter": "F",
+        "text": "Transverse sinus"
+      }
     ],
     "answer": "F",
-    "explanation": "The image shows markedly reduced signal in the right transverse sinus compared with the left, indicating abnormal flow in that dural venous sinus. The transverse sinuses carry blood from the confluence of sinuses toward the sigmoid sinuses, which continue as the internal jugular veins. The asymmetry, rather than a focal cerebral arterial territory, identifies the transverse sinus.",
+    "explanation": "The SPECT image shows marked asymmetry, with reduced signal in the right transverse sinus (displayed on the left side of the image). The source identifies the transverse sinus as the abnormal structure. Because this item depends on image-side orientation and image interpretation, retain the original source figure alongside the stem.",
     "choice_explanations": {
-      "A":"Incorrect: the inferior sagittal sinus lies along the free inferior edge of the falx and is not the asymmetric lateral channel shown.",
-      "B":"Incorrect: the internal jugular veins are downstream after the sigmoid sinuses and lie outside the cranial image field.",
-      "C":"Incorrect: the middle cerebral artery supplies the lateral cerebral hemisphere; this is not a cortical arterial perfusion defect.",
-      "D":"Incorrect: the posterior cerebral artery supplies occipital and inferomedial temporal cortex, not a dural venous channel.",
-      "E":"Incorrect: the superior sagittal sinus is a midline channel; the abnormality is in one lateral transverse sinus.",
-      "F":"Correct: one transverse sinus has markedly reduced tracer signal, consistent with impaired flow."
+      "A": "Incorrect: the source explanation identifies the transverse sinus, not the inferior sagittal sinus.",
+      "B": "Incorrect: the image finding described in the source is not the internal jugular vein.",
+      "C": "Incorrect: the source localizes the perfusion asymmetry to a dural venous sinus, not the MCA.",
+      "D": "Incorrect: the source localizes the perfusion asymmetry to a dural venous sinus, not the PCA.",
+      "E": "Incorrect: the source identifies the transverse sinus rather than the superior sagittal sinus.",
+      "F": "Correct: the right transverse sinus shows markedly decreased signal in the supplied image."
     },
     "fa_summary": "Cerebral veins drain into dural venous sinuses, which ultimately empty into the internal jugular veins. The superior sagittal, straight, and occipital sinuses drain toward the confluence; paired transverse sinuses run laterally to the sigmoid sinuses. The First Aid index also links venous sinus thrombosis with factor V Leiden.",
-    "fa_page": 514
+    "fa_page": 514,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        54
+      ],
+      "explanation": [
+        56,
+        57
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "question_figures_reviewed": true,
+    "question_figure_description": "脑部灌注 SPECT 图",
+    "question_images": [
+      "assets/question-figures/anatomy-extra-q11-spect.jpg"
+    ],
+    "question_image": "assets/question-figures/anatomy-extra-q11-spect.jpg",
+    "option_fa": {
+      "A": {
+        "page": 514,
+        "verified": true,
+        "text": "Labeled inferior-view arterial diagram identifies ACA, MCA, communicating arteries, PCA, basilar, vertebral, AICA, and PICA. The same page labels the dural venous sinuses including transverse, sagittal, and internal jugular structures; text explains the circle's collateral role and sinus drainage to the internal jugular vein.",
+        "images": [
+          "assets/fa-pages/fa-2026-p514.png"
+        ]
+      },
+      "B": {
+        "page": 514,
+        "verified": true,
+        "text": "Labeled inferior-view arterial diagram identifies ACA, MCA, communicating arteries, PCA, basilar, vertebral, AICA, and PICA. The same page labels the dural venous sinuses including transverse, sagittal, and internal jugular structures; text explains the circle's collateral role and sinus drainage to the internal jugular vein.",
+        "images": [
+          "assets/fa-pages/fa-2026-p514.png"
+        ]
+      },
+      "C": {
+        "page": 514,
+        "verified": true,
+        "text": "Labeled inferior-view arterial diagram identifies ACA, MCA, communicating arteries, PCA, basilar, vertebral, AICA, and PICA. The same page labels the dural venous sinuses including transverse, sagittal, and internal jugular structures; text explains the circle's collateral role and sinus drainage to the internal jugular vein.",
+        "images": [
+          "assets/fa-pages/fa-2026-p514.png"
+        ]
+      },
+      "D": {
+        "page": 514,
+        "verified": true,
+        "text": "Labeled inferior-view arterial diagram identifies ACA, MCA, communicating arteries, PCA, basilar, vertebral, AICA, and PICA. The same page labels the dural venous sinuses including transverse, sagittal, and internal jugular structures; text explains the circle's collateral role and sinus drainage to the internal jugular vein.",
+        "images": [
+          "assets/fa-pages/fa-2026-p514.png"
+        ]
+      },
+      "E": {
+        "page": 514,
+        "verified": true,
+        "text": "Labeled inferior-view arterial diagram identifies ACA, MCA, communicating arteries, PCA, basilar, vertebral, AICA, and PICA. The same page labels the dural venous sinuses including transverse, sagittal, and internal jugular structures; text explains the circle's collateral role and sinus drainage to the internal jugular vein.",
+        "images": [
+          "assets/fa-pages/fa-2026-p514.png"
+        ]
+      },
+      "F": {
+        "page": 514,
+        "verified": true,
+        "text": "Labeled inferior-view arterial diagram identifies ACA, MCA, communicating arteries, PCA, basilar, vertebral, AICA, and PICA. The same page labels the dural venous sinuses including transverse, sagittal, and internal jugular structures; text explains the circle's collateral role and sinus drainage to the internal jugular vein.",
+        "images": [
+          "assets/fa-pages/fa-2026-p514.png"
+        ]
+      }
+    }
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||12": {
     "chapter": "Neurology and Special Senses",
     "fa_subchapter": "Pathology",
-    "stem": "A 29-year-old woman comes to the physician for a follow-up examination because of increasing pain in her right eye. She was recently diagnosed with severe optic neuritis in her right eye. Her past neurologic history is significant for weakness in her right leg 2 years ago that resolved spontaneously. She also reports tingling in her left hand 5 years ago, which resolved without treatment. The physician tests her pupillary response by shining a light in each eye. Which of the following findings is most likely?",
+    "stem": "A 29-year-old woman comes to the physician for a follow-up examination because of increasing pain in her right eye. She had recently been diagnosed with severe optic neuritis in her right eye. Her past neurologic history is significant for weakness in her right leg 2 years ago that resolved spontaneously. She also reports some tingling in her left hand 5 years ago, which also resolved without treatment. The physician tests her pupillary response by shining a light in her right eye and in her left eye. Which of the following findings is most likely in this patient?",
     "options": [
-      {"letter":"A","text":"Light in right: both pupils constrict. Light in left: neither pupil responds."},
-      {"letter":"B","text":"Light in right: right pupil constricts, left does not. Light in left: both pupils constrict."},
-      {"letter":"C","text":"Light in right: right pupil constricts, left does not. Light in left: only the right pupil constricts."},
-      {"letter":"D","text":"Light in right: right pupil does not respond, left constricts. Light in left: both pupils constrict."},
-      {"letter":"E","text":"Light in right: right pupil does not respond, left constricts. Light in left: right pupil does not respond, left constricts."},
-      {"letter":"F","text":"Light in right: neither pupil responds. Light in left: both pupils constrict."}
+      {
+        "letter": "A",
+        "text": "Pattern A in the pupil-response table"
+      },
+      {
+        "letter": "B",
+        "text": "Pattern B in the pupil-response table"
+      },
+      {
+        "letter": "C",
+        "text": "Pattern C in the pupil-response table"
+      },
+      {
+        "letter": "D",
+        "text": "Pattern D in the pupil-response table"
+      },
+      {
+        "letter": "E",
+        "text": "Pattern E in the pupil-response table"
+      },
+      {
+        "letter": "F",
+        "text": "Pattern F in the pupil-response table"
+      }
     ],
     "answer": "F",
-    "explanation": "Recurrent neurologic deficits separated in time and affecting different locations, together with optic neuritis, strongly suggest multiple sclerosis. The right optic nerve is the afferent limb of the pupillary light reflex. Shining light in the affected right eye produces no afferent signal, so neither pupil constricts. Shining light in the unaffected left eye sends afferent input to both Edinger–Westphal nuclei, so both pupils constrict. This is a right relative afferent pupillary defect.",
+    "explanation": "The history is consistent with multiple sclerosis and right optic neuritis causing a right afferent pupillary defect. Light in the affected right eye produces no direct or consensual response because the afferent limb is interrupted. Light in the intact left eye still activates both efferent pathways, so both pupils constrict. This is pattern F.",
     "choice_explanations": {
-      "A":"Incorrect: if the right optic nerve is affected, light in the right eye cannot trigger either pupil; light in the healthy left eye should trigger both.",
-      "B":"Incorrect: this describes a normal right-eye afferent response, which is inconsistent with right optic neuritis.",
-      "C":"Incorrect: an intact left optic nerve should drive bilateral constriction when illuminated.",
-      "D":"Incorrect: the left pupil constricts when the right eye is illuminated, showing that afferent input from the right eye reaches the brain; that does not fit a complete right optic-nerve block.",
-      "E":"Incorrect: this pattern suggests an efferent defect affecting the right pupil, not a right optic-nerve afferent lesion.",
-      "F":"Correct: a right optic-nerve afferent defect prevents either pupil responding to right-eye illumination, while left-eye illumination activates both efferent limbs."
+      "A": "Incorrect: describes absent responses when light enters the left eye instead.",
+      "B": "Incorrect: predicts a response to light in the affected right eye and an intact response to light in the left eye.",
+      "C": "Incorrect: predicts a response in the right pupil when light is shone in the affected right eye.",
+      "D": "Incorrect: predicts preserved left-pupil constriction with right-eye illumination, inconsistent with right afferent failure.",
+      "E": "Incorrect: predicts a normal left-eye afferent response in the left pupil but no right-pupil response; the intact left afferent input should constrict both pupils.",
+      "F": "Correct: no responses with right-eye illumination; both pupils constrict with left-eye illumination."
     },
     "fa_summary": "Multiple sclerosis causes CNS demyelination with neurologic deficits separated in time and space; optic neuritis is a common presentation. A unilateral optic-nerve lesion causes an afferent pupillary defect: illumination of the affected eye fails to constrict either pupil, while illumination of the unaffected eye constricts both.",
-    "fa_page": 537
+    "fa_page": 537,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        60
+      ],
+      "explanation": [
+        62
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "question_figures_reviewed": true,
+    "question_figure_description": "瞳孔对光反射模式表",
+    "question_images": [
+      "assets/question-figures/anatomy-extra-q12-pupil-table.jpg"
+    ],
+    "question_image": "assets/question-figures/anatomy-extra-q12-pupil-table.jpg",
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "F": {
+        "page": 554,
+        "verified": true,
+        "text": "Pupillary-control diagram/text: light in either eye activates bilateral Edinger–Westphal nuclei and constricts both pupils; optic-nerve afferent lesions cause a relative afferent pupillary defect.",
+        "images": [
+          "assets/fa-pages/fa-2026-p554.png"
+        ]
+      }
+    }
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||13": {
     "chapter": "Musculoskeletal, Skin, and Connective Tissue",
     "fa_subchapter": "Anatomy and Physiology",
-    "stem": "A 26-year-old woman has worked out twice a week for several months at a local exercise club. Recently, she developed severe weakness in abduction of her thighs against resistance using an exercise machine. It is determined that this weakness began soon after she received an intramuscular injection of a vaccine. Damage to which of the following nerves is most likely responsible for this loss of function?",
+    "stem": "A 26-year-old woman has worked out twice a week for several months at a local exercise club. Recently she developed severe weakness in abduction of her thighs against resistance using an exercise machine. It is determined that this weakness began soon after she received an intramuscular injection of a vaccine. Damage to which of the following nerves is most likely responsible for this loss of function?",
     "options": [
-      {"letter":"A","text":"Deep fibular nerve"},
-      {"letter":"B","text":"Femoral nerve"},
-      {"letter":"C","text":"Obturator nerve"},
-      {"letter":"D","text":"Superior gluteal nerve"},
-      {"letter":"E","text":"Tibial nerve"}
+      {
+        "letter": "A",
+        "text": "Deep fibular nerve"
+      },
+      {
+        "letter": "B",
+        "text": "Femoral nerve"
+      },
+      {
+        "letter": "C",
+        "text": "Obturator nerve"
+      },
+      {
+        "letter": "D",
+        "text": "Superior gluteal nerve"
+      },
+      {
+        "letter": "E",
+        "text": "Tibial nerve"
+      }
     ],
-    "answer":"D",
-    "explanation":"Hip abduction is chiefly produced by gluteus medius and minimus, with help from tensor fasciae latae. These muscles are supplied by the superior gluteal nerve (L4-S1). An intramuscular injection placed too high and medially in the gluteal region can injure this nerve, weakening the abductors and potentially causing a Trendelenburg gait. The clue is loss of hip abduction after an injection, not foot or knee weakness.",
+    "answer": "D",
+    "explanation": "Hip abduction is performed chiefly by gluteus medius and minimus, supplied by the superior gluteal nerve (L4-S1). A misplaced intragluteal injection can injure this nerve. The femoral nerve mainly supplies anterior thigh muscles; obturator nerve supplies most medial thigh adductors; deep fibular and tibial nerves supply leg compartments.",
     "choice_explanations": {
-      "A":"Incorrect: the deep fibular nerve supplies anterior-compartment leg muscles for ankle dorsiflexion and toe extension; injury may cause foot drop.",
-      "B":"Incorrect: the femoral nerve supplies the anterior thigh, especially quadriceps for knee extension, and contributes to hip flexion.",
-      "C":"Incorrect: the obturator nerve supplies medial-thigh adductors; injury weakens hip adduction, not abduction.",
-      "D":"Correct: the superior gluteal nerve supplies gluteus medius and minimus, the primary hip abductors.",
-      "E":"Incorrect: the tibial nerve supplies posterior leg and plantar-foot muscles; injury impairs plantarflexion and toe flexion."
+      "A": "Incorrect: deep fibular nerve supplies anterior leg dorsiflexors and toe extensors.",
+      "B": "Incorrect: femoral nerve supplies anterior thigh muscles and supports hip flexion/knee extension.",
+      "C": "Incorrect: obturator nerve supplies thigh adductors, not the principal abductors.",
+      "D": "Correct: superior gluteal nerve supplies gluteus medius and minimus, the principal hip abductors.",
+      "E": "Incorrect: tibial nerve supplies posterior leg and plantar foot muscles."
     },
     "option_fa": {
-      "A":{"page":457,"summary":"The deep fibular nerve supplies tibialis anterior and other anterior-compartment muscles; loss of dorsiflexion can produce foot drop."},
-      "B":{"page":456,"summary":"The femoral nerve supplies the anterior thigh; quadriceps weakness impairs knee extension, and hip flexion may also weaken."},
-      "C":{"page":456,"summary":"The obturator nerve supplies medial-thigh muscles, including hip adductors; a lesion causes weakness of adduction."},
-      "D":{"page":456,"summary":"Superior gluteal nerve (L4-S1) supplies gluteus medius, gluteus minimus, and tensor fasciae latae. Injury can follow an improperly placed gluteal injection and causes Trendelenburg gait from impaired pelvic stabilization."},
-      "E":{"page":457,"summary":"The tibial nerve supplies posterior-compartment leg and plantar-foot muscles; a proximal lesion weakens plantarflexion and toe flexion."}
+      "A": {
+        "page": 457,
+        "verified": true,
+        "text": "Lower-extremity nerve table: deep peroneal nerve supplies anterior-compartment dorsiflexors; tibial nerve supplies posterior-leg/foot muscles; superior gluteal nerve supplies gluteus medius/minimus and tensor fascia lata, with injection injury causing Trendelenburg findings.",
+        "images": [
+          "assets/fa-pages/fa-2026-p457.png"
+        ]
+      },
+      "B": {
+        "page": 456,
+        "verified": true,
+        "text": "Lower-extremity nerve table: obturator nerve supplies medial-thigh adductors and medial-thigh sensation; femoral nerve supplies quadriceps and supports knee extension.",
+        "images": [
+          "assets/fa-pages/fa-2026-p456.png"
+        ]
+      },
+      "C": {
+        "page": 456,
+        "verified": true,
+        "text": "Lower-extremity nerve table: obturator nerve supplies medial-thigh adductors and medial-thigh sensation; femoral nerve supplies quadriceps and supports knee extension.",
+        "images": [
+          "assets/fa-pages/fa-2026-p456.png"
+        ]
+      },
+      "D": {
+        "page": 457,
+        "verified": true,
+        "text": "Lower-extremity nerve table: deep peroneal nerve supplies anterior-compartment dorsiflexors; tibial nerve supplies posterior-leg/foot muscles; superior gluteal nerve supplies gluteus medius/minimus and tensor fascia lata, with injection injury causing Trendelenburg findings.",
+        "images": [
+          "assets/fa-pages/fa-2026-p457.png"
+        ]
+      },
+      "E": {
+        "page": 457,
+        "verified": true,
+        "text": "Lower-extremity nerve table: deep peroneal nerve supplies anterior-compartment dorsiflexors; tibial nerve supplies posterior-leg/foot muscles; superior gluteal nerve supplies gluteus medius/minimus and tensor fascia lata, with injection injury causing Trendelenburg findings.",
+        "images": [
+          "assets/fa-pages/fa-2026-p457.png"
+        ]
+      }
     },
-    "fa_summary":"First Aid lists gluteus medius/minimus as hip abductors (p. 455) and identifies their superior gluteal nerve supply, injection injury, and Trendelenburg gait (p. 456).",
-    "fa_page":456
+    "fa_summary": "First Aid lists gluteus medius/minimus as hip abductors (p. 455) and identifies their superior gluteal nerve supply, injection injury, and Trendelenburg gait (p. 456).",
+    "fa_page": 456,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        65
+      ],
+      "explanation": [
+        66,
+        67
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified"
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||14": {
-    "chapter":"Musculoskeletal, Skin, and Connective Tissue",
-    "fa_subchapter":"Anatomy and Physiology",
-    "stem":"A 33-year-old woman is brought to the emergency department after a skiing accident. She was going too fast and grabbed a tree with her right arm to avoid colliding with another skier. Since the injury, she has weakness and numbness in her right upper extremity. Examination shows pain and numbness in the medial two fingers, the medial aspect of the palm, and the medial aspect of the arm and forearm on the right. She also has clawing of digits IV-V of the right hand. Which structure is most likely injured?",
-    "options":[
-      {"letter":"A","text":"Axillary nerve"},
-      {"letter":"B","text":"Lower trunk of the brachial plexus"},
-      {"letter":"C","text":"Median nerve"},
-      {"letter":"D","text":"Radial nerve"},
-      {"letter":"E","text":"Ulnar nerve"},
-      {"letter":"F","text":"Upper trunk of the brachial plexus"}
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Anatomy and Physiology",
+    "stem": "A 33-year-old woman is brought to the emergency department after a skiing accident. She tells the physician that she was going too fast and grabbed a tree with her right arm to avoid colliding with another skier. Following the injury, the patient complained of weakness and numbness in her right upper extremity. Physical examination shows pain and numbness in the medial two fingers, the medial aspect of the palm, and in the medial aspect of the arm and forearm on the right. Examination also reveals clawing of digits II-V on the right hand. This patient most likely injured which of the following?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The axillary nerve"
+      },
+      {
+        "letter": "B",
+        "text": "The lower trunk of the brachial plexus"
+      },
+      {
+        "letter": "C",
+        "text": "The median nerve"
+      },
+      {
+        "letter": "D",
+        "text": "The radial nerve"
+      },
+      {
+        "letter": "E",
+        "text": "The ulnar nerve"
+      },
+      {
+        "letter": "F",
+        "text": "The upper trunk of the brachial plexus"
+      }
     ],
-    "answer":"B",
-    "explanation":"Traction on an abducted arm can injure the lower trunk (C8-T1) of the brachial plexus, producing Klumpke palsy. C8-T1 fibers contribute to intrinsic hand muscles and the ulnar side of the hand; lower-trunk injury can therefore cause clawing and sensory loss along the medial hand, forearm, and arm. This is broader than an isolated ulnar neuropathy because the medial forearm sensation is also affected.",
-    "choice_explanations":{
-      "A":"Incorrect: the axillary nerve supplies deltoid and teres minor; injury causes impaired shoulder abduction and sensory loss over the lateral shoulder.",
-      "B":"Correct: lower-trunk (C8-T1) injury causes Klumpke palsy with intrinsic hand weakness/clawing and medial sensory deficits.",
-      "C":"Incorrect: an isolated median lesion causes median-distribution sensory/motor findings, not medial forearm sensory loss and ulnar-sided clawing.",
-      "D":"Incorrect: radial neuropathy chiefly impairs wrist/finger extension and can cause wrist drop with dorsolateral hand sensory loss.",
-      "E":"Incorrect: ulnar neuropathy can claw digits IV-V, but does not explain sensory loss over the medial forearm and arm.",
-      "F":"Incorrect: upper-trunk (C5-C6) injury produces Erb palsy, with shoulder abduction/external rotation and elbow-flexion weakness."
+    "answer": "B",
+    "explanation": "Traction on an abducted arm while grabbing a fixed object can injure the lower trunk of the brachial plexus (C8-T1, Klumpke pattern). Medial hand/forearm sensory loss and intrinsic-hand weakness with clawing support lower-trunk injury. A single ulnar nerve lesion would not explain medial forearm sensory change or the broad hand findings.",
+    "choice_explanations": {
+      "A": "Incorrect: axillary injury affects deltoid/teres minor and lateral shoulder sensation.",
+      "B": "Correct: lower-trunk traction injury causes C8-T1 deficits and intrinsic-hand weakness/clawing.",
+      "C": "Incorrect: median neuropathy does not explain medial forearm sensory loss and the full described distribution.",
+      "D": "Incorrect: radial neuropathy primarily affects extension and dorsal radial sensation.",
+      "E": "Incorrect: ulnar neuropathy can cause clawing but not medial forearm sensory loss.",
+      "F": "Incorrect: upper-trunk injury produces C5-C6 deficits, classically Erb palsy."
     },
-    "option_fa":{
-      "A":{"page":450,"summary":"The axillary nerve supplies deltoid and teres minor; injury near the surgical neck of the humerus causes weak abduction and lateral-shoulder sensory loss."},
-      "B":{"page":452,"summary":"Lower-trunk C8-T1 injury (Klumpke palsy) weakens intrinsic hand muscles and causes ulnar-sided hand/forearm sensory loss; T1 involvement can produce Horner syndrome."},
-      "C":{"page":450,"summary":"Median nerve injury affects thenar muscles and sensation in the lateral 3½ digits; the palmar cutaneous branch remains outside the carpal tunnel."},
-      "D":{"page":450,"summary":"Radial nerve injury can cause wrist drop and sensory loss over the dorsolateral hand, depending on lesion level."},
-      "E":{"page":450,"summary":"Ulnar nerve injury weakens intrinsic hand muscles and causes sensory loss on the medial hand; it does not account for medial-forearm sensory loss."},
-      "F":{"page":452,"summary":"Upper-trunk C5-C6 injury (Erb palsy) affects shoulder and elbow functions, classically producing the waiter-tip posture."}
+    "option_fa": {
+      "A": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: axillary nerve injury is associated with surgical-neck fracture and loss of arm abduction beyond 15 degrees; deltoid/lateral-arm sensory findings are noted.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "B": {
+        "page": 452,
+        "verified": true,
+        "text": "Brachial-plexus lesions table/diagram: upper trunk C5–C6 injury (Erb palsy) weakens biceps flexion/supination; lower trunk C8–T1 injury (Klumpke) affects intrinsic hand muscles and may cause claw hand; thoracic outlet syndrome compresses lower trunk and subclavian vessels; long thoracic C5–C7 injury affects serratus anterior and causes scapular winging/inability to anchor the scapula. This supports the scapular motor-deficit option; the page does not use the exact word ‘protraction.’",
+        "images": [
+          "assets/fa-pages/fa-2026-p452.png"
+        ]
+      },
+      "C": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: median nerve injury can cause thenar/LOAF deficits and sensory loss involving the lateral 3½ fingers; carpal tunnel syndrome is a distal median-nerve lesion.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "D": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: midshaft humeral fracture may injure radial nerve and cause wrist drop; wrist extension is needed for maximal grip strength.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "E": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: ulnar neuropathy causes ulnar claw, impaired finger abduction/adduction, and sensory loss over the ulnar 1½ fingers including the hypothenar eminence.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "F": {
+        "page": 452,
+        "verified": true,
+        "text": "Brachial-plexus lesions table/diagram: upper trunk C5–C6 injury (Erb palsy) weakens biceps flexion/supination; lower trunk C8–T1 injury (Klumpke) affects intrinsic hand muscles and may cause claw hand; thoracic outlet syndrome compresses lower trunk and subclavian vessels; long thoracic C5–C7 injury affects serratus anterior and causes scapular winging/inability to anchor the scapula. This supports the scapular motor-deficit option; the page does not use the exact word ‘protraction.’",
+        "images": [
+          "assets/fa-pages/fa-2026-p452.png"
+        ]
+      }
     },
-    "fa_summary":"First Aid's brachial plexus diagram and lesion table contrast upper-trunk Erb palsy with lower-trunk Klumpke palsy; the C8-T1 pattern matches the medial sensory loss and hand clawing here.",
-    "fa_page":452
+    "fa_summary": "First Aid's brachial plexus diagram and lesion table contrast upper-trunk Erb palsy with lower-trunk Klumpke palsy; the C8-T1 pattern matches the medial sensory loss and hand clawing here.",
+    "fa_page": 452,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        69
+      ],
+      "explanation": [
+        70,
+        71
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified"
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||15": {
-    "chapter":"Musculoskeletal, Skin, and Connective Tissue",
-    "fa_subchapter":"Anatomy and Physiology",
-    "stem":"A 16-year-old boy is brought to the emergency department after sustaining multiple knife wounds, including one to the axilla. Neurologic examination suggests an injury to the posterior cord of the brachial plexus. Which of the following muscles is most likely to be paralyzed?",
-    "options":[
-      {"letter":"A","text":"Brachialis"},
-      {"letter":"B","text":"Deltoid"},
-      {"letter":"C","text":"Flexor digitorum superficialis"},
-      {"letter":"D","text":"Pronator teres"},
-      {"letter":"E","text":"Rhomboid major and minor"}
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Anatomy and Physiology",
+    "stem": "A 16-year-old boy is brought to the emergency department after sustaining multiple knife wounds, including one into the axilla. Neurologic examination suggests an injury to the posterior cord of the brachial plexus. Further evaluation reveals no major vascular injury. Which of the following muscles is most likely to be paralyzed?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Brachialis"
+      },
+      {
+        "letter": "B",
+        "text": "Deltoid"
+      },
+      {
+        "letter": "C",
+        "text": "Flexor digitorum superficialis"
+      },
+      {
+        "letter": "D",
+        "text": "Pronator teres"
+      },
+      {
+        "letter": "E",
+        "text": "Rhomboideus major and minor"
+      }
     ],
-    "answer":"B",
-    "explanation":"The posterior cord gives rise to the axillary and radial nerves. Of the listed muscles, the deltoid is supplied by the axillary nerve, so a posterior-cord lesion can paralyze it and weaken shoulder abduction. Brachialis is supplied mainly by the musculocutaneous nerve; flexor digitorum superficialis and pronator teres are supplied by the median nerve. Rhomboids receive the dorsal scapular nerve directly from the C5 root, before the cords form.",
-    "choice_explanations":{
-      "A":"Incorrect: brachialis is supplied mainly by the musculocutaneous nerve, a terminal branch of the lateral cord.",
-      "B":"Correct: deltoid is supplied by the axillary nerve, which arises from the posterior cord.",
-      "C":"Incorrect: flexor digitorum superficialis is supplied by the median nerve, derived from the medial and lateral cords.",
-      "D":"Incorrect: pronator teres is supplied by the median nerve, not a posterior-cord branch.",
-      "E":"Incorrect: rhomboids are supplied by the dorsal scapular nerve, which branches from the C5 root proximal to the trunks and cords."
+    "answer": "B",
+    "explanation": "The posterior cord gives rise to the axillary and radial nerves. Of the listed muscles, deltoid is supplied by the axillary nerve and would be affected. Brachialis is mainly musculocutaneous; flexor digitorum superficialis and pronator teres are median-innervated; rhomboids are supplied by the dorsal scapular nerve.",
+    "choice_explanations": {
+      "A": "Incorrect: brachialis is chiefly supplied by musculocutaneous nerve (with a small radial contribution variably described).",
+      "B": "Correct: deltoid is supplied by the axillary nerve, a posterior-cord branch.",
+      "C": "Incorrect: flexor digitorum superficialis is supplied by the median nerve.",
+      "D": "Incorrect: pronator teres is supplied by the median nerve.",
+      "E": "Incorrect: rhomboids are supplied by the dorsal scapular nerve, usually arising from C5 root."
     },
-    "option_fa":{
-      "A":{"page":452,"summary":"Brachialis is an anterior-arm flexor supplied primarily by the musculocutaneous nerve; this nerve comes from the lateral cord."},
-      "B":{"page":452,"summary":"The posterior cord gives rise to the axillary nerve, which supplies deltoid; deltoid is a major shoulder abductor."},
-      "C":{"page":452,"summary":"Flexor digitorum superficialis is a median-nerve forearm flexor, not a posterior-cord muscle."},
-      "D":{"page":452,"summary":"Pronator teres is supplied by the median nerve and pronates the forearm."},
-      "E":{"page":452,"summary":"Rhomboids are supplied by the dorsal scapular nerve, which arises directly from the C5 root before the brachial plexus cords."}
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "B": {
+        "page": 450,
+        "verified": true,
+        "text": "Upper-extremity nerve table: axillary nerve injury is associated with surgical-neck fracture and loss of arm abduction beyond 15 degrees; deltoid/lateral-arm sensory findings are noted.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      }
     },
-    "fa_summary":"First Aid's brachial plexus diagram traces the posterior cord to the axillary and radial nerves; the axillary nerve supplies the deltoid.",
-    "fa_page":452
+    "fa_summary": "First Aid's brachial plexus diagram traces the posterior cord to the axillary and radial nerves; the axillary nerve supplies the deltoid.",
+    "fa_page": 452,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        77
+      ],
+      "explanation": [
+        78,
+        79
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified"
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||16": {
-    "chapter":"Musculoskeletal, Skin, and Connective Tissue",
-    "fa_subchapter":"Anatomy and Physiology",
-    "stem":"A 17-year-old girl who plays soccer is brought to the emergency department after a posterior dislocation of her right knee during a game. The knee is swollen and bruised posteriorly. The dislocation is reduced, but distal pulses are difficult to palpate. Angiograms of the lower extremities are shown. Which vascular structure, indicated by the arrows, is most likely injured?",
-    "options":[
-      {"letter":"A","text":"Anterior tibial artery"},
-      {"letter":"B","text":"Fibular (peroneal) artery"},
-      {"letter":"C","text":"Popliteal artery"},
-      {"letter":"D","text":"Posterior tibial artery"},
-      {"letter":"E","text":"Femoral artery"}
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Anatomy and Physiology",
+    "stem": "A 17-year-old girl who is a soccer player is brought to the emergency department after a posterior dislocation of her right knee during a soccer game. On physical examination, there is significant swelling of the knee and significant bruising on the posterior aspect. The dislocation is reduced, but the pulses distal to the site of injury are not easily palpable. Angiograms of the lower extremities are shown. Which of the following vascular structures, indicated by arrows in the image, is most likely damaged in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anterior tibial artery"
+      },
+      {
+        "letter": "B",
+        "text": "Fibular artery"
+      },
+      {
+        "letter": "C",
+        "text": "Popliteal artery"
+      },
+      {
+        "letter": "D",
+        "text": "Posterior tibial artery"
+      },
+      {
+        "letter": "E",
+        "text": "Femoral artery"
+      }
     ],
-    "answer":"C",
-    "explanation":"The popliteal artery lies immediately posterior to the knee joint and is tethered as it passes through the popliteal fossa. Posterior knee dislocation can stretch or tear it, threatening distal limb perfusion; absent or weak pulses require urgent vascular assessment. The angiographic arrows identify the vessel at the knee. The anterior and posterior tibial and fibular arteries are distal branches, while the femoral artery becomes the popliteal artery after passing through the adductor hiatus.",
-    "choice_explanations":{
-      "A":"Incorrect: the anterior tibial artery branches from the popliteal artery and travels into the anterior compartment of the leg; it is distal to the knee joint.",
-      "B":"Incorrect: the fibular artery is a branch of the posterior tibial artery in the leg, distal to the knee.",
-      "C":"Correct: the popliteal artery is the major vessel directly behind the knee and is vulnerable in knee dislocation.",
-      "D":"Incorrect: the posterior tibial artery is a distal branch in the posterior leg, below the popliteal fossa.",
-      "E":"Incorrect: the femoral artery is proximal to the knee; after traversing the adductor hiatus it is called the popliteal artery."
+    "answer": "C",
+    "explanation": "Posterior knee dislocation can injure the popliteal artery because it is tethered proximally and distally around the knee. Posterior bruising and diminished distal pulses are red flags for this vascular injury. The arrows in the source angiogram indicate the popliteal artery at the knee.",
+    "choice_explanations": {
+      "A": "Incorrect: anterior tibial artery branches distal to the knee; the source arrows mark the vessel at the knee joint.",
+      "B": "Incorrect: fibular artery is a distal branch and is not the vessel indicated at the knee.",
+      "C": "Correct: popliteal artery is vulnerable to injury in knee dislocation.",
+      "D": "Incorrect: posterior tibial artery is distal to the popliteal artery bifurcation.",
+      "E": "Incorrect: femoral artery is proximal to the knee and not the vessel marked by the arrows."
     },
-    "option_fa":{
-      "A":{"page":457,"summary":"The anterior tibial artery is a distal branch supplying the anterior leg and dorsum of the foot; it is not the artery immediately posterior to the knee."},
-      "B":{"page":457,"summary":"The fibular (peroneal) artery is a branch of the posterior tibial artery in the leg, distal to the popliteal fossa."},
-      "C":{"page":458,"summary":"First Aid identifies the popliteal artery in the popliteal fossa; it continues from the femoral artery and is closely associated with the tibial nerve."},
-      "D":{"page":458,"summary":"The posterior tibial artery travels behind the medial malleolus; it is a distal leg artery rather than the vessel at the knee."},
-      "E":{"page":458,"summary":"The femoral artery passes through the adductor hiatus and continues as the popliteal artery in the popliteal fossa."
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
       }
     },
-    "fa_summary":"First Aid's neurovascular-pairing table identifies the popliteal artery in the popliteal fossa (p. 458); the lower-limb arterial diagram shows the distal branches (p. 457).",
-    "fa_page":458
+    "fa_summary": "First Aid's neurovascular-pairing table identifies the popliteal artery in the popliteal fossa (p. 458); the lower-limb arterial diagram shows the distal branches (p. 457).",
+    "fa_page": 458,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        84,
+        85
+      ],
+      "explanation": [
+        87
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified",
+    "question_figures_reviewed": true,
+    "question_figure_description": "膝关节血管造影，箭头标示腘动脉",
+    "question_images": [
+      "assets/question-figures/anatomy-extra-q16-angiogram.jpg"
+    ],
+    "question_image": "assets/question-figures/anatomy-extra-q16-angiogram.jpg"
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||17": {
-    "chapter":"Neurology and Special Senses",
-    "fa_subchapter":"Ophthalmology",
-    "stem":"A 54-year-old woman is admitted to the intensive care unit with sepsis secondary to a urinary tract infection. A central venous catheter is to be placed in the right internal jugular vein to monitor hemodynamic information. During the ultrasound-guided procedure, the resident inadvertently pierces the vein and damages structures posterior to the carotid sheath. Which finding is most likely?",
-    "options":[
-      {"letter":"A","text":"Constriction of the right pupil"},
-      {"letter":"B","text":"Dilation of the right pupil"},
-      {"letter":"C","text":"Inability to abduct the right eye"},
-      {"letter":"D","text":"Inability to close the right eye"},
-      {"letter":"E","text":"Paralysis of the platysma on the right"}
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Ophthalmology",
+    "stem": "A 54-year-old woman is admitted to the intensive care unit because of sepsis secondary to a urinary tract infection. The decision is made to place a central line catheter in the lumen of the right internal jugular vein to better track hemodynamic information. A resident performs the procedure guided by ultrasound, but during the course of the procedure, inadvertently pierces through the vein and damages structures located posterior to the carotid sheath. Which of the following is most likely to occur?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Constriction of the right pupil"
+      },
+      {
+        "letter": "B",
+        "text": "Dilation of the right pupil"
+      },
+      {
+        "letter": "C",
+        "text": "Inability to abduct the right eye"
+      },
+      {
+        "letter": "D",
+        "text": "Inability to close the right eye"
+      },
+      {
+        "letter": "E",
+        "text": "Paralysis of the platysma muscle on the right side"
+      }
     ],
-    "answer":"A",
-    "explanation":"The cervical sympathetic trunk lies posterior to the carotid sheath. Injury interrupts sympathetic input to the ipsilateral dilator pupillae, producing miosis (pupil constriction), along with possible mild ptosis and anhidrosis: Horner syndrome. The pupillary sphincter remains parasympathetically innervated, so loss of sympathetic dilation leaves the pupil constricted.",
-    "choice_explanations":{
-      "A":"Correct: interruption of sympathetic fibers to the dilator pupillae causes ipsilateral miosis.",
-      "B":"Incorrect: mydriasis can result from loss of parasympathetic constrictor input or increased sympathetic drive, not sympathetic-chain injury.",
-      "C":"Incorrect: impaired eye abduction indicates an abducens nerve (CN VI) lesion; CN VI is not the structure posterior to the carotid sheath here.",
-      "D":"Incorrect: eyelid closure is performed by orbicularis oculi, supplied by the facial nerve (CN VII).",
-      "E":"Incorrect: platysma is supplied by the facial nerve (CN VII), not cervical sympathetic fibers."
+    "answer": "A",
+    "explanation": "The cervical sympathetic trunk lies posterior to the carotid sheath. Injury interrupts sympathetic supply to the ipsilateral head, causing Horner syndrome: miosis (constricted pupil), mild ptosis, and anhidrosis. The pupil constricts because the dilator pupillae loses sympathetic input.",
+    "choice_explanations": {
+      "A": "Correct: loss of sympathetic input causes ipsilateral miosis.",
+      "B": "Incorrect: dilation requires intact sympathetic activation of dilator pupillae.",
+      "C": "Incorrect: abduction is performed by lateral rectus (CN VI), not the cervical sympathetic trunk.",
+      "D": "Incorrect: eyelid closure is mediated by orbicularis oculi (CN VII).",
+      "E": "Incorrect: platysma is supplied by cervical branch of facial nerve."
     },
-    "option_fa":{
-      "A":{"page":555,"summary":"Horner syndrome from sympathetic denervation causes ipsilateral miosis, mild ptosis, and anhidrosis; the pupil constricts because dilator pupillae sympathetic input is lost."},
-      "B":{"page":555,"summary":"Pupillary dilation is mediated by sympathetic activation of dilator pupillae; loss of this pathway causes miosis, not mydriasis."},
-      "C":{"page":518,"summary":"CN VI innervates lateral rectus; a lesion causes inability to abduct the eye and is anatomically distinct from the cervical sympathetic trunk."},
-      "D":{"page":520,"summary":"CN VII supplies orbicularis oculi, which closes the eyelids."},
-      "E":{"page":520,"summary":"CN VII supplies platysma, a superficial muscle of facial expression in the neck."}
+    "option_fa": {
+      "A": {
+        "page": 555,
+        "verified": true,
+        "text": "Horner syndrome section: sympathetic denervation causes ipsilateral ptosis, miosis, and anhidrosis; the page diagrams the sympathetic pathway and identifies CN VI/lateral rectus separately.",
+        "images": [
+          "assets/fa-pages/fa-2026-p555.png"
+        ]
+      },
+      "B": {
+        "page": 554,
+        "verified": true,
+        "text": "Pupillary-control diagram/text: light in either eye activates bilateral Edinger–Westphal nuclei and constricts both pupils; optic-nerve afferent lesions cause a relative afferent pupillary defect.",
+        "images": [
+          "assets/fa-pages/fa-2026-p554.png"
+        ]
+      },
+      "C": {
+        "page": 555,
+        "verified": true,
+        "text": "Horner/ciliary sympathetic pathway is diagrammed; CN VI innervates lateral rectus, and CN VII is not the motor nerve for eye abduction.",
+        "images": [
+          "assets/fa-pages/fa-2026-p555.png"
+        ]
+      },
+      "D": {
+        "page": 519,
+        "verified": true,
+        "text": "Cranial-nerve table: CN IX monitors carotid body/sinus chemo- and baroreceptors; CN XI turns the head; CN XII moves the tongue; CN V carries facial/lower-jaw sensation; CN VII carries anterior-tongue taste and closes the eye; CN X supports talking and swallowing.",
+        "images": [
+          "assets/fa-pages/fa-2026-p519.png"
+        ]
+      },
+      "E": {
+        "page": 638,
+        "verified": true,
+        "text": "Pharyngeal-arch derivative table: CN VII (second arch) supplies muscles of facial expression, including platysma.",
+        "images": [
+          "assets/fa-pages/fa-2026-p638.png"
+        ]
+      }
     },
-    "fa_summary":"First Aid's Horner syndrome diagram and summary describe sympathetic-chain injury causing ipsilateral miosis, ptosis, and anhidrosis (p. 555).",
-    "fa_page":555
+    "fa_summary": "First Aid's Horner syndrome diagram and summary describe sympathetic-chain injury causing ipsilateral miosis, ptosis, and anhidrosis (p. 555).",
+    "fa_page": 555,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        91
+      ],
+      "explanation": [
+        92,
+        93
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified"
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||18": {
-    "chapter":"Neurology and Special Senses",
-    "fa_subchapter":"Anatomy and Physiology",
-    "stem":"A 58-year-old man is brought to his physician by family members because of recent cognitive changes. His family is concerned that he can no longer recognize common objects in his surroundings. Neurologic examination shows that when he is presented with a picture of a dog, he can copy the picture but cannot recognize the animal as a dog. This finding is most likely caused by a lesion in which area?",
-    "options":[
-      {"letter":"A","text":"Angular gyrus"},
-      {"letter":"B","text":"Frontal eye field"},
-      {"letter":"C","text":"Parieto-occipital association cortex"},
-      {"letter":"D","text":"Precentral gyrus"},
-      {"letter":"E","text":"Prefrontal cortex"},
-      {"letter":"F","text":"Temporo-occipital association cortex"}
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Anatomy and Physiology",
+    "stem": "A 58-year-old man is brought to his general physician by family members because of recent cognitive changes. His family is concerned that he is no longer able to recognize common objects in his surroundings. Neurologic examination shows that when he is presented with a picture of a dog, he is able to copy the picture but is unable to recognize the animal as a dog. This finding is most likely caused by a lesion to which of the following areas?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Angular gyrus"
+      },
+      {
+        "letter": "B",
+        "text": "Frontal eye field"
+      },
+      {
+        "letter": "C",
+        "text": "Parieto-occipital association cortex"
+      },
+      {
+        "letter": "D",
+        "text": "Precentral gyrus"
+      },
+      {
+        "letter": "E",
+        "text": "Prefrontal cortex"
+      },
+      {
+        "letter": "F",
+        "text": "Temporo-occipital association cortex"
+      }
     ],
-    "answer":"F",
-    "explanation":"This is visual agnosia: the patient can see and copy an object but cannot identify it. Visual information reaches primary visual cortex and is then interpreted by visual association cortex. The ventral occipitotemporal (“what”) pathway supports recognition of objects, faces, and other visual content; a lesion in temporo-occipital association cortex can cause visual agnosia. The preserved ability to copy argues against a primary visual or motor deficit.",
-    "choice_explanations":{
-      "A":"Incorrect: the angular gyrus participates in language-related integration, including reading and writing functions.",
-      "B":"Incorrect: the frontal eye field controls voluntary conjugate gaze, especially contralateral horizontal gaze.",
-      "C":"Incorrect: parieto-occipital association cortex is associated with spatial attention and integration, not the classic ventral-stream object-recognition deficit described.",
-      "D":"Incorrect: the precentral gyrus is primary motor cortex; a lesion causes contralateral motor weakness.",
-      "E":"Incorrect: prefrontal cortex supports executive function, planning, and behavior rather than visual object identification.",
-      "F":"Correct: the ventral temporo-occipital association pathway processes visual identity (“what”), and injury can cause visual agnosia."
+    "answer": "F",
+    "explanation": "This is visual agnosia: visual perception and copying are intact, but the patient cannot recognize a familiar object. Lesions of the temporo-occipital visual association cortex can cause this deficit. Prosopagnosia is a related visual agnosia specifically affecting face recognition.",
+    "choice_explanations": {
+      "A": "Incorrect: angular gyrus lesions can cause language/reading and calculation syndromes, not classic visual object agnosia.",
+      "B": "Incorrect: frontal eye field controls voluntary saccades.",
+      "C": "Incorrect: parieto-occipital association cortex integrates spatial/somatosensory and visual information; the source localizes this visual recognition deficit to temporo-occipital association cortex.",
+      "D": "Incorrect: precentral gyrus is primary motor cortex.",
+      "E": "Incorrect: prefrontal cortex supports executive function and behavior.",
+      "F": "Correct: temporo-occipital visual association cortex supports recognition of visually perceived objects."
     },
-    "option_fa":{
-      "A":{"page":512,"summary":"The angular gyrus is part of the association cortex involved in language and symbolic processing; it is not the primary visual object-recognition area."},
-      "B":{"page":512,"summary":"The frontal eye field coordinates voluntary contralateral horizontal gaze."},
-      "C":{"page":512,"summary":"Parietal association regions contribute to spatial attention; the ventral visual stream is the pathway for object identity."},
-      "D":{"page":512,"summary":"The precentral gyrus is primary motor cortex and controls voluntary movement."},
-      "E":{"page":512,"summary":"Prefrontal cortex is involved in executive function, planning, and behavior."},
-      "F":{"page":512,"summary":"The temporo-occipital association cortex is part of the ventral “what” pathway and supports recognition of visual objects."
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "B": {
+        "page": 524,
+        "verified": true,
+        "text": "Common brain-lesion table identifies frontal eye fields and prefrontal cortex with their clinical associations; parietal lesions can cause finger agnosia or hemispatial neglect. This is not a direct discussion of visual object agnosia.",
+        "images": [
+          "assets/fa-pages/fa-2026-p524.png"
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "E": {
+        "page": 524,
+        "verified": true,
+        "text": "Common brain-lesion table identifies frontal eye fields and prefrontal cortex with their clinical associations; parietal lesions can cause finger agnosia or hemispatial neglect. This is not a direct discussion of visual object agnosia.",
+        "images": [
+          "assets/fa-pages/fa-2026-p524.png"
+        ]
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
       }
     },
-    "fa_summary":"First Aid's cerebral-cortex diagram places visual association cortex in the occipitotemporal region; the ventral “what” pathway supports object recognition (p. 512).",
-    "fa_page":512
+    "fa_summary": "First Aid's cerebral-cortex diagram places visual association cortex in the occipitotemporal region; the ventral “what” pathway supports object recognition (p. 512).",
+    "fa_page": 512,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        95
+      ],
+      "explanation": [
+        96,
+        97
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified"
   },
   "自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||19": {
-    "chapter":"Musculoskeletal, Skin, and Connective Tissue",
-    "fa_subchapter":"Anatomy and Physiology",
-    "stem":"A newborn is delivered at 43 weeks' gestation after a difficult breech delivery. The infant's arm was extended overhead to free the impacted head. After delivery, the arm is adducted and internally rotated, with an extended elbow and pronated forearm. Radiographs show no abnormalities. Loss of innervation to which muscle best accounts for the extended elbow and pronated forearm?",
-    "options":[
-      {"letter":"A","text":"Biceps brachii"},
-      {"letter":"B","text":"Brachialis"},
-      {"letter":"C","text":"Coracobrachialis"},
-      {"letter":"D","text":"Deltoid"},
-      {"letter":"E","text":"Pronator teres"}
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Anatomy and Physiology",
+    "stem": "A newborn is born at 43 weeks' gestation after a difficult delivery complicated by breech presentation. External cephalic version was attempted prior to delivery but ultrasound showed no change in the position of the baby. The decision was made to attempt a breech delivery. Following delivery, physical examination shows an adducted and internally rotated shoulder with an extended elbow and pronated forearm. An x-ray of the arm and forearm does not show any abnormalities. Loss of innervation to which of the following muscles best accounts for both the extended elbow and pronated forearm?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Biceps brachii"
+      },
+      {
+        "letter": "B",
+        "text": "Brachialis"
+      },
+      {
+        "letter": "C",
+        "text": "Coracobrachialis"
+      },
+      {
+        "letter": "D",
+        "text": "Deltoid"
+      },
+      {
+        "letter": "E",
+        "text": "Pronator teres"
+      }
     ],
-    "answer":"A",
-    "explanation":"This is Erb palsy from traction injury to the upper trunk (C5-C6) of the brachial plexus during a difficult delivery. The classic arm posture reflects loss of shoulder abduction/external rotation and elbow flexion/supination. The biceps brachii is especially important because it both flexes the elbow and supinates the forearm; denervation leaves the elbow extended and forearm pronated.",
-    "choice_explanations":{
-      "A":"Correct: biceps brachii (musculocutaneous nerve, C5-C6) flexes the elbow and supinates the forearm; its loss explains both findings.",
-      "B":"Incorrect: brachialis flexes the elbow but does not supinate the forearm; biceps loss best accounts for the combined posture.",
-      "C":"Incorrect: coracobrachialis flexes and adducts the shoulder, not the elbow or forearm.",
-      "D":"Incorrect: deltoid abducts the shoulder and is supplied by the axillary nerve; it does not flex the elbow or supinate the forearm.",
-      "E":"Incorrect: pronator teres pronates the forearm; loss would reduce pronation rather than produce a pronated posture."
+    "answer": "A",
+    "explanation": "The posture is Erb palsy from traction injury to the upper trunk (C5-C6) of the brachial plexus during delivery. Biceps brachii is weakened, impairing elbow flexion and forearm supination; the limb assumes the classic adducted, internally rotated shoulder with extended elbow and pronated forearm. Brachialis also flexes the elbow but does not supinate the forearm, so it does not explain both findings.",
+    "choice_explanations": {
+      "A": "Correct: biceps brachii flexes the elbow and supinates the forearm; C5-C6 injury weakens it.",
+      "B": "Incorrect: brachialis flexes the elbow but does not supinate the forearm.",
+      "C": "Incorrect: coracobrachialis acts at the shoulder, not elbow flexion or forearm supination.",
+      "D": "Incorrect: deltoid acts at the shoulder and cannot explain elbow extension plus pronation.",
+      "E": "Incorrect: pronator teres pronates the forearm; loss would tend toward reduced pronation, not the observed pronated posture."
     },
-    "option_fa":{
-      "A":{"page":452,"summary":"Upper-trunk C5-C6 injury (Erb palsy) can weaken the musculocutaneous nerve; biceps brachii flexes the elbow and supinates the forearm."},
-      "B":{"page":452,"summary":"Brachialis is an elbow flexor supplied primarily by the musculocutaneous nerve; it does not supinate the forearm."},
-      "C":{"page":452,"summary":"Coracobrachialis acts at the shoulder, flexing and adducting the arm."},
-      "D":{"page":452,"summary":"Deltoid is supplied by the axillary nerve and abducts the arm at the shoulder."},
-      "E":{"page":450,"summary":"Pronator teres is a median-nerve muscle that pronates the forearm."
+    "option_fa": {
+      "A": {
+        "page": 452,
+        "verified": true,
+        "text": "Brachial-plexus lesions table/diagram: upper trunk C5–C6 injury (Erb palsy) weakens biceps flexion/supination; lower trunk C8–T1 injury (Klumpke) affects intrinsic hand muscles and may cause claw hand; thoracic outlet syndrome compresses lower trunk and subclavian vessels; long thoracic C5–C7 injury affects serratus anterior and causes scapular winging/inability to anchor the scapula. This supports the scapular motor-deficit option; the page does not use the exact word ‘protraction.’",
+        "images": [
+          "assets/fa-pages/fa-2026-p452.png"
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
+      },
+      "D": {
+        "page": 452,
+        "verified": true,
+        "text": "Brachial-plexus lesions table/diagram: upper trunk C5–C6 injury (Erb palsy) weakens biceps flexion/supination; lower trunk C8–T1 injury (Klumpke) affects intrinsic hand muscles and may cause claw hand; thoracic outlet syndrome compresses lower trunk and subclavian vessels; long thoracic C5–C7 injury affects serratus anterior and causes scapular winging/inability to anchor the scapula. This supports the scapular motor-deficit option; the page does not use the exact word ‘protraction.’",
+        "images": [
+          "assets/fa-pages/fa-2026-p452.png"
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No First Aid 2026 page located whose text directly supports this particular option/concept. Do not substitute a merely related index entry or broad chapter heading."
       }
     },
-    "fa_summary":"First Aid's brachial-plexus lesion figure identifies Erb palsy from C5-C6 upper-trunk traction (p. 452); upper-extremity nerve/muscle tables connect musculocutaneous injury to elbow-flexion and supination weakness (p. 450).",
-    "fa_page":452
+    "fa_summary": "First Aid's brachial-plexus lesion figure identifies Erb palsy from C5-C6 upper-trunk traction (p. 452); upper-extremity nerve/muscle tables connect musculocutaneous injury to elbow-flexion and supination weakness (p. 450).",
+    "fa_page": 452,
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_reviewed": true,
+    "fa_page_verified": false,
+    "source_pdf_pages": {
+      "question": [
+        101
+      ],
+      "explanation": [
+        102,
+        103
+      ]
+    },
+    "visually_verified": true,
+    "question_audit_status": "visually_verified"
   },
   "自建题库/KAPLAN QBANK/ANATOMY/MUSCLOSKELETAL/muscloskeletal.pdf||1": {
-    "chapter":"Musculoskeletal, Skin, and Connective Tissue",
-    "fa_subchapter":"Anatomy and Physiology",
-    "stem":"A 46-year-old woman with a history of Lyme disease undergoes excision of a right Baker cyst. Three months later, she has decreased sensation over the dorsum of the foot, especially in the web space between the first and second toes. She trips while walking and has mild right foot drop. Dysfunction of which muscle most likely causes her motor symptoms?",
-    "options":[
-      {"letter":"A","text":"Flexor hallucis longus"},
-      {"letter":"B","text":"Fibularis brevis"},
-      {"letter":"C","text":"Fibularis longus"},
-      {"letter":"D","text":"Tibialis anterior"},
-      {"letter":"E","text":"Tibialis posterior"}
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Anatomy and Physiology",
+    "stem": "A 46-year-old woman with a history of Lyme disease undergoes excision of a right Baker cyst. Three months later, she has decreased sensation over the dorsum of the foot, especially in the web space between the first and second toes. She trips while walking and has mild right foot drop. Dysfunction of which muscle most likely causes her motor symptoms?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Flexor hallucis longus"
+      },
+      {
+        "letter": "B",
+        "text": "Fibularis brevis"
+      },
+      {
+        "letter": "C",
+        "text": "Fibularis longus"
+      },
+      {
+        "letter": "D",
+        "text": "Tibialis anterior"
+      },
+      {
+        "letter": "E",
+        "text": "Tibialis posterior"
+      }
     ],
-    "answer":"D",
-    "explanation":"Excision of a Baker cyst can injure or scar the common fibular nerve as it courses through the popliteal fossa. Its deep branch supplies the anterior leg compartment, including tibialis anterior, which dorsiflexes the ankle. Weak dorsiflexion causes foot drop and toe-catching; sensory loss in the first dorsal web space specifically points to the deep fibular nerve. The other listed muscles do not dorsiflex the ankle.",
-    "choice_explanations":{
-      "A":"Incorrect: flexor hallucis longus is a posterior-compartment muscle supplied by the tibial nerve; it flexes the great toe and assists plantar flexion.",
-      "B":"Incorrect: fibularis brevis is supplied by the superficial fibular nerve and everts the foot; it does not dorsiflex it.",
-      "C":"Incorrect: fibularis longus is also a superficial-fibular-nerve muscle that everts and plantar-flexes the foot.",
-      "D":"Correct: tibialis anterior is supplied by the deep fibular nerve and is a primary ankle dorsiflexor.",
-      "E":"Incorrect: tibialis posterior is supplied by the tibial nerve and primarily inverts and plantar-flexes the foot."
+    "answer": "D",
+    "explanation": "Excision of a Baker cyst can injure or scar the common fibular nerve as it courses through the popliteal fossa. Its deep branch supplies the anterior leg compartment, including tibialis anterior, which dorsiflexes the ankle. Weak dorsiflexion causes foot drop and toe-catching; sensory loss in the first dorsal web space specifically points to the deep fibular nerve. The other listed muscles do not dorsiflex the ankle.",
+    "choice_explanations": {
+      "A": "Incorrect: flexor hallucis longus is a posterior-compartment muscle supplied by the tibial nerve; it flexes the great toe and assists plantar flexion.",
+      "B": "Incorrect: fibularis brevis is supplied by the superficial fibular nerve and everts the foot; it does not dorsiflex it.",
+      "C": "Incorrect: fibularis longus is also a superficial-fibular-nerve muscle that everts and plantar-flexes the foot.",
+      "D": "Correct: tibialis anterior is supplied by the deep fibular nerve and is a primary ankle dorsiflexor.",
+      "E": "Incorrect: tibialis posterior is supplied by the tibial nerve and primarily inverts and plantar-flexes the foot."
     },
-    "option_fa":{
-      "A":{"page":457,"summary":"Tibial-nerve posterior-compartment muscles include the toe flexors; flexor hallucis longus flexes the great toe and assists plantar flexion."},
-      "B":{"page":457,"summary":"The superficial fibular nerve supplies the lateral-compartment fibularis muscles, which evert the foot."},
-      "C":{"page":457,"summary":"Fibularis longus is a lateral-compartment muscle supplied by the superficial fibular nerve; it everts the foot."},
-      "D":{"page":457,"summary":"The common fibular nerve divides into superficial and deep branches. Deep fibular injury weakens anterior-compartment dorsiflexion and can produce foot drop; the first web space is its sensory territory."},
-      "E":{"page":457,"summary":"Tibial-nerve posterior-compartment muscles include tibialis posterior, which inverts and plantar-flexes the foot."}
-    },
-    "fa_summary":"First Aid 2026's lower-extremity nerve table links common fibular nerve injury, including compression by a Baker cyst, with dorsal-foot sensory loss and foot drop; the deep fibular branch supplies the anterior compartment (printed p. 457).",
-    "fa_page":457,
-    "complete":true
-  },
-  "自建题库/KAPLAN QBANK/ANATOMY/MUSCLOSKELETAL/muscloskeletal.pdf||2": {
-    "chapter":"Musculoskeletal, Skin, and Connective Tissue",
-    "fa_subchapter":"Anatomy and Physiology",
-    "stem":"A 35-year-old man sustains a humeral fracture during a rugby game. Two months later, he has difficulty abducting the arm, especially beyond the first 15 degrees, and decreased sensation over the lateral shoulder. Where is the fracture most likely located?",
-    "options":[
-      {"letter":"A","text":"Anatomical neck"},
-      {"letter":"B","text":"Lateral epicondyle"},
-      {"letter":"C","text":"Medial epicondyle"},
-      {"letter":"D","text":"Midshaft"},
-      {"letter":"E","text":"Surgical neck"}
-    ],
-    "answer":"E",
-    "explanation":"This is an axillary nerve lesion. The nerve wraps around the surgical neck of the humerus and supplies the deltoid and teres minor, as well as skin over the lateral shoulder. The supraspinatus initiates the first 15 degrees of abduction; the deltoid abducts the arm thereafter, explaining the deficit beyond 15 degrees. A midshaft fracture more typically injures the radial nerve and causes wrist/finger extension weakness.",
-    "choice_explanations":{
-      "A":"Incorrect: the anatomical neck is within the shoulder-joint capsule; it is not the characteristic site for axillary nerve injury.",
-      "B":"Incorrect: a lateral epicondyle fracture can affect structures near the elbow, not the axillary nerve or lateral shoulder sensation.",
-      "C":"Incorrect: a medial epicondyle fracture may injure the ulnar nerve and cause medial-hand symptoms.",
-      "D":"Incorrect: a midshaft humeral fracture can injure the radial nerve, causing wrist drop and posterior-limb sensory loss.",
-      "E":"Correct: the axillary nerve passes around the surgical neck; injury weakens deltoid-mediated abduction and reduces lateral-shoulder sensation."
-    },
-    "option_fa":{
-      "A":{"page":450,"summary":"First Aid describes axillary nerve injury after shoulder dislocation or surgical-neck fracture, rather than an isolated anatomical-neck fracture."},
-      "B":{"page":450,"summary":"Distal humeral injuries are associated with forearm/hand nerve findings; they do not match the axillary nerve's lateral-shoulder territory."},
-      "C":{"page":450,"summary":"Medial epicondyle fracture can injure the ulnar nerve and affect intrinsic hand function and ulnar-digit sensation."},
-      "D":{"page":450,"summary":"A humeral midshaft fracture is associated with radial nerve injury and wrist drop."},
-      "E":{"page":450,"summary":"Axillary nerve injury at the surgical neck causes deltoid weakness, loss of arm abduction beyond 15 degrees, and lateral-arm sensory loss."}
-    },
-    "fa_summary":"First Aid's upper-extremity nerve table associates a humeral surgical-neck fracture with axillary nerve injury, flattened deltoid, impaired abduction beyond 15 degrees, and lateral-arm sensory loss (printed p. 450).",
-    "fa_page":450,
-    "complete":true
-  },
-  "自建题库/KAPLAN QBANK/ANATOMY/MUSCLOSKELETAL/muscloskeletal.pdf||3": {
-    "chapter":"Musculoskeletal, Skin, and Connective Tissue",
-    "fa_subchapter":"Anatomy and Physiology",
-    "stem":"A 55-year-old woman with depression is admitted after deep lacerations of the distal wrist and palm. Several weeks later, she has hand weakness and numbness with flattening of the thenar eminence. Which additional finding is most likely?",
-    "options":[
-      {"letter":"A","text":"Loss of sensation over the palmar aspect of the fifth digit"},
-      {"letter":"B","text":"Weakness in pronation"},
-      {"letter":"C","text":"Weakness in thumb adduction"},
-      {"letter":"D","text":"Weakness in thumb extension"},
-      {"letter":"E","text":"Weakness of the first and second lumbricals"}
-    ],
-    "answer":"E",
-    "explanation":"Flattening of the thenar eminence after a distal wrist/palm laceration indicates injury to the median nerve or its recurrent motor branch. The median nerve supplies the first and second lumbricals and thenar muscles. Pronation is mediated by forearm muscles proximal to the wrist and should be spared by a distal lesion. Fifth-digit sensation and thumb adduction are ulnar-nerve functions; thumb extension is radial-nerve mediated.",
-    "choice_explanations":{
-      "A":"Incorrect: palmar sensation over the fifth digit is supplied by the ulnar nerve.",
-      "B":"Incorrect: pronation is produced by pronator teres and pronator quadratus in the forearm, proximal to the wrist laceration.",
-      "C":"Incorrect: thumb adduction is primarily performed by adductor pollicis, supplied by the deep branch of the ulnar nerve.",
-      "D":"Incorrect: thumb extension is performed by radial-nerve-innervated posterior forearm muscles.",
-      "E":"Correct: the first and second lumbricals are median-nerve supplied and may be weakened by a distal median-nerve injury."
-    },
-    "option_fa":{
-      "A":{"page":450,"summary":"The ulnar nerve supplies sensation to the medial 1½ digits, including the fifth digit."},
-      "B":{"page":450,"summary":"Median-nerve forearm branches supply pronator teres and pronator quadratus; a distal wrist lesion occurs after these branches."},
-      "C":{"page":452,"summary":"Adductor pollicis is an ulnar-nerve muscle; First Aid distinguishes it from the median-innervated thenar group."},
-      "D":{"page":450,"summary":"Radial-nerve branches supply the posterior forearm extensors, including muscles that extend the thumb."},
-      "E":{"page":452,"summary":"First Aid assigns the first and second lumbricals to the median nerve; lumbricals flex MCP and extend IP joints."
+    "option_fa": {
+      "A": {
+        "page": 457,
+        "verified": true,
+        "text": "First Aid p.457 distinguishes tibial-nerve motor supply to foot flexors and plantar-flexion functions from common fibular nerve functions. A flexor hallucis longus deficit would impair toe flexion rather than produce the first-web-space sensory loss and dorsiflexion weakness in this vignette.",
+        "images": [
+          "assets/fa-pages/fa-2026-p457.png"
+        ]
+      },
+      "B": {
+        "page": 457,
+        "verified": true,
+        "text": "First Aid p.457 assigns fibularis (peroneus) longus and brevis to the superficial peroneal nerve. The superficial branch supplies most of the dorsum of the foot but spares the first web space; its injury chiefly weakens eversion, not tibialis-anterior dorsiflexion.",
+        "images": [
+          "assets/fa-pages/fa-2026-p457.png"
+        ]
+      },
+      "C": {
+        "page": 457,
+        "verified": true,
+        "text": "First Aid p.457 assigns fibularis (peroneus) longus and brevis to the superficial peroneal nerve. This explains eversion and much of dorsal-foot sensation, but not the first web-space sensory loss and dorsiflexion weakness that point to the deep branch.",
+        "images": [
+          "assets/fa-pages/fa-2026-p457.png"
+        ]
+      },
+      "D": {
+        "page": 457,
+        "verified": true,
+        "text": "First Aid p.457 identifies tibialis anterior as a deep peroneal motor target and the first web space as its sensory territory; common fibular injury can cause foot drop. This directly matches the vignette and the correct answer.",
+        "images": [
+          "assets/fa-pages/fa-2026-p457.png"
+        ]
+      },
+      "E": {
+        "page": 457,
+        "verified": true,
+        "text": "First Aid p.457 contrasts tibial-nerve plantar-flexor/foot-flexor function with common fibular dorsiflexor function. A tibialis-posterior problem would not explain first-web-space sensory loss with foot drop.",
+        "images": [
+          "assets/fa-pages/fa-2026-p457.png"
+        ]
       }
     },
-    "fa_summary":"First Aid's hand-muscle table identifies the first two lumbricals and most thenar muscles as median-nerve supplied; distal median injury produces thenar weakness/atrophy, whereas ulnar muscles control thumb adduction (printed p. 452).",
-    "fa_page":452,
-    "complete":true
+    "fa_summary": "First Aid 2026's lower-extremity nerve table links common fibular nerve injury, including compression by a Baker cyst, with dorsal-foot sensory loss and foot drop; the deep fibular branch supplies the anterior compartment (printed p. 457).",
+    "fa_page": 457,
+    "complete": true,
+    "reviewed": true,
+    "review_required": false,
+    "fa_reviewed": true,
+    "fa_page_verified": true
+  },
+  "自建题库/KAPLAN QBANK/ANATOMY/MUSCLOSKELETAL/muscloskeletal.pdf||2": {
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Anatomy and Physiology",
+    "stem": "A 35-year-old man sustains a humeral fracture during a rugby game. Two months later, he has difficulty abducting the arm, especially beyond the first 15 degrees, and decreased sensation over the lateral shoulder. Where is the fracture most likely located?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anatomical neck"
+      },
+      {
+        "letter": "B",
+        "text": "Lateral epicondyle"
+      },
+      {
+        "letter": "C",
+        "text": "Medial epicondyle"
+      },
+      {
+        "letter": "D",
+        "text": "Midshaft"
+      },
+      {
+        "letter": "E",
+        "text": "Surgical neck"
+      }
+    ],
+    "answer": "E",
+    "explanation": "This is an axillary nerve lesion. The nerve wraps around the surgical neck of the humerus and supplies the deltoid and teres minor, as well as skin over the lateral shoulder. The supraspinatus initiates the first 15 degrees of abduction; the deltoid abducts the arm thereafter, explaining the deficit beyond 15 degrees. A midshaft fracture more typically injures the radial nerve and causes wrist/finger extension weakness.",
+    "choice_explanations": {
+      "A": "Incorrect: the anatomical neck is within the shoulder-joint capsule; it is not the characteristic site for axillary nerve injury.",
+      "B": "Incorrect: a lateral epicondyle fracture can affect structures near the elbow, not the axillary nerve or lateral shoulder sensation.",
+      "C": "Incorrect: a medial epicondyle fracture may injure the ulnar nerve and cause medial-hand symptoms.",
+      "D": "Incorrect: a midshaft humeral fracture can injure the radial nerve, causing wrist drop and posterior-limb sensory loss.",
+      "E": "Correct: the axillary nerve passes around the surgical neck; injury weakens deltoid-mediated abduction and reduces lateral-shoulder sensation."
+    },
+    "option_fa": {
+      "A": {
+        "page": 450,
+        "verified": true,
+        "text": "First Aid p.450 associates axillary-nerve injury with a surgical-neck fracture and loss of shoulder abduction beyond 15 degrees. The vignette's deltoid-pattern deficit supports the surgical-neck option rather than an anatomical-neck location.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "B": {
+        "no_direct_match": true,
+        "verified": true,
+        "text": "The 2026 First Aid p.450 nerve table does not identify a lateral-epicondyle fracture as a cause of this deltoid/lateral-shoulder sensory pattern; it specifically links that pattern to axillary nerve injury at the surgical neck."
+      },
+      "C": {
+        "page": 450,
+        "verified": true,
+        "text": "First Aid p.450 links medial-epicondyle fractures to ulnar-nerve injury, which causes ulnar-hand sensory and intrinsic-hand deficits rather than loss of deltoid-mediated shoulder abduction.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "D": {
+        "page": 450,
+        "verified": true,
+        "text": "First Aid p.450 associates humeral midshaft fractures with radial-nerve injury and wrist/finger-extension deficits. It does not match the axillary-nerve pattern of lateral-shoulder sensory loss and impaired abduction beyond 15 degrees.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "E": {
+        "page": 450,
+        "verified": true,
+        "text": "First Aid p.450 explicitly links a surgical-neck fracture to axillary-nerve injury, flattened deltoid, loss of shoulder abduction beyond 15 degrees, and reduced sensation over the deltoid/lateral arm. This is the matching option.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      }
+    },
+    "fa_summary": "First Aid's upper-extremity nerve table associates a humeral surgical-neck fracture with axillary nerve injury, flattened deltoid, impaired abduction beyond 15 degrees, and lateral-arm sensory loss (printed p. 450).",
+    "fa_page": 450,
+    "complete": true,
+    "reviewed": true,
+    "review_required": false,
+    "fa_reviewed": true,
+    "fa_page_verified": true
+  },
+  "自建题库/KAPLAN QBANK/ANATOMY/MUSCLOSKELETAL/muscloskeletal.pdf||3": {
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Anatomy and Physiology",
+    "stem": "A 55-year-old woman with depression is admitted after deep lacerations of the distal wrist and palm. Several weeks later, she has hand weakness and numbness with flattening of the thenar eminence. Which additional finding is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Loss of sensation over the palmar aspect of the fifth digit"
+      },
+      {
+        "letter": "B",
+        "text": "Weakness in pronation"
+      },
+      {
+        "letter": "C",
+        "text": "Weakness in thumb adduction"
+      },
+      {
+        "letter": "D",
+        "text": "Weakness in thumb extension"
+      },
+      {
+        "letter": "E",
+        "text": "Weakness of the first and second lumbricals"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Flattening of the thenar eminence after a distal wrist/palm laceration indicates injury to the median nerve or its recurrent motor branch. The median nerve supplies the first and second lumbricals and thenar muscles. Pronation is mediated by forearm muscles proximal to the wrist and should be spared by a distal lesion. Fifth-digit sensation and thumb adduction are ulnar-nerve functions; thumb extension is radial-nerve mediated.",
+    "choice_explanations": {
+      "A": "Incorrect: palmar sensation over the fifth digit is supplied by the ulnar nerve.",
+      "B": "Incorrect: pronation is produced by pronator teres and pronator quadratus in the forearm, proximal to the wrist laceration.",
+      "C": "Incorrect: thumb adduction is primarily performed by adductor pollicis, supplied by the deep branch of the ulnar nerve.",
+      "D": "Incorrect: thumb extension is performed by radial-nerve-innervated posterior forearm muscles.",
+      "E": "Correct: the first and second lumbricals are median-nerve supplied and may be weakened by a distal median-nerve injury."
+    },
+    "option_fa": {
+      "A": {
+        "page": 450,
+        "verified": true,
+        "text": "First Aid p.450 describes ulnar-nerve sensory loss over the ulnar 1½ digits. This is a possible ulnar-nerve finding but is not the additional finding expected from a distal median-nerve injury with thenar atrophy.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "B": {
+        "page": 450,
+        "verified": true,
+        "text": "First Aid p.450 outlines median-nerve deficits and distinguishes proximal from distal lesions. The page does not specifically name pronation, so this option's exact movement is not directly detailed there; a distal wrist/palm lesion is too distal to denervate proximal pronator muscles.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "C": {
+        "page": 450,
+        "verified": true,
+        "text": "First Aid p.450 assigns thumb adduction to the ulnar nerve. Therefore thumb-adduction weakness would suggest an ulnar-nerve lesion, not the median-nerve lesion signaled by thenar atrophy.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "D": {
+        "page": 450,
+        "verified": true,
+        "text": "First Aid p.450 associates radial-nerve injury with loss of wrist and finger extension. Thumb extension is also a radial-nerve function, so it is not the expected deficit from a distal median-nerve/palmar lesion.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png"
+        ]
+      },
+      "E": {
+        "page": 450,
+        "verified": true,
+        "text": "First Aid p.450 lists the lateral two lumbricals among median-nerve functions; p.454 illustrates hand deformities from median and ulnar lesions. A distal median lesion can weaken the first and second lumbricals, matching this option.",
+        "images": [
+          "assets/fa-pages/fa-2026-p450.png",
+          "assets/fa-pages/fa-2026-p454.png"
+        ]
+      }
+    },
+    "fa_summary": "First Aid's hand-muscle table identifies the first two lumbricals and most thenar muscles as median-nerve supplied; distal median injury produces thenar weakness/atrophy, whereas ulnar muscles control thumb adduction (printed p. 452).",
+    "fa_page": 452,
+    "complete": true,
+    "reviewed": true,
+    "review_required": false,
+    "fa_reviewed": true,
+    "fa_page_verified": true
   }
 }

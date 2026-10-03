@@ -11,26 +11,34 @@ const pages = [
   { path: '分类/章节 #1.html', title: '<img src=x onerror=alert(1)>', category: '基础科学' },
 ];
 const delay = () => new Promise(resolve => setTimeout(resolve, 15));
-async function setup(t, { hash = '', fail = false, saved = null } = {}) {
+async function setup(t, { hash = '', fail = false, saved = null, catalogPages = pages } = {}) {
   const dom = new JSDOM(html, { url: `https://example.test/tmu-usmle-caleb/${hash}`, runScripts: 'outside-only' });
   t.after(() => dom.window.close());
   const w = dom.window;
   if (saved !== null) w.localStorage.setItem('tmu-page-favorites:/tmu-usmle-caleb/', saved);
-  w.fetch = async () => ({ ok: !fail, status: fail ? 404 : 200, json: async () => ({ title: 'Test Library', defaultPage: 'biochemistry/riboflavin.html', pages }) });
+  w.fetch = async () => ({ ok: !fail, status: fail ? 404 : 200, json: async () => ({ title: 'Test Library', defaultPage: 'biochemistry/riboflavin.html', pages: catalogPages }) });
   w.eval(script);
   await delay();
   return { w, d: w.document };
 }
 
-test('default page loads inside the frame under the repository base path', async t => {
+test('default route preserves the original workspace overview', async t => {
   const { w, d } = await setup(t);
-  assert.equal(w.location.hash, '#/page/biochemistry%2Friboflavin.html');
-  assert.equal(d.querySelector('#content-frame').src, 'https://example.test/tmu-usmle-caleb/biochemistry/riboflavin.html?embedded=1');
+  assert.equal(w.location.hash, '#/overview');
   assert.equal(d.querySelectorAll('.page-link').length, 2);
-  assert.equal(d.querySelector('#viewer').hidden, false);
-  assert.equal(d.querySelector('#original-link').href, 'https://example.test/tmu-usmle-caleb/?view=standalone#/page/biochemistry%2Friboflavin.html');
+  assert.equal(d.querySelector('#overview').hidden, false);
   d.querySelector('.skip').click();
-  assert.equal(w.location.hash, '#/page/biochemistry%2Friboflavin.html');
+  assert.equal(w.location.hash, '#/overview');
+});
+
+test('qbank remains a categorized page but opens directly, avoiding nested workbench navigation', async t => {
+  const qbankPages=[...pages,{path:'qbank.html',title:'USMLE Step 1 KAPLAN题库',category:'USMLE Step 1'}];
+  const { d } = await setup(t,{hash:'#/overview',catalogPages:qbankPages});
+  const qbankLink=[...d.querySelectorAll('.page-link')].find(a=>a.textContent==='USMLE Step 1 KAPLAN题库');
+  assert.ok(qbankLink);
+  assert.equal(qbankLink.href,'https://example.test/tmu-usmle-caleb/qbank.html');
+  const qbankCard=[...d.querySelectorAll('.page-card')].find(a=>a.querySelector('h2')?.textContent==='USMLE Step 1 KAPLAN题库');
+  assert.equal(qbankCard.querySelector('a.button').href,'https://example.test/tmu-usmle-caleb/qbank.html');
 });
 
 test('shared routes handle nested Chinese filenames, spaces and hash characters', async t => {
@@ -59,11 +67,12 @@ test('search filters the directory and overview; no matches has a clear message'
 });
 
 test('favorites persist across loads, can be removed, and tolerate corrupt storage', async t => {
-  const { w, d } = await setup(t, { saved: '{broken' });
+  const pageHash='#/page/biochemistry%2Friboflavin.html';
+  const { w, d } = await setup(t, { hash:pageHash, saved: '{broken' });
   d.querySelector('#favorite-button').click();
   const saved = w.localStorage.getItem('tmu-page-favorites:/tmu-usmle-caleb/');
   assert.deepEqual(JSON.parse(saved), ['biochemistry/riboflavin.html']);
-  const reloaded = await setup(t, { saved });
+  const reloaded = await setup(t, { hash:pageHash, saved });
   assert.equal(reloaded.d.querySelector('#favorite-button').getAttribute('aria-pressed'), 'true');
   w.location.hash = '#/favorites'; await delay();
   assert.equal(d.querySelectorAll('.page-card').length, 1);

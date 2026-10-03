@@ -1,6 +1,15 @@
 {
-  "title": "USMLE Step 1 自建题库",
-  "standaloneQuestionBank": true,
+  "title": "USMLE Step 1 KAPLAN题库",
+  "standaloneQuestionBank": false,
+  "visiblePages": ["qbank.html"],
+  "qbankPilotSource": "data/word-pilot-questions.json",
+  "qbankPilotCount": 20,
+  "pages": {
+    "qbank.html": {
+      "title": "USMLE Step 1 KAPLAN题库",
+      "category": "USMLE Step 1"
+    }
+  },
   "cloud": {
     "url": "https://cavxkkumagjkuyuypheh.supabase.co",
     "publishableKey": "sb_publishable_Jt9P9fnivQT0IW6ZtRz5pw_x0ana_41"

@@ -14,6 +14,7 @@ try {
   if (Array.isArray(saved)) favorites = new Set(saved.filter(x => typeof x === "string"));
 } catch { /* The library still works when browser storage is unavailable. */ }
 const routeFor = path => `#/page/${encodeURIComponent(path)}`;
+const pageHref = path => path === "qbank.html" ? fileUrl(path).href : routeFor(path);
 function fileUrl(path) {
   return new URL(path.split("/").map(encodeURIComponent).join("/"), new URL("./", location.href));
 }
@@ -47,7 +48,7 @@ function renderCatalog() {
     for (const page of pages) {
       const li = node("li");
       const link = node("a", "page-link", page.title);
-      link.href = routeFor(page.path);
+      link.href = pageHref(page.path);
       if (page.path === activePage?.path) link.setAttribute("aria-current", "page");
       li.append(link); list.append(li);
     }
@@ -74,7 +75,7 @@ function renderOverview(onlyFavorites) {
   $("page-grid").replaceChildren();
   for (const page of pages) {
     const card = node("article", "page-card");
-    const link = node("a", "button", "打开页面 →"); link.href = routeFor(page.path);
+    const link = node("a", "button", "打开页面 →"); link.href = pageHref(page.path);
     card.append(node("p", "eyebrow", page.category), node("h2", "", page.title), node("p", "filename", page.private ? `${page.category}/${page.title}.html · 私人` : page.path), link);
     $("page-grid").append(card);
   }
@@ -85,8 +86,7 @@ function renderRoute() {
   let hash = location.hash;
   $('workspace-link').href = './' + hash;
   if (!hash || hash === "#") {
-    const initial = catalog.pages.find(p => p.path === catalog.defaultPage);
-    hash = initial ? routeFor(initial.path) : "#/overview";
+    hash = "#/overview";
     history.replaceState(null, "", hash);
   }
   const personalView = ["#/account", "#/records", "#/manage", "#/review"].includes(hash);

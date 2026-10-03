@@ -1,0 +1,682 @@
+[
+  {
+    "id": "wordpilot-01-popliteal-artery",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Lower-limb vessels",
+    "stem": "A 17-year-old girl who is a soccer player is brought to the emergency department after a posterior dislocation of her right knee during a soccer game. On physical examination, there is significant swelling of the knee and significant bruising on the posterior aspect. The dislocation is reduced, but the pulses distal to the site of injury are not easily palpable. Angiograms of the lower extremities are shown. Which of the following vascular structures, indicated by arrows in the image, is most likely damaged in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anterior tibial artery"
+      },
+      {
+        "letter": "B",
+        "text": "Fibular artery"
+      },
+      {
+        "letter": "C",
+        "text": "Popliteal artery"
+      },
+      {
+        "letter": "D",
+        "text": "Posterior tibial artery"
+      },
+      {
+        "letter": "E",
+        "text": "Femoral artery"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Posterior knee dislocation can injure the popliteal artery because it is tethered proximally and distally around the knee. Posterior bruising and diminished distal pulses are red flags for this vascular injury. The arrows in the source angiogram indicate the popliteal artery at the knee.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "choice_explanations": {
+      "A": "Incorrect: anterior tibial artery branches distal to the knee; the source arrows mark the vessel at the knee joint.",
+      "B": "Incorrect: fibular artery is a distal branch and is not the vessel indicated at the knee.",
+      "C": "Correct: popliteal artery is vulnerable to injury in knee dislocation.",
+      "D": "Incorrect: posterior tibial artery is distal to the popliteal artery bifurcation.",
+      "E": "Incorrect: femoral artery is proximal to the knee and not the vessel marked by the arrows."
+    },
+    "question_images": [
+      "assets/question-figures/anatomy-extra-q16-angiogram.jpg"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "膝关节血管造影，箭头标示腘动脉"
+  },
+  {
+    "id": "pilot-word-behavioral-001",
+    "chapter": "Psychiatry",
+    "fa_subchapter": "Defense mechanisms",
+    "stem": "A 15-year-old boy is brought to the emergency department 20 minutes after being involved in a motor vehicle collision. Two hours after arrival, he dies despite appropriate lifesaving measures. Three days after the patient's death, his younger brother begins to wear the patient's jacket all of the time, no matter how warm the weather. This is most likely an example of which of the following defense mechanisms?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Denial"
+      },
+      {
+        "letter": "B",
+        "text": "Identification"
+      },
+      {
+        "letter": "C",
+        "text": "Rationalization"
+      },
+      {
+        "letter": "D",
+        "text": "Reaction formation"
+      },
+      {
+        "letter": "E",
+        "text": "Sublimation"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Identification is the unconscious adoption of another person's characteristics or activities, and may help reduce the pain of separation or loss. The brother adopts his deceased sibling's behavior. Denial acts as if a threatening fact is not known; rationalization supplies a plausible but false explanation; reaction formation expresses behavior opposite to the person's underlying feelings; sublimation channels an unacceptable impulse into a socially acceptable activity.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "pilot-word-biochemistry-001",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Vitamins and neonatal metabolism",
+    "stem": "A neonate develops a yellow discoloration of the skin and sclerae two days after birth. The condition worsens the following day. Appropriate therapy and vitamin supplementation are begun. Which of the following is the most appropriate vitamin therapy for this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ascorbate"
+      },
+      {
+        "letter": "B",
+        "text": "Folate"
+      },
+      {
+        "letter": "C",
+        "text": "Niacin"
+      },
+      {
+        "letter": "D",
+        "text": "Riboflavin"
+      },
+      {
+        "letter": "E",
+        "text": "Vitamin D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Neonatal jaundice is treated with phototherapy, which converts bilirubin into water-soluble isomers that can be excreted. Riboflavin (vitamin B2) is also light-sensitive and is degraded during phototherapy, so it should be supplemented. Ascorbate, folate, and niacin are not appreciably degraded under these conditions; vitamin D is not typically depleted by phototherapy.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "pilot-word-biostatistics-004",
+    "chapter": "Public Health Sciences",
+    "fa_subchapter": "Biostatistics: correlation",
+    "stem": "A study is conducted to determine the relationship between the amount of time spent studying for the USMLE, in weeks, and the score that the person makes on the exam. Which of the following methods will most likely be used to evaluate the findings of the study?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Analysis of variance"
+      },
+      {
+        "letter": "B",
+        "text": "Chi-square analysis"
+      },
+      {
+        "letter": "C",
+        "text": "Meta-analysis"
+      },
+      {
+        "letter": "D",
+        "text": "Odds-ratio analysis"
+      },
+      {
+        "letter": "E",
+        "text": "Pearson correlation"
+      },
+      {
+        "letter": "F",
+        "text": "Relative risk analysis"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Pearson correlation assesses the direction and strength of a linear relationship between two interval/continuous variables measured in one study. Study duration and exam score are both continuous variables. A positive correlation would mean that more weeks of study tend to accompany higher scores; this does not by itself prove that study time caused the higher score. ANOVA compares group means, chi-square analyzes categorical variables, meta-analysis combines results across studies, and odds ratios/relative risks quantify associations for categorical exposure and outcome data.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "pilot-word-cell-biology-001",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Cellular biology: embryonic cell lineages",
+    "stem": "During an investigational study, a researcher finds a marker that is unique to neuroectoderm cells. The marker can be detected using immunofluorescent methods. Which of the following cell types will most likely show positivity for this marker?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Melanocytes"
+      },
+      {
+        "letter": "B",
+        "text": "Odontoblasts"
+      },
+      {
+        "letter": "C",
+        "text": "Oligodendrocytes"
+      },
+      {
+        "letter": "D",
+        "text": "Postganglionic sympathetic neurons"
+      },
+      {
+        "letter": "E",
+        "text": "Schwann cells"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Oligodendrocytes arise from neuroectoderm of the neural tube, as do astrocytes, ependymal cells, and other CNS neuroglia. Melanocytes, odontoblasts, postganglionic sympathetic neurons, and Schwann cells are neural crest derivatives, so they are not the best answer.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "pilot-word-cvs-002",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Congenital heart disease",
+    "stem": "A 43-year-old pregnant woman with a history of gestational diabetes recently gave birth to a male neonate who is now in the first week of life. Upon delivery, the baby was notably cyanotic, macrosomic, and had relatively poor muscle tone. He was started on 100% oxygen, which improved his oxygen saturation only slightly. After a week of poor feeding and gradually worsening symptoms, the baby eventually succumbs to his condition. Which of the following is the most likely cause of this baby's death?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Atrioventricular septal defect"
+      },
+      {
+        "letter": "B",
+        "text": "Coarctation of the aorta"
+      },
+      {
+        "letter": "C",
+        "text": "Eisenmenger syndrome"
+      },
+      {
+        "letter": "D",
+        "text": "Tetralogy of Fallot"
+      },
+      {
+        "letter": "E",
+        "text": "Transposition of the great arteries"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Transposition of the great arteries is strongly associated with maternal diabetes and causes parallel systemic and pulmonary circulations. Survival requires mixing through an ASD, VSD, or patent ductus arteriosus; without adequate mixing, severe cyanosis persists despite supplemental oxygen. AV septal defect more often presents later with heart failure, coarctation causes obstructive/weak-pulse findings rather than this cyanotic pattern, Eisenmenger syndrome develops after a chronic left-to-right shunt, and although tetralogy causes cyanosis, it is not the classic diabetic-mother association described here.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "pilot-word-embryology-001",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Neural tube defects",
+    "stem": "A 32-year-old primigravid woman at 20 weeks' gestation comes to the physician for a routine prenatal visit. Maternal serum alpha-fetoprotein is elevated. A high-resolution fetal ultrasound shows a 3 cm by 5 cm sac-like structure that contains neural elements overlying the lumbosacral area. Which of the following best explains these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Failure of absorption of cerebrospinal fluid by the arachnoid villi"
+      },
+      {
+        "letter": "B",
+        "text": "Failure of closure of the caudal neuropore"
+      },
+      {
+        "letter": "C",
+        "text": "Failure of closure of the rostral neuropore"
+      },
+      {
+        "letter": "D",
+        "text": "Oversecretion of cerebrospinal fluid"
+      },
+      {
+        "letter": "E",
+        "text": "Persistence of remnants of Rathke's pouch"
+      },
+      {
+        "letter": "F",
+        "text": "Progressive cavitation of the central canal of the spinal cord"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A lumbosacral sac containing neural elements is a meningomyelocele, a form of open spina bifida caused by failed closure of the caudal neuropore. The exposed neural tissue raises maternal serum and amniotic-fluid AFP. Failure of rostral neuropore closure causes anencephaly; impaired CSF absorption or excess CSF production causes hydrocephalus; Rathke pouch remnants relate to pituitary development; and central-canal cavitation does not explain this neural-tube defect.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "wordpilot-general-extra-6-questions-q3",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Iron metabolism / hemochromatosis",
+    "stem": "A 43-year-old Caucasian man comes to the physician because of gradual hyperpigmentation of his skin. He does not report increased sun exposure and denies use of tanning beds. His past medical history is remarkable for diabetes, which he manages with subcutaneous insulin injections. He does report frequent travel and is frustrated because he always seems to trigger the metal detector at the airport. Which of the following is the most likely underlying explanation for this patient's condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Adrenal gland hypofunction"
+      },
+      {
+        "letter": "B",
+        "text": "Argyria"
+      },
+      {
+        "letter": "C",
+        "text": "Decreased ceruloplasmin-binding"
+      },
+      {
+        "letter": "D",
+        "text": "Gallstones"
+      },
+      {
+        "letter": "E",
+        "text": "Increased absorption of ingested iron"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Hyperpigmentation, diabetes, and iron sufficient to trigger a metal detector point to hereditary hemochromatosis. Increased intestinal iron absorption causes iron deposition in the liver, pancreas, skin, and heart.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "wordpilot-genetics-extra-q2",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Marfan syndrome / aortic disease",
+    "stem": "A 15-year-old male comes to the physician for a sports physical prior to joining the basketball team at his high school. He states that he occasionally gets chest pain and palpitations with exercise. His family history is significant for his father passing away at age 29 years from an aortic dissection. His temperature is 37°C (98.6°F), pulse is 89/min, respirations are 17/min, and blood pressure is 122/68 mm Hg. Physical examination shows he is a tall male with disproportionately long limbs. On auscultation of the heart, there is a mid-systolic click. followed by a late 3/6 systolic murmur. Which of the following is the most likely probability of this patient's offspring also inheriting this syndrome?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0%"
+      },
+      {
+        "letter": "B",
+        "text": "25%"
+      },
+      {
+        "letter": "C",
+        "text": "33%"
+      },
+      {
+        "letter": "D",
+        "text": "50%"
+      },
+      {
+        "letter": "E",
+        "text": "100%"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Marfan syndrome is usually autosomal dominant due to FBN1. An affected heterozygote has a 50% chance of transmitting the variant to each child.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "wordpilot-heme-lymph-extra-3-questions-q1",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Burkitt lymphoma",
+    "stem": "A 27-year-old woman comes to the physician because of abdominal discomfort and weight loss. Her temperature is 37.5°C (99.5°F), pulse is 78/min, respirations are 14/min, and blood pressure is 128/76 mm Hg. Abdominal examination shows a lower left quadrant mass. Ultrasound reveals an enlarged left ovary. Pelvic examination shows a left-sided ovarian mass. The mass is resected, and histologic examination shows small lymphocytes, interspersed with macrophages surrounded by clear spaces. Which of the following is the most likely genetic abnormality associated with this patient's condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ABL–BCR hybrid"
+      },
+      {
+        "letter": "B",
+        "text": "BCL2 activation"
+      },
+      {
+        "letter": "C",
+        "text": "MYC activation"
+      },
+      {
+        "letter": "D",
+        "text": "t(9;22)"
+      },
+      {
+        "letter": "E",
+        "text": "t(14;18)"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The starry-sky pattern suggests Burkitt lymphoma, driven by MYC activation, classically t(8;14). BCL2 activation/t(14;18) is associated with follicular lymphoma; BCR::ABL1/t(9;22) with CML.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "wordpilot-histology-pdf-q4",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Skin / wound healing",
+    "stem": "A 24-year-old man sustains an abrasion that removes the epidermis over a large area of his arm. The dermis remains intact. One month later, the epidermis has regrown. Which mechanism best explains this restoration?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Growth of epidermis from stem cells in hair follicles and sweat glands in the dermis"
+      },
+      {
+        "letter": "B",
+        "text": "Migration of endothelial cells from newly grown capillaries"
+      },
+      {
+        "letter": "C",
+        "text": "Transformation of dermal fibrobiasts into epidermal cells"
+      },
+      {
+        "letter": "D",
+        "text": "Transformation of macrophages into epidermal cells"
+      },
+      {
+        "letter": "E",
+        "text": "Transformation of melanocytes nto epidermal cells"
+      }
+    ],
+    "answer": "A",
+    "explanation": "With an intact dermis, epithelial stem cells in skin appendages such as hair follicles and sweat glands can repopulate a large denuded area.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "wordpilot-immunology-extra-5-questions-q1",
+    "chapter": "Immunology",
+    "fa_subchapter": "Type III hypersensitivity / Arthus reaction",
+    "stem": "A 23-year-old man receives a tetanus booster vaccine after stepping on a nail. The physician explains that the immunization may cause swelling and inflammation within 24 hours after injection and so should be administered in the patient's nondominant arm. The reaction that will occur at the injection site is a reflection of which of the following mechanisms?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cytokine production by macrophages"
+      },
+      {
+        "letter": "B",
+        "text": "Cytotoxic T cell activation"
+      },
+      {
+        "letter": "C",
+        "text": "Immune complex formation"
+      },
+      {
+        "letter": "D",
+        "text": "Mast cell degranulation"
+      },
+      {
+        "letter": "E",
+        "text": "Neutrophil infiltration"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A local reaction within about a day after booster vaccination in a previously sensitized person is an Arthus reaction: pre-existing IgG–antigen complexes activate complement and recruit neutrophils.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "wordpilot-micro-extra-10-questions-q6",
+    "chapter": "Microbiology",
+    "fa_subchapter": "Bacterial pathogens / Mycoplasma",
+    "stem": "A 19-year-old man presents with 7 days of weakness, malaise, and dry cough. Bronchoalveolar lavage shows slow-growing organisms on sterol-containing medium, and serum testing shows cold agglutinins. Which organism is the most likely cause?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Klebsiella pneumoniae"
+      },
+      {
+        "letter": "B",
+        "text": "Legionella pneumoniae"
+      },
+      {
+        "letter": "C",
+        "text": "Mycoplasma pneumoniae"
+      },
+      {
+        "letter": "D",
+        "text": "Parainfluenza virus"
+      },
+      {
+        "letter": "E",
+        "text": "Streptococcus pneumoniae"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Mycoplasma pneumoniae lacks a cell wall, incorporates sterols into its membrane, grows slowly on sterol-containing medium, and can cause cold agglutinins.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "wordpilot-molecular-biology-extra-q15",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Galactose metabolism / mutation mechanisms",
+    "stem": "A 2-week-old girl has vomiting, jaundice, lethargy, hepatomegaly, and poor suck. Northern blot analysis shows a normal amount of GALT mRNA, but enzyme activity is absent. Which mutation best explains these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Gene deletion"
+      },
+      {
+        "letter": "B",
+        "text": "Nonsense mutation"
+      },
+      {
+        "letter": "C",
+        "text": "Premature transcription termination sequence in the DNA"
+      },
+      {
+        "letter": "D",
+        "text": "Promoter mutation"
+      },
+      {
+        "letter": "E",
+        "text": "RNA splicing mutation"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Normal GALT mRNA with absent functional enzyme points to a coding mutation that permits transcription but disrupts translation. A nonsense variant introduces a premature stop and a truncated protein; transcript abundance can vary with nonsense-mediated decay.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "qb-fast-multisystem-sjogren",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Sjögren syndrome",
+    "stem": "A 48-year-old woman has a 2-year history of joint pain, oral swelling, dry mouth, dysphagia, and new dental caries. She reports adequate hydration and dental hygiene. Her family history is significant for hypertension and rheumatoid arthritis. Physical examination shows slight enlargement of the parotid glands. Laboratory studies show antibodies against ribonucleoprotein antigens. Which of the following would most likely be present in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Goiter"
+      },
+      {
+        "letter": "B",
+        "text": "Hemolytic anemia"
+      },
+      {
+        "letter": "C",
+        "text": "Keratoconjunctivitis"
+      },
+      {
+        "letter": "D",
+        "text": "Proximal muscle weakness"
+      },
+      {
+        "letter": "E",
+        "text": "Urethritis"
+      }
+    ],
+    "answer": "C",
+    "explanation": "This presentation is most consistent with Sjögren syndrome, autoimmune destruction of lacrimal and salivary glands. Salivary hypofunction causes xerostomia, dysphagia, parotid enlargement, and dental caries; lacrimal-gland involvement causes keratoconjunctivitis sicca, making C the best answer. Anti-Ro/SSA and anti-La/SSB are the characteristic antibodies (the source describes antibodies to ribonucleoprotein antigens). Goiter may occur with coexisting autoimmune thyroid disease but is not the expected finding here; hemolytic anemia and proximal weakness suggest other systemic autoimmune disorders, while urethritis is associated with reactive arthritis.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "qb-fast-musk-psoriatic-uveitis",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Psoriatic arthritis and uveitis",
+    "stem": "A 35-year-old man comes to the physician because of severe left hip pain that is worst in the morning when he awakens and improves throughout the day, eye pain and redness. He also has occasional swelling of his hands and fingers. Physical examination shows several 2–3 cm inflamed, erythematous plaques covered by silvery-white scale. X-rays of his lumbar spine and hips show left sacroiliitis. X-rays of his hands show severe erosions of the right distal interphalangeal joints. HLA-B27 is positive. Which diagnostic test should most likely be performed in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Abdominal ultrasound"
+      },
+      {
+        "letter": "B",
+        "text": "Brain MRI"
+      },
+      {
+        "letter": "C",
+        "text": "Liver function tests"
+      },
+      {
+        "letter": "D",
+        "text": "Renal ultrasound"
+      },
+      {
+        "letter": "E",
+        "text": "Slit-lamp examination"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The plaques and distal interphalangeal erosions indicate psoriatic arthritis, a seronegative spondyloarthropathy. Painful red eye raises concern for anterior uveitis, which can threaten vision and is associated with HLA-B27 disease. A slit-lamp examination evaluates the anterior chamber for inflammatory cells and flare. The other listed tests do not assess the suspected ocular complication.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "qb-fast-nervous-alzheimer-nft",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Alzheimer disease",
+    "stem": "An 82-year-old woman with chronic dementia dies suddenly of an apparent myocardial infarction. Before death, neurologic examination showed no abnormalities except deficits in cognition and memory. At autopsy, the brain shows diffuse cortical atrophy with relative sparing of primary motor and sensory areas. Which finding is most likely on microscopic examination of brain tissue?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Central chromatolysis"
+      },
+      {
+        "letter": "B",
+        "text": "Gliosis of the caudate nucleus"
+      },
+      {
+        "letter": "C",
+        "text": "Lewy bodies"
+      },
+      {
+        "letter": "D",
+        "text": "Loss of pigmented neurons"
+      },
+      {
+        "letter": "E",
+        "text": "Neurofibrillary tangles"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Progressive memory and cognitive impairment with diffuse association-cortex atrophy is characteristic of Alzheimer disease. Microscopy shows extracellular β-amyloid plaques and intracellular neurofibrillary tangles made of hyperphosphorylated tau; therefore E is correct. Lewy bodies and loss of pigmented substantia nigra neurons point to Parkinson disease or Lewy body dementia, while caudate degeneration is associated with Huntington disease. Central chromatolysis is a neuronal response to axonal injury.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "qb-fast-pharma-organophosphate",
+    "chapter": "Pharmacology",
+    "fa_subchapter": "Cholinergic pharmacology and organophosphates",
+    "stem": "A 25-year-old man who is a farmer is brought to the emergency department by his mother because of respiratory distress. After work he began to feel sweaty and dizzy. His pulse is 48/min and blood pressure is 110/72 mm Hg. He appears agitated, is drooling and gasping for air, and his pupils are 2 mm and constrict to light. The toxin to which he was most likely exposed directly interferes with which of the following?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acetylcholinesterase"
+      },
+      {
+        "letter": "B",
+        "text": "Monoamine oxidase"
+      },
+      {
+        "letter": "C",
+        "text": "Muscarinic receptors"
+      },
+      {
+        "letter": "D",
+        "text": "Nicotinic receptors"
+      },
+      {
+        "letter": "E",
+        "text": "Serotonin reuptake"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Miosis, bradycardia, sweating, drooling, and respiratory distress after farm work indicate organophosphate poisoning. Organophosphates inhibit acetylcholinesterase, causing acetylcholine accumulation and excessive muscarinic and nicotinic activity. Atropine treats muscarinic manifestations; pralidoxime can reactivate acetylcholinesterase before the enzyme-organophosphate complex ages. The toxin acts on the enzyme, not directly on cholinergic receptors.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "qb-fast-renal-high-hct-gfr",
+    "chapter": "Renal",
+    "fa_subchapter": "Renal physiology and GFR",
+    "stem": "A 56-year-old man was treated with chemotherapy for a brain tumor. His hemoglobin at the end of chemotherapy was 12.1 g/dL and hematocrit was 35%. Erythropoietin is started; one month later, his hematocrit is 60%. Renal blood flow is unchanged at approximately 1000 mL/min, blood pressure is 125/80 mm Hg, and there is no proteinuria. His glomerular filtration rate has decreased from 50 L/day to 42 L/day. Which is the most likely cause of the decreased GFR?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased glomerular capillary hydrostatic pressure"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased glomerular capillary oncotic pressure"
+      },
+      {
+        "letter": "C",
+        "text": "Decreased hydrostatic pressure in Bowman's capsule"
+      },
+      {
+        "letter": "D",
+        "text": "Increased glomerular capillary hydrostatic pressure"
+      },
+      {
+        "letter": "E",
+        "text": "Increased glomerular capillary oncotic pressure"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Renal plasma flow equals renal blood flow multiplied by (1 − hematocrit). With renal blood flow unchanged, the rise in hematocrit from 35% to 60% lowers plasma flow from about 650 to 400 mL/min. Less plasma water is filtered along the glomerular capillary, so protein concentration and glomerular capillary oncotic pressure rise more steeply. Oncotic pressure opposes filtration, lowering net filtration pressure and GFR; therefore E is correct.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  },
+  {
+    "id": "qb-fast-repro-orchiectomy-lh",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Male reproductive endocrinology",
+    "stem": "During an investigational study, 20 male experimental animals are orchiectomized. After 2 weeks of recovery, the effects of castration on hormone secretion are evaluated. The animals are otherwise normal and no experimental disease modifications have been made. Changes in hormone secretion will most likely include which of the following?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased gonadotropin-releasing hormone (GnRH)"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased prolactin"
+      },
+      {
+        "letter": "C",
+        "text": "Increased activin"
+      },
+      {
+        "letter": "D",
+        "text": "Increased inhibin"
+      },
+      {
+        "letter": "E",
+        "text": "Increased luteinizing hormone (LH)"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Orchiectomy removes the testes, sharply reducing testosterone and testicular inhibin. Loss of testosterone's negative feedback increases hypothalamic GnRH and pituitary LH (and FSH). Thus increased LH is expected. Inhibin and activin are testicular products and do not increase after removal of the testes; prolactin is not expected to decrease.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true
+  }
+]

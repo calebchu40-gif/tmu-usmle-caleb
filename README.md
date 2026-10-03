@@ -1,4 +1,4 @@
-# USMLE Step 1 自建题库
+# USMLE Step 1 KAPLAN题库
 
 网站：https://calebchu40-gif.github.io/tmu-usmle-caleb/
 

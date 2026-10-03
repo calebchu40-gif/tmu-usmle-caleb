@@ -1,12 +1,15 @@
 """Build a static site and discover uploaded HTML pages without dependencies."""
 import json
+import hashlib
 import shutil
 from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED_DIRS = {"dist", "node_modules", "scripts", "tests", "__pycache__", "supabase", "content", "templates"}
-EXCLUDED_FILES = {"site.config.json", "package.json", "package-lock.json", "README.md"}
+EXCLUDED_FILES = {"site.config.json", "package.json", "package-lock.json", "README.md", "qbank-v2.html"}
+PRIVATE_QBANK_INPUTS = {"data/questions.json", "data/question-overrides.json", "data/word-pilot-questions.json"}
+PRIVATE_QBANK_IMAGE_DIRS = {"question-pages", "explanation-pages", "fa-pages", "question-figures", "question-images", "fa-figures"}
 WEB_EXTENSIONS = {
     ".html", ".htm", ".css", ".js", ".mjs", ".json", ".map", ".svg", ".png",
     ".jpg", ".jpeg", ".gif", ".webp", ".avif", ".ico", ".woff", ".woff2",
@@ -47,6 +50,8 @@ def public_files(root):
         relative = path.relative_to(root)
         if any(part.startswith(".") or part in EXCLUDED_DIRS for part in relative.parts):
             continue
+        if relative.as_posix() in PRIVATE_QBANK_INPUTS or (relative.parts[:1] == ("assets",) and len(relative.parts) > 1 and relative.parts[1] in PRIVATE_QBANK_IMAGE_DIRS):
+            continue
         if any(parent.is_symlink() for parent in [path, *path.parents] if parent != root.parent):
             continue
         if not path.is_file() or path.name in EXCLUDED_FILES:
@@ -65,18 +70,7 @@ def build(root=ROOT):
     if output.exists():
         shutil.rmtree(output)
     if config.get("standaloneQuestionBank"):
-        question_file = root / "data/questions.json"
-        rows = json.loads(question_file.read_text(encoding="utf-8"))
-        overrides = root / "data/question-overrides.json"
-        reviewed = json.loads(overrides.read_text(encoding="utf-8")) if overrides.is_file() else {}
-        curated = []
-        for row in rows:
-            correction = reviewed.get(row.get("id"))
-            if not correction:
-                continue
-            item = {**row, **correction}
-            if item.get("complete") and item.get("chapter") and item.get("stem") and item.get("answer") and len(item.get("options", [])) >= 2 and item.get("explanation"):
-                curated.append(item)
+        curated = public_question_rows(load_question_source(root, config), config)
         (output / "assets/question-pages").mkdir(parents=True, exist_ok=True)
         (output / "data").mkdir(parents=True, exist_ok=True)
         (output / "assets/vendor").mkdir(parents=True, exist_ok=True)
@@ -89,8 +83,7 @@ def build(root=ROOT):
         if app_script.is_file():
             shutil.copyfile(app_script, output / "assets/qbank-app.js")
         (output / "data/questions.json").write_text(json.dumps(curated, ensure_ascii=False) + "\n", encoding="utf-8")
-        (output / "data/question-overrides.json").write_text(json.dumps(reviewed, ensure_ascii=False) + "\n", encoding="utf-8")
-        (output / "data/bank-meta.json").write_text(json.dumps({"verified": len(curated), "source_total": len(rows)}, ensure_ascii=False) + "\n", encoding="utf-8")
+        (output / "data/bank-meta.json").write_text(json.dumps({"verified": len(curated)}, ensure_ascii=False) + "\n", encoding="utf-8")
         cloud = config.get("cloud", {})
         public_cloud = {key: cloud.get(key, "") for key in ("url", "publishableKey")}
         key = public_cloud["publishableKey"]
@@ -128,14 +121,17 @@ def build(root=ROOT):
     files = list(public_files(root))
     pages = []
     for source, relative in files:
+        # The legacy qbank.html is kept in the source checkout for reference;
+        # serve the current cloud-backed qbank-v2 implementation at the stable URL.
+        served_source = root / "qbank-v2.html" if relative.as_posix() == "qbank.html" else source
         target = output / relative
         target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(source, target)
+        shutil.copyfile(served_source, target)
         path = relative.as_posix()
         if source.suffix.lower() not in {".html", ".htm"} or path in {"index.html", "404.html"} or relative.parts[0] == "assets":
             continue
         parser = TitleParser()
-        parser.feed(source.read_text(encoding="utf-8", errors="replace"))
+        parser.feed(served_source.read_text(encoding="utf-8", errors="replace"))
         override = config.get("pages", {}).get(path, {})
         title = override.get("title") or " ".join("".join(parser.parts).split()) or source.stem
         category = override.get("category") or (relative.parent.as_posix() if relative.parent != Path(".") else "我的页面")
@@ -152,12 +148,48 @@ def build(root=ROOT):
             page["question_index"] = [{"id": q["id"], "title": q["title"]} for q in quiz["questions"]]
         pages.append(page)
     pages.sort(key=lambda page: (page["category"].casefold(), page["path"].casefold()))
+    visible_pages = config.get("visiblePages")
+    if visible_pages is not None:
+        if not isinstance(visible_pages, list) or any(not isinstance(path, str) for path in visible_pages):
+            raise ValueError("visiblePages must be a list of page paths")
+        visible_set = {Path(path).as_posix() for path in visible_pages}
+        pages = [page for page in pages if page["path"] in visible_set]
     default = config.get("defaultPage", "")
     if not any(page["path"] == default for page in pages):
         default = pages[0]["path"] if pages else ""
     catalog = {"title": config.get("title") or "TMU · Caleb", "defaultPage": default, "pages": pages}
     (output / "assets").mkdir(parents=True, exist_ok=True)
     (output / "assets/pages.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # Keep raw OCR and correction inputs in the source repository, but include in
+    # the local build only complete, manually reviewed questions needed by qbank.html.
+    question_file = root / "data/questions.json"
+    if question_file.is_file() or config.get("qbankPilotSource"):
+        curated = public_question_rows(load_question_source(root, config), config)
+        (output / "data").mkdir(parents=True, exist_ok=True)
+        (output / "data/questions.json").write_text(json.dumps(curated, ensure_ascii=False) + "\n", encoding="utf-8")
+        (output / "data/bank-meta.json").write_text(json.dumps({"verified": len(curated)}, ensure_ascii=False) + "\n", encoding="utf-8")
+        image_paths = {image for q in curated for image in (q.get("question_images") or [])}
+        image_paths.update(image for q in curated for image in (q.get("explanation_images") or []))
+        image_paths.update(q["question_image"] for q in curated if q.get("question_image"))
+        image_paths.update(image for q in curated if q.get("fa_figures_reviewed") is True for image in (q.get("fa_images") or []))
+        image_paths.update(
+            image
+            for q in curated
+            for ref in (q.get("option_fa") or {}).values() if ref.get("image_reviewed") is True
+            for image in ([ref.get("image")] if ref.get("image") else []) + (ref.get("images") or [])
+        )
+        image_paths = sorted(image_paths)
+        for image in image_paths:
+            source = (root / image).resolve()
+            try:
+                source.relative_to(root)
+            except ValueError as exc:
+                raise ValueError(f"Question image escapes project directory: {image}") from exc
+            if not source.is_file():
+                raise FileNotFoundError(f"Question image not found: {image}")
+            target = output / image
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(source, target)
     cloud = config.get("cloud", {})
     public_cloud = {key: cloud.get(key, "") for key in ("url", "publishableKey")}
     key = public_cloud["publishableKey"]
@@ -172,6 +204,87 @@ def build(root=ROOT):
         shutil.copyfile(template, output / "downloads/小节题库模板.html")
     (output / ".nojekyll").touch()
     return catalog
+
+
+def curated_questions(rows, reviewed):
+    curated = []
+    for row in rows:
+        correction = reviewed.get(row.get("id"))
+        if not correction or correction.get("reviewed") is not True or correction.get("review_required") is True:
+            continue
+        item = {**row, **correction}
+        # Raw OCR page screenshots can reveal question text, options, or keyed answers.
+        # Publish only figure/table crops that were explicitly reviewed for inclusion.
+        if correction.get("question_figures_reviewed") is not True:
+            item["question_images"] = []
+            item["question_image"] = None
+        if correction.get("explanation_figures_reviewed") is not True:
+            item["explanation_images"] = []
+        if correction.get("fa_figures_reviewed") is not True:
+            item["fa_images"] = []
+        if isinstance(item.get("option_fa"), dict):
+            item["option_fa"] = {
+                letter: ref if ref.get("image_reviewed") is True else {**ref, "image": None, "images": []}
+                for letter, ref in item["option_fa"].items()
+            }
+        if item.get("complete") and item.get("chapter") and item.get("stem") and item.get("answer") and len(item.get("options", [])) >= 2 and item.get("explanation"):
+            curated.append(item)
+    return curated
+
+
+def load_question_source(root, config):
+    pilot_source = config.get("qbankPilotSource")
+    if pilot_source:
+        source = (root / pilot_source).resolve()
+        try:
+            source.relative_to(root)
+        except ValueError as exc:
+            raise ValueError("qbankPilotSource must stay within the project") from exc
+        if not source.is_file():
+            raise FileNotFoundError(f"Question pilot data not found: {pilot_source}")
+        questions = json.loads(source.read_text(encoding="utf-8"))
+        if not isinstance(questions, list):
+            raise ValueError("qbankPilotSource must contain a JSON array")
+        required = ("id", "chapter", "stem", "options", "answer", "explanation")
+        for index, question in enumerate(questions, start=1):
+            missing = [field for field in required if not question.get(field)]
+            if missing:
+                raise ValueError(f"Pilot question {index} is missing: {', '.join(missing)}")
+            letters = {option.get("letter") for option in question.get("options", [])}
+            if len(letters) < 2 or question["answer"] not in letters:
+                raise ValueError(f"Pilot question {index} has invalid choices or answer key")
+        return questions
+
+    question_file = root / "data/questions.json"
+    rows = json.loads(question_file.read_text(encoding="utf-8"))
+    overrides_file = root / "data/question-overrides.json"
+    reviewed = json.loads(overrides_file.read_text(encoding="utf-8")) if overrides_file.is_file() else {}
+    return curated_questions(rows, reviewed)
+
+
+def public_question_rows(curated, config):
+    pilot_limit = config.get("qbankPilotCount")
+    if pilot_limit is not None:
+        if not isinstance(pilot_limit, int) or isinstance(pilot_limit, bool) or pilot_limit < 1:
+            raise ValueError("qbankPilotCount must be a positive integer")
+        curated = curated[:pilot_limit]
+    public = []
+    for question in curated:
+        source_id = question.get("id", "")
+        source_file = question.get("source_file", "")
+        pages = question.get("source_pdf_pages") or []
+        if isinstance(pages, dict):
+            pages = pages.get("question") or []
+        page_text = ",".join(str(page) for page in pages) if isinstance(pages, list) else str(pages)
+        digest_input = f"{source_file}\n{source_id}\n{page_text}"
+        cloud_id = "qb-" + hashlib.sha256(digest_input.encode("utf-8")).digest()[:20].hex()
+        item = {**question, "id": cloud_id, "cloud_id": cloud_id}
+        for field in ("source_file", "source_pdf", "source_pdf_pages", "explanation_pdf_pages", "question_number", "fa_page_candidate", "fa_pages"):
+            item.pop(field, None)
+        if item.get("fa_page_verified") is not True:
+            item.pop("fa_page", None)
+        public.append(item)
+    return public
 
 
 if __name__ == "__main__":
