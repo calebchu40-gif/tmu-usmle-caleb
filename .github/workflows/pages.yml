@@ -24,7 +24,16 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Run test suite
-        run: npm test
+        run: |
+          set +e
+          npm test 2>&1 | tee /tmp/qbank-test.log
+          result=${PIPESTATUS[0]}
+          if [ "$result" -ne 0 ]; then
+            echo '### Test failure details' >> "$GITHUB_STEP_SUMMARY"
+            tail -n 100 /tmp/qbank-test.log >> "$GITHUB_STEP_SUMMARY"
+            echo "::error title=Test suite failed::See the test failure details in this run summary."
+          fi
+          exit "$result"
       - name: Check JavaScript syntax
         run: for file in assets/*.js; do node --check "$file"; done
       - name: Build site and discover HTML uploads
