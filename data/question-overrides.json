@@ -498,5 +498,99 @@
     },
     "fa_summary":"First Aid's brachial-plexus lesion figure identifies Erb palsy from C5-C6 upper-trunk traction (p. 452); upper-extremity nerve/muscle tables connect musculocutaneous injury to elbow-flexion and supination weakness (p. 450).",
     "fa_page":452
+  },
+  "自建题库/KAPLAN QBANK/ANATOMY/MUSCLOSKELETAL/muscloskeletal.pdf||1": {
+    "chapter":"Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter":"Anatomy and Physiology",
+    "stem":"A 46-year-old woman with a history of Lyme disease undergoes excision of a right Baker cyst. Three months later, she has decreased sensation over the dorsum of the foot, especially in the web space between the first and second toes. She trips while walking and has mild right foot drop. Dysfunction of which muscle most likely causes her motor symptoms?",
+    "options":[
+      {"letter":"A","text":"Flexor hallucis longus"},
+      {"letter":"B","text":"Fibularis brevis"},
+      {"letter":"C","text":"Fibularis longus"},
+      {"letter":"D","text":"Tibialis anterior"},
+      {"letter":"E","text":"Tibialis posterior"}
+    ],
+    "answer":"D",
+    "explanation":"Excision of a Baker cyst can injure or scar the common fibular nerve as it courses through the popliteal fossa. Its deep branch supplies the anterior leg compartment, including tibialis anterior, which dorsiflexes the ankle. Weak dorsiflexion causes foot drop and toe-catching; sensory loss in the first dorsal web space specifically points to the deep fibular nerve. The other listed muscles do not dorsiflex the ankle.",
+    "choice_explanations":{
+      "A":"Incorrect: flexor hallucis longus is a posterior-compartment muscle supplied by the tibial nerve; it flexes the great toe and assists plantar flexion.",
+      "B":"Incorrect: fibularis brevis is supplied by the superficial fibular nerve and everts the foot; it does not dorsiflex it.",
+      "C":"Incorrect: fibularis longus is also a superficial-fibular-nerve muscle that everts and plantar-flexes the foot.",
+      "D":"Correct: tibialis anterior is supplied by the deep fibular nerve and is a primary ankle dorsiflexor.",
+      "E":"Incorrect: tibialis posterior is supplied by the tibial nerve and primarily inverts and plantar-flexes the foot."
+    },
+    "option_fa":{
+      "A":{"page":457,"summary":"Tibial-nerve posterior-compartment muscles include the toe flexors; flexor hallucis longus flexes the great toe and assists plantar flexion."},
+      "B":{"page":457,"summary":"The superficial fibular nerve supplies the lateral-compartment fibularis muscles, which evert the foot."},
+      "C":{"page":457,"summary":"Fibularis longus is a lateral-compartment muscle supplied by the superficial fibular nerve; it everts the foot."},
+      "D":{"page":457,"summary":"The common fibular nerve divides into superficial and deep branches. Deep fibular injury weakens anterior-compartment dorsiflexion and can produce foot drop; the first web space is its sensory territory."},
+      "E":{"page":457,"summary":"Tibial-nerve posterior-compartment muscles include tibialis posterior, which inverts and plantar-flexes the foot."}
+    },
+    "fa_summary":"First Aid 2026's lower-extremity nerve table links common fibular nerve injury, including compression by a Baker cyst, with dorsal-foot sensory loss and foot drop; the deep fibular branch supplies the anterior compartment (printed p. 457).",
+    "fa_page":457,
+    "complete":true
+  },
+  "自建题库/KAPLAN QBANK/ANATOMY/MUSCLOSKELETAL/muscloskeletal.pdf||2": {
+    "chapter":"Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter":"Anatomy and Physiology",
+    "stem":"A 35-year-old man sustains a humeral fracture during a rugby game. Two months later, he has difficulty abducting the arm, especially beyond the first 15 degrees, and decreased sensation over the lateral shoulder. Where is the fracture most likely located?",
+    "options":[
+      {"letter":"A","text":"Anatomical neck"},
+      {"letter":"B","text":"Lateral epicondyle"},
+      {"letter":"C","text":"Medial epicondyle"},
+      {"letter":"D","text":"Midshaft"},
+      {"letter":"E","text":"Surgical neck"}
+    ],
+    "answer":"E",
+    "explanation":"This is an axillary nerve lesion. The nerve wraps around the surgical neck of the humerus and supplies the deltoid and teres minor, as well as skin over the lateral shoulder. The supraspinatus initiates the first 15 degrees of abduction; the deltoid abducts the arm thereafter, explaining the deficit beyond 15 degrees. A midshaft fracture more typically injures the radial nerve and causes wrist/finger extension weakness.",
+    "choice_explanations":{
+      "A":"Incorrect: the anatomical neck is within the shoulder-joint capsule; it is not the characteristic site for axillary nerve injury.",
+      "B":"Incorrect: a lateral epicondyle fracture can affect structures near the elbow, not the axillary nerve or lateral shoulder sensation.",
+      "C":"Incorrect: a medial epicondyle fracture may injure the ulnar nerve and cause medial-hand symptoms.",
+      "D":"Incorrect: a midshaft humeral fracture can injure the radial nerve, causing wrist drop and posterior-limb sensory loss.",
+      "E":"Correct: the axillary nerve passes around the surgical neck; injury weakens deltoid-mediated abduction and reduces lateral-shoulder sensation."
+    },
+    "option_fa":{
+      "A":{"page":450,"summary":"First Aid describes axillary nerve injury after shoulder dislocation or surgical-neck fracture, rather than an isolated anatomical-neck fracture."},
+      "B":{"page":450,"summary":"Distal humeral injuries are associated with forearm/hand nerve findings; they do not match the axillary nerve's lateral-shoulder territory."},
+      "C":{"page":450,"summary":"Medial epicondyle fracture can injure the ulnar nerve and affect intrinsic hand function and ulnar-digit sensation."},
+      "D":{"page":450,"summary":"A humeral midshaft fracture is associated with radial nerve injury and wrist drop."},
+      "E":{"page":450,"summary":"Axillary nerve injury at the surgical neck causes deltoid weakness, loss of arm abduction beyond 15 degrees, and lateral-arm sensory loss."}
+    },
+    "fa_summary":"First Aid's upper-extremity nerve table associates a humeral surgical-neck fracture with axillary nerve injury, flattened deltoid, impaired abduction beyond 15 degrees, and lateral-arm sensory loss (printed p. 450).",
+    "fa_page":450,
+    "complete":true
+  },
+  "自建题库/KAPLAN QBANK/ANATOMY/MUSCLOSKELETAL/muscloskeletal.pdf||3": {
+    "chapter":"Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter":"Anatomy and Physiology",
+    "stem":"A 55-year-old woman with depression is admitted after deep lacerations of the distal wrist and palm. Several weeks later, she has hand weakness and numbness with flattening of the thenar eminence. Which additional finding is most likely?",
+    "options":[
+      {"letter":"A","text":"Loss of sensation over the palmar aspect of the fifth digit"},
+      {"letter":"B","text":"Weakness in pronation"},
+      {"letter":"C","text":"Weakness in thumb adduction"},
+      {"letter":"D","text":"Weakness in thumb extension"},
+      {"letter":"E","text":"Weakness of the first and second lumbricals"}
+    ],
+    "answer":"E",
+    "explanation":"Flattening of the thenar eminence after a distal wrist/palm laceration indicates injury to the median nerve or its recurrent motor branch. The median nerve supplies the first and second lumbricals and thenar muscles. Pronation is mediated by forearm muscles proximal to the wrist and should be spared by a distal lesion. Fifth-digit sensation and thumb adduction are ulnar-nerve functions; thumb extension is radial-nerve mediated.",
+    "choice_explanations":{
+      "A":"Incorrect: palmar sensation over the fifth digit is supplied by the ulnar nerve.",
+      "B":"Incorrect: pronation is produced by pronator teres and pronator quadratus in the forearm, proximal to the wrist laceration.",
+      "C":"Incorrect: thumb adduction is primarily performed by adductor pollicis, supplied by the deep branch of the ulnar nerve.",
+      "D":"Incorrect: thumb extension is performed by radial-nerve-innervated posterior forearm muscles.",
+      "E":"Correct: the first and second lumbricals are median-nerve supplied and may be weakened by a distal median-nerve injury."
+    },
+    "option_fa":{
+      "A":{"page":450,"summary":"The ulnar nerve supplies sensation to the medial 1½ digits, including the fifth digit."},
+      "B":{"page":450,"summary":"Median-nerve forearm branches supply pronator teres and pronator quadratus; a distal wrist lesion occurs after these branches."},
+      "C":{"page":452,"summary":"Adductor pollicis is an ulnar-nerve muscle; First Aid distinguishes it from the median-innervated thenar group."},
+      "D":{"page":450,"summary":"Radial-nerve branches supply the posterior forearm extensors, including muscles that extend the thumb."},
+      "E":{"page":452,"summary":"First Aid assigns the first and second lumbricals to the median nerve; lumbricals flex MCP and extend IP joints."
+      }
+    },
+    "fa_summary":"First Aid's hand-muscle table identifies the first two lumbricals and most thenar muscles as median-nerve supplied; distal median injury produces thenar weakness/atrophy, whereas ulnar muscles control thumb adduction (printed p. 452).",
+    "fa_page":452,
+    "complete":true
   }
 }

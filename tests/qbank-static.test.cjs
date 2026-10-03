@@ -39,12 +39,25 @@ test('only manually reviewed questions enter the practice bank; unverified OCR i
   assert.match(app,/const reviewed=new Set\(Object\.keys\(overrides\)\)/);
   assert.match(app,/reviewed\.has\(q\.id\).*q\.stem.*q\.answer.*q\.options.*q\.explanation/);
   assert.match(app,/未核验题暂不开放/);
-  assert.equal(Object.keys(overrides).length,19);
+  assert.equal(Object.keys(overrides).length,22);
   for(const q of Object.values(overrides)) assert.ok(q.chapter&&q.fa_subchapter&&q.stem&&q.options?.length&&q.answer&&q.explanation);
   for(const id of ['14','15','16','17','18','19']){
     const item=overrides[`自建题库/KAPLAN QBANK/ANATOMY/anatomy extra.pdf||${id}`];
     assert.equal(Object.keys(item.option_fa||{}).length,item.options.length);
     for(const option of item.options) assert.ok(item.option_fa[option.letter]?.page&&item.option_fa[option.letter]?.summary);
+  }
+});
+
+test('first three visually audited musculoskeletal items have clean choices, rationale, and printed First Aid page matches',()=>{
+  const base='自建题库/KAPLAN QBANK/ANATOMY/MUSCLOSKELETAL/muscloskeletal.pdf||';
+  const expected=[['1','D',457],['2','E',450],['3','E',452]];
+  for(const [number,answer,page] of expected){
+    const item=overrides[base+number];
+    assert.ok(item?.complete&&item.stem&&item.explanation);
+    assert.equal(item.answer,answer);assert.equal(item.fa_page,page);
+    assert.equal(Object.keys(item.option_fa||{}).length,item.options.length);
+    for(const option of item.options)assert.ok(item.option_fa[option.letter]?.summary);
+    assert.doesNotMatch(item.stem,/most ikely|\bk decreased|\| and Il/i);
   }
 });
 
