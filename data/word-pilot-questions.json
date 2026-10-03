@@ -18264,5 +18264,705 @@
     ],
     "question_figures_reviewed": true,
     "question_figure_description": "局部新生儿唇裂/腭裂照片；已从 PDF 原题截图单独裁出，不含题干、选项或答案标记。"
+  },
+  {
+    "id": "import-9bb8f07df58b8ba47889894d",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Breast pathology",
+    "stem": "A 34-year-old multigravid woman comes to the physician because of fever and a mass in her left breast. She gave birth without complications 2 months ago and has a history of mitral valve replacement complicated by endocarditis. Physical examination shows a fluctuant mass in the left breast. Her mother died from breast cancer at age 40. Breast ultrasound shows a fluid collection under the skin, and needle biopsy yields 15 mL of cloudy yellow fluid. Which of the following is the most likely underlying cause of this condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Breastfeeding"
+      },
+      {
+        "letter": "B",
+        "text": "Endocarditis"
+      },
+      {
+        "letter": "C",
+        "text": "Fibrocystic changes of the breast"
+      },
+      {
+        "letter": "D",
+        "text": "Inflammatory breast carcinoma"
+      },
+      {
+        "letter": "E",
+        "text": "Paget disease of the breast"
+      }
+    ],
+    "answer": "A",
+    "explanation": "This is lactational mastitis with a breast abscess. During breastfeeding, nipple fissures can let skin flora—most commonly Staphylococcus aureus—enter breast tissue; infection can progress to a tender, fluctuant collection. The postpartum timing and purulent aspirate support infection. Endocarditis is a distracting history, while the benign and malignant breast conditions listed do not explain a pus-filled abscess.",
+    "choice_explanations": {
+      "A": "Correct. Lactation predisposes to nipple fissures and ascending bacterial infection; S. aureus is the most common cause of lactational mastitis and abscess.",
+      "B": "Endocarditis can cause bacteremia and embolic complications, but it is not the usual cause of a localized lactational breast abscess; the source explanation notes its typical systemic/embolic pattern.",
+      "C": "Fibrocystic change can cause hormonally related lumps or discomfort, but it is benign tissue proliferation/cyst formation and does not produce a purulent abscess.",
+      "D": "Inflammatory breast carcinoma can cause diffuse warmth, erythema, edema, and peau d’orange from dermal lymphatic involvement, but it does not account for cloudy purulent fluid in this postpartum presentation.",
+      "E": "Paget disease involves eczematous changes of the nipple associated with underlying ductal carcinoma; it is not a bacterial abscess."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lactational mastitis occurs during breastfeeding; cracked nipples increase bacterial entry, and S. aureus is the most common pathogen.",
+        "page": 667
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 reproductive chapter has no direct matching point for endocarditis as a cause of breast abscess."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Fibrocystic changes are common benign breast changes that may cause premenstrual pain or lumps.",
+        "page": 667
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Inflammatory breast cancer involves dermal lymphatic invasion and can produce warm, swollen, erythematous skin; it is a distinct malignant presentation.",
+        "page": 668
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Paget disease is extension of underlying DCIS/invasive breast cancer up the lactiferous ducts into the nipple epidermis.",
+        "page": 668
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      667
+    ],
+    "fa_page": 667,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-52d14b4760c357330c2fdb93",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Menstrual cycle",
+    "stem": "A 35-year-old woman comes to the physician because of heavy menstrual bleeding. Biopsy of the endometrium shows a thick endometrium with long, coiled glands lined by columnar epithelium with prominent cytoplasmic vacuoles adjacent to the gland lumen. Earlier in the menstrual cycle, the glands were much smaller and lined by cells without vacuoles. Which hormone is primarily responsible for initiating glandular secretion in endometrial tissue?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aldosterone"
+      },
+      {
+        "letter": "B",
+        "text": "Estrogen"
+      },
+      {
+        "letter": "C",
+        "text": "Luteinizing hormone (LH)"
+      },
+      {
+        "letter": "D",
+        "text": "Follicle-stimulating hormone (FSH)"
+      },
+      {
+        "letter": "E",
+        "text": "Progesterone"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The long, coiled glands with luminal subnuclear vacuoles indicate secretory endometrium after ovulation. Progesterone from the corpus luteum converts the estrogen-primed proliferative endometrium into the secretory phase, preparing it for implantation. Estrogen drives the earlier proliferative phase; LH and FSH regulate ovarian events rather than directly initiating endometrial gland secretion.",
+    "choice_explanations": {
+      "A": "Aldosterone regulates renal sodium and potassium handling; it does not initiate endometrial secretory activity.",
+      "B": "Estrogen stimulates endometrial proliferation and straight, narrow glands before ovulation; it is not the primary trigger for the secretory transformation.",
+      "C": "LH supports ovulation and corpus-luteum formation, but progesterone is the hormone that directly stimulates the secretory endometrial phase.",
+      "D": "FSH supports follicular development in the ovary; it does not directly initiate uterine gland secretion.",
+      "E": "Correct. Corpus-luteum progesterone induces secretory transformation, including tortuous, dilated glands."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 reproductive chapter has no direct matching point for aldosterone in endometrial cycling."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Estrogen stimulates the proliferative phase and endometrial development before ovulation.",
+        "page": 650
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "LH stimulates the luteal phase after ovulation; the reproductive-cycle diagram places LH in ovarian-cycle regulation rather than as the endometrial secretory stimulus.",
+        "page": 650
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "FSH stimulates follicular development in the ovarian cycle; it is not the uterine-cycle signal for glandular secretion.",
+        "page": 650
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Progesterone stimulates the secretory phase, producing tortuous, dilated endometrial glands and preparing the endometrium for implantation.",
+        "page": 650
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      650
+    ],
+    "fa_page": 650,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-9458b7393949009043170347",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Ovarian physiology",
+    "stem": "A 29-year-old woman consults her physician because of difficulty becoming pregnant. She has kept records of her menstrual periods for 6 months; they show menses at 28-day intervals. Her most recent menses began 12 days before the office visit. Which cellular event is most likely occurring at the present time?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Granulosa cells begin to express aromatase"
+      },
+      {
+        "letter": "B",
+        "text": "Granulosa cells begin to express FSH receptors"
+      },
+      {
+        "letter": "C",
+        "text": "Granulosa cells begin to express LH receptors"
+      },
+      {
+        "letter": "D",
+        "text": "Theca cells begin to express LH receptors"
+      },
+      {
+        "letter": "E",
+        "text": "Theca cells begin to express side-chain cleavage enzyme"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Cycle day 12 is late in the follicular phase, near ovulation in a typical 28-day cycle. At this stage the dominant follicle’s granulosa cells acquire LH receptors. LH responsiveness helps the follicle complete maturation and luteinize after ovulation. Theca cells already respond to LH earlier, while granulosa aromatase and FSH responsiveness are present before this late-follicular transition.",
+    "choice_explanations": {
+      "A": "Aromatase is already active in granulosa cells earlier in follicular development: FSH stimulates conversion of theca-derived androgens to estrogens.",
+      "B": "Granulosa cells respond to FSH throughout the follicular phase; FSH-receptor expression does not first begin near ovulation.",
+      "C": "Correct. As the dominant follicle approaches ovulation, granulosa cells acquire LH receptors, enabling LH-mediated maturation and luteinization.",
+      "D": "Theca cells express LH receptors early in the follicular phase and produce androgen precursors under LH stimulation; this is not the late-cycle event asked about.",
+      "E": "Side-chain cleavage is an early steroidogenic step, not an event that begins only as ovulation approaches."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The follicular diagram shows aromatase in granulosa cells converting theca-derived androstenedione to estrogen.",
+        "page": 648
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The ovarian follicle diagram identifies FSH receptors on granulosa cells; First Aid does not state that their expression begins only near ovulation.",
+        "page": 648
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The ovarian follicle diagram shows LH receptors on granulosa cells and theca cells; the source explanation supplies the timing—granulosa LH-receptor expression rises in the late follicular phase.",
+        "page": 648
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The follicular diagram shows LH receptors on theca cells, which provide androgen substrate for granulosa-cell estrogen synthesis.",
+        "page": 648
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 reproductive chapter does not directly discuss side-chain cleavage enzyme timing in this follicular transition."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      648
+    ],
+    "fa_page": 648,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-1a97fd85d20b426e5ae9858a",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Menstrual cycle",
+    "stem": "A healthy 24-year-old woman has regular menstrual cycles, each lasting about 28 days. Daily serum samples have been obtained for 4 weeks. Over the past 3 days, progesterone and 17β-estradiol levels have decreased; serum LH and FSH levels are low but beginning to increase, and basal body temperature is falling. Which event is most likely to occur within 3 days?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Markedly increased inhibin levels"
+      },
+      {
+        "letter": "B",
+        "text": "Menstruation"
+      },
+      {
+        "letter": "C",
+        "text": "Ovulation"
+      },
+      {
+        "letter": "D",
+        "text": "Rapidly decreased LH levels"
+      },
+      {
+        "letter": "E",
+        "text": "Significantly increased basal body temperature"
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is the end of the luteal phase. Regression of the corpus luteum causes progesterone and estrogen to fall, removing support for the secretory endometrium and triggering its shedding. FSH begins to rise as the next follicular phase starts. The temperature decline reflects falling progesterone; ovulation and the LH surge occurred roughly 2 weeks earlier.",
+    "choice_explanations": {
+      "A": "Inhibin is not markedly rising just before menses; luteal inhibin falls along with corpus-luteum activity.",
+      "B": "Correct. Withdrawal of corpus-luteum progesterone and estrogen triggers menstrual shedding.",
+      "C": "Ovulation occurs near midcycle, before the luteal-phase hormone decline described here.",
+      "D": "LH peaks before ovulation and is not expected to undergo a new rapid decrease immediately before menstruation.",
+      "E": "Basal temperature rises after ovulation under progesterone; it falls as the corpus luteum regresses."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 identifies the fixed 14-day luteal phase but does not give a direct premenstrual inhibin trend."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The cycle diagram shows menstruation following the luteal phase; endometrial support changes across the ovarian and uterine cycle.",
+        "page": 650
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ovulation is the midcycle release of the secondary oocyte following the LH surge.",
+        "page": 649
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The cycle diagram places the LH surge around midcycle, before the luteal phase; the option’s premenstrual timing is inconsistent.",
+        "page": 650
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss basal body temperature changes across the cycle."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      650
+    ],
+    "fa_page": 650,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-359f3541a2a8fc62578d88b7",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Breast pathology",
+    "stem": "A 52-year-old woman comes to the physician after noticing a lump in her left breast. She denies a family history of breast cancer, tobacco smoking, or alcohol use. Her temperature is 37°C (98.6°F), pulse is 70/min, respirations are 14/min, and blood pressure is 132/84 mm Hg. After further evaluation, she undergoes lumpectomy. Microscopic examination shows small infiltrating glandular structures lined by poorly differentiated cells, surrounded by desmoplastic stroma with minimal lymphocytic infiltrate. Which cancer type is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Colloid (mucinous) carcinoma"
+      },
+      {
+        "letter": "B",
+        "text": "Invasive ductal carcinoma"
+      },
+      {
+        "letter": "C",
+        "text": "Invasive lobular carcinoma"
+      },
+      {
+        "letter": "D",
+        "text": "Medullary carcinoma"
+      },
+      {
+        "letter": "E",
+        "text": "Metastatic lung cancer"
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is invasive ductal carcinoma, the most common invasive breast carcinoma. It forms infiltrating malignant glands and typically elicits a desmoplastic stromal response. The source describes the same pattern and contrasts it with mucin-rich colloid carcinoma and the less gland-forming patterns of other choices.",
+    "choice_explanations": {
+      "A": "Mucinous (colloid) carcinoma has abundant extracellular mucin and is more common in older women; that feature is not described.",
+      "B": "Correct. Invasive ductal carcinoma forms infiltrating glands surrounded by reactive desmoplastic stroma.",
+      "C": "Invasive lobular carcinoma classically infiltrates as single-file cells and loses E-cadherin rather than forming the described glands.",
+      "D": "Medullary carcinoma typically forms sheets/syncytial growth with prominent lymphocytic infiltrates, unlike this specimen’s minimal lymphocytes.",
+      "E": "A metastatic lung carcinoma would require evidence of a lung primary and would not be identified by this characteristic primary breast glandular/desmoplastic pattern."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Mucinous carcinoma is a malignant breast-tumor subtype; First Aid distinguishes its mucin-rich pattern from other breast cancers.",
+        "page": 668
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Invasive breast carcinomas commonly arise from the terminal duct lobular unit; the page summarizes invasive ductal carcinoma as the most common type.",
+        "page": 668
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Invasive lobular carcinoma is associated with decreased E-cadherin and orderly rows of cells.",
+        "page": 668
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 reproductive breast-pathology pages do not directly describe medullary carcinoma in this differential."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 reproductive breast-pathology pages do not directly cover metastatic lung cancer to the breast."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      668
+    ],
+    "fa_page": 668,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-e3c29ae239b16db1bed408d0",
+    "chapter": "Pathology",
+    "fa_subchapter": "Cellular Injury",
+    "stem": "An autopsy of an 83-year-old man who died suddenly at a nursing home shows a small amount of abnormal protein deposited in the heart. When stained with Congo red and viewed under polarized light, the protein demonstrates apple-green birefringence. This finding is absent from other organs. His only medical problem was hypertension, and there was no evidence of systemic inflammation at the time of death. Misfolding of which protein is most likely responsible for these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Amyloid-associated protein"
+      },
+      {
+        "letter": "B",
+        "text": "Amyloid light-chain protein"
+      },
+      {
+        "letter": "C",
+        "text": "β-amyloid protein"
+      },
+      {
+        "letter": "D",
+        "text": "β2-microglobulin"
+      },
+      {
+        "letter": "E",
+        "text": "Transthyretin"
+      }
+    ],
+    "answer": "E",
+    "explanation": "This is age-related, localized cardiac amyloidosis. Congo-red positivity with apple-green birefringence confirms amyloid. In an older adult with cardiac deposition and no evidence of systemic inflammatory disease or another involved organ, wild-type transthyretin is the most likely precursor. Transthyretin amyloid can accumulate in the heart with aging; hereditary variants may also cause cardiomyopathy and neuropathy.",
+    "choice_explanations": {
+      "A": "Incorrect. Amyloid A (AA) is produced from serum amyloid A during chronic inflammatory disease; no chronic inflammatory condition is described.",
+      "B": "Incorrect. AL amyloid is derived from immunoglobulin light chains and is associated with plasma-cell dyscrasias such as multiple myeloma.",
+      "C": "Incorrect. β-amyloid is derived from amyloid precursor protein and is associated with Alzheimer disease, not isolated senile cardiac deposits.",
+      "D": "Incorrect. β2-microglobulin amyloid is associated with long-term dialysis and commonly affects osteoarticular tissues.",
+      "E": "Correct. Wild-type transthyretin can deposit in the heart with aging, producing senile cardiac amyloidosis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "AA (serum amyloid A) is associated with chronic inflammatory conditions.",
+        "page": 208
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "AL amyloid is derived from immunoglobulin light chains and is seen in plasma-cell dyscrasias.",
+        "page": 208
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "β-amyloid is derived from amyloid precursor protein and is associated with Alzheimer disease.",
+        "page": 208
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "β2-microglobulin amyloid is associated with end-stage renal disease on long-term dialysis.",
+        "page": 208
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Wild-type transthyretin amyloid is associated with aging and predominantly affects the heart; mutant transthyretin may cause familial polyneuropathy or cardiomyopathy.",
+        "page": 208
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      208
+    ],
+    "fa_page": 208,
+    "fa_page_verified": true,
+    "fa_summary": "Amyloidosis is extracellular deposition of misfolded fibrillar protein. First Aid lists AL with plasma-cell dyscrasias, AA with chronic inflammation, β2-microglobulin with long-term dialysis, β-amyloid with Alzheimer disease, and transthyretin with age-related cardiac or hereditary cardiac/neurologic disease."
+  },
+  {
+    "id": "import-42fa969df820eee1facd598b",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Physiology",
+    "stem": "An 82-year-old woman is found unconscious in her apartment by her son. A gas oven is on, with its door open. She is revived and placed on 100% oxygen by face mask. She reports a severe frontal headache and dizziness while baking cookies, with no memory of what happened afterward. Her temperature is 37.3°C (99.2°F), pulse is 78/min, respirations are 20/min, and blood pressure is 130/78 mm Hg. Her cheeks, lips, and fingers are red. Which mechanism most likely underlies her condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Damage to the plasma membrane"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased oxygen-carrying capacity of blood"
+      },
+      {
+        "letter": "C",
+        "text": "Increased calcium transport into mitochondria"
+      },
+      {
+        "letter": "D",
+        "text": "Right shift of the oxygen-hemoglobin dissociation curve"
+      },
+      {
+        "letter": "E",
+        "text": "Rupture of lysosomes"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The open gas oven, headache, dizziness, altered consciousness, and flushed appearance point to carbon monoxide poisoning. Carbon monoxide binds hemoglobin with high affinity to form carboxyhemoglobin, reducing the amount of oxygen that can be carried. It also shifts the oxygen-hemoglobin dissociation curve to the left, making oxygen harder to unload to tissues.",
+    "choice_explanations": {
+      "A": "Incorrect. Plasma-membrane damage is a general mechanism of irreversible cell injury; it does not explain the exposure history or carboxyhemoglobin formation.",
+      "B": "Correct. Carbon monoxide binds hemoglobin and reduces the blood's oxygen-carrying capacity.",
+      "C": "Incorrect. Calcium dysregulation and mitochondrial injury can occur in cell damage but are not the primary mechanism of carbon monoxide poisoning.",
+      "D": "Incorrect. Carbon monoxide causes a left shift, not a right shift, and reduces oxygen content by occupying hemoglobin-binding sites.",
+      "E": "Incorrect. Lysosomal rupture can contribute to cellular autolysis but does not explain this inhalational poisoning syndrome."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Irreversible cell injury includes plasma-membrane breakdown and leakage of intracellular contents.",
+        "page": 203
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Carbon monoxide produces carboxyhemoglobin and reduces oxygen delivery; see the carbon monoxide poisoning comparison.",
+        "page": 689
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not provide a direct standalone match for calcium transport into mitochondria as the cause of this presentation."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Carbon monoxide shifts the oxygen-hemoglobin dissociation curve left; the proposed right shift is the opposite direction.",
+        "page": 689
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lysosomal rupture causes autolysis as part of irreversible cell injury.",
+        "page": 203
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      689
+    ],
+    "fa_page": 689,
+    "fa_page_verified": true,
+    "fa_summary": "Carbon monoxide poisoning causes headache, confusion or coma, possible cherry-red skin, elevated carboxyhemoglobin, and reduced oxygen delivery. Carbon monoxide binds hemoglobin and shifts the oxygen-hemoglobin curve left."
+  },
+  {
+    "id": "import-3e9f6b5ed0eada27d63cdf9a",
+    "chapter": "Pathology",
+    "fa_subchapter": "Cellular Injury",
+    "stem": "An investigator is studying bone healing in experimentally induced fractures in an animal model. Decalcified bone sections at different stages of healing are examined. An electron micrograph shows two different cells in one section. Which choice best describes the cell identified by the arrow?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Apoptotic cell"
+      },
+      {
+        "letter": "B",
+        "text": "Bone-lining macrophage"
+      },
+      {
+        "letter": "C",
+        "text": "Dividing osteoblast"
+      },
+      {
+        "letter": "D",
+        "text": "Necrotic cell"
+      },
+      {
+        "letter": "E",
+        "text": "Typical osteoblast"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The indicated cell shows cytoplasmic and nuclear blebbing with fragmentation into apoptotic bodies, the organized morphology of apoptosis. In bone remodeling, apoptosis can remove osteoblasts that are no longer needed. Necrosis instead involves membrane failure, enzymatic degradation, and inflammation.",
+    "choice_explanations": {
+      "A": "Correct. Membrane blebbing and apoptotic bodies are characteristic of programmed cell death.",
+      "B": "Incorrect. A bone-lining macrophage would not show the nuclear fragmentation and apoptotic-body pattern indicated in the source micrograph.",
+      "C": "Incorrect. A dividing osteoblast would show mitotic chromatin condensation and an intact dividing-cell configuration, not apoptotic fragmentation.",
+      "D": "Incorrect. Necrosis is disorganized cell death with membrane damage and inflammation; the source describes apoptotic bodies without that pattern.",
+      "E": "Incorrect. The typical osteoblast is the adjacent functional bone-forming cell, not the blebbing cell indicated by the arrow."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Apoptosis involves membrane blebbing and formation of apoptotic bodies, typically without significant inflammation.",
+        "page": 204
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly describe bone-lining macrophages as a distinct cell type in this context."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Osteoblasts are bone-forming cells; the source figure distinguishes the typical osteoblast from the apoptotic cell.",
+        "page": 462
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Necrosis causes enzymatic degradation and a local inflammatory reaction, unlike apoptosis.",
+        "page": 205
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Osteoblasts build bone by secreting collagen and catalyzing mineralization.",
+        "page": 462
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      204,
+      205,
+      462
+    ],
+    "fa_page": 204,
+    "fa_page_verified": true,
+    "fa_summary": "Apoptosis is programmed cell death with cell shrinkage, chromatin condensation, membrane blebbing, and apoptotic-body formation, typically without inflammation. Necrosis involves cell injury and inflammation. Osteoblasts build bone.",
+    "question_images": [
+      "assets/question-figures/general-principles-q03-apoptotic-cell-em.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "局部电子显微镜图像，仅含题目所需细胞及箭头；无题干、选项、答案或解析。"
+  },
+  {
+    "id": "import-7fbb77a540970612b2471a0a",
+    "chapter": "Pathology",
+    "fa_subchapter": "Neoplasia",
+    "stem": "A 76-year-old woman dies from lung cancer after a prolonged hospital stay complicated by pneumonia. She smoked two packs of cigarettes daily for 45 years. At autopsy, histologic examination of the lung shows islands of mitotically active squamous cell carcinoma with central areas of coagulative necrosis. Which mechanism underlies this tumor necrosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anti-angiogenesis factors"
+      },
+      {
+        "letter": "B",
+        "text": "Apoptosis"
+      },
+      {
+        "letter": "C",
+        "text": "Granulomatous infection"
+      },
+      {
+        "letter": "D",
+        "text": "Host immune response"
+      },
+      {
+        "letter": "E",
+        "text": "Ischemia"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A rapidly growing tumor can outgrow its vascular supply. The poorly perfused central region becomes ischemic and undergoes coagulative necrosis. Tumor cells may secrete antiangiogenic factors, but these are not the immediate mechanism described by this pattern.",
+    "choice_explanations": {
+      "A": "Incorrect. Antiangiogenic factors can limit vascular growth, but the source explains the central necrosis as a mismatch between rapid tumor growth and its available blood supply.",
+      "B": "Incorrect. Apoptosis is programmed single-cell death and does not produce the central region of coagulative tumor necrosis described.",
+      "C": "Incorrect. Granulomatous infections such as tuberculosis produce caseous necrosis, not central coagulative necrosis in a squamous carcinoma.",
+      "D": "Incorrect. Antitumor immunity can damage individual tumor cells, but it does not explain the central ischemic necrosis from inadequate vascular supply.",
+      "E": "Correct. Tumor growth can outstrip vascular supply, causing central ischemia and coagulative necrosis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Cancer can sustain angiogenesis through increased pro-angiogenic factors or decreased inhibitory factors.",
+        "page": 217
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Apoptosis is programmed cell death, distinct from necrosis.",
+        "page": 204
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Caseous necrosis is associated with tuberculosis and some systemic fungal infections.",
+        "page": 205
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Tumor cells may evade immune recognition; this is distinct from ischemic tumor necrosis.",
+        "page": 217
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ischemia is inadequate blood supply; ischemic injury causes coagulative necrosis in most tissues.",
+        "pages": [
+          205,
+          206
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      205,
+      216,
+      217
+    ],
+    "fa_page": 205,
+    "fa_page_verified": true,
+    "fa_summary": "Necrosis follows irreversible cell injury; coagulative necrosis is caused by ischemia in most tissues. Malignant tumors may show erratic growth and necrosis, and cancer-related angiogenesis is covered separately."
   }
 ]
