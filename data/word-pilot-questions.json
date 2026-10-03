@@ -22356,5 +22356,86 @@
     "fa_page": 62,
     "fa_page_verified": true,
     "fa_summary": "First Aid 2026 printed p.62 lists the chromosome-to-gene associations, including BRCA1 on 17q, BRCA2 on 13q, VHL on 3p, APC on 5q, WT1 on 11p, and genes associated with chromosome 18. Printed p.220 discusses tumor-suppressor genes in neoplasia, including BRCA1/2 and their cancer associations. Together these support the keyed BRCA1/17q link and the two-hit tumor-suppressor framework."
+  },
+  {
+    "id": "import-60d69b29bf1672ec3f4b8533",
+    "chapter": "Pathology",
+    "fa_subchapter": "Neoplasia / Apoptosis",
+    "stem": "A 37-year-old man with follicular non-Hodgkin lymphoma returns for follow-up. The lymphoma cells do not appear to be actively dividing, but the number of malignant cells continues to increase. Overexpression of which of the following best accounts for the inhibited apoptosis of these abnormal cells?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "BCL-2"
+      },
+      {
+        "letter": "B",
+        "text": "Caspases"
+      },
+      {
+        "letter": "C",
+        "text": "Fas (CD95)"
+      },
+      {
+        "letter": "D",
+        "text": "Perforin"
+      },
+      {
+        "letter": "E",
+        "text": "p53"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Follicular lymphoma classically carries t(14;18), which places BCL2 near the immunoglobulin heavy-chain locus and increases BCL-2 expression. BCL-2 is antiapoptotic: it stabilizes the mitochondrial outer membrane and prevents cytochrome-c release, reducing caspase activation. The malignant lymphocytes therefore accumulate because they avoid programmed cell death, not because they are proliferating rapidly.",
+    "choice_explanations": {
+      "A": "Correct. BCL-2 inhibits the intrinsic mitochondrial apoptotic pathway; its overexpression in follicular lymphoma is associated with t(14;18).",
+      "B": "Incorrect. Caspases are executioner proteases activated during apoptosis. They promote cell death rather than inhibit it.",
+      "C": "Incorrect. Fas (CD95) is an extrinsic death receptor; Fas-ligand binding activates apoptosis. Loss of Fas signaling can cause lymphoproliferation, but overexpression would not explain inhibited apoptosis here.",
+      "D": "Incorrect. Perforin enables cytotoxic lymphocytes to deliver granzymes into target cells and trigger apoptosis; it is pro-death, not an antiapoptotic lymphoma protein.",
+      "E": "Incorrect. p53 is a tumor suppressor that can arrest the cell cycle or induce apoptosis after DNA damage. Loss/inactivation, not overexpression, is oncogenic in this setting."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "BCL-2 is antiapoptotic and prevents mitochondrial cytochrome-c release/caspase activation; p.435 directly links follicular lymphoma to t(14;18) and BCL-2.",
+        "page": 204
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Caspases are cytosolic proteases activated by intrinsic, extrinsic, and perforin/granzyme apoptotic pathways; they execute cellular breakdown.",
+        "page": 204
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Fas (CD95) is an extrinsic death receptor; FasL binding triggers apoptosis. Defective Fas-FasL signaling can cause autoimmune lymphoproliferation.",
+        "page": 204
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The perforin/granzyme B pathway activates caspases and apoptosis; perforin is a cytotoxic mechanism, not an apoptosis inhibitor.",
+        "page": 204
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "TP53 is a tumor-suppressor pathway in neoplasia; loss of p53 function promotes cancer. Printed p.217 lists TP53 among mutations involved in evasion of apoptosis.",
+        "page": 220
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      204,
+      217,
+      220,
+      435
+    ],
+    "fa_page": 204,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 printed p.204 explains intrinsic mitochondrial apoptosis: BCL-2 is antiapoptotic, prevents cytochrome-c release and caspase activation, while Fas and perforin/granzyme are proapoptotic pathways and caspases are executioners. Printed p.435 directly links follicular lymphoma with t(14;18), BCL-2, and inhibition of apoptosis. Pages 217 and 220 provide the cancer hallmarks and tumor-suppressor context, including p53."
   }
 ]
