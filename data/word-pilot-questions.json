@@ -21791,5 +21791,486 @@
     "fa_page": 512,
     "fa_page_verified": true,
     "fa_summary": "First Aid 2026 p.512 explains cerebral perfusion: PCO₂ is a primary driver, and hyperventilation lowers PCO₂, causing cerebral vasoconstriction and reduced cerebral blood flow. Page 609 covers respiratory acid-base disorders; p.687 explains oxygen content as primarily hemoglobin-bound oxygen, with dissolved oxygen contributing minimally."
+  },
+  {
+    "id": "import-4cd1ab5b45c758d72bcbf28c",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Amenorrhea",
+    "stem": "A 15-year-old girl comes to the physician because she has not experienced menarche. She has trained in ballet since age 6 and has followed a strict low-calorie, low-fat, high-protein diet since age 11. She is 160 cm tall and weighs 46 kg (BMI 17.9 kg/m²), exercises more than 4 hours daily, and is very muscular. Her sexual maturity rating is Tanner stage 2. Abdominal ultrasound shows a uterus and ovaries of a size consistent with her Tanner stage. Which serum findings are most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased FSH and LH pulse amplitude and frequency, and decreased estrogen"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased FSH and LH pulse amplitude and frequency, and increased estrogen"
+      },
+      {
+        "letter": "C",
+        "text": "Decreased TSH and increased thyroxine"
+      },
+      {
+        "letter": "D",
+        "text": "Increased FSH and LH pulse amplitude and frequency, and decreased estrogen"
+      },
+      {
+        "letter": "E",
+        "text": "Increased FSH and LH pulse amplitude and frequency, and increased estrogen"
+      },
+      {
+        "letter": "F",
+        "text": "Increased TSH and increased thyroxine"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Intense exercise, low energy availability, and dietary restriction suppress pulsatile hypothalamic GnRH release, producing low or infrequent LH/FSH pulses and reduced ovarian estrogen. This functional hypothalamic amenorrhea delays menarche and is part of the female athlete triad, with risk of low bone density and stress fractures.",
+    "choice_explanations": {
+      "A": "Correct. Hypothalamic suppression lowers GnRH pulsatility, reducing LH/FSH pulses and ovarian estrogen.",
+      "B": "Low gonadotropin pulses would reduce ovarian estrogen; increased estrogen does not fit this patient's delayed sexual development.",
+      "C": "Low TSH with high thyroxine suggests primary hyperthyroidism, which is not supported by her presentation and does not explain the exercise/diet history as well.",
+      "D": "High gonadotropins with low estrogen suggests primary ovarian failure; her exercise restriction and appropriately immature uterus/ovaries favor hypothalamic suppression.",
+      "E": "High gonadotropins and estrogen would indicate active ovarian steroid production and would not explain absent menarche with delayed maturation.",
+      "F": "High TSH and high thyroxine is not the expected gonadotropin pattern and is inconsistent with the absence of thyroid symptoms."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Stress can disrupt pulsatile GnRH secretion, lowering LH, FSH, and estrogen; this is the closest First Aid physiology link for hypothalamic amenorrhea.",
+        "page": 663
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not describe decreased gonadotropin pulses with increased estrogen as a typical amenorrhea pattern."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 reproductive pages do not directly map this thyroid-hormone pattern to exercise-associated amenorrhea."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hypergonadotropic primary gonadal failure is a distinct low-estrogen state; First Aid discusses this pattern in sex-chromosome/gonadal disorders.",
+        "page": 655
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not describe increased FSH/LH together with increased estrogen as the expected pattern in this case."
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 reproductive pages do not directly map this thyroid-hormone pattern to amenorrhea."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      655,
+      663
+    ],
+    "fa_page": 655,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-7f7702482ca1a88605f0d7b7",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Breast cancer",
+    "stem": "A 55-year-old woman comes to the physician because of persistent swelling and tenderness in her left breast. Despite antibiotic treatment 4 weeks ago, the breast has become more affected. She recalls no trauma. Her temperature is 36.2°C (97.2°F). Examination shows a swollen, tender, erythematous, warm, indurated area adjacent to the areola without axillary lymphadenopathy. The breast photograph is shown. A superficial biopsy is obtained. Which histologic feature is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Atypical ductal epithelial cell proliferation without obvious invasion"
+      },
+      {
+        "letter": "B",
+        "text": "Cancer cells within the epidermis of the areola"
+      },
+      {
+        "letter": "C",
+        "text": "Dermal lymphatic channel invasion by cancer cells"
+      },
+      {
+        "letter": "D",
+        "text": "Fat necrosis within the dermis"
+      },
+      {
+        "letter": "E",
+        "text": "Invasive cancer cells surrounded by abundant lymphocytes"
+      }
+    ],
+    "answer": "C",
+    "explanation": "This is inflammatory breast cancer. Tumor emboli obstruct dermal lymphatic channels, causing edema, warmth, erythema, induration, and peau d’orange. The inflammatory appearance is due to lymphatic obstruction, not a primary inflammatory-cell infiltrate; persistence despite antibiotics and lack of infectious risk factors are important warning signs.",
+    "choice_explanations": {
+      "A": "Atypical ductal proliferation without invasion describes DCIS, which generally does not cause this diffuse inflammatory skin change.",
+      "B": "Paget disease involves malignant ductal cells spreading into the nipple/areolar epidermis and usually causes eczematous nipple changes.",
+      "C": "Correct. Inflammatory carcinoma spreads through dermal lymphatics, producing edema and peau d’orange.",
+      "D": "Fat necrosis is often associated with prior trauma and is not the cause of this persistent diffuse inflammatory presentation.",
+      "E": "Tumor-associated lymphocytes may surround medullary carcinoma cells, but they do not explain the peau d’orange pattern."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "DCIS is a noninvasive breast carcinoma, distinct from the dermal lymphatic invasion responsible for inflammatory cancer.",
+        "page": 668
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Paget disease extends underlying DCIS/invasive carcinoma into nipple skin; this differs from diffuse inflammatory skin changes.",
+        "page": 668
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Inflammatory breast cancer invades dermal lymphatic spaces, causing breast pain, erythema, edema, and peau d’orange.",
+        "page": 668
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss dermal fat necrosis as a breast-cancer mimic."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Medullary carcinoma is an invasive carcinoma subtype associated with a lymphocytic response; that is not the dermal-lymphatic process described.",
+        "page": 668
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      668
+    ],
+    "fa_page": 668,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/reproductive-q37-peau-dorange.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "题目所需的局部图像。"
+  },
+  {
+    "id": "import-e91dc757919a2409070466f1",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Sex chromosome disorders",
+    "stem": "A 20-year-old man comes to the physician because of gynecomastia, low libido, and erectile dysfunction. Examination shows abnormally small, firm testes. Biopsy reveals fibrosis and hyalinization of seminiferous tubules with clumped, hyperplastic Leydig cells. Karyotype is 47,XXY. Which laboratory finding is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased plasma estrogen"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased plasma follicle-stimulating hormone"
+      },
+      {
+        "letter": "C",
+        "text": "Decreased plasma luteinizing hormone"
+      },
+      {
+        "letter": "D",
+        "text": "Decreased plasma testosterone"
+      },
+      {
+        "letter": "E",
+        "text": "Increased plasma inhibin"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Klinefelter syndrome causes primary testicular failure. Seminiferous-tubule dysgenesis impairs spermatogenesis and lowers inhibin B, increasing FSH; Leydig-cell dysfunction lowers testosterone, increasing LH. Thus decreased plasma testosterone is the expected finding despite Leydig-cell hyperplasia on histology.",
+    "choice_explanations": {
+      "A": "Estrogen is not the expected decreased hormone; gynecomastia reflects a relative increase in estrogenic effect compared with androgen activity.",
+      "B": "FSH rises because damaged seminiferous tubules produce less inhibin B and provide less negative feedback.",
+      "C": "LH rises in response to low testosterone from primary testicular failure.",
+      "D": "Correct. Klinefelter syndrome causes testicular failure and reduced testosterone, with compensatory LH elevation.",
+      "E": "Inhibin B is decreased because Sertoli-cell/seminiferous-tubule function is impaired."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 notes gynecomastia in Klinefelter syndrome but does not specify reduced plasma estrogen as the expected laboratory pattern."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Seminiferous-tubule dysgenesis lowers inhibin B, resulting in increased FSH, not decreased FSH.",
+        "page": 655
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Abnormal Leydig-cell function in Klinefelter syndrome lowers testosterone and raises LH.",
+        "page": 655
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Klinefelter syndrome produces primary hypogonadism with decreased testosterone and compensatory increased LH.",
+        "page": 655
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Sertoli-cell dysfunction lowers inhibin B, which normally inhibits FSH.",
+        "page": 646
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      646,
+      655
+    ],
+    "fa_page": 646,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-2afe06948f76cf1f06950e46",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Cryptorchidism",
+    "stem": "A 2-year-old boy is brought to the physician for a routine examination. He has a history of one undescended testis, which has not descended spontaneously. What is the most serious complication of this condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Atrophy"
+      },
+      {
+        "letter": "B",
+        "text": "Cancer"
+      },
+      {
+        "letter": "C",
+        "text": "Hernia"
+      },
+      {
+        "letter": "D",
+        "text": "Infarction"
+      },
+      {
+        "letter": "E",
+        "text": "Sterility"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cryptorchidism increases the risk of testicular germ-cell cancer, including in the normally descended contralateral testis. It can also impair spermatogenesis and cause infertility, but malignancy is the most serious complication because it can be fatal, particularly after spread beyond the testis.",
+    "choice_explanations": {
+      "A": "Testicular atrophy and impaired spermatogenesis can occur because the warmer abdominal/inguinal environment damages germ cells, but it is not the most serious complication.",
+      "B": "Correct. Cryptorchidism substantially increases testicular cancer risk, including seminoma and other germ-cell tumors.",
+      "C": "A patent processus vaginalis can accompany cryptorchidism and predispose to inguinal hernia, but this is less serious than malignancy.",
+      "D": "Infarction can result from torsion, which is more common with cryptorchidism, but is less serious than the cancer risk.",
+      "E": "Subfertility or sterility may occur from impaired spermatogenesis; unilateral cryptorchidism may leave the other testis functional."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Undescended testes impair spermatogenesis because sperm develop best below core body temperature.",
+        "page": 669
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Cryptorchidism increases the risk of germ-cell tumors; this is the serious long-term complication.",
+        "page": 669
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Cryptorchidism is associated with a patent processus vaginalis, which can allow inguinal hernia.",
+        "page": 669
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Testicular torsion can compromise blood flow and cause infarction; cryptorchidism is a risk factor for torsion.",
+        "page": 669
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Cryptorchidism impairs spermatogenesis and may cause subfertility, though unilateral cases may retain fertility.",
+        "page": 669
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      669
+    ],
+    "fa_page": 669,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-3b5fda6a4ede814fb0129257",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Ovarian tumors",
+    "stem": "An 8-year-old girl is brought to the physician because of breast development. She was born after an uncomplicated pregnancy and has met developmental milestones. Examination shows Tanner stage III breast and pubic-hair development and a nontender mass in the right lower abdomen. CT shows an ovarian mass. Which neoplasm is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Choriocarcinoma"
+      },
+      {
+        "letter": "B",
+        "text": "Dysgerminoma"
+      },
+      {
+        "letter": "C",
+        "text": "Granulosa cell tumor"
+      },
+      {
+        "letter": "D",
+        "text": "Serous cystadenoma"
+      },
+      {
+        "letter": "E",
+        "text": "Teratoma"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A granulosa cell tumor is an estrogen-producing ovarian sex-cord stromal tumor. In a preadolescent girl, estrogen secretion can cause precocious sexual development. The Word OCR reads Tanner stage I, but the source PDF question image clearly says Tanner stage III, consistent with the clinical presentation and answer explanation; the PDF visual was used to resolve that source-text OCR error.",
+    "choice_explanations": {
+      "A": "Ovarian choriocarcinoma is a germ-cell tumor that produces hCG; it does not best explain estrogen-mediated precocious puberty.",
+      "B": "Dysgerminoma is an ovarian germ-cell tumor and is not the typical estrogen-secreting tumor causing this presentation.",
+      "C": "Correct. Granulosa cell tumors can secrete estrogen and cause precocious puberty in preadolescent girls.",
+      "D": "Serous cystadenoma is an epithelial ovarian tumor and does not cause estrogen-driven sexual precocity.",
+      "E": "Teratoma is a germ-cell tumor containing differentiated tissues; it is not typically estrogen-secreting."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Choriocarcinoma is a malignant germ-cell tumor associated with hCG-mediated effects, distinct from estrogen-secreting sex-cord stromal tumors.",
+        "page": 664
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Dysgerminoma is a malignant ovarian germ-cell tumor and is distinct from the hormone-producing granulosa tumor.",
+        "page": 664
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Granulosa cell tumor may secrete estrogen and cause sexual precocity in preadolescent girls.",
+        "page": 665
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Serous tumors are epithelial ovarian tumors; they are distinct from sex-cord stromal estrogen-producing tumors.",
+        "page": 664
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Teratomas are ovarian germ-cell tumors that differentiate into somatic structures; they are not the estrogen-secreting cause described.",
+        "page": 664
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      664,
+      665
+    ],
+    "fa_page": 664,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-653a573e260c3f43dbc22e8b",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Pathology / Achondroplasia",
+    "stem": "A photograph shows a 5-year-old boy with an inherited disorder affecting the growth plates of long bones. He is brought to the pediatrician for recent-onset sleep apnea. He has normal intelligence, and both parents have features of short-limbed dwarfism. Which protein or biochemical pathway is most likely altered?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Chondrocyte signaling"
+      },
+      {
+        "letter": "B",
+        "text": "Degradation of mucopolysaccharides"
+      },
+      {
+        "letter": "C",
+        "text": "Fibrillin synthesis"
+      },
+      {
+        "letter": "D",
+        "text": "Transcription factors"
+      },
+      {
+        "letter": "E",
+        "text": "Type I collagen"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The findings indicate achondroplasia, an autosomal dominant skeletal dysplasia caused by a gain-of-function FGFR3 mutation. Constitutively active FGFR3 inhibits chondrocyte proliferation in the growth plate and impairs endochondral ossification, producing short limbs. Intramembranous ossification is relatively spared, so the head and axial skeleton are relatively preserved; normal intelligence and sleep-disordered breathing can occur.",
+    "choice_explanations": {
+      "A": "Correct. Constitutive FGFR3 signaling inhibits chondrocyte proliferation and longitudinal growth of long bones in achondroplasia.",
+      "B": "Incorrect. Defective lysosomal degradation of mucopolysaccharides causes mucopolysaccharidoses, often with coarse facies, organ involvement, and developmental findings, rather than the classic familial short-limb phenotype of achondroplasia.",
+      "C": "Incorrect. Fibrillin-1 defects cause Marfan syndrome, typically with tall stature, long limbs, aortic-root disease, and lens abnormalities.",
+      "D": "Incorrect. Homeobox (HOX) transcription-factor defects can cause developmental patterning abnormalities, such as syndactyly or urogenital anomalies; they do not produce the characteristic FGFR3-mediated achondroplasia pattern.",
+      "E": "Incorrect. Type I collagen defects cause osteogenesis imperfecta, characterized by bone fragility and recurrent fractures, often with blue sclerae or dentin abnormalities."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Achondroplasia is caused by constitutive FGFR3 activation, which inhibits chondrocyte proliferation and endochondral ossification, producing short limbs.",
+        "page": 467
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lysosomal enzyme deficiency causes accumulation of abnormal substrates; mucopolysaccharidoses reflect impaired degradation of glycosaminoglycans. Hunter syndrome is listed among X-linked recessive diseases on p.59.",
+        "page": 86
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Marfan syndrome is caused by FBN1 mutation, resulting in defective fibrillin-1.",
+        "page": 50
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Homeobox (HOX) genes regulate neural-tube segmentation and cranial-caudal differentiation; mutations can cause limb syndactyly and urogenital abnormalities.",
+        "page": 500
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Osteogenesis imperfecta commonly results from COL1A1/COL1A2 defects affecting type I collagen and causes brittle bones, fractures, and often blue sclerae.",
+        "page": 49
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      49,
+      50,
+      59,
+      86,
+      467,
+      500
+    ],
+    "fa_page": 467,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p.467 describes achondroplasia: constitutively active FGFR3 inhibits chondrocyte proliferation and endochondral ossification, causing short limbs while membranous ossification is spared. The printed page places this topic in the Musculoskeletal, Skin, and Connective Tissue chapter. Additional per-choice links: type I collagen/OI p.49; fibrillin/Marfan p.50; mucopolysaccharidosis and lysosomal disease p.86; Hunter syndrome p.59; HOX/homeobox genes p.500."
   }
 ]
