@@ -22271,6 +22271,11 @@
     ],
     "fa_page": 467,
     "fa_page_verified": true,
-    "fa_summary": "First Aid 2026 p.467 describes achondroplasia: constitutively active FGFR3 inhibits chondrocyte proliferation and endochondral ossification, causing short limbs while membranous ossification is spared. The printed page places this topic in the Musculoskeletal, Skin, and Connective Tissue chapter. Additional per-choice links: type I collagen/OI p.49; fibrillin/Marfan p.50; mucopolysaccharidosis and lysosomal disease p.86; Hunter syndrome p.59; HOX/homeobox genes p.500."
+    "fa_summary": "First Aid 2026 p.467 describes achondroplasia: constitutively active FGFR3 inhibits chondrocyte proliferation and endochondral ossification, causing short limbs while membranous ossification is spared. The printed page places this topic in the Musculoskeletal, Skin, and Connective Tissue chapter. Additional per-choice links: type I collagen/OI p.49; fibrillin/Marfan p.50; mucopolysaccharidosis and lysosomal disease p.86; Hunter syndrome p.59; HOX/homeobox genes p.500.",
+    "question_images": [
+      "assets/question-figures/general-principles-q13-achondroplasia-clinical-photo.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Photo-only crop of the child with achondroplasia; excludes question text, choices, answer state, and interface."
   }
 ]
