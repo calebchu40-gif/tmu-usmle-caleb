@@ -20392,5 +20392,86 @@
     ],
     "fa_page": 656,
     "fa_page_verified": true
+  },
+  {
+    "id": "import-ffa77c6d6dd72195edf93e9c",
+    "chapter": "Renal",
+    "fa_subchapter": "Fluid compartments",
+    "stem": "Diagrams A–E show the relative osmolarity (y-axis) and volume (x-axis) of the intracellular and extracellular fluid compartments during normal conditions (solid lines) and after various disturbances in body fluids (shaded areas). Which diagram best depicts an individual who runs a marathon on a hot summer day and replaces all volume lost in sweat by drinking pure (solute-free) water during the race?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Diagram A"
+      },
+      {
+        "letter": "B",
+        "text": "Diagram B"
+      },
+      {
+        "letter": "C",
+        "text": "Diagram C"
+      },
+      {
+        "letter": "D",
+        "text": "Diagram D"
+      },
+      {
+        "letter": "E",
+        "text": "Diagram E"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Sweat contains sodium chloride and is hypotonic relative to plasma. Replacing the lost sweat volume entirely with solute-free water replaces the water but not the lost salt, so total body water remains approximately unchanged while body-fluid osmolarity falls. The extracellular fluid loses solute and contracts; water shifts into cells, increasing intracellular volume. This is hypotonic contraction, shown in diagram C.",
+    "choice_explanations": {
+      "A": "Incorrect. Isotonic contraction occurs when isotonic fluid is lost, as in diarrhea; water and solute decrease proportionally, with little change in osmolarity or cell volume.",
+      "B": "Incorrect. Hypertonic expansion follows net gain or retention of sodium chloride relative to water; extracellular osmolarity and volume rise and water shifts out of cells.",
+      "C": "Correct. Sodium chloride lost in sweat is replaced by water alone, lowering extracellular osmolarity and volume while water shifts into and expands cells; total body water is restored.",
+      "D": "Incorrect. Hypertonic contraction occurs when hypotonic fluid is lost without adequate water replacement; both compartments contract and osmolarity rises.",
+      "E": "Incorrect. Hypotonic expansion follows excess free-water retention or intake; extracellular osmolarity falls while extracellular volume expands."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match for isotonic contraction/Darrow–Yannet diagram A was identified in the reviewed fluid-compartment material."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Primary hyperaldosteronism is listed with Conn syndrome; the source explanation also notes mineralocorticoid excess as a possible cause of hypertonic expansion. The diagram label itself is not shown.",
+        "page": 354
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid reviews total-body-water, intracellular-fluid, and extracellular-fluid compartments; it does not directly depict hypotonic contraction or sweat replacement.",
+        "page": 599
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match for hypertonic contraction after hypotonic sweat loss without water replacement was identified in the reviewed fluid-compartment material."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "SIADH causes free-water retention with euvolemic hyponatremia, a related source example of hypotonic water retention; the Darrow–Yannet label is not shown.",
+        "page": 342
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      599
+    ],
+    "fa_page": 599,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p.599 gives the 60–40–20 total-body-water distribution, relative intracellular and extracellular compartments, and normal serum osmolality. It does not include the Darrow–Yannet labels or the specific sweat-replacement shift. Related alternative mechanisms appear separately: SIADH/free-water retention on p.342 and hyperaldosteronism on p.354.",
+    "question_images": [
+      "assets/question-figures/general-principles-q06-fluid-shift-options.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "仅含A–E流体隔室示意图与重新标注字母，不含原始radio控件、选中状态、正确答案标记、题干或解析。"
   }
 ]
