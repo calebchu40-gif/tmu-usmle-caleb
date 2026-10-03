@@ -20473,5 +20473,395 @@
     ],
     "question_figures_reviewed": true,
     "question_figure_description": "仅含A–E流体隔室示意图与重新标注字母，不含原始radio控件、选中状态、正确答案标记、题干或解析。"
+  },
+  {
+    "id": "import-fcd7ab98eea092ecb9e80810",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Menstrual cycle",
+    "stem": "A 31-year-old woman comes to the physician because of irregular menstrual cycles. She menstruates each month but cannot predict when. Review of her last 5 cycle dates shows a regular 35-day cycle. She wants to become pregnant but cannot predict when ovulation occurs. On which day of the cycle is ovulation most likely to occur?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Day 10"
+      },
+      {
+        "letter": "B",
+        "text": "Day 17"
+      },
+      {
+        "letter": "C",
+        "text": "Day 20"
+      },
+      {
+        "letter": "D",
+        "text": "Day 21"
+      },
+      {
+        "letter": "E",
+        "text": "Day 25"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The luteal phase is relatively fixed at about 14 days because of the lifespan of the corpus luteum; most variability in cycle length occurs during the follicular phase. In a 35-day cycle, ovulation therefore occurs about 14 days before the next menses: around day 21.",
+    "choice_explanations": {
+      "A": "Day 10 would be too early for a 35-day cycle; the follicular phase is longer than in a 28-day cycle.",
+      "B": "Day 17 is earlier than expected because ovulation is timed about 14 days before the next period.",
+      "C": "Day 20 is close but does not match the source's 14-day luteal-phase calculation for a 35-day cycle.",
+      "D": "Correct. A 35-day cycle minus the approximately 14-day luteal phase gives ovulation around day 21.",
+      "E": "Day 25 would leave only about 10 days before the next period, shorter than the usual luteal phase."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The menstrual-cycle diagram shows ovulation near midcycle in a typical 28-day cycle; a longer cycle mainly lengthens the follicular phase.",
+        "pages": [
+          649,
+          650
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The luteal phase after ovulation lasts a fixed 14 days, so this timing is early for a 35-day cycle.",
+        "page": 650
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "A 35-day cycle with a fixed 14-day luteal phase places ovulation around day 21, not day 20.",
+        "page": 650
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The luteal phase lasts a fixed 14 days; in a 35-day cycle, ovulation is approximately day 21.",
+        "page": 650
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The fixed 14-day luteal phase means ovulation is earlier than day 25 in this 35-day cycle.",
+        "page": 650
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      649,
+      650
+    ],
+    "fa_page": 649,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-0e7016e0787cefe8027ac574",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Disorders of sexual differentiation",
+    "stem": "A 16-year-old girl is brought to the physician because she has not begun menstruating. Examination shows Tanner stage I breasts and genitalia with sparse pubic hair. Further evaluation shows weak pulses in the lower extremities, markedly elevated LH and FSH, and decreased free T3 and T4. Which is the best explanation for her abnormal sexual development?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Elevated hypothalamic thyrotropin-releasing hormone"
+      },
+      {
+        "letter": "B",
+        "text": "Excessive secretion of progesterone"
+      },
+      {
+        "letter": "C",
+        "text": "Ovarian dysgenesis"
+      },
+      {
+        "letter": "D",
+        "text": "Primary GnRH deficiency"
+      },
+      {
+        "letter": "E",
+        "text": "Primary hypopituitarism"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Primary amenorrhea, absent secondary sexual development, hypergonadotropic hypogonadism (high LH/FSH), weak lower-extremity pulses from coarctation, and hypothyroidism are characteristic of Turner syndrome. Ovarian dysgenesis with streak ovaries leads to low estrogen and loss of negative feedback, so LH and FSH rise.",
+    "choice_explanations": {
+      "A": "Excess TRH can affect prolactin and ovarian cycling but does not explain the Turner phenotype, coarctation clue, and markedly elevated gonadotropins.",
+      "B": "Progesterone is reduced, not excessive, when ovarian dysgenesis prevents normal ovarian steroid production.",
+      "C": "Correct. Streak ovaries in Turner syndrome cause ovarian dysgenesis, low sex steroids, and elevated LH/FSH.",
+      "D": "GnRH deficiency causes low or inappropriately normal LH/FSH, not the markedly elevated gonadotropins in this patient.",
+      "E": "Primary pituitary failure would not produce postmenopausal-range gonadotropins; elevated LH/FSH indicate primary gonadal failure."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 reproductive pages do not directly link elevated TRH to this Turner-syndrome presentation."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Turner syndrome causes ovarian dysgenesis and loss of normal ovarian sex-steroid production; excess progesterone is not expected.",
+        "page": 655
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Turner syndrome is associated with ovarian dysgenesis (streak ovaries) and is a common cause of primary amenorrhea.",
+        "page": 655
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid distinguishes hypergonadotropic primary gonadal failure from hypogonadotropic disorders; Turner syndrome is the former.",
+        "page": 655
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly identify primary hypopituitarism as a cause in this Turner-syndrome differential."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      655
+    ],
+    "fa_page": 655,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-e2d742c383cb0709da1e8582",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Uterine anomalies",
+    "stem": "A 32-year-old woman with a congenital abnormality of her reproductive system undergoes hysterectomy. The surgical specimen is shown. Which is the most likely complication of this condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dyspareunia"
+      },
+      {
+        "letter": "B",
+        "text": "Endometrial carcinoma"
+      },
+      {
+        "letter": "C",
+        "text": "Endometriosis"
+      },
+      {
+        "letter": "D",
+        "text": "Pelvic inflammatory disease"
+      },
+      {
+        "letter": "E",
+        "text": "Recurrent spontaneous abortion"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The specimen shows a bicornuate (bifid) uterus, caused by incomplete fusion of the Müllerian ducts and producing a Y-shaped uterine cavity. The abnormal cavity can impair implantation and reduce available space for fetal growth, increasing the risk of recurrent pregnancy loss, often in the second trimester, as well as prematurity and malpresentation.",
+    "choice_explanations": {
+      "A": "Dyspareunia is pain with intercourse and can have many causes, but it is not the characteristic complication of a bicornuate uterus.",
+      "B": "A bicornuate uterus is not a recognized predisposing condition for endometrial carcinoma.",
+      "C": "Endometriosis involves ectopic endometrial tissue and is not the characteristic complication of incomplete Müllerian-duct fusion.",
+      "D": "Pelvic inflammatory disease is an ascending infection, not a congenital consequence of a bicornuate uterus.",
+      "E": "Correct. A bicornuate uterine cavity can impair implantation and is associated with recurrent spontaneous abortion and other obstetric complications."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 p. 640 does not identify dyspareunia as a direct complication of bicornuate uterus."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Endometrial carcinoma is described as a separate endometrial malignancy; uterine anomalies are not identified as its risk factor.",
+        "page": 666
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Endometriosis is ectopic endometrial tissue and has a separate pathophysiology from Müllerian-duct fusion anomalies.",
+        "page": 649
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly link PID to bicornuate uterus."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Müllerian uterine anomalies decrease fertility and increase risk of complicated pregnancy, including spontaneous abortion.",
+        "page": 640
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      640
+    ],
+    "fa_page": 640,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/reproductive-q23-bicornuate-uterus.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Tight crop of the bicornuate uterine specimen only, retaining its photographic background and excluding all interface, question, options, and key."
+  },
+  {
+    "id": "import-b222a3534746cf601435b456",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Disorders of sexual differentiation",
+    "stem": "A 14-year-old girl comes to the physician for follow-up because she has never menstruated. She has sparse downy hair in the axillae and pubic region. Pelvic examination shows a vagina but no palpable uterus. Karyotype is 46,XY, and laboratory studies show elevated testosterone and LH. Which is the most likely underlying condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Androgen insensitivity syndrome"
+      },
+      {
+        "letter": "B",
+        "text": "Congenital adrenal hyperplasia"
+      },
+      {
+        "letter": "C",
+        "text": "Klinefelter syndrome"
+      },
+      {
+        "letter": "D",
+        "text": "Ovotesticular disorder of sex development (true hermaphroditism)"
+      },
+      {
+        "letter": "E",
+        "text": "Turner syndrome"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A 46,XY individual with female external genitalia, a short/blind-ending vagina, absent uterus, elevated testosterone and LH, and sparse androgen-dependent hair has androgen insensitivity syndrome. An androgen-receptor defect prevents target tissues from responding to testosterone. Testicular Sertoli-cell anti-Müllerian hormone causes regression of the uterus and fallopian tubes.",
+    "choice_explanations": {
+      "A": "Correct. Androgen-receptor resistance in a 46,XY patient explains the female phenotype despite high testosterone; anti-Müllerian hormone explains absent Müllerian organs.",
+      "B": "Congenital adrenal hyperplasia typically causes androgen excess with virilization in a 46,XX patient and does not explain the 46,XY phenotype with absent uterus and elevated LH/testosterone.",
+      "C": "Klinefelter syndrome is typically 47,XXY with testicular failure and low testosterone, not this phenotype.",
+      "D": "Ovotesticular DSD is not supported by the characteristic 46,XY androgen-receptor resistance pattern and elevated testosterone/LH.",
+      "E": "Turner syndrome is 45,X with ovarian dysgenesis and low sex steroids, unlike this 46,XY patient."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Androgen insensitivity is a defect in the androgen receptor causing a female-appearing 46,XY individual with absent uterus/fallopian tubes and increased testosterone, estrogen, and LH.",
+        "page": 656
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 p. 656 does not directly cover congenital adrenal hyperplasia in this androgen-insensitivity comparison."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Klinefelter syndrome is a sex-chromosome disorder with seminiferous-tubule dysgenesis and low testosterone, distinct from 46,XY androgen insensitivity.",
+        "page": 655
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly describe ovotesticular DSD in this differential."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Turner syndrome is 45,X and associated with ovarian dysgenesis and primary amenorrhea, unlike this 46,XY presentation.",
+        "page": 655
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      655,
+      656
+    ],
+    "fa_page": 655,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-3c1a19a0e31aeed8c1eaf00f",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Testicular tumors",
+    "stem": "A 15-month-old boy develops a testicular mass. Examination shows a 5-cm nontender, firm left testicular mass that does not transilluminate. After orchiectomy, the cut surface has a heterogeneous appearance. Histology shows cartilage, thyroid tissue, and neural tissue, as well as a small focus of squamous cell carcinoma. Which is the most likely diagnosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dermoid cyst"
+      },
+      {
+        "letter": "B",
+        "text": "Embryonal carcinoma"
+      },
+      {
+        "letter": "C",
+        "text": "Immature teratoma"
+      },
+      {
+        "letter": "D",
+        "text": "Solid mature teratoma"
+      },
+      {
+        "letter": "E",
+        "text": "Teratoma with malignant transformation"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The tumor contains mature derivatives of multiple germ layers, establishing a teratoma. The focus of squamous cell carcinoma is evidence of malignant transformation within the teratoma. Embryonal carcinoma is a distinct malignant germ-cell tumor and is not identified by this collection of differentiated tissues plus a squamous carcinoma focus.",
+    "choice_explanations": {
+      "A": "A dermoid cyst is a mature cystic teratoma, but the carcinoma focus means this lesion has undergone malignant transformation.",
+      "B": "Embryonal carcinoma is a separate malignant germ-cell tumor; it does not account for the multiple differentiated tissues and squamous carcinoma arising within them.",
+      "C": "An immature teratoma contains immature/fetal tissue, especially immature neuroectoderm; the decisive finding here is a distinct squamous carcinoma focus.",
+      "D": "A mature teratoma alone does not account for the malignant squamous-cell component.",
+      "E": "Correct. A teratoma containing a focus of squamous cell carcinoma is a teratoma with malignant transformation."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ovarian mature cystic teratoma is also called a dermoid cyst and contains tissues from all three germ layers; this is a related germ-cell-tumor concept.",
+        "page": 664
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Embryonal carcinoma is a distinct malignant testicular germ-cell tumor and may be associated with hCG; it is separate from teratoma with somatic tissue.",
+        "page": 671
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid describes immature teratoma as malignant/aggressive and containing fetal or neuroectodermal tissue; it does not match the squamous carcinoma focus as directly as malignant transformation.",
+        "page": 664
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid notes testicular teratoma may be malignant in adult males but is benign in children; the infant's carcinoma focus requires malignant transformation rather than mature teratoma alone.",
+        "page": 671
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid notes malignant transformation of mature ovarian teratoma is rare and usually to squamous cell carcinoma; it does not directly state the same behavior for pediatric testicular teratoma, so this is a related rather than exact match.",
+        "page": 664
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      664,
+      671
+    ],
+    "fa_page": 664,
+    "fa_page_verified": true
   }
 ]
