@@ -18181,5 +18181,88 @@
     ],
     "question_figures_reviewed": true,
     "question_figure_description": "Cropped pedigree and ASO dot-blot only; no stem, answer options, answer key, or explanation included."
+  },
+  {
+    "id": "import-149c7906098e2704cf01c3a0",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Orofacial clefts",
+    "stem": "A 28-year-old G2P1 woman comes to the emergency department because of regular, forceful contractions. She states that she did not have prenatal care. Her labor is uneventful, and she delivers a 3.3-kg (7-lb, 4-oz) boy with the deformity shown in the photograph. A developmental defect of which of the following processes is most likely responsible for this finding?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lateral and medial nasal processes"
+      },
+      {
+        "letter": "B",
+        "text": "Maxillary and lateral nasal processes"
+      },
+      {
+        "letter": "C",
+        "text": "Maxillary and medial nasal processes"
+      },
+      {
+        "letter": "D",
+        "text": "Maxillary processes"
+      },
+      {
+        "letter": "E",
+        "text": "Medial nasal processes"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The photograph shows a cleft lip with cleft palate. The upper lip forms when each maxillary process fuses with the intermaxillary segment, which is formed by the paired medial nasal processes. Failure of this fusion causes cleft lip; the pictured bilateral defect reflects failure on both sides. The lateral nasal processes contribute to the sides of the nose, not the upper lip. First Aid 2026 p. 639 depicts the cleft-lip fusion directly.",
+    "choice_explanations": {
+      "A": "Incorrect. The lateral nasal processes contribute to the lateral nose. The cleft-lip fusion shown on First Aid p. 639 is between the maxillary process and the intermaxillary segment formed by the medial nasal processes.",
+      "B": "Incorrect. The lateral nasal process is not the partner that forms the upper lip; the maxillary process fuses with the medial-nasal-derived intermaxillary segment.",
+      "C": "Correct. The maxillary processes fuse with the intermaxillary segment formed by the paired medial nasal processes; failed fusion causes cleft lip.",
+      "D": "Incorrect. The maxillary processes alone do not form a continuous upper lip; they must fuse medially with the intermaxillary segment.",
+      "E": "Incorrect. The paired medial nasal processes form the intermaxillary segment, but cleft lip results when that segment fails to fuse with the maxillary process."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page's facial-process diagram distinguishes the lateral nasal process from the medial-nasal-derived intermaxillary segment involved in cleft lip.",
+        "page": 639
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page identifies the maxillary and lateral nasal processes separately; cleft lip specifically involves the maxillary process and medial-nasal-derived intermaxillary segment.",
+        "page": 639
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Direct match: the maxillary process fuses with the intermaxillary segment formed by merged medial nasal processes.",
+        "page": 639
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page shows that maxillary processes must fuse with the intermaxillary segment; maxillary processes alone are not sufficient.",
+        "page": 639
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The page identifies the merged medial nasal processes as the intermaxillary segment, which must also fuse with the maxillary process.",
+        "page": 639
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      639
+    ],
+    "fa_page": 639,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 p. 639 directly states that cleft lip results from failed fusion of the intermaxillary segment (merged medial nasal processes) with the maxillary process; its diagram labels the relevant facial processes.",
+    "question_images": [
+      "assets/question-figures/batch03-16-cleft-lip.jpg"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "局部新生儿唇裂/腭裂照片；已从 PDF 原题截图单独裁出，不含题干、选项或答案标记。"
   }
 ]
