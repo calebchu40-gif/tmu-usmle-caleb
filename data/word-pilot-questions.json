@@ -20010,5 +20010,387 @@
     ],
     "fa_page": 666,
     "fa_page_verified": true
+  },
+  {
+    "id": "import-521b1fd52f2cea5d3f1afb25",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Male sexual function",
+    "stem": "A 71-year-old man comes to the physician because of sexual dysfunction for the last 7 years. He has sexual desire and can achieve an erection but cannot maintain it long enough to ejaculate. He recently began a sexual relationship with a new girlfriend; before this relationship, he had not been sexually active for about 7 years. He has non-insulin-dependent diabetes mellitus and hypertension and takes an oral hypoglycemic agent and a calcium-channel blocker. His 60-year-old girlfriend is sexually healthy but has mild postmenopausal vaginal dryness. They have attempted intercourse four times in the past week without success. Which of the following is the most likely cause of this patient's disorder?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased nitric oxide release"
+      },
+      {
+        "letter": "B",
+        "text": "Increased blood flow into the corpora cavernosa"
+      },
+      {
+        "letter": "C",
+        "text": "Increased guanylate cyclase activity in penile smooth muscle"
+      },
+      {
+        "letter": "D",
+        "text": "Increased parasympathetic nervous system activity"
+      },
+      {
+        "letter": "E",
+        "text": "Penile smooth-muscle relaxation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "This is physiologic erectile dysfunction in a man with diabetes and hypertension, both of which can impair vascular/endothelial function. Parasympathetic signaling releases nitric oxide, which activates guanylate cyclase, raises cGMP, and relaxes cavernosal smooth muscle. Arteriolar dilation increases inflow; expansion of the corpora compresses venous outflow and maintains rigidity. Reduced nitric-oxide release interrupts this pathway and can prevent adequate engorgement.",
+    "choice_explanations": {
+      "A": "Correct. Less nitric oxide means less cGMP-mediated cavernosal smooth-muscle relaxation and reduced arterial engorgement.",
+      "B": "Increased cavernosal blood flow supports erection; it does not explain erectile failure.",
+      "C": "Increased guanylate-cyclase activity raises cGMP and promotes smooth-muscle relaxation, favoring erection rather than causing dysfunction.",
+      "D": "Parasympathetic activity mediates erection through nitric oxide and vasodilation; increased activity is not the cause described.",
+      "E": "Cavernosal smooth-muscle relaxation is required for erection, so increased relaxation would not cause this disorder."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Erection depends on parasympathetic NO release, increased cGMP, and cavernosal smooth-muscle relaxation; reduced NO interrupts this proerectile sequence.",
+        "page": 646
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "NO/cGMP-mediated relaxation causes vasodilation and increased blood inflow during erection.",
+        "page": 646
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid links NO to increased cGMP and smooth-muscle relaxation, which promotes erection.",
+        "page": 646
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Erection is mediated by parasympathetic pelvic splanchnic nerves (S2-S4).",
+        "page": 646
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Penile smooth-muscle relaxation is part of the NO/cGMP proerectile pathway.",
+        "page": 646
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      646
+    ],
+    "fa_page": 646,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-c18bf84bcdb8b60c200b74d3",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Pregnancy",
+    "stem": "A 25-year-old primigravid woman comes to the physician for a routine prenatal examination. She is in the second trimester and has had no complications. Urinalysis shows glucose, and her blood glucose is 210 mg/dL. She has no history of diabetes. Which of the following is the most likely cause of these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased human chorionic gonadotropin"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased human placental lactogen"
+      },
+      {
+        "letter": "C",
+        "text": "Decreased placental growth hormone"
+      },
+      {
+        "letter": "D",
+        "text": "Increased human chorionic gonadotropin"
+      },
+      {
+        "letter": "E",
+        "text": "Increased placental growth hormone"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Placental growth hormone (PGH), a placental variant of growth hormone, has anti-insulin effects and reduces maternal insulin sensitivity. Increased PGH can therefore raise maternal glucose and contribute to gestational diabetes. Human placental lactogen also promotes maternal insulin resistance, but the hormone identified in the question's answer choices and source explanation is increased PGH.",
+    "choice_explanations": {
+      "A": "Reduced hCG would threaten early corpus-luteum support and does not cause second-trimester maternal hyperglycemia.",
+      "B": "hPL promotes maternal insulin resistance; a decrease would not explain hyperglycemia.",
+      "C": "PGH has anti-insulin activity, so decreased rather than increased PGH would not cause this glucose elevation.",
+      "D": "hCG supports the corpus luteum in early pregnancy; increased hCG is not the source's explanation for gestational diabetes in the second trimester.",
+      "E": "Correct. Placental GH is anti-insulin and can reduce maternal insulin sensitivity, raising glucose."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "hCG maintains the corpus luteum and increases progesterone in the first trimester; it is not the source of second-trimester insulin resistance.",
+        "page": 651
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Human placental lactogen is GH/PRL-like and increases maternal insulin resistance; the decrease in this option points away from hyperglycemia.",
+        "page": 651
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 describes hPL-related maternal insulin resistance but does not directly discuss placental growth hormone (PGH)."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "hCG supports the corpus luteum and progesterone production; First Aid does not associate increased hCG with gestational hyperglycemia.",
+        "page": 651
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly identify placental growth hormone as a cause of gestational diabetes; the related hPL insulin-resistance concept is on p. 651."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      651
+    ],
+    "fa_page": 651,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-81a74ec40988be5a1771c8a5",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Uterine conditions",
+    "stem": "A 47-year-old woman comes to the physician because of heavy menstrual bleeding and recurrent spotting between periods. She has regular menstrual cycles and takes no medications. Vital signs are normal. Pelvic examination shows an enlarged, nontender uterus. Ultrasound shows a large, round, well-circumscribed 4-cm submucosal mass on the anterior uterine wall. A day-14 endometrial biopsy shows normal secretory endometrium without inflammation. Which is the most likely cause of these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Endometrial adenocarcinoma"
+      },
+      {
+        "letter": "B",
+        "text": "Endometrial hyperplasia"
+      },
+      {
+        "letter": "C",
+        "text": "Leiomyoma"
+      },
+      {
+        "letter": "D",
+        "text": "Leiomyosarcoma"
+      },
+      {
+        "letter": "E",
+        "text": "Pelvic inflammatory disease"
+      }
+    ],
+    "answer": "C",
+    "explanation": "This is a uterine leiomyoma (fibroid), a benign smooth-muscle tumor of the myometrium. Leiomyomas are typically well-circumscribed and may be submucosal, intramural, or subserosal. A submucosal lesion can distort the endometrial cavity and cause heavy or intermenstrual bleeding; chronic blood loss can produce anemia. Normal secretory endometrium and absence of inflammation support a structural myometrial lesion rather than endometrial hyperplasia or infection.",
+    "choice_explanations": {
+      "A": "Endometrial carcinoma is not supported by the benign, well-circumscribed uterine mass and normal secretory endometrial biopsy.",
+      "B": "Endometrial hyperplasia is an endometrial gland-proliferation disorder; the biopsy is normal and the discrete mass is myometrial.",
+      "C": "Correct. A round, well-circumscribed submucosal myometrial mass with abnormal uterine bleeding is characteristic of leiomyoma.",
+      "D": "Leiomyosarcoma is malignant and is not the typical explanation for a well-circumscribed uterine mass with this presentation; the source identifies the lesion as benign leiomyoma.",
+      "E": "PID causes pelvic infection/inflammation, not an isolated well-circumscribed submucosal uterine mass; the endometrial biopsy shows no inflammation."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Endometrial carcinoma is a malignant tumor of the endometrium, distinct from the myometrial fibroid described.",
+        "page": 666
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Endometrial hyperplasia is abnormal gland proliferation, usually from excess estrogen unopposed by progesterone.",
+        "page": 649
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Leiomyoma is a benign, often multiple myometrial tumor that may be submucosal and cause bleeding, pelvic pain, or reproductive dysfunction; histology is whorled smooth muscle.",
+        "page": 666
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly describe leiomyosarcoma in this uterine-conditions section."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss PID as a differential for a discrete submucosal uterine mass."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      666
+    ],
+    "fa_page": 666,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-c6eacea4f8ec79b9c08759ab",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Pregnancy complications",
+    "stem": "A 29-year-old primigravid woman is brought to the emergency department because of headache and dizziness at 34 weeks’ gestation. Prenatal care has been up to date. Her blood pressure has ranged from 140–170/90–105 mm Hg since 30 weeks. Urinalysis shows 3+ protein. Examination shows edema of the lower extremities. AST is 40 U/L and ALT is 45 U/L. Which is the most appropriate definitive therapy?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Antihypertensive medical therapy"
+      },
+      {
+        "letter": "B",
+        "text": "Delivery"
+      },
+      {
+        "letter": "C",
+        "text": "Low-dose aspirin"
+      },
+      {
+        "letter": "D",
+        "text": "Oxygen supplementation"
+      },
+      {
+        "letter": "E",
+        "text": "Renal dialysis"
+      }
+    ],
+    "answer": "B",
+    "explanation": "New-onset hypertension after 20 weeks with significant proteinuria and elevated liver enzymes indicates preeclampsia with severe features. Antihypertensives and magnesium sulfate reduce immediate maternal risks, but delivery is the definitive treatment because the disease is driven by the pregnancy/placenta. At 34 weeks, delivery should not be delayed solely to prolong gestation.",
+    "choice_explanations": {
+      "A": "Antihypertensives control blood pressure and reduce complications but do not remove the placental cause; they are not definitive treatment.",
+      "B": "Correct. Delivery is definitive therapy for preeclampsia, particularly with severe features at 34 weeks.",
+      "C": "Low-dose aspirin is used for prophylaxis in patients at risk, not as treatment for established severe preeclampsia.",
+      "D": "Oxygen does not treat the underlying preeclampsia or resolve its maternal-fetal risks.",
+      "E": "Renal dialysis is not indicated by the presented findings and does not treat the pregnancy-related cause."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid lists antihypertensives for blood-pressure control in preeclampsia, but delivery is definitive.",
+        "page": 660
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Preeclampsia treatment includes antihypertensives and IV magnesium; delivery is definitive. At 34 weeks, the question's timing supports delivery.",
+        "page": 660
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Aspirin is prophylaxis for preeclampsia, not definitive therapy after disease is established.",
+        "page": 660
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not recommend oxygen supplementation as preeclampsia therapy."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not identify dialysis as treatment for preeclampsia."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      660
+    ],
+    "fa_page": 660,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-738dad9e09d142558792da92",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Disorders of sexual differentiation",
+    "stem": "A 15-year-old girl is brought to the physician by her parents because she has not yet begun menstruating. Examination shows a very shallow vagina without a palpable uterus and palpable masses in the labia majora. Karyotype is 46,XY. Which of the following was most likely present during early fetal life?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A uterus"
+      },
+      {
+        "letter": "B",
+        "text": "An oviduct"
+      },
+      {
+        "letter": "C",
+        "text": "Decreased androgen levels"
+      },
+      {
+        "letter": "D",
+        "text": "Müllerian inhibitory factor (anti-Müllerian hormone)"
+      },
+      {
+        "letter": "E",
+        "text": "Streak ovaries"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The 46,XY karyotype, female external phenotype, shallow vagina, absent uterus, and testes palpable in the labia majora indicate androgen insensitivity syndrome from an androgen-receptor defect. Testicular Sertoli cells produce anti-Müllerian hormone (Müllerian inhibitory factor), which causes regression of the Müllerian ducts, so a uterus and oviducts do not develop. Androgen levels are typically increased, not decreased; the gonads are testes, not streak ovaries.",
+    "choice_explanations": {
+      "A": "A uterus is absent in androgen insensitivity because anti-Müllerian hormone causes regression of the Müllerian ducts.",
+      "B": "Oviducts derive from Müllerian ducts and are likewise absent after anti-Müllerian hormone exposure.",
+      "C": "Androgen levels are not decreased; the disorder is impaired androgen-receptor response despite testicular androgen production.",
+      "D": "Correct. Sertoli-cell anti-Müllerian hormone (Müllerian inhibitory factor) is present and causes Müllerian-duct regression.",
+      "E": "Streak ovaries occur in other disorders of sexual development; this patient has testes, suggested by palpable labial masses and AMH exposure."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Androgen insensitivity syndrome has absent uterus and fallopian tubes because anti-Müllerian hormone persists from the testes.",
+        "page": 656
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Müllerian structures, including fallopian tubes, regress in androgen insensitivity syndrome due to anti-Müllerian hormone.",
+        "page": 656
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Androgen insensitivity is associated with increased testosterone, estrogen, and LH; the problem is receptor resistance, not low androgen production.",
+        "page": 656
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Anti-Müllerian hormone from testes causes absence of uterus and fallopian tubes in androgen insensitivity syndrome.",
+        "page": 656
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Androgen insensitivity syndrome is a genotypic male condition with testes; First Aid contrasts it with disorders involving streak gonads.",
+        "pages": [
+          655,
+          656
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      656
+    ],
+    "fa_page": 656,
+    "fa_page_verified": true
   }
 ]
