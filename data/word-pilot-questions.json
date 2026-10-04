@@ -11082,8 +11082,8 @@
   {
     "id": "import-e0df86febe447e8e570b65a2",
     "chapter": "Gastrointestinal",
-    "fa_subchapter": "Hepatobiliary",
-    "stem": "A 42-year-old woman presents 2 weeks after delivery with severe right-upper-quadrant pain. She had excess weight gain during pregnancy. Examination shows a nontender, palpable gallbladder. Which urine dipstick finding would most support extrahepatic biliary obstruction?",
+    "fa_subchapter": "Biliary obstruction / Bilirubin metabolism",
+    "stem": "A 42-year-old woman comes to the emergency department because of severe right upper-quadrant abdominal pain. Two weeks ago, she gave birth to a healthy baby. Her pregnancy was uncomplicated, but she gained excess weight. Physical examination reveals a nontender, palpable gallbladder. A urine dipstick test is performed. Which substance in the urine would most likely aid in diagnosing her condition?",
     "options": [
       {
         "letter": "A",
@@ -11095,7 +11095,7 @@
       },
       {
         "letter": "C",
-        "text": "Nitrite"
+        "text": "Nitrites"
       },
       {
         "letter": "D",
@@ -11107,59 +11107,55 @@
       }
     ],
     "answer": "A",
-    "explanation": "A common bile duct stone can cause cholestasis and reflux of conjugated bilirubin into blood. Conjugated bilirubin is water-soluble and can be detected in urine; unconjugated bilirubin is albumin-bound and is not filtered.",
+    "explanation": "The presentation is consistent with extrahepatic biliary obstruction; the source attributes it to a common-bile-duct gallstone (choledocholithiasis), which is more likely after pregnancy because estrogen promotes cholesterol gallstone formation. Conjugated bilirubin is water-soluble, so it can reflux into blood and be excreted in urine when bile flow is obstructed; urine bilirubin supports conjugated hyperbilirubinemia. Important nuance: a palpable, nontender gallbladder with obstructive jaundice is the classic Courvoisier sign and more often raises concern for a gradually developing malignant obstruction than for a gallstone. The sign is not diagnostic by itself, and the source's identification of a stone is not proven by the findings given. The tested principle remains that conjugated bilirubin, unlike unconjugated bilirubin, can appear in urine.",
     "choice_explanations": {
-      "A": "Correct: water-soluble conjugated bilirubin can spill into urine during biliary obstruction.",
-      "B": "Glucose does not identify biliary obstruction.",
-      "C": "Nitrite supports certain urinary bacterial infections.",
-      "D": "Unconjugated bilirubin is albumin-bound and is not excreted in urine.",
-      "E": "Urobilinogen is usually reduced or absent with complete obstruction."
+      "A": "Correct. Conjugated bilirubin is water-soluble; with biliary obstruction it can accumulate in blood and pass into urine (bilirubinuria).",
+      "B": "Incorrect. Glucose in urine suggests hyperglycemia above the renal threshold or a proximal tubular reabsorption defect, not biliary obstruction.",
+      "C": "Incorrect. Urinary nitrites support infection with nitrate-reducing bacteria; they do not explain right-upper-quadrant pain or biliary obstruction.",
+      "D": "Incorrect. Unconjugated bilirubin is water-insoluble and albumin-bound, so it is not filtered into urine.",
+      "E": "Incorrect. Urobilinogen is generated in the intestine from bilirubin. In complete obstruction, less bilirubin reaches the gut and urinary urobilinogen may be reduced; it is not the positive urine marker of conjugated hyperbilirubinemia."
     },
     "option_fa": {
       "A": {
         "verified": true,
         "no_direct_match": false,
-        "text": "Conjugated bilirubin is water-soluble and appears in urine with cholestasis.",
-        "pages": [
-          382
-        ]
+        "text": "First Aid p.382 explains conjugated/direct bilirubin is water-soluble, supporting its appearance in urine in conjugated hyperbilirubinemia; p.400 lists gallstones among biliary-obstruction causes.",
+        "page": 382
       },
       "B": {
         "verified": true,
         "no_direct_match": true,
-        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+        "text": "No direct First Aid match was identified for glucosuria as a distractor in biliary obstruction."
       },
       "C": {
         "verified": true,
         "no_direct_match": true,
-        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+        "text": "No direct First Aid match was identified for urinary nitrites as a distractor in biliary obstruction."
       },
       "D": {
         "verified": true,
         "no_direct_match": false,
-        "text": "Unconjugated bilirubin is not water-soluble and is not filtered into urine.",
-        "pages": [
-          382
-        ]
+        "text": "First Aid p.382 contrasts water-insoluble unconjugated bilirubin with water-soluble conjugated bilirubin; the unconjugated form is albumin-bound and not filtered into urine.",
+        "page": 382
       },
       "E": {
         "verified": true,
         "no_direct_match": false,
-        "text": "Biliary obstruction reduces delivery of bilirubin to the gut and lowers urinary urobilinogen.",
-        "pages": [
-          382
-        ]
+        "text": "First Aid p.382 diagrams gut formation of urobilinogen and its enterohepatic circulation; obstruction reduces bilirubin delivery to the intestine, unlike bilirubinuria from conjugated bilirubin.",
+        "page": 382
       }
     },
     "reviewed": true,
     "review_required": false,
     "complete": true,
     "fa_pages": [
-      382
+      382,
+      400,
+      375
     ],
     "fa_page": 382,
     "fa_page_verified": true,
-    "fa_summary": "A common bile duct stone can cause cholestasis and reflux of conjugated bilirubin into blood. Conjugated bilirubin is water-soluble and can be detected in urine; unconjugated bilirubin is albumin-bound and is not filtered."
+    "fa_summary": "First Aid 2026 printed p.382 is the primary link: conjugated/direct bilirubin is water-soluble whereas unconjugated/indirect bilirubin is water-insoluble, supporting urinary excretion of the conjugated form. Printed p.400 lists gallstones among causes of conjugated hyperbilirubinemia from biliary obstruction. Printed p.375 discusses common-duct gallstone obstruction and the Courvoisier sign; a nontender enlarged gallbladder is classically associated with pancreatic-head tumor obstruction, so that finding is not specific proof of choledocholithiasis."
   },
   {
     "id": "import-41bddbf3ca2310dddd7a1484",
@@ -22938,5 +22934,173 @@
     "fa_page": 378,
     "fa_page_verified": true,
     "fa_summary": "Motilin from the small intestine produces fasting migrating motor complexes. MMC activity sweeps residual matter and helps maintain low bacterial counts in the upper small intestine; dysmotility is a risk factor for small intestinal bacterial overgrowth."
+  },
+  {
+    "id": "import-a0b180e6582a1d4152d48ff3",
+    "chapter": "Renal",
+    "fa_subchapter": "Physiology / Fluid compartments",
+    "stem": "A 62-year-old woman with stage 4 chronic kidney disease is participating in a clinical study of a new therapy that alters fluid distribution between plasma and interstitial fluid. The table gives the volume of distribution (VOD) of radioactive sodium (extracellular fluid marker), radioiodinated serum albumin (RISA; plasma marker), and deuterium-labeled water (D₂O; total-body-water marker) before and after therapy.\n\nMeasurement (L) | Before therapy | After therapy\nRadioactive sodium VOD | 23 | 19\nRISA VOD | 6 | 8\nD₂O VOD | 50 | 46\n\nWhich of the following best characterizes the effect of therapy on plasma volume and interstitial fluid volume, respectively?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Plasma volume increases; interstitial fluid volume increases"
+      },
+      {
+        "letter": "B",
+        "text": "Plasma volume increases; interstitial fluid volume decreases"
+      },
+      {
+        "letter": "C",
+        "text": "Plasma volume increases; interstitial fluid volume is unchanged"
+      },
+      {
+        "letter": "D",
+        "text": "Plasma volume decreases; interstitial fluid volume decreases"
+      },
+      {
+        "letter": "E",
+        "text": "Plasma volume decreases; interstitial fluid volume increases"
+      },
+      {
+        "letter": "F",
+        "text": "Plasma volume decreases; interstitial fluid volume is unchanged"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Radioactive sodium estimates extracellular fluid volume (ECFV), while RISA estimates plasma volume (PV). Interstitial fluid volume (ISFV) is ECFV − PV. Before therapy, ECFV = 23 L and PV = 6 L, so ISFV = 17 L. After therapy, ECFV = 19 L and PV = 8 L, so ISFV = 11 L. Thus plasma volume increases while interstitial fluid volume decreases (B). D₂O also shows total body water fell from 50 L to 46 L.",
+    "choice_explanations": {
+      "A": "Incorrect. Plasma volume does increase, but ISFV falls from 17 L (23 − 6) to 11 L (19 − 8), rather than increasing.",
+      "B": "Correct. RISA-measured plasma volume increases from 6 L to 8 L; calculated ISFV decreases from 17 L to 11 L.",
+      "C": "Incorrect. ISFV is not unchanged: ECFV − PV changes from 23 − 6 = 17 L to 19 − 8 = 11 L.",
+      "D": "Incorrect. ECFV falls, but RISA-measured plasma volume rises from 6 L to 8 L.",
+      "E": "Incorrect. Plasma volume rises, not falls; ISFV decreases rather than increases.",
+      "F": "Incorrect. Plasma volume rises rather than falls, and ISFV decreases rather than remaining unchanged."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.599 distinguishes interstitial fluid and plasma as portions of extracellular fluid and provides their usual relative proportions; these measured values do not show both compartments increasing.",
+        "page": 599
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.599 shows plasma and interstitial fluid are distinct ECF compartments and that plasma volume is measured with radiolabeled albumin. Applying the question's marker values gives PV 6→8 L and ISFV (ECFV−PV) 17→11 L.",
+        "page": 599
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.599 identifies plasma and interstitial fluid as separate ECF compartments; the given tracer values show ISFV changes rather than remaining constant.",
+        "page": 599
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.599 describes the ECF compartments and radiolabeled-albumin measurement of plasma volume; here RISA rises from 6 L to 8 L, contradicting a plasma-volume decrease.",
+        "page": 599
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.599 distinguishes plasma from interstitial ECF; the supplied values show plasma rises and ISFV decreases, the reverse of this pairing.",
+        "page": 599
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid p.599 identifies the plasma/interstitial compartments; tracer subtraction shows ISFV decreases, while RISA shows plasma volume increases.",
+        "page": 599
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      599
+    ],
+    "fa_page": 599,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 printed p.599 shows fluid compartments: ECF is divided into interstitial fluid and plasma, with interstitial fluid comprising about 75% of ECF and plasma about 25%. It states plasma volume can be measured with radiolabeled albumin and extracellular volume with inulin or mannitol. The question's radioactive-sodium marker for ECFV and subtraction (ISFV = ECFV − PV) are supplied by the question's measurement framework; the numerical calculation is shown explicitly in the explanation."
+  },
+  {
+    "id": "import-b8920a0171b2a5b19e0f369c",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Zollinger–Ellison syndrome / GI regulatory substances",
+    "stem": "A 55-year-old man is admitted to the hospital because of hematemesis. His fasting serum gastrin level is 8 times normal, and upper gastrointestinal endoscopy shows multiple duodenal ulcers. Multiple endocrine neoplasia type 1 (MEN1) is suspected. Administration of which substance is most likely to confirm the diagnosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cholecystokinin (CCK)"
+      },
+      {
+        "letter": "B",
+        "text": "Gastric inhibitory peptide (GIP)"
+      },
+      {
+        "letter": "C",
+        "text": "Motilin"
+      },
+      {
+        "letter": "D",
+        "text": "Pentagastrin"
+      },
+      {
+        "letter": "E",
+        "text": "Secretin"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The presentation suggests Zollinger–Ellison syndrome (ZES) from a gastrinoma, which can occur with MEN1. Elevated fasting gastrin raises suspicion but is not by itself diagnostic. A secretin stimulation test confirms ZES: secretin normally suppresses gastrin release, but gastrinoma cells respond paradoxically with a marked increase in serum gastrin.",
+    "choice_explanations": {
+      "A": "CCK stimulates pancreatic secretion and gallbladder contraction; it is not the diagnostic stimulation test for gastrinoma.",
+      "B": "GIP is an incretin from K cells that increases insulin release and suppresses gastric acid secretion; it does not confirm ZES.",
+      "C": "Motilin stimulates migrating motor complexes during fasting; it is unrelated to the diagnostic test for a gastrinoma.",
+      "D": "Pentagastrin is a gastrin-like secretagogue, not the confirmatory test for ZES; the diagnostic response is measured after secretin.",
+      "E": "Correct. Secretin usually inhibits gastrin release, but gastrinoma cells produce a paradoxical increase in serum gastrin after secretin administration."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "CCK is produced by I cells and stimulates pancreatic secretion and gallbladder contraction; it is not the ZES test.",
+        "page": 378
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "GIP is produced by K cells and increases insulin release; it also suppresses gastric H+ secretion.",
+        "page": 378
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Motilin from the small intestine produces migrating motor complexes.",
+        "page": 378
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 entry for pentagastrin or its diagnostic use was found; it is not the ZES confirmatory stimulus."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid identifies a positive secretin stimulation test in ZES: gastrin rises after secretin administration, which normally inhibits gastrin release.",
+        "page": 357
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      356,
+      357,
+      378
+    ],
+    "fa_page": 357,
+    "fa_page_verified": true,
+    "fa_summary": "MEN1 includes pancreatic endocrine tumors such as gastrinomas. In Zollinger–Ellison syndrome, a positive secretin stimulation test produces increased gastrin after secretin administration, unlike the normal inhibitory response."
   }
 ]
