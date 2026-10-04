@@ -23636,5 +23636,104 @@
     ],
     "fa_page": 666,
     "fa_page_verified": true
+  },
+  {
+    "id": "import-66554855326feaa567d5a0bf",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Gastritis / stress (Cushing) ulcers",
+    "stem": "A 35-year-old woman sustains head trauma in a motor vehicle collision. She was an unrestrained passenger and hit her head on the windshield. Upon arrival in the emergency department, she is unresponsive. Respirations are 6/minute and pulse oximetry is 85% on facemask. Her pulse is 125/min and blood pressure is 90/50 mm Hg. She is intubated for airway protection and admitted to the intensive care unit. One week later, her hemoglobin decreases from 12 g/dL to 9 g/dL. An upper endoscopy shows several gastric ulcers and diffuse gastritis. An increase in which of the following is the most likely explanation for her gastric lesions?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acid absorption"
+      },
+      {
+        "letter": "B",
+        "text": "Bicarbonate transport"
+      },
+      {
+        "letter": "C",
+        "text": "CCK production"
+      },
+      {
+        "letter": "D",
+        "text": "Epithelial regenerative capacity"
+      },
+      {
+        "letter": "E",
+        "text": "Mucosal blood flow"
+      },
+      {
+        "letter": "F",
+        "text": "Mucus secretion"
+      },
+      {
+        "letter": "G",
+        "text": "Pepsin production"
+      }
+    ],
+    "answer": "G",
+    "explanation": "Severe physiologic stress after head trauma can produce acute stress-related gastric ulcers. Increased pepsin production can overwhelm weakened mucosal defenses; gastric acid production may also rise. Ulcers can still occur even without increased acid or pepsin when stress compromises those defenses. The First Aid association for CNS-injury (Cushing) ulcers emphasizes increased vagal stimulation, acetylcholine, and gastric H+ production.",
+    "choice_explanations": {
+      "A": "Incorrect. The stomach does not absorb acid in the way implied; acid is neutralized in the small intestine. Increased acid secretion, not absorption, may contribute to acute ulceration.",
+      "B": "Incorrect. Bicarbonate neutralizes acid at the mucosal surface and is protective; increasing its transport would oppose injury.",
+      "C": "Incorrect. CCK stimulates gallbladder contraction and pancreatic secretion and slows gastric emptying; it is not the cause of stress ulcers. CCK levels may fall in critically ill patients with reduced food intake.",
+      "D": "Incorrect. Faster epithelial regeneration repairs mucosal defects and is protective against ulceration.",
+      "E": "Incorrect. Gastric perfusion supports mucosal defenses. Stress-related ischemia/compromised blood flow promotes injury; increased flow would be protective.",
+      "F": "Incorrect. Mucus forms a protective barrier over the epithelium and limits exposure to acid and pepsin; increased secretion would be protective.",
+      "G": "Correct. In severe stress, pepsin production can overwhelm weakened gastric defenses and contribute to stress-ulcer formation."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 match for gastric acid absorption; the source explanation distinguishes absorption from acid production."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Bicarbonate from gastric and other mucosal cells neutralizes acid and is trapped in mucus covering the gastric epithelium; it is protective.",
+        "page": 379
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "CCK is produced by duodenal/jejunal I cells and stimulates pancreatic secretion and gallbladder contraction; no direct ulcer-causing role is listed.",
+        "page": 378
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 entry was found for increased gastric epithelial regenerative capacity as a named ulcer mechanism; the protective interpretation follows the source explanation."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid links burn-associated Curling ulcers to hypovolemia and mucosal ischemia, supporting impaired—not increased—mucosal perfusion as injurious.",
+        "page": 386
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 statement was found that increased mucus secretion prevents stress ulcers. The page 379 figure labels gastric mucus-related cells, but does not state the protective rationale in this choice."
+      },
+      "G": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pepsin is produced by chief cells and digests protein; local acid and vagal stimulation increase secretion, and acid converts pepsinogen to active pepsin. Page 386 separately links brain injury to acute Cushing ulcers through increased vagal stimulation and gastric H+ production.",
+        "page": 379
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      378,
+      379,
+      386
+    ],
+    "fa_page": 386,
+    "fa_page_verified": true,
+    "fa_summary": "Acute gastritis/erosions can follow brain injury (Cushing ulcer) through increased vagal stimulation → increased ACh → increased gastric H+ production. First Aid also identifies pepsin as a chief-cell protein-digesting secretion increased by vagal stimulation/local acid, and bicarbonate as an acid-neutralizing mucosal defense."
   }
 ]
