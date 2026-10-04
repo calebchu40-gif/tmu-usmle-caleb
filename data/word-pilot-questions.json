@@ -24373,5 +24373,86 @@
     "fa_page": 378,
     "fa_page_verified": true,
     "fa_summary": "Motilin is secreted by the small intestine during fasting and produces migrating motor complexes, periodic cleansing contractions that move from stomach toward ileum. Eating interrupts MMC activity."
+  },
+  {
+    "id": "import-6e98d6a027ba28b8bbb9eb87",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Colonic ischemia / lower GI bleeding",
+    "stem": "A 76-year-old woman comes to the emergency department because of a 6-hour history of bloody diarrhea. She has had diffuse crampy abdominal pain for the past 3 days and has experienced similar episodes before, although they usually do not last long. Her history includes stable angina, hypercholesterolemia, myocardial infarction 10 years ago, and cerebral infarction 3 years ago with good recovery. She denies recent travel. Her temperature is 37°C (98.6°F), pulse is 90/min, respirations are 16/min, and blood pressure is 100/66 mm Hg. Examination shows vague left upper quadrant abdominal tenderness without a palpable mass. Rectal examination reveals no mass or hemorrhoids, but bright red blood is present on the glove. Colonoscopy shows patchy mucosal ulcerations near the splenic flexure. Which of the following most likely contributed to her presentation?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Atherosclerosis"
+      },
+      {
+        "letter": "B",
+        "text": "Gluten sensitivity"
+      },
+      {
+        "letter": "C",
+        "text": "Protozoal infection"
+      },
+      {
+        "letter": "D",
+        "text": "Structural weakening"
+      },
+      {
+        "letter": "E",
+        "text": "Vascular malformation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "This is ischemic colitis in a watershed region. Older adults may develop crampy abdominal pain followed by hematochezia when reduced perfusion or occlusion injures the colon, commonly at the splenic flexure or rectosigmoid junction. Her extensive atherosclerotic cardiovascular disease and recurrent episodes support atherosclerotic narrowing/hypoperfusion of colonic vessels.",
+    "choice_explanations": {
+      "A": "Correct. Atherosclerosis can narrow mesenteric vessels and cause focal ischemia at watershed regions such as the splenic flexure, producing crampy pain and bloody diarrhea.",
+      "B": "Incorrect. Gluten-sensitive enteropathy primarily affects the distal duodenum and proximal jejunum, causing malabsorption/steatorrhea rather than focal colonic watershed ulcers and hematochezia.",
+      "C": "Incorrect. Entamoeba histolytica can cause bloody diarrhea and flask-shaped ulcers, but typically causes infectious colitis with broader involvement; no travel history and the watershed distribution plus vascular history favor ischemia.",
+      "D": "Incorrect. Structural weakening suggests colonic diverticulosis, usually involving the sigmoid colon; diverticular bleeding is typically painless, and diverticulitis generally causes focal LLQ pain rather than splenic-flexure ischemic ulcers.",
+      "E": "Incorrect. Angiodysplasia causes bleeding from dilated mucosal/submucosal vessels, commonly in the right colon of older adults, rather than patchy ulcers at the splenic-flexure watershed."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Colonic ischemia causes crampy pain followed by hematochezia at watershed sites including the splenic flexure; older adults are typically affected. First Aid also describes chronic mesenteric ischemia from atherosclerosis of the celiac artery/SMA/IMA.",
+        "page": 393
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Celiac disease (gluten-sensitive enteropathy) primarily affects distal duodenum/proximal jejunum and causes malabsorption/steatorrhea.",
+        "page": 388
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Entamoeba histolytica causes amebiasis with bloody diarrhea/dysentery and flask-shaped colonic ulcers; this infection is a distractor to the watershed pattern.",
+        "page": 152
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Colonic diverticulosis consists of false diverticula at focal weak points, commonly in the sigmoid; diverticular bleeding can cause painless hematochezia.",
+        "page": 390
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Angiodysplasia consists of tortuous dilated vessels that cause hematochezia, most often in the right colon and in older patients.",
+        "page": 393
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      152,
+      388,
+      390,
+      393
+    ],
+    "fa_page": 393,
+    "fa_page_verified": true,
+    "fa_summary": "Colonic ischemia presents with crampy abdominal pain followed by hematochezia and commonly affects watershed regions, especially the splenic flexure, in older adults. Atherosclerotic mesenteric disease can reduce perfusion. Distinguish from celiac malabsorption, amebic dysentery, sigmoid diverticulosis, and right-sided angiodysplasia."
   }
 ]
