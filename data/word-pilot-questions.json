@@ -45895,5 +45895,1091 @@
     "fa_page_verified": true,
     "fa_summary": "The 5 Rs of medication safety are right drug, right patient, right dose, right route, and right time.",
     "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-cardio-pulmonary-embolism-dvt-20261004",
+    "chapter": "Cardiovascular",
+    "stem": "An 80-year-old woman is admitted to the hospital because of a right hip fracture after a fall at home. Her right hip is pinned and she is confined to bed rest. Her past medical history is significant only for hypertension. On the fifth day, she develops sudden-onset dyspnea and pleuritic chest pain that worsens during inspiration, and collapses. Her pulse is 150/min, blood pressure is 80/50 mm Hg, respirations are 30/min and shallow, and O2 saturation is 72%. A left parasternal heave and a loud pulmonic component of S2 are noted. She is resuscitated, but dies 1 hour later. Which of the following is the most likely underlying cause of her death?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Emboli from right common femoral vein thrombus"
+      },
+      {
+        "letter": "B",
+        "text": "Myocardial infarction"
+      },
+      {
+        "letter": "C",
+        "text": "Release of vasoactive material from bone marrow space"
+      },
+      {
+        "letter": "D",
+        "text": "Right axillary vein thrombus"
+      },
+      {
+        "letter": "E",
+        "text": "Right pulmonary vein thrombus"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. Ninety percent of deep vein thrombi are formed in the lower extremities. These thrombi may dislodge and travel to distant sites; most importantly, to the lungs, forming pulmonary emboli. The most frequent cause of pulmonary thromboembolism is deep venous thrombosis of the legs. Pulmonary embolism is estimated to be responsible for 15% of all cases of sudden death. In this case, the patient's prolonged bed rest predisposed her to deep venous thrombosis. Other factors that predispose to clot formation include pregnancy, cancer, or other hypercoagulable states. Some emboli are clinically silent; others affect only those with preexisting cardiac compromise. However, if the clot is large enough, it will cause nearly instantaneous death. A postoperative patient is at risk of a myocardial infarction (choice B); however, in this case, this is not the most likely scenario. The physical examination and the character of the pain more strongly support pulmonary embolism. A pulmonary embolus can cause heart failure, but this is not the primary etiologic event. Fat emboli (choice C) can occur after a fracture of long bones that releases material from the bone marrow; this is also much less likely than a thromboembolus. The fat particles cause a systemic inflammatory response. Veins in the upper limbs (choice D) rarely develop thrombosis. This occurs only in disorders leading to a marked thrombotic propensity, such as carcinoma-associated migratory thrombophlebitis (Trousseau syndrome), antiphospholipid antibody syndrome, protein C deficiency, and inherited mutations of the factor V gene. An embolus to the pulmonary artery is the typical sequela of deep venous thrombosis, rather than clot formation in the pulmonary vein (choice E).",
+    "fa_subchapter": "Deep venous thrombosis",
+    "choice_explanations": {
+      "A": "Correct. Ninety percent of deep vein thrombi form in the lower extremities; they may dislodge and embolize to the lungs. The patient's prolonged bed rest predisposed her to a femoral deep venous thrombosis, the most frequent cause of pulmonary thromboembolism and of sudden death.",
+      "B": "A postoperative patient is at risk of a myocardial infarction (choice B); however, in this case, this is not the most likely scenario. The physical examination and the character of the pain more strongly support pulmonary embolism; heart failure from an embolus is not the primary etiologic event.",
+      "C": "Fat emboli (choice C) can occur after a fracture of long bones that releases material from the bone marrow; this is also much less likely than a thromboembolus. The fat particles cause a systemic inflammatory response.",
+      "D": "Veins in the upper limbs (choice D) rarely develop thrombosis. This occurs only in disorders leading to a marked thrombotic propensity, such as carcinoma-associated migratory thrombophlebitis (Trousseau syndrome), antiphospholipid antibody syndrome, protein C deficiency, and inherited mutations of the factor V gene.",
+      "E": "An embolus to the pulmonary artery is the typical sequela of deep venous thrombosis, rather than clot formation in the pulmonary vein (choice E)."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      321
+    ],
+    "fa_page": 321,
+    "fa_page_verified": true,
+    "fa_summary": "Pulmonary thromboembolism is most often caused by deep venous thrombosis of the lower-extremity veins (femoral, iliac, popliteal); prolonged bed rest (stasis) is a major risk factor (Virchow triad).",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-cardio-stroke-volume-cardiac-output-20261004",
+    "chapter": "Cardiovascular",
+    "stem": "A 25-year-old man participates in a clinical study to determine the cardiovascular response to physical exercise. He is previously healthy and physical examination is unremarkable. Basal measurements are: respiratory rate 15/min; blood pressure 120/80 mm Hg; cardiac output 5 L/min; heart rate 50/min. Which of the following is this man's stroke volume during resting conditions?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10 mL"
+      },
+      {
+        "letter": "B",
+        "text": "50 mL"
+      },
+      {
+        "letter": "C",
+        "text": "75 mL"
+      },
+      {
+        "letter": "D",
+        "text": "100 mL"
+      },
+      {
+        "letter": "E",
+        "text": "125 mL"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. The cardiac output (CO) is equal to the volume of blood ejected from the heart during each systole (i.e. the stroke volume; SV) multiplied by the number of times the heart beats each minute (heart rate; HR). In other words, CO = SV x HR. Therefore, SV = CO/HR, and since CO = 5,000 mL/min and HR = 50/min, SV = 5,000/50 = 100 mL.",
+    "fa_subchapter": "Cardiac output",
+    "choice_explanations": {
+      "D": "CO = SV x HR, so SV = CO/HR = 5,000 mL/min / 50/min = 100 mL."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      289
+    ],
+    "fa_page": 289,
+    "fa_page_verified": true,
+    "fa_summary": "Cardiac output CO = SV x HR; stroke volume SV = CO/HR (here 5,000 mL/min / 50/min = 100 mL).",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-ace-inhibitor-hyperkalemia-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 56-year-old man with a history of type 2 diabetes mellitus and congestive heart failure comes to the physician for a health maintenance examination. His blood pressure is 172/92 mm Hg. A review of his records shows that his blood pressure during two previous visits were 176/90 and 188/91 mm Hg. Treatment is begun with an antihypertensive drug that is associated with the development of a dry cough and angioedema. Which of the following is an additional adverse effect of this drug?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased secretion of aldosterone"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased secretion of renin"
+      },
+      {
+        "letter": "C",
+        "text": "Hyperkalemia"
+      },
+      {
+        "letter": "D",
+        "text": "Increased total peripheral resistance"
+      },
+      {
+        "letter": "E",
+        "text": "Increased urinary excretion of sodium"
+      },
+      {
+        "letter": "F",
+        "text": "Methemoglobinemia"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. Diabetics with hypertension are usually treated with an angiotensin-converting enzyme (ACE) inhibitor because these drugs are protective against diabetic nephropathy and will effectively manage their high blood pressure. Examples of ACE inhibitors include enalapril, captopril, ramipril, and lisinopril. The ACE inhibitors decrease the conversion of angiotensin I to angiotensin II (AII), leading to reduced production of AII and an increase in bradykinin (ACE breaks down bradykinin). ACE-inhibitor hypersensitivity is usually a direct result of increases in bradykinin in sensitive individuals. These reactions can be life-threatening even if they are not true allergic reactions. Therefore, ACE inhibitors are contraindicated in patients with a history of ACE inhibitor-induced angioedema, hereditary angioedema, or idiopathic angioedema. The excess bradykinin is also thought to be responsible for the ACE inhibitor-induced dry chronic cough. The ACE inhibitors decrease the production of AII, which is a major stimulus for aldosterone secretion. In this fashion, ACE inhibitors markedly reduce the secretion of aldosterone. Aldosterone potently stimulates urinary secretion of potassium; thus, an occasional undesirable side effect of ACE inhibitors is a potentially dangerous elevation of serum potassium. Angiotensin receptor blockers (ARBs) such as losartan can be used in hypertensive patients with a past history of ACE inhibitor-induced cough. ARBs act by competitively inhibiting angiotensin II at the AT-1 receptor. Decreased secretion of aldosterone (choice A) is one of the major therapeutic benefits of the ACE inhibitors. Decreased secretion of renin (choice B) is incorrect, because a reflex increase in renin secretion is expected with ACE inhibitors. Aliskiren, a direct renin inhibitor, acts by decreasing plasma renin activity, thus interfering with the conversion of angiotensinogen to angiotensin I. Aliskiren is indicated for the treatment of hypertension. Increased total peripheral resistance (choice D) is incorrect because reduction of circulating angiotensin II causes decreased total peripheral resistance, a major contribution to the therapeutic benefit. Increased urinary excretion of sodium (choice E) is expected to occur secondary to reduced aldosterone, but this is beneficial because it contributes to the diuretic effect of these drugs. Methemoglobinemia (choice F), cyanide toxicity, and severe hypotension are all side effects of the vasodilator nitroprusside, which is indicated for hypertensive emergency and acute heart failure.",
+    "fa_subchapter": "Angiotensin-converting enzyme inhibitors",
+    "choice_explanations": {
+      "A": "Decreased secretion of aldosterone (choice A) is one of the major therapeutic benefits of the ACE inhibitors.",
+      "B": "Decreased secretion of renin (choice B) is incorrect, because a reflex increase in renin secretion is expected with ACE inhibitors.",
+      "C": "Correct: Diabetics with hypertension are usually treated with an angiotensin-converting enzyme (ACE) inhibitor because these drugs are protective against diabetic nephropathy and will effectively manage their high blood pressure.",
+      "D": "Increased total peripheral resistance (choice D) is incorrect because reduction of circulating angiotensin II causes decreased total peripheral resistance, a major contribution to the therapeutic benefit.",
+      "E": "Increased urinary excretion of sodium (choice E) is expected to occur secondary to reduced aldosterone, but this is beneficial because it contributes to the diuretic effect of these drugs.",
+      "F": "Methemoglobinemia (choice F), cyanide toxicity, and severe hypotension are all side effects of the vasodilator nitroprusside, which is indicated for hypertensive emergency and acute heart failure."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      628
+    ],
+    "fa_page": 628,
+    "fa_page_verified": true,
+    "fa_summary": "ACE 抑制剂引起干咳与血管性水肿；因减少醛固酮分泌而导致高钾血症。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-beta-blocker-dyslipidemia-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 48-year-old man comes to the physician for a routine examination following treatment with an antihypertensive medication. His blood pressure is 128/83 mm Hg. Physical examination shows no abnormalities. Laboratory studies show: total cholesterol 210 mg/dL, HDL 29 mg/dL, LDL 168 mg/dL, and triglycerides 260 mg/dL. He states that his lipid panel was normal prior to the start of the antihypertensive medication. Which of the following medications is most likely responsible for these findings in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Benazepril"
+      },
+      {
+        "letter": "B",
+        "text": "Clonidine"
+      },
+      {
+        "letter": "C",
+        "text": "Diltiazem"
+      },
+      {
+        "letter": "D",
+        "text": "Metoprolol"
+      },
+      {
+        "letter": "E",
+        "text": "Prazosin"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. The question states that the patient began antihypertensive therapy and now has elevated total cholesterol and triglyceride levels, as well as a low HDL level. Therefore, there is a strong possibility that the antihypertensive medication caused the dyslipidemia. Metoprolol is a beta-adrenergic antagonist that is known to cause dyslipidemias in patients. Although thiazides also cause hyperlipidemias, none of the other medications given as choices are associated with the development of dyslipidemias. Metoprolol is commonly used in the treatment of hypertension and cardiac arrhythmias. This agent is also associated with the development of bradycardia, dizziness, sexual dysfunction, and potentially, heart failure and bronchospasm. The ACE inhibitor benazepril (choice A) is commonly used in the treatment of hypertension, heart failure and diabetic nephropathy. Common adverse effects include chronic cough, hyperkalemia, and angioedema. Clonidine (choice B), a centrally acting alpha2-receptor agonist, is generally used in patients unresponsive to other antihypertensive therapies. It has been shown to be efficacious in ameliorating symptoms of alcohol, tobacco, opiate, and benzodiazepine withdrawal. Clonidine is also used in the treatment of attention deficit disorder with hyperactivity. Clonidine causes severe hypotension, depression and syncope. The calcium-channel blocker diltiazem (choice C) is used to treat essential hypertension and cardiac arrhythmias. This agent is associated with the development of bradycardia, AV block, orthostatic hypotension, and sexual dysfunction. It is not associated with the development of dyslipidemias. Prazosin (choice E), a selective alpha-1 blocker, represents another class of antihypertensive agents that has a favorable effect on plasma lipids, lowering total cholesterol, reducing triglyceride levels, and mildly raising HDL-cholesterol.",
+    "fa_subchapter": "Beta-blockers",
+    "choice_explanations": {
+      "A": "The ACE inhibitor benazepril (choice A) is commonly used in the treatment of hypertension, heart failure and diabetic nephropathy.",
+      "B": "Clonidine (choice B), a centrally acting alpha2-receptor agonist, is generally used in patients unresponsive to other antihypertensive therapies.",
+      "C": "The calcium-channel blocker diltiazem (choice C) is used to treat essential hypertension and cardiac arrhythmias.",
+      "D": "Correct: The question states that the patient began antihypertensive therapy and now has elevated total cholesterol and triglyceride levels, as well as a low HDL level.",
+      "E": "Prazosin (choice E), a selective alpha-1 blocker, represents another class of antihypertensive agents that has a favorable effect on plasma lipids, lowering total cholesterol, reducing triglyceride levels, and mildly raising HDL-cholesterol."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      244
+    ],
+    "fa_page": 244,
+    "fa_page_verified": true,
+    "fa_summary": "β受体阻滞剂（美托洛尔）可引起血脂异常：升高甘油三酯、降低 HDL。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-herpes-zoster-famciclovir-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 65-year-old man develops a vesicular rash localized to a narrow circumferential band on one side of his chest. He says that he had a burning sensation in the same area starting several days before the rash appeared. Physical examination shows a painful rash with confluent vesicles and some ulceration. No other significant findings are demonstrated on physical examination. Which of the following would be the most appropriate course of therapy?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Doxepin"
+      },
+      {
+        "letter": "B",
+        "text": "Famciclovir"
+      },
+      {
+        "letter": "C",
+        "text": "Foscarnet"
+      },
+      {
+        "letter": "D",
+        "text": "Oka strain live attenuated vaccine"
+      },
+      {
+        "letter": "E",
+        "text": "Pooled immune globulin"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. This patient has shingles, the recurrent form of herpes zoster infection, which is usually (except in the case of immunosuppressed patients) confined to a single dermatome. In otherwise healthy adults, the virus (which is usually introduced to the body as a childhood case of chickenpox) remains dormant sometimes for decades in a dorsal root ganglion only to reactivate in later life, causing a painful vesicular eruption that characteristically conforms to the distribution of a single dermatome, but can occasionally affect two or three neighboring dermatomes. Additionally, some patients may have a few scattered vesicles located at some distance away from the involved dermatome. The thoracic and lumbar dermatomes are the most commonly involved sites of herpes zoster. In patients with shingles, acyclovir, famciclovir, and valacyclovir are approved for use, but the improved pharmacodynamics of famciclovir and valacyclovir make them the preferred drugs for varicella zoster virus. It should also be noted that the zoster live-virus vaccine is indicated for the prevention of herpes zoster (shingles) in patients > 50 years old. It is not indicated for the treatment of herpes zoster. Foscarnet (choice C) is approved for use in immunosuppressed patients suffering from cytomegalovirus infections. It inhibits the viral DNA polymerase by mimicking the pyrophosphate portion of nucleoside triphosphates. The Oka strain live attenuated vaccine (choice D) for varicella zoster virus (VZV) is administered during childhood on the same schedule as the MMR vaccine. It is effective as prophylactic treatment even after exposure to VZV and may be used to limit the onset of shingles in the elderly, but would not be effective once the shingles outbreak has occurred. Pooled immune globulin (choice E) or varicella-zoster immunoglobulin can be given to immunosuppressed patients susceptible to severe disease, but would not be effective as a therapy for patients already suffering from active infections.",
+    "fa_subchapter": "Herpesviruses",
+    "choice_explanations": {
+      "B": "Correct: This patient has shingles, the recurrent form of herpes zoster infection, which is usually (except in the case of immunosuppressed patients) confined to a single dermatome.",
+      "C": "Foscarnet (choice C) is approved for use in immunosuppressed patients suffering from cytomegalovirus infections.",
+      "D": "The Oka strain live attenuated vaccine (choice D) for varicella zoster virus (VZV) is administered during childhood on the same schedule as the MMR vaccine.",
+      "E": "Pooled immune globulin (choice E) or varicella-zoster immunoglobulin can be given to immunosuppressed patients susceptible to severe disease, but would not be effective as a therapy for patients already suffering from active infections."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      162
+    ],
+    "fa_page": 162,
+    "fa_page_verified": true,
+    "fa_summary": "带状疱疹首选核苷类抗病毒药（泛昔洛韦/伐昔洛韦优于阿昔洛韦）；疫苗仅用于预防。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-acetazolamide-metabolic-acidosis-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 41-year-old woman with a history of angle-closure glaucoma begins treatment with a first-line oral drug for this condition. Three weeks later, she returns to the physician for a follow-up examination. Laboratory studies show an arterial pH of 7.34, arterial PCO2 of 29 mm Hg, and plasma HCO3- of 15 mEq/L. Which of the following is the most likely underlying condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Metabolic acidosis"
+      },
+      {
+        "letter": "B",
+        "text": "Metabolic alkalosis"
+      },
+      {
+        "letter": "C",
+        "text": "Mixed acidosis"
+      },
+      {
+        "letter": "D",
+        "text": "Mixed alkalosis"
+      },
+      {
+        "letter": "E",
+        "text": "Respiratory acidosis"
+      },
+      {
+        "letter": "F",
+        "text": "Respiratory alkalosis"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. The laboratory results indicate that the arterial pH, arterial PCO2, and plasma HCO3- concentrations are all low. These changes clearly demonstrate metabolic acidosis, which occurs commonly when a carbonic anhydrase inhibitor is administered. In this case, the patient is likely receiving acetazolamide, a carbonic anhydrase inhibitor used to treat hypertension and glaucoma. The carbonic anhydrase enzyme attached to the brush border of the tubular epithelial cells normally catalyzes the dissociation of carbonic acid into water and carbon dioxide. Inhibition of carbonic anhydrase prevents the removal of bicarbonate ions from the tubular fluid, which initially increases urine pH. The result is heavy spillage of bicarbonate in the urine, which is the hallmark of type 2 RTA (renal tubular acidosis). However, once the plasma levels of bicarbonate have decreased sufficiently, the bicarbonaturia ceases and the plasma HCO3- levels stabilize at a lower than normal level. Consequently, the urine pH falls typically to 4.5-5.0. Winters formula applied in this case would be: PCO2 = (1.5 x [HCO3-]) + 8 +/- 2; PCO2 = (1.5 x 15) + 8 +/- 2 = 30.5 +/- 2. The PCO2 falls within this range and it is thus appropriate respiratory compensation. If it were below that range it would be mixed respiratory alkalosis and metabolic acidosis, and above it would be respiratory and metabolic acidosis. Knowing how and when to apply Winters formula is a high-yield topic for Step 1 and 2. The following table shows the changes in plasma pH, plasma HCO3-, and arterial PCO2 characteristic of the various acid-base abnormalities: metabolic acidosis (choice A) - low pH, low PCO2, low HCO3-; metabolic alkalosis (choice B) - high pH, high PCO2, high HCO3-; mixed acidosis (choice C) - low pH, high PCO2, low HCO3-; mixed alkalosis (choice D) - high pH, low PCO2, high HCO3-; respiratory acidosis (choice E) - low pH, high PCO2, high HCO3-; respiratory alkalosis (choice F) - high pH, low PCO2, low HCO3-.",
+    "fa_subchapter": "Diuretics",
+    "choice_explanations": {
+      "A": "The following table shows the changes in plasma pH, plasma HCO3-, and arterial PCO2 characteristic of the various acid-base abnormalities: metabolic acidosis (choice A) - low pH, low PCO2, low HCO3-; metabolic alkalosis (choice B) - high pH, high PCO2, high HCO3-; mixed acidosis (choice C) - low pH, high PCO2, low HCO3-; mixed alkalosis (choice D) - high pH, low PCO2, high HCO3-; respiratory acidosis (choice E) - low pH, high PCO2, high HCO3-; respiratory alkalosis (choice F) - high pH, low PCO2, low HCO3-.",
+      "B": "The following table shows the changes in plasma pH, plasma HCO3-, and arterial PCO2 characteristic of the various acid-base abnormalities: metabolic acidosis (choice A) - low pH, low PCO2, low HCO3-; metabolic alkalosis (choice B) - high pH, high PCO2, high HCO3-; mixed acidosis (choice C) - low pH, high PCO2, low HCO3-; mixed alkalosis (choice D) - high pH, low PCO2, high HCO3-; respiratory acidosis (choice E) - low pH, high PCO2, high HCO3-; respiratory alkalosis (choice F) - high pH, low PCO2, low HCO3-.",
+      "C": "The following table shows the changes in plasma pH, plasma HCO3-, and arterial PCO2 characteristic of the various acid-base abnormalities: metabolic acidosis (choice A) - low pH, low PCO2, low HCO3-; metabolic alkalosis (choice B) - high pH, high PCO2, high HCO3-; mixed acidosis (choice C) - low pH, high PCO2, low HCO3-; mixed alkalosis (choice D) - high pH, low PCO2, high HCO3-; respiratory acidosis (choice E) - low pH, high PCO2, high HCO3-; respiratory alkalosis (choice F) - high pH, low PCO2, low HCO3-.",
+      "D": "The following table shows the changes in plasma pH, plasma HCO3-, and arterial PCO2 characteristic of the various acid-base abnormalities: metabolic acidosis (choice A) - low pH, low PCO2, low HCO3-; metabolic alkalosis (choice B) - high pH, high PCO2, high HCO3-; mixed acidosis (choice C) - low pH, high PCO2, low HCO3-; mixed alkalosis (choice D) - high pH, low PCO2, high HCO3-; respiratory acidosis (choice E) - low pH, high PCO2, high HCO3-; respiratory alkalosis (choice F) - high pH, low PCO2, low HCO3-.",
+      "E": "The following table shows the changes in plasma pH, plasma HCO3-, and arterial PCO2 characteristic of the various acid-base abnormalities: metabolic acidosis (choice A) - low pH, low PCO2, low HCO3-; metabolic alkalosis (choice B) - high pH, high PCO2, high HCO3-; mixed acidosis (choice C) - low pH, high PCO2, low HCO3-; mixed alkalosis (choice D) - high pH, low PCO2, high HCO3-; respiratory acidosis (choice E) - low pH, high PCO2, high HCO3-; respiratory alkalosis (choice F) - high pH, low PCO2, low HCO3-.",
+      "F": "The following table shows the changes in plasma pH, plasma HCO3-, and arterial PCO2 characteristic of the various acid-base abnormalities: metabolic acidosis (choice A) - low pH, low PCO2, low HCO3-; metabolic alkalosis (choice B) - high pH, high PCO2, high HCO3-; mixed acidosis (choice C) - low pH, high PCO2, low HCO3-; mixed alkalosis (choice D) - high pH, low PCO2, high HCO3-; respiratory acidosis (choice E) - low pH, high PCO2, high HCO3-; respiratory alkalosis (choice F) - high pH, low PCO2, low HCO3-."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      625
+    ],
+    "fa_page": 625,
+    "fa_page_verified": true,
+    "fa_summary": "碳酸酐酶抑制剂（乙酰唑胺，用于青光眼）→ 近端小管 HCO3- 丢失 → 代谢性酸中毒（2 型 RTA）。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-warfarin-macrolide-interaction-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 64-year-old man comes to the emergency department because of a 36-hour history of progressively worsening hematuria. Physical examination shows multiple bruises on the lower legs and forearms. Laboratory studies show an INR of 5.8. He is currently being treated for chronic atrial fibrillation and for Haemophilus influenzae lower lobar pneumonia. Which of the following best describes the mechanism of action of the antibiotic most likely used to treat his pneumonia?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Binds the 50S ribosomal subunit"
+      },
+      {
+        "letter": "B",
+        "text": "Blocks attachment of aminoacyl-tRNA to the A site"
+      },
+      {
+        "letter": "C",
+        "text": "Causes misreading of mRNA information"
+      },
+      {
+        "letter": "D",
+        "text": "Inhibits folate synthesis"
+      },
+      {
+        "letter": "E",
+        "text": "Inhibits mycolic acid synthesis"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. This question involves both a drug-drug interaction and an indication for usage. The correct answer is therefore a drug that is both indicated for the treatment of Haemophilus influenzae pneumonia and capable of decreasing the metabolism of warfarin, resulting in the elevated INR, hematuria, and bleeding. Warfarin is a coumarin anticoagulant used for the prophylaxis and treatment of various thromboembolic complications associated with cardiac valve replacement and treatment and prophylaxis of embolism secondary to chronic atrial fibrillation. It acts by inhibiting vitamin K-dependent coagulation factor synthesis (II, VII, IX, X, proteins C and S). This agent has one of the most significant drug interactions related to increased or decreased warfarin effect. Warfarin is metabolized hepatically and is susceptible to cytochrome inducers and inhibitors. Inhibitors of CYP2C9, 1A2, and/or 3A4 have the potential to increase the effect of warfarin (increase INR) by decreasing drug metabolism. Likewise, inducers of these same enzymes will increase the metabolism of warfarin thereby decreasing the patient's INR. For example, the macrolides, such as clarithromycin and erythromycin, are common hepatic enzyme inhibitors that decrease the elimination of warfarin, resulting in an increased therapeutic effect. Increased levels of warfarin result in increased INR, hematuria, and bruising. Lower respiratory tract infections, such as those caused by H. influenzae, are commonly treated with clarithromycin and azithromycin. (Note that azithromycin is a macrolide that does not have the potent enzyme inhibitory effects seen with clarithromycin.) Macrolides act by binding to the P site of the 50S ribosomal subunit, thereby interfering with bacterial protein synthesis. Tetracyclines, such as tetracycline and doxycycline, bind to the 30S ribosomal subunit and prevent attachment of aminoacyl-tRNA (choice B). Tetracyclines are used for cholera, acne, Lyme disease, and Rickettsia. These agents may produce a mild interaction with warfarin; however, because they are not indicated for the treatment of H. influenzae pneumonia, choice B is incorrect. Aminoglycosides, such as gentamicin and tobramycin, inhibit protein synthesis by binding to the 30S ribosomal subunit, cause misreading of mRNA (choice C), and possibly inhibition of translocation. They are used for severe gram-negative rod infections and could be used as second-line therapy in the treatment of H. influenzae pneumonia, in combination with beta-lactams. The aminoglycosides are not associated with a severe drug-drug interaction with warfarin. Both trimethoprim and the sulfonamides can inhibit folate synthesis (choice D). Although these drugs are often used in combination (trimethoprim/sulfamethoxazole or TMP/SMX) for treating urinary tract infections, they are not indicated for the treatment of lower respiratory tract infections. The sulfonamides would be expected to produce the same drug-drug interaction with warfarin, however, increasing its anticoagulant effects. Because these agents are not indicated for the treatment of H. influenzae pneumonia, choice D is incorrect. One very important point to remember is that trimethoprim/sulfamethoxazole does not generally attain adequate drug concentrations in the lower lung. Therefore, it is not generally used for the treatment of a lower lobar pneumonia. Isoniazid (or INH) prevents the synthesis of mycolic acids (choice E) and is specifically used for the treatment of mycobacterial infections. Isoniazid may produce a mild-to-moderate drug-drug interaction with warfarin; however, because it is not indicated for the treatment of H. influenzae pneumonia, choice E is incorrect.",
+    "fa_subchapter": "Warfarin",
+    "choice_explanations": {
+      "A": "Correct: This question involves both a drug-drug interaction and an indication for usage.",
+      "B": "Tetracyclines, such as tetracycline and doxycycline, bind to the 30S ribosomal subunit and prevent attachment of aminoacyl-tRNA (choice B).",
+      "C": "Aminoglycosides, such as gentamicin and tobramycin, inhibit protein synthesis by binding to the 30S ribosomal subunit, cause misreading of mRNA (choice C), and possibly inhibition of translocation.",
+      "D": "Both trimethoprim and the sulfonamides can inhibit folate synthesis (choice D).",
+      "E": "Isoniazid (or INH) prevents the synthesis of mycolic acids (choice E) and is specifically used for the treatment of mycobacterial infections."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      441
+    ],
+    "fa_page": 441,
+    "fa_page_verified": true,
+    "fa_summary": "大环内酯类抑制 CYP3A4，减少华法林代谢→INR 升高、出血；且覆盖流感嗜血杆菌肺炎。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-theophylline-cyp-induction-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 58-year-old man with a history of alcoholism, cigarette smoking, and chronic obstructive pulmonary disease comes to the physician for a routine examination. Current medications include theophylline. Physical examination shows no abnormalities. Laboratory studies of serum show lower than expected levels of theophylline. The patient says that he takes his medication daily and that he has not missed any of the doses. Which of the following best explains this laboratory finding?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cirrhosis of the liver"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased absorption"
+      },
+      {
+        "letter": "C",
+        "text": "Enhanced liver metabolism"
+      },
+      {
+        "letter": "D",
+        "text": "Increased urinary clearance"
+      },
+      {
+        "letter": "E",
+        "text": "Recent alcohol ingestion"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. The patient is an alcoholic and smoker, and alcohol and smoking normally induce the cytochrome P450 (CYP450) system in the smooth endoplasmic reticulum (SER) of the liver. Clinically, the most important polymorphic variations in the hepatic CYP450 system are the CYP1A2, CYP2C9, CYP2C19, CYP2D6, and CYP3A4 genes. These genes code for enzymes that are responsible for the phase I metabolism of approximately 60% of all therapeutic medications. The cytochrome enzymes can be induced or inhibited by both medications and genetic polymorphisms. For the latter, genotypic CYP variations result in three primary metabolic phenotypes: ultra-rapid metabolizers, extensive (normal) metabolizers, and poor metabolizers. The ultra-rapid metabolizers and poor metabolizers can be compared to drugs that are inducers and inhibitors, respectively. Specifically, theophylline is primarily metabolized by CYP1A2 and CYP3A4 isozymes; therefore, agents or pathologic processes altering these pathways will affect theophylline's metabolism. The hepatocyte SER undergoes hyperplasia as a response to alcohol ingestion and synthesizes the enzyme gamma-glutamyl transferase (GGT). An elevation of GGT in this particular patient would help confirm the likelihood of increased hepatic drug metabolism as the cause of low drug levels. It is also important to remember that cigarette smoking also has a hepatic enzyme-inducing effect as well. Chronic alcohol consumption and cigarette smoking are the most likely reasons for the lower than expected theophylline levels. Cirrhosis of the liver (choice A) would likely increase the serum levels of theophylline because of poor metabolism of the drug. Decreased absorption of the drug (choice B) in the gastrointestinal tract is a possible choice. However, the history of excess alcohol intake and lack of a history of malabsorption suggest increased hepatic metabolism. Increased clearance of theophylline in the urine (choice D) implies an increase in the glomerular filtration rate, which would not be expected in this patient. Acute alcohol ingestion (choice E) is associated with a decrease in theophylline's renal clearance for approximately 24 hours. Hence, one would expect to see the blood levels of theophylline increase. Conversely, chronic alcohol ingestion is associated with increased hepatic metabolism of theophylline leading to a decreased theophylline level.",
+    "fa_subchapter": "Drug metabolism",
+    "choice_explanations": {
+      "A": "Cirrhosis of the liver (choice A) would likely increase the serum levels of theophylline because of poor metabolism of the drug.",
+      "B": "Decreased absorption of the drug (choice B) in the gastrointestinal tract is a possible choice.",
+      "C": "Correct: The patient is an alcoholic and smoker, and alcohol and smoking normally induce the cytochrome P450 (CYP450) system in the smooth endoplasmic reticulum (SER) of the liver.",
+      "D": "Increased clearance of theophylline in the urine (choice D) implies an increase in the glomerular filtration rate, which would not be expected in this patient.",
+      "E": "Acute alcohol ingestion (choice E) is associated with a decrease in theophylline's renal clearance for approximately 24 hours."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      230
+    ],
+    "fa_page": 230,
+    "fa_page_verified": true,
+    "fa_summary": "吸烟与慢性饮酒诱导肝脏 CYP450，加速茶碱代谢→血药浓度降低。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-ticlopidine-adp-receptor-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A patient with coronary artery disease is scheduled to undergo coronary stent implantation. To reduce the risk of an adverse cardiovascular event after stent placement, a combination of aspirin and another drug with similar indications is administered. The patient is instructed to return in 2 weeks for a complete blood count because of the risk of neutropenia caused by this drug. Which of the following best describes the mechanism of action of this additional drug?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Binds to and potentiates antithrombin III"
+      },
+      {
+        "letter": "B",
+        "text": "Binds to the glycoprotein IIb/IIIa receptors on activated platelets"
+      },
+      {
+        "letter": "C",
+        "text": "Converts plasminogen to plasmin"
+      },
+      {
+        "letter": "D",
+        "text": "Inhibits vitamin K-dependent carboxylation of clotting factors"
+      },
+      {
+        "letter": "E",
+        "text": "Prevents adenosine diphosphate from binding to platelet receptors"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. This two-step question asks you to identify the mechanism of a drug commonly used in conjunction with aspirin to lower risk for a myocardial infarction after stent placement in a patient with coronary artery disease. The challenge is that you must match the indication with neutropenia, which is an important adverse effect of ticlopidine. Similar to clopidogrel, ticlopidine irreversibly blocks ADP from binding platelets. Subsequently, ADP-induced expression of glycoprotein receptors is reduced, resulting in less fibrinogen binding. Because aspirin and ticlopidine work through different mechanisms, they typically synergize. Ticlopidine may be used as a second-line agent to prevent thromboembolism or stroke. First-line therapy is typically clopidogrel in combination with aspirin because of the adverse side effects of ticlopidine. Roughly 2% of patients in clinical trials experienced neutropenia (absolute neutrophil count [ANC] < 1500/mm3) or even agranulocytosis (ANC < 100/mm3) with ticlopidine. The heparins, including the low molecular weight heparins (LMWH) such as enoxaparin and dalteparin, potentiate heparin-induced thrombocytopenia (HIT). HIT arises from antibodies generated by heparin usage that will activate platelets and cause increased clearance of the platelets, leading to thrombocytopenia. Adverse effects of LMWH are similar to those of heparin, however, they carry less risk for HIT and osteoporosis than unfractionated heparin. Three potent parenteral GpIIb/IIIa inhibitors (disintegrins) (choice B) are used in the settings of percutaneous coronary intervention (PCI), unstable angina, and non-Q-wave MI: abciximab, eptifibatide, and tirofiban. These agents inhibit the binding of fibrinogen to the glycoprotein IIb/IIIa receptors. The thrombolytic agent alteplase converts plasminogen to plasmin (choice C). Adverse effects of thrombolytics are related to their primary mechanism, and include intracranial hemorrhage/stroke and severe bleeding. Inhibition of vitamin K function (choice D) is descriptive of warfarin. Adverse effects of warfarin include hemorrhage, skin/tissue necrosis, and birth defects. Skin/tissue necrosis arises from a paradoxical hypercoagulable effect seen early on in the course of treatment because of warfarin's rapid inhibition of protein C's anticoagulating effects. If women use warfarin during pregnancy, birth defects in the child include skeletal abnormalities and developmental disability.",
+    "fa_subchapter": "Antiplatelets",
+    "choice_explanations": {
+      "B": "Three potent parenteral GpIIb/IIIa inhibitors (disintegrins) (choice B) are used in the settings of percutaneous coronary intervention (PCI), unstable angina, and non-Q-wave MI: abciximab, eptifibatide, and tirofiban.",
+      "C": "The thrombolytic agent alteplase converts plasminogen to plasmin (choice C).",
+      "D": "Inhibition of vitamin K function (choice D) is descriptive of warfarin.",
+      "E": "Correct: This two-step question asks you to identify the mechanism of a drug commonly used in conjunction with aspirin to lower risk for a myocardial infarction after stent placement in a patient with coronary artery disease."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      442
+    ],
+    "fa_page": 442,
+    "fa_page_verified": true,
+    "fa_summary": "噻氯匹定不可逆阻断血小板 ADP 受体（P2Y12），可致中性粒细胞减少。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-long-qt-syndrome-procainamide-20261004",
+    "chapter": "Pharmacology",
+    "stem": "An 8-year-old girl is brought to the emergency department after being found unconscious on the playground during school recess. An electrocardiogram shows ventricular tachycardia with a rate of 170/min, and a prolonged QT of approximately 0.5 seconds. When her parents arrive, the mother says that there is a family history of arrhythmias. Which of the following drugs is contraindicated for the treatment of this child?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Adenosine"
+      },
+      {
+        "letter": "B",
+        "text": "Lidocaine"
+      },
+      {
+        "letter": "C",
+        "text": "Metoprolol"
+      },
+      {
+        "letter": "D",
+        "text": "Procainamide"
+      },
+      {
+        "letter": "E",
+        "text": "Verapamil"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. The child is most likely suffering from long QT syndrome, a family condition associated with an increased risk of ventricular arrhythmias. This disease may result from a mutation in the gene that encodes cardiac potassium channels. Drugs known to prolong the QT interval (or cause hypokalemia and/or hypomagnesemia) are contraindicated for use in patients with long QT syndrome. These agents include quinidine, procainamide, sotalol, amiodarone, disopyramide, dofetilide, phenothiazines, and tricyclic antidepressants. Procainamide increases AP duration, increases effective refractory period, and increases the QT interval. Procainamide causes SLE, QT prolongation, torsades de pointes, hypotension, and flushing. Adenosine (choice A) is an unclassified antiarrhythmic medication with a half-life of < 10 seconds. It can slow both SA and AV nodal activity, as well as prolong the AV nodal refractory period. Its mechanism of action involves the activation of adenosine receptors and the reduction of the level of cAMP. It is not contraindicated in the treatment of patients with long QT syndrome. It is used for treatment of PSVT conversion and in cardiac stress testing. Lidocaine (choice B) is a class IB antiarrhythmic drug and is not contraindicated in the treatment of this patient. It acts by inhibiting Na+ ion channels and depresses action potential phase 0. Since lidocaine acts on Na+ channels it would not prolong the QT interval (which is repolarization). Lidocaine is used in treatment of ventricular arrhythmias, ventricular fibrillation and digitalis-induced arrhythmias. Metoprolol (choice C) is a selective beta-1 blocker that has negative inotropic and chronotropic effects on cardiac myocytes. It is a class II drug and is not contraindicated in long QT syndrome treatment. In fact, select beta-blockers such as nadolol are used in treatment of SVT, slowing of ventricular rate during atrial fibrillation, and atrial flutter. Verapamil (choice E) is a calcium channel blocker and class IV antiarrhythmic medication that acts by blocking nodal activity. It is used in the treatment of nodal arrhythmias, such as SVT, and rate control in atrial fibrillation.",
+    "fa_subchapter": "Wide complex tachycardias",
+    "choice_explanations": {
+      "A": "Adenosine (choice A) is an unclassified antiarrhythmic medication with a half-life of < 10 seconds.",
+      "B": "Lidocaine (choice B) is a class IB antiarrhythmic drug and is not contraindicated in the treatment of this patient.",
+      "C": "Metoprolol (choice C) is a selective beta-1 blocker that has negative inotropic and chronotropic effects on cardiac myocytes.",
+      "D": "Correct: The child is most likely suffering from long QT syndrome, a family condition associated with an increased risk of ventricular arrhythmias.",
+      "E": "Verapamil (choice E) is a calcium channel blocker and class IV antiarrhythmic medication that acts by blocking nodal activity."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      311
+    ],
+    "fa_page": 311,
+    "fa_page_verified": true,
+    "fa_summary": "长 QT 综合征禁用延长 QT 的药物（如普鲁卡因胺、奎尼丁、索他洛尔等）。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-aml-cytarabine-auer-rods-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 58-year-old man comes to the physician because of progressive fatigue, shortness of breath, and easy bruisability. Physical examination shows no abnormalities except for pallor. Laboratory studies show: leukocyte count 14,000/mm3, hemoglobin 10.0 g/dL, hematocrit 30%. A bone marrow biopsy is performed and shows myeloblasts containing few Auer rods as well as monoblasts and monocytes. Treatment is initiated with a drug that inhibits DNA polymerase and can cause leukopenia and anemia. Which of the following is the most likely therapeutic agent described?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bleomycin"
+      },
+      {
+        "letter": "B",
+        "text": "Cytarabine"
+      },
+      {
+        "letter": "C",
+        "text": "Doxorubicin"
+      },
+      {
+        "letter": "D",
+        "text": "Etoposide"
+      },
+      {
+        "letter": "E",
+        "text": "Paclitaxel"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. In acute myelogenous leukemia (AML), myeloblasts may have intracytoplasmic rods (stain red) called Auer rods. Auer rods are composed of abnormal lysosomes (primary granules) that are pathognomonic of myeloblasts and not found in ALL. Auer rods also stain positive with myeloperoxidase (MPO) or Sudan-black B stain. Auer rods can be found in M2, M3, and M4 AML. The tissue form of AML is called granulocytic sarcoma (chloroma). Given the bone marrow finding, this patient most likely has myelomonocytic type AML (M4). Cytarabine is a pyrimidine analog that is commonly administered with idarubicin, daunorubicin or mitoxantrone, to induce remission of acute myelogenous leukemia (AML). This agent primarily acts via inhibition of DNA polymerase, and has also been shown to incorporate into both DNA and RNA as well. Cytarabine is known to be a “bone marrow suppressant”; hence, anemia, leukopenia, thrombocytopenia and megaloblastosis are well-documented toxic effects of this agent. Cytarabine is not used to treat acute promyelocytic leukemia (M3 AML) and all-trans retinoic acid (ATRA) is the treatment of choice. Bleomycin (choice A) is an intercalating agent that complexes iron-forming reactive oxygen species and induces DNA strand breaks. This agent is commonly associated with the development of pulmonary fibrosis. Similar to daunorubicin, doxorubicin (choice C) is an antitumor antibiotic that inserts between DNA bases and induces DNA strand breaks. Cardiotoxicity, myelosuppression and extravasation necrosis are the most common adverse effects with this medication. Etoposide (choice D) is a topoisomerase inhibitor used in the treatment of testicular cancer, small cell lung carcinoma, and acute myelogenous leukemia. Myelosuppression is the dose-limiting toxicity associated with this agent. Paclitaxel (choice E) inhibits mitosis by binding tubulin and preventing degradation of microtubules. This agent is used in the treatment of ovarian cancer, breast cancer, and non-small cell lung cancer. Bone marrow suppression, alopecia, and hypersensitivity reactions are the most common toxic effects seen with paclitaxel.",
+    "fa_subchapter": "Leukemias",
+    "choice_explanations": {
+      "A": "Bleomycin (choice A) is an intercalating agent that complexes iron-forming reactive oxygen species and induces DNA strand breaks.",
+      "B": "Correct: In acute myelogenous leukemia (AML), myeloblasts may have intracytoplasmic rods (stain red) called Auer rods.",
+      "C": "Similar to daunorubicin, doxorubicin (choice C) is an antitumor antibiotic that inserts between DNA bases and induces DNA strand breaks.",
+      "D": "Etoposide (choice D) is a topoisomerase inhibitor used in the treatment of testicular cancer, small cell lung carcinoma, and acute myelogenous leukemia.",
+      "E": "Paclitaxel (choice E) inhibits mitosis by binding tubulin and preventing degradation of microtubules."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      437
+    ],
+    "fa_page": 437,
+    "fa_page_verified": true,
+    "fa_summary": "AML 可见 Auer 小体（髓过氧化物酶阳性）；阿糖胞苷抑制 DNA 聚合酶，致骨髓抑制。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-digoxin-toxicity-arrhythmia-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 67-year-old man comes to the physician because of palpitations and fatigue. Further evaluation shows atrial fibrillation, and treatment is begun with a medication that acts by inhibiting sodium-potassium ATPase. Three weeks later he returns to the physician for a follow-up examination with a complaint of yellow/green visual halos, dizziness and abdominal pain. His serum drug levels are well above the therapeutic range. This patient is at highest risk for developing which of the following?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acute renal failure"
+      },
+      {
+        "letter": "B",
+        "text": "Cardiac arrhythmia"
+      },
+      {
+        "letter": "C",
+        "text": "Hypokalemia"
+      },
+      {
+        "letter": "D",
+        "text": "Hyponatremia"
+      },
+      {
+        "letter": "E",
+        "text": "Tonic-clonic seizures"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. Digoxin is a cardiac glycoside that directly inhibits cardiac Na+/K+ ATPase, leading to indirect inhibition of the Na+/Ca2+ exchanger, which leads to increased intracellular Ca2+ and positive inotropy. It also inhibits neuronal Na+/K+ ATPase, resulting in increased vagal nerve activity and a decrease in heart rate. Digoxin is used for CHF (increases inotropy) and supraventricular tachycardias (decreases AV conduction and depresses the SA node). Digoxin has a low therapeutic index. Early toxic doses include anorexia, nausea, and ECG changes. Later signs include disorientation, visual effects (e.g., blurred vision, yellow-green halos; may have contributed to Van Gogh's “Yellow Period”). Toxic doses can cause a variety of cardiac arrhythmias. If a life-threatening complication of toxicity occurs, the patient can be treated with digoxin immune Fab, which binds to digoxin, making it unavailable to bind to the Na+/K+-ATPase and facilitating its removal from the body. Correction of electrolyte imbalances is also important. Digoxin toxicity is unlikely to result in the development of acute renal failure (choice A), hypokalemia (choice C), or hyponatremia (choice D). Tonic-clonic seizures may occur (choice E), but this is extremely rare. It is important to note that digoxin toxicity does NOT cause hypokalemia; however, hypokalemia can lead to the development of digoxin toxicity. When a patient is hypokalemic, digoxin toxicity can occur at any therapeutic concentration. This occurs because digoxin binds to the K+ site on the Na+/K+-ATPase, and binds more easily if there is less concentration of potassium.",
+    "fa_subchapter": "Digoxin",
+    "choice_explanations": {
+      "A": "Digoxin toxicity is unlikely to result in the development of acute renal failure (choice A), hypokalemia (choice C), or hyponatremia (choice D).",
+      "B": "Correct: Digoxin is a cardiac glycoside that directly inhibits cardiac Na+/K+ ATPase, leading to indirect inhibition of the Na+/Ca2+ exchanger, which leads to increased intracellular Ca2+ and positive inotropy.",
+      "C": "Digoxin toxicity is unlikely to result in the development of acute renal failure (choice A), hypokalemia (choice C), or hyponatremia (choice D).",
+      "D": "Digoxin toxicity is unlikely to result in the development of acute renal failure (choice A), hypokalemia (choice C), or hyponatremia (choice D).",
+      "E": "Tonic-clonic seizures may occur (choice E), but this is extremely rare."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      326
+    ],
+    "fa_page": 326,
+    "fa_page_verified": true,
+    "fa_summary": "地高辛抑制 Na+/K+-ATPase；中毒表现为黄绿视觉、心律失常、高钾血症。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-salicylate-toxicity-tinnitus-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 62-year-old man with a history of osteoarthritis comes to the physician because of progressive pain in his knees despite treatment with aspirin. He states that the usual dose of the drug is no longer effective for treating his knee pain, and that he has increased the dose and frequency of aspirin without consulting his physician. Which of the following is the most likely earliest sign or symptom of salicylate intoxication this patient would experience?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased arterial pH"
+      },
+      {
+        "letter": "B",
+        "text": "Electrocardiogram (ECG) changes"
+      },
+      {
+        "letter": "C",
+        "text": "Hyperglycemia"
+      },
+      {
+        "letter": "D",
+        "text": "Hypoventilation"
+      },
+      {
+        "letter": "E",
+        "text": "Tinnitus"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. Aspirin remains a commonly used analgesic despite the general preference for nonsteroidal antiinflammatory drugs (NSAIDs). It is also widely prescribed for antiplatelet therapy. Aspirin is present in a multitude of over-the-counter (OTC) medications and in many prescription drugs, making salicylate toxicity an important cause of morbidity and mortality. Early recognition is essential for successful management. Aspirin can cause toxic effects in a variety of ways. Salicylates are neurotoxic and initially cause tinnitus. Higher levels can result in hearing loss. Stimulation of the medullary chemoreceptor trigger zone can cause nausea and vomiting. Irreversible inhibition of cyclooxygenase leads to decreased synthesis of prostaglandins, prostacyclin, and thromboxanes. This has a role in gastric mucosal injury and platelet dysfunction. Stimulation of the medullary respiratory center leads to hyperventilation and respiratory alkalosis. Disruption of the TCA cycle and oxidative phosphorylation later can lead to a metabolic acidosis. Early symptoms of acute aspirin toxicity include tinnitus, nausea and vomiting, hyperventilation, tachycardia, diaphoresis, and hyperactivity. Additional symptoms that indicate a more severe intoxication include altered mental status, hyperpyrexia, pulmonary edema, and coma. Doses that can cause fatality are 10 to 30 g in adults and as little as 3 g in children. Management includes supportive care and alkalinization of serum and urine with IV sodium bicarbonate to keep salicylates in the blood and away from tissues and enhance urinary excretion (ion trapping). Alkalinization with acetazolamide is contraindicated because the loss of bicarbonate promotes salicylate movement into the brain, potentially worsening the salicylate neurotoxicity. Acidosis (choice A) does not occur initially. Salicylates first stimulate the medullary respiratory center, causing hyperventilation and respiratory alkalosis. An anion-gap metabolic acidosis can follow as a result of accumulation of organic acids such as lactic acid and ketoacids. Salicylic acid itself has only a minor effect on pH because of the low serum concentration (even on overdose). Electrocardiogram (ECG) changes (choice B) may reflect hypokalemia and include sinus tachycardia, u waves, flattened T waves, and QT prolongation. These alterations generally do not occur until the patient has blood levels consistent with serious toxicity. Hypoglycemia, not hyperglycemia (choice C), may occur as a result of aspirin toxicity. This is likely the result of increased cellular metabolism due to uncoupling of oxidative phosphorylation. It is possible to have depletion of intracellular glucose with a normal serum glucose, producing symptoms of CNS hypoglycemia (e.g., altered mental status). Supplemental glucose should be administered to patients with alterations in mental status regardless of their serum glucose concentration. Hyperventilation, not hypoventilation (choice D), can occur as a result of stimulation of the medullary respiratory center. This can initially lead to respiratory alkalosis.",
+    "fa_subchapter": "Aspirin",
+    "choice_explanations": {
+      "A": "Acidosis (choice A) does not occur initially.",
+      "B": "Electrocardiogram (ECG) changes (choice B) may reflect hypokalemia and include sinus tachycardia, u waves, flattened T waves, and QT prolongation.",
+      "C": "Hypoglycemia, not hyperglycemia (choice C), may occur as a result of aspirin toxicity.",
+      "D": "Hyperventilation, not hypoventilation (choice D), can occur as a result of stimulation of the medullary respiratory center.",
+      "E": "Correct: Aspirin remains a commonly used analgesic despite the general preference for nonsteroidal antiinflammatory drugs (NSAIDs)."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      496
+    ],
+    "fa_page": 496,
+    "fa_page_verified": true,
+    "fa_summary": "水杨酸中毒最早表现为耳鸣（累及 CN VIII）；早期呼吸性碱中毒，后期代谢性酸中毒。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-losartan-sodium-excretion-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 57-year-old man with a 2-year history of hypertension managed by diet and exercise comes to the physician for a follow-up examination. His blood pressure is 166/97 mm Hg. Laboratory studies show plasma renin activity 3-4 times higher than normal. Treatment with losartan is begun. Following administration of losartan, which of the following is most likely to be increased in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aldosterone"
+      },
+      {
+        "letter": "B",
+        "text": "Atrial natriuretic peptide"
+      },
+      {
+        "letter": "C",
+        "text": "Bradykinin"
+      },
+      {
+        "letter": "D",
+        "text": "Renal potassium excretion"
+      },
+      {
+        "letter": "E",
+        "text": "Renal sodium excretion"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. Losartan is an angiotensin receptor blocker (ARB) commonly used in the treatment of hypertension that competitively inhibits angiotensin II at the receptor. Angiotensin II is the most powerful sodium-retaining hormone of the body. The effects of angiotensin II can be attributed to: direct stimulation of sodium reabsorption in the proximal and distal tubules of the kidney; stimulation of aldosterone secretion, which is another sodium-retaining hormone; and constriction of the efferent arterioles, which increases peritubular capillary pressure, thereby enhancing reabsorption of salt and water from the proximal tubule. Therefore, when the effects of angiotensin II are blocked with losartan, the ability of the kidneys to excrete sodium increases greatly. Because angiotensin II normally stimulates aldosterone (choice A) secretion, losartan decreases plasma aldosterone levels. Overstretching of the two atria, usually as a result of increased blood volume, causes atrial natriuretic peptide (choice B) to be released into the blood. Because losartan increases the ability of the kidneys to excrete sodium (and therefore water), the blood volume should decrease, and the plasma levels of atrial natriuretic peptide should decrease. Bradykinin (choice C) levels are not affected by ARBs. However, bradykinin levels are increased in patients taking the ACE inhibitors because ACE is the enzyme responsible for the metabolism of bradykinin. Increased levels of bradykinin are thought to be the reason patients on ACEIs develop dry cough. These patients can be switched to an ARB if the dry cough is too aversive to the patient.",
+    "fa_subchapter": "Angiotensin receptor blockers",
+    "choice_explanations": {
+      "A": "Because angiotensin II normally stimulates aldosterone (choice A) secretion, losartan decreases plasma aldosterone levels.",
+      "B": "Overstretching of the two atria, usually as a result of increased blood volume, causes atrial natriuretic peptide (choice B) to be released into the blood.",
+      "C": "Bradykinin (choice C) levels are not affected by ARBs.",
+      "E": "Correct: Losartan is an angiotensin receptor blocker (ARB) commonly used in the treatment of hypertension that competitively inhibits angiotensin II at the receptor."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      628
+    ],
+    "fa_page": 628,
+    "fa_page_verified": true,
+    "fa_summary": "氯沙坦阻断 AT1 受体，降低醛固酮并增加肾脏排钠。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-morphine-steady-state-concentration-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 29-year-old man is brought to the emergency department 20 minutes after being involved in a motor vehicle collision. Treatment with a continuous infusion of morphine at a dose of 0.1 mg/min is begun. The half-life of morphine is 1.9 hours and its volume of distribution (Vd) is 230 L. The clearance (CL) for morphine is 60 L/h. Which of the following is the steady-state concentration that will most likely be attained?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.0016 mg/L"
+      },
+      {
+        "letter": "B",
+        "text": "0.016 mg/L"
+      },
+      {
+        "letter": "C",
+        "text": "0.026 mg/L"
+      },
+      {
+        "letter": "D",
+        "text": "0.1 mg/L"
+      },
+      {
+        "letter": "E",
+        "text": "0.26 mg/L"
+      },
+      {
+        "letter": "F",
+        "text": "1.0 mg/L"
+      },
+      {
+        "letter": "G",
+        "text": "2.6 mg/L"
+      },
+      {
+        "letter": "H",
+        "text": "10 mg/L"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. In the calculation of an appropriate dosing rate, drug clearance is the most important pharmacokinetic value to consider when determining a rational steady-state drug dosage regimen. At steady-state, the dosing rate (\"rate in\") must equal the rate of elimination (\"rate out\"). Remember to keep all of the \"time\" and \"volume\" units the same. Hence, 60 L/h = 1 L/min. Dosing rate = Css x CL. The equation can be rearranged to solve for Css: Css = Dosing rate/CL = (0.1 mg/min)/(1 L/min) = 0.1 mg/L.",
+    "fa_subchapter": "Pharmacokinetics",
+    "choice_explanations": {
+      "D": "Correct: In the calculation of an appropriate dosing rate, drug clearance is the most important pharmacokinetic value to consider when determining a rational steady-state drug dosage regimen."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      229
+    ],
+    "fa_page": 229,
+    "fa_page_verified": true,
+    "fa_summary": "稳态浓度 Css = 给药速率/清除率 = (0.1 mg/min)/(1 L/min) = 0.1 mg/L。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-benzodiazepine-gaba-frequency-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 33-year-old woman comes to the physician because of constant worrying, muscular tension, poor concentration, and restlessness. She also reports that although she is a generally happy person, her \"constant worrying about work, the kids, and her house\" sometimes makes it difficult to either fall asleep or stay asleep, causing her fatigue. She further states that these symptoms have been occurring for the past 8-9 months and cannot recall a specific event that makes them worse or could have caused them to begin. She does not drink alcohol or use illicit drugs. Which of the following mechanisms best describes the drug of choice for the short-term management of this patient's condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Blocks beta-adrenergic receptors"
+      },
+      {
+        "letter": "B",
+        "text": "Increases the duration of GABAA channel opening"
+      },
+      {
+        "letter": "C",
+        "text": "Increases the frequency of GABAA channel opening"
+      },
+      {
+        "letter": "D",
+        "text": "Increases the release of norepinephrine from central noradrenergic neurons"
+      },
+      {
+        "letter": "E",
+        "text": "Inhibits biogenic amine reuptake at the presynaptic neuron"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. Generalized anxiety disorder is associated with excessive worry and can lead to symptoms such as insomnia, muscle tension, impaired concentration, autonomic arousal, and restlessness. The DSM-5 diagnostic criteria for generalized anxiety disorder is outlined below. First-line medications for the treatment of generalized anxiety disorder are the selective-serotonin reuptake inhibitors (SSRIs) and serotonin-norepinephrine reuptake inhibitors (SNRIs). However, since it takes several weeks for the full beneficial effects of these agents to be realized, the use of a benzodiazepine in the short-term may be initially indicated. GABA (gamma-aminobutyrate) reduces the firing rate of neurons and is the primary inhibitory neurotransmitter in the brain. The GABAA receptor is a chloride ion channel receptor. Benzodiazepines such as lorazepam, alprazolam, and diazepam potentiate the effects of GABA at the GABAA receptor by increasing the frequency of GABAA channel opening, leading to antianxiety, sedative, and anticonvulsant effects. In contrast, barbiturates such as phenobarbital potentiate GABA at the GABAA receptor by increasing the duration of channel opening (choice B). Note that benzodiazepines are much safer than barbiturates. Barbiturates are used less frequently because of the safety issues and are used primarily for seizures and sometimes for induction of anesthesia. Propranolol and metoprolol are beta-blockers, since they antagonize beta-adrenergic receptors (choice A). Beta-blockers are indicated for the treatment of hypertension, angina pectoris, and various other cardiovascular conditions. Amphetamines act, in part, by increasing the release of norepinephrine from central noradrenergic neurons (choice D). They are indicated for the treatment of narcolepsy, attention deficit disorder with hyperactivity, and exogenous obesity. Tricyclic antidepressants, such as amitriptyline, nortriptyline and doxepin, block the uptake of biogenic amines (norepinephrine and serotonin) at the presynaptic neuron (choice E). These agents are second-line drugs for the treatment of major depressive disorder and anxiety disorders. Like the SSRIs and SNRIs, the full beneficial effects of these drugs will not be apparent for several weeks, and would not be indicated for the short-term treatment of this patient's condition.",
+    "fa_subchapter": "Benzodiazepines",
+    "choice_explanations": {
+      "A": "Propranolol and metoprolol are beta-blockers, since they antagonize beta-adrenergic receptors (choice A).",
+      "B": "In contrast, barbiturates such as phenobarbital potentiate GABA at the GABAA receptor by increasing the duration of channel opening (choice B).",
+      "C": "Correct: Generalized anxiety disorder is associated with excessive worry and can lead to symptoms such as insomnia, muscle tension, impaired concentration, autonomic arousal, and restlessness.",
+      "D": "Amphetamines act, in part, by increasing the release of norepinephrine from central noradrenergic neurons (choice D).",
+      "E": "Tricyclic antidepressants, such as amitriptyline, nortriptyline and doxepin, block the uptake of biogenic amines (norepinephrine and serotonin) at the presynaptic neuron (choice E)."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      562
+    ],
+    "fa_page": 562,
+    "fa_page_verified": true,
+    "fa_summary": "苯二氮䓬类增加 GABAA 受体氯通道开放频率（巴比妥类延长开放时间）。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-fibrate-gallstones-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 54-year-old woman with a 3-year history of type 2 diabetes comes to the physician for a follow-up appointment. She is 162 cm (5 ft 4 in) tall, weighs 82 kg (181 lb); BMI is 31 kg/m2. Laboratory studies show: total cholesterol 190 mg/dL, triglycerides 940 mg/dL, HDL 24 mg/dL, hemoglobin A1c 9.5%. She is currently taking metformin and glipizide. The physician then prescribes a drug that activates peroxisome proliferator-activated receptor-alpha (PPAR-alpha). Which of the following symptoms will this patient most likely experience as a result of the latest drug added to her regimen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Constipation"
+      },
+      {
+        "letter": "B",
+        "text": "Facial flushing"
+      },
+      {
+        "letter": "C",
+        "text": "Hyperglycemia"
+      },
+      {
+        "letter": "D",
+        "text": "Rhabdomyolysis"
+      },
+      {
+        "letter": "E",
+        "text": "Right upper quadrant abdominal pain"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. Fibrates such as gemfibrozil, fenofibrate, and clofibrate activate peroxisome proliferator-activated receptor-alpha (PPAR-alpha) and increase the expression of lipoprotein lipases. PPARs are a group of nuclear receptor proteins that act as transcription factors. Fibrates act on PPAR-alpha, whereas the antidiabetic thiazolidinediones (e.g., pioglitazone) act on PPAR-gamma. Fibric acid derivatives lower triglycerides by approximately 35-50% and increase HDL-c by 5-20%. Fibrates increase the cholesterol content of bile, and therefore increase the risk of gallstones, which can manifest as right upper quadrant pain. The risk is greatest with clofibrate, and this agent is less frequently used. Fibrates also cause muscle toxicity, which is exacerbated when taken in combination with statins. Constipation (choice A) is a frequent complaint with bile acid sequestrants such as cholestyramine and colestipol. Gemfibrozil, for example, is commonly associated with diarrhea. Facial flushing (choice B) is an adverse effect of niacin. Niacin also causes flushing, hyperglycemia, hyperuricemia, and a chemical hepatitis. Niacin can cause hyperglycemia (choice C) and hyperuricemia. Rhabdomyolysis (choice D) is a rare, but potentially life-threatening side effect of statins. Statins act by inhibiting HMG-CoA reductase; examples include simvastatin, pravastatin, lovastatin, and atorvastatin. Other adverse effects of statins include myopathy and hepatotoxicity. Fibrates can increase the risk of rhabdomyolysis when given with statins.",
+    "fa_subchapter": "Fibrates",
+    "choice_explanations": {
+      "A": "Constipation (choice A) is a frequent complaint with bile acid sequestrants such as cholestyramine and colestipol.",
+      "B": "Facial flushing (choice B) is an adverse effect of niacin.",
+      "C": "Niacin can cause hyperglycemia (choice C) and hyperuricemia.",
+      "D": "Rhabdomyolysis (choice D) is a rare, but potentially life-threatening side effect of statins.",
+      "E": "Correct: Fibrates such as gemfibrozil, fenofibrate, and clofibrate activate peroxisome proliferator-activated receptor-alpha (PPAR-alpha) and increase the expression of lipoprotein lipases."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      325
+    ],
+    "fa_page": 325,
+    "fa_page_verified": true,
+    "fa_summary": "贝特类激活 PPAR-α 降低甘油三酯，增加胆汁胆固醇→胆结石、右上腹痛。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-leishmaniasis-sodium-stibogluconate-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 22-year-old man who is a soldier in the Armed Forces comes to the physician because of a non-healing, ulcerated lesion on his left hand. He returned from a tour of duty in Afghanistan two months ago and says he was bitten on his hand by a bug shortly before he returned to the United States. If this infection is transmitted by the bite of female phlebotomine sandfly, which of the following drugs is most appropriate for this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Albendazole"
+      },
+      {
+        "letter": "B",
+        "text": "Cefuroxime"
+      },
+      {
+        "letter": "C",
+        "text": "Ganciclovir"
+      },
+      {
+        "letter": "D",
+        "text": "Pyrazinamide"
+      },
+      {
+        "letter": "E",
+        "text": "Sodium stibogluconate"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. In this question, you must make the correct diagnosis, then determine the most optimal therapy. The patient is suffering from cutaneous leishmaniasis. Leishmaniasis is a vector-borne disease caused by a heterogeneous group of protozoa belonging to the genus Leishmania. Leishmaniasis is transmitted by sand fly vectors and can produce both cutaneous and visceral manifestations. Skin manifestations include erythematous macules or papules, and skin ulcers, which form at the site of original lesion and heal slowly (over a period of months). Cutaneous leishmaniasis can progress to mucosal or visceral leishmaniasis. Ulcers of the mouth, tongue, gums, lips, nose, and nasal septum may occur. Dysphagia with esophageal involvement and dyspnea can also occur. Visceral leishmaniasis is associated with fever, which can be persistent and can last for weeks, or may cycle irregularly. Night sweats, fatigue, weakness, anorexia, weight loss, thinning of the hair, and scaly gray, dark, ashen skin also occur. Death, often within 2 years in untreated individuals, usually results from complications (often infectious) rather than from the disease itself. Cases of leishmaniasis have been reported on all continents except Australia. In the Americas, Leishmania can be found in Mexico and south into the South American continent. Antimony-containing compounds are the principal medications used to treat localized cutaneous leishmaniasis, and include sodium stibogluconate and meglumine antimonate. Paromomycin ointment can also be used for the topical treatment of milder forms of localized cutaneous leishmaniasis. Other medications that may be used for systemic therapy include azoles (fluconazole, itraconazole), pentamidine, and amphotericin B. The azoles can be used for moderate cases of cutaneous and visceral leishmaniasis. However, amphotericin B is the drug of choice for the treatment of severe diffuse cutaneous and visceral leishmaniasis. Albendazole (choice A) is a broad-spectrum antiparasitic indicated for the treatment of “worm” infections, such as Enterobius vermicularis, Trichuris trichiura, and Ascaris lumbricoides. Cefuroxime (choice B) is a second-generation cephalosporin indicated for a variety of gram-negative and gram-positive bacteria. Ganciclovir (choice C) is used in the treatment and prophylaxis of cytomegalovirus infections in both solid organ transplant and HIV-infected patients. Pyrazinamide (choice D) is a bactericidal agent typically used in short-course therapy for the treatment of Mycobacterium tuberculosis infections.",
+    "fa_subchapter": "Leishmaniasis",
+    "choice_explanations": {
+      "A": "Albendazole (choice A) is a broad-spectrum antiparasitic indicated for the treatment of “worm” infections, such as Enterobius vermicularis, Trichuris trichiura, and Ascaris lumbricoides.",
+      "B": "Cefuroxime (choice B) is a second-generation cephalosporin indicated for a variety of gram-negative and gram-positive bacteria.",
+      "C": "Ganciclovir (choice C) is used in the treatment and prophylaxis of cytomegalovirus infections in both solid organ transplant and HIV-infected patients.",
+      "D": "Pyrazinamide (choice D) is a bactericidal agent typically used in short-course therapy for the treatment of Mycobacterium tuberculosis infections.",
+      "E": "Correct: In this question, you must make the correct diagnosis, then determine the most optimal therapy."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      155
+    ],
+    "fa_page": 155,
+    "fa_page_verified": true,
+    "fa_summary": "皮肤利什曼病由白蛉传播；一线治疗用五价锑剂（葡萄糖酸锑钠）。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-g6pd-prostatitis-antibiotic-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 67-year-old African-American man comes to the physician because of fever, increased frequency of urination, and perineal pain. He has a history of type 2 diabetes and an X-linked recessive disorder, which causes red cell hemolysis. Digital rectal examination shows a boggy and tender prostate. Cultures of urine grow E coli. The physician then prescribes an antimicrobial agent used in the treatment of this condition. Which of the following would most likely be contraindicated for use in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ampicillin"
+      },
+      {
+        "letter": "B",
+        "text": "Cefaclor"
+      },
+      {
+        "letter": "C",
+        "text": "Nitrofurantoin"
+      },
+      {
+        "letter": "D",
+        "text": "Sulfamethoxazole/trimethoprim"
+      },
+      {
+        "letter": "E",
+        "text": "Tetracycline"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. This patient is presenting with signs and symptoms suggestive of acute bacterial prostatitis, which is associated with fever, chills, perineal/prostatic pain, dysuria, obstructive urinary tract symptoms, and potentially lower back or abdominal pain. This condition is generally treated with a 14 to 28 day course of antibiotics, which include sulfamethoxazole/trimethoprim (SMX-TMP) or a fluoroquinolone (e.g., ciprofloxacin, levofloxacin). Glucose-6-phosphate dehydrogenase (G6PD) is part of the hexose monophosphate (HMP) shunt (pentose phosphate pathway) and catalyzes the oxidation of glucose-6-phosphate and the reduction of nicotinamide adenine dinucleotide phosphate (NADP+) to NADPH. NADPH maintains glutathione in its reduced form, which acts as a scavenger for dangerous reactive oxygen species (ROS). Because red blood cells (RBCs) contain a large amount of oxygen, they are prone to spontaneously generate ROS that damage protein and lipid in the cell. In the presence of ROS, hemoglobin may precipitate (Heinz bodies) and membrane lipids may undergo peroxidation, weakening the membrane and causing hemolysis. As peroxides form, they are normally rapidly destroyed by the glutathione peroxidase/glutathione reductase system in the RBC, thus avoiding these complications. Patients with glucose-6-phosphate dehydrogenase (G6PD or G6PDH) deficiency (an X-linked recessive disorder affecting 10-15% of African-American males) may develop hemolytic anemia as a result of oxidative stress (due to insufficient NADPH to reduce glutathione) in red blood cells (RBCs), generated either by infections or exposure to certain drugs (e.g., sulfamethoxazole/trimethoprim), nitrofurantoin, fluoroquinolones, isoniazid, dapsone, primaquine, and quinine, or ingesting fava beans. Cefaclor (choice B) is a second-generation cephalosporin indicated for a variety of bacterial infections, including those of the respiratory and gastrointestinal tracts, and skin and soft-tissue infections, as well as several other types of bacterial infections. Nitrofurantoin (choice C) is an antibacterial commonly used in the treatment and prophylaxis of uncomplicated cystitis. Although this medication is contraindicated for use in patients with G6PD deficiency, it is not used in the treatment of acute bacterial prostatitis, and is an incorrect answer choice. Tetracycline (choice E) is most commonly used in the treatment of acne vulgaris and gonococcal infections.",
+    "fa_subchapter": "Pentose phosphate pathway",
+    "choice_explanations": {
+      "B": "Cefaclor (choice B) is a second-generation cephalosporin indicated for a variety of bacterial infections, including those of the respiratory and gastrointestinal tracts, and skin and soft-tissue infections, as well as several other types of bacterial infections.",
+      "C": "Nitrofurantoin (choice C) is an antibacterial commonly used in the treatment and prophylaxis of uncomplicated cystitis.",
+      "D": "Correct: This patient is presenting with signs and symptoms suggestive of acute bacterial prostatitis, which is associated with fever, chills, perineal/prostatic pain, dysuria, obstructive urinary tract symptoms, and potentially lower back or abdominal pain.",
+      "E": "Tetracycline (choice E) is most commonly used in the treatment of acne vulgaris and gonococcal infections."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      77
+    ],
+    "fa_page": 77,
+    "fa_page_verified": true,
+    "fa_summary": "G6PD 缺乏（X 连锁隐性）者禁用磺胺、呋喃妥因等氧化性药物，可致溶血。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-botulinum-toxin-snare-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 45-year-old woman who is an actress comes to a physician because she is concerned about facial wrinkles. The physician recommends botulinum toxin injections. Which of the following best describes the mechanism of action of this medication?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Blocks nicotinic acetylcholine receptors"
+      },
+      {
+        "letter": "B",
+        "text": "Blocks voltage-gated sodium channels in neurons"
+      },
+      {
+        "letter": "C",
+        "text": "Inhibits calcium release from the sarcoplasmic reticulum of muscle"
+      },
+      {
+        "letter": "D",
+        "text": "Inhibits uptake of acetylcholine into the motor neurons"
+      },
+      {
+        "letter": "E",
+        "text": "Prevents fusion of motor neuron secretory vesicles with the nerve membrane"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. Botulinum toxin is a protein toxin produced by the gram-positive, spore-forming, obligate anaerobe Clostridium botulinum. Botulinum toxin blocks neuromuscular conduction by binding to protein sites on motor nerve terminals, entering nerve terminals via endocytosis, and inhibiting the release of acetylcholine (ACh), thereby reducing local skeletal muscle activity. Different subtypes of the toxin cleave different SNARE proteins, which are essential to the successful docking and release of acetylcholine from vesicles located within nerve endings. Examples of SNARE proteins are SNAP-25 and synaptobrevin. The toxin causes flaccid paralysis of the muscle, resulting in a localized reduction in muscle activity. Additionally, the muscle may atrophy, axonal sprouting may occur and extra-junctional acetylcholine receptors may be expressed. Pharmacologically the botulinum toxin is sold as onabotulinumtoxinA (Botox). It is used to treat moderate-severe glabellar and lateral canthal lines as well as overactive bladder, migraine headache prophylaxis, upper limb spasticity and cervical dystonia.",
+    "fa_subchapter": "Bacteria with exotoxins",
+    "choice_explanations": {
+      "E": "Correct: Botulinum toxin is a protein toxin produced by the gram-positive, spore-forming, obligate anaerobe Clostridium botulinum."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      130
+    ],
+    "fa_page": 130,
+    "fa_page_verified": true,
+    "fa_summary": "肉毒毒素切割 SNARE 蛋白，阻止乙酰胆碱囊泡与运动神经末梢膜融合，致弛缓性麻痹。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-celecoxib-cox2-gi-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 58-year-old woman with rheumatoid arthritis comes to the physician because of frequent stomach aches for the past 8 months. She is currently taking aspirin daily for her joint pain. Treatment with an alternate drug is initiated that is relatively similar in overall effectiveness, but is less likely to cause gastric irritation. This alternate drug is most likely which of the following?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Celecoxib"
+      },
+      {
+        "letter": "B",
+        "text": "Gabapentin"
+      },
+      {
+        "letter": "C",
+        "text": "Hydrocodone"
+      },
+      {
+        "letter": "D",
+        "text": "Ibuprofen"
+      },
+      {
+        "letter": "E",
+        "text": "Naproxen"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. Celecoxib is a selective cyclooxygenase (COX)-2 inhibitor that is usually prescribed because it causes less gastrointestinal toxicity when compared with conventional nonsteroidal anti-inflammatory drugs (NSAIDs). Cyclooxygenase-1 (COX-1) is known to be present throughout most tissues. In the gastrointestinal tract, COX-1 maintains the normal lining of the stomach. This enzyme is also involved in kidney and platelet function. Cyclooxygenase-2 (COX-2) is primarily restricted to sites of inflammation. By targeting COX-2 specifically, celecoxib theoretically provides relief from inflammation, while sparing degradative effects on the stomach lining. Celecoxib has been approved for pain relief associated with rheumatoid arthritis (RA), and osteoarthritis (OA), as well as for a variety of acute and chronic pain syndromes. Potential cardiotoxicity resulted in the withdrawal of rofecoxib, valdecoxib, and parecoxib from the market. Although the potential for cardiotoxicity exists with all of the NSAIDs and celecoxib, these agents remain on the market since it is believed that the potential for developing this side effect is much lower with these agents. Gabapentin (choice B) is an analgesic and antiepileptic used for epilepsy, postherpetic neuralgia, neuropathic pain, and restless legs syndrome (RLS). It does not have anti-inflammatory effects and is not used for rheumatoid arthritis. Hydrocodone (choice C) is an opioid analgesic indicated for the treatment of moderate to severe pain as well as cough suppression. It would not be indicated for use in this patient since it has no anti-inflammatory effects. Ibuprofen (choice D) and naproxen (choice E) are non-selective NSAIDs. These may help with the pain and inflammation, but they will also continue to cause gastric irritation.",
+    "fa_subchapter": "Arachidonic acid pathways",
+    "choice_explanations": {
+      "A": "Correct: Celecoxib is a selective cyclooxygenase (COX)-2 inhibitor that is usually prescribed because it causes less gastrointestinal toxicity when compared with conventional nonsteroidal anti-inflammatory drugs (NSAIDs).",
+      "B": "Gabapentin (choice B) is an analgesic and antiepileptic used for epilepsy, postherpetic neuralgia, neuropathic pain, and restless legs syndrome (RLS).",
+      "C": "Hydrocodone (choice C) is an opioid analgesic indicated for the treatment of moderate to severe pain as well as cough suppression.",
+      "D": "Ibuprofen (choice D) and naproxen (choice E) are non-selective NSAIDs.",
+      "E": "Ibuprofen (choice D) and naproxen (choice E) are non-selective NSAIDs."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      495
+    ],
+    "fa_page": 495,
+    "fa_page_verified": true,
+    "fa_summary": "塞来昔布选择性抑制 COX-2，保留 COX-1 对胃黏膜的保护，胃肠刺激更小。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-gout-thiazide-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 52-year-old man comes to the physician because of severe pain in his first metatarsophalangeal joint. He says that the pain was so bad that it woke him up from sleep. Physical examination shows a tender and erythematous metatarsophalangeal joint. Laboratory studies show leukocyte count is 12 x 10(9)/mm3, creatinine is 1.0 mg/dL, calcium is 8.6 mg/dL, and uric acid is 9.5 mg/dL. A review of his records shows that the patient was started on a new drug 2 weeks ago. Which of the following drugs is the most likely cause of this patient's symptoms?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aripiprazole"
+      },
+      {
+        "letter": "B",
+        "text": "Enalapril"
+      },
+      {
+        "letter": "C",
+        "text": "Felodipine"
+      },
+      {
+        "letter": "D",
+        "text": "Hydrochlorothiazide"
+      },
+      {
+        "letter": "E",
+        "text": "Pravastatin"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. Acute gouty arthritis (AGA) is characterized by the rapid onset of pain, swelling, and inflammation. The attack is often monoarticular at first, affecting the first metatarsophalangeal (MTP) joint; eventually, it may involve the insteps, ankles, heels, knees, wrists, fingers, and elbows. Note: >90% of all gouty patients experience attacks in the great toe. Uric acid levels are generally >7.5 mg/dL when an attack occurs. Acute gouty arthritis occurs in urate crystal deposition disease (gout), which occurs when uric acid or urate accumulates in blood or tissues. When the tissues become supersaturated, urate salts precipitate, forming crystals. Crystals are more likely to form in cool, peripheral joints. Phagocytosis of the urate crystals by leukocytes leads to rapid lysis of cells, which subsequently leads to an inflammatory reaction that causes intense joint pain, erythema, warmth, and swelling. Changes in urate levels, leading to gout flares, can result from acute alcohol intoxication, overindulgence of foods high in purines, rapid weight loss, dehydration, and trauma. Medications (e.g., thiazide or loop diuretics, allopurinol, uricosuric agents, low-dose aspirin) can also precipitate gout. Thiazides such as hydrochlorothiazide can increase serum urate concentrations by as much as 35% by decreasing the renal clearance of urate. Possible mechanisms include competition for the same organic anion transporter pathway and extracellular volume depletion. None of the other drugs affect uric acid elimination and are not associated with the development of AGA. Aripiprazole (choice A) is an atypical antipsychotic used for the treatment of schizophrenia, bipolar disorder, and adjunct treatment of major depression. It is not associated with AGA but can cause weight gain, extrapyramidal side effects (though less than the typical antipsychotics), and insomnia. Enalapril (choice B) is an angiotensin-converting enzyme inhibitor that is associated with anaphylactoid reactions, angioedema, hypotension, hyperkalemia, and cough. Felodipine (choice C) is a calcium channel blocking agent associated with hypotension, reflex tachycardia, peripheral edema, and dizziness. Pravastatin (choice E) is an HMG-CoA reductase inhibitor indicated for the treatment of hyperlipidemia. This drug is most commonly associated with the development of myopathy, myalgia, rhabdomyolysis, and hepatic enzyme elevation.",
+    "fa_subchapter": "Gout",
+    "choice_explanations": {
+      "A": "Aripiprazole (choice A) is an atypical antipsychotic used for the treatment of schizophrenia, bipolar disorder, and adjunct treatment of major depression.",
+      "B": "Enalapril (choice B) is an angiotensin-converting enzyme inhibitor that is associated with anaphylactoid reactions, angioedema, hypotension, hyperkalemia, and cough.",
+      "C": "Felodipine (choice C) is a calcium channel blocking agent associated with hypotension, reflex tachycardia, peripheral edema, and dizziness.",
+      "D": "Correct: Acute gouty arthritis (AGA) is characterized by the rapid onset of pain, swelling, and inflammation.",
+      "E": "Pravastatin (choice E) is an HMG-CoA reductase inhibitor indicated for the treatment of hyperlipidemia."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      473
+    ],
+    "fa_page": 473,
+    "fa_page_verified": true,
+    "fa_summary": "噻嗪类利尿剂减少尿酸排泄→诱发急性痛风性关节炎（第一跖趾关节）。",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-pharm-cyclosporine-calcineurin-20261004",
+    "chapter": "Pharmacology",
+    "stem": "A 27-year-old woman with a history of infection with hepatitis B virus develops fulminant hepatitis. A liver transplant is successfully performed, and treatment is begun with an immunosuppressant drug that complexes with cyclophilin and subsequently inhibits calcineurin to prevent rejection of the transplant. The dose of this drug is limited because of nephrotoxicity. The physician explains the adverse effects of this drug and recommends avoiding consumption of grapefruit and grapefruit juice when taking this drug. Which of the following is the most likely immunosuppressant administered to this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Azathioprine"
+      },
+      {
+        "letter": "B",
+        "text": "Cyclosporine"
+      },
+      {
+        "letter": "C",
+        "text": "Muromonab-CD3"
+      },
+      {
+        "letter": "D",
+        "text": "Mycophenolate mofetil"
+      },
+      {
+        "letter": "E",
+        "text": "Tacrolimus"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. Cyclosporine is indicated for the prevention of renal, heart, and liver transplant rejection and the treatment of rheumatoid arthritis; it may be effective in patients with systemic lupus erythematosus, polymyositis/dermatomyositis, and granulomatosis with polyangiitis (Wegener's). Cyclosporine binds to cyclophilin in lymphocytes and this complex inhibits calcineurin. Calcineurin normally stimulates transcription factors that lead to increased production of interleukin 2 and related cytokines. Thus, cyclosporine decreases production of IL-2. Cyclosporine has many drug interactions because it is largely metabolized by the CYP3A enzyme system; compounds that alter the activity of this enzyme also affect cyclosporine levels. Grapefruit juice inhibits CYP3A, resulting in increased blood concentrations of cyclosporine. Common adverse effects seen with cyclosporine include elevated BUN, hypertension, tremor, infection, and renal impairment. Serious reactions include severe hypertension, severe hyperkalemia, thrombocytopenia, leukopenia, neutropenia, immunosuppression, nephrotoxicity, neurotoxicity, seizures, and opportunistic infections. Tacrolimus (choice E) is also nephrotoxic, is metabolized by CYP3A, and inhibits IL-2 transcription through a calcineurin-dependent mechanism. However, tacrolimus specifically binds the immunophilin FK506-binding protein rather than cyclophilin. Tacrolimus is a soil fungus-derived macrolide that is indicated for kidney, heart, and liver transplant rejection prophylaxis. Common adverse effects seen with tacrolimus include tremor, hypertension, infection, and renal impairment. Serious reactions include thrombocytopenia, leukopenia, neutropenia, immunosuppression, nephrotoxicity, neurotoxicity, seizures, and opportunistic infections. The immunosuppressant azathioprine (choice A) is converted to 6-mercaptopurine, which inhibits DNA purine synthesis and subsequent T-cell proliferation. Azathioprine is indicated as an adjunct medication for the prevention of rejection in renal homotransplantation and treatment of rheumatoid arthritis. Muromonab-CD3 (choice B) is a monoclonal anti-CD3 antibody, and is also immunosuppressive. It binds to the T cell receptor-CD3 complex, leading to decreased T cell activation. Muromonab-CD3 is indicated for kidney transplants, steroid-resistant heart transplants, and steroid-resistant liver transplants. Mycophenolate mofetil (choice D) is indicated for the prophylaxis of organ rejection in patients receiving allogeneic renal, cardiac, or hepatic transplants. Mycophenolate, an inhibitor of de novo synthesis of purines, has adjunctive immunosuppressant actions (should be used in combination with cyclosporine and a corticosteroid), permitting dose reductions of cyclosporine and the corticosteroid to limit toxicity. Common adverse effects seen with this medication include hypertension, infection, peripheral edema, and hypercholesterolemia. Serious reactions include thrombocytopenia, leukopenia, neutropenia, immunosuppression, and opportunistic infections.",
+    "fa_subchapter": "Immunosuppressants",
+    "choice_explanations": {
+      "A": "The immunosuppressant azathioprine (choice A) is converted to 6-mercaptopurine, which inhibits DNA purine synthesis and subsequent T-cell proliferation.",
+      "B": "Muromonab-CD3 (choice B) is a monoclonal anti-CD3 antibody, and is also immunosuppressive.",
+      "D": "Mycophenolate mofetil (choice D) is indicated for the prophylaxis of organ rejection in patients receiving allogeneic renal, cardiac, or hepatic transplants.",
+      "E": "Tacrolimus (choice E) is also nephrotoxic, is metabolized by CYP3A, and inhibits IL-2 transcription through a calcineurin-dependent mechanism."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      118
+    ],
+    "fa_page": 118,
+    "fa_page_verified": true,
+    "fa_summary": "环孢素结合亲环素抑制钙调磷酸酶→抑制 IL-2；经 CYP3A4 代谢，葡萄柚汁升高其浓度。",
+    "option_fa": {}
   }
 ]
