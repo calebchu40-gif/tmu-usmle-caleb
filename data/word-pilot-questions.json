@@ -17034,13 +17034,13 @@
   },
   {
     "id": "import-b064de88d7d7b58611261732",
-    "chapter": "Biochemistry",
-    "fa_subchapter": "Immunology",
-    "stem": "A 30-year-old woman presents with fatigue, malaise, low-grade fever, and arthralgias. Laboratory studies show leukocytes 11,500/mm³, erythrocytes 3.2 million/mm³, hemoglobin 10.8 g/dL, MCV 85 fL, BUN 30 mg/dL, and creatinine 1.7 mg/dL. Urinalysis shows 2+ protein and 2+ blood. Which test is most useful to confirm the suspected diagnosis?",
+    "chapter": "Immunology",
+    "fa_subchapter": "Immune Responses / Autoantibodies",
+    "stem": "A 30-year-old woman comes to the physician because of fatigue, malaise, low-grade fever, and sore joints. Laboratory studies show a leukocyte count of 11,500/mm³, erythrocyte count of 3.2 million/mm³, hemoglobin of 10.8 g/dL, MCV of 85 μm³, BUN of 30 mg/dL, and creatinine of 1.7 mg/dL. Urinalysis shows 2+ protein and 2+ blood. Which diagnostic test is most appropriate to confirm the likely diagnosis?",
     "options": [
       {
         "letter": "A",
-        "text": "Anticentromere antibody"
+        "text": "Anti-centromere antibody"
       },
       {
         "letter": "B",
@@ -17048,11 +17048,11 @@
       },
       {
         "letter": "C",
-        "text": "Antimitochondrial antibody"
+        "text": "Anti-mitochondrial antibody"
       },
       {
         "letter": "D",
-        "text": "Anti-TSH-receptor antibody"
+        "text": "Anti-thyroid-stimulating hormone (TSH) receptor antibody"
       },
       {
         "letter": "E",
@@ -17060,59 +17060,44 @@
       }
     ],
     "answer": "B",
-    "explanation": "The systemic symptoms, inflammatory joint complaints, anemia, and proteinuria/hematuria with impaired renal function suggest SLE with lupus nephritis. Anti-dsDNA is relatively specific for SLE and correlates with nephritis/activity, although it is not highly sensitive; a negative result does not exclude SLE.",
+    "explanation": "Fatigue, fever, inflammatory joint symptoms, anemia, and hematuria/proteinuria with elevated BUN and creatinine suggest systemic lupus erythematosus with lupus nephritis. Anti-dsDNA antibodies are relatively specific for SLE and are associated with renal involvement and disease activity, although sensitivity is imperfect and a negative test does not exclude SLE. Lupus nephritis results from deposition of DNA–anti-DNA immune complexes in glomeruli.",
     "choice_explanations": {
-      "A": "Anticentromere antibody is associated with limited cutaneous systemic sclerosis/CREST, not lupus nephritis.",
-      "B": "Correct. Anti-dsDNA supports SLE and is associated with lupus nephritis.",
-      "C": "Antimitochondrial antibody is associated with primary biliary cholangitis.",
-      "D": "TSH-receptor antibodies are associated with Graves disease.",
-      "E": "Rheumatoid factor can occur in rheumatoid arthritis and other conditions but is not the best confirmatory test for suspected SLE nephritis."
+      "A": "Incorrect. Anti-centromere antibodies are associated with limited cutaneous systemic sclerosis (CREST syndrome).",
+      "B": "Correct. Anti-dsDNA antibodies are associated with SLE and lupus nephritis; the renal findings make this a particularly relevant confirmatory serology.",
+      "C": "Incorrect. Anti-mitochondrial antibodies are associated with primary biliary cholangitis, not SLE nephritis.",
+      "D": "Incorrect. TSH-receptor antibodies are associated with Graves disease, not this systemic immune-complex renal presentation.",
+      "E": "Incorrect. Rheumatoid factor is associated with rheumatoid arthritis and is not specific for SLE; it does not confirm lupus nephritis."
     },
     "option_fa": {
       "A": {
         "verified": true,
         "no_direct_match": false,
-        "text": "p. 113 lists autoantibody associations; p. 481 associates anticentromere antibody with CREST.",
-        "pages": [
-          113,
-          481
-        ]
+        "text": "Anti-centromere antibody is associated with limited systemic sclerosis (CREST).",
+        "page": 113
       },
       "B": {
         "verified": true,
         "no_direct_match": false,
-        "text": "p. 113 lists anti-dsDNA among SLE antibodies; p. 476 covers SLE/lupus nephritis.",
-        "pages": [
-          113,
-          476
-        ]
+        "text": "Anti-dsDNA is associated with SLE; p.476 links DNA–anti-DNA immune-complex deposition to lupus nephritis.",
+        "page": 113
       },
       "C": {
         "verified": true,
         "no_direct_match": false,
-        "text": "p. 113 lists antimitochondrial antibody; p. 402 covers primary biliary cholangitis.",
-        "pages": [
-          113,
-          402
-        ]
+        "text": "Antimitochondrial antibody is associated with primary biliary cholangitis.",
+        "page": 113
       },
       "D": {
         "verified": true,
         "no_direct_match": false,
-        "text": "p. 113 lists TSH-receptor antibody; p. 344 covers Graves disease.",
-        "pages": [
-          113,
-          344
-        ]
+        "text": "TSH-receptor antibodies are associated with Graves disease.",
+        "page": 113
       },
       "E": {
         "verified": true,
         "no_direct_match": false,
-        "text": "p. 113 lists rheumatoid factor; p. 472 covers rheumatoid arthritis.",
-        "pages": [
-          113,
-          472
-        ]
+        "text": "Rheumatoid factor is associated with rheumatoid arthritis.",
+        "page": 113
       }
     },
     "reviewed": true,
@@ -17124,7 +17109,7 @@
     ],
     "fa_page": 113,
     "fa_page_verified": true,
-    "fa_summary": "The systemic symptoms, inflammatory joint complaints, anemia, and proteinuria/hematuria with impaired renal function suggest SLE with lupus nephritis. Anti-dsDNA is relatively specific for SLE and correlates with nephritis/activity, although it is not highly sensitive; a negative result does not exclude SLE."
+    "fa_summary": "First Aid 2026 printed p.113 lists anti-dsDNA and anti-Smith antibodies with SLE, and distinguishes the distractor antibodies: anticentromere with limited scleroderma/CREST, antimitochondrial with primary biliary cholangitis, TSH-receptor antibody with Graves disease, and rheumatoid factor with rheumatoid arthritis. Printed p.476 describes lupus nephritis from glomerular DNA–anti-DNA immune-complex deposition and its hematuric/proteinuric presentations."
   },
   {
     "id": "import-b8b9efb205999d6f279b79e0",
@@ -23102,5 +23087,98 @@
     "fa_page": 357,
     "fa_page_verified": true,
     "fa_summary": "MEN1 includes pancreatic endocrine tumors such as gastrinomas. In Zollinger–Ellison syndrome, a positive secretin stimulation test produces increased gastrin after secretin administration, unlike the normal inhibitory response."
+  },
+  {
+    "id": "import-ddc3ae99e3c9fee2f94fb159",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Colorectal cancer risk / Lynch syndrome / FAP",
+    "stem": "A 60-year-old man comes to the physician for health maintenance. He has no complaints, drinks no more than one alcoholic drink per day, and does not smoke. He has not previously undergone screening colonoscopy and is scheduled for one. The pedigree summarizes his immediate family history and the ages at diagnosis for each illness. Which is his strongest risk factor for colon cancer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Age"
+      },
+      {
+        "letter": "B",
+        "text": "Alcohol use"
+      },
+      {
+        "letter": "C",
+        "text": "Endometrial carcinoma"
+      },
+      {
+        "letter": "D",
+        "text": "Familial adenomatous polyposis"
+      },
+      {
+        "letter": "E",
+        "text": "Hereditary nonpolyposis colorectal cancer (Lynch syndrome)"
+      },
+      {
+        "letter": "F",
+        "text": "Lack of screening"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Age over 50 is the strongest listed risk factor for this patient. Although his mother had endometrial carcinoma, it was diagnosed at 72; the pedigree has no first-degree relative with colorectal cancer or a pattern of early-onset Lynch-associated cancer. FAP would usually produce numerous polyps and early colorectal cancer. Lack of screening is not a cause of cancer, although screening can detect disease earlier and reduce mortality.",
+    "choice_explanations": {
+      "A": "Correct. Colorectal cancer risk rises with age; most cases occur after age 50, and age is the strongest risk factor among the choices for this patient.",
+      "B": "The patient reports only occasional/light alcohol use. The source explanation notes that heavy alcohol use may contribute to colorectal cancer risk, but this history does not fit that pattern.",
+      "C": "Endometrial cancer can be associated with Lynch syndrome, especially when it occurs at a younger age. His mother's diagnosis at 72, without a family history of colorectal cancer, is less suggestive of Lynch syndrome.",
+      "D": "FAP is an autosomal-dominant APC syndrome characterized by hundreds to thousands of colorectal adenomas and often early colorectal cancer; the pedigree does not show that pattern.",
+      "E": "Lynch syndrome is an autosomal-dominant mismatch-repair syndrome associated with colorectal and endometrial cancers. The family history here lacks colorectal cancer and the mother's endometrial cancer was late-onset.",
+      "F": "Not a biological risk factor for developing cancer. Screening helps detect precancerous polyps/cancer and can lower mortality, but absence of prior screening does not itself cause colorectal cancer."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid states most colorectal cancers occur in patients over 50; age is the strongest supported listed risk in this case.",
+        "page": 395
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 entry for this patient's light alcohol exposure as a colorectal-cancer risk factor was found; the First Aid CRC risk list emphasizes adenomatous/serrated polyps, familial syndromes, IBD, tobacco, and processed meat/low fiber."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lynch syndrome (HNPCC) is associated with endometrial cancer; the question's late-onset family history is interpreted with the Word explanation, not as a direct FA age threshold.",
+        "page": 395
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "FAP is an autosomal-dominant APC tumor-suppressor syndrome with thousands of colorectal polyps and very high CRC risk.",
+        "page": 394
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lynch syndrome is hereditary nonpolyposis colorectal cancer caused by mismatch-repair gene mutations and is associated with endometrial, ovarian, stomach, and skin cancers.",
+        "page": 395
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid entry frames lack of screening as a cause/risk factor. Printed p. 395 describes screening recommendations and states CEA is for monitoring rather than screening; the distinction that screening changes detection/mortality rather than incidence is from the verified Word explanation."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      394,
+      395
+    ],
+    "fa_page": 395,
+    "fa_page_verified": true,
+    "fa_summary": "Colorectal cancer risk increases with age; most patients are over 50. Distinguish common sporadic risk from hereditary syndromes: FAP (APC; numerous polyps) and Lynch syndrome (mismatch repair; colorectal and endometrial cancers).",
+    "question_images": [
+      "assets/question-figures/git-q31-pedigree.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Only the family pedigree and family-history labels are included; the full source screenshot, stem, answer choices, answer, and interface are excluded."
   }
 ]
