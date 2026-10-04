@@ -11350,29 +11350,55 @@
     ],
     "answer": "E",
     "explanation": "The presentation suggests Lambert–Eaton myasthenic syndrome, often associated with small-cell lung carcinoma. Autoantibodies against presynaptic P/Q-type voltage-gated Ca²⁺ channels reduce acetylcholine release; repeated activity transiently improves strength.",
-    "question_figures_reviewed": true,
-    "question_figure_description": "No essential figure; the vignette is textual.",
-    "question_images": [],
+    "choice_explanations": {
+      "A": "Extracellular matrix defects do not explain use-dependent proximal weakness with a paraneoplastic pattern.",
+      "B": "Postsynaptic ligand-gated acetylcholine receptors are targeted in myasthenia gravis, which typically worsens with repeated use.",
+      "C": "A protein kinase abnormality is not the presynaptic defect in Lambert–Eaton syndrome.",
+      "D": "Transcription-factor dysfunction does not explain the characteristic presynaptic neuromuscular-junction syndrome.",
+      "E": "Correct: autoantibodies against presynaptic voltage-gated calcium channels impair acetylcholine release."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Postsynaptic nicotinic acetylcholine receptors are involved in myasthenia gravis.",
+        "pages": [
+          480
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Lambert–Eaton syndrome is caused by antibodies to presynaptic voltage-gated calcium channels.",
+        "pages": [
+          480
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
     "fa_pages": [
       480
     ],
     "fa_page": 480,
     "fa_page_verified": true,
-    "fa_summary": "First Aid 2026 printed p.480 directly compares myasthenia gravis and Lambert–Eaton myasthenic syndrome. Under the Musculoskeletal, Skin, and Connective Tissue chapter heading, it describes presynaptic Ca²⁺-channel autoantibodies, reduced acetylcholine release, proximal weakness/autonomic findings that improve with use, and the small-cell lung cancer association.",
-    "reviewed": true,
-    "review_required": false,
-    "complete": true,
-    "question_audit_status": "verified correction proposal",
-    "import_disposition": "correct_existing_pilot_record; taxonomy only; do not add another record",
-    "audit": {
-      "source_file": "general principles.docx",
-      "source_question_number": 35,
-      "source_answer_key": "E",
-      "repair_note": "This candidate is an exact duplicate of the current pilot row `import-3e40317466371d1bd8beeacd`; its stem, A–E, answer E, and explanation are already clean, so no duplicate question is proposed. This correction changes taxonomy only: First Aid 2026 printed p.480 is headed under the main chapter 'Musculoskeletal, Skin, and Connective Tissue' and its subchapter 'Neuromuscular junction diseases'; the table directly compares myasthenia gravis with Lambert–Eaton myasthenic syndrome. The active pilot's current chapter 'Neurology and Special Senses' conflicts with the user's requested FA chapter hierarchy. Preserve all question content and update chapter/subchapter plus verified page link in place.",
-      "fa_printed_pages_checked": [
-        480
-      ]
-    }
+    "fa_summary": "First Aid 2026 printed p.480 directly compares myasthenia gravis and Lambert–Eaton myasthenic syndrome. Under the Musculoskeletal, Skin, and Connective Tissue chapter heading, it describes presynaptic Ca²⁺-channel autoantibodies, reduced acetylcholine release, proximal weakness/autonomic findings that improve with use, and the small-cell lung cancer association."
   },
   {
     "id": "import-28c7bd01f397619d7a60261d",
@@ -17087,8 +17113,8 @@
   },
   {
     "id": "import-b8b9efb205999d6f279b79e0",
-    "chapter": "Biochemistry",
-    "fa_subchapter": "Cellular physiology",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Physiology / Cardiac ion transport",
     "stem": "A study examines transporter function in cardiac papillary muscle using patch-clamp studies of plasma-membrane proteins and cell-free studies of isolated organelles. Under normal physiology, which transporter depolarizes the sarcolemma by moving a net positive charge from extracellular fluid into a resting cardiac muscle cell?",
     "options": [
       {
@@ -17125,28 +17151,24 @@
       "A": {
         "verified": true,
         "no_direct_match": true,
-        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+        "text": "No direct First Aid p.288 match was identified for lysosomal V-type proton ATPase."
       },
       "B": {
         "verified": true,
         "no_direct_match": true,
-        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
+        "text": "No direct First Aid p.288 match was identified for mitochondrial F-type ATP synthase."
       },
       "C": {
         "verified": true,
         "no_direct_match": false,
-        "text": "p. 47 describes cardiac Na⁺/Ca²⁺ exchange in relation to Na⁺/K⁺ gradients.",
-        "pages": [
-          47
-        ]
+        "text": "First Aid discusses Na⁺/Ca²⁺ exchanger activity in cardiac calcium handling; the source explanation supplies the 3 Na⁺ in:1 Ca²⁺ out stoichiometry and net inward +1 charge.",
+        "page": 288
       },
       "D": {
         "verified": true,
         "no_direct_match": false,
-        "text": "p. 47 covers the Na⁺/K⁺-ATPase and its ionic transport.",
-        "pages": [
-          47
-        ]
+        "text": "First Aid p.288 notes Na⁺/K⁺ pump inhibition raises intracellular Na⁺ and reduces exchanger activity; the source explanation gives the pump's 3 Na⁺ out:2 K⁺ in electrogenic stoichiometry.",
+        "page": 288
       },
       "E": {
         "verified": true,
@@ -17158,11 +17180,11 @@
     "review_required": false,
     "complete": true,
     "fa_pages": [
-      47
+      288
     ],
-    "fa_page": 47,
+    "fa_page": 288,
     "fa_page_verified": true,
-    "fa_summary": "The Na⁺/Ca²⁺ exchanger is electrogenic: typically three Na⁺ ions enter for each Ca²⁺ ion extruded, producing a net inward movement of one positive charge. This can depolarize the membrane. The exchanger helps remove cytosolic Ca²⁺ during relaxation; it is distinct from the channels and pumps that generate or restore other phases of the cardiac action potential."
+    "fa_summary": "First Aid 2026 printed p.288 discusses cardiac calcium handling: Na⁺/K⁺-pump inhibition reduces Na⁺/Ca²⁺ exchanger activity and increases intracellular Ca²⁺, and it describes SERCA-mediated Ca²⁺ storage in the sarcoplasmic reticulum. The existing source explanation supplies the 3:1 exchanger stoichiometry and net inward charge; p.288 is a relevant cardiac physiology reference. The existing p.47 link concerns cilia and is unrelated."
   },
   {
     "id": "import-31f82818ac19b77fbb0cd76e",
@@ -23789,5 +23811,478 @@
     "fa_page": 400,
     "fa_page_verified": true,
     "fa_summary": "Conjugated (direct) hyperbilirubinemia suggests biliary obstruction or an excretion defect. Gallstones can obstruct the biliary tract; unconjugated bilirubin instead rises with hemolysis, Crigler-Najjar, or Gilbert syndrome. Hepatitis commonly produces mixed hyperbilirubinemia."
+  },
+  {
+    "id": "import-30e80ce510972975f6247e91",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Placental hormones",
+    "stem": "A 24-year-old woman comes to the physician for infertility evaluation. During the last 6 months she has had two positive pregnancy tests, but then menses began within days of the tests. She and her husband are healthy, with no known reproductive defects or chromosomal abnormalities. Which of the following laboratory findings in serum is most likely in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "High estrogen"
+      },
+      {
+        "letter": "B",
+        "text": "High human chorionic gonadotropin (hCG)"
+      },
+      {
+        "letter": "C",
+        "text": "High human placental lactogen (hPL)"
+      },
+      {
+        "letter": "D",
+        "text": "High progesterone"
+      },
+      {
+        "letter": "E",
+        "text": "Low progesterone"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The positive pregnancy tests show that hCG was produced after implantation, but the very early loss of each pregnancy suggests inadequate support of the endometrium. In early pregnancy, hCG acts like LH to maintain the corpus luteum, which supplies progesterone until the placental shift. Failure to maintain the corpus luteum lowers progesterone, causing endometrial breakdown and pregnancy loss.",
+    "choice_explanations": {
+      "A": "High estrogen is not the expected defect causing repeated very early pregnancy loss; estrogen normally rises during pregnancy.",
+      "B": "hCG is present because the pregnancy tests are positive; hCG normally supports the corpus luteum rather than causing its failure.",
+      "C": "hPL is produced by syncytiotrophoblast and rises with placental mass; it is not the hormone maintaining the corpus luteum at this stage.",
+      "D": "Progesterone should be adequate to maintain the endometrium; low rather than high progesterone explains the losses.",
+      "E": "Correct. Inadequate progesterone support after corpus-luteum regression leads to endometrial atrophy and early pregnancy loss."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Placental estrogen rises during pregnancy, but the First Aid discussion does not identify elevated estrogen as a cause of this pattern of early loss.",
+        "page": 652
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Syncytiotrophoblast-derived hCG maintains the corpus luteum in the first trimester; the pregnancy test detects hCG.",
+        "page": 652
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "hPL is a placental hormone that rises with placental mass; it is distinct from hCG-mediated corpus-luteum support.",
+        "page": 652
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Progesterone is mainly secreted by the corpus luteum during the first 10 weeks and maintains the endometrium.",
+        "page": 652
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "hCG maintains the corpus luteum, increasing first-trimester progesterone; progesterone maintains the endometrium.",
+        "page": 652
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      652
+    ],
+    "fa_page": 652,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-50a5bdfb8157a370c0205ab7",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Pregnancy complications",
+    "stem": "A 27-year-old primigravid woman at 39 weeks' gestation is brought to the emergency department after a motor vehicle accident. Another car struck the side of the car where she was a passenger. She was wearing her seat belt. She reports abdominal pain and has premature rupture of the amniotic membranes and contractions. Ultrasound reveals fetal tachycardia and placental abruption. Which of the following is she most likely to experience as a result of amniotic fluid entering the circulation?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hemiplegia"
+      },
+      {
+        "letter": "B",
+        "text": "Preeclampsia"
+      },
+      {
+        "letter": "C",
+        "text": "Proteinuria"
+      },
+      {
+        "letter": "D",
+        "text": "Respiratory distress"
+      },
+      {
+        "letter": "E",
+        "text": "Splinter hemorrhages"
+      }
+    ],
+    "answer": "D",
+    "explanation": "This is amniotic fluid embolism, a rare obstetric emergency associated with events such as placental abruption, uterine trauma, and delivery. Amniotic contents entering maternal veins lodge in the pulmonary microcirculation and trigger cardiopulmonary and inflammatory effects, causing abrupt respiratory distress; disseminated intravascular coagulation may follow. The source explanation identifies respiratory distress as the immediate expected manifestation.",
+    "choice_explanations": {
+      "A": "Hemiplegia is a focal neurologic deficit and is not the characteristic immediate presentation of amniotic fluid embolism.",
+      "B": "Preeclampsia is a hypertensive disorder of pregnancy, not the acute pulmonary manifestation of amniotic fluid entering maternal circulation.",
+      "C": "Proteinuria can accompany preeclampsia but is not the immediate consequence tested here.",
+      "D": "Correct. Amniotic fluid embolism causes sudden respiratory distress from pulmonary microvascular obstruction and mediator effects; coagulopathy may also occur.",
+      "E": "Splinter hemorrhages are classically associated with infective endocarditis, not amniotic fluid embolism."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 reproductive-page discussion links hemiplegia to amniotic fluid embolism."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid discusses preeclampsia separately, but not as a consequence of amniotic fluid embolism."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "Proteinuria is discussed with preeclampsia, not as the acute manifestation of amniotic fluid embolism."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 reproductive-page entry for amniotic fluid embolism or its acute respiratory presentation was found; this mapping is supported by the source explanation."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 reproductive-page mapping connects splinter hemorrhages with this obstetric emergency."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": false
+  },
+  {
+    "id": "import-1199e63621de5068c9ee5c42",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Prostate",
+    "stem": "A 55-year-old man comes to the emergency department because of fever, chills, body aches, painful urination, and urinary urgency. His medical history includes well-controlled hypertension and type 2 diabetes managed with oral hypoglycemic agents. His temperature is 38.1°C (100.6°F), pulse is 104/min, respirations are 16/min, and blood pressure is 134/88 mm Hg. Laboratory studies show hemoglobin 13.2 g/dL, hematocrit 40%, and leukocyte count 12,800/mm³. Physical examination shows mild abdominal tenderness. Digital rectal examination shows a diffusely enlarged, very tender prostate gland. Which of the following is the most likely causal organism?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Enterobacter"
+      },
+      {
+        "letter": "B",
+        "text": "Escherichia coli"
+      },
+      {
+        "letter": "C",
+        "text": "Klebsiella"
+      },
+      {
+        "letter": "D",
+        "text": "Proteus"
+      },
+      {
+        "letter": "E",
+        "text": "Pseudomonas"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Fever, dysuria, urgency, leukocytosis, and a warm, enlarged, markedly tender prostate indicate acute bacterial prostatitis. In older men, Escherichia coli is the most common cause. Other gram-negative organisms can cause prostatitis, but they are less likely than E. coli in this presentation.",
+    "choice_explanations": {
+      "A": "Enterobacter can cause urinary infection but is not the most common cause of acute bacterial prostatitis in older men.",
+      "B": "Correct. E. coli is the most common cause of acute bacterial prostatitis in older men.",
+      "C": "Klebsiella is a possible urinary pathogen but is less common than E. coli in this setting.",
+      "D": "Proteus can cause urinary infection, particularly with urease-related stones, but is not the most likely organism here.",
+      "E": "Pseudomonas is a possible pathogen in selected healthcare-associated or instrumented urinary infections, but not the most common cause in this case."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid lists Enterobacter among less-common acute bacterial prostatitis pathogens in older males; E. coli is most common.",
+        "page": 672
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Acute bacterial prostatitis in older males is most commonly caused by E. coli.",
+        "page": 672
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Klebsiella is included among other possible bacterial pathogens; E. coli remains the most common cause in older males.",
+        "page": 672
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Proteus is included among other possible bacterial pathogens; E. coli remains the most common cause in older males.",
+        "page": 672
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pseudomonas is included among other possible bacterial pathogens; E. coli remains the most common cause in older males.",
+        "page": 672
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      672
+    ],
+    "fa_page": 672,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-ddc99dde418adf1b9202ee43",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Sexual differentiation",
+    "stem": "A 29-year-old man who is a construction worker is brought to the emergency department because of severe penetrating wounds to the abdomen. An emergent exploratory laparotomy is performed and the wounds are sutured. Before the abdominal cavity is closed, a small but well-formed uterus is found. Which of the following abnormalities during fetal development best explains the presence of a uterus in this otherwise normal male?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "5-alpha-reductase deficiency"
+      },
+      {
+        "letter": "B",
+        "text": "Deficiency of testis-determining factor"
+      },
+      {
+        "letter": "C",
+        "text": "LH-secreting tumor"
+      },
+      {
+        "letter": "D",
+        "text": "Müllerian-inhibiting factor deficiency"
+      },
+      {
+        "letter": "E",
+        "text": "Testosterone deficiency"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Sertoli cells in a developing testis produce Müllerian-inhibiting substance (MIS, also called anti-Müllerian hormone), which suppresses the paramesonephric (Müllerian) ducts. Deficiency of this signal allows female internal structures, including a uterus, to persist despite otherwise male development. Testosterone supports Wolffian structures, and dihydrotestosterone supports male external genital development; defects in those pathways do not by themselves explain a uterus in an otherwise normally virilized male.",
+    "choice_explanations": {
+      "A": "5-alpha-reductase deficiency impairs conversion of testosterone to dihydrotestosterone and affects male external genital development; it does not cause persistence of a uterus.",
+      "B": "Absence of testis-determining factor prevents normal testis development, so this does not fit an otherwise normally developed male with a specific persistent Müllerian structure.",
+      "C": "An LH-secreting tumor could alter androgen production but would not remove the fetal Sertoli-cell signal that suppresses Müllerian ducts.",
+      "D": "Correct. Without Müllerian-inhibiting substance from Sertoli cells, Müllerian ducts persist and form a uterus despite male internal/external structures.",
+      "E": "Testosterone deficiency disrupts Wolffian duct development and male differentiation; it does not specifically explain persistence of the Müllerian-derived uterus in an otherwise normal male."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "5α-reductase deficiency prevents conversion of testosterone to DHT and affects male external genital differentiation, not Müllerian duct regression.",
+        "page": 640
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Testis-determining factor from the SRY gene drives testis development; Sertoli-cell MIS then suppresses Müllerian ducts.",
+        "page": 639
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss an LH-secreting tumor as a cause of persistent Müllerian structures."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Absence of Müllerian-inhibiting substance permits both male and female internal genitalia to develop in an XY individual.",
+        "page": 640
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Testosterone supports Wolffian duct development; DHT supports male external genital differentiation. Neither is the Müllerian-suppressing signal.",
+        "page": 639
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      639,
+      640
+    ],
+    "fa_page": 639,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-847aa5b3d20363efb82e3180",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Zenker diverticulum / esophageal disorders",
+    "stem": "A 79-year-old man comes to the physician because of difficulty swallowing and a feeling of a lump in his throat. He has not noticed any changes in his weight. He occasionally regurgitates undigested food shortly after eating. He has noticed foul odor from his breath and occasional changes in his voice. A frame from a videofluoroscopic study of a barium swallow is shown. Which of the following is the most likely diagnosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Achalasia"
+      },
+      {
+        "letter": "B",
+        "text": "Esophageal carcinoma"
+      },
+      {
+        "letter": "C",
+        "text": "Mallory-Weiss tear"
+      },
+      {
+        "letter": "D",
+        "text": "Schatzki ring"
+      },
+      {
+        "letter": "E",
+        "text": "Traction diverticulum"
+      },
+      {
+        "letter": "F",
+        "text": "Zenker diverticulum"
+      }
+    ],
+    "answer": "F",
+    "explanation": "This is Zenker diverticulum, a false pharyngoesophageal diverticulum caused by mucosa and submucosa herniating through a weak area near the pharynx–esophagus junction (Killian triangle). Retained food can cause regurgitation of undigested material and halitosis; dysphagia, globus sensation, and voice change also fit. The barium study shows an outpouching that retains contrast above the cricopharyngeus. Routine endoscopy and nasogastric-tube placement are avoided because of perforation risk.",
+    "choice_explanations": {
+      "A": "Incorrect. Achalasia is a motility disorder with impaired LES relaxation and absent peristalsis; barium swallow shows distal narrowing with proximal esophageal dilation rather than a pharyngoesophageal pouch.",
+      "B": "Incorrect. Esophageal cancer typically causes progressive dysphagia and weight loss. The retained-contrast outpouching and absence of weight loss favor Zenker diverticulum.",
+      "C": "Incorrect. Mallory-Weiss tears are longitudinal mucosal lacerations at the gastroesophageal junction after forceful vomiting, usually presenting with hematemesis.",
+      "D": "Incorrect. A Schatzki ring is a distal mucosal ring near the squamocolumnar junction and may cause intermittent food sticking; it does not cause a pharyngoesophageal pouch, halitosis, or voice change.",
+      "E": "Incorrect. A traction diverticulum is a true diverticulum involving all esophageal wall layers, usually caused by adherence to a scarred mediastinal structure; it is distinct from the false pharyngoesophageal pouch shown here.",
+      "F": "Correct. Zenker diverticulum produces an upper esophageal pouch that traps food, causing dysphagia, regurgitation, halitosis, and sometimes voice change."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Achalasia is an esophageal motility disorder with impaired LES relaxation, absent peristalsis, and a dilated esophagus with bird's-beak narrowing on barium swallow.",
+        "page": 383
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Esophageal cancer typically presents with progressive dysphagia and weight loss and has an aggressive course.",
+        "page": 385
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Mallory-Weiss syndrome is a partial-thickness longitudinal tear at the gastroesophageal junction due to repeated vomiting.",
+        "page": 384
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 entry for Schatzki ring was found."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 entry for traction esophageal diverticulum was found."
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Zenker diverticulum is a pharyngoesophageal false diverticulum caused by mucosal/submucosal herniation at Killian triangle; symptoms include dysphagia, obstruction, gurgling, aspiration, foul breath, and neck mass, especially in older men.",
+        "page": 391
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      383,
+      384,
+      385,
+      391
+    ],
+    "fa_page": 391,
+    "fa_page_verified": true,
+    "fa_summary": "Zenker diverticulum is a false pharyngoesophageal pouch at Killian triangle. In older adults it causes dysphagia, regurgitation/retention, halitosis, and sometimes voice change; diagnose with barium swallow. Avoid routine endoscopy or NG tubes because of perforation risk.",
+    "question_images": [
+      "assets/question-figures/git-q34-barium-study.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Only the relevant lateral videofluoroscopic barium-study image is retained; question text, answer choices, answer markings, and interface are excluded."
+  },
+  {
+    "id": "import-d7ba799be311b89bab0d9936",
+    "chapter": "Pathology",
+    "fa_subchapter": "Neoplasia and neoplastic progression",
+    "stem": "A 49-year-old woman comes to the physician because she noticed a lump in her breast during self-examination. A biopsy specimen shows invasive ductal carcinoma. The connective tissue adjacent to the nests of tumor is very densely collagenous. Which of the following best describes this type of pathologic change in the connective tissue?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anaplasia"
+      },
+      {
+        "letter": "B",
+        "text": "Carcinoma in situ"
+      },
+      {
+        "letter": "C",
+        "text": "Desmoplasia"
+      },
+      {
+        "letter": "D",
+        "text": "Dysplasia"
+      },
+      {
+        "letter": "E",
+        "text": "Metaplasia"
+      }
+    ],
+    "answer": "C",
+    "explanation": "This is desmoplasia: excessive fibrous tissue formation in the stroma around a tumor. It is a reactive response of surrounding tissue to tumor invasion; the fibrous reaction itself is benign, even though it commonly accompanies malignant neoplasms.",
+    "choice_explanations": {
+      "A": "Incorrect. Anaplasia describes marked loss of differentiation and tissue organization in tumor cells; it does not describe collagen-rich supporting stroma.",
+      "B": "Incorrect. Carcinoma in situ is severe epithelial dysplasia that has not penetrated the basement membrane. This biopsy already shows invasive carcinoma and the question asks about its surrounding connective tissue.",
+      "C": "Correct. Desmoplasia is excessive fibrous tissue formation in tumor stroma, often as a reaction to invasion of adjacent healthy tissue.",
+      "D": "Incorrect. Dysplasia is disordered atypical cellular growth, not a collagenous stromal reaction.",
+      "E": "Incorrect. Metaplasia is replacement of one differentiated cell type by another in response to stress; it is not fibrosis around a tumor."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid describes anaplastic tumors as undifferentiated, high-grade malignant tumors; this is a tumor-cell differentiation concept rather than a stromal response.",
+        "page": 216
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Carcinoma in situ is severe dysplasia through the full epithelial thickness without basement-membrane penetration.",
+        "page": 215
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid discusses supporting connective-tissue stroma and invasive carcinoma on p.215, but does not directly name or define desmoplasia; use the source explanation for this term."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Dysplasia is loss of uniformity in cell size and shape, tissue orientation, and normal nuclear features.",
+        "page": 215
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Metaplasia is reprogramming of stem cells with replacement of one differentiated cell type by another.",
+        "page": 202
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      215,
+      216,
+      202
+    ],
+    "fa_page": 215,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 printed p.215 describes neoplasms as having neoplastic parenchyma and supporting stroma, and distinguishes dysplasia, carcinoma in situ, and invasive carcinoma. Printed p.216 uses anaplastic to describe an undifferentiated high-grade tumor. Printed p.202 defines metaplasia as replacement of one differentiated cell type by another. First Aid does not name or define desmoplasia specifically; the source explanation supplies that definition and relates it to tumor-associated fibrous stromal reaction."
   }
 ]
