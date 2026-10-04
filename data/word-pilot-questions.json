@@ -24284,5 +24284,94 @@
     "fa_page": 215,
     "fa_page_verified": true,
     "fa_summary": "First Aid 2026 printed p.215 describes neoplasms as having neoplastic parenchyma and supporting stroma, and distinguishes dysplasia, carcinoma in situ, and invasive carcinoma. Printed p.216 uses anaplastic to describe an undifferentiated high-grade tumor. Printed p.202 defines metaplasia as replacement of one differentiated cell type by another. First Aid does not name or define desmoplasia specifically; the source explanation supplies that definition and relates it to tumor-associated fibrous stromal reaction."
+  },
+  {
+    "id": "import-a1a2cb874af338f52b9b31be",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Motilin / migrating motor complexes",
+    "stem": "A 4-year-old boy is brought to the emergency department by his parents after they observe him ingest a small plastic toy building block. His parents are reassured that the block will most likely be eliminated during normal bowel movements and, if not, will be propelled through the gastrointestinal tract by periodic sequential contractions that begin in the stomach and gradually migrate to the ileum during fasting. Release of which of the following intestinal hormones is most likely responsible for this periodic event?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cholecystokinin"
+      },
+      {
+        "letter": "B",
+        "text": "Gastrin"
+      },
+      {
+        "letter": "C",
+        "text": "Gastrin-releasing peptide"
+      },
+      {
+        "letter": "D",
+        "text": "Motilin"
+      },
+      {
+        "letter": "E",
+        "text": "Secretin"
+      },
+      {
+        "letter": "F",
+        "text": "Somatostatin"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Motilin is released by the small intestine during fasting. Its cyclical release triggers migrating motor complexes (MMCs), peristaltic waves that begin in the stomach and travel to the ileum every 90–120 minutes. MMCs have a cleansing function, clearing residual material between meals; eating interrupts this activity.",
+    "choice_explanations": {
+      "A": "Incorrect. CCK is released from duodenal/jejunal I cells in response to fat and protein digestion products; it stimulates pancreatic secretion and gallbladder contraction during digestion, not fasting MMCs.",
+      "B": "Incorrect. Gastrin is released from antral G cells, mainly during the gastric digestive phase; it increases acid secretion and motility but does not trigger fasting MMCs.",
+      "C": "Incorrect. Gastrin-releasing peptide is a vagal neuropeptide that stimulates G cells to release gastrin; it is not the hormone that initiates MMCs.",
+      "D": "Correct. Small-intestinal motilin is released during fasting and causes migrating motor complexes.",
+      "E": "Incorrect. Secretin is released from duodenal S cells in response to acid and stimulates pancreatic bicarbonate secretion; it is not a fasting motility hormone.",
+      "F": "Incorrect. Somatostatin from gastric/duodenal D cells inhibits gastrin secretion and is not the hormone responsible for MMCs."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "CCK is released by I cells in the duodenum/jejunum and stimulates pancreatic secretion and gallbladder contraction.",
+        "page": 378
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Gastrin is released by G cells in the antrum/duodenum and increases gastric H+ secretion and motility.",
+        "page": 378
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid describes vagal stimulation of gastrin release via gastrin-releasing peptide (GRP).",
+        "page": 378
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Motilin from the small intestine produces migrating motor complexes and is increased in the fasting state.",
+        "page": 378
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Secretin is released from duodenal S cells in response to acid and increases pancreatic bicarbonate secretion while decreasing gastric acid secretion.",
+        "page": 378
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Somatostatin from D cells in the pancreatic islets/GI mucosa suppresses gastric acid and pepsinogen secretion and inhibits release of several hormones.",
+        "page": 378
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      378
+    ],
+    "fa_page": 378,
+    "fa_page_verified": true,
+    "fa_summary": "Motilin is secreted by the small intestine during fasting and produces migrating motor complexes, periodic cleansing contractions that move from stomach toward ileum. Eating interrupts MMC activity."
   }
 ]
