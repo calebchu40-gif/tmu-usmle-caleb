@@ -5,8 +5,12 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const apply = process.argv.includes("--apply");
-const files = process.argv.slice(2).filter((arg) => arg !== "--apply");
+const args = process.argv.slice(2);
+const apply = args.includes("--apply");
+const approvedConflictIds = new Set(args
+  .filter((arg) => arg.startsWith("--allow-raw-key-conflict="))
+  .map((arg) => arg.slice("--allow-raw-key-conflict=".length)));
+const files = args.filter((arg) => arg !== "--apply" && !arg.startsWith("--allow-raw-key-conflict="));
 if (!files.length) {
   console.error("Usage: node scripts/apply_legacy_explanation_proposals.mjs [--apply] <proposal.json> [...]");
   process.exit(2);
@@ -42,7 +46,9 @@ for (const proposal of proposals) {
   if (!proposal.note?.trim() && !proposal.confidence) issues.push(`${label}: missing source-review note/confidence`);
   if (!proposal.explanation?.trim() || proposal.explanation.trim().length < 100) issues.push(`${label}: explanation missing/too short`);
   if (live && answer !== live.answer) issues.push(`${label}: explanation/live key mismatch (${answer || "unparsed"}/${live.answer})`);
-  if (source && sourceAnswer && sourceAnswer !== live?.answer) issues.push(`${label}: raw OCR key conflicts with live key (${sourceAnswer}/${live?.answer})`);
+  if (source && sourceAnswer && sourceAnswer !== live?.answer && !approvedConflictIds.has(proposal.id)) {
+    issues.push(`${label}: raw OCR key conflicts with live key (${sourceAnswer}/${live?.answer}); explicit review override required`);
+  }
   if (live && live.explanation === proposal.explanation) issues.push(`${label}: explanation already applied`);
 }
 
@@ -58,6 +64,7 @@ console.log(JSON.stringify({
   originalScope: baseline.length,
   currentTotal: rows.length,
   answerConflicts: 0,
+  explicitlyReviewedRawKeyConflicts: [...approvedConflictIds],
 }, null, 2));
 
 if (apply) {
