@@ -10,7 +10,12 @@ const apply = args.includes("--apply");
 const approvedConflictIds = new Set(args
   .filter((arg) => arg.startsWith("--allow-raw-key-conflict="))
   .map((arg) => arg.slice("--allow-raw-key-conflict=".length)));
-const files = args.filter((arg) => arg !== "--apply" && !arg.startsWith("--allow-raw-key-conflict="));
+const approvedWordOnlyIds = new Set(args
+  .filter((arg) => arg.startsWith("--allow-word-verified-source="))
+  .map((arg) => arg.slice("--allow-word-verified-source=".length)));
+const files = args.filter((arg) => arg !== "--apply"
+  && !arg.startsWith("--allow-raw-key-conflict=")
+  && !arg.startsWith("--allow-word-verified-source="));
 if (!files.length) {
   console.error("Usage: node scripts/apply_legacy_explanation_proposals.mjs [--apply] <proposal.json> [...]");
   process.exit(2);
@@ -42,7 +47,9 @@ for (const proposal of proposals) {
   seen.add(proposal.id);
   if (!legacyIds.has(proposal.id)) issues.push(`${label}: outside original 319-question scope`);
   if (!live) issues.push(`${label}: missing from current production data`);
-  if (!source) issues.push(`${label}: missing raw OCR source ${proposal.source_id}`);
+  if (!source && !approvedWordOnlyIds.has(proposal.id)) {
+    issues.push(`${label}: missing raw OCR source ${proposal.source_id}; explicit Word-source review override required`);
+  }
   if (!proposal.note?.trim() && !proposal.confidence) issues.push(`${label}: missing source-review note/confidence`);
   if (!proposal.explanation?.trim() || proposal.explanation.trim().length < 100) issues.push(`${label}: explanation missing/too short`);
   if (live && answer !== live.answer) issues.push(`${label}: explanation/live key mismatch (${answer || "unparsed"}/${live.answer})`);
@@ -65,6 +72,7 @@ console.log(JSON.stringify({
   currentTotal: rows.length,
   answerConflicts: 0,
   explicitlyReviewedRawKeyConflicts: [...approvedConflictIds],
+  explicitlyWordVerifiedSources: [...approvedWordOnlyIds],
 }, null, 2));
 
 if (apply) {
