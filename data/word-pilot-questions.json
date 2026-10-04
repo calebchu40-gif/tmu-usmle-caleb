@@ -22685,5 +22685,258 @@
     "fa_page": 378,
     "fa_page_verified": true,
     "fa_summary": "Gastrointestinal regulatory hormones are produced by region-specific enteroendocrine cells. Gastrin is the listed hormone found in both gastric antrum and duodenum."
+  },
+  {
+    "id": "import-cac34cfdb39e900e359ddb39",
+    "chapter": "Pathology",
+    "fa_subchapter": "Neoplasia / Oncogenes and childhood tumors",
+    "stem": "A 2-year-old girl is brought to the physician for a well-child checkup. A large, palpable, nontender, right intra-abdominal mass that crosses the midline is found on physical examination. CT shows a mass in the right retroperitoneum and abdominal cavity. The tumor is resected. Microscopic examination shows ganglion cells and primitive small, round cells, occasionally organized in rosettes and embedded in a fibrillary pink matrix. Which of the following features is most likely associated with this tumor?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Amplification of the C-MYC gene"
+      },
+      {
+        "letter": "B",
+        "text": "Amplification of the N-MYC gene"
+      },
+      {
+        "letter": "C",
+        "text": "Deletion of the WT1 gene"
+      },
+      {
+        "letter": "D",
+        "text": "Multiple renal cysts"
+      },
+      {
+        "letter": "E",
+        "text": "Presence of nephroblasts"
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is neuroblastoma, a neural-crest tumor that commonly arises from the adrenal medulla or sympathetic chain. Neuroblastoma can form a large abdominal mass that crosses the midline; histology may show small round cells, Homer Wright rosettes, and a fibrillary neuropil matrix. Amplification of N-MYC (MYCN) is associated with aggressive disease and a worse prognosis. By contrast, Wilms tumor arises from renal nephroblasts, often does not cross the midline, and is associated with WT1 loss. Neuroblastoma may also produce catecholamine metabolites such as homovanillic acid.",
+    "choice_explanations": {
+      "A": "Incorrect. C-MYC amplification/translocation is associated with Burkitt lymphoma, not neuroblastoma.",
+      "B": "Correct. N-MYC (MYCN) amplification is associated with neuroblastoma and a poorer prognosis.",
+      "C": "Incorrect. WT1 loss is associated with Wilms tumor, a renal nephroblastoma; it does not explain this neural-crest tumor's histology.",
+      "D": "Incorrect. Multiple renal cysts suggest polycystic kidney disease, not a solid tumor composed of ganglion cells and primitive neuroblastic cells.",
+      "E": "Incorrect. Nephroblasts are the cells of origin of Wilms tumor. Neuroblastoma arises from neural-crest-derived sympathetic tissue."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "MYCC (C-MYC) is associated with Burkitt lymphoma, not neuroblastoma.",
+        "page": 220
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "MYCN (N-MYC) amplification is associated with neuroblastoma.",
+        "page": 220
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid p.220 pairing of WT1 deletion with this tumor is given; WT1 loss is a Wilms tumor association, unlike the neuroblastoma association tested here."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid p.220 association for renal cysts; this option points to polycystic kidney disease, not neuroblastoma."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid p.220 association for nephroblasts; nephroblasts are the contrasting cell of origin in Wilms tumor."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      220
+    ],
+    "fa_page": 220,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 printed p.220 lists MYCN (N-MYC) amplification as associated with neuroblastoma and MYCC (C-MYC) with Burkitt lymphoma. It also identifies WT1 as a tumor-suppressor gene; this supports the keyed distinction from Wilms tumor."
+  },
+  {
+    "id": "import-1c59b465cdbcffc15c5db64a",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Colonic polyps and polyposis syndromes",
+    "stem": "A 34-year-old woman comes to the physician because of abdominal fullness and pain. She reports early satiety and fewer bowel movements than usual, and has noticed decreased stool caliber. A radiographic bowel series shows a circumferential lesion narrowing the sigmoid-colon lumen and more than 100 polyps. Her carcinoembryonic antigen (CEA) level is 100 times the upper limit of normal. Further investigation reveals a genetic disease that predisposes her to this condition. The genetic defect most likely involves which chromosome site?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "5q21"
+      },
+      {
+        "letter": "B",
+        "text": "11p13"
+      },
+      {
+        "letter": "C",
+        "text": "13q14"
+      },
+      {
+        "letter": "D",
+        "text": "17p13"
+      },
+      {
+        "letter": "E",
+        "text": "22q12"
+      }
+    ],
+    "answer": "A",
+    "explanation": "More than 100 colorectal adenomatous polyps strongly indicates familial adenomatous polyposis (FAP). FAP is caused by a germline loss-of-function mutation in the APC tumor-suppressor gene on chromosome 5q21–q22. The sigmoid lesion and reduced stool caliber reflect an obstructing colorectal cancer; the markedly elevated CEA supports tumor burden but is not the genetic clue.",
+    "choice_explanations": {
+      "A": "Correct. APC on chromosome 5q21–q22 is mutated in FAP, which causes numerous adenomatous colorectal polyps and a very high risk of colorectal cancer.",
+      "B": "11p13 contains WT1; loss-of-function is associated with Wilms tumor, not FAP.",
+      "C": "13q14 contains RB1; loss of both RB1 alleles causes retinoblastoma and is not the FAP locus.",
+      "D": "17p13 contains TP53; germline TP53 variants cause Li-Fraumeni syndrome, whereas APC is the classic polyposis gene.",
+      "E": "22q12 contains NF2 (merlin); NF2 loss causes neurofibromatosis type 2, not FAP."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid lists familial adenomatous polyposis under chromosome 5 (p. 62) and specifies an autosomal-dominant APC tumor-suppressor mutation at 5q21–q22 with thousands of adenomatous polyps (p. 394).",
+        "pages": [
+          62,
+          394
+        ]
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid associates chromosome 11 and WT1 with Wilms tumor. The precise 11p13 band is not printed in these entries; this is the relevant competing chromosome/gene association, not FAP.",
+        "pages": [
+          62,
+          220,
+          624
+        ]
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid associates chromosome 13 and RB1 with retinoblastoma; the exact 13q14 band is not printed in these entries.",
+        "pages": [
+          62,
+          552
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid lists TP53 with chromosome 17 and Li-Fraumeni syndrome, and describes p53 as a tumor suppressor; the exact 17p13 band is not printed in these entries.",
+        "pages": [
+          62,
+          220
+        ]
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid associates chromosome 22/NF2 (merlin) with neurofibromatosis type 2; the exact 22q12 band is not printed in these entries.",
+        "pages": [
+          62,
+          539
+        ]
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      62,
+      220,
+      394,
+      395,
+      539,
+      552,
+      624
+    ],
+    "fa_page": 394,
+    "fa_page_verified": true,
+    "fa_summary": "FAP is an autosomal-dominant APC tumor-suppressor disorder at 5q21–q22, characterized by numerous adenomatous polyps and near-certain progression to colorectal cancer without prophylactic treatment. Left-sided tumors may cause obstruction and decreased stool caliber; CEA is useful for monitoring, not screening."
+  },
+  {
+    "id": "import-40b6dc65b13250de45c93513",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Gastrointestinal regulatory substances / small intestinal bacterial overgrowth",
+    "stem": "A 2-year-old boy is brought to the emergency department by his mother after she saw him swallow a dime 30–45 minutes earlier. He has no choking or pain. His mother is told that the coin will most likely pass through the gastrointestinal tract and be evacuated within 24–48 hours by periodic contractile waves that clear foreign bodies from the stomach. An absence of these waves most likely causes an increase in which of the following?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Duodenal motility"
+      },
+      {
+        "letter": "B",
+        "text": "Gastric emptying"
+      },
+      {
+        "letter": "C",
+        "text": "Intestinal bacteria"
+      },
+      {
+        "letter": "D",
+        "text": "Colonic mass movements"
+      },
+      {
+        "letter": "E",
+        "text": "Swallowing"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The waves are migrating motor complexes (MMCs), which occur between meals, begin in the stomach, and sweep residual material and bacteria through the small intestine. Without MMCs, the normal cleansing action is lost and bacterial overgrowth can develop. MMC loss would decrease duodenal motility and gastric emptying; colonic mass movements and swallowing are independent of MMCs.",
+    "choice_explanations": {
+      "A": "Not increased: MMCs involve the duodenum, so their absence decreases duodenal motility.",
+      "B": "Not increased: during an MMC the pyloric sphincter opens to pass larger particles; without MMCs gastric emptying is reduced.",
+      "C": "Correct. Loss of MMC cleansing permits bacterial overgrowth in the proximal small intestine, where bacterial counts are normally low.",
+      "D": "Colonic mass movements are independent of MMC activity.",
+      "E": "Swallowing is independent of MMC activity."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid p.378 links motilin to MMC production but does not directly describe the effect of MMC loss on duodenal motility. Word explanation confirms absent MMCs decrease it."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid p.378 links motilin to MMC production but does not directly describe the effect of MMC loss on gastric emptying. Word explanation confirms absent MMCs reduce emptying."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Motilin produces MMCs (p. 378). First Aid describes small intestinal bacterial overgrowth as abnormal bacterial accumulation associated with dysmotility (p. 393); this supports the consequence of losing the MMC cleansing pattern.",
+        "pages": [
+          378,
+          393
+        ]
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid p.378 identifies motilin/MMCs but does not discuss colonic mass movements as an MMC effect; Word explanation states they are independent."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid p.378 identifies motilin/MMCs but does not discuss swallowing as an MMC effect; Word explanation states swallowing is independent."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      378,
+      393
+    ],
+    "fa_page": 378,
+    "fa_page_verified": true,
+    "fa_summary": "Motilin from the small intestine produces fasting migrating motor complexes. MMC activity sweeps residual matter and helps maintain low bacterial counts in the upper small intestine; dysmotility is a risk factor for small intestinal bacterial overgrowth."
   }
 ]
