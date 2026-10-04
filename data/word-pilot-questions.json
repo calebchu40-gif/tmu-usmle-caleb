@@ -50349,5 +50349,52 @@
     "fa_page_verified": true,
     "fa_summary": "Patient-centered interviewing begins with a formal introduction: introduce yourself and ask how the patient would like to be addressed; avoid confrontational or abrupt openings.",
     "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-behavioral-dependent-personality-disorder-subordination-20261004",
+    "chapter": "Psychiatry",
+    "stem": "A 40-year-old woman comes to the physician because of vague aches and pains for the past 1 year. A review of her records shows that she has had similar symptoms nine times over the past 1 year and extensive tests have shown no abnormalities. During the physical examination, the patient says, \"What I want doesn't matter. Do what you want, I trust you. I'm afraid you won't have time to see me anymore.\" Which of the following personality disorders does this patient most likely have?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dependent"
+      },
+      {
+        "letter": "B",
+        "text": "Histrionic"
+      },
+      {
+        "letter": "C",
+        "text": "Obsessive-compulsive"
+      },
+      {
+        "letter": "D",
+        "text": "Paranoid"
+      },
+      {
+        "letter": "E",
+        "text": "Schizoid"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. This scenario is classic for the Cluster C disorder, dependent personality disorder. These patients commonly have a strong reliance on others, there is a subordination of the patient's own needs to the needs of others, and fear of abandonment and rejection. They tend to get others to assume responsibility, cannot express disagreement, and have a great fear of having to care for his or herself. Note that in real life, patients may show symptoms of more than one personality disorder.\n\nAccording to the DSM-5, the diagnostic criteria for a dependent personality disorder are as follows:\nA pervasive and excessive need to be taken care of that leads to submissive and clinging behavior and fears of separation, beginning in early adulthood and present in a variety of contexts as indicated by five or more of the following:\n• Has difficulty making everyday decisions without an excessive amount of advice and reassurance from others\n• Needs others to assume responsibility for most major areas of his or her life\n• Has difficulty expressing disagreement with others because of fear of loss of support or approval\n• Goes to excessive lengths to obtain nurturance and support from others to the point of volunteering to do things that are unpleasant\n• Has difficulty initiating projects or doing things on their own\n• Feels uncomfortable or helpless when alone\n• Urgently seeks another relationship as a source of care and support when a close relationship ends\n• Often has an unrealistic preoccupation with fears of being left to take care of oneself\n\nHistrionic personality disorder (choice B) is characterized by theatricality, suggestibility, a strong desire for attention, and shallowness.\n\nObsessive-compulsive personality disorder (choice C), also called anancastic personality disorder, is characterized by obsessions, perfectionism, rigidity, and self-doubt. While there is some overlap in the names of OCPD and OCD (obsessive compulsive disorder), there are a couple of key differences to note: 1) Patients with OCD generally seek help for psychological stress and OCPD patients do not, 2) Obsessions and compulsions are not present in OCPD. Although both OCPD and OCD patients may engage in excessive tasks that require exquisite attention to detail such as list-making, individuals with OCD use these tasks to decrease anxiety caused by the obsessional thoughts. Conversely, OCPD patients justify list-making as a good strategy to improve efficiency. Also, OCD patients are usually distressed by having to carry out these tasks or rituals. However, OCPD patients view list making activities, for example, as necessary and even beneficial.\n\nParanoid personality disorder (choice D) is characterized by suspiciousness, oversensitivity, querulousness, and an unforgiving character.\n\nSchizoid personality disorder (choice E) is characterized by emotional coldness, solitude, and social insensitivity.",
+    "fa_subchapter": "Personality disorders",
+    "choice_explanations": {
+      "A": "Correct. Dependent personality disorder (Cluster C) features submissive, clinging behavior with an excessive need to be cared for, subordinating one's own needs, inability to express disagreement, and fear of abandonment/separation.",
+      "B": "Histrionic personality disorder features theatricality, suggestibility, attention seeking, and shallowness. Incorrect.",
+      "C": "Obsessive-compulsive personality disorder features perfectionism, rigidity, and self-doubt (without true obsessions/compulsions). Incorrect.",
+      "D": "Paranoid personality disorder features suspiciousness, oversensitivity, and an unforgiving character. Incorrect.",
+      "E": "Schizoid personality disorder features emotional coldness, solitude, and social insensitivity. Incorrect."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      582
+    ],
+    "fa_page": 582,
+    "fa_page_verified": true,
+    "fa_summary": "Dependent personality disorder (Cluster C) is a pervasive, excessive need to be taken care of leading to submissive and clinging behavior and fears of separation; patients cannot express disagreement and subordinate their needs to others.",
+    "option_fa": {}
   }
 ]
