@@ -24454,5 +24454,658 @@
     "fa_page": 393,
     "fa_page_verified": true,
     "fa_summary": "Colonic ischemia presents with crampy abdominal pain followed by hematochezia and commonly affects watershed regions, especially the splenic flexure, in older adults. Atherosclerotic mesenteric disease can reduce perfusion. Distinguish from celiac malabsorption, amebic dysentery, sigmoid diverticulosis, and right-sided angiodysplasia."
+  },
+  {
+    "id": "import-1119b6cad676e46c3f004cf5",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Acetaminophen toxicity / liver injury pattern",
+    "stem": "A 22-year-old man is brought to the emergency department by his roommate because of abdominal pain and vomiting. He took an entire bottle of acetaminophen tablets that morning in a suicide attempt. His vital signs and temperature are within normal limits. There is right upper quadrant tenderness. Which of the following sets of serum laboratory findings is most likely in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "AST high; ALT high; alkaline phosphatase high; amylase normal"
+      },
+      {
+        "letter": "B",
+        "text": "AST high; ALT high; alkaline phosphatase normal; amylase normal"
+      },
+      {
+        "letter": "C",
+        "text": "AST high; ALT low; alkaline phosphatase high; amylase high"
+      },
+      {
+        "letter": "D",
+        "text": "AST normal; ALT normal; alkaline phosphatase high; amylase normal"
+      },
+      {
+        "letter": "E",
+        "text": "AST normal; ALT high; alkaline phosphatase normal; amylase high"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Acetaminophen overdose causes hepatocellular injury through the toxic metabolite NAPQI, which can produce massive hepatic necrosis. Injured hepatocytes release AST and ALT, often into the thousands, while alkaline phosphatase (primarily associated with bile ducts) and amylase (used in pancreatitis) are not expected to rise from isolated acetaminophen-induced hepatic necrosis. The laboratory-pattern table is transcribed into each option below rather than reproducing the whole screenshot.",
+    "choice_explanations": {
+      "A": "Incorrect. Concurrent elevation of AST, ALT, and alkaline phosphatase suggests a mixed/severe hepatobiliary pattern; acetaminophen toxicity classically causes marked aminotransferase elevation without a corresponding alkaline phosphatase or amylase elevation.",
+      "B": "Correct. Acute hepatocellular necrosis causes high AST and ALT, while alkaline phosphatase and amylase are usually normal.",
+      "C": "Incorrect. This pattern is not the expected hepatocellular injury pattern; low ALT with high alkaline phosphatase and amylase does not fit acetaminophen toxicity.",
+      "D": "Incorrect. Isolated alkaline phosphatase elevation suggests cholestasis, infiltrative liver disease, or bone disease rather than hepatocyte necrosis.",
+      "E": "Incorrect. High amylase suggests pancreatic injury, and normal AST with high ALT is not the usual marked aminotransferase pattern in acetaminophen-induced hepatic necrosis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid describes alkaline phosphatase elevation in cholestasis/infiltrative disease and marked aminotransferase elevations in acute liver injury; the combined ALP rise is not the typical isolated acetaminophen pattern.",
+        "page": 397
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "AST and ALT rise in most liver disease and can rise markedly in drug-induced liver injury such as acetaminophen toxicity; alkaline phosphatase is associated with cholestasis, while amylase is not a liver marker.",
+        "page": 397
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 pattern matching high AST, low ALT, and simultaneous high alkaline phosphatase/amylase was found; the pattern does not match acetaminophen hepatocellular injury."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Alkaline phosphatase is elevated in cholestasis, infiltrative disorders, and bone disease; isolated elevation is not the expected finding in acute acetaminophen hepatocellular injury.",
+        "page": 397
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid identifies ALT/AST as liver-injury markers; isolated amylase elevation is not a marker of acetaminophen hepatic necrosis.",
+        "page": 397
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      247,
+      397
+    ],
+    "fa_page": 397,
+    "fa_page_verified": true,
+    "fa_summary": "Acetaminophen overdose can cause acute hepatic necrosis with very high AST/ALT. First Aid distinguishes hepatocellular enzyme release from alkaline phosphatase elevations in cholestasis; N-acetylcysteine replenishes glutathione as the specific antidote."
+  },
+  {
+    "id": "import-635b9d3be17175025219c539",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Pigment gallstones / bilirubin metabolism",
+    "stem": "A 20-year-old woman with a history of sickle cell disease is referred to a surgeon because of biliary colic. She undergoes cholecystectomy, and black pigment stones are seen in her gallbladder on gross examination. The graph shows gallstone composition by cholesterol (vertical axis) and unconjugated bilirubin (horizontal axis). Which point most likely represents the composition of this patient's gallstones?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "High cholesterol; low unconjugated bilirubin"
+      },
+      {
+        "letter": "B",
+        "text": "Low cholesterol; low unconjugated bilirubin"
+      },
+      {
+        "letter": "C",
+        "text": "Intermediate cholesterol; intermediate unconjugated bilirubin"
+      },
+      {
+        "letter": "D",
+        "text": "High cholesterol; high unconjugated bilirubin"
+      },
+      {
+        "letter": "E",
+        "text": "Low cholesterol; high unconjugated bilirubin"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Sickle cell disease causes chronic hemolysis and increased heme turnover, increasing unconjugated bilirubin in bile. Unconjugated bilirubin is insoluble and can precipitate with calcium as calcium bilirubinate, forming black pigment stones. These stones therefore have high unconjugated bilirubin and relatively low/normal cholesterol, corresponding to point E on the graph.",
+    "choice_explanations": {
+      "A": "Incorrect. High cholesterol with low unconjugated bilirubin is the cholesterol-stone pattern, not black pigment stones associated with chronic hemolysis.",
+      "B": "Incorrect. Low levels of both plotted components do not match calcium bilirubinate stones produced by excess unconjugated bilirubin.",
+      "C": "Incorrect. An intermediate/mixed composition is not the expected black pigment-stone pattern in chronic hemolysis.",
+      "D": "Incorrect. High cholesterol and high unconjugated bilirubin suggests a mixed composition; black pigment stones are high in unconjugated bilirubin but low or normal in cholesterol.",
+      "E": "Correct. Black pigment stones contain calcium bilirubinate and are associated with hemolysis, so unconjugated bilirubin is high while cholesterol is low/normal."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Cholesterol stones are the cholesterol-rich stone type; First Aid lists obesity, estrogen, multiparity, rapid weight loss, and other risk factors.",
+        "page": 403
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 category for low cholesterol and low unconjugated bilirubin as a gallstone-composition pattern was found."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 description of the mixed/intermediate gallstone-composition point was found; the distractor is explained from the verified source graph and explanation."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 description of this high-cholesterol/high-bilirubin mixed composition was found; the distractor is explained from the verified source graph and explanation."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Pigment stones (black) are calcium bilirubinate and are associated with chronic hemolysis; the figure links hemolysis to increased unconjugated bilirubin and pigment-stone formation.",
+        "page": 403
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      400,
+      403
+    ],
+    "fa_page": 403,
+    "fa_page_verified": true,
+    "fa_summary": "Chronic hemolysis increases bilirubin load and favors black pigment stones composed of calcium bilirubinate. On a cholesterol-versus-unconjugated-bilirubin graph, this is low/normal cholesterol and high unconjugated bilirubin (point E).",
+    "question_images": [
+      "assets/question-figures/git-q39-composition-graph.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Only the relevant gallstone-composition graph with axes and labeled points A–E is included; the screenshot interface, question and explanation are excluded."
+  },
+  {
+    "id": "import-8dc46ea7cdc821b611c9afba",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Ectopic pregnancy",
+    "stem": "A 21-year-old woman comes to the emergency department because of the abrupt onset of left-sided abdominal pain and vaginal bleeding. Her temperature is 37.1°C (98.7°F), pulse is 78/min, respirations are 16/min, and blood pressure is 132/80 mm Hg. Laboratory studies show elevated hCG levels. Transvaginal ultrasonography shows an empty uterus and a gestational sac containing a yolk sac in the patient's left fallopian tube. Which of the following is the most likely predisposing factor for this condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Endometriosis"
+      },
+      {
+        "letter": "B",
+        "text": "Intrauterine device use"
+      },
+      {
+        "letter": "C",
+        "text": "Uterine leiomyomas"
+      },
+      {
+        "letter": "D",
+        "text": "Pelvic inflammatory disease"
+      },
+      {
+        "letter": "E",
+        "text": "Previous surgery"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The extrauterine gestational sac with a yolk sac confirms a tubal ectopic pregnancy. Pelvic inflammatory disease can cause salpingitis, tubal scarring, and adhesions that delay passage of the fertilized ovum, increasing the risk of tubal implantation. Endometriosis, an IUD, leiomyomas, and prior surgery can also be associated with ectopic pregnancy, but PID-related tubal scarring is the strongest choice here.",
+    "choice_explanations": {
+      "A": "Endometriosis can cause peritubal adhesions, but it is a less likely predisposing factor than PID in this presentation.",
+      "B": "An IUD lowers the absolute incidence of pregnancy; if pregnancy occurs with an IUD, ectopic pregnancy is relatively more likely, but PID is the stronger risk factor here.",
+      "C": "Leiomyomas can distort the uterus and interfere with implantation, but are less likely than PID-related tubal scarring.",
+      "D": "Correct. PID can scar the fallopian tubes and impair transport of the fertilized ovum, predisposing to tubal ectopic pregnancy.",
+      "E": "Prior pelvic surgery can produce adhesions and raise ectopic risk, but PID is the most likely factor among these choices."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Endometriosis is described as ectopic endometrial tissue and can cause infertility; the ectopic-pregnancy entry specifically emphasizes tubal pathology as the risk pathway.",
+        "page": 666
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "An IUD is listed as an ectopic-pregnancy risk factor, although it reduces pregnancy overall.",
+        "page": 658
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid describes leiomyoma as a uterine smooth-muscle tumor but does not directly identify it as an ectopic-pregnancy risk factor."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Tubal scarring from salpingitis/PID is a listed risk factor for ectopic pregnancy.",
+        "page": 658
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Prior tubal/pelvic surgery is listed among ectopic-pregnancy risk factors.",
+        "page": 658
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      658
+    ],
+    "fa_page": 658,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-a632fac3e0a5cf36e4f1b4e5",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Placental hormones",
+    "stem": "Fifty pregnant women participate in a study during which hormone levels are measured at different gestational times. Which of the following hormone profiles shown in the graph will most likely be seen in a woman with a normal pregnancy? W, X, and Y label the three curves; the table gives the candidate hormone assignments.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "W: hCG; X: human placental lactogen (hPL); Y: corticotropin-releasing hormone (CRH)"
+      },
+      {
+        "letter": "B",
+        "text": "W: progesterone; X: CRH; Y: hCG"
+      },
+      {
+        "letter": "C",
+        "text": "W: 17-hydroxyprogesterone; X: hCG; Y: progesterone"
+      },
+      {
+        "letter": "D",
+        "text": "W: hPL; X: hCG; Y: 17-hydroxyprogesterone"
+      },
+      {
+        "letter": "E",
+        "text": "W: hCG; X: 17-hydroxyprogesterone; Y: progesterone"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The early-peaking curve W is hCG: it rises soon after implantation, peaks in the first trimester, and then declines. Curve X rises with placental mass throughout pregnancy, matching hPL. Curve Y rises sharply late in gestation, matching placental CRH. Thus the correct assignment is hCG, hPL, and CRH, respectively.",
+    "choice_explanations": {
+      "A": "Correct. hCG peaks early and then falls; hPL rises with placental mass; placental CRH rises sharply late in pregnancy.",
+      "B": "Progesterone does not follow the early sharp peak shown by W, and hCG is not the late-rising curve Y.",
+      "C": "The hCG and progesterone assignments do not match the steadily rising X curve and late-rising Y curve.",
+      "D": "hPL rises with placental mass rather than peaking early as W does; 17-hydroxyprogesterone does not match the late CRH-like Y curve.",
+      "E": "W is correctly assigned as hCG, but X matches rising hPL rather than 17-hydroxyprogesterone, and Y is the late-rising CRH curve rather than progesterone."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid describes hCG peaking in early pregnancy and hPL rising with placental mass; the complete three-curve assignment is visually verified against the source figure.",
+        "page": 652
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The hCG profile is the early peak and decline, not the curve that rises sharply late in gestation.",
+        "page": 652
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The hCG and progesterone descriptions on the placental-hormone page do not support these curve assignments.",
+        "page": 652
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "hPL rises with placental mass, unlike the early-peaking W curve; hCG is not the late-rising curve.",
+        "page": 652
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 reproductive pages do not directly present a 17-hydroxyprogesterone gestational curve for this comparison; the source figure identifies X as the steadily increasing hPL curve and Y as late-rising CRH."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      652
+    ],
+    "fa_page": 652,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/reproductive-q52-pregnancy-hormone-curve.png",
+      "assets/question-figures/reproductive-q52-hormone-key-table.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "题目所需的局部图像。"
+  },
+  {
+    "id": "import-26d21ba4bf49cfe8b83b7f0b",
+    "chapter": "Endocrine",
+    "fa_subchapter": "Adrenal steroids and congenital adrenal hyperplasias",
+    "stem": "A newborn 46,XX girl shows signs of virilization. Her blood pressure is 150/95 mm Hg and her serum potassium is 3.2 mEq/L. Laboratory studies show elevated plasma androgens and 17-hydroxyprogesterone and decreased aldosterone. A diagnosis of congenital adrenal hyperplasia is made. Which enzyme is most likely defective?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "21-hydroxylase"
+      },
+      {
+        "letter": "B",
+        "text": "3β-hydroxysteroid dehydrogenase"
+      },
+      {
+        "letter": "C",
+        "text": "11β-hydroxylase"
+      },
+      {
+        "letter": "D",
+        "text": "17α-hydroxylase"
+      },
+      {
+        "letter": "E",
+        "text": "Aldosterone synthase"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Virilization and androgen excess indicate diversion of steroid precursors into androgen synthesis. Hypertension and hypokalemia indicate mineralocorticoid activity from elevated 11-deoxycorticosterone (DOC), while low aldosterone reflects renin-angiotensin suppression. 11β-hydroxylase deficiency blocks conversion of DOC to corticosterone and 11-deoxycortisol to cortisol, causing DOC accumulation and this characteristic pattern.",
+    "choice_explanations": {
+      "A": "21-hydroxylase deficiency causes androgen excess and salt wasting with hypotension/hyperkalemia, not DOC-mediated hypertension and hypokalemia.",
+      "B": "3β-hydroxysteroid dehydrogenase deficiency causes impaired mineralocorticoid and glucocorticoid synthesis with salt wasting; it does not cause DOC accumulation with hypertension.",
+      "C": "Correct. 11β-hydroxylase deficiency causes increased DOC, hypertension, hypokalemia, and androgen excess with virilization.",
+      "D": "17α-hydroxylase deficiency reduces androgen production and causes hypertension/hypokalemia; virilization and elevated androgens argue against it.",
+      "E": "Aldosterone synthase deficiency lowers aldosterone but does not explain androgen excess, elevated 17-hydroxyprogesterone, and DOC-mediated hypertension."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "21-hydroxylase deficiency causes virilization but typically salt wasting, hypotension, and hyperkalemia; the CAH comparison table distinguishes it from 11β-hydroxylase deficiency.",
+        "page": 339
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not include 3β-hydroxysteroid dehydrogenase as a separate row in its CAH comparison table; it does identify the major 17α-, 21-, and 11β-hydroxylase patterns."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The CAH table links 11β-hydroxylase deficiency to increased blood pressure, decreased potassium, and virilization in XX individuals.",
+        "page": 339
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "17α-hydroxylase deficiency causes hypertension but reduces sex-hormone production and does not cause virilization.",
+        "page": 339
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not separately map aldosterone synthase deficiency in the CAH comparison table; this option cannot explain the androgen excess and hypertension pattern."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      339
+    ],
+    "fa_page": 339,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-d30097085c4e15da79ecd62b",
+    "chapter": "Microbiology",
+    "fa_subchapter": "Sexually transmitted infections",
+    "stem": "A sexually active 25-year-old woman comes to the physician for a routine gynecologic examination. Pelvic examination shows an area of abnormal-appearing epithelium on the cervix. Microscopic examination of a biopsy specimen shows nuclear enlargement and perinuclear vacuolization in the cervical epithelium. Which of the following is the most likely underlying cause of these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Gonococcal infection"
+      },
+      {
+        "letter": "B",
+        "text": "Herpes simplex virus infection"
+      },
+      {
+        "letter": "C",
+        "text": "Infection with Chlamydia serotypes D–K"
+      },
+      {
+        "letter": "D",
+        "text": "Infection with human papillomavirus serotypes 6 and 11"
+      },
+      {
+        "letter": "E",
+        "text": "Severe squamous dysplasia"
+      },
+      {
+        "letter": "F",
+        "text": "Squamous cell carcinoma in situ"
+      },
+      {
+        "letter": "G",
+        "text": "Trichomonas infection"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Nuclear enlargement with perinuclear vacuolization (a perinuclear halo) and raisinoid, irregular nuclei are koilocytotic changes caused by HPV infection. Low-risk HPV types 6 and 11 are associated with condyloma/koilocytosis. High-risk types 16 and 18 are associated with severe dysplasia and cervical carcinoma, which are not the described cytopathic changes.",
+    "choice_explanations": {
+      "A": "Gonorrhea causes mucopurulent cervicitis and neutrophilic inflammation, not koilocytosis.",
+      "B": "HSV can cause multinucleation and intranuclear inclusions or ground-glass nuclei, rather than the perinuclear halos of koilocytes.",
+      "C": "Chlamydia can cause cervicitis and intracytoplasmic inclusions, but not HPV-type koilocytosis.",
+      "D": "Correct. HPV infection produces koilocytes with irregular, raisinoid nuclei and perinuclear halos; types 6 and 11 are low-risk types associated with condyloma.",
+      "E": "Severe squamous dysplasia is associated with high-risk HPV, especially types 16 and 18, and is not identified by isolated koilocytosis.",
+      "F": "Squamous carcinoma in situ is associated with high-risk HPV and neoplastic epithelial changes, not the characteristic benign koilocytotic pattern alone.",
+      "G": "Trichomoniasis causes vaginitis with motile organisms and inflammation; it does not cause koilocytosis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Gonorrhea is listed as an STI caused by Neisseria gonorrhoeae; it does not produce the koilocytes described here.",
+        "page": 179
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Genital herpes is listed with vesicles/ulcers; the cervical koilocyte finding instead indicates HPV.",
+        "page": 179
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Chlamydia trachomatis D–K causes cervicitis/PID; it is distinct from HPV-related koilocytosis.",
+        "page": 179
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid identifies koilocytes with condylomata acuminata and HPV-6/-11; the cervical pathology section describes koilocytes as pathognomonic of HPV infection.",
+        "page": 179
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "High-risk HPV types 16 and 18 are associated with severe dysplasia and cervical cancer, not the low-risk HPV koilocytosis pattern.",
+        "page": 663
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The cervical pathology section notes progression to carcinoma in situ/invasive disease with high-risk HPV, distinct from the initial koilocytotic finding.",
+        "page": 663
+      },
+      "G": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Trichomoniasis is listed as vaginitis due to Trichomonas vaginalis, with strawberry cervix/motile organisms rather than koilocytosis.",
+        "page": 179
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      179,
+      663
+    ],
+    "fa_page": 179,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/reproductive-q54-cervical-cytology.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "题目所需的局部图像。"
+  },
+  {
+    "id": "import-a931850f87f71e3e8d5f3881",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Menopause",
+    "stem": "A 45-year-old woman comes to the physician because of decreased libido and hot flashes. She states that her menstrual cycles have been sporadic and irregular for the past 6 months. Laboratory studies show elevated luteinizing hormone (LH) and follicle-stimulating hormone (FSH), with normal prolactin. Which of the following best explains these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased estrogens"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased gonadotropin-releasing hormone (GnRH)"
+      },
+      {
+        "letter": "C",
+        "text": "Increased androgens"
+      },
+      {
+        "letter": "D",
+        "text": "Increased estrogens"
+      },
+      {
+        "letter": "E",
+        "text": "Increased inhibin"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hot flashes, reduced libido, irregular cycles, and elevated LH/FSH in a 45-year-old woman are consistent with the menopausal transition. Declining ovarian follicle number reduces estrogen and inhibin feedback on the hypothalamus and pituitary, increasing GnRH drive and gonadotropins. Low estrogen is the best explanation; increased estrogen or inhibin would suppress gonadotropins.",
+    "choice_explanations": {
+      "A": "Correct. Declining ovarian estrogen removes negative feedback, increasing GnRH and pituitary LH/FSH; vasomotor symptoms are consistent with estrogen deficiency.",
+      "B": "Reduced GnRH would lower rather than raise LH and FSH.",
+      "C": "Androgens may rise relatively after menopause, but do not explain the increased gonadotropins and classic hot flashes as directly as reduced estrogen.",
+      "D": "Increased estrogen would provide negative feedback and lower LH/FSH.",
+      "E": "Increased inhibin would suppress FSH rather than accompany elevated FSH."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Menopause is associated with reduced estrogen from depletion of ovarian follicles and loss of negative feedback, with increased LH and FSH.",
+        "page": 653
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Reduced GnRH would not explain increased LH/FSH; menopause is associated with increased GnRH/gonadotropins after estrogen feedback falls.",
+        "page": 653
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid notes relative androgen increase after menopause, but declining estrogen is the primary feedback change that explains elevated gonadotropins.",
+        "page": 653
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Estrogen normally feeds back to reduce gonadotropin secretion; menopause involves reduced estrogen, not increased estrogen.",
+        "page": 653
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly list increased inhibin as a menopause finding; increased inhibin would suppress FSH, opposite the measured pattern."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      653
+    ],
+    "fa_page": 653,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-d4915ab05fa3ba838e7ab7c9",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Ménétrier disease / protein-losing gastropathy",
+    "stem": "A 48-year-old man comes to the physician because of a 6-month history of epigastric discomfort. A proton pump inhibitor provided little relief. During the past month he has developed diarrhea and lost 10 lb. Upper endoscopy shows diffusely thickened gastric rugal folds. Gastric biopsy shows marked hyperplasia of superficial mucous cells with scant gastric glands. If untreated, loss of which of the following from his gastrointestinal tract is most likely to increase?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Carbohydrates"
+      },
+      {
+        "letter": "B",
+        "text": "Chloride"
+      },
+      {
+        "letter": "C",
+        "text": "Fat"
+      },
+      {
+        "letter": "D",
+        "text": "Protein"
+      },
+      {
+        "letter": "E",
+        "text": "Water"
+      }
+    ],
+    "answer": "D",
+    "explanation": "This is Ménétrier disease (protein-losing gastropathy), characterized by enlarged rugal folds and proliferation of mucus-producing surface cells with loss/atrophy of gastric glands. Excess gastric mucus secretion results in protein loss, potentially causing hypoalbuminemia and peripheral edema. Gastric acid production is reduced; carbohydrate absorption occurs in the small intestine, fat loss suggests intestinal malabsorption, and secreted fluid is reabsorbed rather than causing dehydration.",
+    "choice_explanations": {
+      "A": "Incorrect. Carbohydrate absorption occurs in the small intestine and is not impaired by this gastric mucosal disorder.",
+      "B": "Incorrect. Ménétrier disease causes reduced acid production from loss/atrophy of parietal cells, so increased chloride loss is not expected.",
+      "C": "Incorrect. Increased fat loss suggests small-intestinal or pancreatic malabsorption (eg, celiac disease or pancreatic insufficiency), not excess gastric mucus secretion.",
+      "D": "Correct. Excess protein-rich gastric mucus is lost from the GI tract, producing protein-losing gastropathy and possible hypoalbuminemia/edema.",
+      "E": "Incorrect. Excess mucus fluid is generally reabsorbed in the intestine; Ménétrier disease does not typically cause dehydration."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Only monosaccharides are absorbed by enterocytes in the small intestine; gastric mucosal disease does not directly impair this process.",
+        "page": 381
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ménétrier disease causes parietal cell atrophy and decreased acid production; page 379 describes gastric acid secretion by parietal cells.",
+        "page": 386
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Malabsorption syndromes can cause steatorrhea; celiac disease primarily affects the small intestine and causes malabsorption, unlike this gastric protein-losing disorder.",
+        "page": 388
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ménétrier disease is gastric mucosal hyperplasia with excess mucus production and resultant protein loss.",
+        "page": 386
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid 2026 statement was found that Ménétrier disease causes or prevents water loss; the source explanation states secreted fluid is reabsorbed and dehydration does not occur."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      379,
+      381,
+      386,
+      388
+    ],
+    "fa_page": 386,
+    "fa_page_verified": true,
+    "fa_summary": "Ménétrier disease causes hyperplasia of gastric fundus/body mucosa with excess mucus, protein loss, edema, and parietal-cell atrophy with reduced acid production. It is a protein-losing gastropathy, not a small-intestinal carbohydrate/fat malabsorption syndrome."
   }
 ]
