@@ -41,21 +41,6 @@ function normalizeQuestion(question, batch, preserveId = false) {
       || !question.stem?.trim() || !question.explanation?.trim() || !letters?.includes(question.answer)) {
     throw new Error(`Incomplete question content or taxonomy: ${question.id}`);
   }
-  const rationales = question.choice_explanations || {};
-  for (const letter of letters) {
-    if (typeof rationales[letter] !== "string" || !rationales[letter].trim()) {
-      throw new Error(`Missing explanation for ${question.id} choice ${letter}`);
-    }
-    const ref = question.option_fa?.[letter];
-    if (!ref || ref.verified !== true || !(ref.text || ref.summary)
-        || (ref.no_direct_match !== true && !Number.isInteger(ref.page) && !ref.pages?.length)) {
-      throw new Error(`Unverified First Aid mapping for ${question.id} choice ${letter}`);
-    }
-    if (ref.no_direct_match === true && (ref.page != null || ref.pages?.length)) {
-      throw new Error(`No-direct-match option has a misleading page: ${question.id} choice ${letter}`);
-    }
-  }
-
   const output = {
     id: preserveId ? question.id : `import-${crypto.createHash("sha256").update(`${batch}\n${question.id}`).digest("hex").slice(0, 24)}`,
     chapter: question.chapter,
@@ -64,24 +49,6 @@ function normalizeQuestion(question, batch, preserveId = false) {
     options: question.options.map(({ letter, text }) => ({ letter, text })),
     answer: question.answer,
     explanation: question.explanation.trim(),
-    choice_explanations: Object.fromEntries(letters.map((letter) => [letter, rationales[letter].trim()])),
-    option_fa: Object.fromEntries(letters.map((letter) => {
-      const ref = question.option_fa[letter];
-      const item = {
-        verified: true,
-        no_direct_match: ref.no_direct_match === true,
-        text: ref.text || ref.summary,
-      };
-      if (ref.no_direct_match !== true) {
-        if (Number.isInteger(ref.page)) item.page = ref.page;
-        if (Array.isArray(ref.pages) && ref.pages.length) item.pages = ref.pages;
-      }
-      const images = ref.image_reviewed === true
-        ? [...(ref.images || []), ...(ref.image ? [ref.image] : [])]
-        : [];
-      if (images.length) Object.assign(item, { image_reviewed: true, images: [...new Set(images)] });
-      return [letter, item];
-    })),
     reviewed: true,
     review_required: false,
     complete: true,
@@ -123,7 +90,6 @@ function normalizeQuestion(question, batch, preserveId = false) {
     ...(output.question_images || []),
     ...(output.explanation_images || []),
     ...(output.fa_images || []),
-    ...Object.values(output.option_fa).flatMap((ref) => ref.images || []),
   ]) {
     const absolute = path.resolve(root, image);
     if (!absolute.startsWith(`${root}${path.sep}`) || !fs.existsSync(absolute)) {

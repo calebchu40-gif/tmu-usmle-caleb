@@ -171,13 +171,6 @@ def build(root=ROOT):
         image_paths = {image for q in curated for image in (q.get("question_images") or [])}
         image_paths.update(image for q in curated for image in (q.get("explanation_images") or []))
         image_paths.update(q["question_image"] for q in curated if q.get("question_image"))
-        image_paths.update(image for q in curated if q.get("fa_figures_reviewed") is True for image in (q.get("fa_images") or []))
-        image_paths.update(
-            image
-            for q in curated
-            for ref in (q.get("option_fa") or {}).values() if ref.get("image_reviewed") is True
-            for image in ([ref.get("image")] if ref.get("image") else []) + (ref.get("images") or [])
-        )
         image_paths = sorted(image_paths)
         for image in image_paths:
             source = (root / image).resolve()
@@ -281,6 +274,10 @@ def public_question_rows(curated, config):
         digest_input = f"{source_file}\n{source_id}\n{page_text}"
         cloud_id = "qb-" + hashlib.sha256(digest_input.encode("utf-8")).digest()[:20].hex()
         item = {**question, "id": cloud_id, "cloud_id": cloud_id}
+        # The public UI uses a question-level First Aid cross-reference only.
+        item.pop("option_fa", None)
+        item.pop("fa_images", None)
+        item.pop("fa_figures_reviewed", None)
         for field in (
             "source_file", "source_pdf", "source_pdf_pages", "explanation_pdf_pages", "question_number",
             "fa_page_candidate", "audit", "qa", "first_aid_2026", "media_audit", "choice_explanations_audit",

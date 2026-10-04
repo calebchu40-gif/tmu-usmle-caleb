@@ -123,47 +123,37 @@ test('curated question text is free of common screenshot-OCR chrome and replacem
   }
 });
 
-test('First Aid references render for every option and can show page text and multiple images',()=>{
-  assert.match(app,/const entries=optionsFor\(q\)\.map\(option=>\[option,refs\[option\.letter\]\]\)/);
-  assert.match(app,/const verified=ref\?\.verified===true/);
-  assert.match(app,/Array\.isArray\(ref\?\.pages\)/);
-  assert.match(app,/Array\.isArray\(q\.fa_pages\)/);
-  assert.match(app,/const copy=verified\?\(ref\.text\|\|ref\.summary\):null/);
-  assert.match(app,/const images=verified&&ref\.image_reviewed===true\?\[\.\.\.\(ref\.images\|\|\[\]\),\.\.\.\(ref\.image\?\[ref\.image\]:\[\]\)\]:\[\]/);
-  assert.match(app,/暂无经过人工核实的 First Aid 对应知识点/);
-  assert.match(app,/q\.fa_page_verified===true/);
-  assert.match(app,/FA 无直接条目/);
-  assert.match(app,/查看 First Aid 页面图/);
+test('First Aid renders one concise chapter/topic/printed-page reference per question',()=>{
+  assert.match(app,/function appendFirstAidReference\(container,q\)/);
+  assert.match(app,/q\.fa_subchapter\|\|q\.subchapter\|\|q\.subcategory/);
+  assert.match(app,/书内页码/);
+  assert.doesNotMatch(app,/function appendOptionFa/);
+  assert.doesNotMatch(app,/查看 First Aid 页面图/);
 });
 
-test('first three visually audited musculoskeletal items have clean choices, rationale, and printed First Aid page matches',()=>{
+test('first three visually audited musculoskeletal items have clean choices and question-level First Aid pages',()=>{
   const base='自建题库/KAPLAN QBANK/ANATOMY/MUSCLOSKELETAL/muscloskeletal.pdf||';
   const expected=[['1','D',457],['2','E',450],['3','E',452]];
   for(const [number,answer,page] of expected){
     const item=overrides[base+number];
     assert.ok(item?.complete&&item.stem&&item.explanation);
     assert.equal(item.answer,answer);assert.equal(item.fa_page,page);
-    assert.equal(Object.keys(item.option_fa||{}).length,item.options.length);
-    for(const option of item.options)assert.ok(item.option_fa[option.letter]?.text||item.option_fa[option.letter]?.summary||item.option_fa[option.letter]?.no_direct_match);
+    assert.equal(item.fa_page_verified,true);assert.ok(item.fa_subchapter);
     assert.doesNotMatch(item.stem,/most ikely|\bk decreased|\| and Il/i);
   }
 });
 
-test('first three musculoskeletal questions have verified per-option First Aid references',()=>{
+test('first three musculoskeletal questions have question-level printed First Aid references',()=>{
   for(const id of ['1','2','3']){
     const key=`自建题库/KAPLAN QBANK/ANATOMY/MUSCLOSKELETAL/muscloskeletal.pdf||${id}`;
     const q=overrides[key];
     assert.equal(q.fa_reviewed,true);
-    for(const option of q.options){
-      const ref=q.option_fa?.[option.letter];
-      assert.equal(ref?.verified,true,`${id}-${option.letter} is unverified`);
-      assert.ok(ref.text?.length>20||ref.no_direct_match,`${id}-${option.letter} needs a content note`);
-      for(const image of ref.images||[]) assert.match(image,/^assets\/(?:fa-pages|fa-figures)\/[a-z0-9-]+\.(?:png|jpg)$/i);
-    }
+    assert.ok(q.fa_page_verified===true,`${id} page not verified`);
+    assert.ok(q.fa_subchapter,`${id} knowledge point missing`);
   }
 });
 
-test('test results include source images and per-choice explanations',()=>{
+test('test results include source images, answer choices and question-level FA reference',()=>{
   assert.match(app,/appendQuestionImages\(row,q\)/);
   assert.match(app,/appendExplanationImages\(row,filtered\[i\]\)/);
   assert.match(app,/查看原解析中的图表/);
@@ -171,8 +161,8 @@ test('test results include source images and per-choice explanations',()=>{
   assert.match(app,/explanation_figures_reviewed!==true\)return/);
   assert.match(app,/查看相关图表/);
   assert.doesNotMatch(app,/查看原始题面图像/);
-  assert.match(app,/const notes=q\.choice_explanations/);
-  assert.match(app,/notes\[letter\]/);
+  assert.match(app,/appendFirstAidReference\(row,q\)/);
+  assert.doesNotMatch(app,/notes\[letter\]/);
   assert.match(app,/test-option-result/);
   assert.match(app,/你的选择 · 错误/);
   assert.match(app,/正确答案/);
