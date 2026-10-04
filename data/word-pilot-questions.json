@@ -50396,5 +50396,191 @@
     "fa_page_verified": true,
     "fa_summary": "Dependent personality disorder (Cluster C) is a pervasive, excessive need to be taken care of leading to submissive and clinging behavior and fears of separation; patients cannot express disagreement and subordinate their needs to others.",
     "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-msk-common-fibular-nerve-neck-fibula-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "stem": "A 17-year-old girl is brought to the emergency department because of pain in her left lower leg after a fall. An x-ray of the lower extremity shows a fracture of the left tibia, and the leg is placed in a cast. Several days later, she develops sensory loss of the dorsum of the left foot. Physical examination shows weakness in extension of the left great toe. Compression of a nerve by the cast at which of the following locations is most likely responsible for the development of this symptom in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anterior border of the tibia"
+      },
+      {
+        "letter": "B",
+        "text": "Lateral malleolus"
+      },
+      {
+        "letter": "C",
+        "text": "Medial femoral condyle"
+      },
+      {
+        "letter": "D",
+        "text": "Medial malleolus"
+      },
+      {
+        "letter": "E",
+        "text": "Neck of the fibula"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. The common fibular (peroneal) nerve passes around the neck of the fibula, where it is susceptible to injury. Just distal to the neck of the fibula, the common fibular nerve divides into two main branches, the superficial fibular nerve and the deep fibular nerve. The superficial fibular nerve supplies sensory innervation to most of the skin of the dorsum of the foot in addition to motor innervation to the muscles of the lateral compartment of the leg that evert the foot. The deep fibular nerve supplies motor innervation to muscles of the anterior compartment of the leg that dorsiflex the foot, extend the toes, and assist in foot inversion. It also supplies sensory innervation to a small patch of skin in the dorsum of the first web space. Compression of the common fibular nerve at the neck of the fibula would account for both symptoms seen in this patient. The sensory innervation of the lower leg and foot is shown below.\n\nNo major nerves pass over the anterior border of the tibia (choice A). Compression of nerve branches passing near the lateral malleolus (choice B) could cause some sensory loss from the skin of the lateral foot (secondary to compression of the lateral dorsal cutaneous nerve). The saphenous nerve, a branch of the femoral nerve, passes near the medial femoral condyle (choice C). Compression of this nerve could result in loss of sensation from the skin of the medial leg and ankle. The tibial nerve passes posterior to the medial malleolus (choice D). This nerve divides into the medial and lateral plantar nerves, which provide cutaneous innervation to the plantar surface of the foot. Therefore, compression in this location could cause sensory loss to the plantar foot, not to the dorsum of the foot.",
+    "fa_subchapter": "Common fibular nerve",
+    "choice_explanations": {
+      "A": "No major nerves pass over the anterior border of the tibia.",
+      "B": "Compression of nerve branches passing near the lateral malleolus could cause some sensory loss from the skin of the lateral foot (lateral dorsal cutaneous nerve).",
+      "C": "The saphenous nerve, a branch of the femoral nerve, passes near the medial femoral condyle; compression could cause loss of sensation from the skin of the medial leg and ankle.",
+      "D": "The tibial nerve passes posterior to the medial malleolus and divides into the medial and lateral plantar nerves, which innervate the plantar surface of the foot.",
+      "E": "The common fibular nerve passes around the neck of the fibula; compression here accounts for both the sensory loss over the dorsum of the foot and the weakness of great toe extension."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      457
+    ],
+    "fa_page": 457,
+    "fa_page_verified": true,
+    "fa_summary": "Common fibular (peroneal) nerve injury at the neck of the fibula causes foot drop (weakness of dorsiflexion/toe extension) and sensory loss over the dorsum of the foot.",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-msk-axillary-nerve-surgical-neck-humerus-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "stem": "A 17-year-old boy is brought to the emergency department after sustaining a high impact injury to his arm during a baseball game. He reports being hit in the right shoulder with a batted ball, causing immediate pain and swelling in that region. Physical examination of the right upper extremity is limited by the patient's pain, and full motor and sensory examination are unable to be performed. X-ray of the shoulder shows a fracture of the surgical neck of the humerus. Which of the following additional findings will most likely be seen in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Laceration of the profunda brachii artery"
+      },
+      {
+        "letter": "B",
+        "text": "Weakness in medial rotation of the arm"
+      },
+      {
+        "letter": "C",
+        "text": "Weakness in the ability to abduct the arm at the shoulder"
+      },
+      {
+        "letter": "D",
+        "text": "Weakness in the ability to elevate the scapula"
+      },
+      {
+        "letter": "E",
+        "text": "Weakness in the ability to protract the scapula"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. Injuries involving fracture of the surgical neck of the humerus place the axillary nerve at risk of injury. This nerve passes through the quadrangular space, the lateral border of which is the surgical neck of the humerus. This nerve innervates the deltoid muscle and the teres minor. The clinical features of injury to this nerve include weakness of shoulder abduction and a sensory loss in the lateral upper arm and shoulder.\n\nLaceration of the profunda brachii artery (choice A) might occur if one suffers a midshaft fracture of the humerus. This artery accompanies the radial nerve in the musculospiral groove of the humerus. A surgical neck fracture may lacerate the posterior circumflex humeral artery, which accompanies the axillary nerve through the quadrangular space. Weakness in medial rotation of the arm (choice B) may result from a lesion to the posterior cord of the plexus and one or more of the subscapular nerves, or injury to the lateral or medial pectoral nerves. The major medial rotators of the arm at the shoulder are the subscapularis muscle, innervated by the upper and lower subscapular nerves, the latissimus dorsi muscle, innervated by the middle subscapular nerve, the teres major, innervated by the lower subscapular nerve, and the pectoralis major muscle, innervated by the lateral and medial pectoral nerves. Weakness in the ability to elevate the scapula (choice D) may result from a lesion of the accessory nerve; this nerve may be lacerated by a wound to the lateral neck, but not by a humeral fracture. This nerve innervates the trapezius muscle. Weakness in the ability to protract the scapula (choice E) results from an injury to the long thoracic nerve, which innervates the serratus anterior muscle, causing \"winging\" of the scapula. This presents as protrusion of the scapula when the patient pushes against a wall. There will be no sensory deficits. The nerve is subject to injury during axillary surgery, such as axillary node dissection for breast cancer.",
+    "fa_subchapter": "Axillary nerve",
+    "choice_explanations": {
+      "A": "A midshaft humeral fracture may lacerate the profunda brachii artery, which accompanies the radial nerve in the musculospiral groove.",
+      "B": "Medial rotation weakness results from a lesion of the posterior cord/subscapular nerves or the pectoral nerves.",
+      "C": "The axillary nerve passes through the quadrangular space at the surgical neck of the humerus and innervates the deltoid and teres minor; injury causes weakness of shoulder abduction and sensory loss over the lateral upper arm.",
+      "D": "Scapular elevation weakness results from injury to the accessory nerve (trapezius), which is not injured by a humeral fracture.",
+      "E": "Scapular protraction weakness (winging) results from injury to the long thoracic nerve (serratus anterior)."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      451
+    ],
+    "fa_page": 451,
+    "fa_page_verified": true,
+    "fa_summary": "Fracture of the surgical neck of the humerus injures the axillary nerve, causing weakness of shoulder abduction and sensory loss over the lateral upper arm.",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-msk-c5-nerve-root-musculocutaneous-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "stem": "A 66-year-old man is involved in a motor vehicle collision. Upon arrival, paramedics stabilize the patient's neck then transport him to the emergency department. He says that he has neck pain that radiates down the right arm. Physical examination shows a loss of sensation in a small region of the lateral upper right arm. An MRI of the spine shows a herniated intervertebral disc impinging on the right C5 nerve roots. Which of the following movements will most likely be affected?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Adduction of the thumb"
+      },
+      {
+        "letter": "B",
+        "text": "Extension of the fingers"
+      },
+      {
+        "letter": "C",
+        "text": "Flexion at the elbow"
+      },
+      {
+        "letter": "D",
+        "text": "Flexion at the wrist"
+      },
+      {
+        "letter": "E",
+        "text": "Pronation of the forearm"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. Patients involved in high impact injuries, such as motor vehicle accidents, are prone to very serious spinal cord injury. Fortunately, this patient apparently sustained a comparatively mild injury with herniation of the intervertebral disc at C5. Disc herniation may occur as a result of sudden injury, as in the case of this patient, or from chronic stress to the back (from heavy lifting, etc.). In this condition, the tough, fibrous covering of the intervertebral disc is compromised, allowing the inner nucleus pulposus to bulge out and compress the spinal nerves. This characteristically produces the radiating symptoms that we see in this patient.\n\nAs shown in the figure of the brachial plexus below, the C5 nerve root significantly contributes to the upper trunk, which in turn innervates the lateral and posterior cords. Only certain nerves branching from these cords receive input directly from C5, and typically these nerves innervate more proximal muscles. Specifically, C5 makes contributions to the suprascapular nerve, musculocutaneous nerve, axillary nerve, lower subscapular nerve, upper subscapular nerve, lateral pectoral nerve, long thoracic nerve, and part of the phrenic nerve. For the purposes of this question, the important nerve in this list is the musculocutaneous nerve, which provides innervation to major flexors of the elbow (choice C) including the biceps brachii and brachialis. Also mentioned in the question is the loss of sensation in the lateral upper arm. This is the region of the C5 dermatome. C5 contributions to the axillary nerve are responsible for sensation in this region.\n\nAdduction of the thumb (choice A) is mediated by the intrinsic hand muscle known as the adductor pollicis. This muscle is innervated by the ulnar nerve, which receives fibers from C8 and T1 via the medial cord. Because of the proximal-distal gradient of segmental motor innervation, we should anticipate that a C5 injury would affect proximal limb muscles. The distal limb muscles (in the hand) are innervated by C8 and T1 spinal cord segments.",
+    "fa_subchapter": "Brachial plexus",
+    "choice_explanations": {
+      "A": "Thumb adduction is mediated by the adductor pollicis, innervated by the ulnar nerve (C8-T1) via the medial cord.",
+      "C": "C5 contributes to the musculocutaneous nerve, which innervates the major elbow flexors (biceps brachii and brachialis).",
+      "E": "Pronation of the forearm (pronator teres/quadratus) is innervated by the median nerve (C6-T1) and is not preferentially lost with a C5 lesion."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      452
+    ],
+    "fa_page": 452,
+    "fa_page_verified": true,
+    "fa_summary": "A C5 nerve root lesion preferentially affects proximal upper limb muscles; C5 contributes to the musculocutaneous nerve, so elbow flexion (biceps/brachialis) is affected.",
+    "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-msk-avn-femoral-head-medial-circumflex-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "stem": "A 35-year-old man comes to his physician because of pain in the right groin and buttock region. He reports that the pain is exacerbated by weight bearing and is relieved by rest. His medical history is significant for alcohol abuse. Physical examination shows a limp with limitation of right hip flexion during ambulation and decreased abduction at the right hip. Passive range of motion of the right hip is limited and painful. An x-ray of the hip shows flattening of the femoral head and an irregular appearance of the capital femoral epiphysis compared to the left side. Avascular necrosis of the right femoral head is diagnosed. A disruption of blood supply from which of the following vessels is most likely responsible for this patient's symptoms?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Deep femoral artery"
+      },
+      {
+        "letter": "B",
+        "text": "External iliac artery"
+      },
+      {
+        "letter": "C",
+        "text": "Femoral artery"
+      },
+      {
+        "letter": "D",
+        "text": "Lateral circumflex femoral artery"
+      },
+      {
+        "letter": "E",
+        "text": "Medial circumflex femoral artery"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. Avascular necrosis (AVN) of the femoral head is sometimes traumatic in origin (e.g., femoral neck fracture, hip dislocation) but most often is nontraumatic. Chronic steroid use and alcohol abuse are frequently associated with this condition. Although the etiology is unclear, it is likely that intravascular coagulation plays a role. The clinical picture is usually a limp to avoid pain (antalgic gait) or a painless limp. If there is pain, it is often referred to the anterior thigh and groin region or the gluteal region. The diagnosis may be confirmed radiographically, which shows the findings indicated in the question. Passing deep to the inguinal ligament, the external iliac artery becomes the femoral artery. A major branch of the femoral artery in the anterior thigh is the deep (profunda) femoral artery, which has two major branches, the medial and lateral circumflex femoral arteries. Most of the blood supply to the head of the femur arises from the medial circumflex femoral artery. This artery ascends along the neck of the femur to reach the head of the femur. See figure below.\n\nThe deep femoral artery (choice A) is a branch of the femoral artery. Its major region of supply are the muscles of the thigh. The external iliac artery (choice B) is a branch of the common iliac artery at the pelvic brim. The external iliac artery does not cross over the pelvic brim to enter the pelvis. It gives rise to the inferior epigastric artery and then continues into the thigh by passing deep to the inguinal ligament. At this point, its name is changed to the femoral artery. The femoral artery (choice C) is a continuation of the external iliac artery. The deep (profunda) femoral artery is a branch of the femoral artery and one of its branches, the medial circumflex artery (choice E), is the primary blood supply to the head of the femur. The femoral artery is primarily responsible for the blood supply to the lower limb distal to the knee. The femoral artery passes through the adductor hiatus to enter the popliteal fossa, at which point its name is changed to the popliteal artery. The popliteal artery divides into the anterior and posterior tibial arteries. The lateral circumflex femoral artery (choice D) is also a branch of the deep femoral artery. It joins the medial circumflex artery to loop around the proximal femoral shaft, but its major blood supply is to the upper shaft of the femur and muscles of the anterior thigh muscles. A figure of the arterial supply to the lower limb is shown below.",
+    "fa_subchapter": "Avascular necrosis of bone",
+    "choice_explanations": {
+      "A": "The deep femoral artery supplies the muscles of the thigh, not the femoral head.",
+      "B": "The external iliac artery does not supply the femoral head; it becomes the femoral artery deep to the inguinal ligament.",
+      "C": "The femoral artery is primarily responsible for blood supply to the lower limb distal to the knee.",
+      "D": "The lateral circumflex femoral artery supplies the upper femoral shaft and anterior thigh muscles.",
+      "E": "Most of the blood supply to the head of the femur arises from the medial circumflex femoral artery, which ascends along the neck of the femur; disruption causes avascular necrosis."
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      469
+    ],
+    "fa_page": 469,
+    "fa_page_verified": true,
+    "fa_summary": "The femoral head is supplied mainly by the medial circumflex femoral artery (a branch of the deep femoral artery); disruption causes avascular necrosis, associated with alcohol abuse and chronic steroid use.",
+    "option_fa": {}
   }
 ]
