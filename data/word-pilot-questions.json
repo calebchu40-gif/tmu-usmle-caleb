@@ -8628,7 +8628,7 @@
     "id": "import-ab3d2151921285a874bbc601",
     "chapter": "Public Health Sciences",
     "fa_subchapter": "Epidemiology and Biostatistics",
-    "stem": "A diagnostic test for fetal trisomy 21 is administered to 500 women at risk. The results are shown below. What is the positive predictive value of this test?\n\nResult | Trisomy 21 | Normal karyotype\nPositive test | 100 | 50\nNegative test | 100 | 250\n\nDiagnostic results (test result | trisomy 21 | normal karyotype): Positive test | 100 | 50; Negative test | 100 | 250",
+    "stem": "A diagnostic test for fetal trisomy 21 is administered to 500 women at risk. The results are shown below. What is the positive predictive value of this test?",
     "options": [
       {
         "letter": "A",
@@ -8700,7 +8700,12 @@
     ],
     "fa_page": 260,
     "fa_page_verified": true,
-    "fa_summary": "PPV = true positives / all positive results; it varies with disease prevalence."
+    "fa_summary": "PPV = true positives / all positive results; it varies with disease prevalence.",
+    "question_images": [
+      "assets/question-figures/qb-tables/trisomy21-ppv-table.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "2x2 检测结果表：正检/负检 × 21三体/正常核型。"
   },
   {
     "id": "import-a84b364b9e34a46ee8120d7a",
@@ -8794,7 +8799,7 @@
     "id": "import-23a727058eccfc3c3285cc86",
     "chapter": "Public Health Sciences",
     "fa_subchapter": "Epidemiology and Biostatistics",
-    "stem": "An investigator studies the incidence of ischemic heart disease (IHD) in relation to habitual physical activity (PA). The data are shown below. Based on the data, which conclusion is most appropriate?\n\nLevel of PA | Relative risk of IHD | 95% confidence interval\nSedentary | 1.00 | Reference\nLow | 0.95 | 0.89–1.21\nModerate | 0.86 | 0.73–1.09\nHigh | 0.64 | 0.49–0.87",
+    "stem": "An investigator studies the incidence of ischemic heart disease (IHD) in relation to habitual physical activity (PA). The data are shown below. Based on the data, which conclusion is most appropriate?",
     "options": [
       {
         "letter": "A",
@@ -8866,7 +8871,12 @@
     ],
     "fa_page": 267,
     "fa_page_verified": true,
-    "fa_summary": "A relative-risk confidence interval including 1 is not statistically significant; source table absent, hold."
+    "fa_summary": "A relative-risk confidence interval including 1 is not statistically significant; source table absent, hold.",
+    "question_images": [
+      "assets/question-figures/qb-tables/ihd-relative-risk-table.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "体力活动水平与缺血性心脏病相对风险(含95%CI)表。"
   },
   {
     "id": "import-1df2d96c121ff55f6b9f68a2",
@@ -22417,7 +22427,7 @@
     "id": "import-35bf8a10392e3523ca31cab6",
     "chapter": "Hematology and Oncology",
     "fa_subchapter": "Iron studies / Hemochromatosis",
-    "stem": "A 52-year-old man comes to the physician because of erectile dysfunction. Physical examination shows darkened skin and limited range of motion in the small joints of both hands. Fasting serum glucose is 170 mg/dL. Imaging studies show a small, nodular liver and splenomegaly. A liver-biopsy photomicrograph is shown. Which combination of serum laboratory values is most likely?\n\nTest | A | B | C | D | E\nSerum iron | Low | Low | Normal | High | High\nFerritin | Low | High | Normal | Low | High\nTransferrin | High | Low | High | High | Low\nTransferrin saturation | Low | Low | Low | Low | High",
+    "stem": "A 52-year-old man comes to the physician because of erectile dysfunction. Physical examination shows darkened skin and limited range of motion in the small joints of both hands. Fasting serum glucose is 170 mg/dL. Imaging studies show a small, nodular liver and splenomegaly. A liver-biopsy photomicrograph is shown. Which combination of serum laboratory values is most likely?",
     "options": [
       {
         "letter": "A",
@@ -22490,7 +22500,8 @@
     "fa_page_verified": true,
     "fa_summary": "First Aid 2026 printed p.423 directly compares iron-study patterns. Hemochromatosis is the column with increased serum iron, decreased transferrin/TIBC, increased ferritin, and increased transferrin saturation. This matches the clinical iron-overload syndrome in the stem.",
     "question_images": [
-      "assets/question-figures/general-principles-q19-liver-biopsy.png"
+      "assets/question-figures/general-principles-q19-liver-biopsy.png",
+      "assets/question-figures/qb-tables/hemochromatosis-lab-combo-table.png"
     ],
     "question_figures_reviewed": true,
     "question_figure_description": "Liver-biopsy photomicrograph with coarse golden-brown iron pigment in hepatocytes, consistent with iron deposition."
@@ -22920,7 +22931,7 @@
     "id": "import-a0b180e6582a1d4152d48ff3",
     "chapter": "Renal",
     "fa_subchapter": "Physiology / Fluid compartments",
-    "stem": "A 62-year-old woman with stage 4 chronic kidney disease is participating in a clinical study of a new therapy that alters fluid distribution between plasma and interstitial fluid. The table gives the volume of distribution (VOD) of radioactive sodium (extracellular fluid marker), radioiodinated serum albumin (RISA; plasma marker), and deuterium-labeled water (D₂O; total-body-water marker) before and after therapy.\n\nMeasurement (L) | Before therapy | After therapy\nRadioactive sodium VOD | 23 | 19\nRISA VOD | 6 | 8\nD₂O VOD | 50 | 46\n\nWhich of the following best characterizes the effect of therapy on plasma volume and interstitial fluid volume, respectively?",
+    "stem": "A 62-year-old woman with stage 4 chronic kidney disease is participating in a clinical study of a new therapy that alters fluid distribution between plasma and interstitial fluid. The table gives the volume of distribution (VOD) of radioactive sodium (extracellular fluid marker), radioiodinated serum albumin (RISA; plasma marker), and deuterium-labeled water (D₂O; total-body-water marker) before and after therapy.\n\nWhich of the following best characterizes the effect of therapy on plasma volume and interstitial fluid volume, respectively?",
     "options": [
       {
         "letter": "A",
@@ -23003,7 +23014,12 @@
     ],
     "fa_page": 599,
     "fa_page_verified": true,
-    "fa_summary": "First Aid 2026 printed p.599 shows fluid compartments: ECF is divided into interstitial fluid and plasma, with interstitial fluid comprising about 75% of ECF and plasma about 25%. It states plasma volume can be measured with radiolabeled albumin and extracellular volume with inulin or mannitol. The question's radioactive-sodium marker for ECFV and subtraction (ISFV = ECFV − PV) are supplied by the question's measurement framework; the numerical calculation is shown explicitly in the explanation."
+    "fa_summary": "First Aid 2026 printed p.599 shows fluid compartments: ECF is divided into interstitial fluid and plasma, with interstitial fluid comprising about 75% of ECF and plasma about 25%. It states plasma volume can be measured with radiolabeled albumin and extracellular volume with inulin or mannitol. The question's radioactive-sodium marker for ECFV and subtraction (ISFV = ECFV − PV) are supplied by the question's measurement framework; the numerical calculation is shown explicitly in the explanation.",
+    "question_images": [
+      "assets/question-figures/qb-tables/body-fluid-vod-table.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "治疗前后各体液标记物分布容积(VOD)表。"
   },
   {
     "id": "import-b8920a0171b2a5b19e0f369c",
@@ -25561,7 +25577,7 @@
   {
     "id": "wordpilot-new-salmonella-attack-rate-raw-clams-20261004",
     "chapter": "Public Health Sciences",
-    "stem": "A group of investigators is evaluating an outbreak of Salmonella poisoning at a local restaurant. They gather evidence of what patrons ate and which patrons became ill. The table shows the results of this investigation:\n\nFood eaten | Healthy | Ill | Total\nEgg-drop soup | 24 | 10 | 34\nRaw clams | 12 | 28 | 40\nChicken special | 45 | 11 | 56\nTotal | 81 | 49 | 130\n\nBased on these data, which of the following is the attack rate for those persons who ate raw clams?",
+    "stem": "A group of investigators is evaluating an outbreak of Salmonella poisoning at a local restaurant. They gather evidence of what patrons ate and which patrons became ill. The table shows the results of this investigation:\n\nBased on these data, which of the following is the attack rate for those persons who ate raw clams?",
     "options": [
       {
         "letter": "A",
@@ -25603,7 +25619,12 @@
     ],
     "fa_page": 259,
     "fa_summary": "Public Health Sciences → Epidemiology and Biostatistics: attack rate is the proportion of exposed people who become ill (p. 259).",
-    "option_fa": {}
+    "option_fa": {},
+    "question_images": [
+      "assets/question-figures/qb-tables/salmonella-attack-rate-table.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "食物暴露 × 发病(健康/患病/合计) 2x4 表。"
   },
   {
     "id": "wordpilot-new-renal-wilms-girl-embryonic-glomerular-20261004",
