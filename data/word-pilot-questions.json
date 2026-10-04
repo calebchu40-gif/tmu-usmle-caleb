@@ -22517,5 +22517,173 @@
     ],
     "question_figures_reviewed": true,
     "question_figure_description": "Liver-biopsy photomicrograph with coarse golden-brown iron pigment in hepatocytes, consistent with iron deposition."
+  },
+  {
+    "id": "import-b0424de3d65cecbc2884f894",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Iron overload / Hemosiderosis",
+    "stem": "An autopsy is performed on a 12-year-old boy who died of multi-organ failure. He had a history of chronic anemia and required frequent hospitalizations and transfusions. On autopsy, he is found to have short stature, hepatosplenomegaly, and expansion of the calvarium. Histologic examination shows the presence of abundant pigment in macrophages of the liver, spleen, and lymph nodes, as well as in parenchymal cells of the heart, liver, endocrine organs, and kidney. The photomicrograph shows a section of kidney. The pigment seen histologically in this patient is most likely which of the following?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bilirubin"
+      },
+      {
+        "letter": "B",
+        "text": "Carbon particles"
+      },
+      {
+        "letter": "C",
+        "text": "Hemosiderin"
+      },
+      {
+        "letter": "D",
+        "text": "Homogentisic acid"
+      },
+      {
+        "letter": "E",
+        "text": "Lipofuscin"
+      },
+      {
+        "letter": "F",
+        "text": "Melanin"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Repeated transfusions in a patient with chronic hemolytic anemia cause systemic iron overload. Iron is stored as hemosiderin, appearing as coarse golden-brown granules in tissue macrophages; with substantial iron loading, parenchymal organs such as the heart, liver, endocrine organs, and kidneys are also affected. Calvarial expansion and hepatosplenomegaly suggest ineffective erythropoiesis with extramedullary hematopoiesis from a severe hemoglobinopathy. This is secondary hemosiderosis/transfusional iron overload, not necessarily hereditary HFE hemochromatosis.",
+    "choice_explanations": {
+      "A": "Incorrect. Bilirubin is a bile pigment that accumulates particularly in hepatocytes/Kupffer cells and bile ducts in cholestasis or jaundice; it does not explain widespread iron-overload pigment after repeated transfusions.",
+      "B": "Incorrect. Carbon particles are inhaled and accumulate in pulmonary macrophages and hilar lymph nodes (anthracosis), not throughout the reticuloendothelial system and parenchymal organs in this transfused patient.",
+      "C": "Correct. Hemosiderin is an intracellular iron-storage pigment. Repeated transfusions and hemolysis can cause systemic iron overload, with deposits in macrophages and, when severe, parenchymal organs.",
+      "D": "Incorrect. Homogentisic acid pigment occurs in alkaptonuria, causing dark connective tissue, sclera, and urine with ochronosis/arthritis; it is not caused by transfusional iron overload.",
+      "E": "Incorrect. Lipofuscin is a yellow-brown wear-and-tear pigment that accumulates in aging or chronically stressed postmitotic cells; it does not cause this systemic iron-deposition pattern.",
+      "F": "Incorrect. Melanin is synthesized by melanocytes and may be present in melanocytic lesions or metastases; it does not explain iron-loading distribution or the transfusion history."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No directly matching First Aid passage was verified for bilirubin as a tissue-pigment distractor in this context."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No directly matching First Aid passage was verified for anthracotic carbon pigment as a distractor in this context."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hemosiderin-laden macrophages are identified on First Aid p.316; the iron-overload pattern and hemochromatosis iron studies are summarized on p.423.",
+        "page": 316
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid printed-page match for homogentisic-acid pigment as a tissue differential was verified in this audit."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid printed-page match for lipofuscin as a tissue-pigment differential was verified in this audit."
+      },
+      "F": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid printed-page match for melanin as a tissue-pigment differential was verified in this audit."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      316,
+      423
+    ],
+    "fa_page": 316,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 printed p.316 identifies hemosiderin-laden macrophages. Printed p.423 covers ferritin/iron storage and hemochromatosis iron-study patterns. Together these pages support hemosiderin as an iron-storage pigment, although the exact renal photomicrograph and transfusion-associated distribution are not reproduced in First Aid.",
+    "question_images": [
+      "assets/question-figures/general-principles-q25-kidney-histology.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Kidney histology photomicrograph showing coarse golden-brown cytoplasmic pigment granules in renal tissue."
+  },
+  {
+    "id": "import-ef834ff53a2414a39f83c8a2",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Gastrointestinal regulatory substances",
+    "stem": "A 45-year-old man with a history of severe acid reflux is admitted to the hospital for biopsies of the antral and duodenal mucosa. Samples are prepared for light microscopy as well as fluorescence immunohistochemistry. Which of the following hormones is most likely to be detected in tissue from both biopsy samples?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cholecystokinin (CCK)"
+      },
+      {
+        "letter": "B",
+        "text": "Gastric inhibitory peptide (GIP)"
+      },
+      {
+        "letter": "C",
+        "text": "Gastrin"
+      },
+      {
+        "letter": "D",
+        "text": "Motilin"
+      },
+      {
+        "letter": "E",
+        "text": "Secretin"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Gastrin is produced by G cells in both the gastric antrum and the duodenum, so it can be detected in both biopsy samples. The severe reflux is contextual: gastrin stimulates gastric acid secretion, but the decisive clue is its distribution in both sampled regions.",
+    "choice_explanations": {
+      "A": "Cholecystokinin is produced by I cells in the duodenum and jejunum, not by the gastric antrum; it therefore would not be present in both sampled tissues.",
+      "B": "GIP is produced by K cells in the duodenum and jejunum, not the gastric antrum.",
+      "C": "Gastrin is produced by G cells in the gastric antrum and duodenum, matching both biopsy sites.",
+      "D": "Motilin is produced in the small intestine; it is not a hormone of both the gastric antrum and duodenum.",
+      "E": "Secretin is produced by S cells in the duodenum, not the gastric antrum."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Cholecystokinin is produced by I cells in the duodenum and jejunum.",
+        "page": 378
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "GIP (glucose-dependent insulinotropic peptide) is produced by K cells in the duodenum and jejunum.",
+        "page": 378
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Gastrin is produced by G cells in the gastric antrum and duodenum; it increases gastric acid secretion.",
+        "page": 378
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Motilin is produced in the small intestine and stimulates migrating motor complexes.",
+        "page": 378
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Secretin is produced by S cells in the duodenum.",
+        "page": 378
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      378
+    ],
+    "fa_page": 378,
+    "fa_page_verified": true,
+    "fa_summary": "Gastrointestinal regulatory hormones are produced by region-specific enteroendocrine cells. Gastrin is the listed hormone found in both gastric antrum and duodenum."
   }
 ]
