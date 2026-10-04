@@ -23180,5 +23180,461 @@
     ],
     "question_figures_reviewed": true,
     "question_figure_description": "Only the family pedigree and family-history labels are included; the full source screenshot, stem, answer choices, answer, and interface are excluded."
+  },
+  {
+    "id": "import-4524643f90b26285c6633276",
+    "chapter": "Pathology",
+    "fa_subchapter": "Cellular Injury / Amyloidosis",
+    "stem": "A 46-year-old woman returns to her physician because of progressive fatigue and decreased urine output. She has chronic stiffness in her hands and knees that is worse in the morning and improves with activity. Physical examination shows mild periorbital and ankle edema, ulnar deviation of both wrists, and deformity of the proximal interphalangeal joints. Laboratory studies show hemoglobin 10.5 g/dL, leukocytes 5.0 × 10³/mm³, erythrocytes 3.0 × 10⁶/mm³, reticulocytes 3.0%, ESR 30 mm/h, platelets 250 × 10³/mm³, and MCV 90 μm³. Two-hour postprandial glucose is 115 mg/dL. Serum studies show Na⁺ 156 mEq/L, K⁺ 5.2 mEq/L, calcium 9.0 mg/dL, BUN 20 mg/dL, and creatinine 2.2 mg/dL. Urinalysis shows 4+ protein and 1+ blood, with no crystals or casts; 24-hour urine protein is 3.8 g. Renal biopsy shows mesangial matrix thickening and amorphous eosinophilic material with apple-green birefringence under polarized light after Congo red staining. In which location is this material most likely synthesized?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bone marrow"
+      },
+      {
+        "letter": "B",
+        "text": "Brain"
+      },
+      {
+        "letter": "C",
+        "text": "Liver"
+      },
+      {
+        "letter": "D",
+        "text": "Synovium"
+      },
+      {
+        "letter": "E",
+        "text": "Thyroid"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The chronic inflammatory arthritis is rheumatoid arthritis, and the renal biopsy confirms amyloidosis. Chronic inflammation can cause secondary (AA) amyloidosis: the liver produces serum amyloid A, an acute-phase protein, and prolonged elevation can lead to AA fibril deposition in organs such as the kidney. Thus the precursor is synthesized in the liver. The source specifically notes that renal amyloid can cause proteinuria and progressive renal dysfunction. This is distinct from AL amyloidosis, in which immunoglobulin light chains are produced by clonal plasma cells in bone marrow.",
+    "choice_explanations": {
+      "A": "Incorrect. Bone marrow plasma cells produce immunoglobulin light chains that form AL amyloid in plasma-cell dyscrasias; the chronic rheumatoid inflammation here points to AA amyloid instead.",
+      "B": "Incorrect. β-amyloid is generated in the brain from amyloid precursor protein and is associated with Alzheimer disease; it does not explain renal AA amyloid in chronic inflammatory arthritis.",
+      "C": "Correct. Hepatocytes synthesize serum amyloid A, the precursor of secondary AA amyloid associated with chronic inflammation such as rheumatoid arthritis.",
+      "D": "Incorrect. Synovium is inflamed in rheumatoid arthritis, but it is not the source of circulating serum amyloid A.",
+      "E": "Incorrect. Thyroid C cells produce calcitonin; calcitonin-derived amyloid can deposit locally in medullary thyroid carcinoma, not cause systemic renal AA amyloidosis."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid associates AL amyloid from immunoglobulin light chains with plasma-cell dyscrasias, a distinct amyloid precursor from AA.",
+        "page": 208
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid identifies β-amyloid in Alzheimer disease as a distinct amyloid type.",
+        "page": 208
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid identifies AA as serum amyloid A and associates it with chronic inflammatory disease such as rheumatoid arthritis; the source explanation identifies the liver as the synthesis site.",
+        "page": 208
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "No direct First Aid page match was identified for synovium as the synthesis site of systemic AA amyloid."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "First Aid associates calcitonin-derived amyloid with medullary thyroid carcinoma, a localized deposit rather than systemic AA amyloidosis.",
+        "page": 208
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      208,
+      472
+    ],
+    "fa_page": 208,
+    "fa_page_verified": true,
+    "fa_summary": "First Aid 2026 printed p.208 distinguishes systemic amyloid types: secondary AA (serum amyloid A) occurs with chronic inflammatory conditions including rheumatoid arthritis; AL derives from immunoglobulin light chains in plasma-cell disorders; β-amyloid is associated with Alzheimer disease; and calcitonin amyloid with medullary thyroid cancer. Printed p.472 discusses rheumatoid arthritis. The source explanation supplies the specific synthesis site—liver; a primary study confirms hepatocyte synthesis of serum amyloid A."
+  },
+  {
+    "id": "import-dceba7a391f1232b2d406782",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Testicular physiology",
+    "stem": "In an experiment, 20 male animals undergo orchiectomy. After 2 weeks of recovery, the effects of castration on hormone secretion are evaluated. The animals are otherwise normal. Which change in hormone secretion is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased gonadotropin-releasing hormone (GnRH)"
+      },
+      {
+        "letter": "B",
+        "text": "Decreased prolactin"
+      },
+      {
+        "letter": "C",
+        "text": "Increased activin"
+      },
+      {
+        "letter": "D",
+        "text": "Increased inhibin"
+      },
+      {
+        "letter": "E",
+        "text": "Increased luteinizing hormone (LH)"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Orchiectomy removes the principal source of testosterone. Loss of testosterone negative feedback increases hypothalamic GnRH and pituitary LH secretion. Testicular inhibin and activin also fall because their Sertoli-cell source is removed; prolactin is not expected to decrease as a direct result.",
+    "choice_explanations": {
+      "A": "Without testicular testosterone, negative feedback on the hypothalamus is reduced, so GnRH rises rather than falls.",
+      "B": "Prolactin is not directly lowered by orchiectomy; elevated prolactin can suppress gonadotropin secretion, but it is not the predicted response here.",
+      "C": "Activin is produced in the testes and falls after orchiectomy rather than increasing.",
+      "D": "Inhibin is produced by Sertoli cells in the testes and falls after orchiectomy.",
+      "E": "Correct. Loss of testosterone feedback increases pituitary LH secretion."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "The reproductive axis diagram shows testosterone feedback to hypothalamus/pituitary; removing testes removes this feedback, so GnRH rises rather than decreases.",
+        "page": 646
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly state that orchiectomy lowers prolactin."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss activin response to orchiectomy."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Sertoli cells produce inhibin B, which inhibits FSH; orchiectomy removes this source, so inhibin does not rise.",
+        "page": 646
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Leydig cells produce testosterone in response to LH; removal of testicular testosterone feedback raises pituitary gonadotropin drive.",
+        "page": 646
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      646
+    ],
+    "fa_page": 646,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-625bbe950c2d16cba8a065f3",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Hydatidiform mole",
+    "stem": "A 27-year-old woman comes to the physician because of vaginal bleeding, nausea, and vomiting. Her last menstrual period was 7 weeks ago, and a home pregnancy test was positive. The uterus is enlarged. Ultrasound shows a multiloculated cystic structure within the uterine cavity but no clearly defined embryo. Serum hCG is markedly elevated (>100,000 mIU/mL). Dilation and curettage yields placental-like tissue without fetal tissue. Which karyotype is most likely in the specimen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "23,X"
+      },
+      {
+        "letter": "B",
+        "text": "45,XO"
+      },
+      {
+        "letter": "C",
+        "text": "46,XX"
+      },
+      {
+        "letter": "D",
+        "text": "47,XXY"
+      },
+      {
+        "letter": "E",
+        "text": "69,XXY"
+      }
+    ],
+    "answer": "C",
+    "explanation": "This is a complete hydatidiform mole: markedly elevated hCG, an enlarged uterus, cystic chorionic tissue, and no fetal parts. A complete mole is diploid and most commonly 46,XX, usually formed when an enucleated ovum is fertilized by a sperm whose paternal genome duplicates. A partial mole is triploid (for example, 69,XXY) and often contains fetal tissue.",
+    "choice_explanations": {
+      "A": "23,X is a haploid gametic complement, not the usual diploid karyotype of a complete mole.",
+      "B": "45,XO is the karyotype of Turner syndrome, not a molar gestation.",
+      "C": "Correct. Complete hydatidiform moles most commonly have a 46,XX karyotype and lack fetal parts.",
+      "D": "47,XXY is Klinefelter syndrome, not a complete mole.",
+      "E": "69,XXY is a triploid karyotype characteristic of a partial mole, which often has fetal parts."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 lists complete-mole diploid and partial-mole triploid karyotypes, but does not directly discuss a haploid 23,X mole."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "45,XO is Turner syndrome, a sex-chromosome disorder rather than a molar karyotype.",
+        "page": 655
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Complete mole is most commonly 46,XX, with no fetal parts.",
+        "page": 659
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "47,XXY is Klinefelter syndrome; it is distinct from molar pregnancy.",
+        "page": 655
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Partial mole can be triploid, including 69,XXY, and may contain fetal parts.",
+        "page": 659
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      655,
+      659
+    ],
+    "fa_page": 655,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-c3bb3bb869025353941357dc",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Preeclampsia",
+    "stem": "A 38-year-old primigravid woman at 34 weeks’ gestation comes to the physician because of swelling of her hands and feet. Her blood pressure is 158/100 mm Hg; prior readings were normal. Urinalysis shows moderate proteinuria. Serum AST and ALT are elevated, and the platelet count is slightly decreased. Which event is believed to initiate the pathogenesis of this condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Chorioamnionitis"
+      },
+      {
+        "letter": "B",
+        "text": "Disseminated intravascular coagulation"
+      },
+      {
+        "letter": "C",
+        "text": "Maternal hypertension"
+      },
+      {
+        "letter": "D",
+        "text": "Maternal renal ischemia"
+      },
+      {
+        "letter": "E",
+        "text": "Placental ischemia"
+      }
+    ],
+    "answer": "E",
+    "explanation": "This is preeclampsia with hepatic involvement and thrombocytopenia. Abnormal trophoblastic invasion and remodeling of maternal spiral arteries impair placentation, causing placental ischemia. Placental signals then produce maternal endothelial dysfunction and vasoconstriction; hypertension and end-organ injury follow. DIC is a possible complication, not the initiating event.",
+    "choice_explanations": {
+      "A": "Chorioamnionitis is an ascending intra-amniotic infection and does not initiate the placental vascular pathology of preeclampsia.",
+      "B": "DIC may complicate severe preeclampsia/HELLP but is downstream, not the initial event.",
+      "C": "Maternal hypertension is a manifestation of the disease process after abnormal placentation and placental ischemia.",
+      "D": "Renal ischemia or injury can occur as maternal end-organ damage, but it is not the initiating event.",
+      "E": "Correct. Abnormal placentation leads to placental ischemia, which initiates the maternal syndrome."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss chorioamnionitis as a preeclampsia mechanism."
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "DIC is a possible complication of HELLP/preeclampsia, not the initiating event.",
+        "page": 660
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Preeclampsia is defined by new hypertension after 20 weeks, but hypertension follows the placental mechanism.",
+        "page": 660
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Renal dysfunction is an end-organ complication of preeclampsia, downstream from placental ischemia.",
+        "page": 660
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Abnormal placental spiral arteries cause ischemia and endothelial dysfunction in preeclampsia.",
+        "page": 660
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      660
+    ],
+    "fa_page": 660,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-4521c8f0ab13e1f3e6835257",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Pelvic inflammatory disease",
+    "stem": "A 19-year-old woman comes to the clinic because of abdominal pain and nausea. Her last menstrual period began 7 days ago, and she reports unprotected sexual intercourse. Her temperature is 38.6°C (101.5°F). Examination shows lower abdominal tenderness; pelvic examination shows mucopurulent discharge, adnexal tenderness, and cervical motion tenderness. Pregnancy testing is negative, and the leukocyte count is 14,000/mm³. Which complication is most likely associated with this disorder?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ascites"
+      },
+      {
+        "letter": "B",
+        "text": "Cervical carcinoma"
+      },
+      {
+        "letter": "C",
+        "text": "Exsanguination"
+      },
+      {
+        "letter": "D",
+        "text": "Infertility"
+      },
+      {
+        "letter": "E",
+        "text": "Pseudomyxoma peritonei"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The fever, mucopurulent discharge, adnexal tenderness, and cervical motion tenderness indicate pelvic inflammatory disease (PID), usually an ascending infection. Salpingitis can scar and adhere the fallopian tubes, causing infertility; tubal scarring also raises the risk of ectopic pregnancy. The other choices are associated with ovarian malignancy, cervical HPV disease, or a ruptured ectopic pregnancy rather than the most likely PID complication.",
+    "choice_explanations": {
+      "A": "Ascites can occur with advanced ovarian carcinoma, not as the typical complication of acute PID.",
+      "B": "Cervical carcinoma is associated with persistent high-risk HPV infection, not a direct complication of this acute PID presentation.",
+      "C": "Exsanguination is a feared complication of a ruptured ectopic pregnancy; this patient's pregnancy test is negative.",
+      "D": "Correct. Tubal scarring and adhesions after salpingitis can impair gamete transport and cause infertility.",
+      "E": "Pseudomyxoma peritonei is associated with mucinous ovarian or appendiceal tumors, not PID."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Advanced ovarian tumors may present with abdominal distention and ascites; this is separate from PID.",
+        "page": 664
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 reproductive pages do not directly map acute PID to cervical carcinoma in this differential."
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Ectopic pregnancy can cause first-trimester bleeding and pain and may require urgent treatment; tubal rupture is a potential emergency.",
+        "page": 658
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly state infertility as a PID complication; the source explanation identifies tubal scarring/adhesions as the mechanism."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly discuss pseudomyxoma peritonei on its reproductive pages."
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      658,
+      664
+    ],
+    "fa_page": 658,
+    "fa_page_verified": true
+  },
+  {
+    "id": "import-763ae7fa14e6b1bc35e1e76c",
+    "chapter": "Reproductive",
+    "fa_subchapter": "Uterine conditions",
+    "stem": "A 44-year-old woman comes to the physician because of progressive weakness, fatigue, and abnormal uterine bleeding. Examination shows pallor, a suprapubic mass, and an enlarged uterus with a normal cervix. Laboratory studies show a hemoglobin of 10.8 g/dL, mean corpuscular volume of 68 μm³, and platelet count of 300,000/mm³. Hysterectomy reveals an 8-cm, well-demarcated submucosal uterine tumor with a whorled cut surface. Which histologic finding is most likely?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hyperchromatic glandular cells invading the myometrium"
+      },
+      {
+        "letter": "B",
+        "text": "Nests of typical endometrial glands within the myometrium"
+      },
+      {
+        "letter": "C",
+        "text": "Pedunculated masses with closely packed benign endometrial glands"
+      },
+      {
+        "letter": "D",
+        "text": "Pedunculated masses with cystically dilated benign endometrial glands"
+      },
+      {
+        "letter": "E",
+        "text": "Whorled bundles of typical smooth muscle cells"
+      }
+    ],
+    "answer": "E",
+    "explanation": "This is a uterine leiomyoma (fibroid), a benign smooth-muscle tumor. A well-circumscribed, whorled gross appearance and submucosal location are classic; chronic abnormal uterine bleeding can cause microcytic iron-deficiency anemia. Histology shows bland, intersecting/whorled bundles of smooth-muscle cells. The source lists hemoglobin as 10.8 mg/dL, an apparent unit typo; the clinically appropriate unit is g/dL.",
+    "choice_explanations": {
+      "A": "Hyperchromatic glands invading myometrium indicate endometrial carcinoma, which is typically invasive and not a sharply demarcated whorled smooth-muscle mass.",
+      "B": "Endometrial glands within the myometrium describe adenomyosis, which usually causes diffuse, boggy uterine enlargement rather than a well-circumscribed tumor.",
+      "C": "Closely packed benign glands describe a hyperplastic endometrial polyp, not a whorled myometrial smooth-muscle tumor.",
+      "D": "Cystically dilated benign glands describe an atrophic endometrial polyp, not a leiomyoma.",
+      "E": "Correct. Leiomyoma histology consists of well-demarcated whorled bundles of bland smooth-muscle cells."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Endometrial carcinoma is a separate uterine neoplasm; the well-demarcated whorled tumor instead matches myometrial leiomyoma.",
+        "page": 666
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Adenomyosis is endometrial glands and stroma within the myometrium, usually with diffuse boggy uterine enlargement.",
+        "page": 666
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly describe histology of hyperplastic endometrial polyps in this comparison."
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": true,
+        "text": "First Aid 2026 does not directly describe cystically dilated endometrial polyp glands in this comparison."
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Leiomyoma is a benign myometrial tumor with a gross whorled pattern of smooth-muscle bundles and well-demarcated borders.",
+        "page": 666
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      666
+    ],
+    "fa_page": 666,
+    "fa_page_verified": true
   }
 ]
