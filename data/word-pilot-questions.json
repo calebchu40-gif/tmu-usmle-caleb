@@ -11323,8 +11323,8 @@
   },
   {
     "id": "import-3e40317466371d1bd8beeacd",
-    "chapter": "Neurology and Special Senses",
-    "fa_subchapter": "Neuromuscular junction",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Neuromuscular junction disorders / Lambert–Eaton syndrome",
     "stem": "A 56-year-old woman with a 60-pack-year smoking history has proximal limb weakness that improves with activity. She has clubbing and decreased breath sounds over the left upper lung. Edrophonium produces slight improvement in strength. Dysfunction of which structure most likely causes her weakness?",
     "options": [
       {
@@ -11350,55 +11350,29 @@
     ],
     "answer": "E",
     "explanation": "The presentation suggests Lambert–Eaton myasthenic syndrome, often associated with small-cell lung carcinoma. Autoantibodies against presynaptic P/Q-type voltage-gated Ca²⁺ channels reduce acetylcholine release; repeated activity transiently improves strength.",
-    "choice_explanations": {
-      "A": "Extracellular matrix defects do not explain use-dependent proximal weakness with a paraneoplastic pattern.",
-      "B": "Postsynaptic ligand-gated acetylcholine receptors are targeted in myasthenia gravis, which typically worsens with repeated use.",
-      "C": "A protein kinase abnormality is not the presynaptic defect in Lambert–Eaton syndrome.",
-      "D": "Transcription-factor dysfunction does not explain the characteristic presynaptic neuromuscular-junction syndrome.",
-      "E": "Correct: autoantibodies against presynaptic voltage-gated calcium channels impair acetylcholine release."
-    },
-    "option_fa": {
-      "A": {
-        "verified": true,
-        "no_direct_match": true,
-        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
-      },
-      "B": {
-        "verified": true,
-        "no_direct_match": false,
-        "text": "Postsynaptic nicotinic acetylcholine receptors are involved in myasthenia gravis.",
-        "pages": [
-          480
-        ]
-      },
-      "C": {
-        "verified": true,
-        "no_direct_match": true,
-        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
-      },
-      "D": {
-        "verified": true,
-        "no_direct_match": true,
-        "text": "First Aid 2026未找到可直接支持该选项的独立知识点；不显示页码。"
-      },
-      "E": {
-        "verified": true,
-        "no_direct_match": false,
-        "text": "Lambert–Eaton syndrome is caused by antibodies to presynaptic voltage-gated calcium channels.",
-        "pages": [
-          480
-        ]
-      }
-    },
-    "reviewed": true,
-    "review_required": false,
-    "complete": true,
+    "question_figures_reviewed": true,
+    "question_figure_description": "No essential figure; the vignette is textual.",
+    "question_images": [],
     "fa_pages": [
       480
     ],
     "fa_page": 480,
     "fa_page_verified": true,
-    "fa_summary": "The presentation suggests Lambert–Eaton myasthenic syndrome, often associated with small-cell lung carcinoma. Autoantibodies against presynaptic P/Q-type voltage-gated Ca²⁺ channels reduce acetylcholine release; repeated activity transiently improves strength."
+    "fa_summary": "First Aid 2026 printed p.480 directly compares myasthenia gravis and Lambert–Eaton myasthenic syndrome. Under the Musculoskeletal, Skin, and Connective Tissue chapter heading, it describes presynaptic Ca²⁺-channel autoantibodies, reduced acetylcholine release, proximal weakness/autonomic findings that improve with use, and the small-cell lung cancer association.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "question_audit_status": "verified correction proposal",
+    "import_disposition": "correct_existing_pilot_record; taxonomy only; do not add another record",
+    "audit": {
+      "source_file": "general principles.docx",
+      "source_question_number": 35,
+      "source_answer_key": "E",
+      "repair_note": "This candidate is an exact duplicate of the current pilot row `import-3e40317466371d1bd8beeacd`; its stem, A–E, answer E, and explanation are already clean, so no duplicate question is proposed. This correction changes taxonomy only: First Aid 2026 printed p.480 is headed under the main chapter 'Musculoskeletal, Skin, and Connective Tissue' and its subchapter 'Neuromuscular junction diseases'; the table directly compares myasthenia gravis with Lambert–Eaton myasthenic syndrome. The active pilot's current chapter 'Neurology and Special Senses' conflicts with the user's requested FA chapter hierarchy. Preserve all question content and update chapter/subchapter plus verified page link in place.",
+      "fa_printed_pages_checked": [
+        480
+      ]
+    }
   },
   {
     "id": "import-28c7bd01f397619d7a60261d",
@@ -23735,5 +23709,85 @@
     "fa_page": 386,
     "fa_page_verified": true,
     "fa_summary": "Acute gastritis/erosions can follow brain injury (Cushing ulcer) through increased vagal stimulation → increased ACh → increased gastric H+ production. First Aid also identifies pepsin as a chief-cell protein-digesting secretion increased by vagal stimulation/local acid, and bicarbonate as an acid-neutralizing mucosal defense."
+  },
+  {
+    "id": "import-5bd7b489bd2da91271613067",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Biliary obstruction / hyperbilirubinemia",
+    "stem": "A 46-year-old woman comes to the physician because of dark urine and grayish stools. Physical examination shows mild scleral icterus and right upper quadrant abdominal tenderness. Laboratory studies show a total bilirubin of 3.2 mg/dL, direct bilirubin of 2.1 mg/dL, alkaline phosphatase of 150 U/L, AST of 9 U/L, and ALT of 10 U/L. Which of the following is the most likely diagnosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Autoimmune hemolysis"
+      },
+      {
+        "letter": "B",
+        "text": "Choledocholithiasis"
+      },
+      {
+        "letter": "C",
+        "text": "Crigler-Najjar syndrome"
+      },
+      {
+        "letter": "D",
+        "text": "Gilbert syndrome"
+      },
+      {
+        "letter": "E",
+        "text": "Viral hepatitis"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Dark urine and pale/gray stools point to biliary obstruction. A common bile duct stone causes conjugated bilirubin to reflux into blood; water-soluble conjugated bilirubin is excreted in urine, darkening it, while reduced bilirubin delivery to the intestine lowers stercobilin and makes stools pale. The mild alkaline phosphatase elevation and normal AST/ALT support obstruction without substantial hepatocyte injury. Right upper quadrant tenderness with no severe pain is consistent with incomplete rather than total obstruction.",
+    "choice_explanations": {
+      "A": "Incorrect. Hemolysis causes predominantly unconjugated hyperbilirubinemia and may cause hemoglobinuria, but does not explain pale stools from absent intestinal bilirubin delivery.",
+      "B": "Correct. A common bile duct stone obstructs bile flow, producing conjugated hyperbilirubinemia, dark urine, and pale stools.",
+      "C": "Incorrect. Crigler-Najjar syndrome impairs bilirubin conjugation and causes unconjugated hyperbilirubinemia, usually presenting early in life; it does not cause acholic stools.",
+      "D": "Incorrect. Gilbert syndrome causes mild, intermittent unconjugated hyperbilirubinemia, often during fasting, illness, or stress, and does not cause dark urine with pale stools.",
+      "E": "Incorrect. Viral hepatitis typically causes marked aminotransferase elevation and a mixed bilirubin pattern; it does not fit the near-normal AST/ALT or classic obstructive stool/urine findings."
+    },
+    "option_fa": {
+      "A": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hemolysis is listed among causes of unconjugated (indirect) hyperbilirubinemia, unlike this patient's predominant direct bilirubin.",
+        "page": 400
+      },
+      "B": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Gallstones are a cause of biliary obstruction; page 400 classifies biliary tract obstruction as a cause of conjugated hyperbilirubinemia.",
+        "page": 403
+      },
+      "C": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Crigler-Najjar syndrome is an inherited cause of unconjugated hyperbilirubinemia due to absent or markedly reduced UDP-glucuronosyltransferase activity.",
+        "page": 401
+      },
+      "D": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Gilbert syndrome causes mild unconjugated hyperbilirubinemia, often with fasting, stress, or illness.",
+        "page": 401
+      },
+      "E": {
+        "verified": true,
+        "no_direct_match": false,
+        "text": "Hepatitis is listed as a cause of mixed hyperbilirubinemia, in contrast to the predominantly conjugated obstructive pattern here.",
+        "page": 400
+      }
+    },
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_pages": [
+      400,
+      401,
+      403
+    ],
+    "fa_page": 400,
+    "fa_page_verified": true,
+    "fa_summary": "Conjugated (direct) hyperbilirubinemia suggests biliary obstruction or an excretion defect. Gallstones can obstruct the biliary tract; unconjugated bilirubin instead rises with hemolysis, Crigler-Najjar, or Gilbert syndrome. Hepatitis commonly produces mixed hyperbilirubinemia."
   }
 ]
