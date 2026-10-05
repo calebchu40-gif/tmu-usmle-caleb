@@ -103,6 +103,10 @@ def build(root=ROOT):
             for question in curated
             for image in (question.get("question_images") or [])
         } | {
+            image
+            for question in curated
+            for image in (question.get("explanation_images") or [])
+        } | {
             question["question_image"]
             for question in curated
             if question.get("question_image")

@@ -30535,7 +30535,11 @@
     "fa_page": 582,
     "fa_page_verified": true,
     "fa_summary": "Dependent personality disorder (Cluster C) is characterized by a pervasive need to be taken care of, submissiveness, clinging, and low self-confidence, with difficulty making decisions without others' assurance.",
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-behavioral-dependent-personality-disorder-20261004-e1.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-biochem-ethanol-nadh-gluconeogenesis-20261004",
@@ -44615,7 +44619,12 @@
     "fa_page": 432,
     "fa_page_verified": true,
     "fa_summary": "TTP: ADAMTS13 deficiency → impaired cleavage of vWF multimers → platelet microthrombi; triad/pentad of thrombocytopenia, MAHA (schistocytes), neurologic and renal findings with normal PT/PTT.",
-    "option_fa": {}
+    "option_fa": {},
+    "question_images": [
+      "assets/question-figures/handoff-a/heme-schistocytes-ttp-q05.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Peripheral blood smear photomicrograph showing schistocytes (fragmented red blood cells)."
   },
   {
     "id": "wordpilot-new-heme-itp-giant-platelets-megakaryocytes-20261004",
@@ -47488,7 +47497,11 @@
     "fa_page": 562,
     "fa_page_verified": true,
     "fa_summary": "Alcohol withdrawal is managed acutely with benzodiazepines (the cornerstone); in liver disease, lorazepam/oxazepam/temazepam (LOT) are preferred because they undergo phase II conjugation and are less affected by hepatic impairment.",
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-behavioral-alcohol-withdrawal-lorazepam-20261004-e1.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-biochem-enzyme-assay-substrate-vmax-20261004",
@@ -47586,7 +47599,11 @@
     ],
     "fa_page": 85,
     "fa_page_verified": true,
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-biochemistry-pompe-disease-20261004-e1.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-biochemistry-pheochromocytoma-tyrosine-20261004",
@@ -47632,7 +47649,11 @@
     ],
     "fa_page": 71,
     "fa_page_verified": true,
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-biochemistry-pheochromocytoma-tyrosine-20261004-e1.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-biochemistry-pdh-regulation-exercise-20261004",
@@ -47678,7 +47699,11 @@
     ],
     "fa_page": 75,
     "fa_page_verified": true,
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-biochemistry-pdh-regulation-exercise-20261004-e1.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-publichealth-biostat-skew-distribution-20261004",
@@ -48137,7 +48162,12 @@
     ],
     "fa_page": 637,
     "fa_page_verified": true,
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-embryology-branchial-cleft-cyst-20261004-e1.png",
+      "assets/question-figures/handoff-c/wordpilot-new-embryology-branchial-cleft-cyst-20261004-e2.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-embryology-aqueductal-stenosis-20261004",
@@ -50582,5 +50612,1289 @@
     "fa_page_verified": true,
     "fa_summary": "The femoral head is supplied mainly by the medial circumflex femoral artery (a branch of the deep femoral artery); disruption causes avascular necrosis, associated with alcohol abuse and chronic steroid use.",
     "option_fa": {}
+  },
+  {
+    "id": "wordpilot-new-heme-hairy-cell-leukemia-trap-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Leukemias",
+    "subcategory": "Hairy cell leukemia",
+    "stem": "A 54-year-old Caucasian man comes to the physician because he has recently been having multiple skin and respiratory infections. His temperature is 37.6°C (99.6°F), pulse is 78/min, respirations are 14/min, and blood pressure is 138/80 mm Hg. Physical examination shows pale palpebral conjunctivae; inflamed, but pale, nasal and oral mucosa; and a palpable spleen located 4 cm below the rib. A complete blood count shows a leukocyte count of 4,000/mm3, leukocyte differential: segmented neutrophils 40%, bands 5%, lymphocytes 50%, monocytes 4%, eosinophils 1%; erythrocyte count of 2.0 million/mm3, hemoglobin of 9 g/dL, hematocrit of 27%, MCV of 85 um3, and platelet count of 90,000/mm3. A peripheral blood smear is shown. Which of the following characteristics would most likely be associated with the white blood cells shown in the smear?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Birbeck granules"
+      },
+      {
+        "letter": "B",
+        "text": "Elevated leukocyte alkaline phosphatase"
+      },
+      {
+        "letter": "C",
+        "text": "Philadelphia chromosome"
+      },
+      {
+        "letter": "D",
+        "text": "Positive tartrate-resistant acid phosphatase"
+      },
+      {
+        "letter": "E",
+        "text": "Production of Bence-Jones proteins"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. The disease is hairy-cell leukemia (HCL), which, unlike most forms of leukemia, is characterized by pancytopenia rather than increased numbers of circulating cells. The characteristic cells (which are not always obviously \"hairy\") are positive for tartrate-resistant acid phosphatase (TRAP). Note: These cells should not be confused with \"smudge cells\" seen with chronic lymphocytic leukemia (CLL).\n\nHairy-cell leukemia is a rare chronic B-cell leukemia. This disease tends to affect middle-aged, Caucasian men. Patients tend to present with frequent infections due to decreased leukocytes. Splenomegaly is present due to infiltration of red pulp by neoplastic cells. Attempts at bone marrow biopsy or aspiration result in a \"dry tap\" because of extensive bone marrow involvement and increased reticulin fibers. Flow cytometry or immunohistochemical stains would show neoplastic cells to be positive for B cell markers CD19, CD20, surface IgG, kappa or lambda light chains, as well as monocyte-associated antigens CD11c and CD25.\n\nHCL usually has an indolent course. Treatment is with 2-chlorodeoxyadenosine (2-CDA, cladribine).\n\nBirbeck granules (choice A) are associated with Langerhans cell histiocytosis (histiocytosis X). These tennis racket shaped structures are seen on electron microscopy. These cells tend to infiltrate bone marrow and organs, and most likely would not be present in the peripheral blood.\n\nElevated leukocyte alkaline phosphatase (choice B) are seen in conditions with increased granulocytes, such as reactive neutrophilia, polycythemia vera, and myeloid metaplasia. In contrast, chronic myelogenous leukemia (CML) has a decreased level.\n\nPhiladelphia chromosome (choice C), t(9;22), is associated with chronic myeloid leukemia and occasionally with acute lymphocytic leukemia.\n\nProduction of Bence-Jones proteins (choice E) is seen with multiple myeloma. Light chains, kappa or lambda, are excreted into the renal tubules and can be detected on urine analysis. Patients with multiple myeloma can also present with frequent infections. Patients can also present with bone pain or renal dysfunction (Bence-Jones protein involvement). In our case, the cells in the peripheral blood smear are not plasma cells.",
+    "choice_explanations": {
+      "A": "Birbeck granules are seen in Langerhans cell histiocytosis, not hairy-cell leukemia. Incorrect.",
+      "B": "Elevated leukocyte alkaline phosphatase is seen with reactive neutrophilia/polycythemia vera; it is decreased in CML. Incorrect.",
+      "C": "The Philadelphia chromosome t(9;22) is associated with CML. Incorrect.",
+      "D": "Correct. Hairy-cell leukemia is a chronic B-cell leukemia with pancytopenia, splenomegaly, and cells that stain positive for tartrate-resistant acid phosphatase (TRAP).",
+      "E": "Bence-Jones proteins are produced in multiple myeloma. Incorrect."
+    },
+    "fa_page": 437,
+    "fa_pages": [
+      437
+    ],
+    "fa_summary": "Hairy-cell leukemia is a chronic B-cell leukemia of middle-aged Caucasian men causing pancytopenia, splenomegaly, a dry bone-marrow tap, and cells that are positive for tartrate-resistant acid phosphatase (TRAP).",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/heme-hairy-cells-q01.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Peripheral blood smear photomicrograph showing hairy cells (B lymphocytes with fine cytoplasmic projections/'hairs').",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-heme-sickle-cell-crisis-point-mutation-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Sickle cell disease",
+    "subcategory": "Sickle cell disease",
+    "stem": "A 6-year-old boy is brought to the emergency department by his parents because of severe lower extremity pain after playing in the snow. He has had similar episodes of hand and feet pain before. His height falls in the 40th percentile range. His temperature is 37.3°C (99.2°F), pulse is 82/min, respirations are 16/min, and blood pressure is 110/68 mm Hg. Physical examination shows cool and mildly cyanotic extremities and shortened digits on each hand. A peripheral blood smear is shown. Which of the following is the most likely underlying cause of these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Absent alpha-globin chain"
+      },
+      {
+        "letter": "B",
+        "text": "Absent beta-globin chain"
+      },
+      {
+        "letter": "C",
+        "text": "Beta-globin chain point mutation"
+      },
+      {
+        "letter": "D",
+        "text": "Hexose monophosphate shunt enzyme defect"
+      },
+      {
+        "letter": "E",
+        "text": "Spectrin deficiency"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. The smear and clinical presentation are typical for sickle-cell anemia, due to a point mutation of the sixth amino acid of the beta-globin chain which produces a hemoglobin tetramer (alpha2/beta2, also known as hemoglobin S) that is poorly soluble when deoxygenated. The point mutation causes a valine substitution of the normal glutamic acid. In the deoxygenated state, a hydrophobic pocket forms on the surface of the protein which interacts with the mutated, valine-containing region in another HbS molecule, resulting in hemoglobin polymerization and red cell sickling.\n\nThe vignette describes a child with a sickle-cell pain crisis, which is commonly initiated by infection or exposure to cold. The short fingers are the result of crises in the past that damaged bone growth. Sickle cells are destroyed by the spleen (extravascular hemolysis). Young patients would initially have splenomegaly (due to expansion of reticuloendothelial system), but would eventually auto-infarct the spleen by age 6 years. Sickle cells are rigid, adhere to microvasculature and occlude small blood vessels, resulting in ischemic necrosis of various organs, including bones, lungs, liver, brain, and spleen. Recall also that in the renal papillae, there is increased risk for sickling due to low oxygen, which can lead to renal papillary necrosis and hematuria.\n\nAbsent or decreased synthesis of the alpha- or beta-globin chain of hemoglobin A (choices A and B) is characteristic of thalassemia syndromes. The severity and presentation vary with the number of genes that are affected, ranging from mild anemia to death in utero (alpha thalassemia). Anemia results from ineffective red cell synthesis and peripheral hemolytic anemia (splenic removal of irregular red cells). The peripheral blood smear would show microcytic anemia with occasional target cells in patients with traits and the disease states. However, sickling of cells is not a feature of this condition.\n\nA hexose monophosphate shunt enzyme deficit (choice D) suggests glucose-6-phosphate dehydrogenase (G6PD) deficiency, an X-linked disorder. G6PD deficiency causes acute episodes of hemolytic anemia on exposure to certain drugs, infection, or acute illness (i.e., oxidative stress) that result in oxidization and denaturation of hemoglobin. Peripheral smear characteristically shows normocytic anemia with presence of Heinz bodies and \"bite cells.\"\n\nAbnormalities of the spectrin molecule (choice E) can cause hereditary spherocytosis. This autosomal dominant disorder renders red blood cells more spherical and less deformable, and therefore vulnerable to sequestration and destruction by the spleen. Jaundice following infections, normocytic anemia, and splenomegaly (extravascular hemolysis) are common presentations.",
+    "choice_explanations": {
+      "A": "Absent or decreased alpha-globin synthesis is characteristic of alpha-thalassemia; sickling is not a feature. Incorrect.",
+      "B": "Absent or decreased beta-globin synthesis is characteristic of beta-thalassemia; sickling is not a feature. Incorrect.",
+      "C": "Correct. A beta-globin point mutation (valine substitution for glutamic acid) produces HbS, which polymerizes when deoxygenated and causes sickling, pain crises, and vaso-occlusion.",
+      "D": "A hexose monophosphate shunt enzyme defect (G6PD deficiency) causes oxidative hemolysis with Heinz bodies and bite cells, not sickling. Incorrect.",
+      "E": "Spectrin deficiency causes hereditary spherocytosis (spherocytes, no sickling). Incorrect."
+    },
+    "fa_page": 428,
+    "fa_pages": [
+      428
+    ],
+    "fa_summary": "Sickle-cell disease is caused by a point mutation in the beta-globin chain (valine substituted for glutamic acid at position 6) that produces HbS, which polymerizes when deoxygenated, causing red cell sickling, vaso-occlusion, pain crises, and auto-infarction of the spleen.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/heme-sickle-cells-q03.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Peripheral blood smear photomicrograph showing sickled red blood cells (crescent-shaped cells).",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-heme-aml-m3-auer-rods-dic-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Leukemias",
+    "subcategory": "Acute myelogenous leukemia",
+    "stem": "A 60-year-old woman comes to the physician because of weakness, fatigue, and bruising. Her pulse is 110/min, blood pressure is 100/75 mm Hg, and respirations are 22/minute. Physical examination shows pallor and petechial hemorrhages in the mouth. Laboratory studies show a marked increase in white cells, anemia, and thrombocytopenia. A peripheral blood smear is shown. Which of the following complications is likely to occur upon lysis of these cells induced by chemotherapy?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Disseminated intravascular coagulation"
+      },
+      {
+        "letter": "B",
+        "text": "Enzymatic fat necrosis"
+      },
+      {
+        "letter": "C",
+        "text": "Monoclonal spike on electrophoresis"
+      },
+      {
+        "letter": "D",
+        "text": "Rouleaux formation"
+      },
+      {
+        "letter": "E",
+        "text": "Sickling of erythrocytes"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. The structures shown are Auer rods (arrow) in the cells of acute myelogenous leukemia, type M3. The Auer rods contain the enzymes normally found in azurophilic granules (e.g., acid phosphatase, peroxidases, and esterases), and type M3 cells often contain numerous Auer rods.\n\nWhen these patients are treated with chemotherapy, the rapid lysis of many of these leukemic cells may release enough enzymes to trigger disseminated intravascular coagulation (DIC) with all of its life-threatening sequelae. The retinoic acid alpha receptor gene (RAR alpha), encoded on the long arm of chromosome 17, is expressed on hematopoietic cells and promotes their differentiation. Treatment with all-trans retinoic acid (ATRA) has greatly enhanced the outcome of patients with M3 AML, promoting differentiation of the leukemic blasts into mature neutrophils and, in many cases, preventing DIC.\n\nEnzymatic fat necrosis (choice B) can be seen when pancreatic enzymes are released.\n\nA monoclonal spike on electrophoresis (choice C) and rouleaux formation (choice D) can be seen in multiple myeloma as a consequence of the increased serum immunoglobulin levels.\n\nSickling of erythrocytes (choice E) in sickle cell patients is most commonly initiated by cold, dehydration, and infections.",
+    "choice_explanations": {
+      "A": "Correct. Acute myelogenous leukemia, type M3 (promyelocytic), is characterized by Auer rods; rapid lysis of these cells with chemotherapy can release granule enzymes and trigger disseminated intravascular coagulation (DIC).",
+      "B": "Enzymatic fat necrosis is seen when pancreatic enzymes are released. Incorrect.",
+      "C": "A monoclonal spike on electrophoresis is seen in multiple myeloma. Incorrect.",
+      "D": "Rouleaux formation is seen in multiple myeloma. Incorrect.",
+      "E": "Sickling of erythrocytes occurs in sickle cell disease and is triggered by cold, dehydration, and infection. Incorrect."
+    },
+    "fa_page": 437,
+    "fa_pages": [
+      437
+    ],
+    "fa_summary": "Acute myelogenous leukemia M3 (promyelocytic) is characterized by Auer rods (azurophilic granule enzymes); rapid cell lysis with chemotherapy can trigger disseminated intravascular coagulation, and all-trans retinoic acid (ATRA) promotes blast differentiation.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/heme-auer-rods-aml-q08.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Peripheral blood smear photomicrograph showing leukemic myeloblasts containing multiple Auer rods (red rod-like cytoplasmic inclusions).",
+    "explanation_figures_reviewed": true,
+    "explanation_figure_description": "Photomicrograph of acute myelogenous leukemia (type M3) cells containing Auer rods (arrow) in the explanation.",
+    "explanation_images": [
+      "assets/question-figures/handoff-a/heme-auer-rods-aml-q08-explanation.png"
+    ]
+  },
+  {
+    "id": "wordpilot-new-heme-infectious-mononucleosis-atypical-lymphocytes-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Herpesviruses",
+    "subcategory": "Epstein-Barr virus (infectious mononucleosis)",
+    "stem": "A 23-year-old woman who is a college student comes to the physician because of a fever, fatigue, and difficulty swallowing. Physical examination shows exudative tonsillitis, tender cervical lymphadenopathy, and mild hepatomegaly. A peripheral blood smear shows mild anemia and lymphocytosis, with about 30% of the lymphocytes exhibiting atypical features. A photomicrograph is shown. Laboratory studies show the patient's serum sample causes agglutination of horse red blood cells. Which of the following best characterizes the atypical cells present in the peripheral blood smear?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The cells are CD8 positive"
+      },
+      {
+        "letter": "B",
+        "text": "The cells are CD10 positive"
+      },
+      {
+        "letter": "C",
+        "text": "The cells are CD19 positive"
+      },
+      {
+        "letter": "D",
+        "text": "The cells reflect CMV infection"
+      },
+      {
+        "letter": "E",
+        "text": "The cells reflect HSV2 infection"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. The patient has infectious mononucleosis, characterized by fever, fatigue, tonsillitis, lymphadenopathy, and hepatomegaly. Epstein-Barr virus (EBV) is the cause of heterophile-positive infectious mononucleosis. EBV infects B cells (in the tonsil, lymph nodes, and spleen) and hepatocytes. Splenomegaly may also occur. The peripheral blood smear demonstrates increased reactive (\"atypical\") T cell lymphocytosis (CD8+ cells). The heterophile antibody screening test identifies IgM antibodies that agglutinate animal (horse or sheep) erythrocytes. Definitive diagnosis is a serologic test for the EBV antigen. Patients should refrain from physical activity so as not to rupture the spleen or liver.\n\nThe heterophile antibody screening test identifies IgM antibodies in patient's serum that agglutinate animal (horse or sheep) erythrocytes. Note: \"heterophile\" means a reaction between species, or antibody cross-reaction. Definitive diagnosis is a serologic test for the EBV antigen. Patients should refrain from physical activity so as not to rupture the spleen or liver.\n\nCD10 positive cells (choice B) are seen with B cell acute lymphocyte lymphoma (B-ALL). In B-ALL, lymphoblasts express CD10, which is also called the CALLA antigen.\n\nCD19 positive cells (choice C) are mature B cells, which do not exhibit cellular changes seen in the peripheral blood smear.\n\nCMV infection (choice D) also causes infectious mononucleosis and a similar clinical presentation (usually pharyngitis and tonsillitis are not as severe). However, the heterophile screening test would be negative with a CMV-infectious mononucleosis.\n\nHSV2 infection (choice E) typically causes infections among immunocompromised individuals, infections of the genital tract, and congenital infections of the fetus. It would not cause this type of clinical presentation or the peripheral blood smear features.",
+    "choice_explanations": {
+      "A": "Correct. The atypical (reactive) lymphocytes of Epstein-Barr infectious mononucleosis are activated CD8+ T cells; the heterophile test is positive.",
+      "B": "CD10 positive cells are seen in B-cell acute lymphoblastic leukemia (CALLA antigen). Incorrect.",
+      "C": "CD19 positive cells are mature B cells and do not show the reactive changes seen here. Incorrect.",
+      "D": "CMV also causes a mononucleosis syndrome but the heterophile test is negative. Incorrect.",
+      "E": "HSV2 causes genital, neonatal, and immunocompromised-host infections, not this presentation. Incorrect."
+    },
+    "fa_page": 162,
+    "fa_pages": [
+      162
+    ],
+    "fa_summary": "Epstein-Barr virus causes heterophile-positive infectious mononucleosis; the atypical (reactive) lymphocytes in the peripheral blood are activated CD8+ T cells, and the heterophile antibody test detects IgM that agglutinates animal erythrocytes.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/heme-atypical-lymphocytes-q14.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Peripheral blood smear photomicrograph showing atypical (reactive) lymphocytes with abundant cytoplasm in infectious mononucleosis.",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-heme-sickle-cell-anemia-skull-hair-on-end-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Sickle cell disease",
+    "subcategory": "Sickle cell disease",
+    "stem": "A 13-year-old boy is brought to the emergency department because of a fall from a skateboard. He denies any pain or loss of consciousness. His temperature is 37°C (98.6°F), pulse 80/min, respirations are 16/min, and blood pressure is 110/68 mm Hg. Physical examination reveals a laceration on the forehead and several abrasions on the arms and legs. An x-ray of the skull performed to rule out skull fracture is shown. Which of the following is the most likely underlying cause of this patient's condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acute lymphoblastic leukemia"
+      },
+      {
+        "letter": "B",
+        "text": "Hodgkin disease"
+      },
+      {
+        "letter": "C",
+        "text": "Multiple myeloma"
+      },
+      {
+        "letter": "D",
+        "text": "Osteopetrosis"
+      },
+      {
+        "letter": "E",
+        "text": "Sickle cell anemia"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. The feature illustrated in the x-ray film is sometimes called a \"crew cut\" or \"hair on end\" appearance. This distinctive radiologic change is seen most often in patients with severe thalassemia or sickle cell anemia. Recruitment and expansion of flat bones (skull and maxillary bones) to increase erythropoiesis occurs, resulting in bone marrow expansion with resorption of bone and secondary new bone formation. The new bone formation causes the perpendicular radiopaque lines seen on the radiograph. Patients in whom this change develops may also have extramedullary hematopoiesis in the spleen or liver.\n\nAcute lymphoblastic leukemia (choice A) does not usually produce distinctive radiologic changes. The majority of acute lymphoblastic leukemia (ALL) are B cell precursors and has the highest incidence among children less than age 4 years; slightly more frequent in boys than girls. There is extensive bone marrow involvement, but no distinct radiographic changes are seen. Children commonly present with bone pain and tenderness, easy bruising due to thrombocytopenia, increased risk for infections, hepatosplenomegaly, and meningeal spread.\n\nHodgkin disease (choice B) often causes lymph node enlargement that may be recognizable on x-ray films or CT scans, but does not usually produce bony changes. Hodgkin disease affects adults, not children.\n\nMultiple myeloma (choice C) is a malignant monoclonal plasma cell neoplasm that characteristically causes \"punched-out\" lytic bone lesions in the skull and vertebral columns. Multiple myeloma affects older adults, not children.\n\nOsteopetrosis (choice D) is a rare genetic disorder characterized by defective osteoclast-mediated bone resorption. There is an autosomal dominant form that has mild clinical presentation and an autosomal recessive form that presents in infancy and is severe and lethal. Both forms cause thickening of the bone. The ends of the long bones are misshapen and bulbous (\"Erlenmeyer flask deformity\"). Although bone turnover is decreased, the tissue becomes weak and predisposes to fractures. Additional clinical manifestations include: cranial nerve palsies (optic atrophy, facial paralysis, and hearing loss) due to decreased cranial foramen size, extramedullary hematopoiesis (hepatosplenomegaly), and increased infections and bleeding due to reduced marrow space.",
+    "choice_explanations": {
+      "A": "Acute lymphoblastic leukemia does not usually produce distinctive radiologic bone changes. Incorrect.",
+      "B": "Hodgkin disease causes lymph node enlargement but no bony changes and affects adults, not children. Incorrect.",
+      "C": "Multiple myeloma causes punched-out lytic lesions and affects older adults, not children. Incorrect.",
+      "D": "Osteopetrosis causes bone thickening and Erlenmeyer flask deformity, not the hair-on-end skull. Incorrect.",
+      "E": "Correct. The 'hair on end' (crew cut) skull x-ray reflects flat-bone marrow expansion for compensatory erythropoiesis, seen in sickle cell anemia and thalassemia."
+    },
+    "fa_page": 428,
+    "fa_pages": [
+      428
+    ],
+    "fa_summary": "The 'hair on end' (crew cut) skull radiograph results from expansion of the skull marrow space for compensatory erythropoiesis and is seen in sickle cell anemia and severe thalassemia.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/heme-hair-on-end-skull-q15.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Skull x-ray showing the 'hair on end' / 'crew cut' appearance (perpendicular radiopaque spicules) of the calvarium.",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-heme-hereditary-spherocytosis-gallstones-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Normocytic, normochromic anemias",
+    "subcategory": "Hereditary spherocytosis",
+    "stem": "A 3-month-old boy is brought to the emergency department by his parents because of yellowing of his skin. Physical examination shows scleral icterus, diffuse jaundice, and splenomegaly. A peripheral blood smear is shown. The reticulocyte count is 4%. His parents state that two relatives have a similar condition. Which of the following is most likely to result from this patient's underlying disease mechanism?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aplastic anemia"
+      },
+      {
+        "letter": "B",
+        "text": "Gallstones"
+      },
+      {
+        "letter": "C",
+        "text": "Heart failure"
+      },
+      {
+        "letter": "D",
+        "text": "Renal dysfunction"
+      },
+      {
+        "letter": "E",
+        "text": "Renal papillary necrosis"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. This infant has hereditary spherocytosis, a disease that can result from defective erythrocyte cytoskeletal proteins such as spectrin or ankyrin. Spectrin is a cytoskeletal protein in the erythrocyte that helps to maintain the biconcave shape of the cell. Defective spectrin can lead to a destabilization of this network and a tendency of the affected cells to assume a spherical shape and become osmotically fragile. Such cells often become trapped in the splenic cords, and are subsequently destroyed by phagocytes, leading to extravascular hemolytic anemia, jaundice, and splenomegaly. In addition, as patients age, they develop splenomegaly, which requires splenectomy and subsequent pneumococcal vaccine prevention. A common complication of this disease is pigmented black gallstones (from chronic hemolysis), composed of bilirubin and calcium salts. Pigmented black gallstones can be seen with other forms of extravascular hemolysis such as sickle-cell disease.\n\nLaboratory studies would demonstrate a normocytic normochromic anemia with normal MCV, high MCHC (indicates decreased or lack of central pallor where smaller cells will have increased concentration of hemoglobin), reticulocytosis, and spherocytes on peripheral blood smear. Unconjugated (indirect) and conjugated (direct) hyperbilirubinemia are also present. Haptoglobin may be normal to mildly decreased, which distinguish it from intravascular hemolysis (markedly decreased to absent). Osmotic fragility test is positive (patient red cells placed in hypotonic solution to demonstrate hemolysis).\n\nAlthough spherocytosis can lead to hemolysis, the resulting anemia is distinct from aplastic anemia (choice A), which occurs when the bone marrow stops producing new hematopoietic cells (ineffective hematopoiesis) and would be accompanied by a reduced reticulocyte count. Causes of aplastic anemia include inherited or acquired: idiopathic, radiation therapy, paroxysmal nocturnal hemoglobinuria, medication (chemotherapy, chloramphenicol), chemical (benzene), or viral. Aplastic anemia or red cell aplasia (a form of aplastic anemia) can be seen in hereditary spherocytosis and sickle cell anemia if patients develop a parvovirus infection, which is a less common complication than gallstones and is not associated with the patient's underlying disease mechanism.\n\nHeart failure (choice C) can be a complication of patients with severe thalassemia or sickle cell anemia, due either to 1) marked anemia, which contributes to increased heart rate, leading to hypertrophic cardiomyopathy and heart failure, or 2) chronic red cell transfusions, which cause secondary hemosiderosis, leading to restrictive cardiomyopathy and heart failure.\n\nRenal dysfunction (choice D) can be seen with intravascular hemolysis (paroxysmal nocturnal hemoglobinuria, immune-mediated, or microangiopathic forms). Free hemoglobin is usually bound to haptoglobin during an intravascular hemolytic episode. When hemoglobinuria occurs, excess free hemoglobin is excreted and can be toxic to the renal tubules (similar to myoglobin in rhabdomyolysis). Renal dysfunction is an unlikely complication in patients with extravascular hemolysis since there is no hemoglobinuria.\n\nRenal papillary necrosis (choice E) is a complication of sickle cell disease, in which the hemoglobin S in the red cells changes configuration in the low oxygen tension environment of the renal medulla, resulting in vaso-occlusion and necrosis. Vaso-occlusion does not occur with hereditary spherocytosis.",
+    "choice_explanations": {
+      "A": "Aplastic anemia occurs when the marrow stops producing cells (low reticulocyte count); parvovirus-induced red cell aplasia is a less common complication of hereditary spherocytosis. Incorrect.",
+      "B": "Correct. Chronic extravascular hemolysis in hereditary spherocytosis causes pigmented black gallstones (bilirubin/calcium salts), jaundice, and splenomegaly.",
+      "C": "Heart failure complicates severe thalassemia or sickle cell anemia, not hereditary spherocytosis. Incorrect.",
+      "D": "Renal dysfunction is seen with intravascular hemolysis (hemoglobinuria), not extravascular hemolysis. Incorrect.",
+      "E": "Renal papillary necrosis is a complication of sickle cell disease (vaso-occlusion), not hereditary spherocytosis. Incorrect."
+    },
+    "fa_page": 427,
+    "fa_pages": [
+      427
+    ],
+    "fa_summary": "Hereditary spherocytosis is caused by defective erythrocyte cytoskeletal proteins (spectrin/ankyrin) leading to spherocytes and extravascular hemolysis; a common complication is pigmented black gallstones, along with jaundice and splenomegaly.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/heme-spherocytes-q18.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Peripheral blood smear photomicrograph showing spherocytes (small, round red cells lacking central pallor).",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-heme-hairy-cell-leukemia-trap-stain-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Leukemias",
+    "subcategory": "Hairy cell leukemia",
+    "stem": "A 72-year-old man comes to the physician because of fatigue and easy bruising. His temperature is 37.4°C (99.3°F), pulse is 72/min, respirations are 16/min, and blood pressure is 130/78 mm Hg. Physical examination shows hepatosplenomegaly. Laboratory studies show leukocyte count is 4,000/mm3, erythrocyte count is 3.8 million/mm3, blood hemoglobin is 9.6 g/dL, and platelet count is 120,000/mm3. Abnormal lymphocytes are seen on peripheral smear. The image shows a peripheral blood smear that has been processed using a special stain to identify a substance within the lymphocytes. Which of the following stains was most likely used?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anti-Epstein Barr virus"
+      },
+      {
+        "letter": "B",
+        "text": "Myeloperoxidase stain"
+      },
+      {
+        "letter": "C",
+        "text": "Nitroblue tetrazolium"
+      },
+      {
+        "letter": "D",
+        "text": "Periodic acid-Schiff stain"
+      },
+      {
+        "letter": "E",
+        "text": "Tartrate-resistant acid phosphatase"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. The disease is hairy cell leukemia, which is a rare B-cell lymphoproliferative syndrome seen most often in older men. Patients present with splenomegaly and signs of pancytopenia such as easy bruising, infections, and fatigue of anemia. Pancytopenia and abnormal B cells (\"hairy cells\") are seen on peripheral blood smear. The cytoplasmic projections of the leukemic cells are clearly visible in the image. These cells usually stain positive with tartrate-resistant acid phosphatase (TRAP) stain, as is illustrated by the focal red staining of the cytoplasm of the hairy cells in the image. Bone marrow is involved and aspiration is difficult, results in a \"dry tap\" due to fibrosis. Immunophenotyping shows expression for B cell markers CD19 and CD20, as well as CD11c and CD25. Treatment is with 2-CDA (cladribine), an adenosine deaminase inhibitor, which causes toxic accumulation of adenosine within the neoplastic cells.\n\nAnti-Epstein Barr virus (choice A) is helpful in proving that atypical lymphocytes seen in a peripheral smear are probably due to infectious mononucleosis. This is an immunohistochemical stain (not a cytochemical stain) that is performed on tissue sections. Atypical lymphocytes in infectious mononucleosis would show large transformed CD8 cells in the peripheral blood smear.\n\nMyeloperoxidase stain (choice B) is a cytochemical stain used to evaluate neutrophils; myeloperoxidase deficiency is clinically similar to chronic granulomatous disease. It is also used to determine immature cells of acute myelogenous leukemia.\n\nNitroblue tetrazolium (choice C) is used to evaluate granulocyte phagocytic function in chronic granulomatous disease (CGD). The test evaluates direct reduction of nitroblue-tetrazolium (NBT) by NADPH oxidase to formazan, an insoluble blue compound. A positive test (blue) indicates that the cell can produce reactive oxygen species. The NBT test is negative (yellow) in CGD.\n\nPeriodic acid-Schiff stain (choice D) is a cytochemical stain used to identify fungus or distinct structures containing polysaccharides or glycoproteins, e.g., basement membrane, alpha 1 antitrypsin granules, Kimmelstiel-Wilson nodules.",
+    "choice_explanations": {
+      "A": "Anti-Epstein Barr virus is an immunohistochemical stain used for infectious mononucleosis. Incorrect.",
+      "B": "Myeloperoxidase stain evaluates neutrophils and acute myelogenous leukemia. Incorrect.",
+      "C": "Nitroblue tetrazolium tests granulocyte oxidative function in chronic granulomatous disease. Incorrect.",
+      "D": "Periodic acid-Schiff stains polysaccharides/glycoproteins (e.g., fungus, basement membrane). Incorrect.",
+      "E": "Correct. Hairy cell leukemia cells stain positive with tartrate-resistant acid phosphatase (TRAP), seen as focal red cytoplasmic staining."
+    },
+    "fa_page": 437,
+    "fa_pages": [
+      437
+    ],
+    "fa_summary": "Hairy-cell leukemia is a rare B-cell lymphoproliferative disorder of older men causing splenomegaly and pancytopenia; the abnormal 'hairy' B cells stain positive for tartrate-resistant acid phosphatase (TRAP).",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/heme-trap-hairy-cells-q19.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Peripheral blood smear photomicrograph processed with a special stain, showing hairy cells with tartrate-resistant acid phosphatase (TRAP)-positive focal red cytoplasmic staining.",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-heme-disseminated-intravascular-coagulation-schistocytes-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Disseminated intravascular coagulation",
+    "subcategory": "Disseminated intravascular coagulation",
+    "stem": "A 34-year-old woman develops sudden onset loss of consciousness, shortness of breath, and decreased urine output. Her temperature is 37.6°C (99.7°F), pulse is 80/min, respirations are 20/min, and blood pressure is 128/78 mm Hg. Two days ago, she gave birth via vaginal delivery without complications. An ultrasound reveals retained placental tissue within the uterine fundus. A blood smear is shown. Laboratory tests show:\n\nErythrocyte count 3.6 million/mm3\nHemoglobin 12.5 g/dL\nMCV 85 um3\nPlatelet count 90,000/mm3\nSerum urea nitrogen 24 mg/dL\nCreatinine 1.8 mg/dL\n\nThis patient most likely has which of the following underlying conditions?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acute blood loss"
+      },
+      {
+        "letter": "B",
+        "text": "Acute erosive gastritis"
+      },
+      {
+        "letter": "C",
+        "text": "Disseminated intravascular coagulation"
+      },
+      {
+        "letter": "D",
+        "text": "Immune-mediated hemolysis"
+      },
+      {
+        "letter": "E",
+        "text": "Iron deficiency"
+      },
+      {
+        "letter": "F",
+        "text": "Thalassemia minor"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. Simply put, schistocytes are fragments of red blood cells of different shapes and sizes. They are derived from mechanical damage to circulating erythrocytes, which results in a form of anemia referred to as microangiopathic hemolytic anemia. Causes of this form of anemia include disseminated intravascular coagulation (DIC), prosthetic heart valves, thrombotic thrombocytopenic purpura (TTP), and hemolytic-uremic syndrome (HUS).\n\nIn this patient, retained placental tissue triggered the onset of DIC. DIC is due to widespread and uncontrolled activation of the coagulation cascade, leading to formation of microthrombi throughout the circulation, hence the loss of consciousness, shortness of breath, and decreased urine output. Erythrocytes become fragmented as they squeeze through narrowed arterioles and capillaries.\n\nAcute blood loss (choice A) is followed by reduced circulating blood volume. In the acute phase, a sample of blood may appear entirely normal. Only after hemodilution does a normocytic normochromic anemia become apparent.\n\nAcute erosive gastritis (choice B) is associated with small superficial mucosal ulcerations in the stomach. Causes include NSAIDs, shock, hypovolemia, head trauma (Cushing ulcers), and burns (Curling ulcers). These ulcers may cause hematemesis, hematochezia, or occult blood loss, but would not be associated with the findings shown.\n\nImmune-mediated hemolysis (choice D) is due to agglutinins that can be classified as warm (IgG type) or cold (IgM type) according to whether the direct Coombs test is positive at 37°C or 0-4°C. Agglutinins binding red blood cells may cause acute or chronic anemia by intravascular or extravascular hemolysis. Unconjugated hyperbilirubinemia is usually present, the anemia is normochromic and normocytic, and renal tubular injury may occur due to hemoglobinuria. Schistocytes are not observed.\n\nAny form of iron deficiency anemia (choice E), whether due to decreased absorption or to chronic blood loss, is characterized by small (microcytic) and pale (hypochromic) erythrocytes. Schistocytes are not observed.\n\nThalassemia (choice F) is a genetic condition caused by mutations of the genes coding for the globin chains. Patients homozygous for mutations in the beta-globin genes are affected by a severe form of chronic anemia, referred to as thalassemia major because of severely reduced or absent beta-globin synthesis. Peripheral blood smears in these patients show anisopoikilocytosis (varying size and shape), not schistocytes. Heterozygous individuals have the beta-thalassemia trait and manifest a clinical picture known as thalassemia minor. They are usually asymptomatic, but the peripheral blood smear shows microcytosis and hypochromia.",
+    "choice_explanations": {
+      "A": "Acute blood loss shows a normal-appearing sample acutely; only after hemodilution does a normocytic normochromic anemia appear. Incorrect.",
+      "B": "Acute erosive gastritis causes mucosal ulcerations with bleeding, not schistocytes. Incorrect.",
+      "C": "Correct. Schistocytes (red cell fragments) indicate microangiopathic hemolytic anemia; retained placental tissue caused disseminated intravascular coagulation with microthrombi and organ dysfunction.",
+      "D": "Immune-mediated hemolysis causes normocytic normochromic anemia with a positive Coombs test and no schistocytes. Incorrect.",
+      "E": "Iron deficiency causes microcytic hypochromic anemia with no schistocytes. Incorrect.",
+      "F": "Thalassemia shows anisopoikilocytosis (or microcytosis/hypochromia in minor), not schistocytes. Incorrect."
+    },
+    "fa_page": 433,
+    "fa_pages": [
+      433
+    ],
+    "fa_summary": "Schistocytes (fragmented red cells) indicate microangiopathic hemolytic anemia, classically caused by disseminated intravascular coagulation, TTP, HUS, and prosthetic heart valves; DIC reflects widespread activation of the coagulation cascade.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/heme-schistocytes-dic-q21.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Peripheral blood smear photomicrograph showing schistocytes (fragmented, helmet-shaped red blood cells).",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-heme-chronic-myelogenous-leukemia-philadelphia-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Leukemias",
+    "subcategory": "Chronic myelogenous leukemia",
+    "stem": "A 53-year-old woman comes to the physician because of a 2-month history of fatigue and early satiety. She has had a 10 kg (22 lb) weight loss during this period. Her temperature is 37.3°C (99.1°F), pulse is 74/min, respirations are 16/min, and blood pressure is 128/76 mm Hg. Physical examination reveals the presence of palpable spleen and liver. Complete blood count shows white blood cells of 16,000/mm3, red blood cell count of 4.5 million/mm3, hemoglobin of 15.5 g/dL, and platelet count of 375,000/mm3. A peripheral blood smear is shown. Manual leukocyte differential shows: segmented neutrophils 60%, bands 5%, myelocyte 2%, metamyelocyte 3%, lymphocytes 20%, monocytes 5%, eosinophils 2%, basophils 2%, and blasts 1%. Which of the following cytogenetic abnormalities is most likely associated with this condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bcl-2 activation"
+      },
+      {
+        "letter": "B",
+        "text": "c-Myc activation"
+      },
+      {
+        "letter": "C",
+        "text": "t(8;14)"
+      },
+      {
+        "letter": "D",
+        "text": "t(9;22)"
+      },
+      {
+        "letter": "E",
+        "text": "t(14;18)"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. The disease described is chronic myelogenous leukemia (CML), which is classified as a myeloproliferative disorder. It usually affects adults between 40 and 59 years of age. Most patients are asymptomatic. Some patients can present with fatigue, malaise, night sweats, low-grade fever, and/or weight loss. Patients may complain of abdominal fullness or vague abdominal pain due to hepatosplenomegaly.\n\nThe clinical hallmark of CML is the uncontrolled production of myeloid cells. Peripheral blood smear reveals leukocytosis with mature neutrophils and eosinophils, immature myelocytes, and basophilia. Blast count is usually less than 5%. Leukocyte alkaline phosphatase (LAP) score is decreased. CML is associated with the Philadelphia (Ph) chromosome, which is actually a translocation involving chromosomes 9 and 22, t(9;22), that produces a BCR-ABL hybrid fusion protein. The fusion protein commonly possesses an oncogenic dysregulated tyrosine kinase activity and is the hallmark of CML. Diagnosis involves identifying the Ph chromosome or its products, the BCR-ABL fusion mRNA, or the BCR-ABL protein. Treatment is with imatinib, a tyrosine kinase inhibitor. Patients with CML may develop blast crisis where > 20% myeloblasts or lymphoblasts are identified. This indicates that the condition evolved into its final phase and transforms into an acute leukemia.\n\nAcute lymphocytic leukemia (ALL), a common childhood acute leukemia, can also have t(9;22), which indicates a poor prognosis. In adults, the presence of this translocation may indicate a poor prognosis.\n\nBcl-2 activation (choice A) and a t(14;18) (choice E) translocation are features of follicular B cell lymphomas. In follicular lymphoma, the Bcl-2 oncogene is translocated from chromosome 18 to the Ig heavy chain locus on chromosome 14. The Bcl-2 protein differs from oncogenes (which promote cellular proliferation) and tumor suppressor genes (which inhibit cell growth), in that the Bcl-2 protein blocks apoptosis, leading to prolonged cell survival.\n\nc-Myc activation (choice B) and a t(8;14) (choice C) translocation are features of Burkitt lymphoma. The c-Myc oncogene on chromosome 8 is translocated to the Ig heavy chain locus on chromosome 14, which leads to cell proliferation. Other translocations associated with Burkitt lymphoma: t(8;22) - c-Myc gene translocation with lambda light chain (10-15%), and t(2;8) - c-Myc gene translocation with kappa light chain (5%). Burkitt lymphoma is divided into 3 main clinical variants: endemic (African type), sporadic (non-African type), and immunodeficiency associated (HIV/AIDS).",
+    "choice_explanations": {
+      "A": "Bcl-2 activation is a feature of follicular lymphoma. Incorrect.",
+      "B": "c-Myc activation is a feature of Burkitt lymphoma. Incorrect.",
+      "C": "t(8;14) (c-Myc/IgH) is the classic Burkitt lymphoma translocation. Incorrect.",
+      "D": "Correct. Chronic myelogenous leukemia is characterized by the Philadelphia chromosome t(9;22), producing the BCR-ABL fusion tyrosine kinase (treated with imatinib).",
+      "E": "t(14;18) (IgH/bcl-2) is the follicular lymphoma translocation. Incorrect."
+    },
+    "fa_page": 437,
+    "fa_pages": [
+      437
+    ],
+    "fa_summary": "Chronic myelogenous leukemia is a myeloproliferative disorder characterized by the Philadelphia chromosome t(9;22), which forms the BCR-ABL fusion tyrosine kinase; it presents with leukocytosis with immature myeloid cells and basophilia.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/heme-cml-blood-smear-q28.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Peripheral blood smear photomicrograph showing leukocytosis with mature and immature myeloid cells (myelocytes, metamyelocytes) and basophilia, characteristic of chronic myelogenous leukemia.",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-msk-rheumatoid-arthritis-synovium-infiltrate-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Osteoarthritis vs rheumatoid arthritis",
+    "subcategory": "Rheumatoid arthritis",
+    "stem": "A 42-year-old woman comes to the physician because of a 6-month history of fatigue and chronic joint pain. The pain is worse in the morning and gradually decreases as the day progresses. She has a temperature of 37.3°C (99.2°F), pulse of 80/min, and blood pressure of 125/84 mm Hg. The knee and shoulder joints are mildly swollen and warm. Laboratory studies show a complete blood count with leukocyte count of 11,000/mm³, hemoglobin of 11 g/dL, and MCV of 85 µm³. A photomicrograph of a biopsy specimen of synovium from her knee joint is shown.\n\nWhich of the following are the predominant cell types in the inflammatory infiltrate?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Eosinophils"
+      },
+      {
+        "letter": "B",
+        "text": "Langhans-type giant cells"
+      },
+      {
+        "letter": "C",
+        "text": "Lymphocytes and plasma cells"
+      },
+      {
+        "letter": "D",
+        "text": "Neutrophils"
+      },
+      {
+        "letter": "E",
+        "text": "Type A and B synovial cells"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. This patient has rheumatoid arthritis (RA). Lymphocytes and plasma cells aggregate near and around blood vessels (perivascular accumulation) in this example of chronic inflammation of the synovium. Lymphocytes have dark nuclei with little visible cytoplasm (green arrows). Plasma cells are larger with a distinct cytoplasm and an eccentric nucleus (seen predominantly in the green circle). The synovial lining is thickened from its normal 1-2 layers.\n\nNote: The USMLE may not provide a high-magnification image for you to recognize inflammatory cells. Given that this patient has signs and symptoms of rheumatoid arthritis, you should be able to associate this condition with chronic inflammation and think of lymphocytes and plasma cells, which play a role in the disease pathogenesis.\n\nEosinophils (choice A) are not evident here and do not seem to play a role in RA.\n\nLanghans-type giant cells (choice B), or multinucleated histiocytes, are not evident here but may appear during the later stages of RA. Note: Do not confuse Langhans cells with Langerhans cells. Langhans cells are the multinucleated giant cells seen in granulomas, where their nuclei are arranged in a \"horseshoe shape\" pattern, whereas Langerhans cells are histiocytes and dendritic cells (Langerhans histiocytosis).\n\nAlthough neutrophils (choice D) are also involved in RA, they are not evident here. They are also associated with RA, but accumulate in the synovial fluid and along the synovium surface. At this magnification, neutrophils would have bilobed nuclei with granular eosinophilic cytoplasm.\n\nType A and B synovial cells (choice E) are the two cell types of the synovial lining. They increase in number in RA, but are not the cells of the perivascular infiltrate.",
+    "choice_explanations": {
+      "A": "Eosinophils are not evident here and do not play a significant role in rheumatoid arthritis. This is a chronic inflammatory process. Incorrect.",
+      "B": "Langhans-type giant cells (multinucleated histiocytes) are not evident here; they may appear in later stages of RA. Do not confuse them with Langerhans cells. Incorrect.",
+      "C": "Correct. Rheumatoid arthritis causes chronic inflammation of the synovium with perivascular aggregation of lymphocytes and plasma cells, as shown.",
+      "D": "Neutrophils are involved in RA but accumulate in synovial fluid and along the synovial surface rather than forming this perivascular infiltrate. Incorrect.",
+      "E": "Type A and B synovial cells line the synovium and increase in number in RA but are not the cells of the inflammatory infiltrate. Incorrect."
+    },
+    "fa_page": 472,
+    "fa_pages": [
+      472
+    ],
+    "fa_summary": "Rheumatoid arthritis is a chronic inflammatory arthropathy of the synovium with perivascular infiltrates composed predominantly of lymphocytes and plasma cells, causing morning stiffness and symmetric joint swelling.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/msk-rheumatoid-synovium.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Light photomicrograph of a synovium biopsy showing chronic inflammation with perivascular accumulation of lymphocytes (dark nuclei, little cytoplasm) and plasma cells (eccentric nucleus, prominent cytoplasm)."
+  },
+  {
+    "id": "wordpilot-new-msk-paget-disease-paramyxovirus-osteoclasts-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Paget disease of bone",
+    "subcategory": "Paget disease of bone",
+    "stem": "An 80-year-old man comes to the physician because of bone pain and changes in his facial features. A photograph of the patient is shown. He states that his hats do not fit him anymore and has noticed progressive deformities of his legs and arms and chronic diffuse leg, lower back, and pelvic pain. He has a history of diabetes mellitus and hypercholesterolemia. He denies loss of appetite or unintentional weight loss, and he is pretty active around the house since his retirement 12 years ago. His temperature is 37.1°C (98.7°F), pulse is 72/min, respirations are 12/min, and blood pressure is 130/80 mm Hg. Laboratory studies show elevated serum alkaline phosphatase and elevated urine hydroxyproline. X-rays of long bones shows lytic and sclerotic areas.\n\nWhich of the following is the most likely possible pathogenic mechanism for this patient's condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Generalized reduction in bone mass"
+      },
+      {
+        "letter": "B",
+        "text": "Genetic deficiency of carbonic anhydrase II"
+      },
+      {
+        "letter": "C",
+        "text": "Monoclonal proliferation of plasma cells"
+      },
+      {
+        "letter": "D",
+        "text": "Overproduction of growth hormone"
+      },
+      {
+        "letter": "E",
+        "text": "Paramyxovirus infection of osteoclasts"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. Paget disease, once known as osteitis deformans, is a localized disorder of bone remodeling affecting middle-aged to elderly persons. It is usually polyostotic (85%) and affects multiple bones such as the axial skeleton, including the spine, pelvis, proximal femur, and head. The monostotic (15%) form affects only one bone. The term \"localized\" bone involvement may be used in the context that the condition only affects a part of the bone, rather than the entire bone (diffuse involvement).\n\nOften, it presents with gradual enlargement of the head and chronic bone pain. Affected bone is thickened and coarse, with disorderly osteoblastic (sclerotic) and osteoclastic (lytic) activity. Paget himself proposed a viral hypothesis for the pathogenesis of this condition, but only recent immunologic and molecular techniques have allowed identification of paramyxoviruses (measles and respiratory syncytial virus) in osteoclasts of affected bones. Nonetheless, the etiology of this disease remains uncertain. In most cases, the diagnosis can be made by radiologic investigations; osteolytic and osteosclerotic lesions are seen.\n\nPaget disease develops in 3 stages: an osteolytic stage (osteoclastic activity predominates), a mixed osteolytic-osteoblastic stage, and an osteosclerotic stage (osteoblastic activity predominates in this \"burnout stage\").\n\nGeneralized reduction in bone mass (choice A) is the defining feature of osteoporosis. In its most common form, the condition affects elderly persons, especially women after menopause. It characteristically causes compression fractures of vertebral bones or pathologic fractures of the femoral neck. Head and facial changes would not be seen.\n\nGenetic deficiency of carbonic anhydrase II (choice B) is one cause of the rare hereditary disorders collectively known as osteopetrosis, which are due to osteoclast dysfunction. This condition manifests in infancy or childhood with bone fragility and recurrent fractures (does not fit with our patient). The bone has a stony-hard consistency, but is brittle. Note: peripheral blood smear may show tear-drop red cells.\n\nMonoclonal proliferation of plasma cells (choice C) is the underlying cause of multiple myeloma, the most frequent primary bone neoplasm. Multiple myeloma results in multifocal accumulation of neoplastic plasma cells in bones, manifesting with punched-out osteolytic lesions on x-ray films. Vertebrae, skull, ribs and pelvic bones are most frequently affected. Since bone lesions are osteolytic, alkaline phosphatase and hydroxyproline levels (indicate bone formation) are not elevated. Patients may complain of bone pain and present with pathologic fractures.\n\nOverproduction of growth hormone (choice D) causes acromegaly in adulthood. Increased head circumference is a feature of this disease, along with progressive enlargement of hands and feet, and widening of facial bones. Patients also suffer from hypertension, secondary diabetes, cardiomegaly, macroglossia, and joint pain, which are not present in our patient.",
+    "choice_explanations": {
+      "A": "Generalized reduction in bone mass describes osteoporosis, which causes vertebral/femoral neck fractures without head or facial enlargement. Incorrect.",
+      "B": "Carbonic anhydrase II deficiency causes osteopetrosis (osteoclast dysfunction, dense brittle bones, tear-drop red cells), not Paget disease. Incorrect.",
+      "C": "Monoclonal plasma cell proliferation causes multiple myeloma with punched-out lytic lesions and no alkaline phosphatase/hydroxyproline elevation. Incorrect.",
+      "D": "Growth hormone excess causes acromegaly; it does not cause the lytic-sclerotic bone pattern of Paget disease. Incorrect.",
+      "E": "Correct. Paget disease of bone is associated with paramyxovirus (measles, RSV) infection of osteoclasts, producing disorderly osteoclastic and osteoblastic activity with elevated alkaline phosphatase and urinary hydroxyproline."
+    },
+    "fa_page": 468,
+    "fa_pages": [
+      468
+    ],
+    "fa_summary": "Paget disease of bone (osteitis deformans) is a localized disorder of bone remodeling with increased osteoclastic then osteoblastic activity, associated with paramyxovirus infection of osteoclasts; it causes bone pain, increasing hat size, hearing loss, elevated alkaline phosphatase, and elevated urinary hydroxyproline.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/msk-paget-head-photo.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Clinical photograph of an elderly man with Paget disease showing progressive enlargement of the head (increasing hat size) and facial deformities."
+  },
+  {
+    "id": "wordpilot-new-msk-paget-disease-skull-alkaline-phosphatase-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Paget disease of bone",
+    "subcategory": "Paget disease of bone",
+    "stem": "A 68-year-old woman comes to the physician because of hearing loss and occasional ringing in her ears. Physical examination shows a mild sensorineural and conductive hearing loss on both sides. An x-ray of the skull is shown.\n\nWhich of the following is most likely to be elevated in serum in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alkaline phosphatase"
+      },
+      {
+        "letter": "B",
+        "text": "Calcium"
+      },
+      {
+        "letter": "C",
+        "text": "Immunoglobulin"
+      },
+      {
+        "letter": "D",
+        "text": "Parathyroid hormone"
+      },
+      {
+        "letter": "E",
+        "text": "Uric acid"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. The skull radiograph, particularly near the top of the skull, shows irregular bony contours with both sclerotic and lytic areas, which are characteristic of Paget disease of bone. This condition is characterized by diffuse and asymmetric cortical thickening and patchy areas of sclerosis with coarsened trabecular markings of the calvaria and heterogeneous bony architecture within the paranasal sinuses. Bone biopsy reveals a mosaic pattern of bone spicules with prominent osteoid seams. Paget disease may present with bone pain, lion-like facies, kyphosis, and bowed tibias, but is often asymptomatic.\n\nPaget disease is a bone remodeling disorder that is usually polyostotic (although monostotic forms can occur), and it can involve almost any bone in the body. The bone tissue grows quickly, due to increased activity of both osteoblasts and osteoclasts, and as it grows, it often releases large amounts of alkaline phosphatase into the blood. Serum levels of calcium, phosphorus, and parathyroid hormone are usually normal. Urinary hydroxyproline is typically elevated due to increased collagen breakdown.\n\nComplications of Paget disease include fractures, nerve compression (eg, CN VIII, causing deafness) or spinal cord compression, an increased risk of osteosarcoma and other sarcomas, joint disease, and rarely, high-output heart failure. Characteristically, Paget disease produces elevations of serum alkaline phosphatase that are not accompanied by elevations in serum calcium or serum parathyroid hormone.\n\nHypercalcemia (choice B) is characteristic of lytic bone metastases, which release calcium as bone is destroyed.\n\nHyperparathyroidism (choice D), which also causes hypercalcemia, can cause a general thinning of the cortex of bones and the radiolucent bone lesions of osteitis fibrosa cystica. Serum calcium is normal in most patients with Paget disease.\n\nElevation of serum immunoglobulins (choice C) is characteristic of multiple myeloma, which can produce \"punched-out\" lytic lesions of bone and monoclonal immunoglobulin spikes in serum or urine.\n\nHigh serum uric acid (choice E) is characteristic of gout, which produces joint disease rather than bone disease.",
+    "choice_explanations": {
+      "A": "Correct. The skull x-ray shows the lytic and sclerotic calvarial changes of Paget disease, in which increased osteoblastic activity elevates serum alkaline phosphatase.",
+      "B": "Calcium is typically normal in Paget disease; hypercalcemia suggests lytic metastases or hyperparathyroidism. Incorrect.",
+      "C": "Elevated immunoglobulins suggest multiple myeloma with punched-out lytic lesions. Incorrect.",
+      "D": "Parathyroid hormone is usually normal in Paget disease; hyperparathyroidism causes subperiosteal bone resorption and osteitis fibrosa cystica. Incorrect.",
+      "E": "Elevated uric acid is characteristic of gout (joint disease), not Paget disease of bone. Incorrect."
+    },
+    "fa_page": 468,
+    "fa_pages": [
+      468
+    ],
+    "fa_summary": "Paget disease of bone produces characteristic skull x-ray changes (lytic and sclerotic areas with cortical thickening) and elevated serum alkaline phosphatase with normal calcium and parathyroid hormone; CN VIII compression can cause hearing loss.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/msk-paget-skull-radiograph.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Skull radiograph showing irregular bony contours of the calvaria with both sclerotic and lytic areas and coarsened trabecular markings, characteristic of Paget disease."
+  },
+  {
+    "id": "wordpilot-new-msk-muscle-force-velocity-myosin-atpase-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Muscle physiology",
+    "subcategory": "Skeletal muscle contraction",
+    "stem": "The diagram shows the force-velocity relationship for isotonic contractions of skeletal muscle.\n\nWhich of the following variations in the three curves most likely results from differences in which of the following?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Frequency of muscle contraction"
+      },
+      {
+        "letter": "B",
+        "text": "Muscle hyperplasia"
+      },
+      {
+        "letter": "C",
+        "text": "Muscle hypertrophy"
+      },
+      {
+        "letter": "D",
+        "text": "Myosin ATPase activity"
+      },
+      {
+        "letter": "E",
+        "text": "Sarco/endoplasmic reticulum calcium ATPase activity"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. The diagram shows that the maximum velocity of shortening (Vmax) occurs when there is no afterload on the muscle (force = 0). Increasing afterload decreases the velocity of shortening until a point is reached at which shortening does not occur (isometric contraction) and contraction velocity is thus 0 (where curves intersect the x-axis). The maximum velocity of shortening is dictated by the ATPase activity of the muscle, increasing to high levels when the ATPase activity is elevated.\n\nThe different curves reflect different maximum velocities without changing maximum load. The maximal velocity of contraction (Vmax) is that which occurs at no load. There are three curves that have different values of Vmax. What could cause increase or decrease of Vmax, without changing maximum lifting ability? The variable that is most closely related to velocity is the rate of cycling of the crossbridge attachments. Each cycle requires binding and hydrolysis of ATP which depends on ATPase. The rate of this step depends on the activity of ATPase; if ATPase activity is low, cycling is low and velocity is low. If ATPase activity increases, Vmax increases, and velocity at any load (except when there is no movement because load is excessive) increases.\n\nIncreasing the frequency of muscle contraction (choice A) will increase the load that a muscle can lift within the limits of the muscle, but will not affect the velocity of contraction.\n\nMuscle hyperplasia (choice B) is a minor factor in adult humans, compared to hypertrophy and altered expression of myosin heavy chain isoforms. Hyperplasia, to the extent that it occurs, would also have increased maximum force development, which was not observed.\n\nMuscle hypertrophy (choice C) increases the maximum load that a muscle can lift, and may increase the maximum velocity of contraction. However, all three curves had the same maximum force production because they intersected the x-axis (zero velocity at maximum load); therefore hypertrophy was not responsible.\n\nSarco/endoplasmic reticulum calcium ATPase (SERCA) activity (choice E) is responsible for resequestration of calcium. Altered SERCA activity would have a profound effect on rate of relaxation, but less effect on maximum velocity of contraction.",
+    "choice_explanations": {
+      "A": "Increasing contraction frequency raises the load a muscle can lift but does not change the velocity of shortening. Incorrect.",
+      "B": "Muscle hyperplasia is minor in adult humans and would also increase maximum force development, which was not seen. Incorrect.",
+      "C": "Hypertrophy increases maximum load; here all curves share the same maximum force, so hypertrophy is not responsible. Incorrect.",
+      "D": "Correct. The maximum velocity of shortening (Vmax, at zero afterload) is determined by the rate of cross-bridge cycling, which depends on myosin ATPase activity.",
+      "E": "SERCA activity mainly affects the rate of relaxation, not the maximum velocity of contraction. Incorrect."
+    },
+    "fa_page": 459,
+    "fa_pages": [
+      459
+    ],
+    "fa_summary": "In the force-velocity relationship of isotonic skeletal muscle contraction, the maximum velocity of shortening (at zero load) is determined by the rate of cross-bridge cycling, i.e., myosin ATPase activity.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/msk-force-velocity-graph.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Graph of the force-velocity relationship for isotonic muscle contractions: three hyperbolic curves of contraction velocity (y-axis) versus force/afterload (x-axis), with different maximum velocities (Vmax) but the same maximum force."
+  },
+  {
+    "id": "wordpilot-new-msk-osteoarthritis-synovial-fluid-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Osteoarthritis vs rheumatoid arthritis",
+    "subcategory": "Osteoarthritis",
+    "stem": "A 65-year-old African woman comes to the physician because of sharp, left hip pain. She has a history of hypertension, diabetes mellitus, and hypercholesterolemia. She is compliant with her medications, but occasionally \"cheats on her diet.\" Her BMI is 35 kg/m². Her temperature is 37.1°C (98.7°F), pulse is 76/min, respirations are 18/min, and blood pressure is 125/73 mm Hg. Physical examination reveals pain and tenderness in the left hip, with limited range of motion. An x-ray of the hip is shown.\n\nWhich of the following best describes the likely findings from synovial fluid if joint aspiration is performed in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Clear fluid with high protein content and no significant numbers of inflammatory cells"
+      },
+      {
+        "letter": "B",
+        "text": "Clear fluid with high protein content, neutrophils and mononuclear cells, culture positive for mycobacteria"
+      },
+      {
+        "letter": "C",
+        "text": "Clear fluid with high protein content, neutrophils and mononuclear cells, no bacteria and no crystals"
+      },
+      {
+        "letter": "D",
+        "text": "Purulent fluid with large numbers of neutrophils and culture positive for bacteria"
+      },
+      {
+        "letter": "E",
+        "text": "Purulent fluid with large numbers of neutrophils and needle-shaped crystals"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. The joint shows radiographic changes most suggestive of degenerative joint disease (osteoarthritis). It is a common \"wear and tear\" disease in obese and elderly patients that affects the weight-bearing joints such as the hips and knees. These changes can include narrowing of the joint space and increased density of subchondral bone, erosion and ulceration of the articular hyaline cartilage, formation of osteophytes at the periphery of the joints, and formation of pseudocysts in the subchondral marrow. Degenerative joint disease is not an inflammatory arthritis, and consequently, the joint fluid resembles normal joint fluid and is without a marked inflammatory infiltrate, crystals, or microorganisms.\n\nChoice B describes the findings in tuberculous arthritis, which is common in developing countries. Most commonly affected areas are the spine, hips, and knees. Patients usually present with joint effusion and pain.\n\nChoice C describes the findings in rheumatoid arthritis. There is proliferation of synovial tissue and erosion of the underlying bone (pannus). Rheumatoid arthritis tends to involve the hands, feet, and cervical spine rather than the hip.\n\nChoice D describes the findings in septic arthritis. The skin overlying the joint space will be erythematous, swollen, and warm to touch. Although our patient is diabetic and she may be at increased risk for developing septic arthritis, she does not present with a high fever, chills, history of trauma or disseminated infection.\n\nChoice E describes the findings in gouty arthritis. It does not usually affect the hip joint, but mainly the metatarsophalangeal joint, wrist, hands, elbows, and knees.",
+    "choice_explanations": {
+      "A": "Correct. Osteoarthritis is a non-inflammatory degenerative joint disease; the synovial fluid resembles normal fluid with no significant inflammatory cells, crystals, or organisms.",
+      "B": "This pattern (caseating/positive culture for mycobacteria) describes tuberculous arthritis. Incorrect.",
+      "C": "This pattern describes rheumatoid arthritis, which typically involves hands, feet, and cervical spine rather than the hip. Incorrect.",
+      "D": "This pattern describes septic arthritis, which would present with fever and systemic signs absent in this patient. Incorrect.",
+      "E": "This pattern describes gouty arthritis (needle-shaped crystals), which usually affects the first MTP joint, not the hip. Incorrect."
+    },
+    "fa_page": 472,
+    "fa_pages": [
+      472
+    ],
+    "fa_summary": "Osteoarthritis is a non-inflammatory degenerative joint disease (weight-bearing joints, obese/elderly) with joint space narrowing, osteophytes, and subchondral sclerosis; synovial fluid resembles normal fluid without inflammatory cells, crystals, or organisms.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/msk-osteoarthritis-hip-radiograph.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Radiograph of the hip showing joint space narrowing, subchondral sclerosis, and osteophyte formation, characteristic of osteoarthritis."
+  },
+  {
+    "id": "wordpilot-new-msk-muscle-length-tension-active-tension-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Muscle physiology",
+    "subcategory": "Skeletal muscle contraction",
+    "stem": "The length-tension diagram shown is obtained from a skeletal muscle with equal numbers of red and white fibers. Supramaximal tetanic stimuli are used to initiate an isometric contraction at each muscle length studied.\n\nWhich of the following is the maximum amount of active tension the muscle is capable of generating at a preload of 100 grams?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "25 to 35 grams"
+      },
+      {
+        "letter": "B",
+        "text": "50 to 65 grams"
+      },
+      {
+        "letter": "C",
+        "text": "95 to 105 grams"
+      },
+      {
+        "letter": "D",
+        "text": "145 to 155 grams"
+      },
+      {
+        "letter": "E",
+        "text": "Cannot be determined"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. The diagram shows the relationship between preload, or passive tension (curve Z), total tension (curve X), and active tension (curve Y). Active tension cannot be measured directly; it is the difference between total tension and passive tension. The active tension curve was obtained by subtracting, at each length (x-axis), the value of passive tension on curve Z from the value of total tension on curve X, or at each length Y = X - Z.\n\nActive tension = total tension - passive tension.\n\nTo answer this question, you must first find where 100 grams intersects the preload curve (passive tension curve; see step 1 below) and then move up to the total tension curve (see step 2). In this question, find where 100 grams intersects the passive tension (preload) curve (Z) and move up to the total tension curve (X). Subtracting passive tension from total tension gives an active tension that falls within the 50-65 gram range.\n\nOne can see that a preload of 100 grams is associated with a total tension of a little more than 150 grams, giving an active tension of a little more than 50 grams. Note that active tension equals total tension minus passive tension, as discussed above. Drawing these three curves in a manner that is mathematically correct is not an easy task. You should thus recognize that active tension may not equal total tension minus passive tension at all points on the diagram shown here, as well as on USMLE diagrams.\n\nThe relationship between passive tension and active tension is explained in terms of the degree of actin and myosin overlap and the potential for cross-bridge cycling:\n• Point A: No preload, thus no stretch and no passive tension.\n• Point B: A preload of 1 g stretches muscle, thus increasing its resting length, resulting in 1 g of passive tension.\n• Point C: A preload of 5 g increases muscle stretch, producing a greater resting length and thus a greater passive tension.\n\nPreloading muscle stretches the sarcomere and aligns sites of potential actin and myosin interaction, thereby allowing force development upon excitation (active tension). Stretching a muscle excessively reduces the potential for cross-bridge formation and thereby decreases the amount of force it can produce.",
+    "choice_explanations": {
+      "A": "25 to 35 grams underestimates active tension; at a 100 g preload the total tension is ~150 g and passive tension ~100 g, giving ~50 g active tension. Incorrect.",
+      "B": "Correct. At a preload of 100 g, total tension is a little more than 150 g and passive tension is 100 g, so active tension (total minus passive) is about 50-65 g.",
+      "C": "95 to 105 grams is too high; it does not account for subtracting passive tension. Incorrect.",
+      "D": "145 to 155 grams approximates the total (not active) tension at a 100 g preload. Incorrect.",
+      "E": "The value can be determined by reading total tension and subtracting passive tension at the 100 g preload. Incorrect."
+    },
+    "fa_page": 459,
+    "fa_pages": [
+      459
+    ],
+    "fa_summary": "In the skeletal muscle length-tension relationship, active tension equals total tension minus passive (preload) tension; it is maximal at optimal sarcomere length where actin-myosin overlap allows maximal cross-bridge cycling.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/msk-length-tension-graph.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Length-tension diagram of skeletal muscle: curves of total tension (X), active tension (Y), and passive tension (Z) plotted against muscle length (cm), with tension in grams on the y-axis."
+  },
+  {
+    "id": "wordpilot-new-msk-hypertrophic-osteoarthropathy-lung-cancer-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Paraneoplastic syndromes",
+    "subcategory": "Hypertrophic osteoarthropathy",
+    "stem": "A 55-year-old man comes to the physician for a pre-employment physical examination. He is concerned about recent joint pain in his hands and knees. A photograph of the patient's hands is shown. X-rays of the hands show new bone formation beneath the periosteum of the distal phalanges.\n\nWhich of the following is most likely associated with the findings seen in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anterior uveitis"
+      },
+      {
+        "letter": "B",
+        "text": "Chronic renal failure"
+      },
+      {
+        "letter": "C",
+        "text": "Colon cancer"
+      },
+      {
+        "letter": "D",
+        "text": "Endocrine hyperfunction"
+      },
+      {
+        "letter": "E",
+        "text": "Lung cancer"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. Enlargement of the distal segments of the fingers and toes due to proliferation of connective tissue is known as clubbing, as seen in the photograph of this patient's hands. In particular, note the increase in convexity of the nail fold. The patient also presents with symptoms of arthritis and radiographic findings consistent with new bone formation in the subperiosteal space. This triad of symptoms is consistent with hypertrophic osteoarthropathy (HOA). Just a brief caveat, clubbing may occur alone or as part of HOA, but both manifestations result from the same physiologic process described below.\n\nHOA is usually associated with hypoxemic lung disease such as lung cancer (especially adenocarcinoma), mesothelioma, bronchiectasis, congenital cyanotic heart disease, and hepatic cirrhosis. The pathogenesis of HOA is still under investigation though some theories involve failed metabolism of growth factors in the lung, resulting in distal extremity growth. In patients with COPD, the development of HOA or clubbing should make you strongly concerned for lung cancer. COPD alone typically does not cause HOA.\n\nAnterior uveitis (choice A) is inflammation of the iris and anterior chamber of the eye. It is associated with many systemic inflammatory conditions including systemic lupus erythematosus (SLE), Reiter syndrome, sarcoidosis, and psoriatic arthritis. Though many of these conditions can produce the arthritic symptoms seen in our patient, clubbing and subperiosteal bone formation would be unusual.\n\nChronic renal failure (choice B) causes renal osteodystrophy, which is characterized by bone resorption (osteitis fibrosa cystica) rather than subperiosteal growth. The bone resorption results from an inability to excrete phosphate during renal failure. The excess serum phosphate triggers release of parathyroid hormone (secondary hyperparathyroidism), which then results in osteoclast activation and demineralization of bone.\n\nBenign bone growths (osteoma) are sometimes associated with multiple colonic polyps and colon cancer (choice C) in Gardner syndrome. The disease is also associated with desmoid tumors and epidermoid cyst. Clubbing would be unusual in this syndrome.\n\nEndocrine hyperfunction (choice D), producing precocious puberty, can be seen in association with bone abnormalities in McCune-Albright syndrome. The bone abnormality in this condition is known as polyostotic fibrous dysplasia, in which the medullary cavity of bone fills with fibrous tissue, resulting in bone expansion. The third feature of this disease is café au lait spots on the skin. The disease results from overstimulation of G-protein.",
+    "choice_explanations": {
+      "A": "Anterior uveitis is associated with systemic inflammatory diseases (SLE, Reiter syndrome, sarcoidosis, psoriatic arthritis) but does not explain clubbing and subperiosteal new bone formation. Incorrect.",
+      "B": "Chronic renal failure causes renal osteodystrophy (bone resorption, osteitis fibrosa cystica), not subperiosteal new bone growth. Incorrect.",
+      "C": "Colon cancer (Gardner syndrome) is associated with osteomas and desmoid tumors, not clubbing. Incorrect.",
+      "D": "Endocrine hyperfunction (McCune-Albright syndrome) causes polyostotic fibrous dysplasia with café au lait spots, not clubbing. Incorrect.",
+      "E": "Correct. Digital clubbing with subperiosteal new bone formation (hypertrophic osteoarthropathy) is most strongly associated with lung cancer (especially adenocarcinoma)."
+    },
+    "fa_page": 224,
+    "fa_pages": [
+      224,
+      703
+    ],
+    "fa_summary": "Hypertrophic osteoarthropathy (digital clubbing, arthralgia, and subperiosteal new bone formation/periostosis) is a paraneoplastic syndrome most strongly associated with lung cancer, especially adenocarcinoma.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/msk-clubbing-hands.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Clinical photograph of the patient's hands showing digital clubbing (enlargement of the distal fingers and increased convexity of the nail folds)."
+  },
+  {
+    "id": "wordpilot-new-msk-osteoporosis-cushing-bone-histology-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Osteoporosis",
+    "subcategory": "Osteoporosis",
+    "stem": "A 40-year-old woman undergoes bilateral hip replacement because of severe hip pain and discomfort in walking and sitting. Her temperature is 37.2°C (98.9°F), pulse is 76/min, respirations are 12/min, and blood pressure is 145/98 mm Hg; BMI is 42 kg/m². Physical examination shows truncal obesity and abdominal striae. Laboratory studies reveal a fasting glucose of 180 mg/dL, 8 AM cortisol of 160 µg/dL, and decreased ACTH level. Radiographs show no decreased joint space or articular cartilage erosion. A bone specimen from the femur head is shown.\n\nWhich of the following conditions best accounts for the abnormalities seen in the specimen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hyperparathyroidism"
+      },
+      {
+        "letter": "B",
+        "text": "Necrosis"
+      },
+      {
+        "letter": "C",
+        "text": "Osteomalacia"
+      },
+      {
+        "letter": "D",
+        "text": "Osteoporosis"
+      },
+      {
+        "letter": "E",
+        "text": "Paget disease"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. This woman has osteoporosis as a result of Cushing syndrome, which is characterized by generalized decrease in bony mass (osteopenia) with an increased risk of fracture. Causes include estrogen deficiency (postmenopausal women, Turner syndrome), older age, lack of exercise or immobilization, malnutrition (calcium, vitamin C or D deficiency), endocrinopathies (Cushing disease/syndrome, thyrotoxicosis), or exogenous corticosteroid use. There are direct and indirect mechanisms of osteoporosis which include: delayed maturation of osteoblasts; decreased production of alkaline phosphatase, osteocalcin, and collagen; negative calcium balance; and increased production of collagenase (promotes bone degradation).\n\nThe hard outer layer of bone is called cortical bone and the interior is called trabecular bone, which is comprised of a network of porous bone (cancellous or spongy bone). Microscopic features seen in the image include thin, sparse trabeculae with normal calcification, and normal numbers and morphology of both osteoblasts (bone forming cells) and osteoclasts (bone resorbing cells).\n\nMicroscopic features of hyperparathyroidism (choice A) include increases in both osteoclasts and osteoblasts, decreased bony spicule size, fibrosis of marrow spaces with giant cells, and normal calcification of residual bone. Osteitis fibrosa cystica can also occur, which has areas of hemosiderin, osteoclast activity, and fibrosis.\n\nNecrosis (choice B) can occur as a result of vaso-occlusion, bacterial infection, or embolism. In addition, glucocorticoids can cause osteonecrosis due to increased apoptosis of osteoblasts. However, in the image, there is no evidence of bone infarction, hemorrhage, or inflammatory cell infiltrate. The bony trabeculae, medullary cells, and adipose cells can still be visualized.\n\nMicroscopic features of osteomalacia (choice C) include normal-sized trabeculae that are only partially calcified, \"seams\" of uncalcified osteoid, and often, increased osteoblasts. Our image demonstrates thin, small bony trabeculae.\n\nPaget disease (choice E) has microscopic features usually seen in its later stages and includes marked thickening of bony trabeculae with irregularly arranged cement lines (mosaic pattern), which are not seen in our image.",
+    "choice_explanations": {
+      "A": "Hyperparathyroidism shows increased osteoclasts and osteoblasts, marrow fibrosis with giant cells, and osteitis fibrosa cystica, not thin sparse trabeculae with normal cells. Incorrect.",
+      "B": "Necrosis would show bone infarction, hemorrhage, or inflammatory infiltrate; none are present. Incorrect.",
+      "C": "Osteomalacia shows uncalcified osteoid seams and increased osteoblasts; the image instead shows thin trabeculae with normal calcification. Incorrect.",
+      "D": "Correct. Cushing syndrome causes osteoporosis with reduced bone mass, thin sparse trabeculae, normal calcification, and normal osteoblasts/osteoclasts.",
+      "E": "Paget disease shows marked trabecular thickening with a mosaic cement-line pattern, which is not seen. Incorrect."
+    },
+    "fa_page": 467,
+    "fa_pages": [
+      467
+    ],
+    "fa_summary": "Osteoporosis is a reduction in bone mass (trabecular and cortical) despite normal mineralization and normal lab values, most commonly due to increased bone resorption; secondary causes include glucocorticoid excess/Cushing syndrome.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/msk-osteoporosis-bone-histology.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Histologic section of bone (femoral head) showing thin, sparse trabeculae with normal calcification and normal numbers/morphology of osteoblasts and osteoclasts, consistent with osteoporosis."
+  },
+  {
+    "id": "wordpilot-new-msk-ewing-sarcoma-small-blue-cell-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Primary bone tumors",
+    "subcategory": "Ewing sarcoma",
+    "stem": "A 14-year-old girl is brought to the physician because of a two-month history of pain in her right thigh that is worse at night. Her temperature is 37.4°C (99.4°F), pulse is 80/min, respirations are 16/min, and blood pressure is 110/64 mm Hg. Physical examination shows a 6-cm palpable firm mass in the right thigh, above the right knee. X-ray of the distal femur reveals a laminated concentric periosteal reaction surrounding the mass. The patient undergoes surgical excision of this mass. A photomicrograph of tissue obtained from the mass is shown.\n\nWhich of the following pathologic processes is the most likely cause of this condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Heterotopic ossification"
+      },
+      {
+        "letter": "B",
+        "text": "Highly malignant neoplasm"
+      },
+      {
+        "letter": "C",
+        "text": "Imbalance of osteoblasts and osteoclasts"
+      },
+      {
+        "letter": "D",
+        "text": "Ischemic necrosis of bone"
+      },
+      {
+        "letter": "E",
+        "text": "Pyogenic infection"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. The lesion shown in the picture is highly characteristic of Ewing sarcoma, a bone/soft tissue malignancy that develops most commonly in adolescents and young adults. The pelvis and long limbs such as the femur, tibia, and humerus are the favored sites with a predilection for the diaphysis of the bone. Ewing's sarcoma is associated with the t(11;22) translocation, which results in an EWS/FLI1 fusion protein. Radiographically, the tumor reveals surrounding laminated, concentric periosteal reaction (\"onion-skin appearance\"). Ewing sarcoma is a highly aggressive malignancy commonly found in the long bones of young.\n\nThe tumor belongs to a heterogeneous group of malignant neoplasms known conventionally as \"small blue cell tumors\", which resemble lymphocytes (aka neural crest cell origin; primitive neuroectodermal tumors: PNET). These include Ewing sarcoma, small cell carcinoma of the lung, lymphoma, medulloblastoma, and neuroblastoma. They all share similar anaplastic (undifferentiated) features, including small uniform cell size, high nuclear/cytoplasmic ratio, and hyperchromatic nuclei. Cells may have cytoplasmic clearing due to glycogen, which is positive with PAS stain. Immunohistochemical stain is positive for CD99 and MIC2. Sometimes, only special stains or molecular studies allow identification of the cellular origin of these tumors.\n\nHeterotopic ossification (choice A), such as myositis ossificans, occurs as a result of trauma to skeletal muscle with excess extravasation of red blood cells. Metaplastic bone formation occurs. Well-formed, ossified mature lesions can be identified on radiographs as a soft tissue lesion without connection to adjacent bone. Microscopically, fibroblasts, bone trabeculae, osteoclasts, osteoblasts, and bone marrow are present. These features are not present in our patient.\n\nImbalance of osteoblasts and osteoclasts (choice C) is seen with Paget disease. This condition is commonly seen in Caucasians and presents in late adulthood (> 70 years). The pathogenic mechanism is unclear, however, there is a possible hypothesis associated with paramyxovirus infection. There are three phases of Paget disease: an initial osteolytic phase, mixed phase, and a burnt-out osteosclerotic phase. Microscopically, there is a mosaic pattern of the lamellar bone (jigsaw puzzle-like) with irregularly large osteoclasts. Paget disease can have polyostotic (85%) or monostotic (15%) involvement. The axial skeleton is involved in 80% of cases. Patients present with bone pain, fractures, bowing of the tibia and femur, compression of cranial nerve roots, and craniofacial skeleton abnormalities. High output heart failure can occur due to increased vascularization. There are elevated levels of alkaline phosphatase (due to increased bone formation) and urinary excretion of hydroxyproline and increased risk for osteosarcoma and fibrosarcoma.\n\nIschemic necrosis of bone (choice D) can occur in the medullary cavity of the diaphysis and metaphysis, or in the subchondral region of the epiphysis, so it would not present as a palpable mass. Predisposing conditions include trauma, infections, sickle cell disease, corticosteroid use, tumors, Gaucher disease, and radiation therapy. Microscopically, dead bone is recognized by hypocellularity, empty lacunae and necrotic adipose cells. These predisposing conditions and microscopic features are not seen in our patient.\n\nPyogenic infection (choice E) would be characterized by extensive neutrophilic infiltration with liquefactive necrosis of tissue. Bacteria can reach bone by hematogenous spread, extension from a contiguous site, as in cellulitis with osteomyelitis, or by direct implantation, as in trauma or surgery. Staphylococcus aureus is responsible for most cases (80%). Patients present with fever, chills, malaise, leukocytosis, and pain over the affected area, which are not present in our patient. Microscopically, there is neutrophilic infiltrate and bone necrosis. A lytic lesion with bone destruction and surrounding sclerosis can be seen on radiograph. Treatment is with antibiotics and surgical drainage.",
+    "choice_explanations": {
+      "A": "Heterotopic ossification (myositis ossificans) follows muscle trauma and forms mature bone without connection to adjacent bone; not a malignant small-blue-cell lesion. Incorrect.",
+      "B": "Correct. Ewing sarcoma is a highly malignant small blue cell tumor of bone in adolescents/young adults, with a t(11;22) EWS/FLI1 fusion and classic \"onion-skin\" periosteal reaction.",
+      "C": "Imbalance of osteoblasts and osteoclasts describes Paget disease, seen in older adults with a mosaic lamellar pattern, not a small-blue-cell malignancy. Incorrect.",
+      "D": "Ischemic necrosis (avascular necrosis) does not present as a palpable mass and shows empty lacunae/hypocellularity. Incorrect.",
+      "E": "Pyogenic osteomyelitis shows neutrophilic infiltrate and liquefactive necrosis with fever and leukocytosis, absent here. Incorrect."
+    },
+    "fa_page": 471,
+    "fa_pages": [
+      471
+    ],
+    "fa_summary": "Ewing sarcoma is a highly malignant \"small blue cell\" bone tumor of adolescents/young adults (diaphysis of long bones) with a t(11;22) EWS/FLI1 fusion, CD99/MIC2 positivity, and a laminated \"onion-skin\" periosteal reaction.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/msk-ewing-sarcoma-histology.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Photomicrograph of a bone/soft-tissue mass showing a highly cellular proliferation of small, uniform round blue cells with high nuclear-to-cytoplasmic ratio and hyperchromatic nuclei (\"small blue cell tumor\"), consistent with Ewing sarcoma."
+  },
+  {
+    "id": "wordpilot-new-msk-psoriatic-arthritis-hand-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Seronegative spondyloarthritis",
+    "subcategory": "Psoriatic arthritis",
+    "stem": "A 52-year-old man comes to the physician because of reddening and itching of his skin. He also has pain in his hands and knees. Physical examination shows a temperature of 36.9°C (98.5°F), pulse of 76/min, and blood pressure of 126/76 mm Hg. Skin examination shows erythematous plaques with silvery, scaly appearance on the extensor surfaces of his elbows and knees. A photograph of his right hand is shown.\n\nThe joint abnormalities in this patient are most similar to those in which of the following conditions?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Gout"
+      },
+      {
+        "letter": "B",
+        "text": "Osteoarthritis"
+      },
+      {
+        "letter": "C",
+        "text": "Pseudogout"
+      },
+      {
+        "letter": "D",
+        "text": "Rheumatoid arthritis"
+      },
+      {
+        "letter": "E",
+        "text": "Suppurative arthritis"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. This patient has psoriatic arthritis. Psoriatic arthritis is a member of the category of seronegative spondyloarthropathies (ankylosing spondylitis and Reiter syndrome are other conditions in this group), which are commonly associated with HLA-B27 haplotype. Psoriatic arthritis can be difficult to distinguish from rheumatoid arthritis (RA) because a symmetric polyarthritis can be observed with both disorders (symmetric psoriatic polyarthritis is less common than asymmetric oligoarthritis). Both disorders (RA and psoriatic arthritis) are due to an inflammatory process that leads to joint destruction. Psoriatic arthritis is similar to rheumatoid arthritis in that it is considered an inflammatory.\n\nThe diagnosis of psoriatic arthritis is made when patients have the typical psoriasis rash (erythematous, scaly-silvery rash) and are seronegative for rheumatoid factor (RF) and anti-cyclic citrullinated peptide (CCP) antibodies. The diagnosis of RA is made when patients do not have the psoriasis rash, but have subcutaneous nodules (rheumatoid nodules) typically on the extensors of the forearms, have deformities of the hands, such as swan neck, boutonniere deformity, and ulnar deviation, and serology tests positive for RF and anti-CCP. Psoriatic arthritis can affect the distal interphalangeal joints (DIPs) unlike rheumatoid arthritis, which affects the proximal interphalangeal joints (PIPs). It can cause swelling (dactylitis) of the digits (\"sausage\" digits). Other changes associated with psoriasis include nail changes (onycholysis, nail pitting, cracked free edges), spondylitis, and sacroiliitis. Unlike rheumatoid arthritis, psoriatic arthritis is negative for rheumatoid factor (RF) and anti-CCP antibody, is associated with the typical psoriasis rash, and is associated with the HLA-B27 haplotype.\n\nGout (choice A) and pseudogout (choice C) are crystal-related inflammatory arthropathies. Gout is caused by abnormal deposition of monosodium urate crystals and tends to affect the first metatarsal joint (podagra). Pseudogout is characterized by deposition of calcium pyrophosphate and tends to have unilateral knee involvement. On microscopic examination with polarization, urate crystals are negatively birefringent, while calcium crystals are weakly positive birefringent. Neither of these conditions are associated with psoriasis.\n\nDegenerative joint disease, or osteoarthritis (OA) (choice B), is primarily a disease of cartilage, which undergoes progressive destructive changes due to \"wear and tear\" repetitive motions of the affected joint, e.g., knee, fingers, shoulder, lower back. Clinically, there is increased pain with repetitive movement. It is marked by excessive cartilage loss and reactive bone formation. Rheumatoid arthritis and related disorders are instead due to an inflammatory process that begins with synovial membrane inflammation. On radiographs, OA is characterized by narrowing of the joint space due to cartilage loss and growth of osteophytes due to bone remodeling. There is absence of RF and normal levels of acute phase reactants. It usually affects the distal interphalangeal joints (DIPs), unlike rheumatoid arthritis.\n\nSuppurative arthritis (choice E) is caused by purulent bacteria that localize to joints, either by hematogenous dissemination or by spread from contiguous infectious foci. The most frequent organisms include S. aureus, S. pyogenes, H. influenzae, and gram-negative bacteria, such as Salmonella, E. coli and Pseudomonas. Suppurative arthritis is an acute disease, manifesting with septic fever and local inflammatory signs of the involved joint(s). Aspiration of the synovial joint with culture and Gram stain is diagnostic.",
+    "choice_explanations": {
+      "A": "Gout is a crystal arthropathy (monosodium urate) affecting the first MTP joint (podagra) and is not associated with psoriasis. Incorrect.",
+      "B": "Osteoarthritis is a non-inflammatory degenerative disease of cartilage, not an inflammatory seronegative spondyloarthropathy. Incorrect.",
+      "C": "Pseudogout is a calcium pyrophosphate crystal arthropathy (weakly positively birefringent), usually involving the knee. Incorrect.",
+      "D": "Correct. Psoriatic arthritis is an inflammatory seronegative spondyloarthropathy that resembles rheumatoid arthritis (symmetric polyarthritis, joint destruction) but is RF/anti-CCP negative, associated with HLA-B27 and psoriasis, and can involve the DIP joints.",
+      "E": "Suppurative (septic) arthritis is an acute purulent bacterial infection with fever and local inflammatory signs, not a chronic inflammatory arthritis. Incorrect."
+    },
+    "fa_page": 475,
+    "fa_pages": [
+      475
+    ],
+    "fa_summary": "Psoriatic arthritis is a seronegative spondyloarthropathy associated with HLA-B27, the psoriasis rash, and nail changes; it is RF/anti-CCP negative and, unlike rheumatoid arthritis, can involve the distal interphalangeal joints and cause dactylitis (\"sausage\" digits).",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/msk-psoriatic-hand.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Clinical photograph of the patient's right hand showing psoriatic joint changes (dactylitis/\"sausage\" digits with possible DIP involvement)."
+  },
+  {
+    "id": "wordpilot-new-cvs-acute-pericarditis-ecg-20261004",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Pericarditis",
+    "subcategory": "Pericarditis",
+    "stem": "A 57-year-old man comes to the emergency department because of a 12-hour history of sharp, stabbing pain in his chest and difficulty breathing. He has a history of myocardial infarction 3 years ago. At that time, he underwent angioplasty and had stents placed in two cardiac vessels. He has a history of hypertension and non-insulin dependent diabetes mellitus. In the examining room, the patient is unable to lie down because of discomfort. He sits and leans forward, which he says relieves his pain. The lungs are clear to auscultation. Cardiac examination reveals a three-component, scratchy heart sound with no murmurs or gallops. A chest x-ray shows no effusions or infiltrates. Laboratory studies including serum electrolytes and creatine kinase levels are pending. Which of the following is the most likely underlying condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acute pericarditis"
+      },
+      {
+        "letter": "B",
+        "text": "Dissecting aortic aneurysm"
+      },
+      {
+        "letter": "C",
+        "text": "Myocardial infarction"
+      },
+      {
+        "letter": "D",
+        "text": "Myocarditis"
+      },
+      {
+        "letter": "E",
+        "text": "Pulmonary embolism"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. Acute pericarditis generally presents with sharp, substernal chest pain that worsens with inspiration. Physical exam may be normal, but can also demonstrate a pericardial friction rub, a three-component, scratchy pericardial heart sound. The ECG above shows diffuse ST-elevations, a characteristic finding early in acute pericarditis. Acute pericarditis is generally preceded by viral upper respiratory illness, though patients often cannot recall any preceding illness.\n\nIt is important to understand some of the key points to differentiate the common causes of acute chest pain. The important components in the differential diagnosis include: aortic aneurysm, myocardial infarction, and pericarditis.\n\nThe characteristic pain for dissecting aortic aneurysm is not necessarily sharp pain, but rather radiation to the back (due to the posterior location of the aorta). Additionally, although the initial ECG for pericarditis may present with diffuse ST elevation and upright T waves, after a few days, the T waves can flatten and later even invert. The pericardial friction rub is best heard while leaning forward. Pericarditis can be differentiated from dissecting aortic aneurysm for many other reasons other than the pleuritic chest pain. First, the dissecting aneurysms can often present with differing blood pressures in either arm. Additionally, they may present with acute aortic regurgitation. It is also important to note that sharp pain does not rule out myocardial infarction. In fact, MI usually presents with pressure-like pain but there are definitely presentations where it is atypical.\n\nDissecting aortic aneurysm (choice B) can present with sharp, knifelike chest or back pain that radiates to the mid-back. The characteristic radiation of the chest pain is due to the posterior location of the aorta. Unless the dissection includes the coronary vessels, it would not be expected to show any abnormalities on ECG. However, a chest x-ray would likely show widening.\n\nAcute MI (choice C) generally presents as substernal chest pressure that occasionally radiates to the left arm, jaw, and/or neck. ECG would show ST-segment changes in the leads corresponding to the affected coronary vessel. Chest x-ray would be expected to be normal.\n\nMyocarditis (choice D) can also present with variable substernal chest pain, often in the context of a preceding viral illness. It would be unlikely to see ECG changes or an abnormal chest x-ray in these patients. CK-MB may be mildly elevated.\n\nPulmonary embolism (choice E) generally presents with the acute onset of pleuritic chest pain. Pulmonary embolism usually occurs in the context of predisposing factors for clot formation such as vascular stasis, hypercoagulability, and/or endothelial injury. The ECG is usually normal, though it may show nonspecific ST-segment changes. Chest x-ray would likely be normal.",
+    "choice_explanations": {
+      "A": "Correct. Sharp positional pleuritic pain relieved by sitting forward, a scratchy three-component friction rub, and diffuse ST elevations indicate acute pericarditis.",
+      "B": "Dissecting aortic aneurysm causes knifelike pain radiating to the back with differential arm blood pressures; ECG is usually normal. Incorrect.",
+      "C": "Myocardial infarction typically causes substernal pressure with localized ST changes and elevated troponin. Incorrect.",
+      "D": "Myocarditis causes variable chest pain, often after a viral illness, without a friction rub. Incorrect.",
+      "E": "Pulmonary embolism causes acute pleuritic pain with clot risk factors and a usually normal ECG. Incorrect."
+    },
+    "fa_page": 313,
+    "fa_pages": [
+      313
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/cvs-acute-pericarditis-ecg.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "A 12-lead electrocardiogram (ECG) tracing showing diffuse ST-segment elevations.",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-cardio-venous-return-msfp-ventricular-fibrillation-20261004",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Cardiac and vascular function curves",
+    "subcategory": "Cardiac and vascular function curves / mean systemic filling pressure",
+    "stem": "A 48-year-old woman is training for a triathlon. The graph shows the relationship between cardiac output and right atrial pressure. Point A shows her baseline cardiac output when right atrial pressure is 0 mm Hg. Point B shows the woman during strenuous exercise, which has increased contractility and increased venous smooth muscle tone. The patient has an acute coronary occlusion during the exercise, resulting in ventricular fibrillation.\n\nWhich of the following is her most likely right atrial pressure one minute after onset of ventricular fibrillation?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "-2 mm Hg"
+      },
+      {
+        "letter": "B",
+        "text": "0 mm Hg"
+      },
+      {
+        "letter": "C",
+        "text": "8 mm Hg"
+      },
+      {
+        "letter": "D",
+        "text": "12 mm Hg"
+      },
+      {
+        "letter": "E",
+        "text": "20 mm Hg"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. When cardiac output decreases, preload increases due to redistribution of blood to the veins. When the heart is stopped suddenly by ventricular fibrillation or any other means, the flow of blood in the circulation ceases within about 1 minute. Within the first several seconds, blood flows mainly from the high pressure arterial system into the venous system until the pressures everywhere in the circulation become equal. This equilibrated pressure is called the \"mean circulatory filling pressure (MCFP),\" which for all practical purposes is roughly equivalent to the mean systemic filling pressure (MSFP).\n\nThe MSFP is thus a measure of the volume of blood and the compliance of the vessels. Compliance is a measure of the relationship between volume and pressure. During intense exercise increased sympathetic activity causing venous smooth muscle constriction, so compliance decreases. This increases MSFP or MCFP, since the same volume of blood is contained within vessels that are harder to stretch. When MSFP is increased, central venous pressure is increased, which tends to increase venous return, right atrial pressure and cardiac output.\n\nThe MSFP is the point at which the venous return curves intersect the x-axis (at zero cardiac output). Thus, MSFP is normally about +7 mm Hg in this woman, and it increased to +20 mm Hg during the exercise, because of increased venous smooth muscle tone. Fibrillation of the heart should cause the RAP to reach the MSFP of +20 mm Hg shown on the figure within one minute of onset.\n\nIn the figure below, A = steady-state cardiac output (all individuals operate at the intersection of the ventricular function and venous return curves); B = mean systemic filling pressure (this is directly related to vascular volume and inversely related to venous compliance).\n\nDuring ventricular fibrillation, blood continues to flow from the arterial to the venous system until the pressure has equalized (MCFP or MSFP). In a state of ventricular fibrillation, the cardiac output is zero, so the right atrial pressure will approach the MCFP. During exercise sympathetic activity causes venous constriction, increasing the MCFP; after fibrillation, RAP will approach the MCFP of the exercise curve.",
+    "choice_explanations": {
+      "A": "Right atrial pressure does not become negative after fibrillation; blood redistributes to the venous system. Incorrect.",
+      "B": "0 mm Hg is the baseline RAP at point A, not the equilibrated pressure after cardiac arrest. Incorrect.",
+      "C": "8 mm Hg is approximated by the normal MSFP, but during exercise venous tone rises and raises the MSFP. Incorrect.",
+      "D": "12 mm Hg is not the equilibrated pressure; the exercise MSFP is higher. Incorrect.",
+      "E": "Correct. With cardiac output zero, right atrial pressure equilibrates with the mean systemic filling pressure; exercise-induced venoconstriction raised the MSFP to +20 mm Hg."
+    },
+    "fa_page": 290,
+    "fa_pages": [
+      290
+    ],
+    "fa_summary": "When cardiac output ceases (e.g., ventricular fibrillation), right atrial pressure equilibrates with the mean systemic filling pressure (MSFP/MCFP); venous smooth muscle constriction during exercise decreases venous compliance and raises the MSFP, so RAP approaches +20 mm Hg.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-cardio-venous-return-msfp-ventricular-fibrillation-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Graph of cardiac output (L/min) versus right atrial pressure (mm Hg) showing the cardiac function and vascular function (venous return) curves, with baseline point A and exercise point B."
+  },
+  {
+    "id": "wordpilot-new-gi-plummer-vinson-esophageal-web-20261004",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Other esophageal pathologies",
+    "subcategory": "Other esophageal pathologies",
+    "stem": "A 41-year-old woman with a past medical history significant for heavy menses comes to the physician because of difficulty swallowing solid food. She is able to drink without difficulty and often craves ice chips. Physical examination shows conjunctival pallor and a smooth, erythematous tongue. A complete blood count shows: Leukocyte count 10.8 x 10^3/mm3, Erythrocyte count 2.9 million/mm3, Hemoglobin 9.6 g/dL, Hematocrit 28.8%, Mean corpuscular volume 66 um3, Platelet count 250 x 10^3/mm3. An image from her upper endoscopy is shown. This patient is at increased risk for developing which of the following conditions?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Adenocarcinoma of the esophagus"
+      },
+      {
+        "letter": "B",
+        "text": "Barrett esophagus"
+      },
+      {
+        "letter": "C",
+        "text": "Candida esophagitis"
+      },
+      {
+        "letter": "D",
+        "text": "CMV esophagitis"
+      },
+      {
+        "letter": "E",
+        "text": "Squamous cell carcinoma of the esophagus"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. This patient has Plummer-Vinson syndrome, a consequence of chronic iron deficiency. Dietary iron may be low; heavy menses and chronic GI bleeds are also potential culprits. Celiac sprue predisposes patients to iron deficiency anemia even if dietary iron is normal. Patients with anemia often report easy fatigue, and some report ice cravings (pica). Conjunctival pallor is a common physical exam finding, and long-standing anemia can lead to spoon nails (koilonychia). In addition to iron deficiency anemia, patients with Plummer-Vinson syndrome also have atrophic glossitis and an esophageal web (image; arrow). The esophageal web leads to dysphagia for solids; solid food boluses have difficulty passing by the narrowed esophagus, whereas liquids pass more easily. Plummer-Vinson syndrome usually affects the proximal esophagus or the hypopharynx. Patients with this syndrome are at increased risk of developing squamous cell carcinoma of the esophagus. Recall that the proximal two-thirds of the esophagus is the most likely location for squamous cell carcinoma; in contrast, adenocarcinoma arises from glandular epithelium (e.g., Barrett esophagus).",
+    "choice_explanations": {
+      "A": "Adenocarcinoma of the esophagus arises from glandular epithelium (e.g., Barrett esophagus).",
+      "B": "Barrett esophagus predisposes to adenocarcinoma, not the squamous cell carcinoma risk of Plummer-Vinson syndrome.",
+      "C": "Candida esophagitis is an infectious cause of dysphagia.",
+      "D": "CMV esophagitis is an infectious cause of dysphagia.",
+      "E": "Plummer-Vinson syndrome (iron deficiency anemia, atrophic glossitis, esophageal web) predisposes to squamous cell carcinoma of the upper two-thirds of the esophagus."
+    },
+    "fa_page": 384,
+    "fa_pages": [
+      384
+    ],
+    "fa_summary": "Plummer-Vinson syndrome (iron deficiency anemia, atrophic glossitis, esophageal web) predisposes to squamous cell carcinoma of the esophagus.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-gi-plummer-vinson-esophageal-web-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Upper endoscopy image showing an esophageal web (mucosal membrane narrowing the esophageal lumen) in a patient with Plummer-Vinson syndrome."
+  },
+  {
+    "id": "wordpilot-new-behavioral-sleep-eeg-stage2-kcomplex-20261004",
+    "chapter": "Psychiatry",
+    "fa_subchapter": "Sleep",
+    "subcategory": "Sleep",
+    "stem": "A 72-year-old woman with a history of insomnia participates in a sleep study. As part of the study protocol, she has EEG leads attached and then goes to sleep. At first, her EEG pattern shows low amplitude and high frequency waves. Over time, wave forms are seen with the characteristic pattern shown. Which of the following stages of sleep is most likely associated with this pattern?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "REM"
+      },
+      {
+        "letter": "B",
+        "text": "Stage 1"
+      },
+      {
+        "letter": "C",
+        "text": "Stage 2"
+      },
+      {
+        "letter": "D",
+        "text": "Stage 3"
+      },
+      {
+        "letter": "E",
+        "text": "Stage 4"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. This image demonstrates a K-complex (the high-amplitude single spike followed by a trough seen about a quarter of the way from the left), as well as a sleep spindle (the very high-frequency burst about two-thirds of the way from the left). Stage 2 has more theta waves than stage 1 and is associated with sleep spindles (short bursts with an EEG frequency of 11- to 16-Hz (most commonly 12-14 Hz)) and K-complexes (high-amplitude slow waves with superposed sleep spindles).\n\nTransient large-amplitude potentials in the occipital areas (ponto-geniculo-occipital [PGO] spikes) are associated with REM sleep (choice A).\n\nStage 1 (choice B), or drowsiness, is characterized by the attenuation of alpha rhythm (8 to 13 Hz) and the appearance of 4- to 7-Hz theta waves.\n\nStages 3 (choice D) and 4 (choice E), or slow-wave sleep, are characterized by high-amplitude slow waves especially in the delta (<4 Hz) frequency range.",
+    "choice_explanations": {
+      "A": "REM sleep is associated with transient large-amplitude potentials in the occipital areas (ponto-geniculo-occipital [PGO] spikes). Incorrect.",
+      "B": "Stage 1 (drowsiness) shows attenuation of alpha rhythm (8-13 Hz) and the appearance of 4- to 7-Hz theta waves. Incorrect.",
+      "C": "Correct. The tracing shows a K-complex (high-amplitude spike followed by a trough) and a sleep spindle (11- to 16-Hz burst), the characteristic findings of stage 2 sleep.",
+      "D": "Stage 3 is slow-wave sleep, characterized by high-amplitude delta (<4 Hz) waves. Incorrect.",
+      "E": "Stage 4 is slow-wave sleep, characterized by high-amplitude delta (<4 Hz) waves. Incorrect."
+    },
+    "fa_page": 507,
+    "fa_pages": [
+      507
+    ],
+    "fa_summary": "Stage 2 sleep is characterized on EEG by sleep spindles (short bursts at 11- to 16-Hz, most commonly 12-14 Hz) and K-complexes (high-amplitude slow waves with superposed sleep spindles).",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-behavioral-sleep-eeg-stage2-kcomplex-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "EEG tracing (sleep study) showing a K-complex (high-amplitude single spike followed by a trough) and a sleep spindle (a very high-frequency burst).",
+    "explanation_figure_description": "Stages-of-sleep reference table (EEG electrical activity, muscle tone, eye movement) plus the sleep architecture diagram and EEG waveform tracings illustrating waking (beta), drowsy (alpha), stage 1 (theta), stage 2 (sleep spindles and K-complexes), delta slow-wave sleep, and REM (sawtooth waves).",
+    "explanation_figures_reviewed": true,
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-behavioral-sleep-eeg-stage2-kcomplex-20261004-e1.png",
+      "assets/question-figures/handoff-c/wordpilot-new-behavioral-sleep-eeg-stage2-kcomplex-20261004-e2.png",
+      "assets/question-figures/handoff-c/wordpilot-new-behavioral-sleep-eeg-stage2-kcomplex-20261004-e3.png"
+    ]
+  },
+  {
+    "id": "wordpilot-new-publichealth-biostat-stomach-cancer-primary-prevention-20261004",
+    "chapter": "Public Health Sciences",
+    "fa_subchapter": "Healthcare Delivery",
+    "subcategory": "Healthcare Delivery",
+    "stem": "The graph depicts the non-age-adjusted trends over time for a type of cancer found less commonly in the United States than other parts of the world. Which of the following factors best explains the changes in incidence and mortality as shown in this graph?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Changes in the age distribution of the population"
+      },
+      {
+        "letter": "B",
+        "text": "Improved access to hospital-based treatments and services"
+      },
+      {
+        "letter": "C",
+        "text": "Improved patient adherence with established treatment regimens"
+      },
+      {
+        "letter": "D",
+        "text": "Improvements in drug therapy"
+      },
+      {
+        "letter": "E",
+        "text": "Improvements in early diagnostic techniques"
+      },
+      {
+        "letter": "F",
+        "text": "Improvements in population-based primary prevention programs"
+      }
+    ],
+    "answer": "F",
+    "explanation": "The correct answer is F. In the presented graph, both incidence and mortality generally trend downward. Note that the move down in mortality lags the move down in incidence by 3 to 4 years, which is likely the average number of years before patient death occurs. The right answer is one that reduces the incidence of cancer and produces a decline in mortality over time as well. Primary prevention means stopping someone from ever getting the disease, in other words, preventing incidence. With incidence of cancer on the decline, mortality will follow.\nThe table below summarizes the different types of disease prevention. Primary: prevent disease occurrence (e.g., use of condoms to prevent HIV). Secondary: early detection (e.g., use of saliva swab or blood test). Tertiary: reduce disease effects (e.g., antiretroviral therapy to prevent HIV from progressing to AIDS). Quaternary: methods to mitigate or avoid consequences of unnecessary or excessive interventions in the healthcare system.\nChoice A suggests that changes in the age distribution will lead to a reduction in the number of new cases of the cancer. Although it is possible that this variable might impact cancer incidence, it is unlikely to have such a dramatic effect within the presented time frame. In addition, the age trends over this time period are for an increasingly older population, something that suggests a higher, not lower incidence of stomach cancer.\nAccess to hospital treatments and services (choice B) is a good thing in and of itself. Treatment reduces prevalence by shortening duration, but has no impact on incidence. In the same manner, improved treatment adherence (choice C) is most likely to impact prevalence, but not incidence. Remember, incidence is only impacted if there is a change in the number of persons in the population who contract the disease. In the same manner, improved drug therapy (choice D) is most likely to impact prevalence, but not incidence. Improved drug therapy could be a form of tertiary prevention. Early detection (choice E) makes for more effective treatment, but by definition does not reduce incidence. If we can detect it, then someone must have a case of the disease. Early detection is a form of secondary prevention.",
+    "choice_explanations": {
+      "A": "Changes in age distribution could affect incidence but not explain this dramatic decline; the population is aging.",
+      "B": "Treatment access affects prevalence, not incidence.",
+      "C": "Improved adherence affects prevalence, not incidence.",
+      "D": "Improved drug therapy affects prevalence, not incidence.",
+      "E": "Early detection (secondary prevention) does not reduce incidence.",
+      "F": "Primary prevention reduces incidence, which is followed by reduced mortality."
+    },
+    "fa_page": 276,
+    "fa_pages": [
+      276
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-publichealth-biostat-stomach-cancer-primary-prevention-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Line graph of stomach cancer incidence and mortality trends (1990 to 2002), both declining over time.",
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-publichealth-biostat-stomach-cancer-primary-prevention-20261004-e1.png"
+    ],
+    "explanation_figures_reviewed": true
   }
 ]

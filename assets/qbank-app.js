@@ -106,14 +106,14 @@ function appendQuestionImages(box,q) {
   if(q.question_figures_reviewed!==true)return;
   const srcs=q.question_images?.length?q.question_images:(q.question_image?[q.question_image]:[]);
   if(!srcs.length)return;
-  const d=document.createElement("details"),s=document.createElement("summary");s.textContent=`查看相关图表（${srcs.length}）`;d.append(s);
+  const d=document.createElement("details"),s=document.createElement("summary");d.open=true;s.textContent=`查看相关图表（${srcs.length}）`;d.append(s);
   srcs.forEach(src=>{const img=document.createElement("img");img.src=`./${src}`;img.alt=q.question_figure_description||"题目相关图表";img.loading="lazy";d.append(img)});box.append(d);
 }
 function appendExplanationImages(box,q) {
   if(q.explanation_figures_reviewed!==true)return;
   const srcs=q.explanation_images||[];
   if(!srcs.length)return;
-  const d=document.createElement("details"),s=document.createElement("summary");d.className="explanation-images";s.textContent=`查看原解析中的图表（${srcs.length} 页）`;d.append(s);
+  const d=document.createElement("details"),s=document.createElement("summary");d.className="explanation-images";d.open=true;s.textContent=`查看原解析中的图表（${srcs.length}）`;d.append(s);
   srcs.forEach(src=>{const img=document.createElement("img");img.src=`./${src}`;img.alt="题目原解析中的图表或表格";img.loading="lazy";d.append(img)});box.append(d);
 }
 function cleanExplanation(q) {
