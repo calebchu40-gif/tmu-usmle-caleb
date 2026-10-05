@@ -47056,7 +47056,11 @@
     ],
     "fa_page": 298,
     "fa_page_verified": true,
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-b/cvs-baroreceptor-reflex-explanation.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-cvs-post-mi-papillary-muscle-rupture-20261004",
@@ -49674,7 +49678,11 @@
     "fa_page": 617,
     "fa_page_verified": true,
     "fa_summary": "Cystinuria is an autosomal recessive proximal tubular reabsorption defect for cystine (and ornithine, lysine, arginine) that produces radiopaque staghorn calculi, yellow-brown hexagonal crystals, and a positive nitroprusside cyanide test; treat with hydration and alkalinization of urine.",
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-b/renal-cystine-staghorn-xray.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-renal-type2-diabetes-osmotic-diuresis-20261004",
@@ -52897,6 +52905,928 @@
     ],
     "question_figures_reviewed": true,
     "question_figure_description": "Southern blot/gel electrophoresis of PCR-amplified LDL receptor exon 9 digested with NlaIII, showing DNA fragments (444, 222, 126, and 96 bp) across lanes 1-5, together with the restriction map of the normal and mutant exon.",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-cvs-coarctation-aorta-pressure-tracings-20261004",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Coarctation of the aorta",
+    "subcategory": "Coarctation of the aorta",
+    "stem": "A 3-month-old girl is brought to the physician because of dyspnea, difficulty feeding, and poor weight gain. Physical examination shows a weak femoral pulse compared with the radial pulse. Pressure tracings from the thoracic and abdominal aorta are shown in the graph. Which of the following is most likely to be increased above normal values in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Abdominal aorta wall thickness"
+      },
+      {
+        "letter": "B",
+        "text": "Femoral artery wall thickness"
+      },
+      {
+        "letter": "C",
+        "text": "Left ventricular wall thickness"
+      },
+      {
+        "letter": "D",
+        "text": "Resting blood flow in leg muscles"
+      },
+      {
+        "letter": "E",
+        "text": "Renal blood flow"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. This infant has coarctation of the aorta. The discrepancy between upper and lower limb pulses and pressure measurements demonstrates aortic constriction distal to the origin of the left subclavian artery. In this condition, the heart must pump against a higher than normal pressure. The left ventricle responds to this increased pressure load by undergoing hypertrophy (i.e., the wall thickness of the left ventricle increases as the myocytes enlarge). A similar process occurs when there is systemic hypertension. The increased blood pressure in the upper body (above the coarctation) also produces arterial hypertrophy, increasing the thickness of the vessel wall, with decreased vessel wall thickness in arteries distal to the obstruction.\n\nCoarctation of the aorta is characterized by higher upper-extremity and lower lower-extremity systolic pressures, a midsystolic murmur, and increased left ventricular wall thickness.\n\nThe wall thickness of the abdominal aorta (choice A), femoral artery (choice B), and other arteries below the constriction may decrease in response to the lower than normal pressures. Dilation of the aorta immediately distal to the coarctation is also often present.\n\nLower than normal blood flow to the kidneys (choice E), leg muscles (choice D), and other organs below the coarctation is likely, unless the body can compensate adequately for the coarctation. With less severe coarctation, which may be asymptomatic until later in childhood, blood flow is normal in these low-pressure areas of the body.",
+    "choice_explanations": {
+      "A": "Abdominal aorta wall thickness would decrease (not increase) below the coarctation. Incorrect.",
+      "B": "Femoral artery wall thickness would decrease (not increase) below the coarctation. Incorrect.",
+      "C": "Correct. The left ventricle hypertrophies against the increased pressure load, increasing left ventricular wall thickness.",
+      "D": "Resting blood flow in the leg muscles is lower than normal below the coarctation, not increased. Incorrect.",
+      "E": "Renal blood flow is lower than normal below the coarctation, not increased. Incorrect."
+    },
+    "fa_page": 302,
+    "fa_pages": [
+      302
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/cvs-coarctation-pressure-tracings.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Line graph of aortic pressure tracings (pressure in mm Hg versus time) comparing the thoracic aorta with the abdominal aorta; the thoracic tracing shows higher pulsatile pressures while the abdominal tracing is lower.",
+    "explanation_figures_reviewed": false,
+    "explanation_figure_description": "A summary panel of the characteristic features of coarctation of the aorta in the explanation."
+  },
+  {
+    "id": "wordpilot-new-cvs-coronary-blood-flow-phases-20261004",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Pressure-volume loops and cardiac cycle",
+    "subcategory": "Pressure-volume loops and cardiac cycle",
+    "stem": "The diagram shows four phases of coronary blood flow in the left coronary artery during one complete cardiac cycle. During which of the following phase(s) shown in the diagram is the left ventricle contracting?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Phase 1"
+      },
+      {
+        "letter": "B",
+        "text": "Phase 2"
+      },
+      {
+        "letter": "C",
+        "text": "Phase 3"
+      },
+      {
+        "letter": "D",
+        "text": "Phase 4"
+      },
+      {
+        "letter": "E",
+        "text": "Phases 1 and 2"
+      },
+      {
+        "letter": "F",
+        "text": "Phases 2 and 3"
+      },
+      {
+        "letter": "G",
+        "text": "Phases 3 and 4"
+      },
+      {
+        "letter": "H",
+        "text": "Phases 4 and 1"
+      }
+    ],
+    "answer": "F",
+    "explanation": "The correct answer is F. The graph plots left coronary flow (in mL/min) during five sequential phases of the cardiac cycle as follows: 1 = Diastole; 2 = Isovolumic ventricular contraction; 3 = Ejection; 4 = Isovolumic ventricular relaxation; 1 = Diastole.\n\nVentricular contraction occurs during phases 2 and 3 (choice F).\n\nThe unusual flow pattern shown in the graph is unique to the left coronary arteries. Flow through the left coronary arteries falls sharply and may reverse direction during isovolumic ventricular contraction. This flow pattern is caused by extravascular compression and collapse of coronary supply vessels. Extravascular compression is caused by left ventricular contraction.\n\nFlow through the systemic circulation is driven by the pressure gradient between aorta and vena cavae. In practice, this means that flow through systemic capillary beds closely follows aortic pressure during the cardiac cycle. Flow rises during systole when the aortic valve is open and the ventricle is ejecting blood under pressure into the arterial tree, and falls off slowly during diastole when the aortic valve is closed.\n\nContinued flow during diastole is powered by energy stored in walls of the arteries when they are stretched by the volume of blood being forced into them during systole, with pressure slowly dissipating as blood escapes the arterial tree into the various systemic capillary beds (a phenomenon known as \"diastolic runoff\").\n\nLeft coronary flow is unusual because it drops sharply during systole and then rises to a maximum during diastole. This is because the left coronaries run between the muscle fibers that make up the left ventricle. When these muscle fibers contract, they compress and, in some regions of the myocardium, actually collapse the coronary supply vessels through \"extravascular compression.\" These vessels rely on pressure within the aorta to maintain their patency, but the flow falls and, because arteries do not have valves, may actually reverse as blood is squeezed out of vessels and backward toward the aorta (note the dip below zero on the y-axis during phase 2). Once the aortic valve opens and aortic pressure again climbs during ejection, some coronary flow may be restored, with flow mirroring the aortic pressure curve.\n\nDuring diastole, the myocardium relaxes and the extravascular compressive forces are removed. The left coronaries now regain full patency and flow surges to a peak (phase 4). Note that, while left coronary flow is interrupted temporarily during systole, flow during diastole is more than sufficient to meet the needs of the myocardium in a healthy individual under normal circumstances.\n\nThe right ventricle generates much lower pressures during systole than does the left (mean pulmonary arterial pressure ~ 10-20 mm Hg), so extravascular compression is not so much of a concern here. Flow through the right coronaries resembles that of most other systemic capillary beds.\n\nThe left ventricle is relaxing during phases 1 and 4, which excludes choices A, D, G, and H as correct answers. Choices B and C both include only one of two phases during which the ventricle is contracting, which excludes them as correct answers.",
+    "choice_explanations": {
+      "A": "Phase 1 = diastole (relaxation). Incorrect.",
+      "B": "Phase 2 = isovolumic ventricular contraction only; incomplete. Incorrect.",
+      "C": "Phase 3 = ejection only; incomplete. Incorrect.",
+      "D": "Phase 4 = diastole (relaxation). Incorrect.",
+      "E": "Phases 1 and 2 — includes diastole. Incorrect.",
+      "F": "Correct. The left ventricle contracts during phases 2 (isovolumic contraction) and 3 (ejection).",
+      "G": "Phases 3 and 4 — includes diastole. Incorrect.",
+      "H": "Phases 4 and 1 — both diastole. Incorrect."
+    },
+    "fa_page": 291,
+    "fa_pages": [
+      291
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/cvs-coronary-blood-flow-phases.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Line graph titled \"Blood Flow in Left Coronary Artery\" (blood flow in mL/min versus time) showing four labeled phases (1-4) of flow during one cardiac cycle, with a dip below zero during phase 2.",
+    "explanation_figures_reviewed": true,
+    "explanation_figure_description": "Wiggers diagram (aortic pressure, atrial pressure, ventricular pressure/volume, heart sounds, ECG) accompanying the explanation.",
+    "explanation_images": [
+      "assets/question-figures/handoff-b/cvs-wiggers-explanation.png"
+    ]
+  },
+  {
+    "id": "wordpilot-new-cvs-marfan-mitral-valve-prolapse-20261004",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Marfan syndrome",
+    "subcategory": "Marfan syndrome",
+    "stem": "The photograph shows cardiac valves obtained at autopsy of a 28-year-old man. The mitral valve in the photograph shows morphologic changes resulting from myxoid degeneration of valve leaflets. Biochemical studies confirm a defect in fibrillin. Patients with this condition are at increased risk for developing which of the following?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aortic dissection"
+      },
+      {
+        "letter": "B",
+        "text": "Atrial fibrillation"
+      },
+      {
+        "letter": "C",
+        "text": "Infarct and rupture of the ventricular wall"
+      },
+      {
+        "letter": "D",
+        "text": "Libman-Sacks endocarditis"
+      },
+      {
+        "letter": "E",
+        "text": "Right ventricular failure"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. The gross specimen demonstrates the pathognomonic changes of mitral valve prolapse, also known as floppy mitral valve. This condition is very frequent, but is asymptomatic in the majority of cases. The pathologic substrate consists of accumulation of myxoid, mucopolysaccharide material within the mitral valve leaflets. The leaflets acquire the typical hooded appearance as they prolapse into the atrium during systole. Stretching of the chordae tendineae is usually noted as well. This condition is encountered with particular frequency in subjects with Marfan syndrome, caused by autosomal dominant mutations of the gene encoding fibrillin. Long limbs and fingers (arachnodactyly), ectopia lentis (dislocation of the lens), and dissecting aneurysm of the aorta are additional features of Marfan syndrome.\n\nAtrial fibrillation (choice B) can rarely occur secondary to mitral valve regurgitation; this is, however, considerably less worrisome than the risk of aortic dissection.\n\nRupture of the ventricular wall (choice C) is a direct infrequent complication of myocardial infarcts.\n\nLibman-Sacks endocarditis (choice D) occurs with lupus and antiphospholipid syndrome, not Marfan syndrome.\n\nRight ventricular failure (choice E) can be secondary to acutely or chronically increased right ventricular afterload. Patients with Marfan syndrome are not at significantly increased risk.",
+    "choice_explanations": {
+      "A": "Correct. Marfan syndrome (fibrillin defect) predisposes to cystic medial necrosis of the aorta and aortic root dissection/rupture.",
+      "B": "Atrial fibrillation can rarely follow mitral regurgitation, but is far less worrisome than aortic dissection. Incorrect.",
+      "C": "Rupture of the ventricular wall is a complication of myocardial infarction, not Marfan syndrome. Incorrect.",
+      "D": "Libman-Sacks endocarditis occurs with lupus/antiphospholipid syndrome. Incorrect.",
+      "E": "Marfan patients are not at significantly increased risk of right ventricular failure. Incorrect."
+    },
+    "fa_page": 50,
+    "fa_pages": [
+      50
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/cvs-marfan-mitral-valve.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Gross photograph of cardiac valves obtained at autopsy (with a ruler for scale) showing myxoid degeneration of the mitral valve leaflets.",
+    "explanation_figures_reviewed": false,
+    "explanation_figure_description": "A panel of Marfan syndrome features (mitral valve prolapse, arachnodactyly, ectopia lentis, aortic dissection) in the explanation."
+  },
+  {
+    "id": "wordpilot-new-cvs-parallel-resistance-hemodynamics-20261004",
+    "chapter": "Cardiovascular",
+    "fa_subchapter": "Resistance, pressure, flow",
+    "subcategory": "Resistance, pressure, flow",
+    "stem": "A study is performed to evaluate the hemodynamics of organ flow. The vascular systems of five organs are related as shown in the diagram. The arterial inflow pressures and venous outflow pressures are the same for all organs. Which of the following will be the total resistance of the entire circuit if the resistance of each of the five organs is 0.25 mm Hg/mL/min?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.01 mm Hg/mL/min"
+      },
+      {
+        "letter": "B",
+        "text": "0.02 mm Hg/mL/min"
+      },
+      {
+        "letter": "C",
+        "text": "0.05 mm Hg/mL/min"
+      },
+      {
+        "letter": "D",
+        "text": "1.25 mm Hg/mL/min"
+      },
+      {
+        "letter": "E",
+        "text": "20.0 mm Hg/mL/min"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. The circulatory system is a parallel circuit since blood flow to all organs branches from the aorta and joins together in the vena cava. Because the five organs are arranged in parallel, the total resistance of the circuit (RT) is calculated as follows:\n\n1/RT = 1/R1 + 1/R2 + 1/R3 + 1/R4 + 1/R5. Each organ resistance is 0.25 mm Hg/(mL/min), so each organ's resistance term is 1/(0.25) = 4 (mL/min)/mm Hg. So 1/RT = 4 + 4 + 4 + 4 + 4, or 1/RT = 20 (mL/min)/mm Hg. Solving for RT inverts the units, so RT = 1/20 mm Hg/(mL/min) = 0.05 mm Hg/(mL/min).\n\nResistances in parallel: the reciprocal of the total resistance is the sum of the reciprocals of the individual resistances; the total resistance is always less than any of the individual resistances; adding a resistance (arteriovenous anastomosis) lowers the total resistance and decreases arterial blood pressure.\n\nThe various organs of the body are arranged in parallel and therefore contribute a parallel resistance to the peripheral circulation. You should recall that adding resistances (R1, R2, R3...) in parallel reduces the total resistance (RT) of a circuit because of the manner in which parallel resistances are added, i.e., 1/RT = 1/R1 + 1/R2 + 1/R3. Note also from the equation that removing a parallel resistance (R1, R2, or R3) increases the total resistance (RT). Clinically, an arteriovenous anastomosis adds another parallel resistor, so total peripheral resistance (TPR) and mean arterial pressure (MAP) drop. Decreasing the number of resistances (occlusion of blood supply to an organ) increases TPR and MAP.",
+    "choice_explanations": {
+      "A": "0.01 mm Hg/mL/min is too low (would require ~25 parallel units). Incorrect.",
+      "B": "0.02 mm Hg/mL/min is too low. Incorrect.",
+      "C": "Correct. 1/RT = 5 × (1/0.25) = 20, so RT = 1/20 = 0.05 mm Hg/mL/min.",
+      "D": "1.25 mm Hg/mL/min is the value for series addition (5 × 0.25), not parallel. Incorrect.",
+      "E": "20.0 mm Hg/mL/min is the sum of the reciprocals, not the total resistance. Incorrect."
+    },
+    "fa_page": 290,
+    "fa_pages": [
+      290
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/cvs-parallel-resistance-diagram.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Schematic circuit diagram showing five organ vascular beds connected in parallel between a common arterial inflow and a common venous outflow.",
+    "explanation_figures_reviewed": false,
+    "explanation_figure_description": "Diagrams contrasting resistances in parallel with resistances in series in the explanation."
+  },
+  {
+    "id": "wordpilot-new-renal-creatinine-fractional-delivery-graph-20261004",
+    "chapter": "Renal",
+    "fa_subchapter": "Nephron physiology, clearance",
+    "subcategory": "Nephron physiology, clearance",
+    "stem": "The graph shows the change in fraction of filtered solute remaining along the length of the proximal tubule calculated as the tubular load divided by the filtered load; this is also called fractional delivery. A ratio of 1.0 indicates that the filtered load and the tubular load in a nephron segment are equal. Which of the lines on the graph best represents the fractional delivery of creatinine along the proximal tubule?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Line A"
+      },
+      {
+        "letter": "B",
+        "text": "Line B"
+      },
+      {
+        "letter": "C",
+        "text": "Line C"
+      },
+      {
+        "letter": "D",
+        "text": "Line D"
+      },
+      {
+        "letter": "E",
+        "text": "Line E"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. Creatinine is synthesized by muscle at a relatively steady rate, is freely filtered, and is not reabsorbed by the proximal tubule. About 10-15% of the unfiltered creatinine is secreted from the peritubular capillaries into the proximal tubule, increasing its fractional delivery to 1.1-1.15 by the end of the proximal tubule. Creatinine clearance is used as a measure of glomerular filtration rate (GFR); it overestimates that rate a bit because of the net secretion, but since the assay for plasma creatinine concentration overestimates the true value by about the same amount, the error is not large. Since the axis is in units related to the filtered load (1.0 = filtered load), curve B represents secretion of about 10-15% additional solute into the tubular fluid.\n\nCurve A represents secretion of about 50% of the filtered load, so that its excretion is about 1.5 times the filtered load. Creatinine is only slightly secreted. Creatinine is used to estimate GFR because its excretion is only slightly greater than the filtered load; it is used in place of inulin, for which the ratio is 1.0. If creatinine were secreted as much as is indicated by curve A, it would be grossly inaccurate in estimating GFR.\n\nThe remaining answers are incorrect because they represent too much secretion (choice A), no net transport (choice C), or net reabsorption (choices D and E).\n\nChoice A represents a substance that is more actively secreted than creatinine; the tubular load has increased by about 50% by the end of the proximal tubule, rather than the typical 10% for creatinine: para-aminohippuric acid under some conditions would resemble curve A.\n\nChoice C shows no significant net transport, typical of inulin.\n\nChoice D resembles urea, which is about 60% reabsorbed in normal conditions. The fractional excretion of urea is, however, quite variable because hydration status alters reabsorption.\n\nChoice E represents a substance that is completely reabsorbed, similar to glucose.",
+    "choice_explanations": {
+      "A": "Curve A represents a substance secreted much more actively than creatinine (about 50% of the filtered load added, excretion ~1.5x filtered load), such as para-aminohippuric acid; this would make creatinine useless for estimating GFR. Incorrect.",
+      "B": "Correct. Creatinine is freely filtered, not reabsorbed, and about 10-15% of the unfiltered load is secreted in the proximal tubule, raising fractional delivery to about 1.1-1.15 (curve B).",
+      "C": "Curve C shows no significant net transport (fractional delivery stays ~1.0), which is typical of inulin, not creatinine. Incorrect.",
+      "D": "Curve D represents net reabsorption of about 60%, similar to urea. Creatinine is not reabsorbed. Incorrect.",
+      "E": "Curve E represents complete reabsorption, similar to glucose. Creatinine is not reabsorbed. Incorrect."
+    },
+    "fa_page": 600,
+    "fa_pages": [
+      600
+    ],
+    "fa_summary": "Creatinine is freely filtered, not reabsorbed, and roughly 10-15% of the unfiltered load is secreted in the proximal tubule, so its fractional delivery rises to about 1.1-1.15; creatinine clearance slightly overestimates GFR.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/renal-creatinine-fractional-delivery.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Line graph plotting fractional delivery (tubular load / filtered load; y-axis, with 1.0 = filtered load) along the length of the proximal tubule from Bowman's space to the end of the proximal tubule (x-axis), with five labeled curves (Line A through Line E).",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-renal-glucose-transport-threshold-20261004",
+    "chapter": "Renal",
+    "fa_subchapter": "Proximal tubule transport",
+    "subcategory": "Proximal tubule transport",
+    "stem": "An investigational study of renal glucose transport is conducted in three groups of type II diabetic patients receiving different therapies. Urinary glucose concentration is measured against varying plasma glucose concentration. Which of the following best explains why groups X and Y have the same glucose excretion between 0 and 200 mg/dL?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "All filtered glucose is reabsorbed"
+      },
+      {
+        "letter": "B",
+        "text": "Glucose carriers are saturated"
+      },
+      {
+        "letter": "C",
+        "text": "Glucose reabsorption and excretion are equal"
+      },
+      {
+        "letter": "D",
+        "text": "Glucose threshold has been exceeded"
+      },
+      {
+        "letter": "E",
+        "text": "Na+-glucose carriers are inhibited"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. For groups X and Y at concentrations between zero and 200 mg/dL, all glucose is reabsorbed and none is excreted. Glucose reabsorption occurs by a Na+-glucose cotransporter, so once the transporters are saturated, no further glucose can be reabsorbed. All excess glucose is excreted. Note that some aspect of renal function is different in groups X and Y, because once the threshold is reached, these groups have different urine glucose concentrations; this could occur if the rate of glucose transport was different. Once the transport maximum is exceeded, excretion of glucose rises.\n\nGlucose carriers are saturated (choice B) in groups X and Y when glucose levels exceed 200 mg/dL. In group Z, transporters were saturated at a lower level of plasma glucose. This question was concerned with levels less than 200 mg/dL in groups X and Y, before glucose carriers were saturated in groups X and Y.\n\nGlucose reabsorption and excretion are equal (choice C) cannot be determined because the GFR is not stated. You need GFR to calculate filtered load, and in any case, the question refers to the portion of the graph in which excretion is zero; this implies that filtered load is zero in this range, which is clearly not true.\n\nOnce the glucose threshold has been exceeded (choice D) then all excess glucose will be excreted. Below 200 mg/dL, there was no excretion of glucose, so that was below threshold.\n\nIf Na+-glucose carriers are inhibited (choice E) then less glucose would be reabsorbed and more would be excreted. This is the explanation for Group Z, which has a lowered glucose threshold. In groups X and Y, all glucose under 200 mg/dL is reabsorbed and all greater than 200 mg/dL is excreted.",
+    "choice_explanations": {
+      "A": "Correct. Below the transport maximum (here <200 mg/dL for groups X and Y), the saturable Na+-glucose cotransporter reabsorbs all filtered glucose, so urinary glucose excretion is zero.",
+      "B": "Carriers become saturated in groups X and Y only once glucose exceeds 200 mg/dL; below that level they are not yet saturated. Incorrect.",
+      "C": "This cannot be assessed without GFR, and in the plotted range glucose excretion is zero (not equal to reabsorption). Incorrect.",
+      "D": "Exceeding the threshold produces glucosuria; below 200 mg/dL there is no excretion, so the threshold was not exceeded. Incorrect.",
+      "E": "Inhibiting Na+-glucose carriers (as in group Z) lowers the threshold and increases excretion; it does not explain the flat (zero-excretion) portion in groups X and Y. Incorrect."
+    },
+    "fa_page": 602,
+    "fa_pages": [
+      602
+    ],
+    "fa_summary": "Renal glucose reabsorption is accomplished by a saturable Na+-glucose cotransporter; for serum glucose below about 200 mg/dL all filtered glucose is reabsorbed (no glucosuria), and above this threshold the excess is spilled into the urine.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/renal-glucose-transport-threshold.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Line graph of urinary glucose concentration (y-axis) versus plasma glucose concentration from 0 to 500 mg/dL (x-axis), showing three curves for groups X, Y, and Z; groups X and Y are flat (zero) until about 200 mg/dL, then rise, whereas group Z begins excreting glucose at a lower plasma concentration.",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-renal-drug-x-efferent-arteriole-20261004",
+    "chapter": "Renal",
+    "fa_subchapter": "Glomerular filtration rate and renal blood flow",
+    "subcategory": "Glomerular filtration rate and renal blood flow",
+    "stem": "A new experimental Drug X is observed to alter glomerular filtration rate and filtration fraction. An experiment is performed to evaluate the hemodynamic effects of the drug. The diagram shown is a plot of the difference in hydrostatic pressure between the glomerular capillaries and Bowman's space, and the oncotic pressure of the glomerular capillaries from the afferent arteriole to the efferent arteriole. Administration of drug X causes the changes shown by the dashed lines. Which of the following best describes the effect of drug X on the renal vasculature?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Constricts the afferent arteriole only"
+      },
+      {
+        "letter": "B",
+        "text": "Constricts the efferent arteriole only"
+      },
+      {
+        "letter": "C",
+        "text": "Dilates the afferent arteriole only"
+      },
+      {
+        "letter": "D",
+        "text": "Dilates the efferent arteriole and afferent arteriole"
+      },
+      {
+        "letter": "E",
+        "text": "Dilates the efferent arteriole and constricts the afferent arteriole"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. The key to this question is to observe what happened to glomerular hydrostatic pressure and glomerular plasma oncotic pressure (pi-GC) due to administration of the drug. Since the drug increased delta-P, it must have either constricted the efferent arteriole or dilated the afferent arteriole, or both. However, since the rate of rise and peak level of pi-GC increased, there must have been an increase of filtration fraction (FF), which is the ratio of glomerular filtration rate (GFR) and renal plasma flow (RPF), GFR/RPF. That is caused by increased GFR, decreased RPF, or both. The pi-GC will continue to rise until it meets the new delta-P; this represents increased filtration fraction. Therefore, the drug must have increased renal vascular resistance (RVR) by constricting either the afferent or efferent arteriole. The only answer choice that could increase delta-P and decrease RPF is efferent arteriole constriction. Low to moderate levels of angiotensin II act primarily on efferent arterioles and cause efferent arteriole constriction. Efferent arteriole constriction can both increase delta-P and decrease RPF.\n\nConstricts the afferent arteriole only (choice A) and dilates the efferent arteriole and constricts the afferent arteriole (choice E) would decrease glomerular pressure.\n\nAfferent dilation (choice C) increases GFR, but since the renal plasma flow also increased because of decreased renal vascular resistance, the FF does not significantly change. Therefore, pi-GC would not increase.\n\nDilates the efferent arteriole and afferent arteriole (choice D) would increase GFR because of afferent dilation, but this would be partially offset by the effect of efferent dilation. Since both arterioles are dilated, RPF would increase proportionally more than GFR, so FF would tend to decrease. Therefore, the drug would not have caused increased FF, and pi-GC would not have increased.",
+    "choice_explanations": {
+      "A": "Afferent constriction would decrease glomerular hydrostatic pressure (delta-P), which is not what the graph shows. Incorrect.",
+      "B": "Correct. Efferent arteriole constriction raises delta-P and decreases renal plasma flow, increasing the filtration fraction and raising pi-GC (the rising line seen on the graph).",
+      "C": "Afferent dilation increases GFR but also increases renal plasma flow proportionally (RVR falls), so the filtration fraction and pi-GC do not appreciably change. Incorrect.",
+      "D": "Dilating both arterioles raises RPF more than GFR, tending to decrease the filtration fraction, so pi-GC would not rise. Incorrect.",
+      "E": "Dilating the efferent and constricting the afferent arteriole would decrease glomerular pressure. Incorrect."
+    },
+    "fa_page": 601,
+    "fa_pages": [
+      601
+    ],
+    "fa_summary": "Efferent arteriolar constriction (e.g., by low-to-moderate angiotensin II) raises glomerular hydrostatic pressure and lowers renal plasma flow, increasing the filtration fraction; the rising glomerular oncotic pressure reflects the filtration fraction.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/renal-efferent-arteriole-graph.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Graph of the glomerular capillaries from the afferent end to the efferent end (x-axis): the net hydrostatic pressure delta-P (green lines) = capillary pressure minus pressure in Bowman's space, and the glomerular capillary plasma protein oncotic pressure pi-GC (red lines). Solid lines are control and dashed lines are after administration of drug X.",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-neuro-oligodendrocytes-fasciculus-cuneatus-demyelination-20261004",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Glial cells / myelin",
+    "subcategory": "Neuroanatomy / neuroglia",
+    "stem": "A 58-year-old man comes to the physician after experiencing numbness and tingling in all four of his limbs. He says that his symptoms have progressed to the point where he is having difficulty driving, walking, and using his hands. Bladder function is intact. MRI examination of the cervical spine shows demyelination in the area labeled by the arrow in the figure. Which of the following cells is responsible for normal neuronal myelination in the indicated region?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Astrocytes"
+      },
+      {
+        "letter": "B",
+        "text": "Dorsal root ganglion cells"
+      },
+      {
+        "letter": "C",
+        "text": "Microglia"
+      },
+      {
+        "letter": "D",
+        "text": "Oligodendrocytes"
+      },
+      {
+        "letter": "E",
+        "text": "Schwann cells"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. The arrow is pointing to the fasciculus cuneatus, which is part of the white matter of the spinal cord. Therefore, it is within the central nervous system (CNS). Myelin in the central nervous system is formed by oligodendrocytes. Each oligodendrocyte myelinates several axons. Diseases and conditions that cause central demyelination include subacute combined degeneration (as in this patient), multiple sclerosis, leukodystrophies, and trauma. Because oligodendrocytes provide insulation to the neuronal axon, disruption of myelin slows action potential conduction, thus affecting neuronal conduction.\n\nThe image below shows major spinal cord components and clinical anatomy in a myelin-stained section of the upper thoracic cord: A, fasciculus gracilis (touch, proprioception, vibration - legs); B, fasciculus cuneatus (touch, proprioception, vibration - arms); C, corticospinal tract (upper motor neurons); D, anterolateral system (spinothalamic tract; pain/temperature); E, dorsal horn (sensory); F, lateral horn (preganglionic sympathetic neurons); G, ventral horn (lower motor neurons).\n\nAstrocytes (choice A) are stellate-appearing cells possessing branching processes that associate with pia mater, neurons, and endothelial cells within the CNS. While they may provide a secondary component of the blood-brain barrier (tight junctions account for the primary barrier), one of their main functions is to modulate the molecular composition of extracellular fluid in the CNS. They do not produce myelin.\n\nDorsal root ganglion cells (choice B) are pseudounipolar neurons that provide sensory input to the spinal cord. Their axons may be myelinated, but they do not form the myelin.\n\nUnlike the rest of the CNS neurons and glia that are derived from neuroectoderm, microglia (choice C) are derived from bone marrow monocytes and enter the CNS after birth. Microglia provide a link between cells of the CNS and the immune system. They proliferate and migrate to the site of a CNS injury and phagocytose neuronal debris. Pericytes are not microglia. Microglia do not produce myelin.\n\nSchwann cells (choice E) form myelin in the peripheral nervous system. A Schwann cell forms myelin around a single axon.",
+    "choice_explanations": {
+      "A": "Astrocytes support and modulate the CNS extracellular environment and contribute to the blood-brain barrier but do not produce myelin. Incorrect.",
+      "B": "Dorsal root ganglion cells are pseudounipolar sensory neurons; their axons may be myelinated but they do not form myelin. Incorrect.",
+      "C": "Microglia are monocyte-derived CNS macrophages; they do not produce myelin. Incorrect.",
+      "D": "Correct. The arrow points to the fasciculus cuneatus (CNS white matter), where myelin is formed by oligodendrocytes, each myelinating multiple axons.",
+      "E": "Schwann cells myelinate peripheral nerves (one internode per axon) and do not myelinate the CNS. Incorrect."
+    },
+    "fa_page": 503,
+    "fa_pages": [
+      503
+    ],
+    "fa_summary": "Oligodendrocytes (CNS) myelinate multiple axons each, whereas Schwann cells (PNS) myelinate a single axon; the fasciculus cuneatus is CNS white matter and is therefore myelinated by oligodendrocytes.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-oligodendrocytes-fasciculus-cuneatus-demyelination-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "MRI of the cervical spine with an arrow indicating demyelination of the dorsal column (fasciculus cuneatus) region.",
+    "explanation_figures_reviewed": true,
+    "explanation_figure_description": "Explanation contains a labeled anatomy diagram of a myelin-stained spinal cord cross-section (labeled regions A-G) with associated sensory/motor deficits, plus a pupillary light-reflex schematic.",
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-oligodendrocytes-fasciculus-cuneatus-demyelination-20261004-e1.png"
+    ]
+  },
+  {
+    "id": "wordpilot-new-neuro-tmj-trigeminal-motor-nucleus-mid-pons-20261004",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Cranial nerves",
+    "subcategory": "Trigeminal nerve (CN V) / muscles of mastication",
+    "stem": "A 58-year-old man comes to the physician because of recurrent headaches and ear pain. The pain worsens with chewing and yawning. Occasionally, the patient also notices a \"clicking sensation\" near his ear while chewing. On physical examination, firm palpation below the ear reproduces the pain. The structures indicated by the arrows on this CT scan are tender to palpation. Which of the following is the most likely location of the cranial nerve nuclei that provide motor innervation to the indicated structures?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lower pons"
+      },
+      {
+        "letter": "B",
+        "text": "Medulla"
+      },
+      {
+        "letter": "C",
+        "text": "Midbrain"
+      },
+      {
+        "letter": "D",
+        "text": "Mid-pons"
+      },
+      {
+        "letter": "E",
+        "text": "Spinal cord"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. This patient has temporomandibular joint syndrome (TMJ). Common symptoms include chronic pain in the muscles of mastication, pain that can radiate to the ear and is worse when chewing, ear clicking or popping, headache, and locking of the jaw when attempting to open the mouth.\n\nThe muscle indicated on the CT scan is the temporalis muscle, one of the muscles of mastication (the others are the masseter, the lateral pterygoid, and the medial pterygoid muscles). It is innervated by cranial nerve V, the trigeminal nerve. The trigeminal nerve has three major branches: ophthalmic, maxillary, and mandibular. The ophthalmic and maxillary nerves are purely sensory. The mandibular nerve has both sensory and motor functions. The motor nucleus of cranial nerve V is located in the mid-pons. This nucleus, in addition to innervating muscles of mastication, also supplies the tensor tympani, the tensor palati, the mylohyoid, and the anterior belly of the digastric.\n\nThe lower pons (choice A) contains the facial nucleus, which gives rise to the motor fibers of the facial nerve and innervates muscles of facial expression and the stapedius, stylohyoid, and posterior belly of the digastric muscles.\n\nThe medulla (choice B) contains the nuclei with cell bodies of motor neurons contained in cranial nerves IX (innervates the stylopharyngeus muscle), X (innervates muscles of the larynx and pharynx), XI (supplements the vagus nerve), and XII.\n\nThe midbrain (choice C) contains the oculomotor nucleus, which innervates the medial rectus, superior rectus, inferior rectus, and inferior oblique extraocular muscles as well as the levator palpebrae superioris muscle (elevates the upper eyelid), and the trochlear nucleus, which innervates the superior oblique.\n\nThe spinal division of CN XI arises from C1 through C6 of the spinal cord (choice E) and innervates the sternocleidomastoid and trapezius muscles.",
+    "choice_explanations": {
+      "A": "The lower pons contains the facial nucleus (CN VII), which innervates the muscles of facial expression, not the muscles of mastication. Incorrect.",
+      "B": "The medulla contains motor nuclei of CN IX, X, XI, and XII, not the trigeminal motor nucleus. Incorrect.",
+      "C": "The midbrain contains the oculomotor and trochlear nuclei, not the trigeminal motor nucleus. Incorrect.",
+      "D": "Correct. The motor nucleus of the trigeminal nerve (CN V) lies in the mid-pons and innervates the muscles of mastication, including the temporalis.",
+      "E": "The spinal cord contains the spinal division of CN XI, which innervates the sternocleidomastoid and trapezius. Incorrect."
+    },
+    "fa_page": 519,
+    "fa_pages": [
+      519
+    ],
+    "fa_summary": "The motor nucleus of the trigeminal nerve (CN V) is located in the mid-pons and supplies the muscles of mastication (masseter, temporalis, medial and lateral pterygoids) as well as the tensor tympani, tensor palati, mylohyoid, and anterior belly of the digastric.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-tmj-trigeminal-motor-nucleus-mid-pons-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Head CT with arrows indicating the temporalis muscle (a muscle of mastication), which is tender to palpation in this patient with temporomandibular joint syndrome.",
+    "explanation_figures_reviewed": true,
+    "explanation_figure_description": "Explanation contains a labeled anatomy diagram of the brainstem in sagittal/coronal view (midbrain, pons, medulla, cerebral peduncles, cerebellum over the medulla, dorsal columns) illustrating the location of cranial nerve nuclei.",
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-tmj-trigeminal-motor-nucleus-mid-pons-20261004-e1.png"
+    ]
+  },
+  {
+    "id": "wordpilot-new-neuro-parkinson-disease-lewy-bodies-substantia-nigra-20261004",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Movement disorders",
+    "subcategory": "Parkinson disease",
+    "stem": "A 65-year-old man becomes forgetful and depressed. His movements are slow, and he develops a tremor. His condition progresses over the next 6 months, then he falls down the stairs, fractures his neck, and dies. An MRI of the man's brain prior to death is shown. Which of the following is most likely to be found on microscopic examination of tissue from the area indicated by the arrow?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Granulovacuolar degeneration"
+      },
+      {
+        "letter": "B",
+        "text": "Hirano bodies"
+      },
+      {
+        "letter": "C",
+        "text": "Lewy bodies"
+      },
+      {
+        "letter": "D",
+        "text": "Microglial nodules"
+      },
+      {
+        "letter": "E",
+        "text": "Negri bodies"
+      },
+      {
+        "letter": "F",
+        "text": "Neurofibrillary tangles"
+      },
+      {
+        "letter": "G",
+        "text": "Pick bodies"
+      },
+      {
+        "letter": "H",
+        "text": "Spongiform change"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. This patient has Parkinson disease. The labeled area of the image is the substantia nigra (the MRI figure is reversed compared with standard display). Clinical features of Parkinson disease include tremor-at-rest (pill-rolling), bradykinesia, cogwheel rigidity, shuffling gait, stooped posture, masked facies, depression, and dementia. Histologic features include loss of pigmented dopaminergic neurons from the substantia nigra and Lewy bodies (intracytoplasmic eosinophilic inclusions). In addition to the classic motor findings (tremor, rigidity, akinesia), both mood and cognitive disturbances are commonly associated with this disorder. The histopathologic hallmarks of Parkinson disease are Lewy bodies: round, eosinophilic, intracytoplasmic inclusions seen in dopaminergic nigrostriatal neurons.\n\nGranulovacuolar degeneration (choice A) and Hirano bodies (choice B) are intracytoplasmic inclusions that are classically found in hippocampal pyramidal neurons of Alzheimer disease patients but can also be found in intellectually intact elderly persons.\n\nMicroglial nodules (choice D) are not a feature of Parkinson disease; they are seen with CNS infections such as viral encephalitis, which can include mental status change, fever, and headache, often progressing to coma.\n\nNegri bodies (choice E), which develop in the brains of patients with rabies, are filled with viral particles and are frequently seen in Purkinje neurons (cerebellar cortex) and hippocampal pyramidal neurons.\n\nNeurofibrillary tangles (choice F) are intracytoplasmic filamentous inclusions found in Alzheimer disease and, to a lesser extent, in other conditions; they begin in the entorhinal cortex and accumulate in many other cortical regions as the disease progresses.\n\nPick bodies (choice G) are characteristic of Pick disease, a form of frontotemporal dementia that typically presents with personality changes preceding dementia. Pick bodies are present in cortical neurons and appear as round intracytoplasmic inclusions that stain dark with silver impregnation.\n\nSpongiform change (choice H) refers to vacuolation of the neuropil in gray matter (especially cortex) due to the formation of large membrane-bound vacuoles within neuronal processes; it is seen in prion diseases such as Creutzfeldt-Jakob disease.",
+    "choice_explanations": {
+      "A": "Granulovacuolar degeneration is an intracytoplasmic inclusion classically seen in hippocampal pyramidal neurons in Alzheimer disease, not in the substantia nigra of Parkinson disease. Incorrect.",
+      "B": "Hirano bodies are eosinophilic inclusions found in hippocampal neurons in Alzheimer disease. Incorrect.",
+      "C": "Correct. Parkinson disease is characterized by loss of pigmented dopaminergic neurons in the substantia nigra with round, eosinophilic intracytoplasmic Lewy bodies.",
+      "D": "Microglial nodules occur with CNS infection (e.g., viral encephalitis), not Parkinson disease. Incorrect.",
+      "E": "Negri bodies occur in rabies and are seen in Purkinje and hippocampal neurons. Incorrect.",
+      "F": "Neurofibrillary tangles are characteristic of Alzheimer disease. Incorrect.",
+      "G": "Pick bodies are seen in Pick disease (frontotemporal dementia). Incorrect.",
+      "H": "Spongiform change (gray-matter vacuolation) occurs in prion diseases such as Creutzfeldt-Jakob disease. Incorrect."
+    },
+    "fa_page": 533,
+    "fa_pages": [
+      533
+    ],
+    "fa_summary": "Parkinson disease is caused by loss of pigmented dopaminergic neurons in the substantia nigra with eosinophilic intracytoplasmic Lewy bodies; it presents with resting tremor, bradykinesia, rigidity, and postural instability.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-parkinson-disease-lewy-bodies-substantia-nigra-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Axial brain MRI with an arrow indicating the substantia nigra in the midbrain (the image is left-right reversed relative to standard display).",
+    "explanation_figures_reviewed": true,
+    "explanation_figure_description": "Explanation contains a labeled anatomy diagram of a midbrain cross-section (periaqueductal gray, superior colliculus, cerebral aqueduct, MLF, medial geniculate body, medial lemniscus, red nucleus, substantia nigra, cerebral peduncle, corticospinal and corticobulbar tracts).",
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-parkinson-disease-lewy-bodies-substantia-nigra-20261004-e1.png"
+    ]
+  },
+  {
+    "id": "wordpilot-new-neuro-glioblastoma-multiforme-pseudopalisading-necrosis-20261004",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Adult primary brain tumors",
+    "subcategory": "Glioblastoma multiforme",
+    "stem": "A 57-year-old man is brought to the emergency department after experiencing a seizure. He has no history of prior seizures. An MRI of the head is shown. He is treated with both chemotherapy and radiation, but his condition continues to progress. Despite therapy, the patient dies 11 months later. Examination of the brain at autopsy shows a large tumor extending from the right to the left cerebral hemisphere, across the corpus callosum. Which of the following features is most strongly associated with this patient's tumor?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Derivation from primitive neuroectodermal cells"
+      },
+      {
+        "letter": "B",
+        "text": "Hydrocephalus"
+      },
+      {
+        "letter": "C",
+        "text": "Location along parasagittal dura"
+      },
+      {
+        "letter": "D",
+        "text": "Location in the posterior fossa"
+      },
+      {
+        "letter": "E",
+        "text": "Pseudopalisading necrosis"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. Glioblastoma multiforme (GBM) is the most frequent primary malignant tumor of the CNS. It usually affects middle-aged or elderly patients, and most frequently arises in the cerebral white matter. GBM is a malignant astrocytoma; it is referred to as grade IV astrocytoma in the WHO classification. These tumors often spread along white-matter tracts, especially the corpus callosum, resulting in the characteristic \"butterfly glioma\" described in this question. Pathologic examination often reveals areas of necrosis surrounded by rows of neoplastic cells, a phenomenon known as pseudopalisading necrosis. This tumor is very aggressive; median survival is approximately 12 to 16 months following optimal treatment, i.e., a combination of surgery and radiation therapy.\n\nMedulloblastoma (choice A) refers to a malignant neoplasm of childhood that presumably originates from immature glioneuronal precursors (a primitive neuroectodermal tumor). It is located in the midline posterior fossa and infiltrates the cerebellar vermis; this tumor is solid (not cystic) and can cause hydrocephalus by blockage of CSF flow. Ependymomas are also more commonly seen in children (4th ventricle) than in adults; if present in adults, ependymomas tend to occur in the cervical spinal cord.\n\nHydrocephalus (choice B) is a nonspecific complication of many mass lesions (including medulloblastoma and ependymoma) and is not the feature most strongly associated with glioblastoma.\n\nMeningiomas (choice C) are the most common benign tumor in the brain, and often grow along dural convexities of the parasagittal region; they are typically extra-axial tumors and do not produce the butterfly lesion described here.\n\nTumors of the posterior fossa (choice D) usually occur in children, such as pilocytic astrocytoma, which is a grade I tumor typically seen in children and young adults. Medulloblastoma and ependymoma can also occur in the posterior fossa in children.\n\nPseudopalisading necrosis (choice E) is the characteristic histologic pattern of glioblastoma multiforme: areas of necrosis surrounded by rows of neoplastic cells.",
+    "choice_explanations": {
+      "A": "Derivation from primitive neuroectodermal cells describes medulloblastoma (a childhood midline posterior fossa tumor), not glioblastoma. Incorrect.",
+      "B": "Hydrocephalus is a nonspecific complication of posterior fossa masses and is not specific to glioblastoma. Incorrect.",
+      "C": "Location along the parasagittal dura describes meningioma (a benign extra-axial tumor), not glioblastoma. Incorrect.",
+      "D": "Location in the posterior fossa is typical of pediatric tumors (pilocytic astrocytoma, medulloblastoma, ependymoma), not adult glioblastoma. Incorrect.",
+      "E": "Correct. Pseudopalisading necrosis (necrotic zones rimmed by rows of neoplastic cells) is the characteristic histologic feature of glioblastoma multiforme."
+    },
+    "fa_page": 540,
+    "fa_pages": [
+      540
+    ],
+    "fa_summary": "Glioblastoma multiforme is the most common primary malignant brain tumor in adults (WHO grade IV astrocytoma); it crosses the corpus callosum (butterfly glioma) and shows pseudopalisading necrosis.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-glioblastoma-multiforme-pseudopalisading-necrosis-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Axial brain MRI showing a large heterogeneous mass crossing the corpus callosum between the two cerebral hemispheres (butterfly glioma).",
+    "explanation_figures_reviewed": true,
+    "explanation_figure_description": "Explanation contains a histology micrograph of glioblastoma multiforme showing neoplastic cells surrounding areas of necrosis (pseudopalisading necrosis).",
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-glioblastoma-multiforme-pseudopalisading-necrosis-20261004-e1.png"
+    ]
+  },
+  {
+    "id": "wordpilot-new-neuro-subarachnoid-hemorrhage-anterior-cerebral-artery-aneurysm-20261004",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Aneurysms",
+    "subcategory": "Subarachnoid hemorrhage / berry aneurysm",
+    "stem": "A 45-year-old man comes to the emergency department because of sudden onset, severe headache. He has also developed significant nausea, vomiting, and photophobia during the interval period. His past medical history is significant for hypertension and flank mass. His father's side of the family has a history of hematuria and renal failure. A magnetic resonance angiogram (MRA) of the cerebral vessels is shown with abnormalities in the vessel identified by the yellow arrows. Which of the following arteries is most likely responsible for this patient's pathology?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anterior cerebral artery"
+      },
+      {
+        "letter": "B",
+        "text": "Basilar artery"
+      },
+      {
+        "letter": "C",
+        "text": "Middle cerebral artery"
+      },
+      {
+        "letter": "D",
+        "text": "Ophthalmic artery"
+      },
+      {
+        "letter": "E",
+        "text": "Posterior cerebral artery"
+      },
+      {
+        "letter": "F",
+        "text": "Vertebral artery"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. This patient presents with the classic symptoms of subarachnoid hemorrhage, including sudden, \"thunderclap\" headache (\"worst headache of my life\"), nausea, vomiting, photophobia, and meningeal signs (due to irritation of meninges by blood in the CSF). The hemorrhage likely resulted from rupture of a berry aneurysm of the intracranial cavity. It develops as a saccular expansion of the arterial wall and most commonly affects the anterior part of the circle of Willis, including the anterior cerebral artery (ACA) close to where the anterior communicating artery branches off. This particular region is vulnerable to saccular expansion due to a thinner tunica media and absence of external elastic lamina.\n\nThe patient's past medical and family history also points toward ruptured berry aneurysm as the source of his pathology. The patient most likely has autosomal dominant polycystic kidney disease (ADPKD) due to his history of hypertension and flank mass (kidney cysts). In late-stage disease, patients can develop renal failure. These patients have a significantly elevated risk of developing berry aneurysms (due to a combination of chronic hypertension and cerebral arterial wall defects).\n\nNote in the picture how the two ACAs proceed parallel to each other in a posterior-anterior direction, connected by the short anterior communicating artery. The ACA supplies medial portions of the cerebral hemisphere, which corresponds to motor and sensory distribution in the legs.\n\nThe basilar artery (choice B) supplies most of the posterior circulation, and it bifurcates to give rise to the paired posterior cerebral arteries (PCA) (choice E). The basilar artery results from fusion of the two vertebral arteries (choice F) at the level of the pons. Basilar artery infarcts are devastating and can result in multiple cranial nerve neuropathies and locked-in syndrome. The PCA supplies the occipital lobe and produces homonymous hemianopia with macular sparing (due to redundant supply by the contralateral vessel).\n\nThe middle cerebral artery (MCA) (choice C) is seen as a thick vessel that runs laterally on both sides toward the temporal lobe. It represents the main source of blood for the lateral cerebral hemisphere. Occlusion of the MCA produces contralateral hemiparesis and sensory deficits in the arms and face. It is the most common site of embolic infarcts in the brain.\n\nThe ophthalmic artery (choice D) is a branch of the internal carotid artery and provides blood supply to the orbital contents through the optic canal. This vessel cannot be appreciated in the image above.",
+    "choice_explanations": {
+      "A": "Correct. Berry aneurysms most commonly arise on the anterior circle of Willis, especially the anterior cerebral artery near the anterior communicating artery, producing a subarachnoid hemorrhage.",
+      "B": "The basilar artery supplies the posterior circulation; its rupture/infarction causes brainstem and cerebellar signs, not the classic anterior SAH pattern. Incorrect.",
+      "C": "The middle cerebral artery supplies the lateral cerebral hemisphere; its occlusion causes contralateral hemiparesis and sensory loss. Incorrect.",
+      "D": "The ophthalmic artery supplies the optic nerve and retina; occlusion causes monocular blindness, not SAH. Incorrect.",
+      "E": "The posterior cerebral artery supplies the occipital lobe; occlusion causes homonymous hemianopia with macular sparing. Incorrect.",
+      "F": "The vertebral arteries supply the brainstem and cerebellum and are not the most common site of berry aneurysm. Incorrect."
+    },
+    "fa_page": 530,
+    "fa_pages": [
+      530
+    ],
+    "fa_summary": "Berry (saccular) aneurysms most commonly arise in the anterior circle of Willis, especially the anterior cerebral artery near the anterior communicating artery; they are strongly associated with autosomal dominant polycystic kidney disease and present as a thunderclap headache from subarachnoid hemorrhage.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-subarachnoid-hemorrhage-anterior-cerebral-artery-aneurysm-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Magnetic resonance angiogram (MRA) of the cerebral vessels with yellow arrows indicating a saccular (berry) aneurysm of the anterior cerebral artery near the anterior communicating artery.",
+    "explanation_figures_reviewed": true,
+    "explanation_figure_description": "Explanation contains a labeled anatomy diagram of the circle of Willis (anterior cerebral, anterior communicating, internal carotid, middle cerebral, posterior cerebral, posterior communicating, superior cerebellar, basilar, and vertebral arteries).",
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-subarachnoid-hemorrhage-anterior-cerebral-artery-aneurysm-20261004-e1.png"
+    ]
+  },
+  {
+    "id": "wordpilot-new-neuro-huntington-disease-choreoathetosis-caudate-atrophy-20261004",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Movement disorders",
+    "subcategory": "Huntington disease",
+    "stem": "A 47-year-old woman returns to the physician for follow-up examination for a progressive neurological condition. An MRI of her brain is shown. Which of the following symptoms is most likely to be found in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bradykinesia, resting tremor, and difficulty initiating movements"
+      },
+      {
+        "letter": "B",
+        "text": "Choreoathetosis and dementia"
+      },
+      {
+        "letter": "C",
+        "text": "Intention tremor and akinesia"
+      },
+      {
+        "letter": "D",
+        "text": "Moon facies, amenorrhea, and hypertension"
+      },
+      {
+        "letter": "E",
+        "text": "Motor and vocal tics"
+      },
+      {
+        "letter": "F",
+        "text": "Slowly progressive memory impairment and irritability"
+      },
+      {
+        "letter": "G",
+        "text": "Violent flinging of proximal limb muscles"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. This patient most likely has Huntington disease (HD), which is characterized by choreoathetosis and dementia. The caudate degenerates markedly in this disease, although the putamen and nucleus accumbens also degenerate. Atrophy of the caudate and putamen can make the lateral ventricles appear very large when imaged (hydrocephalus ex vacuo). The image shows a horizontal brain section; realize that as the caudate degenerates, the lateral ventricle will get larger. Remember that on an MRI, each caudate nucleus is located immediately adjacent to the anterior horn of the lateral ventricle.\n\nPatients with HD often become symptomatic in their 20s to 40s with movement disorders and personality changes. HD is an autosomal dominant disease caused by an expansion of a CAG trinucleotide repeat in a gene coding for a protein called huntingtin.\n\nBradykinesia, resting tremor, and difficulty initiating movements (choice A) are typical of Parkinson disease, which results from midbrain substantia nigra degeneration.\n\nIntention tremor and akinesia (choice C) are signs of cerebellar dysfunction.\n\nMoon facies, amenorrhea, and hypertension (choice D) are typical of Cushing syndrome. Additional symptoms include truncal obesity, and the most common cause is an adrenocorticotropic hormone (ACTH)-secreting pituitary adenoma.\n\nMotor and vocal tics (choice E) are indicative of Tourette syndrome.\n\nSlowly progressive memory impairment and irritability (choice F) are indicative of Alzheimer disease. Cortical atrophy is seen, as are neuronal loss, and plaques and tangles, particularly in the medial temporal lobes.\n\nViolent flinging of proximal limb muscles (choice G) occurs with hemiballismus. Unilateral flinging movements occur with a lesion of the contralateral subthalamic nucleus.",
+    "choice_explanations": {
+      "A": "Bradykinesia, resting tremor, and difficulty initiating movements indicate Parkinson disease (substantia nigra degeneration). Incorrect.",
+      "B": "Correct. Huntington disease (caudate atrophy) presents with choreoathetosis and dementia, inherited autosomal dominantly via a CAG repeat expansion.",
+      "C": "Intention tremor and akinesia indicate cerebellar dysfunction. Incorrect.",
+      "D": "Moon facies, amenorrhea, and hypertension indicate Cushing syndrome. Incorrect.",
+      "E": "Motor and vocal tics indicate Tourette syndrome. Incorrect.",
+      "F": "Slowly progressive memory impairment and irritability indicate Alzheimer disease. Incorrect.",
+      "G": "Violent flinging of proximal limb muscles (hemiballismus) results from a contralateral subthalamic nucleus lesion. Incorrect."
+    },
+    "fa_page": 533,
+    "fa_pages": [
+      533
+    ],
+    "fa_summary": "Huntington disease is an autosomal dominant CAG-repeat disorder causing degeneration of the caudate (with hydrocephalus ex vacuo) that presents with choreoathetosis and dementia.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-huntington-disease-choreoathetosis-caudate-atrophy-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Axial brain MRI showing marked atrophy of the caudate nuclei with enlargement of the frontal horns of the lateral ventricles (hydrocephalus ex vacuo).",
+    "explanation_figures_reviewed": true,
+    "explanation_figure_description": "Explanation contains a labeled anatomy diagram of a horizontal (coronal/axial) brain section showing the caudate nucleus adjacent to the anterior horn of the lateral ventricle, along with the corpus callosum, internal capsule, putamen, globus pallidus, and third ventricle.",
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-huntington-disease-choreoathetosis-caudate-atrophy-20261004-e1.png"
+    ]
+  },
+  {
+    "id": "wordpilot-new-pharm-pharm-wilson-penicillamine-20261004",
+    "chapter": "Gastrointestinal",
+    "fa_subchapter": "Wilson disease",
+    "subcategory": "Wilson disease",
+    "stem": "A 13-year-old girl is brought to the physician by her mother because of lethargy and pronounced inactivity. Physical examination shows no abnormalities except for akinesia and rigidity. A photograph of her eye is shown. Laboratory studies show an AST of 136 U/L and ALT of 142 U/L. Which of the following is most appropriate pharmacotherapy for this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Deferoxamine"
+      },
+      {
+        "letter": "B",
+        "text": "Dimercaprol (BAL)"
+      },
+      {
+        "letter": "C",
+        "text": "Ethylenediamine tetraacetic acid (EDTA)"
+      },
+      {
+        "letter": "D",
+        "text": "N-acetylcysteine"
+      },
+      {
+        "letter": "E",
+        "text": "Penicillamine"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. The disease is Wilson disease, an autosomal recessive disease caused by a mutation in ATP7B, a gene that codes for a P-type ATPase, which transports copper into bile. This impaired excretion of copper causes accumulation of copper, which can lead to neurologic (dysarthria, ataxia, dystonia, tremor, parkinsonism, seizures, chorea), hepatic (hepatitis, cirrhosis, asymptomatic liver function test abnormalities), and psychiatric (personality change, incongruous behavior, irritability) findings. The greenish-brown corneal ring that is shown in the photograph is a Kayser-Fleischer ring. It results from copper deposition in Descemet membrane and is strongly suggestive of Wilson disease. Ceruloplasmin levels would also be low in this condition.\nTreatment is with lifelong administration of copper-chelating agents, such as penicillamine and trientine. Penicillamine has traditionally been considered the drug of choice for this condition. However, because approximately 30% of patients do not tolerate long-term penicillamine therapy as a result of side effects and because it may also not be the drug of choice for patients with neurologic symptoms, trientine is now considered to be a reasonable choice for the primary therapy of Wilson disease. Either of these agents will effectively treat the patient's condition. Oral zinc can also be used as an adjuvant treatment since it interferes with the absorption of copper, providing a rationale for its use in Wilson disease.\nDeferoxamine (choice A) is used parenterally to chelate circulating iron. Dimercaprol (BAL) (choice B) is used for the treatment of arsenic, mercury (inorganic, elemental), and lead (with EDTA if severe) poisoning. EDTA (choice C) is an effective chelator of divalent (and trivalent) cations such as lead. It is administered as the Na2CaEDTA salt to avoid hypocalcemia. N-acetylcysteine (choice D) is used to treat hepatotoxicity from acetaminophen overdose; while Wilson disease may lead to hepatic dysfunction, N-acetylcysteine is not used to treat Wilson disease.",
+    "choice_explanations": {
+      "A": "Deferoxamine chelates iron.",
+      "B": "Dimercaprol is used for arsenic, mercury, and lead poisoning.",
+      "C": "EDTA chelates divalent cations such as lead.",
+      "D": "N-acetylcysteine treats acetaminophen hepatotoxicity.",
+      "E": "Correct. Penicillamine is a copper-chelating agent used to treat Wilson disease."
+    },
+    "fa_page": 402,
+    "fa_pages": [
+      402
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-pharm-pharm-wilson-penicillamine-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Clinical photograph of the eye showing a greenish-brown Kayser-Fleischer ring at the corneal limbus."
+  },
+  {
+    "id": "wordpilot-new-pharm-pharm-carotid-occlusion-m2-antagonist-20261004",
+    "chapter": "Pharmacology",
+    "fa_subchapter": "Acetylcholine receptors",
+    "subcategory": "Acetylcholine receptors",
+    "stem": "A carotid occlusion is performed before and after the administration of an antagonist in an experimental animal. The results of the effects on mean arterial pressure and heart rate are shown. This antagonist most likely blocks which of the following receptors?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alpha-1 adrenergic receptors"
+      },
+      {
+        "letter": "B",
+        "text": "Beta-1 adrenergic receptors"
+      },
+      {
+        "letter": "C",
+        "text": "Beta-2 adrenergic receptors"
+      },
+      {
+        "letter": "D",
+        "text": "M2 cholinergic receptors"
+      },
+      {
+        "letter": "E",
+        "text": "M3 cholinergic receptors"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. During a carotid occlusion, there is less stretch of the carotid baroreceptors and less afferent nerve activity is sent to the medulla by the glossopharyngeal nerve. Essentially, carotid occlusion tricks the body into thinking it has a lower blood pressure than it actually has. As a result, a baroreceptor reflex is elicited, leading to an increase in sympathetic tone and a decrease in parasympathetic tone. This is shown in the trace by the increase in mean blood pressure (MAP) and heart rate (HR) during the first carotid occlusion.\nIn the trace, the antagonist increases HR but has no effect on MAP. Thus, we must look for a drug that has direct effects on the heart but no effects on blood vessels. There are 2 options listed that are present only on the heart: beta-1 adrenergic receptors and M2 muscarinic cholinergic receptors. Beta-1 receptor stimulation increases HR; beta-1 antagonists (choice B) decrease HR (eliminating choice B). M2 stimulation decreases HR; M2 antagonists (choice D) increase HR. This is consistent with the graph. Of the two, the answer must be choice D. The second carotid occlusion basically did the same thing as the first one, except that the baseline heart rate was higher this time because of the presence of the antagonist.",
+    "choice_explanations": {
+      "A": "Alpha-1 receptors are on blood vessels; blockade would lower MAP.",
+      "B": "Beta-1 antagonists decrease heart rate, opposite to the trace.",
+      "C": "Beta-2 receptors are not the primary cardiac receptors governing heart rate.",
+      "D": "Correct. M2 muscarinic antagonists increase heart rate without affecting MAP (M2 receptors are on the heart, not vessels).",
+      "E": "M3 receptors are not the cardiac chronotropic receptors involved here."
+    },
+    "fa_page": 235,
+    "fa_pages": [
+      235
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-pharm-pharm-carotid-occlusion-m2-antagonist-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Graph of mean arterial pressure and heart rate traces before and after carotid occlusion, with and without the antagonist."
+  },
+  {
+    "id": "wordpilot-new-resp-emphysema-fev1-fvc-obstructive-spirography-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Obstructive lung disease",
+    "subcategory": "Emphysema / pulmonary function testing",
+    "stem": "The diagram shows spirographic tracings of forced expirations from two different individuals. Trace X was obtained from a person with healthy lungs. Which of the following conditions is most likely represented by trace Y?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Asbestosis"
+      },
+      {
+        "letter": "B",
+        "text": "Emphysema"
+      },
+      {
+        "letter": "C",
+        "text": "Pleural effusion"
+      },
+      {
+        "letter": "D",
+        "text": "Pneumothorax"
+      },
+      {
+        "letter": "E",
+        "text": "Silicosis"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. Measurement of the forced vital capacity (FVC), forced expiratory volume during the first second of the maneuver (FEV1), and the FEV1/FVC ratio is an easy and simple way to grossly assess lung function. The individual breathes in as much air as the lungs can hold, and then expels the air as rapidly and as forcefully as possible. The forced vital capacity (FVC) is the vital capacity measured with a forced expiration (3 L for Patient Y). The forced expiratory volume in 1 second (FEV1) is the amount of air that can be expelled from the lungs during the first second of a forced expiration (1.5 L for Patient Y). The FEV1/FVC ratio has diagnostic value for identifying patients with significant airway obstructive disease. FEV1/FVC is a function of airway resistance. Airway resistance is often increased in emphysematous lungs, which causes FEV1/FVC to decrease (note that FEV1/FVC is 50% in Patient Y and 80% in the healthy individual represented by trace X).\n\nFVC is also decreased in restrictive lung diseases such as asbestosis (choice A) and silicosis (choice E), but with a normal or slightly increased FEV1/FVC ratio.\n\nAlthough FVC is decreased in pleural effusion (choice C) and pneumothorax (choice D), the airway resistance is usually not affected greatly, so FEV1/FVC may be normal.",
+    "choice_explanations": {
+      "A": "Asbestosis is a restrictive disease: FVC decreases but the FEV1/FVC ratio is normal or increased, unlike the reduced ratio in trace Y. Incorrect.",
+      "B": "Correct. Emphysema is an obstructive disease with increased airway resistance, reducing the FEV1/FVC ratio (50% in trace Y vs 80% in the healthy trace X).",
+      "C": "Pleural effusion is restrictive; airway resistance is largely unaffected, so the FEV1/FVC ratio is normal. Incorrect.",
+      "D": "Pneumothorax is restrictive; airway resistance is largely unaffected, so the FEV1/FVC ratio is normal. Incorrect.",
+      "E": "Silicosis is a restrictive disease with a normal or increased FEV1/FVC ratio. Incorrect."
+    },
+    "fa_page": 692,
+    "fa_pages": [
+      692
+    ],
+    "fa_summary": "Emphysema is an obstructive lung disease in which increased airway resistance lowers the FEV1/FVC ratio (e.g., 50% versus the normal 80%), whereas restrictive diseases such as asbestosis and silicosis preserve or increase the ratio.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-resp-emphysema-fev1-fvc-obstructive-spirography-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Spirographic tracing of forced expiration (volume in liters versus time in seconds) for two individuals: trace X from healthy lungs (FEV1/FVC 80%) and trace Y showing a reduced FEV1/FVC ratio (50%).",
     "explanation_figures_reviewed": true
   }
 ]
