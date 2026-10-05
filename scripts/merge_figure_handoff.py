@@ -98,6 +98,11 @@ def main():
             held.append((qid, "required explanation figure missing"))
             continue
         if not qimgs and not eimgs:
+            if h.get("status") == "LIVE-ATTACH" and item.get("explanation_figure_not_present"):
+                # A source-reviewed false positive in the handoff: no figure
+                # exists to attach and the live question already has its text.
+                updated += 1
+                continue
             held.append((qid, "no figure attached"))
             continue
         if qid in bank_by_id:

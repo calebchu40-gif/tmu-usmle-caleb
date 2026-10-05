@@ -48833,7 +48833,12 @@
     ],
     "fa_page": 339,
     "fa_page_verified": true,
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-b/multisystems-steroidogenesis-pathway.png",
+      "assets/question-figures/handoff-b/multisystems-adrenal-zones.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-multisystems-superior-vena-cava-syndrome-20261004",
@@ -48879,7 +48884,11 @@
     ],
     "fa_page": 702,
     "fa_page_verified": true,
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-b/multisystems-svc-mediastinum.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-multisystems-central-chemoreceptors-20261004",
@@ -48925,7 +48934,11 @@
     ],
     "fa_page": 298,
     "fa_page_verified": true,
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-b/multisystems-central-chemoreceptor.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-multisystems-melanoma-s100-hmb45-20261004",
@@ -53828,5 +53841,700 @@
     "question_figures_reviewed": true,
     "question_figure_description": "Spirographic tracing of forced expiration (volume in liters versus time in seconds) for two individuals: trace X from healthy lungs (FEV1/FVC 80%) and trace Y showing a reduced FEV1/FVC ratio (50%).",
     "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-resp-neonatal-rds-surfactant-choline-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Neonatal respiratory distress syndrome",
+    "subcategory": "Neonatal respiratory distress syndrome",
+    "stem": "A 27-year-old primigravid woman has been seen regularly for prenatal care and has had an uneventful pregnancy. At 28 weeks' gestation, she complains of a malodorous vaginal discharge, a bacterial vaginosis is diagnosed and she is treated with antibiotics. At 30 weeks' gestation, she goes into labor, and despite the use of tocolytics, she is delivered the next day. The neonate develops tachycardia, nasal flaring, and grunting, and requires intubation. A chest x-ray is shown. Which of the following is most likely decreased in the alveoli of this newborn?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "alpha-ketoglutarate"
+      },
+      {
+        "letter": "B",
+        "text": "Arachidonic acid"
+      },
+      {
+        "letter": "C",
+        "text": "Choline"
+      },
+      {
+        "letter": "D",
+        "text": "Corticosteroids"
+      },
+      {
+        "letter": "E",
+        "text": "Phenylalanine"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. This baby has respiratory distress syndrome of the newborn because of prematurity. This occurs when immature lungs are unable to synthesize adequate amounts of surfactant to lower the surface tension within the lungs and prevent alveolar collapse. Type II pneumocytes start to develop at about 24 weeks of gestation, secreting small amounts of surfactant; however, adequate amounts of surfactant are not secreted until about 35 weeks of gestation, predisposing the newborn to respiratory distress syndrome. The most important constituent of surfactant is dipalmitoylphosphatidylcholine (DPPC), which is formed when a diacylglycerol (dipalmitoyl glycerol) condenses with phosphated choline derived from CDP-choline. Other constituents of surfactant include phosphatidylglycerol, apoproteins, and cholesterol. The other primary cell types in the alveoli are the type I pneumocytes and alveolar macrophages; type I pneumocytes make up 97% of the alveolar surface and participate in gas exchange. Assessment of fetal lung maturity may be undertaken by examining the lecithin (phosphatidylcholine):sphingomyelin (L/S) ratio in amniotic fluid (an L/S ratio of 2 or more indicates fetal lung maturity). alpha-ketoglutarate (choice A) is a citric acid cycle intermediate. Arachidonic acid (choice B) is the lipid precursor of prostaglandins and leukotrienes. Phenylalanine (choice E) is an important amino acid in development but does not play a special role in maturation of the fetal respiratory system. Corticosteroids (choice D) actually stimulate surfactant production and are given antenatally to accelerate lung maturity.",
+    "choice_explanations": {
+      "A": "alpha-ketoglutarate is a citric acid cycle intermediate.",
+      "B": "Arachidonic acid is a precursor of prostaglandins/leukotrienes.",
+      "C": "Choline (as CDP-choline) is a required component for synthesis of DPPC, the main surfactant phospholipid.",
+      "D": "Corticosteroids promote surfactant production.",
+      "E": "Phenylalanine is not involved in surfactant synthesis."
+    },
+    "fa_page": 679,
+    "fa_pages": [
+      679
+    ],
+    "fa_summary": "Neonatal RDS results from surfactant deficiency; DPPC, the main surfactant component, requires choline.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/resp-neonatal-rds-xray-q13.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Neonatal chest x-ray showing diffuse ground-glass opacities with air bronchograms and low lung volumes, consistent with respiratory distress syndrome."
+  },
+  {
+    "id": "wordpilot-new-resp-mefv-restrictive-interstitial-fibrosis-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Flow-volume loops",
+    "subcategory": "Flow-volume loops",
+    "stem": "The graph shows maximum expiratory flow-volume (MEFV) curves from a healthy individual (solid curve) and from a patient with compromised pulmonary function (dashed curve). Which of the following conditions is most likely depicted by the dashed curve?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Asthma"
+      },
+      {
+        "letter": "B",
+        "text": "Bronchospasm"
+      },
+      {
+        "letter": "C",
+        "text": "Emphysema"
+      },
+      {
+        "letter": "D",
+        "text": "Interstitial fibrosis"
+      },
+      {
+        "letter": "E",
+        "text": "Old age"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. The maximum expiratory flow-volume (MEFV) curve is often used as a diagnostic tool for identifying obstructive and restrictive lung diseases. In restrictive lung diseases such as interstitial fibrosis, the MEFV curve begins and ends at abnormally low lung volumes, and the flow rates are often higher than normal at any given lung volume. On the diagram, the total lung capacity is approximately 3.2 L and the residual volume is approximately 0.8 L in the patient (dashed curve) — a small curve that is shifted to the right, toward lower lung volumes on the MEFV curve. Lung volumes would be expected to be higher than normal in asthma (choice A), bronchospasm (choice B), emphysema (choice C), old age (choice E), and other conditions that involve narrowing of the airways or reduced radial traction of the airways, allowing them to close more easily. Both the beginning and the end of the MEFV curve are at lower than normal volumes in restrictive disease, and the airflow during most of the curve may often be greater than that in a normal lung.",
+    "choice_explanations": {
+      "A": "Asthma is obstructive (increased lung volumes).",
+      "B": "Bronchospasm is obstructive.",
+      "C": "Emphysema is obstructive with increased lung volumes.",
+      "D": "Interstitial fibrosis is restrictive: the MEFV curve is small and shifted to lower lung volumes.",
+      "E": "Old age is associated with increased compliance/lung volumes."
+    },
+    "fa_page": 692,
+    "fa_pages": [
+      692
+    ],
+    "fa_summary": "Restrictive lung disease produces a small MEFV curve shifted to lower lung volumes.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/resp-mefv-restrictive-q15.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Maximum expiratory flow-volume (MEFV) graph with a solid healthy curve and a dashed curve shifted rightward to lower lung volumes (restrictive pattern)."
+  },
+  {
+    "id": "wordpilot-new-resp-mefv-copd-emphysema-diagnosis-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Flow-volume loops",
+    "subcategory": "Flow-volume loops",
+    "stem": "The graph shows maximum expiratory flow-volume (MEFV) curves from a healthy individual (solid curve) and from a patient who has shortness of breath (dashed curve). Which of the following is the most likely diagnosis for the patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Asbestosis"
+      },
+      {
+        "letter": "B",
+        "text": "Emphysema"
+      },
+      {
+        "letter": "C",
+        "text": "Pleural effusion"
+      },
+      {
+        "letter": "D",
+        "text": "Pneumothorax"
+      },
+      {
+        "letter": "E",
+        "text": "Silicosis"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. In obstructive lung disease such as emphysema, the MEFV curve begins and ends at abnormally high lung volumes. In this patient the total lung capacity is 7 L and the residual volume is 3.5 L (dashed curve). The curve may also have a scooped-out appearance, as shown on the diagram. Absolute lung volumes cannot be determined from the MEFV curve alone; an additional method is used to measure residual volume, after which the curves can be placed appropriately on the abscissa. In a patient with chronic obstructive pulmonary disease (COPD), the MEFV curve begins and ends at abnormally high lung volumes, and flow rates are also lower than normal because of the obstructive pattern of the disease. Asbestosis (choice A) and silicosis (choice E) are restrictive, shifting the loop to lower lung volumes. Pleural effusion (choice C) and pneumothorax (choice D) are restrictive processes.",
+    "choice_explanations": {
+      "A": "Asbestosis is restrictive.",
+      "B": "Emphysema is obstructive, with the MEFV loop shifted to higher lung volumes and a scooped-out expiratory limb.",
+      "C": "Pleural effusion is restrictive.",
+      "D": "Pneumothorax is restrictive.",
+      "E": "Silicosis is restrictive."
+    },
+    "fa_page": 692,
+    "fa_pages": [
+      692
+    ],
+    "fa_summary": "Obstructive disease (emphysema/COPD) shifts the MEFV curve to higher lung volumes with reduced flow.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/resp-mefv-emphysema-q19.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "MEFV graph: solid healthy curve versus dashed curve beginning and ending at abnormally high lung volumes with a scooped-out expiratory limb (obstructive/emphysema)."
+  },
+  {
+    "id": "wordpilot-new-resp-spirometer-heavy-exercise-tidal-volume-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Lung volumes and capacities",
+    "subcategory": "Lung volumes and capacities",
+    "stem": "A 24-year-old healthy male volunteer participates in a study of pulmonary function. He breathes through a spirometer under several conditions. Curve W is generated when the participant inhales as much air as possible and then expires with maximum effort until no more air can be expired. Curve Z reflects the subject under other conditions. Curve X is most likely to be generated due to which of the following conditions?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Head-down tilt at 60 degrees"
+      },
+      {
+        "letter": "B",
+        "text": "Heavy dynamic exercise"
+      },
+      {
+        "letter": "C",
+        "text": "Inhaled bronchoconstrictor"
+      },
+      {
+        "letter": "D",
+        "text": "Normal breathing at rest"
+      },
+      {
+        "letter": "E",
+        "text": "Reduced diameter of the spirometer tubes"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. Heavy exercise increases depth of breathing and forcefulness of expiration compared to quiet breathing. The tidal volume has increased from a normal value of 0.5 liter (indicated by curve Z) to nearly 2.5 liters during heavy exercise, as indicated by curve X. The expiratory air flow rate has reached a maximum value of over 5 L/sec during the heavy exercise because respiratory rate has increased greatly and a maximum expiratory effort is required to move the ~2.5 liter tidal volume out of the lungs. During exercise, the tidal volume increases and greater expiratory effort moves more air out of the lungs. An inhaled bronchoconstrictor (choice C) and reduced diameter of the spirometer tubes (choice E) increase resistance to air flow from the lungs, making it unlikely that expiratory air flow rate could approach its maximum value at a given lung volume. Head-down tilt (choice A) and normal breathing at rest (choice D) do not produce the marked increase in tidal volume and expiratory flow seen with heavy exercise.",
+    "choice_explanations": {
+      "A": "Head-down tilt does not augment tidal volume or expiratory flow.",
+      "B": "Heavy dynamic exercise increases tidal volume and expiratory airflow.",
+      "C": "A bronchoconstrictor increases airway resistance and reduces flow.",
+      "D": "Resting breathing produces the small tidal volume of curve Z.",
+      "E": "Narrowed spirometer tubes increase resistance and reduce flow."
+    },
+    "fa_page": 682,
+    "fa_pages": [
+      682
+    ],
+    "fa_summary": "Heavy exercise increases tidal volume and expiratory airflow compared with resting breathing.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/resp-spirometer-exercise-q20.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Spirometry flow-volume graph (expiratory airflow vs volume from total lung capacity) with three curves W, X, and Z representing maximal effort, heavy exercise, and rest."
+  },
+  {
+    "id": "wordpilot-new-resp-fev1-fvc-ratio-obstructive-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Flow-volume loops",
+    "subcategory": "Flow-volume loops",
+    "stem": "A study is conducted in which two individuals are instructed to breathe in as much air as they can and then expel the air as rapidly and as far as possible. The graph shows a forced expiration for a healthy individual (A) and a patient with pulmonary disease (B). Which of the following are the most likely FEV1/FVC ratios (expressed as percentages) of the healthy individual and of the patient, respectively?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "20% and 50%"
+      },
+      {
+        "letter": "B",
+        "text": "50% and 80%"
+      },
+      {
+        "letter": "C",
+        "text": "80% and 20%"
+      },
+      {
+        "letter": "D",
+        "text": "80% and 50%"
+      },
+      {
+        "letter": "E",
+        "text": "Cannot be determined"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. The volumes can be calculated from the tracings. Trace A: FEV1 = 4 L, FVC = 5 L, so FEV1/FVC = 4/5 = 0.80 = 80%. Trace B: FEV1 = 1.5 L, FVC = 3 L, so FEV1/FVC = 1.5/3 = 0.50 = 50%. A normal FEV1/FVC ratio should be at least 75%. In patients with obstructive lung disease, the FEV1/FVC ratio is significantly reduced. In patients with restrictive lung disease, all lung volumes may be reduced (FVC, FEV1, RV, and TLC), but the FEV1/FVC ratio is maintained or even slightly increased (often 75 to 80%). Trace B is an example of a patient with chronic obstructive pulmonary disease (COPD); the rate of expiration is slower, and the percentage of the vital capacity expired during the first second of the maneuver is significantly decreased. The forced vital capacity itself may also be reduced.",
+    "choice_explanations": {
+      "A": "20% and 50% does not match the calculated values.",
+      "B": "50% and 80% reverses the healthy and diseased values.",
+      "C": "80% and 20% underestimates the patient's FEV1/FVC.",
+      "D": "Healthy FEV1/FVC = 4/5 = 80%; obstructive patient FEV1/FVC = 1.5/3 = 50%.",
+      "E": "The ratio can be calculated from the tracings."
+    },
+    "fa_page": 692,
+    "fa_pages": [
+      692
+    ],
+    "fa_summary": "FEV1/FVC is ~80% in health and markedly reduced in obstructive disease.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/resp-fev1-fvc-q26.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Forced expiration spirogram (volume vs seconds): trace A (healthy) drops steeply in the first second while trace B (obstructive) declines gradually, giving FEV1/FVC of 80% and 50% respectively."
+  },
+  {
+    "id": "wordpilot-new-resp-mefv-radial-traction-restrictive-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Flow-volume loops",
+    "subcategory": "Flow-volume loops",
+    "stem": "The maximum expiratory flow-volume (MEFV) curves shown in the diagram are from a healthy individual (solid curve) and from a patient with pulmonary disease (dashed curve). Which of the following is most likely increased in the patient with pulmonary disease?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pulmonary compliance"
+      },
+      {
+        "letter": "B",
+        "text": "Radial traction of airways"
+      },
+      {
+        "letter": "C",
+        "text": "Residual volume"
+      },
+      {
+        "letter": "D",
+        "text": "Total lung capacity"
+      },
+      {
+        "letter": "E",
+        "text": "Vital capacity"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. Radial traction of the airways is increased in this patient with restrictive pulmonary disease. A key aspect of this question is its use of the maximum expiratory flow-volume (MEFV) loop. In restrictive lung disease such as interstitial fibrosis, there is an increase in the radial traction holding the airways open. Because the lung parenchyma is stiffer in fibrosis, the airways are tethered more strongly and held open to a greater extent at each lung volume (i.e., radial traction is greater). This increase in radial traction and subsequent increase in airway diameter causes the maximum expiratory flow rate to be higher at any given lung volume, as shown by the dashed curve in the diagram. The dashed MEFV curve is typical of a patient with a restrictive physiologic deficit, usually due to diffuse infiltrative lung disease such as interstitial fibrosis, but also seen with diffuse pleural disease, chest wall deformity, or neuromuscular disease. The increase in fibrous material in the lung causes the pulmonary compliance (choice A) to decrease (increased elasticity), and inspiration is impaired. Residual volume (choice C), total lung capacity (choice D), and vital capacity (choice E) are all reduced, not increased, in restrictive disease.",
+    "choice_explanations": {
+      "A": "Pulmonary compliance is decreased in fibrosis.",
+      "B": "Radial traction of the airways is increased, holding airways open and raising expiratory flow.",
+      "C": "Residual volume is decreased.",
+      "D": "Total lung capacity is decreased.",
+      "E": "Vital capacity is decreased."
+    },
+    "fa_page": 692,
+    "fa_pages": [
+      692
+    ],
+    "fa_summary": "In restrictive lung disease, increased radial traction holds airways open and raises maximal expiratory flow at any lung volume.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/resp-mefv-radial-traction-q28.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "MEFV graph with a solid healthy curve versus a dashed curve shifted to lower lung volumes (restrictive pattern)."
+  },
+  {
+    "id": "wordpilot-new-resp-mefv-dynamic-airway-compression-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Flow-volume loops",
+    "subcategory": "Flow-volume loops",
+    "stem": "A 46-year-old man comes to the physician for an examination prior to beginning an exercise program. The diagram shows a maximum expiratory flow volume (MEFV) curve obtained during pulmonary function testing. Which of the following points on the curve indicate a time during which airway collapse is limiting maximum expiratory airflow?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Point A"
+      },
+      {
+        "letter": "B",
+        "text": "Point B"
+      },
+      {
+        "letter": "C",
+        "text": "Point C"
+      },
+      {
+        "letter": "D",
+        "text": "Point D"
+      },
+      {
+        "letter": "E",
+        "text": "Point E"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. The MEFV curve shown is created when the patient inhales as much air as possible (point A, the total lung capacity) and then expires with maximum effort until no more air can be expired (point E, the residual volume). The descending portion of the MEFV curve (indicated by the downward-pointing arrow) represents the maximum expiratory flow at each lung volume along the curve; this descending portion is sometimes referred to as the effort-independent portion because the expiratory flow rate cannot be increased further even when greater effort is expended. Increased effort alone cannot produce increases in the rate of air flow because of a very powerful limiting factor called dynamic compression of the airways. Forceful expiration involves contracting the internal intercostals and the abdominal muscles, which raises intrapleural pressure; this pressure is transferred to the alveoli and airways. The airways closest to the mouth experience little resistance to airflow and rapidly give up their air to the external atmosphere; when intra-airway pressure falls, the forces maintaining their patency dissipate and they tend to collapse under the compressive force. Collapse further increases resistance to airflow from the alveoli. Point A (choice A) represents total lung capacity and the time at which expiration begins. Point B (choice B) indicates a time during which the patient is exhaling with maximal effort and flow rates are rising rapidly toward a maximum. Point C (choice C) indicates when air flow rate has nearly reached its maximum value and dynamic compression is about to become limiting. Point E (choice E) indicates residual volume.",
+    "choice_explanations": {
+      "A": "Point A is total lung capacity, where expiration begins.",
+      "B": "Point B is during rising flow; compression is not yet limiting.",
+      "C": "Point C is where flow is near maximal and compression is about to become limiting.",
+      "D": "Point D is on the effort-independent descending limb where dynamic airway compression limits flow.",
+      "E": "Point E is residual volume."
+    },
+    "fa_page": 692,
+    "fa_pages": [
+      692
+    ],
+    "fa_summary": "Dynamic compression of the airways limits expiratory flow on the effort-independent descending limb of the MEFV curve.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/resp-mefv-airway-compression-q31.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Labeled MEFV curve diagram with points A (total lung capacity) through E (residual volume) and a downward arrow over the descending, effort-independent limb."
+  },
+  {
+    "id": "wordpilot-new-resp-spirogram-interstitial-fibrosis-restrictive-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Flow-volume loops",
+    "subcategory": "Flow-volume loops",
+    "stem": "The graph shows spirographic tracings of forced expirations from two different individuals. Trace X was obtained from an individual with healthy lungs. Trace Y was most likely obtained from an individual with which of the following conditions?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Asthma"
+      },
+      {
+        "letter": "B",
+        "text": "Bronchospasm"
+      },
+      {
+        "letter": "C",
+        "text": "Emphysema"
+      },
+      {
+        "letter": "D",
+        "text": "Interstitial fibrosis"
+      },
+      {
+        "letter": "E",
+        "text": "Old age"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. A forced expiration is the simplest test of lung function. The individual breathes in as much air as the lungs can hold and then expels the air as rapidly and as far as possible. The forced vital capacity (FVC) is the vital capacity measured with a forced expiration (FVC = 3 L for patient Y). The forced expiratory volume in 1 second (FEV1) is the amount of air that can be expelled during the first second (FEV1 = 2.7 L for patient Y). The FEV1/FVC ratio for the healthy individual (patient X) is 4 L/5 L = 80%, and the FEV1/FVC ratio for patient Y is 2.7/3.0 = 90%. FEV1/FVC is a function of airway resistance; increases in airway resistance associated with asthma (choice A), bronchospasm (choice B), emphysema (choice C), and old age (choice E) tend to decrease the FEV1/FVC ratio below its normal value. FEV1/FVC is often increased with interstitial fibrosis because of increased radial traction of the airways. The increase in elastic recoil also makes it difficult to breathe deeply, which decreases FVC. This combination of decreased FVC with a normal or slightly increased FEV1/FVC ratio is characteristic of fibrotic lung disease.",
+    "choice_explanations": {
+      "A": "Asthma is obstructive with decreased FEV1/FVC.",
+      "B": "Bronchospasm is obstructive.",
+      "C": "Emphysema is obstructive.",
+      "D": "Interstitial fibrosis reduces FVC but preserves/increases FEV1/FVC (restrictive).",
+      "E": "Old age reduces FEV1/FVC."
+    },
+    "fa_page": 692,
+    "fa_pages": [
+      692
+    ],
+    "fa_summary": "Interstitial fibrosis (restrictive) reduces FVC while FEV1/FVC is preserved or increased.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/resp-spirogram-fibrosis-q36.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Spirographic tracings (volume vs seconds): trace X (healthy) versus trace Y with reduced FVC and relatively preserved FEV1/FVC (restrictive/fibrotic)."
+  },
+  {
+    "id": "wordpilot-new-resp-nasopharyngeal-carcinoma-micrograph-ebv-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Oncogenic microbes",
+    "subcategory": "Oncogenic microbes",
+    "stem": "A 45-year-old man comes to the physician because of progressive difficulty breathing through the left side of his nose. He notices blood stained tissue when he blows his nose, but denies headaches or changes in hearing. He immigrated from China 15 years ago. He has smoked 1 pack of cigarettes per day for the past 16 years. His temperature is 37.2C (99F), pulse is 74/min, respirations are 16/min, and blood pressure is 126/76 mm Hg. Physical examination shows a mass located in the left posteromedial aspect of the nasopharynx and two enlarged, nontender cervical lymph nodes. Head CT scan confirms a mass in the left nasopharynx with extension into adjacent soft tissue. A biopsy is performed. Histologically, the neoplasm is composed of large anaplastic cells admixed with scattered normal-appearing lymphocytes. The anaplastic cells are positive for cytokeratin and negative for leukocyte common antigen (LCA) on immunohistochemical stain. A photomicrograph is shown. Which of the following is the most likely cause of this patient's condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cigarette smoking"
+      },
+      {
+        "letter": "B",
+        "text": "Epstein-Barr virus infection"
+      },
+      {
+        "letter": "C",
+        "text": "Human papilloma virus infection"
+      },
+      {
+        "letter": "D",
+        "text": "Ionizing radiation"
+      },
+      {
+        "letter": "E",
+        "text": "Overexpression of the bcl-2 gene"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. The neoplasm described here is nasopharyngeal carcinoma, also known as lymphoepithelioma. It is the most frequent adult tumor in southern China and childhood tumor in certain African regions. Epstein-Barr virus (EBV) genome has been identified in most of these neoplasms. EBV is human herpesvirus 4; it is associated with infectious mononucleosis and the pathogenesis of nasopharyngeal carcinoma, Burkitt lymphoma, certain forms of Hodgkin lymphoma, and immunosuppression-associated B cell lymphomas. EBV first infects the nasopharyngeal and tonsillar B cells; long-term EBV infection and expression of the EBV oncogene LMP in latently infected epithelial cells appear to be critical early steps in the evolution of nasopharyngeal carcinoma. There are 3 histologic variants: keratinizing squamous cell carcinoma, non-keratinizing squamous cell carcinoma, and undifferentiated anaplastic type (as seen in this patient). Non-neoplastic lymphocytes are present, so immunohistochemical stain is performed to distinguish from lymphoma: nasopharyngeal cells are positive for cytokeratin and negative for leukocyte common antigen (LCA). Cigarette smoking (choice A) is a risk factor for many upper aerodigestive squamous cell carcinomas but has not been linked to nasopharyngeal carcinoma. HPV (choice C) contributes to oropharyngeal, cervical, and anogenital squamous cell carcinomas without a prominent lymphocytic infiltrate. Ionizing radiation (choice D) most frequently causes leukemias and thyroid carcinoma. Overexpression of the bcl-2 gene (choice E) is found in most B-cell follicular lymphomas.",
+    "choice_explanations": {
+      "A": "Smoking causes squamous cell carcinoma of the upper aerodigestive tract, not nasopharyngeal carcinoma.",
+      "B": "EBV infection is the cause of undifferentiated (lymphoepithelioma-type) nasopharyngeal carcinoma.",
+      "C": "HPV is associated with oropharyngeal/cervical squamous cell carcinoma.",
+      "D": "Radiation is not linked to nasopharyngeal carcinoma.",
+      "E": "bcl-2 overexpression is found in follicular lymphoma."
+    },
+    "fa_page": 222,
+    "fa_pages": [
+      222
+    ],
+    "fa_summary": "Epstein-Barr virus causes undifferentiated nasopharyngeal carcinoma (lymphoepithelioma).",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/resp-nasopharyngeal-carcinoma-q37.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Photomicrograph of nasopharyngeal carcinoma showing large anaplastic tumor cells admixed with scattered normal-appearing lymphocytes (lymphoepithelioma)."
+  },
+  {
+    "id": "wordpilot-new-multisystems-burkitt-lymphoma-ovary-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Non-Hodgkin lymphoma",
+    "subcategory": "Non-Hodgkin lymphoma",
+    "stem": "A 16-year-old woman, who immigrated from Africa 3 years ago, comes to the physician because of vague left-sided abdominal pain and bloating over the last 8 weeks. Her temperature is 37.4°C (99.4°F), pulse is 72/min, blood pressure is 124/78 mm Hg, and respirations are 14/min. Physical examination shows a firm, 10-cm mass on the left lower quadrant of the abdomen. Abdominal CT scan shows an enlarged left ovary. Biopsy of the ovarian lesion shows neoplastic medium-sized B cells with frequent mitoses and intermixed macrophages with abundant clear cytoplasm. A photomicrograph is shown. Which of the following is the most likely diagnosis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bladder carcinoma"
+      },
+      {
+        "letter": "B",
+        "text": "Cervical carcinoma"
+      },
+      {
+        "letter": "C",
+        "text": "Hepatocellular carcinoma"
+      },
+      {
+        "letter": "D",
+        "text": "Kaposi sarcoma"
+      },
+      {
+        "letter": "E",
+        "text": "Burkitt lymphoma"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. This patient has the endemic/African form of Burkitt lymphoma, a B-cell lymphoma, which commonly presents as a mass arising from the jaw, GI tract (ileum, cecum), ovary, and breast. Burkitt lymphoma is most common in children and young adults, but has been seen in adults up to 40 years of age. The Epstein-Barr virus (EBV) is a DNA virus (Herpesviridae family) highly associated with the African form of Burkitt lymphoma. EBV infection and latency within B-lymphocytes, along with integration into host DNA, results in malignant transformation of these cells.\n\nBurkitt lymphoma is a B-cell lymphoma that histologically has a \"starry sky\" appearance and is associated with EBV. African/endemic Burkitt lymphoma can present as a jaw, ovarian, breast, or GI tract mass. EBV infection is associated with the development of the African form of Burkitt lymphoma, AIDS CNS B cell lymphoma, mixed cellularity type of Hodgkin disease, and nasopharyngeal carcinoma.\n\nOutside of Africa, the sporadic and the immune deficiency-associated forms of Burkitt lymphoma can present with constitutional symptoms and bulky abdominal organ, ovary, testis, liver and spleen involvement. These forms of the disease have a lower association with EBV.\n\nThe histology of Burkitt lymphoma has been described as resembling a \"starry sky\" with macrophages with clear cytoplasm being the \"stars\" on a background of malignant B lymphocytes. Additionally, up to 90% of cases have a chromosome 8:14 translocation event, which places the c-myc oncogene near the promoter for immunoglobulin heavy chain, resulting in oncogene overexpression. Other rarer c-myc translocations include t(2;8) and t(8;22), involving the kappa and the lambda light chain genes, respectively.\n\nEBV infection is associated with malignancies other than African-endemic Burkitt lymphoma. In Asian countries, particularly China, EBV can produce nasopharyngeal carcinoma, which presents as epistaxis and sinus obstruction. In acquired immunodeficiency syndrome (AIDS) patients with low CD4 counts, EBV can cause central nervous system (CNS) non-Hodgkin B cell lymphoma, which can present as ring-enhancing lesions on imaging. The mixed cellularity form of Hodgkin disease is more commonly associated with EBV. The most common non-malignant condition associated with EBV is infectious mononucleosis (mono).\n\nBladder carcinoma (choice A) is associated with Schistosoma haematobium, cigarette smoking, exposure to aniline dyes, and cyclophosphamide chemotherapy. It typically presents with painless hematuria and urinary frequency.\n\nMost cases of cervical carcinoma (choice B) are associated with infection by human papillomavirus (HPV). Serotypes 16 and 18 are most commonly associated with premalignant (dysplasia; in situ) and cancerous lesions at the cervix.\n\nHepatocellular carcinoma (choice C) is associated with infection by hepatitis B and C viruses. Most tumors occur after progression to liver cirrhosis. However, for hepatitis B patients, some tumors may arise prior to cirrhosis due to incorporation of retroviral DNA in host hepatocytes. Other causes of hepatocellular carcinoma include alcoholic liver disease, alpha-1-antitrypsin deficiency, and aflatoxin B1.\n\nKaposi sarcoma (choice D) is caused by human herpesvirus 8 (HHV8) and is associated with human immunodeficiency virus (HIV) infection. It typically presents as multiple vascular lesions on the skin. The lesions are usually raised, reddish-purple papules in sun-exposed areas. A proliferation of spindle and endothelial cells with extravasation of red blood cells is seen histologically.",
+    "choice_explanations": {
+      "A": "Bladder carcinoma is associated with Schistosoma haematobium, smoking, aniline dyes, and cyclophosphamide. Incorrect.",
+      "B": "Cervical carcinoma is associated with HPV serotypes 16 and 18. Incorrect.",
+      "C": "Hepatocellular carcinoma is associated with hepatitis B/C, alcoholic liver disease, and aflatoxin B1. Incorrect.",
+      "D": "Kaposi sarcoma is caused by HHV-8 (with HIV) and presents as skin lesions. Incorrect.",
+      "E": "Correct. Endemic (African) Burkitt lymphoma is an EBV-associated B-cell lymphoma presenting as an ovarian/jaw/GI mass with a \"starry sky\" histology (t[8;14] c-myc)."
+    },
+    "fa_page": 435,
+    "fa_pages": [
+      435
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/multisystems-burkitt-ovary-histology.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "A photomicrograph (H&E histology) of the ovarian lesion showing neoplastic medium-sized B cells with frequent mitoses and intermixed macrophages with abundant clear cytoplasm (\"starry sky\" appearance).",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-multisystems-iron-deficiency-anemia-smear-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Microcytic, hypochromic anemia",
+    "subcategory": "Microcytic, hypochromic anemia",
+    "stem": "A 17-year-old female is brought to the physician because of weight loss. Her parents report that over the last 6 months she has lost 11.2 kg (25 lb) by restricting her caloric intake and exercising 2-3 hours per day. She has a fear of gaining weight. Review of symptoms is positive for weakness, headaches, dizziness, and light menses. Her temperature is 37°C (98.6°F), pulse is 95/min, respirations are 18/min, and blood pressure is 96/60 mm Hg. Her physical examination demonstrates a cachectic, thin female with lanugo present on her arms and back. There is conjunctival, oral mucous, and digital pallor. Laboratory studies show: white blood cell count 5,500/mm3; neutrophils 60%; lymphocytes 37%; monocytes 3%; erythrocyte count 2.7 million/mm3; hemoglobin 10.5 g/dL; hematocrit 32%; mean corpuscular volume 62 um3; platelets 190,000/mm3. A peripheral blood smear is shown. Which of the following nutrient deficiencies is the most likely etiology of her laboratory abnormalities?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Folic acid"
+      },
+      {
+        "letter": "B",
+        "text": "Iron"
+      },
+      {
+        "letter": "C",
+        "text": "Niacin"
+      },
+      {
+        "letter": "D",
+        "text": "Vitamin B12"
+      },
+      {
+        "letter": "E",
+        "text": "Zinc"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. The patient is demonstrating iron deficiency anemia from a poor diet secondary to anorexia nervosa. Iron deficiency anemia is characterized by a hypochromic, microcytic anemia, as demonstrated on the blood smear. MCV should be < 80 um3. Patients present with fatigue, headache and exercise intolerance. In this case, treat the patient for anorexia in addition to iron supplementation.\n\nIron deficiency anemia is characterized by hypochromic, microcytic red blood cells. Patients present with headaches, dizziness, pallor, and tachycardia.\n\nFolic acid (choice A) deficiency and vitamin B12 (choice D) both present with megaloblastic anemia, characterized by macrocytic red cells and hypersegmented neutrophils on blood smear. MCV would be > 120 um3. Symptoms of folate deficiency present 4-5 months after onset of the decreased intake due to decreased stores. In contrast, symptoms of vitamin B12 deficiency present years after decreased intake due to large body stores of the vitamin.\n\nNiacin (choice C) deficiency is characterized by diarrhea, dermatitis, and dementia. The rash is described as a hyper-pigmented rash. In addition to dementia, patients can have other neurologic symptoms such as anxiety and encephalitis. Our patient does not exhibit these signs and symptoms.\n\nZinc deficiency is most commonly seen in developing countries and causes immunodeficiency. Our patient does not exhibit these signs and symptoms.",
+    "choice_explanations": {
+      "A": "Folic acid deficiency causes a macrocytic (megaloblastic) anemia, not the microcytic anemia seen here. Incorrect.",
+      "B": "Correct. Microcytic (MCV 62), hypochromic anemia in a patient with anorexia nervosa is iron deficiency.",
+      "C": "Niacin deficiency (pellagra) causes diarrhea, dermatitis, and dementia, not microcytic anemia. Incorrect.",
+      "D": "Vitamin B12 deficiency causes a macrocytic (megaloblastic) anemia. Incorrect.",
+      "E": "Zinc deficiency causes immunodeficiency and is seen in developing countries; it does not cause microcytic anemia. Incorrect."
+    },
+    "fa_page": 424,
+    "fa_pages": [
+      424
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/multisystems-iron-deficiency-smear.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "A peripheral blood smear showing hypochromic, microcytic red blood cells with central pallor (iron deficiency anemia).",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-multisystems-adpkd-subarachnoid-hemorrhage-20261004",
+    "chapter": "Renal",
+    "fa_subchapter": "Renal cyst disorders",
+    "subcategory": "Renal cyst disorders",
+    "stem": "A 47-year-old man is brought to the emergency department after he is found unconscious by his wife at home. On arrival at the emergency department, he is unconscious and cannot be aroused. He has a history of renal failure and well-controlled hypertension. CT scan demonstrates an intracranial hemorrhage. Four hours after arrival, he dies, despite appropriate lifesaving measures. The photograph shows one of the man's kidneys at autopsy. In which of the following locations in the central nervous system did a hemorrhage most likely occur?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Basal ganglia"
+      },
+      {
+        "letter": "B",
+        "text": "Epidural space"
+      },
+      {
+        "letter": "C",
+        "text": "Parietal lobe"
+      },
+      {
+        "letter": "D",
+        "text": "Subarachnoid space"
+      },
+      {
+        "letter": "E",
+        "text": "Subdural space"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. This patient had adult polycystic kidney disease (APKD), a hereditary autosomal dominant condition in which the kidneys become filled with spherical cystic dilations. The disease typically presents with renal failure from about 40 to 60 years of age, and it is characterized by marked renal enlargement due to numerous fluid-filled cysts. APKD is highly associated with hepatic cysts and berry aneurysms in the circle of Willis that may rupture, producing spontaneous subarachnoid hemorrhage. The weakness in the berry aneurysm may be due to lack of the tunica media. Infrequently, APKD also produces cysts in the pancreas, spleen, or lungs, but these are not clinically relevant.\n\nSubarachnoid hemorrhage: ruptured berry aneurysm. Subdural hemorrhage: rupture of bridging veins. Intraparenchymal bleeding: many processes, such as emboli, metastatic disease, trauma, and hypertension. Basal ganglia hemorrhage: associate specifically with hypertension.\n\nHypertensive intracranial bleeds can occur in the basal ganglia (choice A); however, the patient's blood pressure is well controlled. In addition, berry aneurysms can occur with uncontrolled hypertension where long-standing high pressure can weaken the vessel wall and cause aneurysmal outpouching. If the patient did not have polycystic kidney disease and long-standing hypertension was emphasized, a hemorrhagic stroke or berry aneurysm would be considered.\n\nEpidural hemorrhage (choice B) is commonly seen following trauma and fracture to the skull. Classically, the artery damaged is the middle meningeal artery.\n\nIntraparenchymal bleeds such as parietal lobe hemorrhage (choice C) may be secondary to such things as emboli, metastasis, trauma, or hypertension.\n\nSubdural bleeds (choice E) are from rupture of the bridging veins rather than aneurysmal rupture. This is usually seen in patients with cortical atrophy. Trauma to the head usually occurs in older patients and several days to weeks prior to the onset of neurologic dysfunction.",
+    "choice_explanations": {
+      "A": "Basal ganglia hemorrhage is associated with hypertension, but this patient's hypertension is well controlled. Incorrect.",
+      "B": "Epidural hemorrhage follows skull trauma (middle meningeal artery). Incorrect.",
+      "C": "Parietal lobe (intraparenchymal) hemorrhage follows emboli, metastasis, trauma, or hypertension. Incorrect.",
+      "D": "Correct. Adult polycystic kidney disease is associated with berry aneurysms of the circle of Willis that rupture into the subarachnoid space.",
+      "E": "Subdural hemorrhage results from ruptured bridging veins, usually after trauma in patients with cortical atrophy. Incorrect."
+    },
+    "fa_page": 622,
+    "fa_pages": [
+      622
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-b/multisystems-adpkd-kidney-photo.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "A gross photograph of one kidney obtained at autopsy showing markedly enlarged, cystic kidneys (adult polycystic kidney disease).",
+    "explanation_figures_reviewed": false,
+    "explanation_figure_description": "Diagram of intracranial hemorrhage types/locations accompanying the explanation."
+  },
+  {
+    "id": "wordpilot-new-neuro-wernicke-aphasia-superior-temporal-gyrus-20261004",
+    "chapter": "Neurology and Special Senses",
+    "fa_subchapter": "Aphasias",
+    "subcategory": "Effects of stroke / Wernicke aphasia",
+    "stem": "A 72-year-old man with a history of atrial fibrillation and diabetes mellitus is brought to the emergency department by his family. His son says that when the patient awoke that morning, he was unable to use words or sentences that made any sense. Physical examination shows the patient has spontaneous, fluent speech. However, his language is confused and without meaning. He is unable to follow commands, except for closing his eyes. He substitutes words inappropriately when asked to identify objects. He is unable to read and cannot repeat words when asked. The image shows a CT scan of the brain. Damage to which of the following structures is the most likely underlying cause of these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Arcuate fasciculus"
+      },
+      {
+        "letter": "B",
+        "text": "Crus cerebri"
+      },
+      {
+        "letter": "C",
+        "text": "Inferior frontal gyrus"
+      },
+      {
+        "letter": "D",
+        "text": "Meyer's loop (visual radiation)"
+      },
+      {
+        "letter": "E",
+        "text": "Precentral gyrus"
+      },
+      {
+        "letter": "F",
+        "text": "Prefrontal cortex"
+      },
+      {
+        "letter": "G",
+        "text": "Superior temporal gyrus"
+      }
+    ],
+    "answer": "G",
+    "explanation": "The correct answer is G. This patient has Wernicke aphasia, which is caused by a lesion of Wernicke's area. This area is located in the posterior part of the superior temporal gyrus of the language-dominant hemisphere. This conclusion can be reached by the patient's description, and also by the location of the lesion on CT. In the CT, the lesion extends nearly from the occipital pole to the Sylvian fissure, thus encompassing the temporal lobe (in which Wernicke's area resides). This area's blood supply comes from the inferior division of the middle cerebral artery. Atrial fibrillation and diabetes are both important risk factors for stroke, which this patient most likely had. The lesion above is in the left brain (which is shown on the right side on CT), which is the language-dominant hemisphere, the typical side for the language centers in a right-handed individual.\n\nThis patient's description is typical of Wernicke aphasia. Patients have markedly impaired comprehension and therefore do not respond appropriately to questions or commands. A few commands may actually produce a correct response, especially when patients are asked to close their eyes or, occasionally, to stick out their tongues. Spontaneous speech is meaningless and full of nonsensical paraphasic errors (\"word salad\"). Sometimes, neologisms (non-words) are used. However, affected individuals have normal fluency, prosody, and grammar. These patients also have an inability to repeat. In contrast to those with Broca aphasia, these patients are unaware of their deficits. They may exhibit angry or paranoid behavior, sometimes causing them to be misdiagnosed with schizophrenia. A contralateral visual field cut is a common associated feature (particularly of the right upper quadrant) because of interruption of the visual radiations in the temporal lobe (Meyer's loop).\n\nThe arcuate fasciculus (choice A) arises in Wernicke's area and travels to Broca's area. Although this structure may be affected in the present patient, a lesion of this structure could not account for the symptoms that this man is exhibiting. An isolated arcuate fasciculus lesion produces conduction aphasia, characterized by a striking inability to repeat, while language output is relatively preserved; these patients have slow, effortful speech that is agrammatic and telegraphic, and comprehension is largely preserved.\n\nThe crus cerebri (choice B) is located in the midbrain, anterior to the substantia nigra, and contains the corticospinal and corticobulbar fibers of the descending pyramidal system. A lesion here would not produce the observed symptoms. A lesion of the crus cerebri would cause contralateral upper motor neuron signs.\n\nThe inferior frontal gyrus (choice C) is Broca's area. A lesion here produces Broca aphasia (nonfluent, effortful, agrammatic speech with relatively preserved comprehension), which does not fit this patient's fluent but meaningless speech.\n\nThis patient might also have a lesion in Meyer's loop (choice D), the temporal visual radiations, causing a contralateral superior quadrantanopsia, but this would not account for the language findings.\n\nThe precentral gyrus (choice E) is the primary motor cortex; the frontal lobe lies anterior to the lesion shown on CT, and this patient is not described as having motor difficulty.\n\nThe prefrontal cortex (choice F) is located anterior to the lesion shown on CT. Patients with prefrontal lesions can exhibit a variety of symptoms, depending on the location of the lesion, including inappropriate social behavior and loss of executive function, but these do not explain the fluent, meaningless speech.",
+    "choice_explanations": {
+      "A": "The arcuate fasciculus connects Wernicke's to Broca's area; an isolated lesion causes conduction aphasia (impaired repetition with otherwise fluent, largely preserved comprehension). Incorrect.",
+      "B": "The crus cerebri lies in the midbrain and carries corticospinal/corticobulbar fibers; a lesion causes contralateral upper motor neuron signs, not fluent aphasia. Incorrect.",
+      "C": "The inferior frontal gyrus is Broca's area; a lesion causes nonfluent (Broca) aphasia with relatively preserved comprehension. Incorrect.",
+      "D": "Meyer's loop is the temporal visual radiation; a lesion causes a contralateral superior quadrantanopsia, not the language findings described. Incorrect.",
+      "E": "The precentral gyrus is the primary motor cortex, anterior to the lesion on CT; the patient has no motor deficit. Incorrect.",
+      "F": "The prefrontal cortex lies anterior to the lesion and would cause behavioral/executive deficits rather than fluent, meaningless speech. Incorrect.",
+      "G": "Correct. The lesion involves the superior temporal gyrus (Wernicke's area) of the language-dominant hemisphere, producing fluent but meaningless speech with impaired comprehension and repetition (Wernicke aphasia)."
+    },
+    "fa_page": 526,
+    "fa_pages": [
+      526
+    ],
+    "fa_summary": "Wernicke aphasia results from a lesion of the posterior superior temporal gyrus (Wernicke's area) in the language-dominant hemisphere; speech is fluent but meaningless, with poor comprehension and repetition.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-wernicke-aphasia-superior-temporal-gyrus-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Head CT (axial) showing a large hypodense lesion in the left temporal lobe involving the superior temporal gyrus (Wernicke's area), extending from the occipital pole to the Sylvian fissure.",
+    "explanation_figures_reviewed": true,
+    "explanation_figure_description": "Explanation contains a comparison data table of the aphasias (fluency, comprehension, repetition, and lesion location for Wernicke, Broca, and conduction aphasia) plus an inset image of the same brain CT.",
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-neuro-wernicke-aphasia-superior-temporal-gyrus-20261004-e1.png"
+    ]
   }
 ]
