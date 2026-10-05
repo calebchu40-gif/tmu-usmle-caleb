@@ -47355,7 +47355,11 @@
     "fa_page": 452,
     "fa_page_verified": true,
     "fa_summary": "Thoracic outlet syndrome results from compression of the lower trunk of the brachial plexus and the subclavian artery between the anterior and middle scalene muscles, the first rib, and the clavicle (often by a cervical rib), causing C8/T1 sensory-motor deficits and Adson's sign.",
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-msk-thoracic-outlet-syndrome-20261004-e1.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-msk-middle-cerebral-artery-stroke-20261004",
