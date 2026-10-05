@@ -48213,7 +48213,12 @@
     ],
     "fa_page": 500,
     "fa_page_verified": true,
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-embryology-aqueductal-stenosis-20261004-e1.png",
+      "assets/question-figures/handoff-c/wordpilot-new-embryology-aqueductal-stenosis-20261004-e2.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-msk-crest-anticentromere-antibody-panel-20261004",
@@ -51895,6 +51900,1003 @@
     "explanation_images": [
       "assets/question-figures/handoff-c/wordpilot-new-publichealth-biostat-stomach-cancer-primary-prevention-20261004-e1.png"
     ],
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-heme-hereditary-spherocytosis-spectrin-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Intrinsic hemolytic anemias",
+    "subcategory": "Hereditary spherocytosis",
+    "stem": "A 22-year-old woman comes to the physician for a follow-up examination because of anemia that has been present since childhood. Recently, she has been feeling more lightheaded and fatigued. The only medication she is taking is an oral contraceptive pill for birth control. Physical examination shows orthostatic hypotension when changing from sitting to standing position, mild jaundice, and an enlarged spleen. Her peripheral blood smear is shown. Which of the following is most likely to be abnormal in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Glucose-6-phosphate dehydrogenase"
+      },
+      {
+        "letter": "B",
+        "text": "Hemoglobin alpha chain"
+      },
+      {
+        "letter": "C",
+        "text": "Hemoglobin beta chain"
+      },
+      {
+        "letter": "D",
+        "text": "Pyruvate kinase"
+      },
+      {
+        "letter": "E",
+        "text": "Spectrin"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. This patient has hereditary spherocytosis (HS), an autosomal dominant disorder, and the erythrocytes in the figure are spherocytes. These cells lack the normal concave shape due to a decrease in the erythrocyte surface membrane (spherocytosis), and therefore lack the normal central pallor seen in red cells because of a defect in structural cytoskeletal proteins. The specific protein affected may vary, with the most commonly affected proteins being spectrin and ankyrin. Spherocytes are not flexible and are removed in the spleen by macrophages (i.e., extravascular hemolysis). This can lead to splenomegaly with a mild-to-moderate hemolytic anemia, increased bilirubin and an increased risk for jaundice and pigment gallstones secondary to chronic hemolysis, and increased risk for acute red cell aplasia due to parvovirus B19 infection. Note: Although spherocytes may look small, the condition is categorized under normocytic, normochromic anemia.\n\nSpherocytes may be seen in other disorders, but the most sensitive test for the diagnosis of HS is the osmotic fragility test performed after incubating RBCs in hypotonic saline solution for 18-24 hours under sterile conditions at 37°C. Patients with HS are generally given folic acid supplementation, which helps prevent a megaloblastic crisis, but splenectomy should be considered for severe cases, and is often curative.\n\nAbnormalities of glucose-6-phosphate dehydrogenase (choice A) and pyruvate kinase (choice D) can produce intermittent hemolytic normocytic anemias but would not cause all the cells to be spherocytes. Furthermore, red cells in glucose-6-phosphate dehydrogenase will often have Heinz bodies due to precipitation of denatured hemoglobin and \"bite cells\" caused by the action of splenic macrophages on peripheral smear.\n\nAbnormalities of hemoglobin (choices B and C) can produce sickle-cell anemia, hemoglobin C, and the thalassemias. In sickle cell anemia, the red blood cells will be sickle-shaped on peripheral blood smear and in hemoglobin C and thalassemias, target cells are characteristic on peripheral blood smear. Sickle cell disease and hemoglobin C have normocytic normochromic anemia, while thalassemia tend to have microcytic hypochromic anemia.",
+    "choice_explanations": {
+      "A": "G6PD deficiency causes intermittent hemolytic anemia with Heinz bodies and bite cells, not uniform spherocytes. Incorrect.",
+      "B": "Hemoglobin alpha-chain abnormalities cause thalassemia, with target cells/microcytosis, not spherocytes. Incorrect.",
+      "C": "Hemoglobin beta-chain abnormalities cause sickle cell disease, hemoglobin C, or thalassemia. Incorrect.",
+      "D": "Pyruvate kinase deficiency causes intermittent hemolytic normocytic anemia, not spherocytes. Incorrect.",
+      "E": "Correct. Hereditary spherocytosis is an autosomal dominant defect in erythrocyte cytoskeletal proteins (most commonly spectrin or ankyrin), producing spherocytes with extravascular hemolysis."
+    },
+    "fa_page": 428,
+    "fa_pages": [
+      428
+    ],
+    "fa_summary": "Hereditary spherocytosis is an autosomal dominant defect of erythrocyte cytoskeletal proteins (most often spectrin or ankyrin) causing spherocytes, extravascular hemolysis, jaundice, splenomegaly, and pigment gallstones.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/heme-spherocytes-spectrin-q36.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Peripheral blood smear photomicrograph showing spherocytes (small, round red cells lacking central pallor).",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-heme-hodgkin-lymphoma-reed-sternberg-cd30-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Hodgkin lymphoma",
+    "subcategory": "Hodgkin lymphoma",
+    "stem": "A 57-year-old man comes to the physician because of a large mass in his neck. He denies any recent trauma or infections. He has a 3-month history of episodes of night sweats, low grade fever, malaise, and a 6.8 kg (15 lb) weight loss, which he attributes to general loss of appetite. Physical examination shows a 4-cm, nontender, mobile mass in the left posterior neck. The mass is excised. Microscopic examination shows distinct cells shown in the photomicrograph. The surrounding background is comprised of a mixture of lymphocytes, eosinophils, and plasma cells. No collagen fibrosis is identified. Immunohistochemical stains performed on the histologic sections confirm cluster of differentiation (CD) identification. Which of the following markers is most likely present on the labeled cell in the photomicrograph?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CD5"
+      },
+      {
+        "letter": "B",
+        "text": "CD10"
+      },
+      {
+        "letter": "C",
+        "text": "CD11c"
+      },
+      {
+        "letter": "D",
+        "text": "CD20"
+      },
+      {
+        "letter": "E",
+        "text": "CD25"
+      },
+      {
+        "letter": "F",
+        "text": "CD30"
+      },
+      {
+        "letter": "G",
+        "text": "CD33"
+      },
+      {
+        "letter": "H",
+        "text": "CD55"
+      }
+    ],
+    "answer": "F",
+    "explanation": "The correct answer is F. This patient has mixed cellularity Hodgkin disease. Cluster of differentiation (CD) markers are used to identify cell surface molecules on hematopoietic cells. CD molecules act in various ways, such as having roles as receptors or ligands, that are important for the function of the cells. For Step 1, there are certain CD markers that you should be familiar with (see table below), since they are highly testable, especially in the context of lymphoma/leukemia identification and other conditions such as paroxysmal nocturnal hemoglobinuria (PNH). Flow cytometry or tissue immunohistochemical stains are required to determine CD expression.\n\nThere are 5 subtypes of Hodgkin lymphoma:\n• Nodular sclerosis: most common type (65-70%), only subtype more common in females, lymph nodes have broad collagen bands, the Reed Sternberg (RS) cell variant = lacunar cells\n• Mixed cellularity: has mixed inflammatory cells and abundant eosinophils, related to RS cells secretion of IL-5 (our patient)\n• Lymphocyte-rich: composed mainly of reactive lymphocytes, best prognosis; RS cells are present\n• Lymphocyte-depleted: most aggressive form; usually seen in HIV-positive individuals and the elderly; RS cells are present\n• Lymphocyte predominant: has lympho-histiocytic variants (L&H cells, called \"popcorn cells\") that are positive for CD20 and negative for CD15 and CD30, RS cells are absent\n\nThe classic Reed-Sternberg (RS) cells of Hodgkin disease are the neoplastic cells of the disease. Studies employing microdissection and analysis of single isolated Reed-Sternberg cells have shown them to be B lymphocytes with evidence of somatic hypermutation. However, they lack the typical CD markers for B cell identification. In Hodgkin disease, the classic RS cells and the lacunar RS variant cells express CD30, a lymphoid activation antigen, and CD15, a granulocyte antigen. Classic binucleated RS cells and mononuclear variants are seen in the mixed cellularity, lymphocyte depleted, and lymphocyte rich types of Hodgkin disease. The lacunar RS variant is seen in the nodular sclerosis type of Hodgkin disease.\n\nKey points for mixed cellularity Hodgkin lymphoma:\n• Constitutes 20-25% of all Hodgkin disease cases (second most common)\n• Biphasic age distribution: peaks in young adults and adults older than age 55\n• Most cases have Stage 3 or 4 at time of diagnosis.\n• Classic RS cells and mononuclear cells admixed with lymphocytes, eosinophils, plasma cells, and macrophages.\n• 70% of cases: RS cells are EBV positive\n\nCD5 (choice A) is expressed by immature T cells and mature B cells in chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL).\n\nCD10 (choice B) is expressed by follicular center cells, and by pre-B-cell ALL, pre-T-cell ALL cells (CALLA antigen).\n\nCD11c (choice C) is expressed in monocytes, hairy cell leukemia cells, and Langerhans cell histiocytosis.\n\nCD20 (choice D) is a B-cell antigen expressed on mature B lymphocytes, but not plasma cells. The L&H Reed-Sternberg cell variant (popcorn cells), seen in the lymphocyte-predominant form of Hodgkin disease, has a distinctly B cell immunophenotype, which are positive for CD20 and negative for CD15 and CD30. Most B-cell leukemias and lymphomas will express CD20. Our case is that of a mixed cellularity type Hodgkin disease, which would have CD15, CD30 positive Reed-Sternberg cells; not the L&H cells.\n\nCD25 (choice E) is expressed in hairy cell leukemia.\n\nCD33 (choice G) is expressed in myeloid progenitor cells and monocytes. This is a useful marker to identify cells in acute myelogenous leukemia.\n\nCD55 (choice H), also known as decay accelerating factor (DAF), is expressed on hematopoietic and non-hematopoietic cells. DAF is a glycophosphatidylinositol (GPI)-anchored protein. Without GPI, DAF cannot be present on the cell surface. In paroxysmal nocturnal hemoglobinuria (PNH), red blood cells with low levels of DAF and CD59 are susceptible to complement-mediated hemolysis. Additionally, DAF is used as a receptor for some coxsackieviruses and enteroviruses.",
+    "choice_explanations": {
+      "A": "CD5 is expressed by immature T cells and by CLL/SLL and mantle cell lymphoma. Incorrect.",
+      "B": "CD10 is expressed by follicular center cells and pre-B/pre-T ALL (CALLA antigen). Incorrect.",
+      "C": "CD11c is expressed in monocytes, hairy cell leukemia, and Langerhans cell histiocytosis. Incorrect.",
+      "D": "CD20 marks mature B cells and the L&H 'popcorn' cells of lymphocyte-predominant Hodgkin lymphoma. Incorrect.",
+      "E": "CD25 is expressed in hairy cell leukemia. Incorrect.",
+      "F": "Correct. Classic Reed-Sternberg cells of mixed cellularity (and other classic) Hodgkin lymphoma are positive for CD30 (lymphoid activation antigen) and CD15.",
+      "G": "CD33 is expressed on myeloid progenitors and monocytes (acute myelogenous leukemia). Incorrect.",
+      "H": "CD55 (decay accelerating factor) loss is seen in paroxysmal nocturnal hemoglobinuria. Incorrect."
+    },
+    "fa_page": 434,
+    "fa_pages": [
+      434
+    ],
+    "fa_summary": "Classic Reed-Sternberg cells of Hodgkin lymphoma (including the mixed cellularity subtype, which has a mixed inflammatory background with eosinophils and no collagen fibrosis) are positive for CD30 and CD15.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/heme-reed-sternberg-q38.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Photomicrograph of a Reed-Sternberg cell (large cell with abundant cytoplasm and a bilobed nucleus with 'owl's-eye' nucleoli) in a mixed inflammatory background.",
+    "explanation_figures_reviewed": true,
+    "explanation_figure_description": "Data table of cluster of differentiation (CD) markers and their associated cell types/lymphomas-leukemias (e.g., CD5, CD10, CD11c, CD20, CD15/CD30, CD33, CD55) in the explanation.",
+    "explanation_figure_note": "Pure data table in the explanation; could be regenerated as a clean table image.",
+    "explanation_images": [
+      "assets/question-figures/handoff-a/heme-cd-markers-q38-explanation.png"
+    ]
+  },
+  {
+    "id": "wordpilot-new-biochem-cilia-mucociliary-elevator-20261004",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Cilia structure",
+    "subcategory": "Cilia / microtubules (Kartagener syndrome)",
+    "stem": "The micrograph at the top right corner shows a cross-section of the two large structures running from the left to the right of the larger micrograph.\n\nThese structures most likely play a role in which of the following physiologic processes?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Absorption of nutrients from the gastrointestinal tract"
+      },
+      {
+        "letter": "B",
+        "text": "Clearing of mucus from the respiratory tract"
+      },
+      {
+        "letter": "C",
+        "text": "Motility of sperm"
+      },
+      {
+        "letter": "D",
+        "text": "Passage of ions between adjacent cells"
+      },
+      {
+        "letter": "E",
+        "text": "Release of acetylcholine at the neuromuscular junction"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. The two structures illustrated are cilia. These structures are important in clearing mucus from the respiratory tract because they move back and forth to propel fluid and particles in one direction. Incidentally, an important action of cigarette smoke is to markedly decrease (\"paralyze\") cilia action, predisposing for retention of carcinogenic particles.\n\nIn electron micrographs of cilia in cross-section, there will always be a \"9 doublet + 2 central\" structure of microtubules. A major function of cilia involves movement of foreign material from the respiratory tract into the throat (the mucociliary elevator).\n\nNotice the \"9 doublets + 2\" structure of the microtubules that comprise the ciliary axoneme seen under electron microscopy. A pair of dynein arms are attached to one of the subtubules in each pair and are responsible for acting as a motor to cause movement of the cilia. In Kartagener disease, the dynein gene is mutated. This prevents cilia from clearing mucus from the respiratory tract and also causes infertility in men due to defects in sperm locomotion.\n\nAbsorption of nutrients from the gastrointestinal tract (choice A) is a function of microvilli, not cilia.\n\nMotility of sperm (choice C) is a function of flagella. The photomicrograph shows two structures emanating from one cell and also shows an adjacent cell separated by occluding and intermediate junctions. This cannot be a spermatozoon. The structures shown are also much smaller than sperm flagella, which are up to 50 µm long.\n\nPassage of ions between adjacent cells (choice D) is mediated by gap junctions.\n\nAcetylcholine at the neuromuscular junction is released (choice E) by synaptic vesicles.",
+    "choice_explanations": {
+      "A": "Absorption of nutrients from the gastrointestinal tract is a function of microvilli, not cilia. Incorrect.",
+      "B": "Correct. The structures shown are cilia (9 doublets + 2 central microtubules), which clear mucus from the respiratory tract via the mucociliary elevator.",
+      "C": "Motility of sperm is a function of flagella; the structures shown are cilia emanating from a cell and are too small to be sperm flagella. Incorrect.",
+      "D": "Passage of ions between adjacent cells is mediated by gap junctions. Incorrect.",
+      "E": "Acetylcholine at the neuromuscular junction is released by synaptic vesicles, not cilia. Incorrect."
+    },
+    "fa_page": 47,
+    "fa_pages": [
+      47
+    ],
+    "fa_summary": "Motile cilia have a 9 doublet + 2 singlet microtubule (axoneme) structure and clear mucus from the respiratory tract (mucociliary elevator); dynein arm defects cause Kartagener syndrome (immotile cilia, situs inversus, infertility).",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/cell-cilia-axoneme-q03.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Electron micrograph showing a cross-section of cilia with the characteristic \"9 doublets + 2 central\" microtubule arrangement (axoneme), adjacent to cell junctions."
+  },
+  {
+    "id": "wordpilot-new-biochem-gs-adenylate-cyclase-camp-graph-20261004",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Signaling pathways of endocrine hormones",
+    "subcategory": "Gs / adenylate cyclase / cAMP signaling",
+    "stem": "A study is conducted to evaluate the action of a newly discovered endocrine hormone called compound Y. It is hypothesized that compound Y acts via Gs, and an experiment is performed to measure concentrations of GTP, GDP, ATP, and cAMP in pancreatic tissue samples after the addition of isolated compound Y.\n\nThe graph displays responses of two of the four substances. If the hypothesis is correct, which of the following labels best correspond to the measured substances?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Curve 1: ATP; Curve 2: cAMP"
+      },
+      {
+        "letter": "B",
+        "text": "Curve 1: ATP; Curve 2: GDP"
+      },
+      {
+        "letter": "C",
+        "text": "Curve 1: cAMP; Curve 2: ATP"
+      },
+      {
+        "letter": "D",
+        "text": "Curve 1: cAMP; Curve 2: GDP"
+      },
+      {
+        "letter": "E",
+        "text": "Curve 1: GTP; Curve 2: GDP"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. A common mechanism of action of hormones is through the Gs G protein/adenylate cyclase mechanism. The adenylate cyclase mechanism can be outlined as follows: a hormone binds to a membrane receptor, which stimulates Gs protein to activate adenylate cyclase. For the G protein to do this, it uses energy, which it gets by converting GTP to GDP. Adenylate cyclase converts ATP to cAMP; cAMP then activates protein kinase A, which phosphorylates proteins that go on to perform some physiologic action or are inhibited from performing an action. Thus, after activation by a hormone, GTP levels will decrease, GDP will rise, ATP will decrease, and cAMP will rise.\n\nATP levels will not rise (choices A and B), as ATP will be used by adenylate cyclase and be converted to cAMP. Therefore, levels of ATP will decrease and levels of cAMP will increase.\n\nGDP levels will not decline (choices D and E), as GDP will be created by G protein from GTP.\n\nWhen Gs is stimulated, ATP is converted to cAMP via adenylate cyclase.",
+    "choice_explanations": {
+      "A": "ATP will not rise; it is consumed by adenylate cyclase. Incorrect.",
+      "B": "ATP will not rise and GDP does not decline (GDP is generated from GTP). Incorrect.",
+      "C": "Correct. Following Gs activation, ATP is converted to cAMP by adenylate cyclase, so ATP decreases (curve 2) and cAMP increases (curve 1).",
+      "D": "GDP rises (created from GTP), not declines; and cAMP is the rising curve. Incorrect.",
+      "E": "GDP will not decline; it is generated by the G protein from GTP. Incorrect."
+    },
+    "fa_page": 341,
+    "fa_pages": [
+      341
+    ],
+    "fa_summary": "Gs-coupled receptors activate adenylate cyclase, which converts ATP to cAMP (↑cAMP, ↓ATP) while the G protein converts GTP to GDP (↓GTP, ↑GDP); cAMP then activates protein kinase A.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/cell-gs-camp-graph-q09.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Line graph of substance concentration versus time showing two curves (curve 1 and curve 2) after addition of compound Y."
+  },
+  {
+    "id": "wordpilot-new-biochem-smooth-er-steroid-corpus-luteum-20261004",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Smooth endoplasmic reticulum",
+    "subcategory": "Smooth endoplasmic reticulum / steroid synthesis",
+    "stem": "The electron micrograph shows cells from a human corpus luteum during pregnancy. The structures labeled with the arrow are much more abundant in these cells than in the cells from which luteal cells are derived in a non-pregnant individual.\n\nThis increase is most likely directly related to which of the following cellular functions?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Beta-oxidation of very long chain fatty acids"
+      },
+      {
+        "letter": "B",
+        "text": "Degradation of DNA"
+      },
+      {
+        "letter": "C",
+        "text": "Oxidative phosphorylation"
+      },
+      {
+        "letter": "D",
+        "text": "Post-translational modification of proteins"
+      },
+      {
+        "letter": "E",
+        "text": "Steroid hormone synthesis"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. The structure illustrated is smooth endoplasmic reticulum (SER), which is a network of membranous sacs, vesicles, and tubules continuous with the rough endoplasmic reticulum, but lacking ribosomes. SER contains enzymes involved in the biosynthesis of phospholipids, triglycerides, and sterols, including the steroid hormones. Corpus luteum cells are active synthesizers of female sex hormones, and consequently develop abundant smooth endoplasmic reticulum. SER additionally can function in detoxification reactions, glycogen degradation, gluconeogenesis, and lipoprotein particle assembly.\n\nBeta-oxidation of very long chain fatty acids (choice A) occurs in peroxisomes.\n\nDegradation of DNA (choice B) occurs in lysosomes.\n\nOxidative phosphorylation (choice C) occurs in mitochondria.\n\nPost-translational modification of proteins (choice D) occurs in the Golgi apparatus.\n\nThe smooth endoplasmic reticulum (SER) is the site of lipid modification. Cells that are actively synthesizing fat-soluble hormones have abundant SER (SER is unique to cells that make steroid hormones: testes, ovaries, adrenal cortex).",
+    "choice_explanations": {
+      "A": "Beta-oxidation of very long chain fatty acids occurs in peroxisomes. Incorrect.",
+      "B": "Degradation of DNA occurs in lysosomes. Incorrect.",
+      "C": "Oxidative phosphorylation occurs in mitochondria. Incorrect.",
+      "D": "Post-translational modification of proteins occurs in the Golgi apparatus. Incorrect.",
+      "E": "Correct. The arrow indicates smooth endoplasmic reticulum, which is abundant in steroid-producing cells such as corpus luteum and is the site of steroid hormone synthesis."
+    },
+    "fa_page": 45,
+    "fa_pages": [
+      45
+    ],
+    "fa_summary": "Smooth endoplasmic reticulum (lacks ribosomes) is the site of steroid synthesis and drug detoxification; it is abundant in steroid hormone-producing cells (corpus luteum, adrenal cortex, gonads) and hepatocytes.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/cell-smooth-er-q14.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Electron micrograph of human corpus luteum cells showing abundant smooth endoplasmic reticulum (arrow) — membranous tubules/sacs lacking ribosomes."
+  },
+  {
+    "id": "wordpilot-new-biochem-rough-er-lysosomal-protein-synthesis-20261004",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Rough endoplasmic reticulum",
+    "subcategory": "Rough endoplasmic reticulum / protein targeting",
+    "stem": "A researcher is studying the functions of a cellular organelle. As part of his study, he takes electron micrographs of the relevant tissue and examines the ultrastructural characteristics of the organelle.\n\nWhich of the following is the most likely function of the organelle indicated by the arrow?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Addition of mannose 6-phosphate residues to proteins"
+      },
+      {
+        "letter": "B",
+        "text": "Sorting and packaging of proteins"
+      },
+      {
+        "letter": "C",
+        "text": "Synthesis of proteins destined for incorporation into lysosomes"
+      },
+      {
+        "letter": "D",
+        "text": "Synthesis of proteins destined for incorporation into peroxisomes"
+      },
+      {
+        "letter": "E",
+        "text": "Synthesis of triglycerides"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. This organelle is the rough endoplasmic reticulum, one function of which is to synthesize proteins destined for incorporation into the lysosomes. The rough endoplasmic reticulum is visualized under the electron microscope as parallel arrays of membrane-bound cisternae populated with multiple electron dense dots. Proteins destined to be secreted, membrane-bound, or lysosomal all have an N-terminal hydrophobic signal sequence during synthesis on cytoplasmic ribosomes. The amino acid sequence is recognized by the \"signal recognition particle,\" which attaches the growing peptide and ribosomal complex to the endoplasmic reticulum (RER) and opens up a channel to allow the peptide to be threaded into the lumen of the ER.\n\nEnzymes that are targeted to lysosomes in this way require posttranslational modification in the Golgi apparatus. Phosphotransferase activity in the Golgi leads to phosphorylation of mannose residues on the enzymes, which is recognized by a receptor for subsequent sorting to the lysosome. A defect in phosphotransferase activity causes I-cell disease. Lysosomal enzymes are finally targeted into the lysosomes, where they degrade sugars (glycosidases) and proteins (proteases).\n\nProtein sorting and packaging (choice B) and addition of mannose-6-phosphate residues to proteins (choice A) are functions of the Golgi apparatus.\n\nSynthesis of proteins destined for incorporation into peroxisomes (choice D) occurs on free polysomes and synthesis of triglycerides (choice E) occurs in smooth endoplasmic reticulum.\n\nLysosomal enzymes are synthesized on the rough ER; subsequent modification occurs in the Golgi apparatus before the enzymes are finally targeted into the lysosomes.",
+    "choice_explanations": {
+      "A": "Addition of mannose-6-phosphate residues to proteins is a Golgi function. Incorrect.",
+      "B": "Sorting and packaging of proteins is a Golgi function. Incorrect.",
+      "C": "Correct. The organelle is rough endoplasmic reticulum, whose ribosome-studded cisternae synthesize proteins destined for the lysosome (and for secretion/membrane insertion).",
+      "D": "Proteins destined for peroxisomes are synthesized on free polysomes. Incorrect.",
+      "E": "Triglyceride synthesis occurs in the smooth endoplasmic reticulum. Incorrect."
+    },
+    "fa_page": 45,
+    "fa_pages": [
+      45
+    ],
+    "fa_summary": "Rough endoplasmic reticulum (ribosome-studded cisternae) synthesizes secretory, membrane, and lysosomal proteins via an N-terminal signal sequence recognized by the signal recognition particle; Golgi phosphotransferase then adds mannose-6-phosphate for lysosomal targeting (defect = I-cell disease).",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/cell-rough-er-q16.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Electron micrograph of an organelle composed of parallel arrays of membrane-bound cisternae studded with electron-dense ribosomes (rough endoplasmic reticulum)."
+  },
+  {
+    "id": "wordpilot-new-msk-spect-dural-sinus-transverse-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Cerebral blood supply",
+    "subcategory": "Cerebral blood supply",
+    "stem": "A 29-year-old woman comes to the physician because of a headache that began several days ago and has become progressively worse. A single-photon emission computed tomography (SPECT) image using technetium (Tc)-labeled red blood cells is shown. Greater blood flow is indicated by orange to red colors and poor blood flow is indicated by blue or lack of signal. Which of the following structures shows an abnormal blood profusion pattern according to this imaging study?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Inferior sagittal sinus"
+      },
+      {
+        "letter": "B",
+        "text": "Internal jugular vein"
+      },
+      {
+        "letter": "C",
+        "text": "Middle cerebral artery"
+      },
+      {
+        "letter": "D",
+        "text": "Posterior cerebral artery"
+      },
+      {
+        "letter": "E",
+        "text": "Superior sagittal sinus"
+      },
+      {
+        "letter": "F",
+        "text": "Transverse sinus"
+      }
+    ],
+    "answer": "F",
+    "explanation": "The correct answer is F. There is a marked signal asymmetry in this image. The right transverse sinus (shown on the left side of the image) has markedly less signal than the left transverse sinus, revealing lack of blood flow in this region.\n\nThe transverse sinus receives blood from the superior sagittal sinus, occipital sinus, and the straight sinus at the confluence of sinuses. It transports the blood along the posterior skull to the sigmoid sinus.\n\nThe inferior sagittal sinus (choice A) runs along the inferior free margin of the falx cerebri and receives blood from the medial aspects of the hemispheres and from the falx cerebri.\n\nThe internal jugular veins (choice B) are not visible at this level. The internal jugular veins receive venous blood from the sigmoid sinus, the inferior petrosal sinus, and other tributaries from the face and neck. (The two yellow spots of signal, medial and posterior to the eyeballs, are the internal carotid arteries.)\n\nThe middle cerebral artery (choice C) arises from the internal carotid and supplies the lateral convexity of the cerebral hemisphere. Branches (lateral striate arteries) supply the internal capsule, caudate, putamen, and globus pallidus.\n\nThe posterior cerebral artery (choice D) arises from the basilar artery and supplies the occipital lobe, inferior surface of the temporal lobe, thalamus, and midbrain.\n\nThe superior sagittal sinus (choice E) can be seen in the midline at the posterior part of this image (looks like a triangle). However, there is high-intensity signal there, representing good blood flow.",
+    "choice_explanations": {
+      "A": "The inferior sagittal sinus runs along the inferior free margin of the falx cerebri and receives blood from the medial hemispheres; it is not the asymmetric structure shown. Incorrect.",
+      "B": "The internal jugular veins are not visible at this level. Incorrect.",
+      "C": "The middle cerebral artery supplies the lateral convexity of the hemisphere (and deep structures via lateral striate arteries); it is not a venous sinus. Incorrect.",
+      "D": "The posterior cerebral artery supplies the occipital lobe, inferior temporal lobe, thalamus, and midbrain. Incorrect.",
+      "E": "The superior sagittal sinus is seen in the midline posteriorly but shows high-intensity signal (good blood flow), so it is not abnormal. Incorrect.",
+      "F": "Correct. The right transverse sinus shows markedly less signal than the left, indicating lack of blood flow in that region."
+    },
+    "fa_page": 514,
+    "fa_pages": [
+      514
+    ],
+    "fa_summary": "Dural venous sinuses drain cerebral venous blood into the internal jugular veins; the superior sagittal, straight, and occipital sinuses converge at the confluence of sinuses, from which the two transverse sinuses extend laterally and drain into the sigmoid sinuses.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/anatomy-spect-dural-sinus-q11.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Axial SPECT perfusion image of the brain using technetium (Tc)-labeled red blood cells, with blood flow coded by color (orange/red = greater flow, blue/absent signal = poor flow), showing markedly reduced signal in one transverse sinus.",
+    "explanation_figure_description": "Diagram of the dural venous sinuses (superior sagittal, inferior sagittal, straight, transverse, sigmoid, and the confluence of sinuses) in relation to the falx cerebri and tentorium cerebelli, showing how cerebral veins drain into the internal jugular veins.",
+    "explanation_figures_reviewed": true,
+    "explanation_images": [
+      "assets/question-figures/handoff-a/anatomy-dural-sinuses-q11-explanation.png"
+    ]
+  },
+  {
+    "id": "wordpilot-new-resp-tb-secondary-cavitary-apex-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Mycobacteria",
+    "subcategory": "Mycobacteria",
+    "stem": "A 42-year-old woman comes to the physician because of a 4.5-kg (10-lb) weight loss over the last month and a 4-month history of blood-tinged sputum. She has also had fever and night sweats, but denies any sick contacts. She immigrated to the U.S. from Southeast Asia 20 years ago. She has traveled to Southeast Asia several times to visit family and friends. Recent travel was 1 year ago. Her temperature is 37.7C (99.8F), pulse is 72/min, respirations are 18/min, and blood pressure is 130/78 mm Hg. Physical examination shows decreased lung sounds and fine crackles in the right upper lung lobe. A PPD test shows a 7 mm induration at the site of injection after 2 days. HIV ELISA test is negative. A photomicrograph of a sputum sample is shown. A chest x-ray is performed and confirms the diagnosis. Which of the following lesions would most likely be present in the chest x-ray?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A cavitary lesion in the basilar part of the lower lobe"
+      },
+      {
+        "letter": "B",
+        "text": "A single lesion in a lung apex"
+      },
+      {
+        "letter": "C",
+        "text": "A single lesion subjacent to the pleura"
+      },
+      {
+        "letter": "D",
+        "text": "A subpleural lesion and a lesion in the mediastinal lymph nodes"
+      },
+      {
+        "letter": "E",
+        "text": "Multiple tiny lesions throughout the lungs"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. This patient most likely has secondary tuberculosis rather than primary tuberculosis, as suggested by the history of migration from Southeast Asia. Many of the newly diagnosed pulmonary TB cases in adults are actually due to reactivation. Patients are symptomatic, with fever, night sweats, weight loss, and cough. The re-infection site usually is in the apex of the lung (Simon focus). Although not mentioned in this question, BCG vaccination is commonly used in various countries and may cause a false-positive PPD test; even if a patient had a BCG vaccine, they may still acquire TB and should be treated if the PPD is positive. A cavitary lesion in the basilar part of the lower lobe (choice A) is less likely to occur since oxygen concentrations are higher in the apical aspects of the lung lobes. A single lesion subjacent to the pleura (choice C) reflects primary tuberculosis (TB) infection, which occurs in patients with no prior exposure or sensitization; such lesions are characteristically located in either the lower part of the upper lobe or the upper part of a lower lobe of one lung. The mediastinal nodes are also involved (choice D) in primary tuberculosis (Ghon complex). Miliary TB, a rare, widely disseminated and dangerous form of TB, is characterized by small lesions throughout the lungs (choice E) and the rest of the body, and occurs when the patient is immunocompromised.",
+    "choice_explanations": {
+      "A": "Basilar cavitary lesions are less likely because oxygen concentration is higher at the apices.",
+      "B": "Reactivation (secondary) TB characteristically produces an apical lesion (Simon focus).",
+      "C": "A single subpleural lesion reflects primary TB (Ghon focus).",
+      "D": "Subpleural lesion plus mediastinal nodes is the primary TB Ghon complex.",
+      "E": "Multiple tiny lesions throughout the lungs indicate miliary TB."
+    },
+    "fa_page": 138,
+    "fa_pages": [
+      138
+    ],
+    "fa_summary": "Reactivation tuberculosis classically produces an apical cavitary lesion (Simon focus).",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/resp-afb-smear-q03.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Sputum photomicrograph (acid-fast stain) showing red rod-shaped acid-fast bacilli (Mycobacterium tuberculosis) on a blue background."
+  },
+  {
+    "id": "wordpilot-new-resp-chf-hemosiderin-laden-macrophages-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Heart failure",
+    "subcategory": "Heart failure",
+    "stem": "Lung tissue obtained at autopsy of a 65-year-old man is shown. The lungs had a combined weight of 1,500 g (normal: < 800 g). The patient had a long history of dyspnea, weakness, lower extremity edema, and orthopnea. Histologic examination shows numerous hemosiderin-laden alveolar macrophages. Which of the following is the most likely underlying cause of these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Asbestosis"
+      },
+      {
+        "letter": "B",
+        "text": "Asthma"
+      },
+      {
+        "letter": "C",
+        "text": "Bronchogenic carcinoma"
+      },
+      {
+        "letter": "D",
+        "text": "Chronic obstructive pulmonary disease"
+      },
+      {
+        "letter": "E",
+        "text": "Congestive heart failure"
+      },
+      {
+        "letter": "F",
+        "text": "Histoplasmosis"
+      },
+      {
+        "letter": "G",
+        "text": "Lipid pneumonia"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. The presence of many macrophages with hemosiderin within the alveolar cavities indicates leakage of red blood cells from pulmonary vessels into alveolar spaces. These red blood cells are phagocytosed by alveolar macrophages and break down into iron-rich hemosiderin deposits. This finding, in conjunction with that of heavy (ie, edematous) lungs, makes congestive heart failure (CHF) the most likely answer. In fact, hemosiderin-laden macrophages are so frequent in the lungs of patients suffering with CHF that they are often referred to as heart-failure cells. High pulmonary capillary pressure from backward CHF causes erythrocytes to escape into the alveoli. Left-sided CHF (poor left ventricular contractility) results in back-up of fluid into the left atrium and pulmonary vasculature. Symptoms in patients with CHF include dyspnea, orthopnea, and peripheral edema; these macrophages are typically found in the lower lung lobes. Asbestosis (choice A) produces ferruginous bodies and increases risk of squamous cell carcinoma and mesothelioma. Asthma (choice B) is associated with Charcot-Leyden crystals and eosinophils. Bronchogenic carcinoma (choice C) shows exfoliated neoplastic cells with atypical features. COPD (choice D) may show Curschmann spirals and causes right-sided heart strain but not left-sided CHF. In histoplasmosis (choice F), macrophages are filled with yeast forms (3-5 um). Lipid pneumonia (choice G) shows macrophages laden with lipid vacuoles.",
+    "choice_explanations": {
+      "A": "Asbestosis produces ferruginous bodies, not hemosiderin-laden macrophages.",
+      "B": "Asthma is associated with Charcot-Leyden crystals.",
+      "C": "Bronchogenic carcinoma shows exfoliated neoplastic cells.",
+      "D": "COPD produces Curschmann spirals and right heart strain.",
+      "E": "Left-sided heart failure causes pulmonary congestion with hemosiderin-laden 'heart-failure' cells.",
+      "F": "Histoplasmosis shows yeast-filled macrophages.",
+      "G": "Lipid pneumonia shows lipid-laden macrophages."
+    },
+    "fa_page": 316,
+    "fa_pages": [
+      316
+    ],
+    "fa_summary": "Hemosiderin-laden alveolar macrophages ('heart-failure cells') indicate pulmonary congestion from left-sided congestive heart failure.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/resp-chf-lung-histo-q08.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Photomicrograph of lung tissue showing numerous hemosiderin-laden alveolar macrophages ('heart-failure cells') in a congested, edematous lung."
+  },
+  {
+    "id": "wordpilot-new-resp-miliary-tuberculosis-lung-autopsy-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Mycobacteria",
+    "subcategory": "Mycobacteria",
+    "stem": "A 42-year-old man is admitted to the hospital because of fever, malaise, and increasing shortness of breath. His temperature is 38.8C (101.8F), pulse is 73/min, respirations are 20/min, and blood pressure is 128/76 mm Hg. Physical examination shows decreased breath sounds and crackles in all fields. Laboratory studies show Na of 120 mEq/L, Cl of 82 mEq/L, and K of 5.5 mEq/L. Western blot is positive for HIV, and the CD4 count is 75 cells/mm3. CT scan reveals multiple, small nodules in the lungs, hilar lymph nodes, spleen, and adrenal glands. Sputum culture reveals growth of Mycobacterium tuberculosis. Despite adequate therapy, he dies. A photograph of one of the patient's lungs obtained at autopsy is shown. Which of the following is the most likely underlying cause of this patient's condition?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bronchopneumonia"
+      },
+      {
+        "letter": "B",
+        "text": "Ghon complex"
+      },
+      {
+        "letter": "C",
+        "text": "Metastatic tumor"
+      },
+      {
+        "letter": "D",
+        "text": "Miliary process"
+      },
+      {
+        "letter": "E",
+        "text": "Simon focus"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. Miliary tuberculosis (TB) is a form of progressive pulmonary tuberculosis that may occur as a result of primary infection or secondary reactivation. Miliary TB occurs when the patient is immunocompromised (e.g., HIV/AIDS, congenital immunodeficiency) or immunosuppressed (e.g., medications such as chemotherapy, corticosteroids). It develops by lymphohematogenous dissemination of bacilli, where organisms are drained into the lung lymphatic channels, empty into the venous return, then into the pulmonary artery. This results in formation of innumerable small, nodular caseating granulomas throughout the involved organs. These lesions appear grossly as seedlike white-gray lesions, 1 to 3 mm in size. The recent surge in AIDS cases is the principal reason for a resurgence of tuberculosis in industrialized countries. Because this patient has involvement of the adrenal glands by miliary TB, he also presents with adrenal insufficiency (Addison disease). Bronchopneumonia (choice A) comprises scattered, patchy yellow, purulent areas of consolidation, not nodular lesions. Ghon complex (choice B) is a form of primary pulmonary tuberculosis consisting of a subpleural Ghon focus plus involved hilar lymph nodes. Metastatic tumor (choice C) presents as multiple large lesions. Simon focus (choice E) is an apical lesion of reactivation TB.",
+    "choice_explanations": {
+      "A": "Bronchopneumonia produces patchy consolidation rather than innumerable nodules.",
+      "B": "Ghon complex is the primary TB subpleural focus plus hilar nodes.",
+      "C": "Metastatic tumor produces multiple large lesions.",
+      "D": "Miliary TB produces innumerable small seedlike caseating granulomas via lymphohematogenous spread in an immunocompromised host.",
+      "E": "Simon focus is an apical reactivation lesion."
+    },
+    "fa_page": 138,
+    "fa_pages": [
+      138
+    ],
+    "fa_summary": "Miliary tuberculosis results from lymphohematogenous dissemination, producing innumerable small caseating granulomas ('millet seeds') throughout organs.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-a/resp-miliary-tb-lung-q12.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Gross autopsy photograph of a lung showing innumerable small, seed-like white-gray nodules (miliary tuberculosis)."
+  },
+  {
+    "id": "wordpilot-new-genetics-incomplete-penetrance-20261004",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "subcategory": "Genetics",
+    "stem": "A family with a hereditary condition that results in hypercholesterolemia comes to the physician for genetic counseling. The serum LDL cholesterol for individuals B, C, and F is ~300 mg/dL. All other individuals have normal LDL levels (<100 mg/dL). Blood samples are taken for dot-blot hybridization using allele-specific oligonucleotide (ASO) probes for the condition associated with their hypercholesterolemia. In the family pedigree, members with severely elevated serum LDL levels are labeled in black. A positive dot-blot hybridization with the ASO is also shown in black. Which of the following phenomena best explains the results seen in this family?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Anticipation"
+      },
+      {
+        "letter": "B",
+        "text": "Imprinting"
+      },
+      {
+        "letter": "C",
+        "text": "Incomplete penetrance"
+      },
+      {
+        "letter": "D",
+        "text": "Pleiotropy"
+      },
+      {
+        "letter": "E",
+        "text": "X-linked recessive inheritance"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. The situation provided is an example of incomplete penetrance, in which inheritance of a diseased allele does not necessarily result in the disease phenotype. In the image, the disease is shown to be transmitted in an autosomal dominant manner, with the presence of a black dot on the ASO dot-blot analysis corresponding to the presence of the diseased allele. However, individual E possesses the diseased allele, but does not exhibit the disease. It is common for diseases with autosomal dominant inheritance to show incomplete penetrance.\n\nPenetrance refers to the proportion of people with a particular genetic change who exhibit features of the disorder. If some people with the mutation do not develop features of the disorder, the condition is said to have incomplete penetrance.\n\nAnticipation (choice A) is the phenomenon whereby affected individuals in a family will present with symptoms of a genetic disorder earlier in life with each successive generation. Classic examples of anticipation include trinucleotide repeat diseases such as Huntington disease, myotonic dystrophy, and fragile X syndrome.\n\nImprinting (choice B) describes the phenomenon whereby certain genes are post-transcriptionally modified (i.e., methylation, histone acetylation) to affect transmission of the trait and gene expression in a sex-specific manner. For example, certain gene regions on a chromosome will be post-transcriptionally modified in a male gamete, which would otherwise be unchanged in the female. Classic diseases involving genomic imprinting include Angelman syndrome and Prader-Willi syndrome.\n\nPleiotropy (choice D) is the phenomenon whereby a single gene defect affects numerous, seemingly unrelated phenotypes. An example of this is albinism, in which a single gene defect affects pigmentation but also can present with visual problems.\n\nX-linked recessive inheritance (choice E) would be incorrect because hypercholesterolemia is an autosomal dominant disease. Additionally, if this were an X-linked recessive disease it would be highly unlikely that individual F would be affected since she would have to inherit a mutant allele from her mother who would most likely have a normal genotype.",
+    "choice_explanations": {
+      "A": "Anticipation is earlier onset/more severe disease in successive generations (e.g., trinucleotide repeats). Incorrect.",
+      "B": "Imprinting is sex-specific post-transcriptional modification of genes (e.g., Prader-Willi/Angelman). Incorrect.",
+      "C": "Correct. Individual E carries the disease allele (positive ASO dot-blot) yet does not express the disease — incomplete penetrance.",
+      "D": "Pleiotropy is one gene causing multiple unrelated phenotypes. Incorrect.",
+      "E": "The disease is autosomal dominant, not X-linked recessive; individual F is affected, which is inconsistent with X-linked recessive. Incorrect."
+    },
+    "fa_page": 54,
+    "fa_pages": [
+      54
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-genetics-incomplete-penetrance-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Family pedigree (black symbols = elevated LDL) combined with an allele-specific oligonucleotide (ASO) dot-blot grid showing which members carry the mutant allele.",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-genetics-xlinked-pedigree-20261004",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Genetics",
+    "subcategory": "Genetics",
+    "stem": "A 27-year-old primigravid woman presents with a family history of an immunodeficiency syndrome. She states that her maternal uncle and a male cousin died early in life from complications of the disease, and her older brother has also been recently diagnosed with the same disease. Her family pedigree is shown. Assuming that her husband is genotypically normal, which of the following is the probability that this patient's child will have the disease?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "100%"
+      },
+      {
+        "letter": "B",
+        "text": "50%"
+      },
+      {
+        "letter": "C",
+        "text": "25%"
+      },
+      {
+        "letter": "D",
+        "text": "12.5%"
+      },
+      {
+        "letter": "E",
+        "text": "0%"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. As shown in the pedigree, this patient's uncle (II-1) was afflicted with this immunodeficiency syndrome. He must have inherited the responsible allele from his parents (I-1 or I-2). Since neither I-1 nor I-2 had the disease, we know that this allele must be recessive. Additionally, both her male cousin (III-1) and her brother (II-3) have the disease, but none of the females in the family have this disease.\n\nAll of this data points to an X-linked recessive condition. The fact that the patient's brother has the disease means that her mother must be a carrier. In this case, there is a 50% chance that the patient has inherited her mother's affected X chromosome. Because this disease is X-linked recessive, 50% of the sons of carrier females will have the disease and 50% of daughters of carrier females will be carriers, but none of her daughters will have the disease.\n\nTherefore, the chance that her child will have the disease is 0.5 (chance that the patient is a carrier) × 0.5 (chance that she will have a son) × 0.5 (chance that her son will inherit the affected X chromosome), which is 0.125 or 12.5%.\n\nA family pedigree showing only affected males suggests an X-linked recessive condition. There is a 50% chance that a female carrier of an X-linked condition will transmit the disease; if the child who inherits the affected X chromosome is female, she will be a carrier; if the child is male, he will have the disease.",
+    "choice_explanations": {
+      "A": "100% would require a fully penetrant dominant or a homozygous-affected scenario. Incorrect.",
+      "B": "50% would be the chance that she is a carrier (or that she has a son), not that her child is affected. Incorrect.",
+      "C": "25% would be the risk for an autosomal recessive carrier couple. Incorrect.",
+      "D": "Correct. 0.5 (she is a carrier) × 0.5 (a son) × 0.5 (son inherits the affected X) = 0.125 = 12.5%.",
+      "E": "0% is wrong because she may be a carrier (her brother is affected). Incorrect."
+    },
+    "fa_page": 59,
+    "fa_pages": [
+      59
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-genetics-xlinked-pedigree-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Family pedigree (three generations) showing only affected males, consistent with an X-linked recessive immunodeficiency syndrome.",
+    "explanation_figures_reviewed": true
+  },
+  {
+    "id": "wordpilot-new-histology-histology-bladder-transitional-epithelium-20261004",
+    "chapter": "Renal",
+    "fa_subchapter": "Urothelial (transitional cell) carcinoma",
+    "subcategory": "Urothelial (transitional cell) carcinoma",
+    "stem": "A 38-year-old woman comes to the emergency department because of pelvic pain 30 minutes after being involved in a motor vehicle collision. A CT scan of the pelvis shows no abnormalities. Which of the following cell types would most likely be found in the structure indicated by the arrow on the CT scan?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Chromaffin cells"
+      },
+      {
+        "letter": "B",
+        "text": "Goblet cells"
+      },
+      {
+        "letter": "C",
+        "text": "Spiral arteries"
+      },
+      {
+        "letter": "D",
+        "text": "Stratified squamous epithelium"
+      },
+      {
+        "letter": "E",
+        "text": "Transitional epithelium"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is E. The urinary bladder (marked here with an arrow) is lined with an epithelium of mushroom-shaped cells called transitional cells. The transitional cell epithelium lines the renal calyces, the renal pelvis, and the ureters, as well as the urinary bladder.\nTransitional epithelium is well suited for lining the walls of the bladder, ureters, and renal pelvis because it has the ability to change shape and number of layers as the wall of the organ stretches as it fills with urine. In addition, fluid transfer does not occur across a transitional epithelium, which is well suited for organs that contain urine.\nChromaffin cells (choice A) are found in the adrenal medulla. They synthesize and secrete epinephrine.\nGoblet cells (choice B) are mucus-secreting cells in the gastrointestinal and respiratory tracts, and are not found in the bladder.\nThe spiral arteries (choice C) are found in the endometrium of the uterus. They are noteworthy because under the influence of estrogens and progesterone, these arteries degenerate and regenerate with each menstrual cycle. When these arteries degenerate, the endometrium in the distribution zone of these vessels dies and sloughs.\nThe nearest structure in the CT scan with a stratified squamous epithelium (choice D) is the uterine cervix. The arrow does not indicate the cervix, which is posterior to the bladder. Stratified squamous epithelium is also found in skin, mouth and esophagus, and vagina.",
+    "choice_explanations": {
+      "A": "Chromaffin cells are found in the adrenal medulla.",
+      "B": "Goblet cells are mucus-secreting cells of the GI and respiratory tracts.",
+      "C": "Spiral arteries are found in the endometrium of the uterus.",
+      "D": "The nearest stratified squamous epithelium is the uterine cervix, which is posterior to the bladder.",
+      "E": "Correct. The urinary bladder is lined by transitional epithelium."
+    },
+    "fa_page": 624,
+    "fa_pages": [
+      624
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-histology-histology-bladder-transitional-epithelium-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "CT scan of the pelvis with an arrow indicating the urinary bladder."
+  },
+  {
+    "id": "wordpilot-new-histology-histology-type-ii-pneumocyte-surfactant-20261004",
+    "chapter": "Respiratory",
+    "fa_subchapter": "Neonatal respiratory distress syndrome",
+    "subcategory": "Neonatal respiratory distress syndrome",
+    "stem": "A 19-year-old man is brought to the emergency department because of a gunshot wound to the chest. An emergency thoracotomy is performed, and in order to stop the bleeding, a segment of lung is removed. A photomicrograph of a section of lung resected during the thoracotomy is shown. Which of the following products is produced by the cells indicated by the arrows?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alkaline phosphatase"
+      },
+      {
+        "letter": "B",
+        "text": "Hydrochloric acid"
+      },
+      {
+        "letter": "C",
+        "text": "Immunoglobulin"
+      },
+      {
+        "letter": "D",
+        "text": "Major basic protein"
+      },
+      {
+        "letter": "E",
+        "text": "Mucus"
+      },
+      {
+        "letter": "F",
+        "text": "Surfactant"
+      },
+      {
+        "letter": "G",
+        "text": "von Willebrand factor"
+      },
+      {
+        "letter": "H",
+        "text": "Zymogen"
+      }
+    ],
+    "answer": "F",
+    "explanation": "The correct answer is F. This is a photomicrograph of lung alveolar walls or septa. Type II pneumocytes are cuboidal-like with round nuclei and a washed-out or foamy cytoplasm. This cytoplasmic appearance is due to the lipid content. Lamellar bodies (secretory granules) of these cells contain a complex of phospholipids, proteins, and carbohydrates known as surfactant. Surfactant serves to reduce the surface tension within the alveoli and prevents collapse of the alveolus during expiration. Type II pneumocytes also serve as the stem cell that produces Type I pneumocytes, which form about 90% of the surface area of the alveoli and are the cells across which gas exchange occurs. Alveolar macrophages are also present in the lumen of the alveoli.\nOsteoblasts, which produce alkaline phosphatase (choice A), might be confused with these cells. However, osteoblasts line bone and have more of an epithelial-lining appearance.\nHydrochloric acid (choice B) is produced by gastric parietal cells. Such cells are interspersed among protein-producing cells. Other HCl-producing cells are found in the body, but not in the alveolar wall environment.\nImmunoglobulins (choice C) are secreted by plasma cells, which are lymphoid cells and consequently connective tissue cells. The cells in the micrograph are attached to a basal lamina, so they cannot be plasma cells.\nMajor basic protein (choice D) is produced by eosinophils. The labeled cells do not have the nuclear lobulation that is typical of eosinophils.\nMucous cells (choice E), such as those found in salivary gland tissue, would give a similar cytoplasmic appearance; however, nuclei of such cells are usually flattened and pushed to the side next to the basement membrane.\nThe indicated cells are not flat (squamous) enough to be confused with endothelial cells. Such cells produce von Willebrand factor (factor VIII, choice G), and may be seen surrounding vessels in the alveolar walls. Zymogen granules (choice H) are composed of precursors of proteolytic enzymes found as small droplets in the cytoplasm of pancreatic acinar cells.",
+    "choice_explanations": {
+      "A": "Alkaline phosphatase is produced by osteoblasts, which line bone.",
+      "B": "Hydrochloric acid is produced by gastric parietal cells.",
+      "C": "Immunoglobulins are secreted by plasma cells (connective tissue cells).",
+      "D": "Major basic protein is produced by eosinophils, which have a lobulated nucleus.",
+      "E": "Mucous cell nuclei are flattened and peripheral, unlike the labeled cells.",
+      "F": "Correct. Type II pneumocytes produce surfactant, stored in lamellar bodies.",
+      "G": "von Willebrand factor is produced by endothelial cells.",
+      "H": "Zymogen granules are found in pancreatic acinar cells."
+    },
+    "fa_page": 679,
+    "fa_pages": [
+      679
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-histology-histology-type-ii-pneumocyte-surfactant-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Photomicrograph of lung alveolar walls/septa showing type II pneumocytes (cuboidal cells with round nuclei and foamy cytoplasm)."
+  },
+  {
+    "id": "wordpilot-new-histology-histology-eosinophil-major-basic-protein-20261004",
+    "chapter": "Hematology and Oncology",
+    "fa_subchapter": "Eosinophils",
+    "subcategory": "Eosinophils",
+    "stem": "An investigator is studying the ultrastructure of leukocytes from a group of healthy subjects. An electron micrograph of a leukocyte from a volunteer is shown. The cell granules stain intensely with eosin on light microscopy. Which of the following substances is most likely contained in the granule identified by the arrow in the image shown?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Histamine"
+      },
+      {
+        "letter": "B",
+        "text": "Lactoferrin"
+      },
+      {
+        "letter": "C",
+        "text": "Major basic protein"
+      },
+      {
+        "letter": "D",
+        "text": "Myeloperoxidase"
+      },
+      {
+        "letter": "E",
+        "text": "Phagosome"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. The cell pictured is an eosinophil, a member of the granulocytic lineage of white blood cells. Eosinophilic granules are located in the cell's cytoplasm, and often have a crystalline core, which allows them to be recognized on electron micrographs. The crystalline core of the granule contains major basic protein, which appears to function in the destruction of parasites. Major basic protein also has deleterious effects on epithelial cells in patients with asthma. The light component around the dense crystalline core contains products such as histaminase, arylsulfatase, and other enzymes.\nHistamine (choice A) is produced by basophils and mast cells. The histaminase of the eosinophil regulates the inflammatory reaction of these two cell types.\nLactoferrin (choice B) is found in the specific granules of the neutrophil. It inhibits the growth of bacteria by interfering with iron metabolism.\nMyeloperoxidase (choice D) is found in the azurophilic (large) granule of the neutrophil. This enzyme is also destructive to bacteria, destroying their cell walls.\nPhagosome (choice E) is found in neutrophils and macrophages. On electron microscopy, the vesicles are clear and lack crystalline centers.",
+    "choice_explanations": {
+      "A": "Histamine is produced by basophils and mast cells.",
+      "B": "Lactoferrin is found in the specific granules of neutrophils.",
+      "C": "Correct. The crystalline core of the eosinophil granule contains major basic protein.",
+      "D": "Myeloperoxidase is found in the azurophilic granules of neutrophils.",
+      "E": "Phagosomes are clear vesicles lacking crystalline centers."
+    },
+    "fa_page": 414,
+    "fa_pages": [
+      414
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-histology-histology-eosinophil-major-basic-protein-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Electron micrograph of an eosinophil showing intracytoplasmic granules with a dense crystalline core."
+  },
+  {
+    "id": "wordpilot-new-micro-toxoplasma-reactivation-cns-20261004",
+    "chapter": "Microbiology",
+    "fa_subchapter": "Parasitology",
+    "subcategory": "Parasitology",
+    "stem": "A 42-year-old woman comes to the physician because of a headache and nausea. She underwent a heart transplant 14 months ago. Vital signs are normal. Physical examination does not show any focal neurologic deficits. A CT scan of the head is shown. Examination of tissue obtained on biopsy of the brain shows multiple cystlike structures. Cultures of the lesions are negative. Which of the following is the best explanation for the syndrome in this patient?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Infected whole-blood transfusion"
+      },
+      {
+        "letter": "B",
+        "text": "Ingestion of cysts in poorly cooked beef"
+      },
+      {
+        "letter": "C",
+        "text": "Ingestion of oocysts from cat feces"
+      },
+      {
+        "letter": "D",
+        "text": "Reactivation of latent infection"
+      },
+      {
+        "letter": "E",
+        "text": "Transplant of an infected organ"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. This patient is most likely infected with Toxoplasma gondii, which is a parasitic infection found throughout the world. In the United States, 15-20% of the population is infected, and once acquired, the parasites can persist for the lifetime of the host. Most primary infections in the U.S. are caused by ingestion of raw or undercooked pork and/or lamb. The persistent cysts provoke no symptoms in a normal individual; immunologic suppression (from cancer chemotherapy, transplant, or AIDS) will reinitiate proliferation and cause symptoms consistent with those described here. Because of the age of this patient, and her immunosuppression due to her prior transplant, this is most likely to be a reactivated infection, dormant since childhood. It should be noted that primary CNS lymphoma and brain abscess (among other conditions) can also produce ring-enhancing lesions, but none of the options was consistent with either of these diagnoses. Although an infected whole-blood transfusion (choice A) is a possibility, it is a remote one. Toxoplasma is an intracellular parasite and can live only in nucleated cells, not red blood cells, so it is unlikely to be transmitted during a normal infusion of packed red blood cells. Ingestion of cysts in beef (choice B) is incorrect, because it is the most common means of Taenia saginata infection of U.S. residents. Ingestion of eggs of the pork tapeworm, Taenia solium, develops into a tissue infection with parasitic cysts that can cause neurocysticercosis. The active clinical phase of neurocysticercosis is triggered by the host's inflammatory response to the larva's death (usually 1-2 years following primary infection). Although ingestion of oocysts from cat feces (choice C) is a potential means of infection, it is not the most common in the United States or in this particular patient population. Ingestion of undercooked meat is the most common source of the infection. Furthermore, one would expect the patient to exhibit symptoms of primary infection such as generalized lymphadenopathy and low-grade fever if she had ingested the cysts from cat feces. Transplant of an infected organ (choice E) is not the most likely means of infection. Again, because this would be a primary introduction of the parasite, the symptoms the patient would present with would be those of generalized lymphadenopathy and low-grade fever, not the obvious signs of chronic brain infection, as described in this case.",
+    "choice_explanations": {
+      "A": "Toxoplasma is an intracellular parasite that lives only in nucleated cells, so transmission via packed red blood cells is unlikely.",
+      "B": "Ingestion of cysts in beef most commonly causes Taenia saginata infection; ingesting Taenia solium eggs causes neurocysticercosis.",
+      "C": "Ingesting oocysts from cat feces is a possible but less common source; primary infection would cause lymphadenopathy and low-grade fever.",
+      "D": "Reactivation of latent Toxoplasma cysts, dormant since childhood, occurs with transplant-related immunosuppression.",
+      "E": "An infected organ transplant would be a primary infection, causing lymphadenopathy and low-grade fever rather than chronic brain findings."
+    },
+    "fa_page": 153,
+    "fa_pages": [
+      153
+    ],
+    "fa_summary": "Toxoplasma gondii cysts reactivate in immunosuppressed patients (e.g., transplant) and produce ring-enhancing CNS lesions.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-micro-toxoplasma-reactivation-cns-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Head CT (axial) showing a ring-enhancing brain lesion in an immunosuppressed patient with cerebral toxoplasmosis."
+  },
+  {
+    "id": "wordpilot-new-biochem-thymine-dimer-xeroderma-pigmentosum-20261004",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "DNA repair",
+    "subcategory": "Nucleotide excision repair / xeroderma pigmentosum",
+    "stem": "A study is conducted to characterize a familial condition in which affected individuals develop severe sunburn upon exposure to small amounts of sunlight. Examination of DNA from these individuals reveals a large number of mutations such as the one shown in the diagram.\n\nWhich of the following is most likely to develop in individuals with this genetic disease?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Basal cell carcinoma"
+      },
+      {
+        "letter": "B",
+        "text": "Colorectal adenocarcinoma"
+      },
+      {
+        "letter": "C",
+        "text": "Ductal carcinoma"
+      },
+      {
+        "letter": "D",
+        "text": "Hepatocellular carcinoma"
+      },
+      {
+        "letter": "E",
+        "text": "Small cell carcinoma"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. The diagram demonstrates the structure of a thymine dimer, which results when UV radiation causes a covalent linkage between two adjacent thymine nucleotides on the same strand. Inability to repair this defect, also known as nucleotide excision repair, results in xeroderma pigmentosum, which is characterized by extreme UV sensitivity, excessive freckling, early onset skin cancer (basal cell, squamous cell and malignant melanoma), and corneal ulcerations with or without neurologic abnormalities. It is transmitted with an autosomal recessive pattern of inheritance.\n\nNone of the other answer choices are associated with mutations in nucleotide excision repair genes and UV-induced thymine dimers:\n\nColorectal adenocarcinoma (choice B) is a cancer of the intestinal gland cells that line the inside of the colon and rectum. This type of cancer accounts for more than 95% of colorectal cancers, and is commonly associated with mutations in the tumor suppressor genes APC and TP53, as well as activation of the oncogene KRAS.\n\nDuctal carcinoma (choice C) is the most common form of breast cancer, arising from cells of the ducts of the breast. These cancers commonly have mutations in the BRCA1 or BRCA2 genes.\n\nHepatocellular carcinoma (choice D) is the most common malignancy of the liver, frequently associated with chronic viral hepatitis, dietary aflatoxin B1 exposure, and alcoholism. Mutations in TP53 are common.\n\nSmall cell carcinoma (choice E) is a type of highly malignant lung cancer. Approximately 15% of all lung cancers are small cell carcinomas, and it is almost exclusively found in individuals who smoke. Mutations in several genes have been linked to this cancer, including TP53 and RB1.",
+    "choice_explanations": {
+      "A": "Correct. Thymine dimers from UV radiation are repaired by nucleotide excision repair; a defect causes xeroderma pigmentosum, which predisposes to early-onset skin cancers such as basal cell carcinoma (also squamous cell carcinoma and melanoma).",
+      "B": "Colorectal adenocarcinoma is associated with mutations in APC, TP53, and KRAS — not with nucleotide excision repair genes. Incorrect.",
+      "C": "Ductal carcinoma of the breast commonly involves BRCA1/BRCA2 mutations, not defective nucleotide excision repair. Incorrect.",
+      "D": "Hepatocellular carcinoma is associated with chronic viral hepatitis, aflatoxin B1, and alcohol, not UV-induced thymine dimers. Incorrect.",
+      "E": "Small cell carcinoma of the lung is smoking-related and linked to TP53 and RB1 mutations, not to nucleotide excision repair defects. Incorrect."
+    },
+    "fa_page": 37,
+    "fa_pages": [
+      37
+    ],
+    "fa_summary": "UV radiation causes covalent thymine dimers that are repaired by nucleotide excision repair; defective repair causes xeroderma pigmentosum (autosomal recessive), with extreme UV sensitivity and early-onset skin cancers such as basal cell carcinoma.",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-biochem-thymine-dimer-xeroderma-pigmentosum-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Schematic diagram of a thymine dimer — a covalent linkage between two adjacent thymine nucleotides on the same DNA strand caused by UV radiation."
+  },
+  {
+    "id": "wordpilot-new-biochem-rflp-southern-blot-ldl-receptor-heterozygote-20261004",
+    "chapter": "Biochemistry",
+    "fa_subchapter": "Laboratory techniques",
+    "subcategory": "RFLP / Southern blot",
+    "stem": "An investigator uses RFLP analysis with Southern blotting to identify a point mutation in codon 408 of the LDL receptor gene after the amplification of exon 9 using PCR. This mutation results in the missense mutation of GTG (Val) to GTA (Met):\n\nNormal exon 9 = 222 bp (CTGGTGCAA)\nMutant: CTGGTACAA (96 bp + 126 bp)\n\nNlaIII is a restriction enzyme that recognizes the short palindrome GTAC, which is not present in the normal exon 9. The amplified exon 9 is digested with this enzyme, and Southern blotting is performed with a probe directed against the entire amplified region. Which of the following lanes best represents the sample from a patient heterozygous for this mutation?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lane 1"
+      },
+      {
+        "letter": "B",
+        "text": "Lane 2"
+      },
+      {
+        "letter": "C",
+        "text": "Lane 3"
+      },
+      {
+        "letter": "D",
+        "text": "Lane 4"
+      },
+      {
+        "letter": "E",
+        "text": "Lane 5"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. Restriction Fragment Length Polymorphism (RFLP) analysis determines a change in the genetic sequence that occurs at a site where a restriction enzyme cuts. The point mutation has resulted in the introduction of the palindrome recognized by NlaIII, GTAC. Enzymatic digestion of the amplified 222 base-pair (bp) mutated exon 9 should therefore result in two fragments, of a combined mass of 222 (126 + 96 = 222). Digestion of the normal 222-bp amplified exon should not result in fragmentation, and it should remain a 222-bp fragment. A heterozygote individual has one normal allele of the low-density lipoprotein (LDL) receptor gene and one mutated allele. Digestion of the polymerase chain reaction (PCR)-amplified exon 9 should therefore result in three different restriction fragments: the 222-bp normal allele and the fragmented mutant allele (126 bp and 96 bp). Thus, Lane 3 is the correct answer.\n\nLane 1 (one band at 222) (choice A) would be expected in a homozygous normal individual, both alleles remaining intact after NlaIII digestion.\n\nLane 2 (two bands of 126 and 96) (choice B) would be expected in a homozygous mutant individual; both alleles contain the mutation and are digested with the NlaIII enzyme.\n\nLane 4 (two bands of 444 and 222 bp) (choice D) would be very difficult to interpret. A fragment that is larger than the original amplified material could not be created by enzyme digestion.\n\nLane 5 (one band of 96 bp) (choice E) would be difficult to interpret. There should be another fragment of 126 and/or 222 bp present.",
+    "choice_explanations": {
+      "A": "Lane 1 (single 222-bp band) represents a homozygous normal individual whose alleles are not cut by NlaIII. Incorrect.",
+      "B": "Lane 2 (126- and 96-bp bands) represents a homozygous mutant individual whose both alleles are digested. Incorrect.",
+      "C": "Correct. A heterozygote has one normal 222-bp allele and one mutant allele cut into 126 + 96 bp - three bands (222, 126, 96) as seen in Lane 3.",
+      "D": "Lane 4 (444- and 222-bp bands) is not interpretable; restriction digestion cannot create a fragment larger than the original amplicon. Incorrect.",
+      "E": "Lane 5 (single 96-bp band) is not interpretable; the 126-bp and/or 222-bp fragments should also be present. Incorrect."
+    },
+    "fa_page": 51,
+    "fa_pages": [
+      51
+    ],
+    "fa_summary": "RFLP/Southern blot analysis reveals a point mutation that creates a restriction site; a heterozygote shows three fragments (the uncut normal allele plus the two fragments of the digested mutant allele).",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-c/wordpilot-new-biochem-rflp-southern-blot-ldl-receptor-heterozygote-20261004-q1.png",
+      "assets/question-figures/handoff-c/wordpilot-new-biochem-rflp-southern-blot-ldl-receptor-heterozygote-20261004-q2.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Southern blot/gel electrophoresis of PCR-amplified LDL receptor exon 9 digested with NlaIII, showing DNA fragments (444, 222, 126, and 96 bp) across lanes 1-5, together with the restriction map of the normal and mutant exon.",
     "explanation_figures_reviewed": true
   }
 ]

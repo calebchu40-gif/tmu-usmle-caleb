@@ -90,7 +90,7 @@ def main():
         qimgs = safe_images(item.get("question_images", []))
         eimgs = safe_images(item.get("explanation_images", []))
         q_required = bool(h.get("question_figure_description") or h.get("image_hint_pages") or h.get("kind"))
-        e_required = bool(h.get("expl_fig_desc") or h.get("expl_fig_pages"))
+        e_required = bool(h.get("expl_fig_desc") or h.get("expl_fig_pages")) and not item.get("explanation_figure_not_present")
         if q_required and not qimgs:
             held.append((qid, "required question figure missing"))
             continue
