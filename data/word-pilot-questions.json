@@ -47406,7 +47406,12 @@
     "fa_page": 526,
     "fa_page_verified": true,
     "fa_summary": "The circle of Willis anastomoses the anterior and posterior circulations; the middle cerebral artery is not part of the circle and supplies the lateral cerebral convexity, so its occlusion causes the largest area of ischemic damage.",
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-d/wordpilot-new-msk-middle-cerebral-artery-stroke-20261004-e1.png",
+      "assets/question-figures/handoff-d/wordpilot-new-msk-middle-cerebral-artery-stroke-20261004-e2.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-msk-erb-palsy-biceps-brachii-20261004",
@@ -47453,7 +47458,11 @@
     "fa_page": 452,
     "fa_page_verified": true,
     "fa_summary": "Erb palsy results from traction injury to the upper trunk of the brachial plexus (C5-C6) during difficult delivery, causing loss of the suprascapular, musculocutaneous, and axillary nerves; biceps brachii loss (the only elbow flexor that also supinates) produces the characteristic waiter's tip position.",
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-d/wordpilot-new-msk-erb-palsy-biceps-brachii-20261004-e1.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-behavioral-alcohol-withdrawal-lorazepam-20261004",
@@ -48510,7 +48519,12 @@
     "fa_page": 435,
     "fa_page_verified": true,
     "fa_summary": "Follicular B-cell lymphoma is characterized by the t(14;18) translocation juxtaposing the IgH locus (chromosome 14) with the bcl-2 oncogene (chromosome 18), causing bcl-2 overexpression and impaired apoptosis.",
-    "option_fa": {}
+    "option_fa": {},
+    "explanation_images": [
+      "assets/question-figures/handoff-d/wordpilot-new-heme-follicular-lymphoma-t1418-20261004-e1.png",
+      "assets/question-figures/handoff-d/wordpilot-new-heme-follicular-lymphoma-t1418-20261004-e2.png"
+    ],
+    "explanation_figures_reviewed": true
   },
   {
     "id": "wordpilot-new-heme-multiple-myeloma-lytic-bone-lesions-20261004",
@@ -54540,5 +54554,317 @@
     "explanation_images": [
       "assets/question-figures/handoff-c/wordpilot-new-neuro-wernicke-aphasia-superior-temporal-gyrus-20261004-e1.png"
     ]
+  },
+  {
+    "id": "wordpilot-new-skin-skin-acanthosis-nigricans-significance-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Miscellaneous skin disorders",
+    "subcategory": "Miscellaneous skin disorders",
+    "stem": "A 55-year-old woman comes to the physician because of progressive dark discoloration of her armpits and groin. She has a prior medical history of diet-controlled diabetes mellitus, hypertension, and obesity. Physical examination of the heart, lungs, and abdomen are within normal limits. A photograph of the skin of her axilla is shown. Which of the following best describes the significance of these skin lesions?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "They may be a sign of immunosuppression"
+      },
+      {
+        "letter": "B",
+        "text": "They may be a sign of visceral carcinoma"
+      },
+      {
+        "letter": "C",
+        "text": "They may be easily superinfected"
+      },
+      {
+        "letter": "D",
+        "text": "They may be malignant"
+      },
+      {
+        "letter": "E",
+        "text": "They may be premalignant"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B. Acanthosis nigricans (acanthosis = hyperplasia of the stratum spinosum of the epidermis) is used to describe thickened, hyperpigmented zones of skin, often with a velvet-like texture, most commonly involving the flexural areas (groin, axilla, skin folds of the neck, anogenital regions). It is an important cutaneous marker for associated benign and malignant conditions and, accordingly, is divided into two types.\nThe benign type, which constitutes about 80% of all cases, develops gradually and usually occurs in childhood and during puberty. It is particularly associated with obesity and insulin resistance (metabolic syndrome or type 2 DM). As with seborrheic keratoses, acanthosis nigricans may less commonly result from abnormal production of epidermal growth-promoting factors by a variety of tumors. This may account for many instances of the malignant type, in which lesions arise in middle-aged and older individuals, often in association with an underlying gastrointestinal adenocarcinoma. Because lesions of acanthosis nigricans may precede clinical signs and symptoms of the underlying disorder, knowledge and recognition of this entity may be of great diagnostic importance in early recognition of overt systemic disease.\nAll forms of acanthosis nigricans have similar histologic features. The epidermis and underlying enlarged dermal papillae undulate sharply to form numerous repeating peaks and valleys. Variable hyperplasia may be seen, along with hyperkeratosis and slight basal cell layer hyperpigmentation.\nThe lesions are not characteristic of immunosuppression (choice A) and are not easily superinfected (choice C). They are also neither malignant (choice D) nor premalignant (choice E).",
+    "choice_explanations": {
+      "A": "Acanthosis nigricans is not a sign of immunosuppression.",
+      "B": "Correct. The malignant type of acanthosis nigricans is associated with an underlying (often gastrointestinal) adenocarcinoma.",
+      "C": "The lesions are not easily superinfected.",
+      "D": "Acanthosis nigricans is not itself malignant.",
+      "E": "Acanthosis nigricans is not a premalignant lesion."
+    },
+    "fa_page": 492,
+    "fa_pages": [
+      492
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-d/wordpilot-new-skin-skin-acanthosis-nigricans-significance-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Clinical photograph of the axilla showing thickened, hyperpigmented, velvet-textured skin (acanthosis nigricans)."
+  },
+  {
+    "id": "wordpilot-new-skin-skin-pemphigus-vulgaris-desmosome-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Autoimmune blistering diseases",
+    "subcategory": "Autoimmune blistering diseases",
+    "stem": "A 55-year-old man comes to the physician for an evaluation of skin lesions. He tells the physician that the lesions have been spreading for the last few months. The patient has normal vital signs. The physician explains that the patient has an autoimmune reaction to the epidermal structure indicated by the arrows in the electron microscope image above. This structure plays a key role in cell-to-cell adhesions. After a complete dermatologic and hematologic workup, the patient is treated with systemic corticosteroids. Which of the following best describes this patient's skin lesions?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Painful blisters on the skin around the oropharynx"
+      },
+      {
+        "letter": "B",
+        "text": "Pruritic maculopapular rash on the head and trunk with bluish-gray spots in the oral mucosa"
+      },
+      {
+        "letter": "C",
+        "text": "Small red skin spots on the body, palms, and soles, but sparing the face"
+      },
+      {
+        "letter": "D",
+        "text": "Widespread flaccid, painful blisters on the skin and oropharynx"
+      },
+      {
+        "letter": "E",
+        "text": "Widespread tense blisters, sparing the oral mucosa, with pruritus"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. This patient presents with an autoimmune condition known as pemphigus vulgaris, which is characterized by painful flaccid blisters involving the skin and oropharynx. On physical examination, these blisters demonstrate a positive Nikolsky sign, in which gentle rubbing results in rupture of the blister. The electron micrograph shows a desmosome, or macula adherens, which is an anchoring junction that allows adjacent cells to adhere to one another. In pemphigus vulgaris, autoantibodies against desmosomes lead to intraepidermal blisters. The treatment of choice is corticosteroids. Some patients with extensive blistering require management in the burn unit.\nPainful blisters on the skin around the oropharynx (choice A) are most consistent with a herpes simplex virus-1 (HSV-1) infection. HSV-1 is transmitted via saliva and remains latent in the cell bodies of neurons. During viral reactivation (stress, immunocompromise, etc), HSV-1 is transmitted along the axons of sensory neurons to the skin, where it replicates and produces blisters and ulceration (cold sores).\nA pruritic skin rash with bluish-gray spots (Koplik spots) in the oral mucosa (choice B) is a symptom of measles. Widespread tense blisters sparing the oral mucosa with pruritus (choice E) are characteristic of bullous pemphigoid.",
+    "choice_explanations": {
+      "A": "Painful oropharyngeal blisters suggest HSV-1 infection.",
+      "B": "A pruritic rash with Koplik spots suggests measles.",
+      "C": "Small red spots on the body, palms, and soles suggest a rickettsial or viral exanthem.",
+      "D": "Correct. Pemphigus vulgaris causes widespread flaccid, painful blisters of the skin and oropharynx (positive Nikolsky sign).",
+      "E": "Widespread tense blisters sparing the oral mucosa suggest bullous pemphigoid."
+    },
+    "fa_page": 489,
+    "fa_pages": [
+      489
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-d/wordpilot-new-skin-skin-pemphigus-vulgaris-desmosome-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Electron micrograph of a desmosome (macula adherens), an anchoring junction attaching adjacent epidermal cells."
+  },
+  {
+    "id": "wordpilot-new-skin-skin-basal-cell-carcinoma-palisading-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Skin cancer",
+    "subcategory": "Skin cancer",
+    "stem": "A 65-year-old man comes to the physician because of a non-healing sore on his face. It does not cause him pain but can occasionally be itchy. He is otherwise healthy and takes supplemental vitamins every morning. Vital signs are within normal limits. A photograph of the lesion is shown. Biopsy of one of the papules shows presence of malignant cells. Which of the following findings is most likely on microscopic examination?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cytoplasmic viral inclusions"
+      },
+      {
+        "letter": "B",
+        "text": "Keratin pearls"
+      },
+      {
+        "letter": "C",
+        "text": "Melanin"
+      },
+      {
+        "letter": "D",
+        "text": "Palisading nuclei"
+      },
+      {
+        "letter": "E",
+        "text": "S-100 positivity"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D. The malignant skin tumor that forms pearly papules on sun-exposed skin is basal cell carcinoma. These lesions classically have a waxy appearance and rolled edges with central depression and/or ulceration. Small dilated blood vessels, known as telangiectasias, may also be grossly visible. These tumors commonly form on sun-exposed areas of the face including the upper lip, forehead, and nose.\nOn pathologic examination, basal cell carcinomas have clusters of dark, basal cell-like tumor cells with palisading nuclei at the periphery (palisade means fence-like arrangement). These tumors usually invade into the dermis. Basal cell carcinomas are commonly seen in older patients and almost never metastasize but can be very locally infiltrative and destructive. Tumors can recur locally if they are not adequately excised with clear margins. Resection of large ones on the face may produce disfiguring scars.",
+    "choice_explanations": {
+      "A": "Cytoplasmic viral inclusions are seen in viral infections such as molluscum contagiosum.",
+      "B": "Keratin pearls are seen in squamous cell carcinoma.",
+      "C": "Melanin is produced by melanocytes; basal cell carcinoma does not show melanin pigment.",
+      "D": "Correct. Basal cell carcinoma shows nests of basaloid cells with peripheral palisading of nuclei.",
+      "E": "S-100 positivity is seen in melanoma."
+    },
+    "fa_page": 494,
+    "fa_pages": [
+      494
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-d/wordpilot-new-skin-skin-basal-cell-carcinoma-palisading-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Clinical photograph of a pearly papule with rolled edges and telangiectasias on the face (basal cell carcinoma)."
+  },
+  {
+    "id": "wordpilot-new-skin-skin-melanoma-prognosis-depth-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Skin cancer",
+    "subcategory": "Skin cancer",
+    "stem": "A 35-year-old woman comes to the physician because of a lesion on her neck. A photograph of the lesion is shown. The lesion has expanded significantly over the last few months. She reports no other symptoms. Her past medical history is unremarkable. Excisional biopsy of the lesion demonstrates locally invasive neoplastic cells with large nuclei, atypical mitoses, and abundant lymphocytes. The lesion stains positive for HMB45 and S-100 on immunohistochemistry. Which of the following factors is most predictive of the patient's long-term survival?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Darkness of lesion"
+      },
+      {
+        "letter": "B",
+        "text": "Degree of color variation"
+      },
+      {
+        "letter": "C",
+        "text": "Depth of lesion"
+      },
+      {
+        "letter": "D",
+        "text": "Diameter of lesion"
+      },
+      {
+        "letter": "E",
+        "text": "Mitotic rate"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C. This patient presents with malignant melanoma, a cancer deriving from melanocytes, which produce melanin. Key features of the primary lesion can be summarized with the mnemonic ABCDE: Asymmetry; Borders (irregular); Color (variegated); Diameter (>6 mm); Enlarging (implies vertical or horizontal growth).\nMelanomas can develop either de novo or in an existing mole. Excess sunlight exposure, fair skin, and a weakened immune system are major risk factors. Pathologic features of the disease include dysplastic melanocytes and immune cell infiltration. Additionally, since melanocytes derive from the neural crest, melanomas stain positive for S-100, as well as HMB45 (melanoma marker), on immunohistochemistry.\nThe most significant factor for long-term prognosis is the depth of the lesion, since the lymphatics of the superficial dermis lie about 1 mm under the skin surface. Invasion to this depth is associated with a much higher incidence of metastasis than is seen with more superficial lesions. Melanoma can metastasize to almost any organ (lung, liver, brain, bowel, etc) and at almost any time (decades from excision of the primary lesion). Other important prognostic variables include lymph node involvement and presence of distant metastases.\nThe other answer choices (choices A, B, D, and E) are proper tools for diagnosing and characterizing a potential melanoma lesion. However, these measures are not good predictors of patient prognosis.",
+    "choice_explanations": {
+      "A": "Darkness is a diagnostic feature (ABCDE) but not the strongest prognostic factor.",
+      "B": "Color variation is a diagnostic feature (ABCDE) but not a strong prognostic predictor.",
+      "C": "Correct. The depth of invasion (Breslow depth) is the most important predictor of long-term survival in melanoma.",
+      "D": "Diameter is a diagnostic feature (ABCDE) but not a strong prognostic predictor.",
+      "E": "Mitotic rate is one of several prognostic variables but is less predictive than lesion depth."
+    },
+    "fa_page": 494,
+    "fa_pages": [
+      494
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-d/wordpilot-new-skin-skin-melanoma-prognosis-depth-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Clinical photograph of a pigmented lesion on the neck (melanoma)."
+  },
+  {
+    "id": "wordpilot-new-skin-skin-scc-actinic-keratosis-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Skin cancer",
+    "subcategory": "Skin cancer",
+    "stem": "A 70-year-old man comes to the physician because of a non-healing lesion on his ear. Physical examination shows an ulcerated, scaly plaque. He has a history of extensive sun exposure and multiple similar lesions. Microscopic examination of a biopsy specimen shows epidermal and dermal cells with large, pleomorphic, hyperchromatic nuclei. A photomicrograph is shown. Which of the following conditions would most likely predispose this patient for the development of this lesion?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Actinic keratosis"
+      },
+      {
+        "letter": "B",
+        "text": "Dysplastic nevus"
+      },
+      {
+        "letter": "C",
+        "text": "Molluscum contagiosum"
+      },
+      {
+        "letter": "D",
+        "text": "Seborrheic keratosis"
+      },
+      {
+        "letter": "E",
+        "text": "Verruca vulgaris"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. The patient has a lesion consistent with squamous cell carcinoma of the skin, a malignancy deriving from epidermal keratinocytes. The classic presentation is a scaly, red plaque with ulceration and/or bleeding on the face, neck, or hands. Risk factors include sun exposure, arsenic, third-degree burns, xeroderma pigmentosum (defective nucleotide excision repair), and chronically draining ulcers. In some patients, actinic keratosis, which is a hyperplastic lesion of sun-damaged skin, may later progress to dysplasia and to squamous cell carcinoma. Actinic keratosis is a premalignant lesion resulting from sun exposure that can progress to squamous cell carcinoma.\nOn pathology, squamous cell carcinoma appears as malignant keratinocytes with large, hyperchromatic nuclei traversing the epidermal layer and invading the dermis. There may also be eosinophilic accumulations of keratin within the tumor, known as keratin pearls.",
+    "choice_explanations": {
+      "A": "Correct. Actinic keratosis is a sun-induced premalignant lesion that can progress to squamous cell carcinoma.",
+      "B": "Dysplastic nevus predisposes to melanoma, not squamous cell carcinoma.",
+      "C": "Molluscum contagiosum is a viral skin infection, not a precursor to squamous cell carcinoma.",
+      "D": "Seborrheic keratosis is a benign lesion that does not progress to malignancy.",
+      "E": "Verruca vulgaris (HPV wart) is a benign epithelial proliferation."
+    },
+    "fa_page": 494,
+    "fa_pages": [
+      494
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-d/wordpilot-new-skin-skin-scc-actinic-keratosis-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Photomicrograph of a skin biopsy showing large, pleomorphic, hyperchromatic epidermal and dermal cells (squamous cell carcinoma)."
+  },
+  {
+    "id": "wordpilot-new-skin-skin-atopic-dermatitis-20261004",
+    "chapter": "Musculoskeletal, Skin, and Connective Tissue",
+    "fa_subchapter": "Common skin disorders",
+    "subcategory": "Common skin disorders",
+    "stem": "A 20-month-old boy is brought to the physician by his parents for a pruritic rash involving the face, scalp, diaper area, and extremities. There have been multiple periods of exacerbation and improvement since the age of 2 months. There is a strong family history of hay fever and asthma. His temperature is 37.1°C (98.7°F), pulse is 98/min, blood pressure is 106/68 mm Hg, and respirations are 12/min. Physical examination shows multiple red, weeping, crusted, and excoriated lesions distributed along the face and extremities. A photograph is shown. Biopsy of one of the lesions reveals increased width between cells of the epidermis. Which of the following is the most likely underlying cause of these findings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Atopic dermatitis"
+      },
+      {
+        "letter": "B",
+        "text": "Cellulitis"
+      },
+      {
+        "letter": "C",
+        "text": "Contact dermatitis"
+      },
+      {
+        "letter": "D",
+        "text": "Lichen simplex chronicus"
+      },
+      {
+        "letter": "E",
+        "text": "Seborrheic dermatitis"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A. This is atopic dermatitis (also known as eczema), which is an inflammatory skin disorder characterized by papulovesicular eruptions with erythema, edema, pruritus, exudation, crusting, scaling, and excoriations from itching. In babies, the classic distribution of lesions is similar to our patient. The dermatitis often improves by age 3 or 4, but periodic exacerbations may continue to occur into adulthood. In older children and adults, there is more prominent involvement of flexural skin surfaces including the antecubital and popliteal fossae, eyelids, neck, and wrists.\nThe diagnosis of atopic dermatitis is made on clinical grounds after documentation of the characteristic lesions plus pruritus. A personal or family history of atopic disease, including asthma, hay fever, and allergic rhinitis, also supports this diagnosis. Microscopic examination of these lesions reveals spongiosis, characterized by increased width between cells of the epidermis due to intercellular edema. Atopic dermatitis is a type I hypersensitivity reaction, caused by release of vasoactive amines by basophils and mast cells after IgE cross-linking.\nCellulitis (choice B) is a streptococcal, or less commonly staphylococcal, acute infection of subcutaneous tissues. Contact dermatitis (choice C) can resemble atopic dermatitis on initial evaluation, but results from type IV hypersensitivity and occurs at the point of contact. Lichen simplex chronicus (choice D) results from chronic rubbing. Seborrheic dermatitis (choice E) involves the sebaceous-rich areas of the skin.",
+    "choice_explanations": {
+      "A": "Correct. Atopic dermatitis (eczema) presents with pruritic, erythematous, weeping/crusted lesions in the classic distribution, with a family history of atopic disease.",
+      "B": "Cellulitis is a subcutaneous infection with local erythema, warmth, and tenderness.",
+      "C": "Contact dermatitis results from type IV hypersensitivity at the point of contact.",
+      "D": "Lichen simplex chronicus results from chronic rubbing.",
+      "E": "Seborrheic dermatitis affects sebaceous-rich areas of the skin."
+    },
+    "fa_page": 485,
+    "fa_pages": [
+      485
+    ],
+    "fa_summary": "",
+    "reviewed": true,
+    "review_required": false,
+    "complete": true,
+    "fa_page_verified": true,
+    "question_images": [
+      "assets/question-figures/handoff-d/wordpilot-new-skin-skin-atopic-dermatitis-20261004-q1.png"
+    ],
+    "question_figures_reviewed": true,
+    "question_figure_description": "Clinical photograph of eczematous red, weeping, crusted, and excoriated lesions on the face and extremities (atopic dermatitis)."
   }
 ]
