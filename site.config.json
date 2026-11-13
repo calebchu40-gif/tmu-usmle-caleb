@@ -1,1 +1,15 @@
-{"visiblePages":["qbank.html","思维导图/血液思维导图.html"]}
+{
+    "pages":  {
+                  "qbank.html":  {
+                                     "category":  "USMLE Step 1",
+                                     "title":  "USMLE Step 1 KAPLAN题库"
+                                 }
+              },
+    "title":  "TMU · Caleb 学习工作台",
+    "qbankPilotSource":  "data/word-pilot-questions.json",
+    "standaloneQuestionBank":  false,
+    "visiblePages":  [
+                         "qbank.html",
+                         "思维导图/血液思维导图.html"
+                     ]
+}
