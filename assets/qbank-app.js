@@ -1,8 +1,7 @@
 const $ = id => document.getElementById(id);
 const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const pagePath = "qbank.html";
-const localPreview = ["localhost", "127.0.0.1"].includes(location.hostname) && new URLSearchParams(location.search).get("preview") === "1";
-let cloud = null, user = null, all = [], filtered = [], current = 0, mode = "practice", bankLoaded = false;
+let store = null, user = null, all = [], filtered = [], current = 0, mode = "practice", bankLoaded = false;
 let records = new Map(), answers = new Map(), picks = new Map(), seconds = new Map(), attemptSeconds = new Map(), pendingAttempts = new Map();
 let filterMode = "all", testDone = false, testStartedAt = 0, questionStartedAt = 0, timerHandle = null;
 let testTimerMode = "stopwatch", testDurationSeconds = 0, testName = "";
@@ -167,22 +166,21 @@ function render() {
   const explanation=$("explanation");explanation.classList.toggle("visible",mode==="practice"&&Boolean(done)||mode==="test"&&testDone);if(explanation.classList.contains("visible"))renderExplanation(q,done?.selected||picked);
   const totalAttempts=record.correct_count+record.wrong_count;$("attempts").textContent=totalAttempts;$("wrongAttempts").textContent=record.wrong_count;
   const complete=filtered.filter(x=>activeRecord(x).submitted||answers.has(x.cloud_id)).length;const correct=filtered.reduce((n,x)=>n+activeRecord(x).correct_count,0);const attempts=filtered.reduce((n,x)=>n+activeRecord(x).correct_count+activeRecord(x).wrong_count,0);$("progress").textContent=`${complete} / ${filtered.length}`;$("accuracy").textContent=`${attempts?Math.round(correct/attempts*100):0}%`;
-  $("totalTime").textContent=`本题累计计时 ${fmt(seconds.get(q.cloud_id)||0)}；进度保存到登录账号。`;
+  $("totalTime").textContent=`本题累计计时 ${fmt(seconds.get(q.cloud_id)||0)}；进度保存在本机浏览器。`;
   renderNavigator();startClock();
 }
 async function refreshRecords() {
-  const rows=await cloud.list("study_records","*");records=new Map(rows.filter(r=>r.page_path===pagePath&&r.question_id).map(r=>[r.question_id,r]));
+  const rows=await store.list("study_records","*");records=new Map(rows.filter(r=>r.page_path===pagePath&&r.question_id).map(r=>[r.question_id,r]));
   seconds=new Map(rows.filter(r=>r.page_path===pagePath&&r.question_id).map(r=>[r.question_id,Number(r.elapsed_seconds)||0]));
-  status(`已同步 ${rows.filter(r=>r.page_path===pagePath).length} 道题记录`);render();
+  status(`已读取本机 ${rows.filter(r=>r.page_path===pagePath).length} 道题记录`);render();
 }
 async function connectAccount() {
-  if(localPreview){$("accountLabel").textContent="本地样本预览 · 不同步记录";$("loginButton").classList.add("hidden");status("本地预览模式；答案与测试结果仅用于检查页面。请勿将此模式部署到公开站点。",false);return true;}
   try{
-    cloud=await window.connectStudyCloud();if(!cloud)throw new Error("云端配置缺失。");
-    user=await cloud.checkSession();
-    if(user){$("accountLabel").textContent=cloud.displayName(user)||"已登录";$("loginButton").classList.add("hidden");$("logoutButton").classList.remove("hidden");return true;}
-    $("accountLabel").textContent="需要登录";status("登录后才能进入题库。");return false;
-  }catch(e){status(e.message||"账号连接失败",true);$("accountLabel").textContent="需要登录";$("loginStatus").textContent="云端账号暂不可用，请确认网络后重试。";return false;}
+    store=await window.connectStudyStore();if(!store)throw new Error("本机记录初始化失败。");
+    user=await store.checkSession();
+    $("accountLabel").textContent="公开题库 · 进度保存在本机";
+    return true;
+  }catch(e){status(e.message||"本机记录初始化失败，请刷新页面重试",true);return false;}
 }
 async function loadBank(){
   if(bankLoaded)return;
@@ -193,8 +191,8 @@ async function loadBank(){
   selectedTestChapters=new Set();$("chapter").replaceChildren(new Option("全部章节",""));fillHierarchy();updateTestChapterSelection();applyFilter();bankLoaded=true;
 }
 async function saveEvent(q,action,payload={}) {
-  if(!user||!cloud)throw new Error("请先登录账号，答题记录才能云端保存。");
-  const result=await cloud.questionEvent(pagePath,q.chapter||"Step 1 题库",{question_id:q.cloud_id,request_id:crypto.randomUUID(),action,...payload});
+  if(!user||!store)throw new Error("本机学习记录尚未就绪，请刷新页面后重试。");
+  const result=await store.questionEvent(pagePath,q.chapter||"Step 1 题库",{question_id:q.cloud_id,request_id:crypto.randomUUID(),action,...payload});
   records.set(q.cloud_id,result);return result;
 }
 function pendingAttempt(q,selected) {
@@ -203,18 +201,15 @@ function pendingAttempt(q,selected) {
   return job;
 }
 async function submitAnswer(q,selected) {
-  if(!user&&!localPreview){$("loginModal").classList.remove("hidden");$("loginStatus").textContent="请登录后保存本次作答。";return false;}
   const correct=selected===q.answer;stopClock();
-  if(localPreview){const prior=activeRecord(q);records.set(q.cloud_id,{...prior,submitted:true,correct_count:prior.correct_count+(correct?1:0),wrong_count:prior.wrong_count+(correct?0:1)});answers.set(q.cloud_id,{selected,correct});attemptSeconds.set(q.cloud_id,0);status("本地预览：作答结果未保存到账号");render();return true;}
   status("正在保存答题记录…");
   const job=pendingAttempt(q,selected);
-  try{const rec=await saveEvent(q,"attempt",{request_id:job.request_id,selected:selected.charCodeAt(0)-65,correct,elapsed_seconds:attemptSeconds.get(q.cloud_id)||0});if(pendingAttempts.get(q.cloud_id)?.request_id===job.request_id)pendingAttempts.delete(q.cloud_id);answers.set(q.cloud_id,{selected,correct});attemptSeconds.set(q.cloud_id,0);if(rec?.elapsed_seconds!=null)seconds.set(q.cloud_id,Number(rec.elapsed_seconds));status(rec?.time_sync_pending?"作答次数已同步；计时云同步等待数据库迁移":"已同步到账号");render();return true;}
-  catch(e){status(`云端保存失败：${e.message||"请重试"}`,true);return false;}
+  try{const rec=await saveEvent(q,"attempt",{request_id:job.request_id,selected:selected.charCodeAt(0)-65,correct,elapsed_seconds:attemptSeconds.get(q.cloud_id)||0});if(pendingAttempts.get(q.cloud_id)?.request_id===job.request_id)pendingAttempts.delete(q.cloud_id);answers.set(q.cloud_id,{selected,correct});attemptSeconds.set(q.cloud_id,0);if(rec?.elapsed_seconds!=null)seconds.set(q.cloud_id,Number(rec.elapsed_seconds));status("已保存在本机浏览器");render();return true;}
+  catch(e){status(`保存失败：${e.message||"请重试"}`,true);return false;}
 }
 async function toggleMark() {
-  const q=currentQuestion();if(!q)return;if(!user&&!localPreview){$("loginModal").classList.remove("hidden");$("loginStatus").textContent="请登录后同步手动标记。";return;}
-  if(localPreview){records.set(q.cloud_id,{...activeRecord(q),marked:!activeRecord(q).marked});status("本地预览：手动标记未保存到账号");render();return;}
-  const next=!activeRecord(q).marked;try{await saveEvent(q,"mark",{marked:next});status("手动标记已同步");render()}catch(e){status(`标记保存失败：${e.message}`,true)}
+  const q=currentQuestion();if(!q)return;
+  const next=!activeRecord(q).marked;try{await saveEvent(q,"mark",{marked:next});status("已保存在本机浏览器");render()}catch(e){status(`标记保存失败：${e.message}`,true)}
 }
 function fillTestResults() {
   const correct=filtered.filter(q=>picks.get(q.cloud_id)===q.answer).length,total=filtered.length,elapsed=(performance.now()-testStartedAt)/1000;
@@ -244,11 +239,9 @@ function confirmFinishTest() {
 }
 async function finishTest() {
   if(testDone)return;$("finishConfirm").classList.add("hidden");stopClock();testDone=true;
-  if(!user&&!localPreview){testDone=false;$("loginModal").classList.remove("hidden");$("loginStatus").textContent="登录后才能提交并保存这次测试。";return;}
-  if(localPreview){status("本地预览：测试结果未保存到账号");fillTestResults();render();return;}
   status("正在保存测试结果…");
   for(const q of filtered){const selected=picks.get(q.cloud_id);if(selected&&!answers.has(q.cloud_id)){const job=pendingAttempt(q,selected);try{const rec=await saveEvent(q,"attempt",{request_id:job.request_id,selected:selected.charCodeAt(0)-65,correct:selected===q.answer,elapsed_seconds:attemptSeconds.get(q.cloud_id)||0});if(pendingAttempts.get(q.cloud_id)?.request_id===job.request_id)pendingAttempts.delete(q.cloud_id);answers.set(q.cloud_id,{selected,correct:selected===q.answer});if(rec?.elapsed_seconds!=null)seconds.set(q.cloud_id,Number(rec.elapsed_seconds));}catch(e){testDone=false;status(`测试保存中断：${e.message}`,true);return}}}
-  status("测试结果已同步");fillTestResults();render();
+  status("测试结果已保存在本机");fillTestResults();render();
 }
 function startTest() {
   const pool=testPool();
@@ -271,12 +264,11 @@ function setMode(next) {
 }
 function move(delta){stopClock();current=Math.max(0,Math.min(filtered.length-1,current+delta));render()}
 async function init() {
-  if(!localPreview)document.body.classList.add("auth-pending");
   try{
-    const authorized=await connectAccount();
-    if(!authorized){document.body.classList.remove("auth-pending");document.body.classList.add("auth-required");$("loginModal").classList.remove("hidden");$("cancelLogin").classList.add("hidden");if(!$("loginStatus").textContent)$("loginStatus").textContent="请先登录，登录后才能查看题库内容。";return;}
-    document.body.classList.remove("auth-pending","auth-required");$("loginModal").classList.add("hidden");await loadBank();if(user)await refreshRecords();
-  }catch(e){document.body.classList.remove("auth-pending");document.body.classList.add("auth-required");$("loginModal").classList.remove("hidden");$("cancelLogin").classList.add("hidden");$("loginStatus").textContent=e.message||"暂时无法载入，请稍后重试。";}
+    await connectAccount();
+    await loadBank();
+    await refreshRecords();
+  }catch(e){$("title").textContent="题库载入失败";$("subtitle").textContent=e.message||"请检查网络后刷新页面重试。";status(e.message||"题库载入失败",true);}
 }
 $("chapter").onchange=()=>{window.subFilter="";applyFilter()};$("search").oninput=applyFilter;
 $("practiceMode").onclick=()=>setMode("practice");$("testMode").onclick=()=>setMode("test");
@@ -286,7 +278,7 @@ $("testTimer").onchange=()=>$("testDurationRow").classList.toggle("hidden",$("te
 $("prev").onclick=()=>move(-1);$("next").onclick=()=>move(1);$("submit").onclick=()=>{const q=currentQuestion(),p=q&&picks.get(q.cloud_id);if(q&&p)submitAnswer(q,p)};
 $("markButton").onclick=toggleMark;$("retryButton").onclick=()=>{const q=currentQuestion();if(!q)return;answers.delete(q.cloud_id);picks.delete(q.cloud_id);attemptSeconds.set(q.cloud_id,0);render()};
 $("markedFilter").onclick=()=>{filterMode=filterMode==="marked"?"all":"marked";applyFilter()};$("wrongFilter").onclick=()=>{filterMode=filterMode==="wrong"?"all":"wrong";applyFilter()};
-$("refresh").onclick=()=>{stopClock();filterMode="all";answers.clear();picks.clear();attemptSeconds.clear();pendingAttempts.clear();testDone=false;$("testResults").classList.add("hidden");status("已重置本轮练习；账号历史统计保留");applyFilter()};
+$("refresh").onclick=()=>{stopClock();filterMode="all";answers.clear();picks.clear();attemptSeconds.clear();pendingAttempts.clear();testDone=false;$("testResults").classList.add("hidden");status("已重置本轮练习；本机历史统计保留");applyFilter()};
 $("timerToggle").onchange=render;
 $("finish").onclick=confirmFinishTest;
 $("cancelFinish").onclick=()=>$("finishConfirm").classList.add("hidden");
@@ -294,8 +286,4 @@ $("confirmFinish").onclick=()=>{$("finishConfirm").classList.add("hidden");finis
 $("finishConfirm").onclick=event=>{if(event.target===$("finishConfirm"))$("finishConfirm").classList.add("hidden")};
 document.addEventListener("keydown",event=>{if(event.key==="Escape")$("finishConfirm").classList.add("hidden")});
 $("startTest").onclick=startTest;
-$("loginButton").onclick=()=>{$("loginModal").classList.remove("hidden");$("cancelLogin").classList.remove("hidden");$("loginStatus").textContent=""};$("cancelLogin").onclick=()=>{if(document.body.classList.contains("auth-required"))return;$("loginModal").classList.add("hidden")};
-$("logoutButton").onclick=async()=>{if(!cloud)return;await cloud.logout();user=null;records.clear();answers.clear();pendingAttempts.clear();$("loginButton").classList.add("hidden");$("logoutButton").classList.add("hidden");$("accountLabel").textContent="需要登录";document.body.classList.add("auth-required");$("loginModal").classList.remove("hidden");$("cancelLogin").classList.add("hidden");$("loginStatus").textContent="已退出账号，请登录后继续。";status("已退出账号");render()};
-$("loginForm").onsubmit=async event=>{event.preventDefault();$("loginStatus").textContent="正在登录…";try{if(!cloud)cloud=await window.connectStudyCloud();user=await cloud.login($("loginIdentifier").value,$("password").value);$("password").value="";document.body.classList.remove("auth-pending","auth-required");$("loginModal").classList.add("hidden");$("cancelLogin").classList.remove("hidden");$("accountLabel").textContent=cloud.displayName(user)||"已登录";$("loginButton").classList.add("hidden");$("logoutButton").classList.remove("hidden");await loadBank();await refreshRecords();status("账号已登录，记录已同步");}catch(e){$("loginStatus").textContent=e.message||"登录失败"}};
-$("registerEmail").onclick=async()=>{const identifier=$("loginIdentifier").value.trim();const password=$("password").value;$("loginStatus").textContent="正在创建邮箱账号…";try{if(!cloud)cloud=await window.connectStudyCloud();if(!identifier.includes("@"))throw new Error("邮箱注册请在账号框中填写邮箱地址。");const result=await cloud.registerEmail(identifier,password);$("password").value="";$("loginStatus").textContent=result.confirmationRequired?"注册请求已创建。请查收验证邮件；完成验证后还需管理员授权才能访问。":"注册已创建。请联系管理员将账号加入授权名单后再登录。";}catch(e){$("loginStatus").textContent=e.message||"邮箱注册失败"}};
 init();

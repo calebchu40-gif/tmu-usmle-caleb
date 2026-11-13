@@ -7,7 +7,7 @@ const app=fs.readFileSync('assets/qbank-app.js','utf8');
 const overrides=JSON.parse(fs.readFileSync('data/question-overrides.json','utf8'));
 
 test('standalone qbank has separate marker/wrong filters, per-question retry and question navigation',()=>{
-  for(const id of ['navigator','markedFilter','wrongFilter','retryButton','attempts','wrongAttempts','loginButton']) assert.match(html,new RegExp(`id="${id}"`));
+  for(const id of ['navigator','markedFilter','wrongFilter','retryButton','attempts','wrongAttempts']) assert.match(html,new RegExp(`id="${id}"`));
   assert.match(app,/filterMode==="wrong"&&r\.wrong_count>0/);
   assert.match(app,/filterMode==="marked"&&r\.marked/);
   assert.match(app,/questionEvent\(pagePath,q\.chapter/);
@@ -69,21 +69,22 @@ test('manual test submission requires confirmation and identifies unanswered que
 test('standalone qbank does not save learning state in browser local storage or show source candidate panels',()=>{
   assert.doesNotMatch(app,/localStorage|sessionStorage/);
   assert.doesNotMatch(html,/First Aid 对应|题目资料说明|figureNotice|faRef/);
-  assert.match(html,/assets\/cloud\.js/);
+  assert.match(html,/assets\/study-store\.js/);
 });
 
-test('login accepts the test username and real-email accounts, with email registration requiring later authorization',()=>{
-  for(const id of ['loginIdentifier','password','registerEmail'])assert.match(html,new RegExp(`id="${id}"`));
-  assert.match(html,/邮箱注册后需完成邮箱验证，并由管理员授权/);
-  assert.match(app,/cloud\.login\(\$\("loginIdentifier"\)\.value/);
-  assert.match(app,/cloud\.registerEmail\(identifier,password\)/);
-  assert.match(fs.readFileSync('assets/cloud.js','utf8'),/INTERNAL_USERNAME_DOMAIN = 'users\.invalid'/);
+test('the public qbank saves answers through the shared browser store and has no login form',()=>{
+  for(const id of ['loginModal','loginForm','loginIdentifier','password','registerEmail','loginButton','logoutButton']) assert.doesNotMatch(html,new RegExp(`id="${id}"`));
+  assert.match(html,/id="accountLabel">公开题库 · 进度保存在本机/);
+  assert.match(app,/store=await window\.connectStudyStore\(\)/);
+  assert.match(app,/store\.questionEvent\(pagePath,q\.chapter/);
+  assert.doesNotMatch(app,/cloud\.login|registerEmail|connectStudyCloud/);
+  assert.match(fs.readFileSync('assets/study-store.js','utf8'),/localStorage\.setItem/);
 });
 
-test('direct QBank entry requires an authorized session before question data is loaded',()=>{
-  assert.match(html,/<body class="auth-pending">/);
-  assert.match(html,/body\.auth-pending \.shell,body\.auth-required \.shell\{visibility:hidden\}/);
-  assert.match(app,/const authorized=await connectAccount\(\);[\s\S]*if\(!authorized\)[\s\S]*return;[\s\S]*await loadBank\(\)/);
+test('the qbank loads its question bank directly without blocking on an account',()=>{
+  assert.doesNotMatch(html,/auth-pending|auth-required/);
+  assert.match(app,/async function init\(\)\s*\{\s*try\{\s*await connectAccount\(\);\s*await loadBank\(\);\s*await refreshRecords\(\);/);
+  assert.doesNotMatch(app,/loginModal/);
 });
 
 test('manually verified OCR override corrects the anatomy item and points to printed FA page 463',()=>{
@@ -174,11 +175,9 @@ test('test results include source images, answer choices and question-level FA r
   }
 });
 
-test('raw OCR is never used as a fallback explanation and account timing is migrated',()=>{
+test('raw OCR is never used as a fallback explanation and answers keep per-question timing',()=>{
   assert.match(app,/暂不显示 OCR 原文/);
   assert.match(app,/attemptSeconds\.get\(q\.cloud_id\)\|\|0/);
-  const migration=fs.readFileSync('supabase/migrations/004_question_elapsed_time.sql','utf8');
-  assert.match(migration,/add column elapsed_seconds/);
-  assert.match(migration,/create function public\.study_question_event/);
-  assert.match(migration,/elapsed_seconds=elapsed_seconds \+ p_elapsed_seconds/);
+  assert.match(app,/elapsed_seconds:attemptSeconds\.get\(q\.cloud_id\)\|\|0/);
+  assert.doesNotMatch(app,/supabase|study_question_event/);
 });

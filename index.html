@@ -6,23 +6,21 @@
   <meta name="theme-color" content="#102b46">
   <title>TMU · Caleb 学习工作台</title>
   <link rel="stylesheet" href="./assets/app.css">
-  <script src="./assets/cloud.js" defer></script>
+  <script src="./assets/study-store.js" defer></script>
   <script src="./assets/personal.js" defer></script>
   <script src="./assets/app.js" defer></script>
 </head>
-<body class="auth-pending">
+<body>
   <a class="skip" href="#main">跳到内容</a>
   <button id="backdrop" class="backdrop" aria-label="关闭导航" hidden></button>
   <aside id="sidebar" class="sidebar" aria-label="学习页面导航">
-    <a href="#/overview" class="brand"><span class="mark">Q</span><span><strong id="site-name">TMU · Caleb</strong><small>PERSONAL STUDY WORKSPACE</small></span></a>
+    <a href="#/overview" class="brand"><span class="mark">Q</span><span><strong id="site-name">TMU · Caleb</strong><small>SHARED STUDY WORKSPACE</small></span></a>
     <div class="section-label">学习工作台</div>
     <nav class="workspace-nav" aria-label="工作台">
       <a href="#/overview" data-view="overview"><span aria-hidden="true">⌂</span>全部页面<span id="page-count" class="count">0</span></a>
       <a href="#/favorites" data-view="favorites"><span aria-hidden="true">☆</span>收藏页面<span id="favorite-count" class="count">0</span></a>
       <a href="#/review" data-view="review"><span aria-hidden="true">⚑</span>标记复习<span id="review-mark-count" class="count">0</span></a>
       <a href="#/records" data-view="records"><span aria-hidden="true">▤</span>学习记录</a>
-      <a href="#/manage" data-view="manage"><span aria-hidden="true">＋</span>管理 HTML</a>
-      <a href="#/account" data-view="account"><span aria-hidden="true">○</span>个人账号</a>
     </nav>
     <label class="search-label" for="search">查找页面</label>
     <input id="search" type="search" placeholder="搜索标题或文件名" autocomplete="off">
@@ -34,7 +32,7 @@
       <a id="workspace-link" class="button workspace-link" href="./">返回工作台</a>
       <button id="menu-toggle" class="icon-button menu-toggle" aria-controls="sidebar" aria-expanded="false" aria-label="打开导航">☰</button>
       <nav class="breadcrumb" aria-label="当前位置"><a href="#/overview">我的页面</a><span aria-hidden="true">/</span><span id="breadcrumb">学习工作台</span></nav>
-      <a id="account-link" class="owner" href="#/account">登录以同步记录</a><span class="avatar" aria-hidden="true">C</span>
+      <span class="owner">公开共享 · 进度保存在本机</span>
     </header>
     <div id="sync-banner" class="sync-banner" role="status" hidden><span id="sync-message"></span><button id="retry-sync" class="button" hidden>重试保存</button></div>
     <section id="personal" class="overview personal" hidden></section>
@@ -43,20 +41,9 @@
       <p id="status" class="status" role="status" aria-live="polite"></p>
       <iframe id="content-frame" title="学习页面" sandbox="allow-scripts allow-forms allow-popups allow-downloads" referrerpolicy="strict-origin-when-cross-origin"></iframe>
     </section>
-    <section id="overview" class="overview" hidden><p class="eyebrow">PERSONAL LIBRARY</p><h1 id="overview-title">全部页面</h1><p id="overview-description" class="description"></p><div id="page-grid" class="page-grid"></div></section>
+    <section id="overview" class="overview" hidden><p class="eyebrow">SHARED LIBRARY</p><h1 id="overview-title">全部页面</h1><p id="overview-description" class="description"></p><div id="page-grid" class="page-grid"></div></section>
     <section id="error" class="overview" hidden role="alert"><p class="eyebrow">学习工作台</p><h1 id="error-title">目录加载中</h1><p id="error-message" class="description"></p><a class="button" href="#/overview">返回全部页面</a><button id="retry" class="button">重新加载</button></section>
     <noscript><p class="overview">请启用 JavaScript 查看页面目录。也可以直接打开 <a href="./qbank.html">USMLE Step 1 KAPLAN题库</a>。</p></noscript>
   </main>
-  <section id="auth-gate" class="auth-gate" hidden aria-label="登录题库">
-    <form id="entry-login-form" class="auth-card">
-      <p class="eyebrow">TMU · Caleb</p>
-      <h1>登录学习账号</h1>
-      <p class="description">登录后进入学习工作台。测试账号可使用用户名；其他账号使用邮箱。邮箱注册账号需验证并经管理员授权。</p>
-      <label>用户名或邮箱<input id="entry-identifier" type="text" autocomplete="username" required></label>
-      <label>密码<input id="entry-password" type="password" autocomplete="current-password" required></label>
-      <p id="entry-auth-message" class="auth-message" role="status" aria-live="polite"></p>
-      <div class="auth-actions"><button id="entry-register" class="button" type="button">邮箱注册</button><button class="button primary" type="submit">登录</button></div>
-    </form>
-  </section>
 </body>
 </html>

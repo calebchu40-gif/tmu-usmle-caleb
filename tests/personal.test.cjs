@@ -5,31 +5,46 @@ const {JSDOM} = require('jsdom');
 const html = fs.readFileSync('index.html','utf8');
 const read = path => fs.readFileSync(path,'utf8');
 const pause = () => new Promise(r=>setTimeout(r,80));
-async function setup(t,{user=true,failSave=false,url='https://example.test/repo/#/records'}={}) {
+async function setup(t,{failSave=false,url='https://example.test/repo/#/records',catalogPages=[]}={}) {
   const dom = new JSDOM(html,{url,runScripts:'outside-only'});t.after(()=>dom.window.close());
   const w=dom.window, d=w.document;const errors=[];w.addEventListener('error',e=>errors.push(e.error));t.after(()=>assert.deepEqual(errors,[]));
-  const rows={study_records:[],study_pages:[],study_favorites:[]};const receipts=new Set();
-  const client={user:user?{id:'owner',email:'owner@example.test'}:null,client:{auth:{onAuthStateChange:()=>{}}},checkSession:async()=>{},list:async table=>rows[table],
-    save:async(table,values,{id}={})=>{if(failSave)throw Error('network error'); const row={note:'',selected:null,...rows[table].find(r=>r.id===id),id:id||w.crypto.randomUUID(),created_at:new Date().toISOString(),updated_at:new Date().toISOString(),...values};rows[table]=rows[table].filter(r=>r.id!==id);rows[table].push(row);return row;},
-    questionEvent:async(path,title,event)=>{
+  const rows={study_records:[],study_favorites:[]};const receipts=new Set();
+  const store={
+    user:null,
+    get client(){return {auth:{onAuthStateChange:()=>{}}}},
+    async checkSession(){this.user={id:'local-browser'};return this.user;},
+    async list(table){return (rows[table]||[]).map(row=>({...row}));},
+    async save(table,values,{id,version}={}){
+      if(failSave)throw Error('network error');
+      const stamp=new Date().toISOString();
+      if(id){
+        const existing=rows[table].find(row=>row.id===id);
+        if(!existing||(version&&existing.updated_at!==version))return null;
+        Object.assign(existing,values,{updated_at:stamp});
+        return {...existing};
+      }
+      const row={created_at:stamp,updated_at:stamp,...values,id:w.crypto.randomUUID()};
+      rows[table]=(rows[table]||[]).concat([row]);return {...row};
+    },
+    async remove(table,key,value){rows[table]=(rows[table]||[]).filter(row=>row[key]!==value);},
+    async questionEvent(path,title,event){
       if(failSave)throw Error('network error');
       let row=rows.study_records.find(r=>r.page_path===path&&r.question_id===event.question_id);
       if(!row){row={id:w.crypto.randomUUID(),page_path:path,question_id:event.question_id,title,note:'',selected:null,submitted:false,correct:null,marked:false,correct_count:0,wrong_count:0,updated_at:new Date().toISOString()};rows.study_records.push(row);}
-      if(!receipts.has(event.request_id)){if(event.action==='mark')row.marked=event.marked;else{row.selected=event.selected;row.correct=event.correct;row.submitted=true;row[event.correct?'correct_count':'wrong_count']++;}receipts.add(event.request_id);}return {...row};
+      if(!receipts.has(event.request_id)){if(event.action==='mark')row.marked=event.marked;else{row.selected=event.selected;row.correct=event.correct;row.submitted=true;row[event.correct?'correct_count':'wrong_count']++;}receipts.add(event.request_id);}
+      return {...row};
     },
-    clearLearningData:async()=>{if(failSave)throw Error('network error');rows.study_records=[];rows.study_favorites=[];},
-    remove:async(table,key,value)=>{rows[table]=rows[table].filter(r=>r[key]!==value);},
-    page:async id=>rows.study_pages.find(r=>r.id===id),
-    logout:async()=>{client.user=null;}, login:async()=>{client.user={id:'owner',email:'owner@example.test'};return client.user;}};
-  w.connectStudyCloud=async()=>client;w.confirm=()=>true;
-  w.fetch=async()=>({ok:true,json:async()=>({title:'Test',pages:[],defaultPage:''})});
+    async clearLearningData(){if(failSave)throw Error('network error');rows.study_records=[];rows.study_favorites=[];},
+  };
+  w.connectStudyStore=async()=>store;w.confirm=()=>true;
+  w.fetch=async()=>({ok:true,json:async()=>({title:'Test',pages:catalogPages,defaultPage:''})});
   w.eval(read('assets/personal.js'));w.eval(read('assets/app.js'));await pause();
   const click = text => {const b=[...d.querySelectorAll('button')].find(b=>b.textContent===text);assert.ok(b,`button ${text} exists`);b.click();return b;};
   const submit = async values => {const f=d.querySelector('#personal form');for(const [k,v]of Object.entries(values))f.elements.namedItem(k).value=v;f.dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));await pause();};
-  return {w,d,rows,client,click,submit};
+  return {w,d,rows,store,click,submit};
 }
 test('personal records support create, read, update, search and delete',async t=>{
- const {d,rows,click,submit,w}=await setup(t);
+ const {w,d,rows,click,submit}=await setup(t);
  click('新增笔记');await submit({title:'细胞周期',note:'第一版笔记',marked:'true'});
  assert.equal(rows.study_records.length,1);assert.match(d.querySelector('.record-card').textContent,/第一版笔记/);
  click('编辑');await submit({title:'细胞周期修订',note:'第二版笔记'});
@@ -38,22 +53,15 @@ test('personal records support create, read, update, search and delete',async t=
  search.value='修订';search.dispatchEvent(new w.Event('input'));assert.equal(d.querySelectorAll('.record-card').length,1);
  click('删除');await pause();assert.equal(rows.study_records.length,0);
 });
-test('private HTML supports create, render in isolated iframe, edit and delete',async t=>{
- const {w,d,rows,click,submit}=await setup(t);w.location.hash='#/manage';await pause();
- click('上传 HTML');await pause();await submit({title:'DNA',category:'基础科学',html:'<h1>私人页面</h1><script>window.x=1</script>'});
- assert.equal(rows.study_pages.length,1);assert.match(d.querySelector('.page-card').textContent,/基础科学\/DNA.html/);
- click('编辑');await pause();await submit({title:'DNA 复制'});assert.equal(rows.study_pages[0].title,'DNA 复制');
- w.location.hash=d.querySelector('.page-card a').hash;await pause();
- assert.match(d.querySelector('iframe').srcdoc,/私人页面/);assert.doesNotMatch(d.querySelector('iframe').getAttribute('sandbox'),/allow-same-origin/);
- w.location.hash='#/manage';await pause();click('删除');await pause();assert.equal(rows.study_pages.length,0);assert.equal(d.querySelectorAll('.page-link').length,0);
+test('the workbench has no login form and old account routes return to the overview',async t=>{
+ const {w,d}=await setup(t);
+ assert.equal(d.querySelector('#auth-gate'),null);assert.equal(d.querySelector('#entry-password'),null);assert.equal(d.querySelector('#auth-gate'),null);
+ w.location.hash='#/account';await pause();
+ assert.equal(w.location.hash,'#/overview');assert.equal(d.querySelector('#personal').hidden,true);
 });
-test('failed writes retain form contents and show unsaved error',async t=>{
+test('failed writes retain form contents and show an error',async t=>{
  const {d,rows,click,submit}=await setup(t,{failSave:true});click('新增笔记');await submit({title:'不能丢失',note:'保留草稿'});
- assert.equal(rows.study_records.length,0);assert.equal(d.querySelector('[name=note]').value,'保留草稿');assert.match(d.querySelector('#sync-message').textContent,/尚未保存/);
-});
-test('unauthenticated management routes show login and no personal data',async t=>{
- const {w,d}=await setup(t,{user:false});assert.equal(d.querySelector('#auth-gate').hidden,false);assert.ok(d.querySelector('#entry-password'));assert.equal(d.querySelectorAll('.record-card').length,0);
- w.location.hash='#/manage';await pause();assert.equal(d.querySelector('#auth-gate').hidden,false);assert.equal(d.querySelectorAll('.page-card').length,0);
+ assert.equal(rows.study_records.length,0);assert.equal(d.querySelector('[name=note]').value,'保留草稿');assert.match(d.querySelector('#sync-message').textContent,/network error/);
 });
 test('quiz saves validate fields, preserve notes and use stable question IDs',async t=>{
  const {w,rows}=await setup(t);const record={question_id:'q1',selected:1,correct:false,submitted:true,marked:false};
@@ -62,11 +70,6 @@ test('quiz saves validate fields, preserve notes and use stable question IDs',as
  assert.equal(rows.study_records.length,1);assert.equal(rows.study_records[0].marked,true);assert.equal(rows.study_records[0].note,'保留笔记');
  w.Personal.saveAnswer('test.html','Test',{...record,selected:999});await pause();assert.equal(rows.study_records[0].selected,1);
  assert.equal(w.Personal.state('test.html')[0].question_id,'q1');
-});
-test('logout clears private catalog and iframe content',async t=>{
- const {w,d,rows,click}=await setup(t);rows.study_pages.push({id:'private1',title:'Secret',category:'Private',html:'secret',updated_at:'2026-01-01'});await w.Personal.refresh();
- w.location.hash='#/page/'+encodeURIComponent('私有/private1');await pause();assert.equal(d.querySelector('iframe').srcdoc,'secret');
- w.location.hash='#/account';await pause();click('退出登录');await pause();assert.equal(w.Personal.pages.length,0);assert.equal(d.querySelector('iframe').getAttribute('srcdoc'),null);
 });
 test('review lists untouched questions, separates marks from pending, and links to exact questions',async t=>{
  const {w,d,rows}=await setup(t);
@@ -83,54 +86,35 @@ test('standard upload extracts all question metadata without executing the HTML'
  assert.equal(w.Personal.sectionFromHtml('<h1>普通 HTML</h1>'),null);
  assert.throws(()=>w.Personal.sectionFromHtml('<script id="quiz-data">bad</script>'),/JSON/);
 });
-test('cloud events preserve every submission and duplicate retries do not increment history',async t=>{
+test('duplicate retries do not increment the answer history',async t=>{
  const {w,rows}=await setup(t);const event={question_id:'q1',action:'attempt',selected:1,correct:false,request_id:w.crypto.randomUUID()};
  w.Personal.questionEvent('test.html','q1',event);w.Personal.questionEvent('test.html','q1',event);await pause();
  w.Personal.questionEvent('test.html','q1',{...event,request_id:w.crypto.randomUUID(),selected:0,correct:true});await pause();
  assert.equal(rows.study_records[0].correct_count,1);assert.equal(rows.study_records[0].wrong_count,1);assert.equal(rows.study_records[0].correct,true);
 });
-test('reset requires two confirmations and preserves HTML while clearing all learning state',async t=>{
+test('clearing local data requires two confirmations and empties records and favorites',async t=>{
  const {w,d,rows,click}=await setup(t);
- rows.study_pages.push({id:'keep',title:'Keep HTML',category:'Test',html:'<h1>Keep</h1>',updated_at:'2026-01-01',question_index:[{id:'q1',title:'Question'}]});
- w.Personal.questionEvent('私有/keep','Question',{question_id:'q1',request_id:w.crypto.randomUUID(),action:'attempt',selected:0,correct:true});await pause();
- await w.Personal.favorite('私有/keep',true);await w.Personal.refresh();
- w.location.hash='#/account';await pause();
- let calls=0;w.confirm=()=>{calls++;return false;};click('清除全部学习数据');await pause();
+ w.Personal.questionEvent('section.html','Question',{question_id:'q1',request_id:w.crypto.randomUUID(),action:'attempt',selected:0,correct:true});await pause();
+ await w.Personal.favorite('section.html',true);await w.Personal.refresh();
+ let calls=0;w.confirm=()=>{calls++;return false;};click('清除全部记录');await pause();
  assert.equal(calls,1);assert.equal(rows.study_records.length,1);
- calls=0;w.confirm=()=>++calls===1;click('清除全部学习数据');await pause();
+ calls=0;w.confirm=()=>++calls===1;click('清除全部记录');await pause();
  assert.equal(calls,2);assert.equal(rows.study_records.length,1);assert.equal(rows.study_favorites.length,1);
- calls=0;w.confirm=()=>{calls++;return true;};click('清除全部学习数据');await pause();
- assert.equal(calls,2);assert.equal(rows.study_records.length,0);assert.equal(rows.study_favorites.length,0);assert.equal(rows.study_pages[0].html,'<h1>Keep</h1>');
- assert.equal(w.Personal.state('私有/keep').length,0);assert.equal(w.Personal.favorites.length,0);assert.equal(w.Personal.pages.length,1);assert.equal(w.Personal.reviewQuestions()[0].submitted,undefined);
- assert.match(d.querySelector('#sync-message').textContent,/已清除.*HTML/);
+ calls=0;w.confirm=()=>{calls++;return true;};click('清除全部记录');await pause();
+ assert.equal(calls,2);assert.equal(rows.study_records.length,0);assert.equal(rows.study_favorites.length,0);
+ assert.equal(w.Personal.state('section.html').length,0);assert.equal(w.Personal.favorites.length,0);
+ assert.match(d.querySelector('#sync-message').textContent,/已清除/);
 });
-test('reset failure retains records and HTML and allows retry',async t=>{
+test('clearing data failure retains records and allows retry',async t=>{
  const {w,d,rows,click}=await setup(t,{failSave:true});
  rows.study_records.push({id:'keep',title:'Keep',note:'note',updated_at:'2026-01-01'});await w.Personal.refresh();
- w.location.hash='#/account';await pause();const b=click('清除全部学习数据');await pause();
- assert.equal(rows.study_records.length,1);assert.equal(b.disabled,false);assert.match(d.querySelector('#sync-message').textContent,/网络/);
+ const b=click('清除全部记录');await pause();
+ assert.equal(rows.study_records.length,1);assert.equal(b.disabled,false);assert.match(d.querySelector('#sync-message').textContent,/network/);
 });
-test('reset waits for in-flight answers before clearing their records',async t=>{
- const {w,rows,client,click}=await setup(t);let finish;
- const original=client.questionEvent;client.questionEvent=(...args)=>new Promise(resolve=>{finish=async()=>resolve(await original(...args));});
- w.Personal.questionEvent('section.html','Question',{question_id:'q1',request_id:w.crypto.randomUUID(),action:'attempt',selected:0,correct:true});await pause();
- w.location.hash='#/account';await pause();click('清除全部学习数据');await pause();
- assert.equal(w.Personal.pending('section.html').length,1);await finish();await pause();
- assert.equal(rows.study_records.length,0);assert.equal(w.Personal.pending('section.html').length,0);
-});
-test('HTML file list shows uploads and both deletion confirmations must pass',async t=>{
- const {w,d,rows,click,submit}=await setup(t);w.location.hash='#/manage';await pause();
- click('上传 HTML');await pause();await submit({title:'上传测试小节',category:'功能测试',html:read('tests/fixtures/上传测试小节.html')});
- assert.equal(rows.study_pages.length,1);assert.match(d.querySelector('#personal').textContent,/已上传的 HTML 文件.*共 1 个文件/s);
- assert.match(d.querySelector('.page-card').textContent,/功能测试\/上传测试小节.html/);assert.match(d.querySelector('.page-card').textContent,/包含 2 道题/);
- let prompts=[];w.confirm=text=>{prompts.push(text);return false;};click('删除');await pause();assert.equal(prompts.length,1);assert.equal(rows.study_pages.length,1);
- prompts=[];w.confirm=text=>{prompts.push(text);return prompts.length===1;};click('删除');await pause();assert.equal(prompts.length,2);assert.equal(rows.study_pages.length,1);assert.match(prompts[1],/功能测试\/上传测试小节.html/);
- rows.study_records.push({id:'note',title:'保留的笔记',updated_at:'2026-01-01'});
- w.confirm=()=>true;click('删除');await pause();assert.equal(rows.study_pages.length,0);assert.equal(rows.study_records.length,1);assert.match(d.querySelector('#personal').textContent,/共 0 个文件/);
-});
-test('private HTML has a standalone link and saves under the existing database page ID',async t=>{
- const {w,d,rows}=await setup(t,{url:'https://example.test/repo/?view=standalone#/manage'});
- rows.study_pages.push({id:'private1',title:'Test',category:'Test',html:'<h1>Test</h1>',updated_at:'2026-01-01'});await w.Personal.refresh();w.location.hash='#/page/'+encodeURIComponent('私有/private1');await pause();
- const link=d.querySelector('#original-link');assert.equal(link.hidden,false);assert.match(link.href,/\?view=standalone#\/page\/%E7%A7%81%E6%9C%89%2Fprivate1$/);
- w.Personal.questionEvent('私有/private1','Test',{question_id:'q1',request_id:w.crypto.randomUUID(),action:'attempt',selected:0,correct:true});await pause();assert.equal(rows.study_records[0].page_path,'私有/private1');assert.equal(rows.study_records[0].correct_count,1);
+test('pages entered from the catalog open in the sandboxed viewer',async t=>{
+ const {w,d}=await setup(t,{catalogPages:[{path:'基础科学/小节.html',title:'小节',category:'基础科学'}]});
+ w.location.hash='#/page/'+encodeURIComponent('基础科学/小节.html');await pause();
+ const frame=d.querySelector('#content-frame');
+ assert.equal(decodeURIComponent(new URL(frame.src).pathname),'/repo/基础科学/小节.html');
+ assert.doesNotMatch(frame.getAttribute('sandbox'),/allow-same-origin/);
 });

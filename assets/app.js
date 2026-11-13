@@ -70,13 +70,13 @@ function updateFavorite() {
 }
 function renderOverview(onlyFavorites) {
   $("overview-title").textContent = onlyFavorites ? "收藏页面" : "全部页面";
-  $("overview-description").textContent = onlyFavorites ? "收藏常用页面，下次从这里继续。登录后收藏跨设备同步；未登录时保存在当前浏览器。" : "选择一个页面开始学习。新上传的 HTML 会在发布后加入目录。";
+  $("overview-description").textContent = onlyFavorites ? "收藏常用页面，下次从这里继续。收藏保存在当前浏览器。" : "所有页面对所有访问者都一样，不需要登录。新页面发布后会自动加入目录。";
   const pages = matchingPages().filter(p => !onlyFavorites || favorites.has(p.path));
   $("page-grid").replaceChildren();
   for (const page of pages) {
     const card = node("article", "page-card");
     const link = node("a", "button", "打开页面 →"); link.href = pageHref(page.path);
-    card.append(node("p", "eyebrow", page.category), node("h2", "", page.title), node("p", "filename", page.private ? `${page.category}/${page.title}.html · 私人` : page.path), link);
+    card.append(node("p", "eyebrow", page.category), node("h2", "", page.title), node("p", "filename", page.path), link);
     $("page-grid").append(card);
   }
   if (!pages.length) $("page-grid").append(node("p", "empty-state", $("search").value ? "没有找到匹配的页面，试试其他关键词。" : onlyFavorites ? "还没有收藏。打开页面后，点击右上角的「收藏」。" : "还没有内容。通过左侧「上传 HTML」添加你的第一个页面。"));
@@ -89,12 +89,13 @@ function renderRoute() {
     hash = "#/overview";
     history.replaceState(null, "", hash);
   }
-  const personalView = ["#/account", "#/records", "#/manage", "#/review"].includes(hash);
+  if (hash === "#/account" || hash === "#/manage") { history.replaceState(null, "", "#/overview"); hash = "#/overview"; }
+  const personalView = ["#/records", "#/review"].includes(hash);
   $("personal").hidden = !personalView;
   if (personalView) {
     clearFrame(); activePage = null;
     $("viewer").hidden = true; $("overview").hidden = true; $("error").hidden = true;
-    const labels = {account:"个人账号",records:"学习记录",manage:"管理 HTML",review:"标记复习"};
+    const labels = {records:"学习记录",review:"标记复习"};
     const view = hash.slice(2); $("breadcrumb").textContent = labels[view]; document.title = `${labels[view]} · ${catalog.title}`;
     document.querySelectorAll("[data-view]").forEach(a => { if(a.dataset.view === view)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current"); });
     renderCatalog(); drawer(false); window.Personal?.render(); return;
@@ -112,10 +113,6 @@ function renderRoute() {
     } catch { /* Invalid shared URL. */ }
     if (!hash.startsWith("#/page/") || !page) {
       clearFrame(); activePage = null; renderCatalog();
-      if (hash.startsWith("#/page/") && requested.startsWith("私有/") && !window.Personal?.user) {
-        $("viewer").hidden=true; $("overview").hidden=true; $("error").hidden=true; $("personal").hidden=false;
-        $("breadcrumb").textContent="登录以打开私人页面"; window.Personal?.render(); drawer(false); return;
-      }
       showError("这个页面不在目录中", "页面可能已被移动或删除。请从左侧重新选择，或返回全部页面。");
       return;
     }
@@ -162,15 +159,8 @@ $("content-frame").addEventListener("load", () => { if ($("status").textContent 
 $("retry").addEventListener("click", () => location.reload());
 window.addEventListener("hashchange", renderRoute);
 async function start() {
-  document.body.classList.add("auth-pending");
   try {
     for (let n = 0; n < 200 && window.Personal?.ready === false; n++) await new Promise(resolve => setTimeout(resolve, 50));
-    if (!window.Personal?.ready) throw new Error("云端登录服务尚未准备好，请刷新重试。");
-    if (!window.Personal.configured) throw new Error("云端登录服务暂不可用，请检查网络后刷新。");
-    if (!window.Personal.user) {
-      document.body.classList.remove("auth-pending"); document.body.classList.add("auth-required");
-      $("auth-gate").hidden = false; $("entry-auth-message").textContent = "请先登录，登录后才能查看学习工作台和题库。"; return;
-    }
     const response = await fetch("./assets/pages.json", {cache: "no-cache"});
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     catalog = await response.json();
@@ -180,42 +170,21 @@ async function start() {
     catalog.pages = [...publicPages, ...(window.Personal?.pages || [])];
     if (window.Personal?.user) favorites = new Set(window.Personal.favorites);
     $("site-name").textContent = catalog.title;
-    document.body.classList.remove("auth-pending", "auth-required"); $("auth-gate").hidden = true;
+    document.body.classList.remove("auth-pending", "auth-required");
     renderRoute();
   } catch {
-    if (!window.Personal?.user) {
-      document.body.classList.remove("auth-pending"); document.body.classList.add("auth-required");
-      $("auth-gate").hidden = false; $("entry-auth-message").textContent = "云端连接失败或尚未授权，请检查网络和账号设置后重试。"; return;
-    }
-    document.body.classList.remove("auth-pending", "auth-required");
     $("catalog").replaceChildren(node("p", "sidebar-message", "目录暂时不可用。"));
-    showError("暂时无法加载目录", "请检查网络后重试。如果刚上传文件，请等待网站发布完成。");
+    showError("暂时无法加载目录", "请检查网络后重试。如果刚发布新页面，请等待网站部署完成。");
   }
 }
-$("entry-login-form").addEventListener("submit", async event => {
-  event.preventDefault(); const button = event.submitter || event.currentTarget.querySelector('button[type="submit"]'); button.disabled = true;
-  $("entry-auth-message").textContent = "正在登录…";
-  try { await window.Personal.login($("entry-identifier").value, $("entry-password").value); $("entry-password").value = ""; await start(); }
-  catch (error) { $("entry-auth-message").textContent = error.message || "登录失败，请检查账号和密码。"; }
-  finally { button.disabled = false; }
-});
-$("entry-register").addEventListener("click", async event => {
-  const identifier = $("entry-identifier").value.trim(), password = $("entry-password").value, button = event.currentTarget;
-  button.disabled = true; $("entry-auth-message").textContent = "正在创建邮箱账号…";
-  try {
-    if (!identifier.includes("@")) throw new Error("邮箱注册请在账号框中填写邮箱地址。");
-    const result = await window.Personal.registerEmail(identifier, password); $("entry-password").value = "";
-    $("entry-auth-message").textContent = result.confirmationRequired ? "注册已创建，请查收验证邮件；验证后还需管理员授权才能进入。" : "注册已创建；请联系管理员授权后再登录。";
-  } catch (error) { $("entry-auth-message").textContent = error.message || "邮箱注册失败。"; }
-  finally { button.disabled = false; }
-});
+start();
 function clearFrame() {
   frameVersion++; loadedFrameKey = ""; appliedFocus = "";
   $("content-frame").removeAttribute("srcdoc");
   $("content-frame").removeAttribute("src");
 }
 async function loadFrame(page) {
-  const key = `${page.path}:${page.updated_at || ""}:${window.Personal?.user?.id || "guest"}:${window.Personal?.ready === false ? "loading" : "ready"}`;
+  const key = `${page.path}:${page.updated_at || ""}:${window.Personal?.ready === false ? "loading" : "ready"}`;
   if (key === loadedFrameKey) {
     if(focusQuestion && appliedFocus!==location.hash){$("content-frame").contentWindow.postMessage({channel:"tmu-study-v2",type:"focus",question_id:focusQuestion},"*");appliedFocus=location.hash;}
     return;
@@ -228,28 +197,13 @@ async function loadFrame(page) {
   standaloneUrl.hash = routeFor(page.path) + (focusQuestion ? '?question='+encodeURIComponent(focusQuestion) : '');
   $("original-link").hidden = false;
   $("original-link").href = standaloneUrl.href;
-  if (page.private) {
-    try {
-      const html = await window.Personal.html(page);
-      if (version !== frameVersion || activePage?.path !== page.path) return;
-      $("content-frame").srcdoc = html;
-    } catch { if(version === frameVersion){loadedFrameKey=""; $("status").textContent = "私人页面加载失败，请刷新或重新登录后重试。";} }
-  } else {
-    const url = fileUrl(page.path);
-    url.searchParams.set("embedded", "1"); $("content-frame").src = url.href;
-  }
+  const url = fileUrl(page.path);
+  url.searchParams.set("embedded", "1"); $("content-frame").src = url.href;
 }
 window.addEventListener("study-data-changed", () => {
-  $("account-link").textContent = window.Personal?.user ? "个人账号 · 已登录" : "登录以同步记录";
-  if (window.Personal?.ready && !window.Personal.user) {
-    document.body.classList.add("auth-required"); $("auth-gate").hidden = false;
-    $("entry-auth-message").textContent = "当前会话已结束，请重新登录。"; return;
-  }
   if (!catalog) return;
-  document.body.classList.remove("auth-pending", "auth-required"); $("auth-gate").hidden = true;
   catalog.pages = [...publicPages, ...(window.Personal?.pages || [])];
   if (window.Personal?.user) favorites = new Set(window.Personal.favorites);
-  else { try { favorites = new Set(JSON.parse(localStorage.getItem(storageKey) || "[]")); } catch { favorites = new Set(); } }
   renderRoute();
 });
 window.addEventListener("study-question-result", event => {

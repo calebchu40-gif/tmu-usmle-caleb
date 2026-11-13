@@ -84,20 +84,9 @@ def build(root=ROOT):
             shutil.copyfile(app_script, output / "assets/qbank-app.js")
         (output / "data/questions.json").write_text(json.dumps(curated, ensure_ascii=False) + "\n", encoding="utf-8")
         (output / "data/bank-meta.json").write_text(json.dumps({"verified": len(curated)}, ensure_ascii=False) + "\n", encoding="utf-8")
-        cloud = config.get("cloud", {})
-        public_cloud = {key: cloud.get(key, "") for key in ("url", "publishableKey")}
-        key = public_cloud["publishableKey"]
-        if key and not key.startswith("sb_publishable_"):
-            raise ValueError("Use a Supabase publishable key, never a secret/service_role key")
-        if public_cloud["url"] and not public_cloud["url"].startswith("https://"):
-            raise ValueError("Cloud URL must use HTTPS")
-        (output / "assets/cloud-config.json").write_text(json.dumps(public_cloud) + "\n", encoding="utf-8")
-        if public_cloud["url"] and public_cloud["publishableKey"]:
-            shutil.copyfile(root / "assets/cloud.js", output / "assets/cloud.js")
-            vendor = root / "assets/vendor/supabase.js"
-            if not vendor.is_file():
-                raise FileNotFoundError("Supabase browser bundle was not created")
-            shutil.copyfile(vendor, output / "assets/vendor/supabase.js")
+        store = root / "assets/study-store.js"
+        if store.is_file():
+            shutil.copyfile(store, output / "assets/study-store.js")
         image_paths = sorted({
             image
             for question in curated
@@ -187,14 +176,6 @@ def build(root=ROOT):
             target = output / image
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(source, target)
-    cloud = config.get("cloud", {})
-    public_cloud = {key: cloud.get(key, "") for key in ("url", "publishableKey")}
-    key = public_cloud["publishableKey"]
-    if key and not key.startswith("sb_publishable_"):
-        raise ValueError("Use a Supabase publishable key, never a secret/service_role key")
-    if public_cloud["url"] and not public_cloud["url"].startswith("https://"):
-        raise ValueError("Cloud URL must use HTTPS")
-    (output / "assets/cloud-config.json").write_text(json.dumps(public_cloud) + "\n", encoding="utf-8")
     template = root / "templates/小节题库模板.html"
     if template.exists():
         (output / "downloads").mkdir(exist_ok=True)

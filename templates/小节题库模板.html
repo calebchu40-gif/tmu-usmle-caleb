@@ -162,7 +162,7 @@
     $('refresh-questions').title=pending.size?'请先完成保存或重试未保存的题目。':'';
   }
   function updateMode(){
-    $('mode-note').textContent=mode==='cloud'?'已登录 · 答题与标记保存到云端':mode==='session'?'未登录 · 仅本次窗口保留记录':mode==='local'?'独立打开 · 记录仅保存在本机浏览器':'正在恢复学习记录…';
+    $('mode-note').textContent=mode==='cloud'?'已连接 · 答题与标记保存在本机浏览器':mode==='session'?'仅本次窗口保留记录':mode==='local'?'独立打开 · 记录仅保存在本机浏览器':'正在恢复学习记录…';
   }
   function focusQuestion(id){
     const card=cards.get(id);if(!card)return;
@@ -258,7 +258,7 @@
       if(data.error){if(job&&job.request_id===data.request_id){job.failed=true;feedback.set(q.id,data.error);} }
       else{
         if(data.record)states.set(q.id,{...empty(q.id),...data.record});
-        if(job?.request_id===data.request_id){pending.delete(q.id);if(job.action==='attempt'){retrying.delete(q.id);drafts.delete(q.id);}feedback.set(q.id,data.saved?'已保存到云端。':'仅本次窗口保留；登录后可跨设备保存。');}
+        if(job?.request_id===data.request_id){pending.delete(q.id);if(job.action==='attempt'){retrying.delete(q.id);drafts.delete(q.id);}feedback.set(q.id,data.saved?'已保存在本机浏览器。':'仅本次窗口保留，刷新后可能丢失。');}
       }
       renderCard(q,config.questions.indexOf(q));updateStats();
     }

@@ -1,16 +1,11 @@
 {
-  "title": "USMLE Step 1 KAPLAN题库",
+  "title": "TMU · Caleb 学习工作台",
   "standaloneQuestionBank": false,
-  "visiblePages": ["qbank.html"],
   "qbankPilotSource": "data/word-pilot-questions.json",
   "pages": {
     "qbank.html": {
       "title": "USMLE Step 1 KAPLAN题库",
       "category": "USMLE Step 1"
     }
-  },
-  "cloud": {
-    "url": "https://cavxkkumagjkuyuypheh.supabase.co",
-    "publishableKey": "sb_publishable_Jt9P9fnivQT0IW6ZtRz5pw_x0ana_41"
   }
 }

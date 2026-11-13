@@ -50,7 +50,7 @@ test('embedded mode waits for restore, submits one question, and retries the sam
  receive({type:'result',question_id:ids[0],request_id:event.request_id,error:'网络中断'});
  [...card(0).querySelectorAll('button')].find(b=>b.textContent==='重试保存').click();assert.equal(outbound.at(-1).event.request_id,event.request_id);
  receive({type:'result',question_id:ids[0],request_id:event.request_id,saved:true,record:{question_id:ids[0],selected:0,correct:true,submitted:true,marked:false,correct_count:1,wrong_count:0}});
- assert.match(card(0).querySelector('.history').textContent,/正确 1 次/);assert.match(card(0).textContent,/已保存到云端/);
+ assert.match(card(0).querySelector('.history').textContent,/正确 1 次/);assert.match(card(0).textContent,/已保存在本机浏览器/);
  assert.equal(card(1).querySelector('.explanation'),null);
 });
 test('template output is self-contained and has the fixed sidebar / scroll column contract',()=>{
@@ -71,7 +71,7 @@ test('manual refresh unlocks every question and clears drafts without changing s
  assert.equal(card(0).querySelector('.mark-button').getAttribute('aria-pressed'),'true');assert.deepEqual(JSON.parse(w.localStorage.getItem('tmu-section-v2:basic-science-cell-biology')),saved);
  answer(0,1);assert.match(card(0).querySelector('.history').textContent,/正确 5 次错误 3 次/);assert.equal(d.querySelector('#correct-questions').textContent,'暂无');assert.equal(d.querySelector('#review-questions').textContent,'1，2，3，4');assert.ok(card(0).querySelector('.explanation'));
 });
-test('manual refresh sends no cloud writes and waits for pending saves',t=>{
+test('manual refresh sends no storage writes and waits for pending saves',t=>{
  const {d,card,answer,outbound,receive}=setup(t,{embedded:true});const refresh=d.querySelector('#refresh-questions');assert.equal(refresh.disabled,true);
  receive({type:'restore',records:[],signedIn:true});assert.equal(refresh.disabled,false);answer(0,0);const event=outbound.at(-1).event;assert.equal(refresh.disabled,true);
  receive({type:'result',question_id:ids[0],request_id:event.request_id,error:'断网'});assert.equal(refresh.disabled,true);
@@ -91,7 +91,7 @@ test('question lists show ordered question numbers, follow latest results and su
  retry(1);answer(1,1);assert.equal(d.querySelector('#correct-questions').textContent,'1，2，3');assert.equal(d.querySelector('#review-questions').textContent,'4');
  answer(3,3);assert.equal(d.querySelector('#correct-questions').textContent,'1，2，3，4');assert.equal(d.querySelector('#review-questions').textContent,'暂无');
 });
-test('section header is removed and cloud status remains inside the sidebar',t=>{
+test('section header is removed and the record status remains inside the sidebar',t=>{
  const {d,card,receive}=setup(t,{embedded:true});assert.equal(d.querySelector('.section-head'),null);assert.ok(d.querySelector('.section-sidebar #mode-note'));assert.ok(d.querySelector('.section-sidebar #connect-retry'));
  receive({type:'restore',signedIn:true,records:[]});receive({type:'sync',records:[{question_id:ids[0],selected:0,submitted:true,correct:true,marked:true,correct_count:2,wrong_count:1}]});
  assert.equal(d.querySelector('#correct-questions').textContent,'1');assert.match(card(0).querySelector('.history').textContent,/正确 2 次错误 1 次/);assert.equal(card(0).querySelector('.mark-button').getAttribute('aria-pressed'),'true');

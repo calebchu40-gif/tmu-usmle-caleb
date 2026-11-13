@@ -87,13 +87,12 @@ class BuildTests(unittest.TestCase):
         self.assertFalse((self.root / "dist/old.html").exists())
         self.assertTrue((self.root / "dist/.nojekyll").exists())
 
-    def test_standalone_qbank_copies_v2_app_and_public_cloud_config(self):
-        self.write("site.config.json", json.dumps({"standaloneQuestionBank": True, "cloud": {"url": "https://example.supabase.co", "publishableKey": "sb_publishable_test"}}))
+    def test_standalone_qbank_copies_v2_app_and_shared_store(self):
+        self.write("site.config.json", json.dumps({"standaloneQuestionBank": True}))
         self.write("qbank.html", "old page")
         self.write("qbank-v2.html", "new page")
         self.write("assets/qbank-app.js", "app")
-        self.write("assets/cloud.js", "cloud")
-        self.write("assets/vendor/supabase.js", "vendor")
+        self.write("assets/study-store.js", "store")
         self.write("data/questions.json", json.dumps([{"id":"reviewed","question_images":[]},{"id":"raw-only","question_image":"private.jpg"}], ensure_ascii=False))
         self.write("data/question-overrides.json", json.dumps({"reviewed":{"reviewed":True,"complete":True,"chapter":"Biochemistry","stem":"Stem","answer":"A","options":[{"letter":"A","text":"Answer"},{"letter":"B","text":"Distractor"}],"explanation":"Reviewed explanation"}}, ensure_ascii=False))
         self.write("private.jpg", "private image")
@@ -101,7 +100,7 @@ class BuildTests(unittest.TestCase):
         for name in ["index.html", "qbank.html"]:
             self.assertEqual((self.root / "dist" / name).read_text(encoding="utf-8"), "new page")
         self.assertEqual((self.root / "dist/assets/qbank-app.js").read_text(encoding="utf-8"), "app")
-        self.assertEqual((self.root / "dist/assets/vendor/supabase.js").read_text(encoding="utf-8"), "vendor")
+        self.assertEqual((self.root / "dist/assets/study-store.js").read_text(encoding="utf-8"), "store")
         self.assertFalse((self.root / "dist/data/question-overrides.json").exists())
         public_questions=json.loads((self.root / "dist/data/questions.json").read_text(encoding="utf-8"))
         self.assertEqual(len(public_questions), 1)
@@ -109,8 +108,7 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(public_questions[0]["id"], public_questions[0]["cloud_id"])
         self.assertFalse((self.root / "dist/private.jpg").exists())
         self.assertEqual(json.loads((self.root / "dist/data/bank-meta.json").read_text(encoding="utf-8"))["verified"], 1)
-        config = json.loads((self.root / "dist/assets/cloud-config.json").read_text(encoding="utf-8"))
-        self.assertEqual(config["url"], "https://example.supabase.co")
+        self.assertFalse((self.root / "dist/assets/cloud-config.json").exists())
 
     def test_workspace_keeps_root_and_registers_curated_qbank_page(self):
         self.write("site.config.json", json.dumps({"title":"Workspace", "defaultPage":"qbank.html", "pages":{"qbank.html":{"title":"Step 1 Qbank", "category":"USMLE Step 1"}}}))
