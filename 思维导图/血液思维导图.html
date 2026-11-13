@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f8fb">
+<title>血液思维导图</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:34px 20px 64px;background:#f7f8fb;color:#1f2430;
+ font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",system-ui,sans-serif;
+ font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto}
+header{margin-bottom:6px}
+h1{font-size:25px;margin:0 0 10px;letter-spacing:.2px}
+h1 small{display:block;font-size:13px;font-weight:400;color:#8a92a3;letter-spacing:.6px;margin-top:6px;text-transform:uppercase}
+.lead{color:#5d6474;font-size:14px;margin:0 0 8px}
+.hint{color:#8a92a3;font-size:12.5px;margin:0 0 26px}
+.hint b{color:#5d6474;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{position:relative;display:flex;flex-direction:column;background:#fff;border-radius:14px;
+ padding:18px 18px 16px 22px;text-decoration:none;color:inherit;
+ box-shadow:0 1px 2px rgba(24,32,49,.06),0 6px 18px rgba(24,32,49,.05);
+ border-left:5px solid var(--c,#c9ced9);transition:transform .14s ease,box-shadow .14s ease}
+.card::after{content:"";position:absolute;inset:0;border-radius:14px;border:1px solid rgba(24,32,49,.05);pointer-events:none}
+.card:hover,.card:focus-visible{transform:translateY(-2px);
+ box-shadow:0 2px 4px rgba(24,32,49,.08),0 14px 30px rgba(24,32,49,.10);outline:none}
+.card:focus-visible{box-shadow:0 0 0 3px rgba(60,110,190,.35),0 14px 30px rgba(24,32,49,.10)}
+.top{display:flex;align-items:baseline;gap:10px;margin-bottom:8px}
+.no{flex:none;display:inline-flex;align-items:center;justify-content:center;
+ min-width:38px;height:26px;padding:0 8px;border-radius:8px;background:var(--c,#c9ced9);
+ color:#fff;font-size:13px;font-weight:700;letter-spacing:.5px;font-variant-numeric:tabular-nums}
+.cn{font-size:16.5px;font-weight:700;letter-spacing:.2px}
+.en{display:block;font-size:11.5px;font-weight:500;color:#8a92a3;letter-spacing:.4px;margin:-2px 0 9px}
+.desc{margin:0 0 12px;font-size:13px;color:#4b5563;line-height:1.62}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.tag{font-size:11.5px;line-height:1;padding:5px 8px;border-radius:999px;
+ background:rgba(24,32,49,.045);color:var(--c,#5d6474);border:1px solid rgba(24,32,49,.07)}
+.go{margin-top:auto;font-size:13px;font-weight:700;color:var(--c,#3a4252);letter-spacing:.3px}
+.go span{display:inline-block;transition:transform .14s ease}
+.card:hover .go span{transform:translateX(3px)}
+footer{margin-top:28px;color:#9aa2b1;font-size:12px;line-height:1.7}
+@media (max-width:520px){
+ body{padding:24px 14px 48px}
+ h1{font-size:21px}
+ .grid{grid-template-columns:1fr;gap:13px}
+ .card{padding:16px 15px 14px 18px}
+}
+@media (prefers-reduced-motion:reduce){
+ .card,.card .go span{transition:none}
+ .card:hover,.card:focus-visible{transform:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>血液思维导图 Hematology · 交互思维导图
+      <small>Hematology Interactive Mind Maps</small>
+    </h1>
+    <p class="lead">共 7 章，点击进入。每份都可折叠展开、配图为讲义原图、点图放大。</p>
+    <p class="hint">按讲义顺序排列 · <b>①</b> 分型 → <b>②</b> 表现/并发症 → <b>③</b> 整体诊断 → <b>④</b> 整体治疗（有才开）</p>
+  </header>
+
+  <div class="grid">
+
+    <a class="card" href="血小板紊乱.html" style="--c:#c0392b">
+      <div class="top"><span class="no">01</span><span class="cn">血小板紊乱</span></div>
+      <span class="en">Platelet Disorders</span>
+      <p class="desc">生成减少／破坏·免疫／破坏·非免疫（TMA）／脾扣押／黏附·聚集·释放五个机制分组，逐病卡片带治疗；典型表现为表浅出血。</p>
+      <div class="tags"><span class="tag">ITP</span><span class="tag">HIT · 4T 评分</span><span class="tag">TTP／HUS</span><span class="tag">表浅出血</span></div>
+      <span class="go">打开 <span>→</span></span>
+    </a>
+
+    <a class="card" href="缺铁性与微细胞性贫血.html" style="--c:#b9770e">
+      <div class="top"><span class="no">02</span><span class="cn">微细胞性贫血</span></div>
+      <span class="en">Microcytic Anemia</span>
+      <p class="desc">血红素合成障碍（IDA、铁粒幼、慢性病）与珠蛋白合成障碍（地中海贫血）两条通路；从 MCV &lt;80 fL 起步的五步诊断。</p>
+      <div class="tags"><span class="tag">TAILS 口诀</span><span class="tag">铁四项</span><span class="tag">HbA2 &gt;3.5%</span><span class="tag">环形铁粒幼</span></div>
+      <span class="go">打开 <span>→</span></span>
+    </a>
+
+    <a class="card" href="正细胞性贫血.html" style="--c:#1a6e6a">
+      <div class="top"><span class="no">03</span><span class="cn">正细胞性贫血</span></div>
+      <span class="en">Normocytic Anemia</span>
+      <p class="desc">生成不足（再障、慢性病、急性失血）／破坏·内在（HS、PNH、G6PDH、镰状）／破坏·外在（AIHA、MAHA），溶血指标与涂片线索一条线串起来。</p>
+      <div class="tags"><span class="tag">RPI</span><span class="tag">Coombs</span><span class="tag">MAHA 四病</span><span class="tag">镰状危象</span></div>
+      <span class="go">打开 <span>→</span></span>
+    </a>
+
+    <a class="card" href="大细胞性贫血.html" style="--c:#7b3fa0">
+      <div class="top"><span class="no">04</span><span class="cn">大细胞性贫血</span></div>
+      <span class="en">Macrocytic Anemia</span>
+      <p class="desc">巨幼（B12／叶酸，DNA 合成障碍）与非巨幼（酒精、肝病、甲减、MDS、药物）；B12 与叶酸各一张六格卡片。</p>
+      <div class="tags"><span class="tag">MCV &gt;100</span><span class="tag">Schilling 试验</span><span class="tag">同型半胱氨酸</span><span class="tag">后索受累</span></div>
+      <span class="go">打开 <span>→</span></span>
+    </a>
+
+    <a class="card" href="凝血病.html" style="--c:#2c5f8a">
+      <div class="top"><span class="no">05</span><span class="cn">凝血病</span></div>
+      <span class="en">Coagulopathy</span>
+      <p class="desc">内在途径缺陷／外在途径缺陷／双途径缺陷三组，逐病卡片；典型表现是深部出血——关节积血、颅内出血、术后渗血。</p>
+      <div class="tags"><span class="tag">PT／PTT</span><span class="tag">混合试验</span><span class="tag">DIC</span><span class="tag">血友病 · vWD</span></div>
+      <span class="go">打开 <span>→</span></span>
+    </a>
+
+    <a class="card" href="高凝状态.html" style="--c:#9b3d6b">
+      <div class="top"><span class="no">06</span><span class="cn">高凝状态</span></div>
+      <span class="en">Hypercoagulable States</span>
+      <p class="desc">魏尔啸三联征起步，遗传性（因子 V Leiden、蛋白 C／S、AT-III、同型半胱氨酸）与获得性（APLS、HIT、PNH、妊娠、MPN、肿瘤）；并发症为整章共有，单列一支。</p>
+      <div class="tags"><span class="tag">Virchow 三联征</span><span class="tag">Factor V Leiden</span><span class="tag">APLS 12 周</span><span class="tag">肝素抵抗</span></div>
+      <span class="go">打开 <span>→</span></span>
+    </a>
+
+    <a class="card" href="浆细胞疾病.html" style="--c:#4a7c59">
+      <div class="top"><span class="no">07</span><span class="cn">浆细胞疾病</span></div>
+      <span class="en">Plasma Cell Disorders</span>
+      <p class="desc">MGUS／多发性骨髓瘤／华氏巨球蛋白血症三种单克隆丙种球蛋白病；MM 看 CRAB，WM 看 IgM 与高黏滞，诊断走 SPEP→UPEP→游离轻链→骨髓四步。</p>
+      <div class="tags"><span class="tag">CRAB</span><span class="tag">RANKL</span><span class="tag">M 峰 3 g/dL</span><span class="tag">高黏滞</span></div>
+      <span class="go">打开 <span>→</span></span>
+    </a>
+
+  </div>
+
+  <footer>每份导图都是单文件 HTML：可离线打开、支持折叠与点图放大。内容依据讲义原文整理，页脚标注对应 Note 与讲义页码。</footer>
+</div>
+</body>
+</html>

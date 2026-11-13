@@ -8,6 +8,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED_DIRS = {"dist", "node_modules", "scripts", "tests", "__pycache__", "supabase", "content", "templates"}
 EXCLUDED_FILES = {"site.config.json", "package.json", "package-lock.json", "README.md", "qbank-v2.html"}
+# 思维导图/ 下只把总入口页收进「全部页面」；各章导图仍会复制到 dist、可用原 URL 直接打开。
+HUB_DIR = "思维导图"
+HUB_PAGE = "思维导图/血液思维导图.html"
 PRIVATE_QBANK_INPUTS = {"data/questions.json", "data/question-overrides.json", "data/word-pilot-questions.json"}
 PRIVATE_QBANK_IMAGE_DIRS = {"question-pages", "explanation-pages", "fa-pages", "question-figures", "question-images", "fa-figures"}
 WEB_EXTENSIONS = {
@@ -122,6 +125,9 @@ def build(root=ROOT):
         shutil.copyfile(served_source, target)
         path = relative.as_posix()
         if source.suffix.lower() not in {".html", ".htm"} or path in {"index.html", "404.html"} or relative.parts[0] == "assets":
+            continue
+        if relative.parts[0] == HUB_DIR and path != HUB_PAGE:
+            # 各章导图已复制到 dist（URL 可直接打开），但不再各自占一张卡片。
             continue
         parser = TitleParser()
         parser.feed(served_source.read_text(encoding="utf-8", errors="replace"))

@@ -50,6 +50,16 @@ class BuildTests(unittest.TestCase):
         self.assertTrue((self.root / "基础科学/旧页面.html").is_file())
         self.assertTrue((self.root / "dist/基础科学/旧页面.html").is_file())
 
+    def test_mind_map_hub_lists_only_entry_page_and_keeps_chapters_openable(self):
+        self.write("思维导图/血液思维导图.html", "<title>血液思维导图</title>")
+        self.write("思维导图/高凝状态.html", "<title>06 高凝状态 · 交互思维导图</title>")
+        self.write("思维导图/凝血病.html", "<title>05 凝血病 · 交互思维导图</title>")
+        result = module.build(self.root)
+        self.assertEqual([page["path"] for page in result["pages"]], ["思维导图/血液思维导图.html"])
+        self.assertEqual(result["pages"][0]["category"], "思维导图")
+        self.assertTrue((self.root / "dist/思维导图/高凝状态.html").is_file())
+        self.assertTrue((self.root / "dist/思维导图/凝血病.html").is_file())
+
     def test_excludes_infrastructure_and_symlinks(self):
         for path in [".git/config", ".openai/hosting.json", "tests/fixture.html", "scripts/data.json", "node_modules/demo.html", "private.key", "supabase/migrations/data.json"]:
             self.write(path, "not public")
