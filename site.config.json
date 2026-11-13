@@ -1,11 +1,1 @@
-{
-  "title": "TMU · Caleb 学习工作台",
-  "standaloneQuestionBank": false,
-  "qbankPilotSource": "data/word-pilot-questions.json",
-  "pages": {
-    "qbank.html": {
-      "title": "USMLE Step 1 KAPLAN题库",
-      "category": "USMLE Step 1"
-    }
-  }
-}
+{"visiblePages":["qbank.html","思维导图/血液思维导图.html"]}
